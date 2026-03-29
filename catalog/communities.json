@@ -1,0 +1,7 @@
+[
+  {"key": "EUSKADI", "slug": "euskadi", "enabled": true},
+  {"key": "MADRID", "slug": "madrid", "enabled": true},
+  {"key": "CATALUNYA", "slug": "catalunya", "enabled": true},
+  {"key": "ANDALUCIA", "slug": "andalucia", "enabled": false},
+  {"key": "GALICIA", "slug": "galicia", "enabled": false}
+]
