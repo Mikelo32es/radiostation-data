@@ -9,6 +9,15 @@
       "priority": 1,
       "seedProvider": "myTuner",
       "seedUrl": "https://mytuner-radio.com/es/emisora/pais/spain/estado/basque-country-estaciones"
+    },
+    {
+      "slug": "navarra",
+      "name": "Navarra",
+      "stationsFile": "catalog/communities/navarra/stations.json",
+      "priority": 2,
+      "seedProvider": "myTuner",
+      "seedUrl": "https://mytuner-radio.com/es/emisora/cadena-ser-pamplona-415658/",
+      "seedNotes": "Semilla navarra montada a partir de páginas de emisoras de myTuner en Navarra/Pamplona y verificación posterior con fuentes oficiales y TDTChannels."
     }
   ]
 }
