@@ -26,7 +26,7 @@
       "websiteUrl": "https://www.eitb.eus/es/radio/radio-euskadi/",
       "listenPageUrl": "https://www.eitb.eus/es/en-directo/",
       "logoUrl": "https://graph.facebook.com/radioeuskadi.RE/picture?width=400&height=400",
-      "logoStatus": "official_social_profile",
+      "logoStatus": "official_station_logo_downloaded",
       "streamUrl": "https://multimedia.eitb.eus/live-content/radioeuskadi-hls/master.m3u8",
       "streamAlternatives": [],
       "featured": true,
@@ -38,8 +38,12 @@
           "https://mytuner-radio.com/es/emisora/eitb-radio-euskadi-410101/",
           "https://www.eitb.eus/es/en-directo/",
           "https://github.com/LaQuay/TDTChannels/blob/master/RADIO.md?plain=1"
+        ],
+        "notes": [
+          "Euskadi corregida con logo local en radiostation-data."
         ]
-      }
+      },
+      "logoPath": "communities/euskadi/logos/radio-euskadi.jpg"
     },
     {
       "id": "euskadi-irratia",
@@ -58,7 +62,7 @@
       "websiteUrl": "https://guau.eus/st/euskadi-irratia",
       "listenPageUrl": "https://www.eitb.eus/es/en-directo/",
       "logoUrl": "https://graph.facebook.com/Euskadi.Irratia/picture?width=400&height=400",
-      "logoStatus": "official_social_profile",
+      "logoStatus": "official_station_logo_downloaded",
       "streamUrl": "https://multimedia.eitb.eus/live-content/euskadirratia-hls/master.m3u8",
       "streamAlternatives": [],
       "featured": true,
@@ -70,8 +74,12 @@
           "https://mytuner-radio.com/es/emisora/eitb-euskadi-irratia-410099/",
           "https://www.eitb.eus/es/en-directo/",
           "https://github.com/LaQuay/TDTChannels/blob/master/RADIO.md?plain=1"
+        ],
+        "notes": [
+          "Euskadi corregida con logo local en radiostation-data."
         ]
-      }
+      },
+      "logoPath": "communities/euskadi/logos/euskadi-irratia.jpg"
     },
     {
       "id": "radio-vitoria",
@@ -90,7 +98,7 @@
       "websiteUrl": "https://guau.eus/st/radio-vitoria",
       "listenPageUrl": "https://www.eitb.eus/es/en-directo/",
       "logoUrl": "https://graph.facebook.com/radiovitoria.eitb/picture?width=400&height=400",
-      "logoStatus": "official_social_profile",
+      "logoStatus": "official_station_logo_downloaded",
       "streamUrl": "https://multimedia.eitb.eus/live-content/radiovitoria-hls/master.m3u8",
       "streamAlternatives": [],
       "featured": false,
@@ -102,8 +110,12 @@
           "https://mytuner-radio.com/es/emisora/eitb-radio-vitoria-410102/",
           "https://www.eitb.eus/es/en-directo/",
           "https://github.com/LaQuay/TDTChannels/blob/master/RADIO.md?plain=1"
+        ],
+        "notes": [
+          "Euskadi corregida con logo local en radiostation-data."
         ]
-      }
+      },
+      "logoPath": "communities/euskadi/logos/radio-vitoria.jpg"
     },
     {
       "id": "gaztea",
@@ -122,7 +134,7 @@
       "websiteUrl": "https://gaztea.eus",
       "listenPageUrl": "https://www.eitb.eus/es/en-directo/",
       "logoUrl": "https://graph.facebook.com/gaztea/picture?width=400&height=400",
-      "logoStatus": "official_social_profile",
+      "logoStatus": "official_station_logo_downloaded",
       "streamUrl": "https://multimedia.eitb.eus/live-content/gaztea-hls/master.m3u8",
       "streamAlternatives": [],
       "featured": true,
@@ -134,8 +146,12 @@
           "https://mytuner-radio.com/es/emisora/eitb-gaztea-415785/",
           "https://www.eitb.eus/es/en-directo/",
           "https://github.com/LaQuay/TDTChannels/blob/master/RADIO.md?plain=1"
+        ],
+        "notes": [
+          "Euskadi corregida con logo local en radiostation-data."
         ]
-      }
+      },
+      "logoPath": "communities/euskadi/logos/gaztea.jpg"
     },
     {
       "id": "eitb-musika",
@@ -154,7 +170,7 @@
       "websiteUrl": "https://guau.eus",
       "listenPageUrl": "https://www.eitb.eus/es/en-directo/",
       "logoUrl": "https://graph.facebook.com/eitb/picture?width=400&height=400",
-      "logoStatus": "official_brand_profile",
+      "logoStatus": "official_station_logo_downloaded",
       "streamUrl": "https://multimedia.eitb.eus/live-content/eitbmusika-hls/master.m3u8",
       "streamAlternatives": [],
       "featured": false,
@@ -166,8 +182,12 @@
           "https://mytuner-radio.com/es/emisora/eitb-musika-415784/",
           "https://www.eitb.eus/es/en-directo/",
           "https://github.com/LaQuay/TDTChannels/blob/master/RADIO.md?plain=1"
+        ],
+        "notes": [
+          "Euskadi corregida con logo local en radiostation-data."
         ]
-      }
+      },
+      "logoPath": "communities/euskadi/logos/eitb-musika.jpg"
     },
     {
       "id": "eitb-euskal-kantak",
@@ -187,7 +207,7 @@
       "websiteUrl": "https://guau.eus",
       "listenPageUrl": "https://www.eitb.eus/es/en-directo/",
       "logoUrl": "https://graph.facebook.com/eitbEuskalKantak/picture?width=400&height=400",
-      "logoStatus": "official_social_profile",
+      "logoStatus": "group_brand_downloaded",
       "streamUrl": "https://multimedia.eitb.eus/live-content/eitbeuskalkantak-hls/master.m3u8",
       "streamAlternatives": [],
       "featured": false,
@@ -198,8 +218,12 @@
         "sources": [
           "https://www.eitb.eus/es/en-directo/",
           "https://github.com/LaQuay/TDTChannels/blob/master/RADIO.md?plain=1"
+        ],
+        "notes": [
+          "Euskadi corregida con logo local en radiostation-data."
         ]
-      }
+      },
+      "logoPath": "communities/euskadi/logos/eitb.jpg"
     },
     {
       "id": "ser-bilbao",
@@ -218,7 +242,7 @@
       "websiteUrl": "https://cadenaser.com/radio-bilbao/",
       "listenPageUrl": "https://cadenaser.com/radio-bilbao/",
       "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=400&height=400",
-      "logoStatus": "official_brand_profile",
+      "logoStatus": "network_brand_downloaded",
       "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_BILBAO.mp3",
       "streamAlternatives": [],
       "featured": true,
@@ -230,8 +254,12 @@
           "https://mytuner-radio.com/es/emisora/cadena-ser-bilbao-415652/",
           "https://cadenaser.com/radio-bilbao/",
           "https://github.com/LaQuay/TDTChannels/blob/master/RADIO.md?plain=1"
+        ],
+        "notes": [
+          "Euskadi corregida con logo local en radiostation-data."
         ]
-      }
+      },
+      "logoPath": "communities/euskadi/logos/ser.jpg"
     },
     {
       "id": "ser-san-sebastian",
@@ -250,7 +278,7 @@
       "websiteUrl": "https://cadenaser.com/radio-san-sebastian/",
       "listenPageUrl": "https://cadenaser.com/radio-san-sebastian/",
       "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=400&height=400",
-      "logoStatus": "official_brand_profile",
+      "logoStatus": "network_brand_downloaded",
       "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_SAN_SEBASTIAN.mp3",
       "streamAlternatives": [],
       "featured": false,
@@ -262,8 +290,12 @@
           "https://mytuner-radio.com/radio/cadena-ser-san-sebastian-440545/",
           "https://cadenaser.com/radio-san-sebastian/",
           "https://github.com/LaQuay/TDTChannels/blob/master/RADIO.md?plain=1"
+        ],
+        "notes": [
+          "Euskadi corregida con logo local en radiostation-data."
         ]
-      }
+      },
+      "logoPath": "communities/euskadi/logos/ser.jpg"
     },
     {
       "id": "ser-vitoria",
@@ -282,7 +314,7 @@
       "websiteUrl": "https://cadenaser.com/ser-vitoria/",
       "listenPageUrl": "https://cadenaser.com/ser-vitoria/",
       "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=400&height=400",
-      "logoStatus": "official_brand_profile",
+      "logoStatus": "network_brand_downloaded",
       "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_VITORIA.mp3",
       "streamAlternatives": [],
       "featured": false,
@@ -293,8 +325,12 @@
         "sources": [
           "https://cadenaser.com/ccaa/emisoras/euskadi/",
           "https://github.com/LaQuay/TDTChannels/blob/master/RADIO.md?plain=1"
+        ],
+        "notes": [
+          "Euskadi corregida con logo local en radiostation-data."
         ]
-      }
+      },
+      "logoPath": "communities/euskadi/logos/ser.jpg"
     },
     {
       "id": "cope-bilbao",
@@ -314,7 +350,7 @@
       "websiteUrl": "https://www.cope.es/emisoras/pais-vasco/vizcaya/bilbao",
       "listenPageUrl": "https://www.cope.es/directos/bilbao",
       "logoUrl": "https://graph.facebook.com/COPE/picture?width=400&height=400",
-      "logoStatus": "official_brand_profile",
+      "logoStatus": "network_brand_downloaded",
       "streamUrl": "https://wecast-bl02.flumotion.com/copesedes/bilbao.mp3",
       "streamAlternatives": [],
       "featured": false,
@@ -325,8 +361,12 @@
         "sources": [
           "https://www.cope.es/emisoras/pais-vasco/vizcaya/bilbao",
           "https://github.com/LaQuay/TDTChannels/blob/master/RADIO.md?plain=1"
+        ],
+        "notes": [
+          "Euskadi corregida con logo local en radiostation-data."
         ]
-      }
+      },
+      "logoPath": "communities/euskadi/logos/cope.jpg"
     },
     {
       "id": "cope-san-sebastian",
@@ -346,7 +386,7 @@
       "websiteUrl": "https://www.cope.es/emisoras/pais-vasco/guipuzcoa/san-sebastian",
       "listenPageUrl": "https://www.cope.es/directos/san-sebastian",
       "logoUrl": "https://graph.facebook.com/COPE/picture?width=400&height=400",
-      "logoStatus": "official_brand_profile",
+      "logoStatus": "network_brand_downloaded",
       "streamUrl": "https://wecast-bl02.flumotion.com/copesedes/ssebastian.mp3",
       "streamAlternatives": [],
       "featured": false,
@@ -357,8 +397,12 @@
         "sources": [
           "https://www.cope.es/emisoras/pais-vasco/guipuzcoa/san-sebastian",
           "https://github.com/LaQuay/TDTChannels/blob/master/RADIO.md?plain=1"
+        ],
+        "notes": [
+          "Euskadi corregida con logo local en radiostation-data."
         ]
-      }
+      },
+      "logoPath": "communities/euskadi/logos/cope.jpg"
     },
     {
       "id": "cope-vitoria",
@@ -378,7 +422,7 @@
       "websiteUrl": "https://www.cope.es/emisoras/pais-vasco/alava/vitoria",
       "listenPageUrl": "https://www.cope.es/directos/vitoria",
       "logoUrl": "https://graph.facebook.com/COPE/picture?width=400&height=400",
-      "logoStatus": "official_brand_profile",
+      "logoStatus": "network_brand_downloaded",
       "streamUrl": "https://wecast-bl02.flumotion.com/copesedes/vitoria.mp3",
       "streamAlternatives": [],
       "featured": false,
@@ -389,8 +433,12 @@
         "sources": [
           "https://www.cope.es/emisoras/pais-vasco",
           "https://github.com/LaQuay/TDTChannels/blob/master/RADIO.md?plain=1"
+        ],
+        "notes": [
+          "Euskadi corregida con logo local en radiostation-data."
         ]
-      }
+      },
+      "logoPath": "communities/euskadi/logos/cope.jpg"
     },
     {
       "id": "onda-cero-bilbao",
@@ -410,7 +458,7 @@
       "websiteUrl": "https://www.ondacero.es/emisoras/pais-vasco/bilbao/",
       "listenPageUrl": "https://www.ondacero.es/emisoras/pais-vasco/bilbao/directo/",
       "logoUrl": "https://graph.facebook.com/ondacero/picture?width=400&height=400",
-      "logoStatus": "official_brand_profile",
+      "logoStatus": "network_brand_downloaded",
       "streamUrl": "https://atres-live.ondacero.es/live/delegaciones/oc/bilbao/master.m3u8",
       "streamAlternatives": [],
       "featured": false,
@@ -422,8 +470,12 @@
           "https://mytuner-radio.com/es/emisora/onda-cero-bilbao-414162/",
           "https://www.ondacero.es/emisoras/pais-vasco/bilbao/directo/",
           "https://github.com/LaQuay/TDTChannels/blob/master/RADIO.md?plain=1"
+        ],
+        "notes": [
+          "Euskadi corregida con logo local en radiostation-data."
         ]
-      }
+      },
+      "logoPath": "communities/euskadi/logos/onda-cero.jpg"
     },
     {
       "id": "onda-cero-san-sebastian",
@@ -443,7 +495,7 @@
       "websiteUrl": "https://www.ondacero.es/emisoras/pais-vasco/san-sebastian/",
       "listenPageUrl": "https://www.ondacero.es/emisoras/pais-vasco/san-sebastian/directo/",
       "logoUrl": "https://graph.facebook.com/ondacero/picture?width=400&height=400",
-      "logoStatus": "official_brand_profile",
+      "logoStatus": "network_brand_downloaded",
       "streamUrl": "https://atres-live.ondacero.es/live/delegaciones/oc/sansebastian/master.m3u8",
       "streamAlternatives": [],
       "featured": false,
@@ -454,8 +506,12 @@
         "sources": [
           "https://www.ondacero.es/emisoras/pais-vasco/san-sebastian/directo/",
           "https://github.com/LaQuay/TDTChannels/blob/master/RADIO.md?plain=1"
+        ],
+        "notes": [
+          "Euskadi corregida con logo local en radiostation-data."
         ]
-      }
+      },
+      "logoPath": "communities/euskadi/logos/onda-cero.jpg"
     },
     {
       "id": "onda-cero-vitoria",
@@ -475,7 +531,7 @@
       "websiteUrl": "https://www.ondacero.es/emisoras/pais-vasco/vitoria/",
       "listenPageUrl": "https://www.ondacero.es/emisoras/pais-vasco/vitoria/directo/",
       "logoUrl": "https://graph.facebook.com/ondacero/picture?width=400&height=400",
-      "logoStatus": "official_brand_profile",
+      "logoStatus": "network_brand_downloaded",
       "streamUrl": "https://atres-live.ondacero.es/live/delegaciones/oc/vitoria/master.m3u8",
       "streamAlternatives": [],
       "featured": false,
@@ -487,8 +543,12 @@
           "https://mytuner-radio.com/es/emisora/onda-cero-vitoria-425430/",
           "https://www.ondacero.es/emisoras/pais-vasco/vitoria/directo/",
           "https://github.com/LaQuay/TDTChannels/blob/master/RADIO.md?plain=1"
+        ],
+        "notes": [
+          "Euskadi corregida con logo local en radiostation-data."
         ]
-      }
+      },
+      "logoPath": "communities/euskadi/logos/onda-cero.jpg"
     },
     {
       "id": "onda-vasca",
@@ -542,7 +602,7 @@
       "websiteUrl": "https://bizkaiairratia.eus/",
       "listenPageUrl": "https://bizkaiairratia.eus/directo/",
       "logoUrl": "https://graph.facebook.com/BizkaiaIrratia/picture?width=400&height=400",
-      "logoStatus": "official_social_profile",
+      "logoStatus": "official_site_downloaded",
       "streamUrl": "https://stream.mediasector.es/radio/8230/bizkaiairratia.mp3",
       "streamAlternatives": [
         "https://server12.mediasector.es/listen/bizkaia_irratia_musika/radio.mp3"
@@ -556,8 +616,12 @@
           "https://bizkaiairratia.eus/",
           "https://bizkaiairratia.eus/directo/",
           "https://github.com/LaQuay/TDTChannels/blob/master/RADIO.md?plain=1"
+        ],
+        "notes": [
+          "Euskadi corregida con logo local en radiostation-data."
         ]
-      }
+      },
+      "logoPath": "communities/euskadi/logos/bizkaia-irratia.svg"
     },
     {
       "id": "radio-popular-herri-irratia",
@@ -577,7 +641,7 @@
       "websiteUrl": "https://radiopopular.com/",
       "listenPageUrl": "https://radiopopular.com/directo?recarga=1",
       "logoUrl": "https://graph.facebook.com/herriirratia/picture?width=400&height=400",
-      "logoStatus": "official_social_profile",
+      "logoStatus": "official_site_downloaded",
       "streamUrl": "https://stream.mediasector.es/listen/radio_popular/radiopopular.mp3",
       "streamAlternatives": [],
       "featured": false,
@@ -589,8 +653,12 @@
           "https://radiopopular.com/",
           "https://radiopopular.com/directo?recarga=1",
           "https://github.com/LaQuay/TDTChannels/blob/master/RADIO.md?plain=1"
+        ],
+        "notes": [
+          "Euskadi corregida con logo local en radiostation-data."
         ]
-      }
+      },
+      "logoPath": "communities/euskadi/logos/radio-popular.png"
     },
     {
       "id": "radio-nervion",
@@ -610,7 +678,7 @@
       "websiteUrl": "https://www.radionervion.com/",
       "listenPageUrl": "https://www.radionervion.com/",
       "logoUrl": "https://graph.facebook.com/RadioNervion/picture?width=400&height=400",
-      "logoStatus": "official_social_profile",
+      "logoStatus": "official_site_downloaded",
       "streamUrl": "https://radionervion.streaming-pro.com:6132/radionervion",
       "streamAlternatives": [],
       "featured": false,
@@ -621,8 +689,12 @@
         "sources": [
           "https://www.radionervion.com/",
           "https://github.com/LaQuay/TDTChannels/blob/master/RADIO.md?plain=1"
+        ],
+        "notes": [
+          "Euskadi corregida con logo local en radiostation-data."
         ]
-      }
+      },
+      "logoPath": "communities/euskadi/logos/radio-nervion.svg"
     },
     {
       "id": "radio-7",
@@ -675,7 +747,7 @@
       "websiteUrl": "https://www.bilbohiria.eus/",
       "listenPageUrl": "https://www.bilbohiria.eus/zuzen1/",
       "logoUrl": "https://graph.facebook.com/bilbohiria/picture?width=400&height=400",
-      "logoStatus": "official_social_profile",
+      "logoStatus": "official_site_asset_downloaded",
       "streamUrl": "https://server8.emitironline.com:18392/stream",
       "streamAlternatives": [],
       "featured": false,
@@ -688,8 +760,12 @@
           "https://www.bilbohiria.eus/zuzen1/",
           "https://mytuner-radio.com/es/emisora/bilbo-hiria-irratia-415596/",
           "https://github.com/LaQuay/TDTChannels/blob/master/RADIO.md?plain=1"
+        ],
+        "notes": [
+          "Euskadi corregida con logo local en radiostation-data."
         ]
-      }
+      },
+      "logoPath": "communities/euskadi/logos/bilbo-hiria.jpg"
     },
     {
       "id": "santurtzi-irratia",
@@ -773,7 +849,7 @@
       "websiteUrl": "https://irratia.donostiakultura.eus/es/",
       "listenPageUrl": "https://irratia.donostiakultura.eus/streaming.php",
       "logoUrl": "https://graph.facebook.com/DKirratia/picture?width=400&height=400",
-      "logoStatus": "official_social_profile",
+      "logoStatus": "official_site_downloaded",
       "streamUrl": "https://s35.myradiostream.com:26101/listen.mp3",
       "streamAlternatives": [],
       "featured": false,
@@ -785,8 +861,12 @@
           "https://irratia.donostiakultura.eus/es/",
           "https://irratia.donostiakultura.eus/streaming.php",
           "https://github.com/LaQuay/TDTChannels/blob/master/RADIO.md?plain=1"
+        ],
+        "notes": [
+          "Euskadi corregida con logo local en radiostation-data."
         ]
-      }
+      },
+      "logoPath": "communities/euskadi/logos/donostia-kultura-irratia.png"
     },
     {
       "id": "habla-radio",
@@ -836,7 +916,7 @@
       "websiteUrl": "https://durangoirratia.durango.eus/",
       "listenPageUrl": "https://durangoirratia.durango.eus/",
       "logoUrl": "https://pbs.twimg.com/profile_images/674943257789505537/0P8QkXHx_400x400.jpg",
-      "logoStatus": "brand_social_profile",
+      "logoStatus": "official_social_profile_downloaded",
       "streamUrl": "https://durangoirratia.streaming-pro.com:6006/durangoirratia.mp3",
       "streamAlternatives": [],
       "featured": false,
@@ -847,8 +927,12 @@
         "sources": [
           "https://durangoirratia.durango.eus/berriak",
           "https://github.com/LaQuay/TDTChannels/blob/master/RADIO.md?plain=1"
+        ],
+        "notes": [
+          "Euskadi corregida con logo local en radiostation-data."
         ]
-      }
+      },
+      "logoPath": "communities/euskadi/logos/durango-irratia.jpg"
     },
     {
       "id": "arrate-irratia",
@@ -867,7 +951,7 @@
       "websiteUrl": "https://arrateirratia.eus/",
       "listenPageUrl": "https://arrateirratia.eus/",
       "logoUrl": "https://play-lh.googleusercontent.com/AWgxIb9V1Z6aIJQ6Mx98k8b7UbJbekd6NRjb849-MbATra820dBMfri8_hEgHNcnZd0=w400-h400",
-      "logoStatus": "app_brand_asset",
+      "logoStatus": "official_site_downloaded",
       "streamUrl": "https://online.arrateirratia.eus/zuzenean",
       "streamAlternatives": [
         "https://online.arrateirratia.eus/zuzenean-tunein"
@@ -881,8 +965,12 @@
           "https://arrateirratia.eus/",
           "https://online.arrateirratia.eus/",
           "https://github.com/LaQuay/TDTChannels/blob/master/RADIO.md?plain=1"
+        ],
+        "notes": [
+          "Euskadi corregida con logo local en radiostation-data."
         ]
-      }
+      },
+      "logoPath": "communities/euskadi/logos/arrate-irratia.png"
     }
   ]
 }
