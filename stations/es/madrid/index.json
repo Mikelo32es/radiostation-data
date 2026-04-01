@@ -295,6 +295,357 @@
         "isOfficialSource": true,
         "needsManualReview": false
       }
+    },
+    {
+      "id": "onda_madrid",
+      "name": "Onda Madrid",
+      "shortLabel": "Pública",
+      "categories": [
+        "news",
+        "generalist",
+        "community"
+      ],
+      "communityId": "madrid",
+      "streams": [
+        {
+          "url": "https://live.telemadrid.cross-media.es/6389769037112/eu-central-1/6416060453001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiajI5YjgyLmVncmVzcy5haGc3NmwiLCJhY2NvdW50X2lkIjoiNjQxNjA2MDQ1MzAwMSIsImVobiI6ImxpdmUudGVsZW1hZHJpZC5jcm9zcy1tZWRpYS5lcyIsImlzcyI6ImJsaXZlLXBsYXliYWNrLXNvdXJjZS1hcGkiLCJzdWIiOiJwYXRobWFwdG9rZW4iLCJhdWQiOlsiNjQxNjA2MDQ1MzAwMSJdLCJqdGkiOiI2Mzg5NzY5MDM3MTEyIn0.mSEPQICNIKBAWWzolDpDk6cERGe7k93rkqQunSc6cG4/playlist-hls.m3u8",
+          "formatHint": "application/x-mpegURL",
+          "qualityLabel": "HLS",
+          "isPrimary": true,
+          "isOfficial": true
+        },
+        {
+          "url": "https://live.telemadrid.cross-media.es/6389770485112/eu-central-1/6416060453001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiajI5YjgyLmVncmVzcy5haGc3NmwiLCJhY2NvdW50X2lkIjoiNjQxNjA2MDQ1MzAwMSIsImVobiI6ImxpdmUudGVsZW1hZHJpZC5jcm9zcy1tZWRpYS5lcyIsImlzcyI6ImJsaXZlLXBsYXliYWNrLXNvdXJjZS1hcGkiLCJzdWIiOiJwYXRobWFwdG9rZW4iLCJhdWQiOlsiNjQxNjA2MDQ1MzAwMSJdLCJqdGkiOiI2Mzg5NzcwNDg1MTEyIn0.MZsybG7gZngXIa5TKgjC4kKqA5hzM_oyShyMLKKaohQ/playlist-hls.m3u8",
+          "formatHint": "application/x-mpegURL",
+          "qualityLabel": "HLS",
+          "isPrimary": false,
+          "isOfficial": true
+        }
+      ],
+      "logo": {
+        "source": "official_seed",
+        "validationState": "PENDING",
+        "remoteUrl": "https://graph.facebook.com/ondamadridradio/picture?width=600&height=600"
+      },
+      "accentColor": "#C62828",
+      "musicGenres": [],
+      "isFeatured": true,
+      "sourceSeed": "myTuner",
+      "validation": {
+        "streamState": "PENDING",
+        "logoState": "PENDING",
+        "isOfficialSource": true,
+        "needsManualReview": true
+      }
+    },
+    {
+      "id": "radio_nacional_madrid",
+      "name": "Radio Nacional Madrid",
+      "shortLabel": "RNE",
+      "categories": [
+        "news",
+        "generalist",
+        "community"
+      ],
+      "communityId": "madrid",
+      "streams": [
+        {
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/mad/mp3/high",
+          "formatHint": "audio/mpeg",
+          "qualityLabel": "MP3",
+          "isPrimary": true,
+          "isOfficial": true
+        }
+      ],
+      "logo": {
+        "source": "official_seed",
+        "validationState": "PENDING",
+        "remoteUrl": "https://graph.facebook.com/radionacionalrne/picture?width=600&height=600"
+      },
+      "accentColor": "#C2185B",
+      "musicGenres": [],
+      "isFeatured": false,
+      "sourceSeed": "myTuner",
+      "validation": {
+        "streamState": "PENDING",
+        "logoState": "PENDING",
+        "isOfficialSource": true,
+        "needsManualReview": true
+      }
+    },
+    {
+      "id": "esradio_madrid",
+      "name": "esRadio Madrid",
+      "shortLabel": "Opinión",
+      "categories": [
+        "news",
+        "generalist",
+        "community"
+      ],
+      "communityId": "madrid",
+      "streams": [
+        {
+          "url": "https://libertaddigital-radio-live1.flumotion.com/libertaddigital/ld-live1-high.aac",
+          "formatHint": "audio/aac",
+          "qualityLabel": "AAC",
+          "isPrimary": true,
+          "isOfficial": true
+        },
+        {
+          "url": "https://libertaddigital-radio-live1.flumotion.com/libertaddigital/ld-live1-high.mp3",
+          "formatHint": "audio/mpeg",
+          "qualityLabel": "MP3",
+          "isPrimary": false,
+          "isOfficial": true
+        }
+      ],
+      "logo": {
+        "source": "official_seed",
+        "validationState": "PENDING",
+        "remoteUrl": "https://graph.facebook.com/esradio/picture?width=600&height=600"
+      },
+      "accentColor": "#3949AB",
+      "musicGenres": [],
+      "isFeatured": false,
+      "sourceSeed": "myTuner",
+      "validation": {
+        "streamState": "PENDING",
+        "logoState": "PENDING",
+        "isOfficialSource": true,
+        "needsManualReview": true
+      }
+    },
+    {
+      "id": "capital_radio_madrid",
+      "name": "Capital Radio Madrid",
+      "shortLabel": "Economía",
+      "categories": [
+        "news",
+        "generalist",
+        "community"
+      ],
+      "communityId": "madrid",
+      "streams": [
+        {
+          "url": "https://mdstrm.com/audio/67d2a8685ae4234de49e40f6/live.m3u8",
+          "formatHint": "application/x-mpegURL",
+          "qualityLabel": "HLS",
+          "isPrimary": true,
+          "isOfficial": true
+        }
+      ],
+      "logo": {
+        "source": "official_seed",
+        "validationState": "PENDING",
+        "remoteUrl": "https://graph.facebook.com/capitalradiob/picture?width=600&height=600"
+      },
+      "accentColor": "#455A64",
+      "musicGenres": [],
+      "isFeatured": false,
+      "sourceSeed": "myTuner",
+      "validation": {
+        "streamState": "PENDING",
+        "logoState": "PENDING",
+        "isOfficialSource": true,
+        "needsManualReview": true
+      }
+    },
+    {
+      "id": "cadena_dial_madrid",
+      "name": "Cadena Dial Madrid",
+      "shortLabel": "Pop latino",
+      "categories": [
+        "music",
+        "community"
+      ],
+      "communityId": "madrid",
+      "streams": [
+        {
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL.mp3",
+          "formatHint": "audio/mpeg",
+          "qualityLabel": "MP3",
+          "isPrimary": true,
+          "isOfficial": true
+        },
+        {
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIALAAC.aac",
+          "formatHint": "audio/aac",
+          "qualityLabel": "AAC",
+          "isPrimary": false,
+          "isOfficial": true
+        }
+      ],
+      "logo": {
+        "source": "official_seed",
+        "validationState": "PENDING",
+        "remoteUrl": "https://graph.facebook.com/cadenadial/picture?width=600&height=600"
+      },
+      "accentColor": "#8E24AA",
+      "musicGenres": [
+        "pop",
+        "latina",
+        "hits"
+      ],
+      "isFeatured": false,
+      "sourceSeed": "myTuner",
+      "validation": {
+        "streamState": "PENDING",
+        "logoState": "PENDING",
+        "isOfficialSource": true,
+        "needsManualReview": true
+      }
+    },
+    {
+      "id": "europa_fm_madrid",
+      "name": "Europa FM Madrid",
+      "shortLabel": "Pop rock",
+      "categories": [
+        "music",
+        "community"
+      ],
+      "communityId": "madrid",
+      "streams": [
+        {
+          "url": "https://radio-atres-live.ondacero.es/api/livestream-redirect/EFMAAC.aac",
+          "formatHint": "audio/aac",
+          "qualityLabel": "AAC",
+          "isPrimary": true,
+          "isOfficial": true
+        }
+      ],
+      "logo": {
+        "source": "official_seed",
+        "validationState": "PENDING",
+        "remoteUrl": "https://graph.facebook.com/tueuropafm/picture?width=600&height=600"
+      },
+      "accentColor": "#43A047",
+      "musicGenres": [
+        "pop",
+        "rock",
+        "hits"
+      ],
+      "isFeatured": false,
+      "sourceSeed": "myTuner",
+      "validation": {
+        "streamState": "PENDING",
+        "logoState": "PENDING",
+        "isOfficialSource": true,
+        "needsManualReview": true
+      }
+    },
+    {
+      "id": "hit_fm_madrid",
+      "name": "Hit FM Madrid",
+      "shortLabel": "Hits",
+      "categories": [
+        "music",
+        "community"
+      ],
+      "communityId": "madrid",
+      "streams": [
+        {
+          "url": "https://adhandler.kissfmradio.cires21.com/get_link?url=https://bbhitfm.kissfmradio.cires21.com/bbhitfm.mp3",
+          "formatHint": "audio/mpeg",
+          "qualityLabel": "MP3",
+          "isPrimary": true,
+          "isOfficial": true
+        }
+      ],
+      "logo": {
+        "source": "official_seed",
+        "validationState": "PENDING",
+        "remoteUrl": "https://graph.facebook.com/hitfm.es/picture?width=600&height=600"
+      },
+      "accentColor": "#FF6F00",
+      "musicGenres": [
+        "hits",
+        "dance",
+        "pop"
+      ],
+      "isFeatured": false,
+      "sourceSeed": "myTuner",
+      "validation": {
+        "streamState": "PENDING",
+        "logoState": "PENDING",
+        "isOfficialSource": true,
+        "needsManualReview": true
+      }
+    },
+    {
+      "id": "melodia_fm_madrid",
+      "name": "Melodía FM Madrid",
+      "shortLabel": "Classic hits",
+      "categories": [
+        "music",
+        "community"
+      ],
+      "communityId": "madrid",
+      "streams": [
+        {
+          "url": "https://radio-atres-live.ondacero.es/api/livestream-redirect/MELODIA_FMAAC.aac",
+          "formatHint": "audio/aac",
+          "qualityLabel": "AAC",
+          "isPrimary": true,
+          "isOfficial": true
+        }
+      ],
+      "logo": {
+        "source": "official_seed",
+        "validationState": "PENDING",
+        "remoteUrl": "https://graph.facebook.com/tumelodiafm/picture?width=600&height=600"
+      },
+      "accentColor": "#6D4C41",
+      "musicGenres": [
+        "classic_hits",
+        "pop",
+        "rock"
+      ],
+      "isFeatured": false,
+      "sourceSeed": "myTuner",
+      "validation": {
+        "streamState": "PENDING",
+        "logoState": "PENDING",
+        "isOfficialSource": true,
+        "needsManualReview": true
+      }
+    },
+    {
+      "id": "megastar_fm_madrid",
+      "name": "MegaStar FM Madrid",
+      "shortLabel": "Urban hits",
+      "categories": [
+        "music",
+        "community"
+      ],
+      "communityId": "madrid",
+      "streams": [
+        {
+          "url": "https://megastar-cope.flumotion.com/playlist.m3u8",
+          "formatHint": "application/x-mpegURL",
+          "qualityLabel": "HLS",
+          "isPrimary": true,
+          "isOfficial": true
+        }
+      ],
+      "logo": {
+        "source": "official_seed",
+        "validationState": "PENDING",
+        "remoteUrl": "https://graph.facebook.com/MegaStarFM/picture?width=600&height=600"
+      },
+      "accentColor": "#8BC34A",
+      "musicGenres": [
+        "urban",
+        "hits",
+        "dance"
+      ],
+      "isFeatured": false,
+      "sourceSeed": "myTuner",
+      "validation": {
+        "streamState": "PENDING",
+        "logoState": "PENDING",
+        "isOfficialSource": true,
+        "needsManualReview": true
+      }
     }
   ]
 }

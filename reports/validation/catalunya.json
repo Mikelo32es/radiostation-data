@@ -1,7 +1,7 @@
 {
   "version": 3,
   "communityId": "catalunya",
-  "generatedAt": "2026-04-01T18:45:00Z",
+  "generatedAt": "2026-04-01T22:30:00Z",
   "stations": [
     {
       "stationId": "catalunya_radio",
@@ -167,6 +167,132 @@
       "isGeoRestricted": false,
       "issues": [],
       "notes": "Logo de marca empaquetado ya en radio-data/assets/logos para Rock FM Barcelona."
+    },
+    {
+      "stationId": "onda_cero_barcelona",
+      "streamState": "PENDING",
+      "logoState": "PENDING",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T22:30:00Z",
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "validation_pending",
+          "message": "Pendiente revalidar stream y logo con el script externo.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Añadida para completar generalistas fuertes de Catalunya."
+    },
+    {
+      "stationId": "radio_nacional_catalunya",
+      "streamState": "PENDING",
+      "logoState": "PENDING",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T22:30:00Z",
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "validation_pending",
+          "message": "Pendiente revalidar stream y logo con el script externo.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Incorporada la edición territorial de RNE Catalunya."
+    },
+    {
+      "stationId": "catalunya_musica",
+      "streamState": "PENDING",
+      "logoState": "PENDING",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T22:30:00Z",
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "validation_pending",
+          "message": "Pendiente validar stream y exportar logo oficial.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Refuerza la capa cultural/clásica en Catalunya."
+    },
+    {
+      "stationId": "icat",
+      "streamState": "PENDING",
+      "logoState": "PENDING",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T22:30:00Z",
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "validation_pending",
+          "message": "Pendiente validar stream y revisar logo remoto.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Refuerza discovery musical alternativo/indie en Catalunya."
+    },
+    {
+      "stationId": "rac105",
+      "streamState": "PENDING",
+      "logoState": "PENDING",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T22:30:00Z",
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "validation_pending",
+          "message": "Pendiente validar stream y exportar logo oficial.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Cadena musical fuerte añadida para cerrar el bloque catalán."
+    },
+    {
+      "stationId": "flaix_fm",
+      "streamState": "PENDING",
+      "logoState": "PENDING",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T22:30:00Z",
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "validation_pending",
+          "message": "Pendiente validar stream y revisar logo remoto.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Emisora dance/hits muy relevante en Catalunya; validación pendiente."
+    },
+    {
+      "stationId": "flaixbac",
+      "streamState": "PENDING",
+      "logoState": "PENDING",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T22:30:00Z",
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "validation_pending",
+          "message": "Pendiente validar stream y revisar logo remoto.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Emisora pop/hits muy relevante en Catalunya; validación pendiente."
     }
   ]
 }

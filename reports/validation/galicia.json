@@ -1,7 +1,7 @@
 {
   "version": 3,
   "communityId": "galicia",
-  "generatedAt": "2026-04-01T18:45:00Z",
+  "generatedAt": "2026-04-01T22:30:00Z",
   "stations": [
     {
       "stationId": "radio_galega",
@@ -195,6 +195,129 @@
       "isGeoRestricted": false,
       "issues": [],
       "notes": "Logo de marca empaquetado ya en radio-data/assets/logos para Rock FM."
+    },
+    {
+      "stationId": "radio_nacional_galicia",
+      "streamState": "PENDING",
+      "logoState": "PENDING",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T22:30:00Z",
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "validation_pending",
+          "message": "Pendiente revalidar stream y logo con el script externo.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Se incorpora la edición territorial de RNE Galicia."
+    },
+    {
+      "stationId": "ser_coruna",
+      "streamState": "PENDING",
+      "logoState": "VERIFIED",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T22:30:00Z",
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "stream_validation_pending",
+          "message": "Pendiente validar stream con el script externo.",
+          "level": "WARNING"
+        },
+        {
+          "code": "generic_brand_logo",
+          "message": "Se usa asset genérico de marca; recomendable sustituirlo por logo local oficial.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "SER Coruña añadida con asset genérico temporal de marca."
+    },
+    {
+      "stationId": "ser_vigo",
+      "streamState": "PENDING",
+      "logoState": "VERIFIED",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T22:30:00Z",
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "stream_validation_pending",
+          "message": "Pendiente validar stream con el script externo.",
+          "level": "WARNING"
+        },
+        {
+          "code": "generic_brand_logo",
+          "message": "Se usa asset genérico de marca; recomendable sustituirlo por logo local oficial.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "SER Vigo añadida con asset genérico temporal de marca."
+    },
+    {
+      "stationId": "cope_vigo",
+      "streamState": "PENDING",
+      "logoState": "VERIFIED",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T22:30:00Z",
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "stream_validation_pending",
+          "message": "Pendiente validar stream con el script externo.",
+          "level": "WARNING"
+        },
+        {
+          "code": "generic_brand_logo",
+          "message": "Se usa asset genérico de marca; recomendable sustituirlo por logo local oficial.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "COPE Vigo añadida con asset genérico temporal de marca."
+    },
+    {
+      "stationId": "onda_cero_vigo",
+      "streamState": "PENDING",
+      "logoState": "PENDING",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T22:30:00Z",
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "validation_pending",
+          "message": "Pendiente revalidar stream y logo con el script externo.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Añadida para cerrar el bloque de generalistas fuertes de Galicia."
+    },
+    {
+      "stationId": "radio_voz",
+      "streamState": "PENDING",
+      "logoState": "PENDING",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T22:30:00Z",
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "validation_pending",
+          "message": "Pendiente revalidar stream y exportar logo oficial.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Refuerza la capa local fuerte en Galicia; revisión pendiente."
     }
   ]
 }

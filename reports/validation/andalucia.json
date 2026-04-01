@@ -1,7 +1,7 @@
 {
   "version": 3,
   "communityId": "andalucia",
-  "generatedAt": "2026-04-01T18:45:00Z",
+  "generatedAt": "2026-04-01T22:30:00Z",
   "stations": [
     {
       "stationId": "canal_sur_sevilla",
@@ -190,6 +190,188 @@
       "isGeoRestricted": false,
       "issues": [],
       "notes": "Logo de marca empaquetado ya en radio-data/assets/logos para Rock FM."
+    },
+    {
+      "stationId": "ser_sevilla",
+      "streamState": "PENDING",
+      "logoState": "VERIFIED",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T22:30:00Z",
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "stream_validation_pending",
+          "message": "Pendiente validar stream con el script externo.",
+          "level": "WARNING"
+        },
+        {
+          "code": "generic_brand_logo",
+          "message": "Se usa asset genérico de marca; recomendable sustituirlo por logo local oficial si se quiere máxima precisión.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Añadida para cerrar la capa fuerte de generalistas andaluzas; usa asset genérico de marca hasta exportar logo local."
+    },
+    {
+      "stationId": "cope_sevilla",
+      "streamState": "PENDING",
+      "logoState": "VERIFIED",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T22:30:00Z",
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "stream_validation_pending",
+          "message": "Pendiente validar stream con el script externo.",
+          "level": "WARNING"
+        },
+        {
+          "code": "generic_brand_logo",
+          "message": "Se usa asset genérico de marca; recomendable sustituirlo por logo local oficial.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Añadida para cerrar la capa fuerte de generalistas andaluzas; usa asset genérico de marca hasta exportar logo local."
+    },
+    {
+      "stationId": "ser_malaga",
+      "streamState": "PENDING",
+      "logoState": "VERIFIED",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T22:30:00Z",
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "stream_validation_pending",
+          "message": "Pendiente validar stream con el script externo.",
+          "level": "WARNING"
+        },
+        {
+          "code": "generic_brand_logo",
+          "message": "Se usa asset genérico de marca; recomendable sustituirlo por logo local oficial.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "SER Málaga añadida con asset genérico temporal de marca."
+    },
+    {
+      "stationId": "cope_malaga",
+      "streamState": "PENDING",
+      "logoState": "VERIFIED",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T22:30:00Z",
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "stream_validation_pending",
+          "message": "Pendiente validar stream con el script externo.",
+          "level": "WARNING"
+        },
+        {
+          "code": "generic_brand_logo",
+          "message": "Se usa asset genérico de marca; recomendable sustituirlo por logo local oficial.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "COPE Málaga añadida con asset genérico temporal de marca."
+    },
+    {
+      "stationId": "canal_fiesta_radio",
+      "streamState": "PENDING",
+      "logoState": "PENDING",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T22:30:00Z",
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "validation_pending",
+          "message": "Pendiente validar stream y exportar logo oficial.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Canal Fiesta refuerza el bloque musical andaluz; pendiente empaquetar logo oficial."
+    },
+    {
+      "stationId": "cadena_dial_andalucia",
+      "streamState": "PENDING",
+      "logoState": "PENDING",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T22:30:00Z",
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "validation_pending",
+          "message": "Pendiente validar stream y exportar logo oficial.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Cadena musical fuerte añadida al bloque andaluz."
+    },
+    {
+      "stationId": "radiole_andalucia",
+      "streamState": "PENDING",
+      "logoState": "PENDING",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T22:30:00Z",
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "validation_pending",
+          "message": "Pendiente validar stream y exportar logo oficial.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Añadida para reforzar flamenco/latina dentro de Andalucía."
+    },
+    {
+      "stationId": "cadena100_andalucia",
+      "streamState": "PENDING",
+      "logoState": "PENDING",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T22:30:00Z",
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "validation_pending",
+          "message": "Pendiente validar stream y exportar logo oficial.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Añadida como cadena musical fuerte con stream nacional oficial."
+    },
+    {
+      "stationId": "radio_nacional_andalucia",
+      "streamState": "PENDING",
+      "logoState": "PENDING",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T22:30:00Z",
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "validation_pending",
+          "message": "Pendiente revalidar stream y logo con el script externo.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Se incorpora la edición territorial de RNE Andalucía."
     }
   ]
 }

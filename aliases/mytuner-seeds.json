@@ -58,6 +58,43 @@
             "Rock FM",
             "ROCKFM"
           ]
+        },
+        {
+          "stationId": "eitb_musika",
+          "seedName": "EITB Musika",
+          "aliases": [
+            "EITB Musika"
+          ]
+        },
+        {
+          "stationId": "onda_cero_bilbao",
+          "seedName": "Onda Cero Bilbao",
+          "aliases": [
+            "Onda Cero Bilbao"
+          ]
+        },
+        {
+          "stationId": "onda_vasca_bizkaia",
+          "seedName": "Onda Vasca Bizkaia",
+          "aliases": [
+            "Onda Vasca",
+            "Onda Vasca Bizkaia"
+          ]
+        },
+        {
+          "stationId": "bizkaia_irratia",
+          "seedName": "Bizkaia Irratia",
+          "aliases": [
+            "Bizkaia Irratia"
+          ]
+        },
+        {
+          "stationId": "radio_nervion",
+          "seedName": "Radio Nervión",
+          "aliases": [
+            "Radio Nervión",
+            "Radio Nervion"
+          ]
         }
       ]
     },
@@ -91,6 +128,78 @@
           "seedName": "Kiss FM",
           "aliases": [
             "Kiss FM"
+          ]
+        },
+        {
+          "stationId": "onda_madrid",
+          "seedName": "Onda Madrid",
+          "aliases": [
+            "Onda Madrid"
+          ]
+        },
+        {
+          "stationId": "radio_nacional_madrid",
+          "seedName": "Radio Nacional Madrid",
+          "aliases": [
+            "Radio Nacional Madrid",
+            "RNE Madrid"
+          ]
+        },
+        {
+          "stationId": "esradio_madrid",
+          "seedName": "esRadio Madrid",
+          "aliases": [
+            "esRadio",
+            "esRadio Madrid"
+          ]
+        },
+        {
+          "stationId": "capital_radio_madrid",
+          "seedName": "Capital Radio Madrid",
+          "aliases": [
+            "Capital Radio",
+            "Capital Radio Madrid"
+          ]
+        },
+        {
+          "stationId": "cadena_dial_madrid",
+          "seedName": "Cadena Dial Madrid",
+          "aliases": [
+            "Cadena Dial",
+            "Cadena Dial Madrid"
+          ]
+        },
+        {
+          "stationId": "europa_fm_madrid",
+          "seedName": "Europa FM Madrid",
+          "aliases": [
+            "Europa FM",
+            "Europa FM Madrid"
+          ]
+        },
+        {
+          "stationId": "hit_fm_madrid",
+          "seedName": "Hit FM Madrid",
+          "aliases": [
+            "Hit FM",
+            "Hit FM Madrid"
+          ]
+        },
+        {
+          "stationId": "melodia_fm_madrid",
+          "seedName": "Melodía FM Madrid",
+          "aliases": [
+            "Melodía FM",
+            "Melodia FM",
+            "Melodía FM Madrid"
+          ]
+        },
+        {
+          "stationId": "megastar_fm_madrid",
+          "seedName": "MegaStar FM Madrid",
+          "aliases": [
+            "MegaStar FM",
+            "MegaStar FM Madrid"
           ]
         }
       ]
@@ -127,6 +236,78 @@
           "aliases": [
             "Radio Marca Sevilla"
           ]
+        },
+        {
+          "stationId": "ser_sevilla",
+          "seedName": "SER Sevilla",
+          "aliases": [
+            "SER Sevilla",
+            "Cadena SER Sevilla"
+          ]
+        },
+        {
+          "stationId": "cope_sevilla",
+          "seedName": "COPE Sevilla",
+          "aliases": [
+            "COPE Sevilla"
+          ]
+        },
+        {
+          "stationId": "ser_malaga",
+          "seedName": "SER Málaga",
+          "aliases": [
+            "SER Málaga",
+            "SER Malaga",
+            "Cadena SER Málaga"
+          ]
+        },
+        {
+          "stationId": "cope_malaga",
+          "seedName": "COPE Málaga",
+          "aliases": [
+            "COPE Málaga",
+            "COPE Malaga"
+          ]
+        },
+        {
+          "stationId": "canal_fiesta_radio",
+          "seedName": "Canal Fiesta Radio",
+          "aliases": [
+            "Canal Fiesta Radio"
+          ]
+        },
+        {
+          "stationId": "cadena_dial_andalucia",
+          "seedName": "Cadena Dial Andalucía",
+          "aliases": [
+            "Cadena Dial Andalucía",
+            "Cadena Dial Andalucia"
+          ]
+        },
+        {
+          "stationId": "radiole_andalucia",
+          "seedName": "Radiolé Andalucía",
+          "aliases": [
+            "Radiolé Andalucía",
+            "Radiole Andalucía",
+            "Radiolé"
+          ]
+        },
+        {
+          "stationId": "cadena100_andalucia",
+          "seedName": "Cadena 100 Andalucía",
+          "aliases": [
+            "Cadena 100 Andalucía",
+            "Cadena 100 Andalucia"
+          ]
+        },
+        {
+          "stationId": "radio_nacional_andalucia",
+          "seedName": "Radio Nacional Andalucía",
+          "aliases": [
+            "Radio Nacional Andalucía",
+            "RNE Andalucía"
+          ]
         }
       ]
     },
@@ -162,6 +343,58 @@
           "aliases": [
             "Radio Marca Barcelona"
           ]
+        },
+        {
+          "stationId": "onda_cero_barcelona",
+          "seedName": "Onda Cero Barcelona",
+          "aliases": [
+            "Onda Cero Barcelona"
+          ]
+        },
+        {
+          "stationId": "radio_nacional_catalunya",
+          "seedName": "Radio Nacional Catalunya",
+          "aliases": [
+            "Radio Nacional Catalunya",
+            "RNE Catalunya"
+          ]
+        },
+        {
+          "stationId": "catalunya_musica",
+          "seedName": "Catalunya Música",
+          "aliases": [
+            "Catalunya Música"
+          ]
+        },
+        {
+          "stationId": "icat",
+          "seedName": "iCat",
+          "aliases": [
+            "iCat",
+            "iCat FM"
+          ]
+        },
+        {
+          "stationId": "rac105",
+          "seedName": "RAC105",
+          "aliases": [
+            "RAC105",
+            "RAC 105"
+          ]
+        },
+        {
+          "stationId": "flaix_fm",
+          "seedName": "Flaix FM",
+          "aliases": [
+            "Flaix FM"
+          ]
+        },
+        {
+          "stationId": "flaixbac",
+          "seedName": "Flaixbac",
+          "aliases": [
+            "Flaixbac"
+          ]
         }
       ]
     },
@@ -195,6 +428,52 @@
           "seedName": "Radio Marca Vigo",
           "aliases": [
             "Radio Marca Vigo"
+          ]
+        },
+        {
+          "stationId": "radio_nacional_galicia",
+          "seedName": "Radio Nacional Galicia",
+          "aliases": [
+            "Radio Nacional Galicia",
+            "RNE Galicia"
+          ]
+        },
+        {
+          "stationId": "ser_coruna",
+          "seedName": "SER Coruña",
+          "aliases": [
+            "SER Coruña",
+            "SER Coruna",
+            "Cadena SER Coruña"
+          ]
+        },
+        {
+          "stationId": "ser_vigo",
+          "seedName": "SER Vigo",
+          "aliases": [
+            "SER Vigo",
+            "Cadena SER Vigo"
+          ]
+        },
+        {
+          "stationId": "cope_vigo",
+          "seedName": "COPE Vigo",
+          "aliases": [
+            "COPE Vigo"
+          ]
+        },
+        {
+          "stationId": "onda_cero_vigo",
+          "seedName": "Onda Cero Vigo",
+          "aliases": [
+            "Onda Cero Vigo"
+          ]
+        },
+        {
+          "stationId": "radio_voz",
+          "seedName": "Radio Voz",
+          "aliases": [
+            "Radio Voz"
           ]
         }
       ]
@@ -245,6 +524,68 @@
           "seedName": "Rock FM Valencia",
           "aliases": [
             "Rock FM Valencia"
+          ]
+        },
+        {
+          "stationId": "radio_nacional_comunitat_valenciana",
+          "seedName": "Radio Nacional Comunitat Valenciana",
+          "aliases": [
+            "Radio Nacional Comunitat Valenciana",
+            "RNE Comunitat Valenciana"
+          ]
+        },
+        {
+          "stationId": "ser_castellon",
+          "seedName": "SER Castellón",
+          "aliases": [
+            "SER Castellón",
+            "SER Castellon",
+            "Cadena SER Castellón"
+          ]
+        },
+        {
+          "stationId": "cope_castellon",
+          "seedName": "COPE Castellón",
+          "aliases": [
+            "COPE Castellón",
+            "COPE Castellon"
+          ]
+        },
+        {
+          "stationId": "esradio_valencia",
+          "seedName": "esRadio Valencia",
+          "aliases": [
+            "esRadio Valencia",
+            "esRadio"
+          ]
+        },
+        {
+          "stationId": "cadena100_benidorm",
+          "seedName": "Cadena 100 Benidorm",
+          "aliases": [
+            "Cadena 100 Benidorm"
+          ]
+        },
+        {
+          "stationId": "cadena_dial_castellon",
+          "seedName": "Cadena Dial Castellón",
+          "aliases": [
+            "Cadena Dial Castellón",
+            "Cadena Dial Castellon"
+          ]
+        },
+        {
+          "stationId": "europa_fm_gandia",
+          "seedName": "Europa FM Gandia",
+          "aliases": [
+            "Europa FM Gandia"
+          ]
+        },
+        {
+          "stationId": "capital_radio_valencia",
+          "seedName": "Capital Radio Valencia",
+          "aliases": [
+            "Capital Radio Valencia"
           ]
         }
       ]

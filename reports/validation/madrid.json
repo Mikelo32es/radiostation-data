@@ -1,7 +1,7 @@
 {
   "version": 3,
   "communityId": "madrid",
-  "generatedAt": "2026-04-01T18:45:00Z",
+  "generatedAt": "2026-04-01T22:30:00Z",
   "stations": [
     {
       "stationId": "ser_madrid",
@@ -179,6 +179,168 @@
       "isGeoRestricted": false,
       "issues": [],
       "notes": "Logo de marca empaquetado ya en radio-data/assets/logos para Rock FM."
+    },
+    {
+      "stationId": "onda_madrid",
+      "streamState": "PENDING",
+      "logoState": "PENDING",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T22:30:00Z",
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "validation_pending",
+          "message": "Pendiente validar ambos streams de Onda Madrid.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Radio pública madrileña añadida con dos variantes de directo. Ejecutar validador para cerrar estado."
+    },
+    {
+      "stationId": "radio_nacional_madrid",
+      "streamState": "PENDING",
+      "logoState": "PENDING",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T22:30:00Z",
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "validation_pending",
+          "message": "Pendiente revalidar stream y logo con el script externo.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Se incorpora la edición territorial de RNE Madrid. Pendiente validación técnica."
+    },
+    {
+      "stationId": "esradio_madrid",
+      "streamState": "PENDING",
+      "logoState": "PENDING",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T22:30:00Z",
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "validation_pending",
+          "message": "Pendiente confirmar stream principal AAC/MP3 y empaquetar logo oficial.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Añadida como generalista fuerte del bloque Madrid."
+    },
+    {
+      "stationId": "capital_radio_madrid",
+      "streamState": "PENDING",
+      "logoState": "PENDING",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T22:30:00Z",
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "validation_pending",
+          "message": "Pendiente revalidar stream y logo con el script externo.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Refuerza vertical económica/negocio dentro de Madrid."
+    },
+    {
+      "stationId": "cadena_dial_madrid",
+      "streamState": "PENDING",
+      "logoState": "PENDING",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T22:30:00Z",
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "validation_pending",
+          "message": "Pendiente validar stream y exportar logo oficial.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Cadena musical fuerte añadida con variantes MP3 y AAC."
+    },
+    {
+      "stationId": "europa_fm_madrid",
+      "streamState": "PENDING",
+      "logoState": "PENDING",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T22:30:00Z",
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "validation_pending",
+          "message": "Pendiente validar stream y exportar logo oficial.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Cadena musical fuerte añadida al bloque Madrid."
+    },
+    {
+      "stationId": "hit_fm_madrid",
+      "streamState": "PENDING",
+      "logoState": "PENDING",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T22:30:00Z",
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "validation_pending",
+          "message": "Pendiente validar stream y exportar logo oficial.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Refuerza el tramo hit/dance de Madrid."
+    },
+    {
+      "stationId": "melodia_fm_madrid",
+      "streamState": "PENDING",
+      "logoState": "PENDING",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T22:30:00Z",
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "validation_pending",
+          "message": "Pendiente validar stream y exportar logo oficial.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Refuerza el tramo classic hits de Madrid."
+    },
+    {
+      "stationId": "megastar_fm_madrid",
+      "streamState": "PENDING",
+      "logoState": "PENDING",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T22:30:00Z",
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "validation_pending",
+          "message": "Pendiente validar stream y exportar logo oficial.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Refuerza el tramo urban/hits de Madrid."
     }
   ]
 }
