@@ -1,1835 +1,237 @@
 {
-  "source": "radiostation-data",
-  "stations": [
+  "version": 1,
+  "generatedAt": "2026-04-01",
+  "repository": "radiostation-data",
+  "categories": [
     {
-      "id": "canal-sur-radio-cadiz",
-      "name": "Canal Sur Radio Cadiz",
-      "shortLabel": "Generalista",
-      "category": [
-        "Generalistas",
-        "Comunidades"
-      ],
-      "community": "Andalucía",
-      "communityLabel": "Andalucía",
-      "musicGenre": null,
-      "streamUrl": "https://rtva-live-radio.flumotion.com/rtva/csrcad.mp3",
-      "logoPath": "logos/canal-sur-radio-cadiz.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/canal-sur-radio-cadiz.png",
-      "accentColor": "#A78BFA",
-      "isFeatured": false,
-      "websiteUrl": "https://www.canalsurmas.es/videos/20766-canal-sur-radio-cadiz",
-      "source": "tdtchannels"
+      "id": "generalist",
+      "title": "Generalistas"
     },
     {
-      "id": "flamenco-radio",
-      "name": "Flamenco Radio",
-      "shortLabel": "Pop",
-      "category": [
-        "Música",
-        "Generalistas",
-        "Comunidades"
-      ],
-      "community": "Andalucía",
-      "communityLabel": "Andalucía",
-      "musicGenre": "Pop",
-      "streamUrl": "https://rtva-live-radio.flumotion.com/rtva/flamenco.mp3",
-      "logoPath": "logos/flamenco-radio.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/flamenco-radio.png",
-      "accentColor": "#A78BFA",
-      "isFeatured": false,
-      "websiteUrl": "https://www.canalsurmas.es/videos/19987-flamenco-radio",
-      "source": "tdtchannels"
+      "id": "news",
+      "title": "Noticias"
     },
     {
-      "id": "radio-andalucia-informacion",
-      "name": "Radio Andalucía Información",
-      "shortLabel": "Noticias",
-      "category": [
-        "Noticias",
-        "Comunidades"
-      ],
-      "community": "Andalucía",
-      "communityLabel": "Andalucía",
-      "musicGenre": null,
-      "streamUrl": "https://rtva-live-radio.flumotion.com/rtva/rai.mp3",
-      "logoPath": "logos/radio-andalucia-informacion.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/radio-andalucia-informacion.png",
-      "accentColor": "#38BDF8",
-      "isFeatured": false,
-      "websiteUrl": "https://www.canalsurmas.es/videos/37911-rai",
-      "source": "tdtchannels"
+      "id": "sports",
+      "title": "Deportes"
     },
     {
-      "id": "catalunya-musica",
-      "name": "Catalunya Música",
-      "shortLabel": "Pop",
-      "category": [
-        "Música",
-        "Generalistas",
-        "Comunidades"
-      ],
-      "community": "Cataluña",
-      "communityLabel": "Cataluña",
-      "musicGenre": "Pop",
-      "streamUrl": "https://directes-radio-int.3catdirectes.cat/live-content/catalunya-musica-hls/master.m3u8",
-      "logoPath": "logos/catalunya-musica.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/catalunya-musica.png",
-      "accentColor": "#A78BFA",
-      "isFeatured": true,
-      "websiteUrl": "https://www.3cat.cat/3cat/directes/catalunya-musica/",
-      "source": "tdtchannels"
+      "id": "music",
+      "title": "Música"
     },
     {
-      "id": "3cat-info",
-      "name": "3CAT Info",
-      "shortLabel": "Noticias",
-      "category": [
-        "Noticias",
-        "Generalistas",
-        "Comunidades"
-      ],
-      "community": "Cataluña",
-      "communityLabel": "Cataluña",
-      "musicGenre": null,
-      "streamUrl": "https://directes-radio-int.3catdirectes.cat/live-content/catalunya-informacio-hls/master.m3u8",
-      "logoPath": "logos/3cat-info.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/3cat-info.png",
-      "accentColor": "#38BDF8",
-      "isFeatured": false,
-      "websiteUrl": "https://www.3cat.cat/3cat/directes/3catinfo-radio/",
-      "source": "tdtchannels"
+      "id": "religion",
+      "title": "Religión"
     },
     {
-      "id": "ser-catalunya",
-      "name": "SER Catalunya",
-      "shortLabel": "Generalista",
-      "category": [
-        "Generalistas",
-        "Comunidades"
-      ],
-      "community": "Cataluña",
-      "communityLabel": "Cataluña",
-      "musicGenre": null,
-      "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_CAT.mp3",
-      "logoPath": "logos/ser-catalunya.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/ser-catalunya.png",
-      "accentColor": "#A78BFA",
-      "isFeatured": false,
-      "websiteUrl": "https://play.cadenaser.com/emisora/sercat/",
-      "source": "tdtchannels"
+      "id": "public",
+      "title": "Públicas"
     },
     {
-      "id": "icat",
-      "name": "iCat",
-      "shortLabel": "Indie",
-      "category": [
-        "Música",
-        "Generalistas",
-        "Comunidades"
-      ],
-      "community": "Cataluña",
-      "communityLabel": "Cataluña",
-      "musicGenre": "Indie",
-      "streamUrl": "https://directes-radio-int.3catdirectes.cat/live-content/icat-hls/master.m3u8",
-      "logoPath": "logos/icat.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/icat.png",
-      "accentColor": "#A78BFA",
-      "isFeatured": false,
-      "websiteUrl": "https://www.3cat.cat/3cat/directes/icat/",
-      "source": "tdtchannels"
+      "id": "kids",
+      "title": "Infantiles"
     },
     {
-      "id": "radio-galega-musica",
-      "name": "Radio Galega Música",
-      "shortLabel": "Pop",
-      "category": [
-        "Música",
-        "Generalistas",
-        "Comunidades"
-      ],
-      "community": "Galicia",
-      "communityLabel": "Galicia",
-      "musicGenre": "Pop",
-      "streamUrl": "https://crtvg-radiogalega-musica-hls.flumotion.cloud/playlist.m3u8",
-      "logoPath": "logos/radio-galega-musica.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/radio-galega-musica.png",
-      "accentColor": "#A78BFA",
-      "isFeatured": false,
-      "websiteUrl": "https://www.agalegaaudio.gal/videos/81609-rgmusica",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "ser-galicia",
-      "name": "SER Galicia",
-      "shortLabel": "Generalista",
-      "category": [
-        "Generalistas",
-        "Comunidades"
-      ],
-      "community": "Galicia",
-      "communityLabel": "Galicia",
-      "musicGenre": null,
-      "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_GALICIA.mp3",
-      "logoPath": "logos/ser-galicia.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/ser-galicia.png",
-      "accentColor": "#A78BFA",
-      "isFeatured": false,
-      "websiteUrl": "https://cadenaser.com/radio-galicia/",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "son-galicia-radio",
-      "name": "Son Galicia Radio",
-      "shortLabel": "Pop",
-      "category": [
-        "Música",
-        "Generalistas",
-        "Comunidades"
-      ],
-      "community": "Galicia",
-      "communityLabel": "Galicia",
-      "musicGenre": "Pop",
-      "streamUrl": "https://crtvg-songalicia-hls.flumotion.cloud/playlist.m3u8",
-      "logoPath": "logos/son-galicia-radio.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/son-galicia-radio.png",
-      "accentColor": "#A78BFA",
-      "isFeatured": false,
-      "websiteUrl": "https://www.agalegaaudio.gal/videos/81610-rsong",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "cope-madrid",
-      "name": "COPE Madrid",
-      "shortLabel": "Generalista",
-      "category": [
-        "Generalistas",
-        "Comunidades"
-      ],
-      "community": "Madrid",
-      "communityLabel": "Madrid",
-      "musicGenre": null,
-      "streamUrl": "https://flucast09-h-cloud.flumotion.com/cope/madrid.mp3",
-      "logoPath": "logos/cope-madrid.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/cope-madrid.png",
-      "accentColor": "#A78BFA",
-      "isFeatured": false,
-      "websiteUrl": "https://www.cope.es/directos/madrid",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "onda-cero-madrid",
-      "name": "Onda Cero Madrid",
-      "shortLabel": "Generalista",
-      "category": [
-        "Generalistas",
-        "Comunidades"
-      ],
-      "community": "Madrid",
-      "communityLabel": "Madrid",
-      "musicGenre": null,
-      "streamUrl": "https://atres-live.ondacero.es/live/ondacero/master.m3u8",
-      "logoPath": "logos/onda-cero-madrid.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/onda-cero-madrid.png",
-      "accentColor": "#A78BFA",
-      "isFeatured": false,
-      "websiteUrl": "https://www.ondacero.es/emisoras/comunidad-madrid/madrid/directo/",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "radio-nacional-madrid",
-      "name": "Radio Nacional Madrid",
-      "shortLabel": "Generalista",
-      "category": [
-        "Generalistas",
-        "Comunidades"
-      ],
-      "community": "Madrid",
-      "communityLabel": "Madrid",
-      "musicGenre": null,
-      "streamUrl": "https://dispatcher.rndfnk.com/crtve/rne1/mad/mp3/high",
-      "logoPath": "logos/radio-nacional-madrid.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/radio-nacional-madrid.png",
-      "accentColor": "#A78BFA",
-      "isFeatured": false,
-      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_mad-live/3893534/",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "ser-madrid",
-      "name": "SER Madrid",
-      "shortLabel": "Generalista",
-      "category": [
-        "Generalistas",
-        "Comunidades"
-      ],
-      "community": "Madrid",
-      "communityLabel": "Madrid",
-      "musicGenre": null,
-      "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_MADRID.mp3",
-      "logoPath": "logos/ser-madrid.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/ser-madrid.png",
-      "accentColor": "#A78BFA",
-      "isFeatured": false,
-      "websiteUrl": "https://cadenaser.com/radio-madrid/",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "cope",
-      "name": "COPE",
-      "shortLabel": "Generalista",
-      "category": [
-        "Generalistas"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": null,
-      "streamUrl": "https://flucast09-h-cloud.flumotion.com/cope/net1.aac",
-      "logoPath": "logos/cope.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/cope.png",
-      "accentColor": "#A78BFA",
-      "isFeatured": true,
-      "websiteUrl": "https://www.cope.es/directos/",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "cadena-100",
-      "name": "Cadena 100",
-      "shortLabel": "Pop",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Pop",
-      "streamUrl": "https://cadena100-cope.flumotion.com/chunks.m3u8",
-      "logoPath": "logos/cadena-100.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/cadena-100.png",
-      "accentColor": "#34D399",
-      "isFeatured": true,
-      "websiteUrl": "https://www.cadena100.es",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "cadena-dial",
-      "name": "Cadena Dial",
-      "shortLabel": "Pop",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Pop",
-      "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIALAAC.aac",
-      "logoPath": "logos/cadena-dial.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/cadena-dial.png",
-      "accentColor": "#34D399",
-      "isFeatured": true,
-      "websiteUrl": "https://play.cadenadial.com",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "cadena-ser",
-      "name": "Cadena SER",
-      "shortLabel": "Generalista",
-      "category": [
-        "Generalistas"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": null,
-      "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENASERAAC.aac",
-      "logoPath": "logos/cadena-ser.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/cadena-ser.png",
-      "accentColor": "#A78BFA",
-      "isFeatured": true,
-      "websiteUrl": "https://play.cadenaser.com",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "europa-fm",
-      "name": "Europa FM",
-      "shortLabel": "Música",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": null,
-      "streamUrl": "https://radio-atres-live.ondacero.es/api/livestream-redirect/EFMAAC.aac",
-      "logoPath": "logos/europa-fm.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/europa-fm.png",
-      "accentColor": "#34D399",
-      "isFeatured": true,
-      "websiteUrl": "https://www.europafm.com/directo/",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "los40",
-      "name": "LOS40",
-      "shortLabel": "Pop",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Pop",
-      "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40AAC.aac",
-      "logoPath": "logos/los40.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/los40.png",
-      "accentColor": "#34D399",
-      "isFeatured": true,
-      "websiteUrl": "https://play.los40.com",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "onda-cero",
-      "name": "Onda Cero",
-      "shortLabel": "Generalista",
-      "category": [
-        "Generalistas"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": null,
-      "streamUrl": "https://radio-atres-live.ondacero.es/api/livestream-redirect/OCAAC.aac",
-      "logoPath": "logos/onda-cero.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/onda-cero.png",
-      "accentColor": "#A78BFA",
-      "isFeatured": true,
-      "websiteUrl": "https://www.ondacero.es/directo/",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "radio-euskadi",
-      "name": "Radio Euskadi",
-      "shortLabel": "Generalista",
-      "category": [
-        "Generalistas"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": null,
-      "streamUrl": "https://multimedia.eitb.eus/live-content/radioeuskadi-hls/master.m3u8",
-      "logoPath": "logos/radio-euskadi.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/radio-euskadi.png",
-      "accentColor": "#A78BFA",
-      "isFeatured": true,
-      "websiteUrl": "https://guau.eus/st/radio-euskadi",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "radio-nacional",
-      "name": "Radio Nacional",
-      "shortLabel": "Generalista",
-      "category": [
-        "Generalistas"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": null,
-      "streamUrl": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r1_main.m3u8",
-      "logoPath": "logos/radio-nacional.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/radio-nacional.png",
-      "accentColor": "#A78BFA",
-      "isFeatured": true,
-      "websiteUrl": "https://www.rtve.es/play/radio/rne/",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "rock-fm",
-      "name": "Rock FM",
-      "shortLabel": "Rock",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Rock",
-      "streamUrl": "https://rockfm-cope.flumotion.com/playlist.m3u8",
-      "logoPath": "logos/rock-fm.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/rock-fm.png",
-      "accentColor": "#34D399",
-      "isFeatured": true,
-      "websiteUrl": "https://www.rockfm.fm",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "antenita",
-      "name": "Antenita",
-      "shortLabel": "Pop",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Pop",
-      "streamUrl": "https://vps-9f1e2662.vps.ovh.net/antenitafm",
-      "logoPath": "logos/antenita.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/antenita.png",
-      "accentColor": "#FB7185",
-      "isFeatured": false,
-      "websiteUrl": "https://www.antenita.es",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "babyradio",
-      "name": "Babyradio",
-      "shortLabel": "Pop",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Pop",
-      "streamUrl": "https://srv6022.dns-lcinternet.com:8033/stream",
-      "logoPath": "logos/babyradio.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/babyradio.png",
-      "accentColor": "#FB7185",
-      "isFeatured": false,
-      "websiteUrl": "https://babyradio.es/#radio-player",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "babyradio-cuentos-infantiles",
-      "name": "Babyradio Cuentos Infantiles",
-      "shortLabel": "Pop",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Pop",
-      "streamUrl": "https://srv6022.dns-lcinternet.com:8049/stream",
-      "logoPath": "logos/babyradio-cuentos-infantiles.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/babyradio-cuentos-infantiles.png",
-      "accentColor": "#FB7185",
-      "isFeatured": false,
-      "websiteUrl": "https://babyradio.es/#radio-player",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "babyradio-latinoamerica",
-      "name": "Babyradio LatinoAmérica",
-      "shortLabel": "Urban",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Urban",
-      "streamUrl": "https://srv6022.dns-lcinternet.com:8047/stream",
-      "logoPath": "logos/babyradio-latinoamerica.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/babyradio-latinoamerica.png",
-      "accentColor": "#FB7185",
-      "isFeatured": false,
-      "websiteUrl": "https://babyradio.es/#radio-player",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "babyradio-nanas",
-      "name": "Babyradio Nanas",
-      "shortLabel": "Pop",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Pop",
-      "streamUrl": "https://srv6022.dns-lcinternet.com:8027/stream",
-      "logoPath": "logos/babyradio-nanas.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/babyradio-nanas.png",
-      "accentColor": "#FB7185",
-      "isFeatured": false,
-      "websiteUrl": "https://babyradio.es/#radio-player",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "canal-fiesta-radio",
-      "name": "Canal Fiesta Radio",
-      "shortLabel": "Pop",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Pop",
-      "streamUrl": "https://rtva-live-radio.flumotion.com/rtva/cfr.mp3",
-      "logoPath": "logos/canal-fiesta-radio.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/canal-fiesta-radio.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://www.canalsurmas.es/videos/19997-canal-fiesta-radio",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "canal-sur-radio",
-      "name": "Canal Sur Radio",
-      "shortLabel": "Generalista",
-      "category": [
-        "Generalistas"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": null,
-      "streamUrl": "https://rtva-live-radio.flumotion.com/rtva/csr.mp3",
-      "logoPath": "logos/canal-sur-radio.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/canal-sur-radio.png",
-      "accentColor": "#A78BFA",
-      "isFeatured": false,
-      "websiteUrl": "https://www.canalsurmas.es/videos/19988-canal-sur-radio",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "catalunya-radio",
-      "name": "Catalunya Ràdio",
-      "shortLabel": "Generalista",
-      "category": [
-        "Generalistas"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": null,
-      "streamUrl": "https://directes-radio-int.3catdirectes.cat/live-content/catalunya-radio-hls/master.m3u8",
-      "logoPath": "logos/catalunya-radio.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/catalunya-radio.png",
-      "accentColor": "#A78BFA",
-      "isFeatured": false,
-      "websiteUrl": "https://www.3cat.cat/3cat/directes/catalunya-radio/",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "dial-baladas",
-      "name": "Dial Baladas",
-      "shortLabel": "Pop",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Pop",
-      "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL_03AAC.aac",
-      "logoPath": "logos/dial-baladas.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/dial-baladas.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://play.cadenadial.com/emisora/dialbaladas",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "dial-latino",
-      "name": "Dial Latino",
-      "shortLabel": "Urban",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Urban",
-      "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL_02AAC.aac",
-      "logoPath": "logos/dial-latino.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/dial-latino.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://play.cadenadial.com/emisora/diallatino",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "flaix-fm",
-      "name": "Flaix FM",
-      "shortLabel": "Pop",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Pop",
-      "streamUrl": "https://stream.flaixfm.cat/icecast",
-      "logoPath": "logos/flaix-fm.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/flaix-fm.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://flaixfm.cat",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "flaixbac",
-      "name": "Flaixbac",
-      "shortLabel": "Pop",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Pop",
-      "streamUrl": "https://stream.flaixbac.cat/icecast",
-      "logoPath": "logos/flaixbac.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/flaixbac.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://www.flaixbac.cat",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "hit-fm",
-      "name": "Hit FM",
-      "shortLabel": "Pop",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Pop",
-      "streamUrl": "https://adhandler.kissfmradio.cires21.com/get_link?url=https://bbhitfm.kissfmradio.cires21.com/bbhitfm.mp3",
-      "logoPath": "logos/hit-fm.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/hit-fm.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://www.hitfm.es",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "kiss-fm",
-      "name": "Kiss FM",
-      "shortLabel": "Pop",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Pop",
-      "streamUrl": "https://kissfm.kissfmradio.cires21.com/kissfm.mp3",
-      "logoPath": "logos/kiss-fm.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/kiss-fm.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://kissfm.es/player/",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "los40-classic",
-      "name": "LOS40 Classic",
-      "shortLabel": "Pop",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Pop",
-      "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_CLASSICAAC.aac",
-      "logoPath": "logos/los40-classic.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/los40-classic.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://play.los40.com/emisora/los40_classic/",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "los40-dance",
-      "name": "LOS40 Dance",
-      "shortLabel": "Electrónica",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Electrónica",
-      "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_DANCEAAC.aac",
-      "logoPath": "logos/los40-dance.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/los40-dance.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://play.los40.com/emisora/los40_dance",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "los40-urban",
-      "name": "LOS40 Urban",
-      "shortLabel": "Urban",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Urban",
-      "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_URBANAAC.aac",
-      "logoPath": "logos/los40-urban.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/los40-urban.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://play.los40.com/emisora/los40_urban",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "la-urban-radio",
-      "name": "La Urban Radio",
-      "shortLabel": "Urban",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Urban",
-      "streamUrl": "https://st1.urbanrevolution.es:8443/laurbanfm.mp3",
-      "logoPath": "logos/la-urban-radio.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/la-urban-radio.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://www.urbanrevolution.es",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "loca-fm",
-      "name": "Loca FM",
-      "shortLabel": "Pop",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Pop",
-      "streamUrl": "https://s3.we4stream.com:2020/stream/locafm",
-      "logoPath": "logos/loca-fm.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/loca-fm.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://www.locafm.com/live/player.html",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "loca-fm-ambient",
-      "name": "Loca FM Ambient",
-      "shortLabel": "Pop",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Pop",
-      "streamUrl": "https://s2.we4stream.com/listen/loca_ambient/live",
-      "logoPath": "logos/loca-fm-ambient.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/loca-fm-ambient.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://www.locafm.com/ambient/player.html",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "loca-fm-big-room",
-      "name": "Loca FM Big Room",
-      "shortLabel": "Electrónica",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Electrónica",
-      "streamUrl": "https://s2.we4stream.com/listen/loca_big_room/live",
-      "logoPath": "logos/loca-fm-big-room.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/loca-fm-big-room.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://www.locafm.com/big-room/player.html",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "loca-fm-chill-out",
-      "name": "Loca FM Chill Out",
-      "shortLabel": "Pop",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Pop",
-      "streamUrl": "https://s2.we4stream.com/listen/loca_chill_out/live",
-      "logoPath": "logos/loca-fm-chill-out.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/loca-fm-chill-out.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://www.locafm.com/chill-out/player.html",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "loca-fm-dance",
-      "name": "Loca FM Dance",
-      "shortLabel": "Electrónica",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Electrónica",
-      "streamUrl": "https://s2.we4stream.com/listen/loca_dance/live",
-      "logoPath": "logos/loca-fm-dance.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/loca-fm-dance.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://www.locafm.com/dance/player.html",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "loca-fm-deep-house",
-      "name": "Loca FM Deep House",
-      "shortLabel": "Electrónica",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Electrónica",
-      "streamUrl": "https://s2.we4stream.com/listen/loca_deep_house/live",
-      "logoPath": "logos/loca-fm-deep-house.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/loca-fm-deep-house.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://www.locafm.com/deep-house/player.html",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "loca-fm-drum-and-bass",
-      "name": "Loca FM Drum&Bass",
-      "shortLabel": "Electrónica",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Electrónica",
-      "streamUrl": "https://s2.we4stream.com/listen/loca_drum__bass/live",
-      "logoPath": "logos/loca-fm-drum-and-bass.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/loca-fm-drum-and-bass.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://www.locafm.com/drum-bass/player.html",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "loca-fm-hard",
-      "name": "Loca FM Hard",
-      "shortLabel": "Electrónica",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Electrónica",
-      "streamUrl": "https://s2.we4stream.com/listen/loca_hard/live",
-      "logoPath": "logos/loca-fm-hard.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/loca-fm-hard.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://www.locafm.com/hard/player.html",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "loca-fm-hard-techno",
-      "name": "Loca FM Hard Techno",
-      "shortLabel": "Electrónica",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Electrónica",
-      "streamUrl": "https://s2.we4stream.com/listen/loca_hard_techno/live",
-      "logoPath": "logos/loca-fm-hard-techno.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/loca-fm-hard-techno.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://www.locafm.com/hard-techno/player.html",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "loca-fm-house",
-      "name": "Loca FM House",
-      "shortLabel": "Electrónica",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Electrónica",
-      "streamUrl": "https://s2.we4stream.com/listen/loca_house/live",
-      "logoPath": "logos/loca-fm-house.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/loca-fm-house.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://www.locafm.com/house/player.html",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "loca-fm-industrial",
-      "name": "Loca FM Industrial",
-      "shortLabel": "Pop",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Pop",
-      "streamUrl": "https://s2.we4stream.com/listen/loca_industrial/live",
-      "logoPath": "logos/loca-fm-industrial.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/loca-fm-industrial.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://www.locafm.com/industrial/player.html",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "loca-fm-loca-80-s",
-      "name": "Loca FM Loca 80's",
-      "shortLabel": "Pop",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Pop",
-      "streamUrl": "https://s2.we4stream.com/listen/loca_80s/live",
-      "logoPath": "logos/loca-fm-loca-80-s.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/loca-fm-loca-80-s.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://www.locafm.com/loca-80-s/player.html",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "loca-fm-loca-90-s",
-      "name": "Loca FM Loca 90's",
-      "shortLabel": "Pop",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Pop",
-      "streamUrl": "https://s2.we4stream.com/listen/loca_90s_/live",
-      "logoPath": "logos/loca-fm-loca-90-s.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/loca-fm-loca-90-s.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://www.locafm.com/loca-90-s/player.html",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "loca-fm-melodic-house",
-      "name": "Loca FM Melodic House",
-      "shortLabel": "Electrónica",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Electrónica",
-      "streamUrl": "https://s2.we4stream.com/listen/loca_melodic_house/live",
-      "logoPath": "logos/loca-fm-melodic-house.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/loca-fm-melodic-house.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://www.locafm.com/melodic-house/player.html",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "loca-fm-melodic-techno",
-      "name": "Loca FM Melodic Techno",
-      "shortLabel": "Electrónica",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Electrónica",
-      "streamUrl": "https://s2.we4stream.com/listen/loca_melodic_techno/live",
-      "logoPath": "logos/loca-fm-melodic-techno.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/loca-fm-melodic-techno.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://www.locafm.com/melodic-techno/player.html",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "loca-fm-remember",
-      "name": "Loca FM Remember",
-      "shortLabel": "Pop",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Pop",
-      "streamUrl": "https://s2.we4stream.com/listen/loca_remember/live",
-      "logoPath": "logos/loca-fm-remember.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/loca-fm-remember.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://www.locafm.com/remember/player.html",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "loca-fm-sessions",
-      "name": "Loca FM Sessions",
-      "shortLabel": "Electrónica",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Electrónica",
-      "streamUrl": "https://s2.we4stream.com/listen/loca_sessions/live",
-      "logoPath": "logos/loca-fm-sessions.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/loca-fm-sessions.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://www.locafm.com/sessions/player.html",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "loca-fm-tech-house",
-      "name": "Loca FM Tech House",
-      "shortLabel": "Electrónica",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Electrónica",
-      "streamUrl": "https://s2.we4stream.com/listen/loca_tech_house/live",
-      "logoPath": "logos/loca-fm-tech-house.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/loca-fm-tech-house.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://www.locafm.com/tech-house/player.html",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "loca-fm-techno",
-      "name": "Loca FM Techno",
-      "shortLabel": "Electrónica",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Electrónica",
-      "streamUrl": "https://s2.we4stream.com/listen/loca_techo/live",
-      "logoPath": "logos/loca-fm-techno.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/loca-fm-techno.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://www.locafm.com/techno/player.html",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "loca-fm-trance",
-      "name": "Loca FM Trance",
-      "shortLabel": "Electrónica",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Electrónica",
-      "streamUrl": "https://s2.we4stream.com/listen/loca_trance/live",
-      "logoPath": "logos/loca-fm-trance.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/loca-fm-trance.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://www.locafm.com/trance/player.html",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "loca-fm-urban",
-      "name": "Loca FM Urban",
-      "shortLabel": "Urban",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Urban",
-      "streamUrl": "https://s1.we4stream.com:2020/stream/locaurban",
-      "logoPath": "logos/loca-fm-urban.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/loca-fm-urban.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://www.locafm.com/loca-urban/player.html",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "mdt-radio-2000",
-      "name": "MDT Radio 2000",
-      "shortLabel": "Pop",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Pop",
-      "streamUrl": "https://streams1.mdtradio.com:8443/MDTradio2000",
-      "logoPath": "logos/mdt-radio-2000.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/mdt-radio-2000.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://mdtradio.com/canales-tematicos/",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "mdt-radio-80s",
-      "name": "MDT Radio 80s",
-      "shortLabel": "Pop",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Pop",
-      "streamUrl": "https://streams1.mdtradio.com:8443/MDTradio80",
-      "logoPath": "logos/mdt-radio-80s.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/mdt-radio-80s.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://mdtradio.com/canales-tematicos/",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "mdt-radio-90s",
-      "name": "MDT Radio 90s",
-      "shortLabel": "Pop",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Pop",
-      "streamUrl": "https://streams1.mdtradio.com:8443/MDTradio90",
-      "logoPath": "logos/mdt-radio-90s.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/mdt-radio-90s.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://mdtradio.com/canales-tematicos/",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "mdt-radio-pop-stars",
-      "name": "MDT Radio Pop Stars",
-      "shortLabel": "Música",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": null,
-      "streamUrl": "https://streams1.mdtradio.com:8443/PopStarsFm",
-      "logoPath": "logos/mdt-radio-pop-stars.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/mdt-radio-pop-stars.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://mdtradio.com/canales-tematicos/",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "mdt-radio-remember",
-      "name": "MDT Radio Remember",
-      "shortLabel": "Pop",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Pop",
-      "streamUrl": "https://streams1.mdtradio.com:8443/mdtweb",
-      "logoPath": "logos/mdt-radio-remember.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/mdt-radio-remember.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://www.mdtradio.com",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "mariskalrock-radio",
-      "name": "MariskalRock Radio",
-      "shortLabel": "Rock",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Rock",
-      "streamUrl": "https://media.profesionalhosting.com:8047/stream",
-      "logoPath": "logos/mariskalrock-radio.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/mariskalrock-radio.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://mariskalrock.com",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "megastar-fm",
-      "name": "MegaStar FM",
-      "shortLabel": "Pop",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Pop",
-      "streamUrl": "https://megastar-cope.flumotion.com/playlist.m3u8",
-      "logoPath": "logos/megastar-fm.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/megastar-fm.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://www.megastar.fm",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "melodia-fm",
-      "name": "Melodía FM",
-      "shortLabel": "Pop",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Pop",
-      "streamUrl": "https://radio-atres-live.ondacero.es/api/livestream-redirect/MELODIA_FMAAC.aac",
-      "logoPath": "logos/melodia-fm.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/melodia-fm.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://www.melodia-fm.com/directo/",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "onda-madrid",
-      "name": "Onda Madrid",
-      "shortLabel": "Generalista",
-      "category": [
-        "Generalistas"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": null,
-      "streamUrl": "https://live.telemadrid.cross-media.es/6389769037112/eu-central-1/6416060453001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiajI5YjgyLmVncmVzcy5haGc3NmwiLCJhY2NvdW50X2lkIjoiNjQxNjA2MDQ1MzAwMSIsImVobiI6ImxpdmUudGVsZW1hZHJpZC5jcm9zcy1tZWRpYS5lcyIsImlzcyI6ImJsaXZlLXBsYXliYWNrLXNvdXJjZS1hcGkiLCJzdWIiOiJwYXRobWFwdG9rZW4iLCJhdWQiOlsiNjQxNjA2MDQ1MzAwMSJdLCJqdGkiOiI2Mzg5NzY5MDM3MTEyIn0.mSEPQICNIKBAWWzolDpDk6cERGe7k93rkqQunSc6cG4/playlist-hls.m3u8",
-      "logoPath": "logos/onda-madrid.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/onda-madrid.png",
-      "accentColor": "#A78BFA",
-      "isFeatured": false,
-      "websiteUrl": "https://www.telemadrid.es/emision-en-directo-ondamadrid",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "rac-105",
-      "name": "RAC 105",
-      "shortLabel": "Pop",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Pop",
-      "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/RAC105AAC.aac",
-      "logoPath": "logos/rac-105.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/rac-105.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://www.rac105.cat",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "rac1",
-      "name": "RAC1",
-      "shortLabel": "Generalista",
-      "category": [
-        "Generalistas"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": null,
-      "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/RAC_1.mp3",
-      "logoPath": "logos/rac1.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/rac1.png",
-      "accentColor": "#A78BFA",
-      "isFeatured": false,
-      "websiteUrl": "https://www.rac1.cat",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "radio-3-rne",
-      "name": "Radio 3 RNE",
-      "shortLabel": "Indie",
-      "category": [
-        "Música",
-        "Generalistas"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Indie",
-      "streamUrl": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r3_main.m3u8",
-      "logoPath": "logos/radio-3-rne.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/radio-3-rne.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://www.rtve.es/play/radio/radio-3/",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "radio-5-rne",
-      "name": "Radio 5 RNE",
-      "shortLabel": "Noticias",
-      "category": [
-        "Noticias",
-        "Generalistas"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": null,
-      "streamUrl": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r5_madrid_main.m3u8",
-      "logoPath": "logos/radio-5-rne.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/radio-5-rne.png",
-      "accentColor": "#38BDF8",
-      "isFeatured": false,
-      "websiteUrl": "https://www.rtve.es/play/radio/radio-5/",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "radio-clasica-rne",
-      "name": "Radio Clásica RNE",
-      "shortLabel": "Pop",
-      "category": [
-        "Música",
-        "Generalistas"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Pop",
-      "streamUrl": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r2_main.m3u8",
-      "logoPath": "logos/radio-clasica-rne.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/radio-clasica-rne.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://www.rtve.es/play/radio/radio-clasica/",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "radio-galega",
-      "name": "Radio Galega",
-      "shortLabel": "Generalista",
-      "category": [
-        "Generalistas"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": null,
-      "streamUrl": "https://crtvg-radiogalega-hls.flumotion.cloud/playlist.m3u8",
-      "logoPath": "logos/radio-galega.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/radio-galega.png",
-      "accentColor": "#A78BFA",
-      "isFeatured": false,
-      "websiteUrl": "https://agalegaaudio.gal/videos/120144-radio-galega",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "radio-marca",
-      "name": "Radio Marca",
-      "shortLabel": "Deporte",
-      "category": [
-        "Deportes"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": null,
-      "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONALAAC.aac",
-      "logoPath": "logos/radio-marca.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/radio-marca.png",
-      "accentColor": "#F97316",
-      "isFeatured": false,
-      "websiteUrl": "https://www.marca.com/radio.html",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "radio-maria",
-      "name": "Radio María",
-      "shortLabel": "Religión",
-      "category": [
-        "Religión"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": null,
-      "streamUrl": "https://dreamsiteradiocp4.com/proxy/rmspain1?mp=/stream/1/;.mp3",
-      "logoPath": "logos/radio-maria.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/radio-maria.png",
-      "accentColor": "#60A5FA",
-      "isFeatured": false,
-      "websiteUrl": "https://www.radiomaria.es/directo",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "radio-osasuna",
-      "name": "Radio Osasuna",
-      "shortLabel": "Deporte",
-      "category": [
-        "Deportes"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": null,
-      "streamUrl": "https://stream.radio.co/s2d5fcbba2/listen",
-      "logoPath": "logos/radio-osasuna.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/radio-osasuna.png",
-      "accentColor": "#F97316",
-      "isFeatured": false,
-      "websiteUrl": "https://www.osasuna.es/radio-osasuna",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "radio-teletaxi",
-      "name": "Radio TeleTaxi",
-      "shortLabel": "Música",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": null,
-      "streamUrl": "https://radiott-web.streaming-pro.com:6103/radiott.mp3",
-      "logoPath": "logos/radio-teletaxi.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/radio-teletaxi.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://www.radioteletaxi.com/reproductor/",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "radiole",
-      "name": "Radiolé",
-      "shortLabel": "Pop",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Pop",
-      "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOLEAAC.aac",
-      "logoPath": "logos/radiole.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/radiole.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://play.radiole.com",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "real-betis-radio",
-      "name": "Real Betis Radio",
-      "shortLabel": "Deporte",
-      "category": [
-        "Deportes"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": null,
-      "streamUrl": "https://comcast01-h-cloud.flumotion.com/betistv/radio1.mp3",
-      "logoPath": "logos/real-betis-radio.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/real-betis-radio.png",
-      "accentColor": "#F97316",
-      "isFeatured": false,
-      "websiteUrl": "https://www.realbetisbalompie.es/rtvbetis/directo-radio",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "sevilla-fc-radio",
-      "name": "Sevilla FC Radio",
-      "shortLabel": "Deporte",
-      "category": [
-        "Deportes"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": null,
-      "streamUrl": "https://open.http.mp.streamamg.com/p/3001314/sp/300131400/playManifest/entryId/0_ye0b8tc0/format/applehttp/protocol/https/uiConfId/30026292/a.m3u8",
-      "logoPath": "logos/sevilla-fc-radio.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/sevilla-fc-radio.png",
-      "accentColor": "#F97316",
-      "isFeatured": false,
-      "websiteUrl": "https://live.sevillafc.es",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "ud-almeria-radio",
-      "name": "UD Almeria Radio",
-      "shortLabel": "Deporte",
-      "category": [
-        "Deportes"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": null,
-      "streamUrl": "https://srv6022.dns-lcinternet.com:8002/livelq",
-      "logoPath": "logos/ud-almeria-radio.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/ud-almeria-radio.png",
-      "accentColor": "#F97316",
-      "isFeatured": false,
-      "websiteUrl": "https://www.udalmeriasad.com/radio",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "valencia-cf-radio",
-      "name": "Valencia CF Radio",
-      "shortLabel": "Deporte",
-      "category": [
-        "Deportes"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": null,
-      "streamUrl": "https://radio-valencia-direct.flumotion.com/rvfc/shoutcast.mp3",
-      "logoPath": "logos/valencia-cf-radio.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/valencia-cf-radio.png",
-      "accentColor": "#F97316",
-      "isFeatured": false,
-      "websiteUrl": "https://www.valenciacf.com/es/vcf-media/radio",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "digitalhits-fm",
-      "name": "digitalHits FM",
-      "shortLabel": "Pop",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Pop",
-      "streamUrl": "https://dhits.frilab.com:8443/dhits",
-      "logoPath": "logos/digitalhits-fm.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/digitalhits-fm.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://www.digitalhits.cat/directe/",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "esradio",
-      "name": "esRadio",
-      "shortLabel": "Generalista",
-      "category": [
-        "Generalistas"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": null,
-      "streamUrl": "https://libertaddigital-radio-live1.flumotion.com/libertaddigital/ld-live1-high.aac",
-      "logoPath": "logos/esradio.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/esradio.png",
-      "accentColor": "#A78BFA",
-      "isFeatured": false,
-      "websiteUrl": "https://esradio.libertaddigital.com/directo.html",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "elite-dance",
-      "name": "Élite Dance",
-      "shortLabel": "Electrónica",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Electrónica",
-      "streamUrl": "https://streaming2.elitecomunicacion.es/proxy/elitedance/stream",
-      "logoPath": "logos/elite-dance.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/elite-dance.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://www.cadenaelite.es/elitedance/",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "elite-love",
-      "name": "Élite Love",
-      "shortLabel": "Pop",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Pop",
-      "streamUrl": "https://streaming2.elitecomunicacion.es/proxy/elitelove/stream",
-      "logoPath": "logos/elite-love.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/elite-love.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://www.cadenaelite.es/elitelove/",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "elite-oldies",
-      "name": "Élite Oldies",
-      "shortLabel": "Pop",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Pop",
-      "streamUrl": "https://streaming2.elitecomunicacion.es/proxy/eliteoldies/stream",
-      "logoPath": "logos/elite-oldies.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/elite-oldies.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://www.cadenaelite.es/eliteoldies/",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "elite-urban",
-      "name": "Élite Urban",
-      "shortLabel": "Urban",
-      "category": [
-        "Música"
-      ],
-      "community": "Madrid",
-      "communityLabel": "España",
-      "musicGenre": "Urban",
-      "streamUrl": "https://streaming2.elitecomunicacion.es/proxy/eliteurban/stream",
-      "logoPath": "logos/elite-urban.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/elite-urban.png",
-      "accentColor": "#34D399",
-      "isFeatured": false,
-      "websiteUrl": "https://www.cadenaelite.es/eliteurban/",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "ser-bilbao",
-      "name": "SER Bilbao",
-      "shortLabel": "Generalista",
-      "category": [
-        "Generalistas",
-        "Comunidades"
-      ],
-      "community": "Euskadi",
-      "communityLabel": "Euskadi",
-      "musicGenre": null,
-      "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_BILBAO.mp3",
-      "logoPath": "logos/ser-bilbao.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/ser-bilbao.png",
-      "accentColor": "#A78BFA",
-      "isFeatured": true,
-      "websiteUrl": "https://cadenaser.com/radio-bilbao/",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "cope-bilbao",
-      "name": "COPE Bilbao",
-      "shortLabel": "Generalista",
-      "category": [
-        "Generalistas",
-        "Comunidades"
-      ],
-      "community": "Euskadi",
-      "communityLabel": "Euskadi",
-      "musicGenre": null,
-      "streamUrl": "https://wecast-bl02.flumotion.com/copesedes/bilbao.mp3",
-      "logoPath": "logos/cope-bilbao.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/cope-bilbao.png",
-      "accentColor": "#A78BFA",
-      "isFeatured": false,
-      "websiteUrl": "https://www.cope.es/directos/bilbao",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "euskadi-irratia",
-      "name": "Euskadi Irratia",
-      "shortLabel": "Generalista",
-      "category": [
-        "Generalistas",
-        "Comunidades"
-      ],
-      "community": "Euskadi",
-      "communityLabel": "Euskadi",
-      "musicGenre": null,
-      "streamUrl": "https://multimedia.eitb.eus/live-content/euskadirratia-hls/master.m3u8",
-      "logoPath": "logos/euskadi-irratia.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/euskadi-irratia.png",
-      "accentColor": "#A78BFA",
-      "isFeatured": false,
-      "websiteUrl": "https://guau.eus/st/euskadi-irratia",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "gaztea",
-      "name": "Gaztea",
-      "shortLabel": "Generalista",
-      "category": [
-        "Generalistas",
-        "Comunidades"
-      ],
-      "community": "Euskadi",
-      "communityLabel": "Euskadi",
-      "musicGenre": null,
-      "streamUrl": "https://multimedia.eitb.eus/live-content/gaztea-hls/master.m3u8",
-      "logoPath": "logos/gaztea.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/gaztea.png",
-      "accentColor": "#A78BFA",
-      "isFeatured": false,
-      "websiteUrl": "https://gaztea.eus",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "onda-cero-bilbao",
-      "name": "Onda Cero Bilbao",
-      "shortLabel": "Generalista",
-      "category": [
-        "Generalistas",
-        "Comunidades"
-      ],
-      "community": "Euskadi",
-      "communityLabel": "Euskadi",
-      "musicGenre": null,
-      "streamUrl": "https://atres-live.ondacero.es/live/delegaciones/oc/bilbao/master.m3u8",
-      "logoPath": "logos/onda-cero-bilbao.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/onda-cero-bilbao.png",
-      "accentColor": "#A78BFA",
-      "isFeatured": false,
-      "websiteUrl": "https://www.ondacero.es/emisoras/pais-vasco/bilbao/directo/",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "radio-marca-bilbao",
-      "name": "Radio Marca Bilbao",
-      "shortLabel": "Deporte",
-      "category": [
-        "Deportes",
-        "Comunidades"
-      ],
-      "community": "Euskadi",
-      "communityLabel": "Euskadi",
-      "musicGenre": null,
-      "streamUrl": "https://server8.emitironline.com:18475/stream",
-      "logoPath": "logos/radio-marca-bilbao.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/radio-marca-bilbao.png",
-      "accentColor": "#F97316",
-      "isFeatured": false,
-      "websiteUrl": "https://www.radiomarcabilbao.com",
-      "source": "tdtchannels"
-    },
-    {
-      "id": "radio-vitoria",
-      "name": "Radio Vitoria",
-      "shortLabel": "Generalista",
-      "category": [
-        "Generalistas",
-        "Comunidades"
-      ],
-      "community": "Euskadi",
-      "communityLabel": "Euskadi",
-      "musicGenre": null,
-      "streamUrl": "https://multimedia.eitb.eus/live-content/radiovitoria-hls/master.m3u8",
-      "logoPath": "logos/radio-vitoria.png",
-      "logoUrl": "https://raw.githubusercontent.com/Mikelo32es/radiostation-data/main/logos/radio-vitoria.png",
-      "accentColor": "#A78BFA",
-      "isFeatured": false,
-      "websiteUrl": "https://guau.eus/st/radio-vitoria",
-      "source": "tdtchannels"
+      "id": "regional",
+      "title": "Locales y autonómicas"
     }
-  ]
+  ],
+  "musicGenres": [
+    {
+      "id": "pop",
+      "title": "Pop"
+    },
+    {
+      "id": "rock",
+      "title": "Rock"
+    },
+    {
+      "id": "electronic",
+      "title": "Electrónica"
+    },
+    {
+      "id": "urban",
+      "title": "Urban"
+    },
+    {
+      "id": "oldies",
+      "title": "Remember"
+    },
+    {
+      "id": "latin",
+      "title": "Latina"
+    },
+    {
+      "id": "flamenco",
+      "title": "Flamenco"
+    },
+    {
+      "id": "classical",
+      "title": "Clásica"
+    },
+    {
+      "id": "indie",
+      "title": "Indie"
+    },
+    {
+      "id": "variety",
+      "title": "Variedad"
+    },
+    {
+      "id": "kids",
+      "title": "Infantil"
+    }
+  ],
+  "communities": [
+    {
+      "id": "nacional",
+      "title": "España"
+    },
+    {
+      "id": "andalucia",
+      "title": "Andalucía"
+    },
+    {
+      "id": "aragon",
+      "title": "Aragón"
+    },
+    {
+      "id": "asturias",
+      "title": "Asturias"
+    },
+    {
+      "id": "canarias",
+      "title": "Canarias"
+    },
+    {
+      "id": "cantabria",
+      "title": "Cantabria"
+    },
+    {
+      "id": "castilla-la-mancha",
+      "title": "Castilla-La Mancha"
+    },
+    {
+      "id": "castilla-y-leon",
+      "title": "Castilla y León"
+    },
+    {
+      "id": "catalunya",
+      "title": "Cataluña"
+    },
+    {
+      "id": "ceuta",
+      "title": "Ceuta"
+    },
+    {
+      "id": "madrid",
+      "title": "Madrid"
+    },
+    {
+      "id": "navarra",
+      "title": "Navarra"
+    },
+    {
+      "id": "valencia",
+      "title": "Comunidad Valenciana"
+    },
+    {
+      "id": "extremadura",
+      "title": "Extremadura"
+    },
+    {
+      "id": "galicia",
+      "title": "Galicia"
+    },
+    {
+      "id": "illes-balears",
+      "title": "Islas Baleares"
+    },
+    {
+      "id": "la-rioja",
+      "title": "La Rioja"
+    },
+    {
+      "id": "melilla",
+      "title": "Melilla"
+    },
+    {
+      "id": "pais-vasco",
+      "title": "País Vasco"
+    },
+    {
+      "id": "murcia",
+      "title": "Región de Murcia"
+    }
+  ],
+  "featuredStationIds": [
+    "cadena-ser",
+    "cope",
+    "onda-cero",
+    "radio-nacional",
+    "los40",
+    "rock-fm",
+    "cadena-100",
+    "cadena-dial",
+    "europa-fm",
+    "radio-euskadi",
+    "ser-bilbao",
+    "catalunya-musica"
+  ],
+  "groups": [
+    {
+      "id": "nacional",
+      "title": "Nacionales",
+      "file": "catalog/groups/nacional.json",
+      "stationCount": 79
+    },
+    {
+      "id": "pais-vasco",
+      "title": "País Vasco",
+      "file": "catalog/groups/pais-vasco.json",
+      "stationCount": 7
+    },
+    {
+      "id": "madrid",
+      "title": "Madrid",
+      "file": "catalog/groups/madrid.json",
+      "stationCount": 4
+    },
+    {
+      "id": "catalunya",
+      "title": "Cataluña",
+      "file": "catalog/groups/catalunya.json",
+      "stationCount": 4
+    },
+    {
+      "id": "galicia",
+      "title": "Galicia",
+      "file": "catalog/groups/galicia.json",
+      "stationCount": 3
+    },
+    {
+      "id": "andalucia",
+      "title": "Andalucía",
+      "file": "catalog/groups/andalucia.json",
+      "stationCount": 3
+    }
+  ],
+  "officialLogoStationIds": [
+    "cadena-100",
+    "cadena-dial",
+    "cadena-ser",
+    "cope",
+    "cope-bilbao",
+    "cope-madrid",
+    "kiss-fm",
+    "onda-cero",
+    "onda-cero-bilbao",
+    "onda-cero-madrid",
+    "radiole",
+    "ser-bilbao",
+    "ser-catalunya",
+    "ser-galicia",
+    "ser-madrid"
+  ],
+  "officialLogoCount": 15
 }

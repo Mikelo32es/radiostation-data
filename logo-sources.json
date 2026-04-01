@@ -1,0 +1,190 @@
+{
+  "generatedAt": "2026-04-01",
+  "policy": "Solo se incluyen logos descargados desde dominios o assets oficiales verificables de las propias cadenas/emisoras. Si no hay verificación suficiente, el logo se deja fuera.",
+  "downloaded": [
+    {
+      "file": "logos/official/cadena-ser.png",
+      "stationIds": [
+        "cadena-ser",
+        "ser-bilbao",
+        "ser-madrid",
+        "ser-catalunya",
+        "ser-galicia"
+      ],
+      "brand": "Cadena SER",
+      "sourcePage": "https://los40.com/",
+      "sourceAsset": "https://los40.com/estaticos/recursosgraficos/v1/icons/logo-ser-cl8.png"
+    },
+    {
+      "file": "logos/official/cadena-dial.png",
+      "stationIds": [
+        "cadena-dial"
+      ],
+      "brand": "Cadena Dial",
+      "sourcePage": "https://los40.com/",
+      "sourceAsset": "https://los40.com/estaticos/recursosgraficos/v1/icons/logo-dial-cl8.png"
+    },
+    {
+      "file": "logos/official/radiole.png",
+      "stationIds": [
+        "radiole"
+      ],
+      "brand": "Radiolé",
+      "sourcePage": "https://los40.com/",
+      "sourceAsset": "https://los40.com/estaticos/recursosgraficos/v1/icons/logo-radiole-cl8.png"
+    },
+    {
+      "file": "logos/official/cope.png",
+      "stationIds": [
+        "cope",
+        "cope-bilbao",
+        "cope-madrid"
+      ],
+      "brand": "COPE",
+      "sourcePage": "https://www.cope.es/",
+      "sourceAsset": "https://imagenes.cope.es/uploads/2024/08/13/66bb84fe0769e.svg"
+    },
+    {
+      "file": "logos/official/cadena-100.png",
+      "stationIds": [
+        "cadena-100"
+      ],
+      "brand": "Cadena 100",
+      "sourcePage": "https://www.cope.es/",
+      "sourceAsset": "https://imagenes.cope.es/uploads/2025/02/03/67a0f970ef812.svg"
+    },
+    {
+      "file": "logos/official/onda-cero.png",
+      "stationIds": [
+        "onda-cero",
+        "onda-cero-bilbao",
+        "onda-cero-madrid"
+      ],
+      "brand": "Onda Cero",
+      "sourcePage": "https://www.ondacero.es/podcast/mas-de-uno/",
+      "sourceAsset": "https://image.ondacero.es/clipping/cmsimages01/2017/07/27/B4D9457D-0B67-449C-BCD3-A88441FDEDE4/70.jpg?crop=2364%2C1330%2Cx0%2Cy245&format=webply&height=270&optimize=high&width=480"
+    },
+    {
+      "file": "logos/official/kiss-fm.png",
+      "stationIds": [
+        "kiss-fm"
+      ],
+      "brand": "KISS FM",
+      "sourcePage": "https://www.kissfm.es/",
+      "sourceAsset": "https://www.kissfm.es/wp-content/uploads/2024/10/Logo-KISS-FM_Negativo-Color.png"
+    }
+  ],
+  "pendingVerifiedAssetUrls": [
+    {
+      "brand": "Rock FM",
+      "sourcePage": "https://www.cope.es/",
+      "sourceAsset": "https://imagenes.cope.es/uploads/2024/08/13/66bb8538af5ff.svg",
+      "status": "url localizada en fuente oficial, descarga pendiente"
+    },
+    {
+      "brand": "MegaStar FM",
+      "sourcePage": "https://www.cope.es/",
+      "sourceAsset": "https://imagenes.cope.es/uploads/2024/08/13/66bb854582d51.svg",
+      "status": "url localizada en fuente oficial, descarga pendiente"
+    },
+    {
+      "brand": "Europa FM",
+      "sourcePage": "https://www.ondacero.es/",
+      "sourceAsset": "https://statics.atresmedia.com/ondacero/assets/web/img/footer/europafm.webp",
+      "status": "url localizada en fuente oficial, descarga pendiente"
+    },
+    {
+      "brand": "Melodía FM",
+      "sourcePage": "https://www.ondacero.es/",
+      "sourceAsset": "https://statics.atresmedia.com/ondacero/assets/web/img/footer/melodiafm.webp",
+      "status": "url localizada en fuente oficial, descarga pendiente"
+    }
+  ],
+  "stationsWithoutOfficialLogoYet": [
+    "3cat-info",
+    "antenita",
+    "babyradio",
+    "babyradio-cuentos-infantiles",
+    "babyradio-latinoamerica",
+    "babyradio-nanas",
+    "canal-fiesta-radio",
+    "canal-sur-radio",
+    "canal-sur-radio-cadiz",
+    "catalunya-musica",
+    "catalunya-radio",
+    "dial-baladas",
+    "dial-latino",
+    "digitalhits-fm",
+    "elite-dance",
+    "elite-love",
+    "elite-oldies",
+    "elite-urban",
+    "esradio",
+    "europa-fm",
+    "euskadi-irratia",
+    "flaix-fm",
+    "flaixbac",
+    "flamenco-radio",
+    "gaztea",
+    "hit-fm",
+    "icat",
+    "la-urban-radio",
+    "loca-fm",
+    "loca-fm-ambient",
+    "loca-fm-big-room",
+    "loca-fm-chill-out",
+    "loca-fm-dance",
+    "loca-fm-deep-house",
+    "loca-fm-drum-and-bass",
+    "loca-fm-hard",
+    "loca-fm-hard-techno",
+    "loca-fm-house",
+    "loca-fm-industrial",
+    "loca-fm-loca-80-s",
+    "loca-fm-loca-90-s",
+    "loca-fm-melodic-house",
+    "loca-fm-melodic-techno",
+    "loca-fm-remember",
+    "loca-fm-sessions",
+    "loca-fm-tech-house",
+    "loca-fm-techno",
+    "loca-fm-trance",
+    "loca-fm-urban",
+    "los40",
+    "los40-classic",
+    "los40-dance",
+    "los40-urban",
+    "mariskalrock-radio",
+    "mdt-radio-2000",
+    "mdt-radio-80s",
+    "mdt-radio-90s",
+    "mdt-radio-pop-stars",
+    "mdt-radio-remember",
+    "megastar-fm",
+    "melodia-fm",
+    "onda-madrid",
+    "rac-105",
+    "rac1",
+    "radio-3-rne",
+    "radio-5-rne",
+    "radio-andalucia-informacion",
+    "radio-clasica-rne",
+    "radio-euskadi",
+    "radio-galega",
+    "radio-galega-musica",
+    "radio-marca",
+    "radio-marca-bilbao",
+    "radio-maria",
+    "radio-nacional",
+    "radio-nacional-madrid",
+    "radio-osasuna",
+    "radio-teletaxi",
+    "radio-vitoria",
+    "real-betis-radio",
+    "rock-fm",
+    "sevilla-fc-radio",
+    "son-galicia-radio",
+    "ud-almeria-radio",
+    "valencia-cf-radio"
+  ]
+}
