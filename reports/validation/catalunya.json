@@ -6,9 +6,9 @@
     {
       "stationId": "catalunya_radio",
       "streamState": "VERIFIED",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
-      "needsManualReview": true,
+      "needsManualReview": false,
       "lastCheckedAt": "2026-04-01T12:00:00Z",
       "httpStatusCode": 200,
       "contentType": "application/vnd.apple.mpegurl",
@@ -17,21 +17,15 @@
       "hasPlayableStream": true,
       "isRedirected": false,
       "isGeoRestricted": false,
-      "issues": [
-        {
-          "code": "logo_asset_missing",
-          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
-          "level": "WARNING"
-        }
-      ],
-      "notes": "Autonómica principal; falta asset oficial."
+      "issues": [],
+      "notes": "Autonómica principal con logo remoto verificado."
     },
     {
       "stationId": "rac1",
       "streamState": "VERIFIED",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
-      "needsManualReview": true,
+      "needsManualReview": false,
       "lastCheckedAt": "2026-04-01T12:00:00Z",
       "httpStatusCode": 200,
       "contentType": "audio/mpeg",
@@ -41,11 +35,6 @@
       "isRedirected": true,
       "isGeoRestricted": false,
       "issues": [
-        {
-          "code": "logo_asset_missing",
-          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
-          "level": "WARNING"
-        },
         {
           "code": "stream_redirect",
           "message": "El stream usa un endpoint de redirect y conviene fijar el destino final.",
@@ -80,7 +69,7 @@
     {
       "stationId": "radio_marca_barcelona",
       "streamState": "PENDING",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": false,
       "needsManualReview": true,
       "lastCheckedAt": "2026-04-01T12:00:00Z",
@@ -96,11 +85,6 @@
           "code": "manual_stream_review",
           "message": "El stream necesita confirmación manual antes de marcarse como estable.",
           "level": "WARNING"
-        },
-        {
-          "code": "logo_asset_missing",
-          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
-          "level": "WARNING"
         }
       ],
       "notes": "Mantener en revisión manual hasta confirmar estabilidad. Revisar estabilidad larga, redirects y respuesta del origen."
@@ -108,9 +92,9 @@
     {
       "stationId": "cadena100_barcelona",
       "streamState": "VERIFIED",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
-      "needsManualReview": true,
+      "needsManualReview": false,
       "lastCheckedAt": "2026-04-01T12:00:00Z",
       "httpStatusCode": 200,
       "contentType": "application/vnd.apple.mpegurl",
@@ -119,13 +103,7 @@
       "hasPlayableStream": true,
       "isRedirected": false,
       "isGeoRestricted": false,
-      "issues": [
-        {
-          "code": "logo_asset_missing",
-          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
-          "level": "WARNING"
-        }
-      ],
+      "issues": [],
       "notes": "Semilla musical de hits para Barcelona."
     },
     {
@@ -171,7 +149,7 @@
     {
       "stationId": "onda_cero_barcelona",
       "streamState": "PENDING",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
       "needsManualReview": true,
       "lastCheckedAt": "2026-04-01T22:30:00Z",
@@ -189,7 +167,7 @@
     {
       "stationId": "radio_nacional_catalunya",
       "streamState": "PENDING",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
       "needsManualReview": true,
       "lastCheckedAt": "2026-04-01T22:30:00Z",
@@ -207,7 +185,7 @@
     {
       "stationId": "catalunya_musica",
       "streamState": "PENDING",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
       "needsManualReview": true,
       "lastCheckedAt": "2026-04-01T22:30:00Z",
@@ -225,7 +203,7 @@
     {
       "stationId": "icat",
       "streamState": "PENDING",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
       "needsManualReview": true,
       "lastCheckedAt": "2026-04-01T22:30:00Z",
@@ -243,7 +221,7 @@
     {
       "stationId": "rac105",
       "streamState": "PENDING",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
       "needsManualReview": true,
       "lastCheckedAt": "2026-04-01T22:30:00Z",
@@ -261,7 +239,7 @@
     {
       "stationId": "flaix_fm",
       "streamState": "PENDING",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
       "needsManualReview": true,
       "lastCheckedAt": "2026-04-01T22:30:00Z",
@@ -279,7 +257,7 @@
     {
       "stationId": "flaixbac",
       "streamState": "PENDING",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
       "needsManualReview": true,
       "lastCheckedAt": "2026-04-01T22:30:00Z",

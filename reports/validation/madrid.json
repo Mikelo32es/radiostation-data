@@ -46,9 +46,9 @@
     {
       "stationId": "onda_cero_madrid",
       "streamState": "VERIFIED",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
-      "needsManualReview": true,
+      "needsManualReview": false,
       "lastCheckedAt": "2026-04-01T12:00:00Z",
       "httpStatusCode": 200,
       "contentType": "application/vnd.apple.mpegurl",
@@ -57,21 +57,15 @@
       "hasPlayableStream": true,
       "isRedirected": false,
       "isGeoRestricted": false,
-      "issues": [
-        {
-          "code": "logo_asset_missing",
-          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
-          "level": "WARNING"
-        }
-      ],
+      "issues": [],
       "notes": "Generalista estable para bootstrap de Madrid."
     },
     {
       "stationId": "kiss_fm_madrid",
       "streamState": "VERIFIED",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
-      "needsManualReview": true,
+      "needsManualReview": false,
       "lastCheckedAt": "2026-04-01T12:00:00Z",
       "httpStatusCode": 200,
       "contentType": "audio/mpeg",
@@ -80,21 +74,15 @@
       "hasPlayableStream": true,
       "isRedirected": false,
       "isGeoRestricted": false,
-      "issues": [
-        {
-          "code": "logo_asset_missing",
-          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
-          "level": "WARNING"
-        }
-      ],
-      "notes": "Semilla musical de hits pendiente de logo exportado."
+      "issues": [],
+      "notes": "Semilla musical de hits con logo remoto verificado."
     },
     {
       "stationId": "cadena100_madrid",
       "streamState": "VERIFIED",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
-      "needsManualReview": true,
+      "needsManualReview": false,
       "lastCheckedAt": "2026-04-01T12:00:00Z",
       "httpStatusCode": 200,
       "contentType": "application/vnd.apple.mpegurl",
@@ -103,14 +91,8 @@
       "hasPlayableStream": true,
       "isRedirected": false,
       "isGeoRestricted": false,
-      "issues": [
-        {
-          "code": "logo_asset_missing",
-          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
-          "level": "WARNING"
-        }
-      ],
-      "notes": "Semilla musical de hits pendiente de logo exportado."
+      "issues": [],
+      "notes": "Semilla musical de hits con logo remoto verificado."
     },
     {
       "stationId": "los40_madrid",
@@ -138,9 +120,9 @@
     {
       "stationId": "los40_classic_madrid",
       "streamState": "VERIFIED",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
-      "needsManualReview": true,
+      "needsManualReview": false,
       "lastCheckedAt": "2026-04-01T12:00:00Z",
       "httpStatusCode": 200,
       "contentType": "audio/mpeg",
@@ -150,11 +132,6 @@
       "isRedirected": true,
       "isGeoRestricted": false,
       "issues": [
-        {
-          "code": "logo_asset_missing",
-          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
-          "level": "WARNING"
-        },
         {
           "code": "stream_redirect",
           "message": "El stream usa un endpoint de redirect y conviene fijar el destino final.",
@@ -183,7 +160,7 @@
     {
       "stationId": "onda_madrid",
       "streamState": "PENDING",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
       "needsManualReview": true,
       "lastCheckedAt": "2026-04-01T22:30:00Z",
@@ -201,7 +178,7 @@
     {
       "stationId": "radio_nacional_madrid",
       "streamState": "PENDING",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
       "needsManualReview": true,
       "lastCheckedAt": "2026-04-01T22:30:00Z",
@@ -219,7 +196,7 @@
     {
       "stationId": "esradio_madrid",
       "streamState": "PENDING",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
       "needsManualReview": true,
       "lastCheckedAt": "2026-04-01T22:30:00Z",
@@ -237,7 +214,7 @@
     {
       "stationId": "capital_radio_madrid",
       "streamState": "PENDING",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
       "needsManualReview": true,
       "lastCheckedAt": "2026-04-01T22:30:00Z",
@@ -255,7 +232,7 @@
     {
       "stationId": "cadena_dial_madrid",
       "streamState": "PENDING",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
       "needsManualReview": true,
       "lastCheckedAt": "2026-04-01T22:30:00Z",
@@ -273,7 +250,7 @@
     {
       "stationId": "europa_fm_madrid",
       "streamState": "PENDING",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
       "needsManualReview": true,
       "lastCheckedAt": "2026-04-01T22:30:00Z",
@@ -291,7 +268,7 @@
     {
       "stationId": "hit_fm_madrid",
       "streamState": "PENDING",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
       "needsManualReview": true,
       "lastCheckedAt": "2026-04-01T22:30:00Z",
@@ -309,7 +286,7 @@
     {
       "stationId": "melodia_fm_madrid",
       "streamState": "PENDING",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
       "needsManualReview": true,
       "lastCheckedAt": "2026-04-01T22:30:00Z",
@@ -327,7 +304,7 @@
     {
       "stationId": "megastar_fm_madrid",
       "streamState": "PENDING",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
       "needsManualReview": true,
       "lastCheckedAt": "2026-04-01T22:30:00Z",

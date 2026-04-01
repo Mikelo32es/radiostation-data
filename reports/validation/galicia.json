@@ -6,9 +6,9 @@
     {
       "stationId": "radio_galega",
       "streamState": "VERIFIED",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
-      "needsManualReview": true,
+      "needsManualReview": false,
       "lastCheckedAt": "2026-04-01T12:00:00Z",
       "httpStatusCode": 200,
       "contentType": "application/vnd.apple.mpegurl",
@@ -17,21 +17,15 @@
       "hasPlayableStream": true,
       "isRedirected": false,
       "isGeoRestricted": false,
-      "issues": [
-        {
-          "code": "logo_asset_missing",
-          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
-          "level": "WARNING"
-        }
-      ],
-      "notes": "Autonómica principal; falta asset oficial."
+      "issues": [],
+      "notes": "Autonómica principal con logo remoto verificado."
     },
     {
       "stationId": "radio_galega_musica",
       "streamState": "VERIFIED",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
-      "needsManualReview": true,
+      "needsManualReview": false,
       "lastCheckedAt": "2026-04-01T12:00:00Z",
       "httpStatusCode": 200,
       "contentType": "application/vnd.apple.mpegurl",
@@ -40,21 +34,15 @@
       "hasPlayableStream": true,
       "isRedirected": false,
       "isGeoRestricted": false,
-      "issues": [
-        {
-          "code": "logo_asset_missing",
-          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
-          "level": "WARNING"
-        }
-      ],
+      "issues": [],
       "notes": "Abre línea folk/música gallega."
     },
     {
       "stationId": "son_galicia_radio",
       "streamState": "VERIFIED",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
-      "needsManualReview": true,
+      "needsManualReview": false,
       "lastCheckedAt": "2026-04-01T12:00:00Z",
       "httpStatusCode": 200,
       "contentType": "application/vnd.apple.mpegurl",
@@ -63,19 +51,13 @@
       "hasPlayableStream": true,
       "isRedirected": false,
       "isGeoRestricted": false,
-      "issues": [
-        {
-          "code": "logo_asset_missing",
-          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
-          "level": "WARNING"
-        }
-      ],
+      "issues": [],
       "notes": "Refuerza la vertical musical regional."
     },
     {
       "stationId": "radio_marca_vigo",
       "streamState": "PENDING",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": false,
       "needsManualReview": true,
       "lastCheckedAt": "2026-04-01T12:00:00Z",
@@ -91,11 +73,6 @@
           "code": "manual_stream_review",
           "message": "El stream necesita confirmación manual antes de marcarse como estable.",
           "level": "WARNING"
-        },
-        {
-          "code": "logo_asset_missing",
-          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
-          "level": "WARNING"
         }
       ],
       "notes": "Mantener en revisión manual hasta validar estabilidad. Revisar estabilidad larga, redirects y respuesta del origen."
@@ -103,9 +80,9 @@
     {
       "stationId": "radio_marca_coruna",
       "streamState": "VERIFIED",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": false,
-      "needsManualReview": true,
+      "needsManualReview": false,
       "lastCheckedAt": "2026-04-01T12:00:00Z",
       "httpStatusCode": 200,
       "contentType": "audio/mpeg",
@@ -115,11 +92,6 @@
       "isRedirected": true,
       "isGeoRestricted": false,
       "issues": [
-        {
-          "code": "logo_asset_missing",
-          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
-          "level": "WARNING"
-        },
         {
           "code": "stream_redirect",
           "message": "El stream usa un endpoint de redirect y conviene fijar el destino final.",
@@ -131,9 +103,9 @@
     {
       "stationId": "los40_classic_vigo",
       "streamState": "VERIFIED",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": false,
-      "needsManualReview": true,
+      "needsManualReview": false,
       "lastCheckedAt": "2026-04-01T12:00:00Z",
       "httpStatusCode": 200,
       "contentType": "audio/mpeg",
@@ -143,11 +115,6 @@
       "isRedirected": true,
       "isGeoRestricted": false,
       "issues": [
-        {
-          "code": "logo_asset_missing",
-          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
-          "level": "WARNING"
-        },
         {
           "code": "stream_redirect",
           "message": "El stream usa un endpoint de redirect y conviene fijar el destino final.",
@@ -159,9 +126,9 @@
     {
       "stationId": "kiss_fm_galicia",
       "streamState": "VERIFIED",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
-      "needsManualReview": true,
+      "needsManualReview": false,
       "lastCheckedAt": "2026-04-01T12:00:00Z",
       "httpStatusCode": 200,
       "contentType": "audio/mpeg",
@@ -170,13 +137,7 @@
       "hasPlayableStream": true,
       "isRedirected": false,
       "isGeoRestricted": false,
-      "issues": [
-        {
-          "code": "logo_asset_missing",
-          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
-          "level": "WARNING"
-        }
-      ],
+      "issues": [],
       "notes": "Cobertura musical hits."
     },
     {
@@ -199,7 +160,7 @@
     {
       "stationId": "radio_nacional_galicia",
       "streamState": "PENDING",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
       "needsManualReview": true,
       "lastCheckedAt": "2026-04-01T22:30:00Z",
@@ -286,7 +247,7 @@
     {
       "stationId": "onda_cero_vigo",
       "streamState": "PENDING",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
       "needsManualReview": true,
       "lastCheckedAt": "2026-04-01T22:30:00Z",
@@ -304,7 +265,7 @@
     {
       "stationId": "radio_voz",
       "streamState": "PENDING",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
       "needsManualReview": true,
       "lastCheckedAt": "2026-04-01T22:30:00Z",

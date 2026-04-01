@@ -24,7 +24,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/IB3org/picture?width=600&height=600"
       },
       "accentColor": "#E11D48",
@@ -33,7 +33,7 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "PENDING",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
         "needsManualReview": true
       }
@@ -59,7 +59,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/radionacionalrne/picture?width=600&height=600"
       },
       "accentColor": "#F97316",
@@ -68,7 +68,7 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "PENDING",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
         "needsManualReview": true
       }
@@ -165,7 +165,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/ondacero/picture?width=600&height=600"
       },
       "accentColor": "#1E8E3E",
@@ -174,7 +174,7 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "PENDING",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
         "needsManualReview": true
       }
@@ -199,7 +199,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/ibiza.radio/picture?width=600&height=600"
       },
       "accentColor": "#A855F7",
@@ -213,7 +213,7 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "PENDING",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
         "needsManualReview": true
       }

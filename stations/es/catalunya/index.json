@@ -24,7 +24,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/catradio/picture?width=600&height=600"
       },
       "accentColor": "#F9A825",
@@ -33,9 +33,9 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "VERIFIED",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
-        "needsManualReview": true
+        "needsManualReview": false
       }
     },
     {
@@ -66,7 +66,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/rac1oficial/picture?width=600&height=600"
       },
       "accentColor": "#E53935",
@@ -75,9 +75,9 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "VERIFIED",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
-        "needsManualReview": true
+        "needsManualReview": false
       }
     },
     {
@@ -135,7 +135,7 @@
       ],
       "logo": {
         "source": "brand_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/RadioMARCA/picture?width=600&height=600"
       },
       "accentColor": "#D71920",
@@ -144,7 +144,7 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "PENDING",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": false,
         "needsManualReview": true
       }
@@ -169,7 +169,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/CADENA100/picture?width=600&height=600"
       },
       "accentColor": "#00C389",
@@ -181,9 +181,9 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "VERIFIED",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
-        "needsManualReview": true
+        "needsManualReview": false
       }
     },
     {
@@ -282,7 +282,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/ondacero/picture?width=600&height=600"
       },
       "accentColor": "#1B5E20",
@@ -291,7 +291,7 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "PENDING",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
         "needsManualReview": true
       }
@@ -317,7 +317,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/radionacionalrne/picture?width=600&height=600"
       },
       "accentColor": "#C2185B",
@@ -326,7 +326,7 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "PENDING",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
         "needsManualReview": true
       }
@@ -351,7 +351,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/catmusica/picture?width=600&height=600"
       },
       "accentColor": "#5E35B1",
@@ -362,7 +362,7 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "PENDING",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
         "needsManualReview": true
       }
@@ -387,7 +387,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/ICat.cat.svg/512px-ICat.cat.svg.png"
       },
       "accentColor": "#00897B",
@@ -400,7 +400,7 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "PENDING",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
         "needsManualReview": true
       }
@@ -432,7 +432,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/rac105/picture?width=600&height=600"
       },
       "accentColor": "#F4511E",
@@ -445,7 +445,7 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "PENDING",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
         "needsManualReview": true
       }
@@ -470,7 +470,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://pbs.twimg.com/profile_images/1051761197127745541/whMnn4_K_400x400.jpg"
       },
       "accentColor": "#00ACC1",
@@ -483,7 +483,7 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "PENDING",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
         "needsManualReview": true
       }
@@ -508,7 +508,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://pbs.twimg.com/profile_images/1164926188307001344/PtDeZDOO_400x400.jpg"
       },
       "accentColor": "#EC407A",
@@ -521,7 +521,7 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "PENDING",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
         "needsManualReview": true
       }

@@ -24,7 +24,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/canalsursevilla/picture?width=600&height=600"
       },
       "accentColor": "#0A7B83",
@@ -33,9 +33,9 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "VERIFIED",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
-        "needsManualReview": true
+        "needsManualReview": false
       }
     },
     {
@@ -58,7 +58,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/CanalSurRadioAndalucia/picture?width=600&height=600"
       },
       "accentColor": "#087F5B",
@@ -67,9 +67,9 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "VERIFIED",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
-        "needsManualReview": true
+        "needsManualReview": false
       }
     },
     {
@@ -92,7 +92,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/CanalSurRadioAndalucia/picture?width=600&height=600"
       },
       "accentColor": "#F77F00",
@@ -105,9 +105,9 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "VERIFIED",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
-        "needsManualReview": true
+        "needsManualReview": false
       }
     },
     {
@@ -131,7 +131,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/ondacero/picture?width=600&height=600"
       },
       "accentColor": "#1E8E3E",
@@ -140,9 +140,9 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "VERIFIED",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
-        "needsManualReview": true
+        "needsManualReview": false
       }
     },
     {
@@ -165,7 +165,7 @@
       ],
       "logo": {
         "source": "brand_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/RadioMARCA/picture?width=600&height=600"
       },
       "accentColor": "#D71920",
@@ -174,9 +174,9 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "VERIFIED",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": false,
-        "needsManualReview": true
+        "needsManualReview": false
       }
     },
     {
@@ -234,7 +234,7 @@
       ],
       "logo": {
         "source": "brand_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/Los40Classic.Oficial/picture?width=600&height=600"
       },
       "accentColor": "#FFB703",
@@ -247,7 +247,7 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "PENDING",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": false,
         "needsManualReview": true
       }
@@ -449,7 +449,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://pbs.twimg.com/profile_images/2014607361843793920/uKfZnuel_400x400.jpg"
       },
       "accentColor": "#FF7043",
@@ -463,7 +463,7 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "PENDING",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
         "needsManualReview": true
       }
@@ -495,7 +495,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/cadenadial/picture?width=600&height=600"
       },
       "accentColor": "#8E24AA",
@@ -508,7 +508,7 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "PENDING",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
         "needsManualReview": true
       }
@@ -540,7 +540,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/radiole/picture?width=600&height=600"
       },
       "accentColor": "#D81B60",
@@ -554,7 +554,7 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "PENDING",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
         "needsManualReview": true
       }
@@ -579,7 +579,7 @@
       ],
       "logo": {
         "source": "brand_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/CADENA100/picture?width=600&height=600"
       },
       "accentColor": "#00C389",
@@ -591,7 +591,7 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "PENDING",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
         "needsManualReview": true
       }
@@ -617,7 +617,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/radionacionalrne/picture?width=600&height=600"
       },
       "accentColor": "#C2185B",
@@ -626,7 +626,7 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "PENDING",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
         "needsManualReview": true
       }

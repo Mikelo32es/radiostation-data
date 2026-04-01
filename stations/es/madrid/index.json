@@ -95,7 +95,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/ondacero/picture?width=600&height=600"
       },
       "accentColor": "#1E8E3E",
@@ -104,9 +104,9 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "VERIFIED",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
-        "needsManualReview": true
+        "needsManualReview": false
       }
     },
     {
@@ -129,7 +129,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/kissfm.es/picture?width=600&height=600"
       },
       "accentColor": "#FF6D00",
@@ -141,9 +141,9 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "VERIFIED",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
-        "needsManualReview": true
+        "needsManualReview": false
       }
     },
     {
@@ -166,7 +166,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/CADENA100/picture?width=600&height=600"
       },
       "accentColor": "#00C389",
@@ -178,9 +178,9 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "VERIFIED",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
-        "needsManualReview": true
+        "needsManualReview": false
       }
     },
     {
@@ -241,7 +241,7 @@
       ],
       "logo": {
         "source": "brand_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/Los40Classic.Oficial/picture?width=600&height=600"
       },
       "accentColor": "#FFB703",
@@ -254,9 +254,9 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "VERIFIED",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
-        "needsManualReview": true
+        "needsManualReview": false
       }
     },
     {
@@ -324,7 +324,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/ondamadridradio/picture?width=600&height=600"
       },
       "accentColor": "#C62828",
@@ -333,7 +333,7 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "PENDING",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
         "needsManualReview": true
       }
@@ -359,7 +359,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/radionacionalrne/picture?width=600&height=600"
       },
       "accentColor": "#C2185B",
@@ -368,7 +368,7 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "PENDING",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
         "needsManualReview": true
       }
@@ -401,7 +401,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/esradio/picture?width=600&height=600"
       },
       "accentColor": "#3949AB",
@@ -410,7 +410,7 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "PENDING",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
         "needsManualReview": true
       }
@@ -436,7 +436,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/capitalradiob/picture?width=600&height=600"
       },
       "accentColor": "#455A64",
@@ -445,7 +445,7 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "PENDING",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
         "needsManualReview": true
       }
@@ -477,7 +477,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/cadenadial/picture?width=600&height=600"
       },
       "accentColor": "#8E24AA",
@@ -490,7 +490,7 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "PENDING",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
         "needsManualReview": true
       }
@@ -515,7 +515,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/tueuropafm/picture?width=600&height=600"
       },
       "accentColor": "#43A047",
@@ -528,7 +528,7 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "PENDING",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
         "needsManualReview": true
       }
@@ -553,7 +553,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/hitfm.es/picture?width=600&height=600"
       },
       "accentColor": "#FF6F00",
@@ -566,7 +566,7 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "PENDING",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
         "needsManualReview": true
       }
@@ -591,7 +591,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/tumelodiafm/picture?width=600&height=600"
       },
       "accentColor": "#6D4C41",
@@ -604,7 +604,7 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "PENDING",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
         "needsManualReview": true
       }
@@ -629,7 +629,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/MegaStarFM/picture?width=600&height=600"
       },
       "accentColor": "#8BC34A",
@@ -642,7 +642,7 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "PENDING",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
         "needsManualReview": true
       }

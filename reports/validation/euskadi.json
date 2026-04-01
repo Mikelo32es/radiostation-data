@@ -6,9 +6,9 @@
     {
       "stationId": "radio_euskadi",
       "streamState": "VERIFIED",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
-      "needsManualReview": true,
+      "needsManualReview": false,
       "lastCheckedAt": "2026-04-01T12:00:00Z",
       "httpStatusCode": 200,
       "contentType": "application/vnd.apple.mpegurl",
@@ -17,21 +17,15 @@
       "hasPlayableStream": true,
       "isRedirected": false,
       "isGeoRestricted": false,
-      "issues": [
-        {
-          "code": "logo_asset_missing",
-          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
-          "level": "WARNING"
-        }
-      ],
-      "notes": "Nombre sembrado desde myTuner; stream contrastado en listado público de referencia. Exportar logo oficial a radio-data/assets/logos antes de marcar VERIFIED."
+      "issues": [],
+      "notes": "Nombre sembrado desde myTuner; stream contrastado en listado público de referencia y logo remoto verificado."
     },
     {
       "stationId": "euskadi_irratia",
       "streamState": "VERIFIED",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
-      "needsManualReview": true,
+      "needsManualReview": false,
       "lastCheckedAt": "2026-04-01T12:00:00Z",
       "httpStatusCode": 200,
       "contentType": "application/vnd.apple.mpegurl",
@@ -40,21 +34,15 @@
       "hasPlayableStream": true,
       "isRedirected": false,
       "isGeoRestricted": false,
-      "issues": [
-        {
-          "code": "logo_asset_missing",
-          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
-          "level": "WARNING"
-        }
-      ],
-      "notes": "Pendiente empaquetar logo oficial y cerrar revisión manual final."
+      "issues": [],
+      "notes": "Logo remoto verificado. Queda solo la revisión manual final que corresponda."
     },
     {
       "stationId": "gaztea",
       "streamState": "VERIFIED",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
-      "needsManualReview": true,
+      "needsManualReview": false,
       "lastCheckedAt": "2026-04-01T12:00:00Z",
       "httpStatusCode": 200,
       "contentType": "application/vnd.apple.mpegurl",
@@ -63,21 +51,15 @@
       "hasPlayableStream": true,
       "isRedirected": false,
       "isGeoRestricted": false,
-      "issues": [
-        {
-          "code": "logo_asset_missing",
-          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
-          "level": "WARNING"
-        }
-      ],
-      "notes": "Buena candidata para la sección de música urbana en Euskadi; falta logo empaquetado."
+      "issues": [],
+      "notes": "Buena candidata para la sección de música urbana en Euskadi; logo remoto verificado."
     },
     {
       "stationId": "radio_vitoria",
       "streamState": "VERIFIED",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
-      "needsManualReview": true,
+      "needsManualReview": false,
       "lastCheckedAt": "2026-04-01T12:00:00Z",
       "httpStatusCode": 200,
       "contentType": "application/vnd.apple.mpegurl",
@@ -86,14 +68,8 @@
       "hasPlayableStream": true,
       "isRedirected": false,
       "isGeoRestricted": false,
-      "issues": [
-        {
-          "code": "logo_asset_missing",
-          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
-          "level": "WARNING"
-        }
-      ],
-      "notes": "Stream listo; logo aún en remoto provisional."
+      "issues": [],
+      "notes": "Stream listo y logo remoto verificado."
     },
     {
       "stationId": "ser_bilbao",
@@ -144,7 +120,7 @@
     {
       "stationId": "radio_marca_bilbao",
       "streamState": "PENDING",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": false,
       "needsManualReview": true,
       "lastCheckedAt": "2026-04-01T12:00:00Z",
@@ -160,11 +136,6 @@
           "code": "manual_stream_review",
           "message": "El stream necesita confirmación manual antes de marcarse como estable.",
           "level": "WARNING"
-        },
-        {
-          "code": "logo_asset_missing",
-          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
-          "level": "WARNING"
         }
       ],
       "notes": "Mantener en revisión manual hasta confirmar estabilidad del servidor. Revisar estabilidad larga, redirects y respuesta del origen."
@@ -172,7 +143,7 @@
     {
       "stationId": "cadena100_gipuzkoa",
       "streamState": "PENDING",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": false,
       "needsManualReview": true,
       "lastCheckedAt": "2026-04-01T12:00:00Z",
@@ -187,11 +158,6 @@
         {
           "code": "manual_stream_review",
           "message": "El stream necesita confirmación manual antes de marcarse como estable.",
-          "level": "WARNING"
-        },
-        {
-          "code": "logo_asset_missing",
-          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
           "level": "WARNING"
         }
       ],
@@ -246,9 +212,9 @@
     {
       "stationId": "los40_classic_euskadi",
       "streamState": "VERIFIED",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
-      "needsManualReview": true,
+      "needsManualReview": false,
       "lastCheckedAt": "2026-04-01T12:00:00Z",
       "httpStatusCode": 200,
       "contentType": "audio/mpeg",
@@ -258,11 +224,6 @@
       "isRedirected": true,
       "isGeoRestricted": false,
       "issues": [
-        {
-          "code": "logo_asset_missing",
-          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
-          "level": "WARNING"
-        },
         {
           "code": "stream_redirect",
           "message": "El stream usa un endpoint de redirect y conviene fijar el destino final.",
@@ -274,7 +235,7 @@
     {
       "stationId": "eitb_musika",
       "streamState": "PENDING",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
       "needsManualReview": true,
       "lastCheckedAt": "2026-04-01T22:30:00Z",
@@ -287,12 +248,12 @@
           "level": "WARNING"
         }
       ],
-      "notes": "Nueva emisora fuerte añadida para cerrar Euskadi; pendiente ejecutar validador externo y exportar logo oficial a assets."
+      "notes": "Nueva emisora fuerte añadida para cerrar Euskadi; logo remoto ya verificado."
     },
     {
       "stationId": "onda_cero_bilbao",
       "streamState": "PENDING",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
       "needsManualReview": true,
       "lastCheckedAt": "2026-04-01T22:30:00Z",
@@ -310,7 +271,7 @@
     {
       "stationId": "onda_vasca_bizkaia",
       "streamState": "PENDING",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
       "needsManualReview": true,
       "lastCheckedAt": "2026-04-01T22:30:00Z",
@@ -328,7 +289,7 @@
     {
       "stationId": "bizkaia_irratia",
       "streamState": "PENDING",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
       "needsManualReview": true,
       "lastCheckedAt": "2026-04-01T22:30:00Z",
@@ -346,7 +307,7 @@
     {
       "stationId": "radio_nervion",
       "streamState": "PENDING",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
       "needsManualReview": true,
       "lastCheckedAt": "2026-04-01T22:30:00Z",

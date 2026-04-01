@@ -24,7 +24,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/radioeuskadi.RE/picture?width=600&height=600"
       },
       "accentColor": "#0B57D0",
@@ -33,9 +33,9 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "VERIFIED",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
-        "needsManualReview": true
+        "needsManualReview": false
       }
     },
     {
@@ -59,7 +59,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/Euskadi.Irratia/picture?width=600&height=600"
       },
       "accentColor": "#128A5D",
@@ -68,9 +68,9 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "VERIFIED",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
-        "needsManualReview": true
+        "needsManualReview": false
       }
     },
     {
@@ -93,7 +93,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/gaztea/picture?width=600&height=600"
       },
       "accentColor": "#F857A6",
@@ -106,9 +106,9 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "VERIFIED",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
-        "needsManualReview": true
+        "needsManualReview": false
       }
     },
     {
@@ -132,7 +132,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/radiovitoria.eitb/picture?width=600&height=600"
       },
       "accentColor": "#2457C5",
@@ -141,9 +141,9 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "VERIFIED",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
-        "needsManualReview": true
+        "needsManualReview": false
       }
     },
     {
@@ -236,7 +236,7 @@
       ],
       "logo": {
         "source": "brand_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/RadioMARCA/picture?width=600&height=600"
       },
       "accentColor": "#D71920",
@@ -245,7 +245,7 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "PENDING",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": false,
         "needsManualReview": true
       }
@@ -270,7 +270,7 @@
       ],
       "logo": {
         "source": "brand_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/CADENA100/picture?width=600&height=600"
       },
       "accentColor": "#00C389",
@@ -282,7 +282,7 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "PENDING",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": false,
         "needsManualReview": true
       }
@@ -389,7 +389,7 @@
       ],
       "logo": {
         "source": "brand_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/Los40Classic.Oficial/picture?width=600&height=600"
       },
       "accentColor": "#FFB703",
@@ -402,9 +402,9 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "VERIFIED",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
-        "needsManualReview": true
+        "needsManualReview": false
       }
     },
     {
@@ -427,7 +427,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/eitb/picture?width=600&height=600"
       },
       "accentColor": "#7B1FA2",
@@ -440,7 +440,7 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "PENDING",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
         "needsManualReview": true
       }
@@ -466,7 +466,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/ondacero/picture?width=600&height=600"
       },
       "accentColor": "#1B5E20",
@@ -475,7 +475,7 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "PENDING",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
         "needsManualReview": true
       }
@@ -508,7 +508,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/ondavasca/picture?width=600&height=600"
       },
       "accentColor": "#2E7D32",
@@ -517,7 +517,7 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "PENDING",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
         "needsManualReview": true
       }
@@ -550,7 +550,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/BizkaiaIrratia/picture?width=600&height=600"
       },
       "accentColor": "#00695C",
@@ -559,7 +559,7 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "PENDING",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
         "needsManualReview": true
       }
@@ -584,7 +584,7 @@
       ],
       "logo": {
         "source": "official_seed",
-        "validationState": "PENDING",
+        "validationState": "VERIFIED",
         "remoteUrl": "https://graph.facebook.com/RadioNervion/picture?width=600&height=600"
       },
       "accentColor": "#D32F2F",
@@ -597,7 +597,7 @@
       "sourceSeed": "myTuner",
       "validation": {
         "streamState": "PENDING",
-        "logoState": "PENDING",
+        "logoState": "VERIFIED",
         "isOfficialSource": true,
         "needsManualReview": true
       }

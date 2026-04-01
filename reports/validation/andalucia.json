@@ -6,9 +6,9 @@
     {
       "stationId": "canal_sur_sevilla",
       "streamState": "VERIFIED",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
-      "needsManualReview": true,
+      "needsManualReview": false,
       "lastCheckedAt": "2026-04-01T12:00:00Z",
       "httpStatusCode": 200,
       "contentType": "audio/mpeg",
@@ -17,21 +17,15 @@
       "hasPlayableStream": true,
       "isRedirected": false,
       "isGeoRestricted": false,
-      "issues": [
-        {
-          "code": "logo_asset_missing",
-          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
-          "level": "WARNING"
-        }
-      ],
+      "issues": [],
       "notes": "Emisora autonómica principal para el slice andaluz."
     },
     {
       "stationId": "rai_andalucia",
       "streamState": "VERIFIED",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
-      "needsManualReview": true,
+      "needsManualReview": false,
       "lastCheckedAt": "2026-04-01T12:00:00Z",
       "httpStatusCode": 200,
       "contentType": "audio/mpeg",
@@ -40,21 +34,15 @@
       "hasPlayableStream": true,
       "isRedirected": false,
       "isGeoRestricted": false,
-      "issues": [
-        {
-          "code": "logo_asset_missing",
-          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
-          "level": "WARNING"
-        }
-      ],
+      "issues": [],
       "notes": "Útil para filtro noticias."
     },
     {
       "stationId": "canal_sur_musica",
       "streamState": "VERIFIED",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
-      "needsManualReview": true,
+      "needsManualReview": false,
       "lastCheckedAt": "2026-04-01T12:00:00Z",
       "httpStatusCode": 200,
       "contentType": "audio/mpeg",
@@ -63,21 +51,15 @@
       "hasPlayableStream": true,
       "isRedirected": false,
       "isGeoRestricted": false,
-      "issues": [
-        {
-          "code": "logo_asset_missing",
-          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
-          "level": "WARNING"
-        }
-      ],
+      "issues": [],
       "notes": "Abre taxonomía flamenco/folk."
     },
     {
       "stationId": "onda_cero_sevilla",
       "streamState": "VERIFIED",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
-      "needsManualReview": true,
+      "needsManualReview": false,
       "lastCheckedAt": "2026-04-01T12:00:00Z",
       "httpStatusCode": 200,
       "contentType": "application/vnd.apple.mpegurl",
@@ -86,21 +68,15 @@
       "hasPlayableStream": true,
       "isRedirected": false,
       "isGeoRestricted": false,
-      "issues": [
-        {
-          "code": "logo_asset_missing",
-          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
-          "level": "WARNING"
-        }
-      ],
+      "issues": [],
       "notes": "Generalista estable."
     },
     {
       "stationId": "radio_marca_sevilla",
       "streamState": "VERIFIED",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": false,
-      "needsManualReview": true,
+      "needsManualReview": false,
       "lastCheckedAt": "2026-04-01T12:00:00Z",
       "httpStatusCode": 200,
       "contentType": "audio/mpeg",
@@ -110,11 +86,6 @@
       "isRedirected": true,
       "isGeoRestricted": false,
       "issues": [
-        {
-          "code": "logo_asset_missing",
-          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
-          "level": "WARNING"
-        },
         {
           "code": "stream_redirect",
           "message": "El stream usa un endpoint de redirect y conviene fijar el destino final.",
@@ -149,7 +120,7 @@
     {
       "stationId": "los40_classic_almeria",
       "streamState": "PENDING",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": false,
       "needsManualReview": true,
       "lastCheckedAt": "2026-04-01T12:00:00Z",
@@ -164,11 +135,6 @@
         {
           "code": "manual_stream_review",
           "message": "El stream necesita confirmación manual antes de marcarse como estable.",
-          "level": "WARNING"
-        },
-        {
-          "code": "logo_asset_missing",
-          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
           "level": "WARNING"
         }
       ],
@@ -286,7 +252,7 @@
     {
       "stationId": "canal_fiesta_radio",
       "streamState": "PENDING",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
       "needsManualReview": true,
       "lastCheckedAt": "2026-04-01T22:30:00Z",
@@ -304,7 +270,7 @@
     {
       "stationId": "cadena_dial_andalucia",
       "streamState": "PENDING",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
       "needsManualReview": true,
       "lastCheckedAt": "2026-04-01T22:30:00Z",
@@ -322,7 +288,7 @@
     {
       "stationId": "radiole_andalucia",
       "streamState": "PENDING",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
       "needsManualReview": true,
       "lastCheckedAt": "2026-04-01T22:30:00Z",
@@ -340,7 +306,7 @@
     {
       "stationId": "cadena100_andalucia",
       "streamState": "PENDING",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
       "needsManualReview": true,
       "lastCheckedAt": "2026-04-01T22:30:00Z",
@@ -358,7 +324,7 @@
     {
       "stationId": "radio_nacional_andalucia",
       "streamState": "PENDING",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
       "needsManualReview": true,
       "lastCheckedAt": "2026-04-01T22:30:00Z",

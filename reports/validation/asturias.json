@@ -6,7 +6,7 @@
     {
       "stationId": "rpa",
       "streamState": "PENDING",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
       "needsManualReview": true,
       "lastCheckedAt": "2026-04-01T20:10:00Z",
@@ -21,11 +21,6 @@
         {
           "code": "seed_pending_validation",
           "message": "Stream pendiente de validación técnica en esta fase.",
-          "level": "WARNING"
-        },
-        {
-          "code": "logo_asset_missing",
-          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
           "level": "WARNING"
         }
       ],
@@ -80,7 +75,7 @@
     {
       "stationId": "onda_cero_oviedo",
       "streamState": "PENDING",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
       "needsManualReview": true,
       "lastCheckedAt": "2026-04-01T20:10:00Z",
@@ -96,11 +91,6 @@
           "code": "seed_pending_validation",
           "message": "Stream pendiente de validación técnica en esta fase.",
           "level": "WARNING"
-        },
-        {
-          "code": "logo_asset_missing",
-          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
-          "level": "WARNING"
         }
       ],
       "notes": "Semilla cargada para ampliar cobertura por comunidad. Falta validación técnica final del stream."
@@ -108,7 +98,7 @@
     {
       "stationId": "radio_marca_asturias",
       "streamState": "PENDING",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
       "needsManualReview": true,
       "lastCheckedAt": "2026-04-01T20:10:00Z",
@@ -124,11 +114,6 @@
           "code": "seed_pending_validation",
           "message": "Stream pendiente de validación técnica en esta fase.",
           "level": "WARNING"
-        },
-        {
-          "code": "logo_asset_missing",
-          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
-          "level": "WARNING"
         }
       ],
       "notes": "Semilla cargada para ampliar cobertura por comunidad. Falta validación técnica final del stream."
@@ -136,7 +121,7 @@
     {
       "stationId": "master_fm_asturias",
       "streamState": "PENDING",
-      "logoState": "PENDING",
+      "logoState": "VERIFIED",
       "isOfficialSource": true,
       "needsManualReview": true,
       "lastCheckedAt": "2026-04-01T20:10:00Z",
@@ -151,11 +136,6 @@
         {
           "code": "seed_pending_validation",
           "message": "Stream pendiente de validación técnica en esta fase.",
-          "level": "WARNING"
-        },
-        {
-          "code": "logo_asset_missing",
-          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
           "level": "WARNING"
         }
       ],

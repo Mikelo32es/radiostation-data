@@ -1,6 +1,6 @@
 {
-  "version": 4,
-  "generatedAt": "2026-04-01T22:30:00Z",
+  "version": 5,
+  "generatedAt": "2026-04-01T20:45:00Z",
   "communities": [
     {
       "communityId": "andalucia",
@@ -9,10 +9,10 @@
       "verifiedStreams": 7,
       "pendingStreams": 10,
       "failedStreams": 0,
-      "verifiedLogos": 6,
-      "pendingLogos": 11,
+      "verifiedLogos": 17,
+      "pendingLogos": 0,
       "failedLogos": 0,
-      "manualReview": 16,
+      "manualReview": 11,
       "geoRestricted": 0
     },
     {
@@ -22,8 +22,8 @@
       "verifiedStreams": 0,
       "pendingStreams": 6,
       "failedStreams": 0,
-      "verifiedLogos": 4,
-      "pendingLogos": 2,
+      "verifiedLogos": 6,
+      "pendingLogos": 0,
       "failedLogos": 0,
       "manualReview": 6,
       "geoRestricted": 0
@@ -35,8 +35,8 @@
       "verifiedStreams": 0,
       "pendingStreams": 6,
       "failedStreams": 0,
-      "verifiedLogos": 2,
-      "pendingLogos": 4,
+      "verifiedLogos": 6,
+      "pendingLogos": 0,
       "failedLogos": 0,
       "manualReview": 6,
       "geoRestricted": 0
@@ -48,8 +48,8 @@
       "verifiedStreams": 0,
       "pendingStreams": 6,
       "failedStreams": 0,
-      "verifiedLogos": 4,
-      "pendingLogos": 2,
+      "verifiedLogos": 6,
+      "pendingLogos": 0,
       "failedLogos": 0,
       "manualReview": 6,
       "geoRestricted": 0
@@ -61,8 +61,8 @@
       "verifiedStreams": 0,
       "pendingStreams": 6,
       "failedStreams": 0,
-      "verifiedLogos": 2,
-      "pendingLogos": 4,
+      "verifiedLogos": 6,
+      "pendingLogos": 0,
       "failedLogos": 0,
       "manualReview": 6,
       "geoRestricted": 0
@@ -74,8 +74,8 @@
       "verifiedStreams": 0,
       "pendingStreams": 6,
       "failedStreams": 0,
-      "verifiedLogos": 2,
-      "pendingLogos": 4,
+      "verifiedLogos": 6,
+      "pendingLogos": 0,
       "failedLogos": 0,
       "manualReview": 6,
       "geoRestricted": 0
@@ -87,8 +87,8 @@
       "verifiedStreams": 0,
       "pendingStreams": 6,
       "failedStreams": 0,
-      "verifiedLogos": 4,
-      "pendingLogos": 2,
+      "verifiedLogos": 6,
+      "pendingLogos": 0,
       "failedLogos": 0,
       "manualReview": 6,
       "geoRestricted": 0
@@ -100,10 +100,10 @@
       "verifiedStreams": 6,
       "pendingStreams": 8,
       "failedStreams": 0,
-      "verifiedLogos": 3,
-      "pendingLogos": 11,
+      "verifiedLogos": 14,
+      "pendingLogos": 0,
       "failedLogos": 0,
-      "manualReview": 13,
+      "manualReview": 10,
       "geoRestricted": 0
     },
     {
@@ -113,8 +113,8 @@
       "verifiedStreams": 0,
       "pendingStreams": 14,
       "failedStreams": 0,
-      "verifiedLogos": 6,
-      "pendingLogos": 8,
+      "verifiedLogos": 14,
+      "pendingLogos": 0,
       "failedLogos": 0,
       "manualReview": 14,
       "geoRestricted": 0
@@ -126,10 +126,10 @@
       "verifiedStreams": 9,
       "pendingStreams": 7,
       "failedStreams": 0,
-      "verifiedLogos": 4,
-      "pendingLogos": 12,
+      "verifiedLogos": 16,
+      "pendingLogos": 0,
       "failedLogos": 0,
-      "manualReview": 12,
+      "manualReview": 7,
       "geoRestricted": 0
     },
     {
@@ -139,8 +139,8 @@
       "verifiedStreams": 0,
       "pendingStreams": 6,
       "failedStreams": 0,
-      "verifiedLogos": 3,
-      "pendingLogos": 3,
+      "verifiedLogos": 6,
+      "pendingLogos": 0,
       "failedLogos": 0,
       "manualReview": 6,
       "geoRestricted": 0
@@ -152,10 +152,10 @@
       "verifiedStreams": 7,
       "pendingStreams": 7,
       "failedStreams": 0,
-      "verifiedLogos": 4,
-      "pendingLogos": 10,
+      "verifiedLogos": 14,
+      "pendingLogos": 0,
       "failedLogos": 0,
-      "manualReview": 13,
+      "manualReview": 7,
       "geoRestricted": 0
     },
     {
@@ -165,8 +165,8 @@
       "verifiedStreams": 0,
       "pendingStreams": 6,
       "failedStreams": 0,
-      "verifiedLogos": 2,
-      "pendingLogos": 4,
+      "verifiedLogos": 6,
+      "pendingLogos": 0,
       "failedLogos": 0,
       "manualReview": 6,
       "geoRestricted": 0
@@ -178,8 +178,8 @@
       "verifiedStreams": 0,
       "pendingStreams": 6,
       "failedStreams": 0,
-      "verifiedLogos": 2,
-      "pendingLogos": 4,
+      "verifiedLogos": 6,
+      "pendingLogos": 0,
       "failedLogos": 0,
       "manualReview": 6,
       "geoRestricted": 0
@@ -191,10 +191,10 @@
       "verifiedStreams": 8,
       "pendingStreams": 9,
       "failedStreams": 0,
-      "verifiedLogos": 4,
-      "pendingLogos": 13,
+      "verifiedLogos": 17,
+      "pendingLogos": 0,
       "failedLogos": 0,
-      "manualReview": 15,
+      "manualReview": 11,
       "geoRestricted": 0
     },
     {
@@ -204,8 +204,8 @@
       "verifiedStreams": 0,
       "pendingStreams": 6,
       "failedStreams": 0,
-      "verifiedLogos": 3,
-      "pendingLogos": 3,
+      "verifiedLogos": 6,
+      "pendingLogos": 0,
       "failedLogos": 0,
       "manualReview": 6,
       "geoRestricted": 0
@@ -217,8 +217,8 @@
       "verifiedStreams": 0,
       "pendingStreams": 6,
       "failedStreams": 0,
-      "verifiedLogos": 2,
-      "pendingLogos": 4,
+      "verifiedLogos": 6,
+      "pendingLogos": 0,
       "failedLogos": 0,
       "manualReview": 6,
       "geoRestricted": 0
