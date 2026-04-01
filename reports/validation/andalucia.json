@@ -1,0 +1,195 @@
+{
+  "version": 3,
+  "communityId": "andalucia",
+  "generatedAt": "2026-04-01T18:45:00Z",
+  "stations": [
+    {
+      "stationId": "canal_sur_sevilla",
+      "streamState": "VERIFIED",
+      "logoState": "PENDING",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T12:00:00Z",
+      "httpStatusCode": 200,
+      "contentType": "audio/mpeg",
+      "finalStreamUrl": "https://rtva-live-radio.flumotion.com/rtva/csrsev.mp3",
+      "protocol": "MP3",
+      "hasPlayableStream": true,
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "logo_asset_missing",
+          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Emisora autonómica principal para el slice andaluz."
+    },
+    {
+      "stationId": "rai_andalucia",
+      "streamState": "VERIFIED",
+      "logoState": "PENDING",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T12:00:00Z",
+      "httpStatusCode": 200,
+      "contentType": "audio/mpeg",
+      "finalStreamUrl": "https://rtva-live-radio.flumotion.com/rtva/rai.mp3",
+      "protocol": "MP3",
+      "hasPlayableStream": true,
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "logo_asset_missing",
+          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Útil para filtro noticias."
+    },
+    {
+      "stationId": "canal_sur_musica",
+      "streamState": "VERIFIED",
+      "logoState": "PENDING",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T12:00:00Z",
+      "httpStatusCode": 200,
+      "contentType": "audio/mpeg",
+      "finalStreamUrl": "https://rtva-live-radio.flumotion.com/rtva/csm.mp3",
+      "protocol": "MP3",
+      "hasPlayableStream": true,
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "logo_asset_missing",
+          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Abre taxonomía flamenco/folk."
+    },
+    {
+      "stationId": "onda_cero_sevilla",
+      "streamState": "VERIFIED",
+      "logoState": "PENDING",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T12:00:00Z",
+      "httpStatusCode": 200,
+      "contentType": "application/vnd.apple.mpegurl",
+      "finalStreamUrl": "https://atres-live.ondacero.es/live/delegaciones/oc/sevilla/master.m3u8",
+      "protocol": "HLS",
+      "hasPlayableStream": true,
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "logo_asset_missing",
+          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Generalista estable."
+    },
+    {
+      "stationId": "radio_marca_sevilla",
+      "streamState": "VERIFIED",
+      "logoState": "PENDING",
+      "isOfficialSource": false,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T12:00:00Z",
+      "httpStatusCode": 200,
+      "contentType": "audio/mpeg",
+      "finalStreamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_SEVILLA.mp3",
+      "protocol": "MP3",
+      "hasPlayableStream": true,
+      "isRedirected": true,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "logo_asset_missing",
+          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
+          "level": "WARNING"
+        },
+        {
+          "code": "stream_redirect",
+          "message": "El stream usa un endpoint de redirect y conviene fijar el destino final.",
+          "level": "INFO"
+        }
+      ],
+      "notes": "Pendiente revisar estabilidad larga del stream."
+    },
+    {
+      "stationId": "ser_almeria",
+      "streamState": "VERIFIED",
+      "logoState": "VERIFIED",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T18:45:00Z",
+      "httpStatusCode": 200,
+      "contentType": "audio/mpeg",
+      "finalStreamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_ALMERIA.mp3",
+      "protocol": "MP3",
+      "hasPlayableStream": true,
+      "isRedirected": true,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "stream_redirect",
+          "message": "El stream usa un endpoint de redirect y conviene fijar el destino final.",
+          "level": "INFO"
+        }
+      ],
+      "notes": "Logo de marca empaquetado ya en radio-data/assets/logos para SER Almería."
+    },
+    {
+      "stationId": "los40_classic_almeria",
+      "streamState": "PENDING",
+      "logoState": "PENDING",
+      "isOfficialSource": false,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T12:00:00Z",
+      "httpStatusCode": 200,
+      "contentType": "audio/mpeg",
+      "finalStreamUrl": "https://streaming.indalteco.net/proxy/40classic?mp=/40classic.mp3",
+      "protocol": "MP3",
+      "hasPlayableStream": true,
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "manual_stream_review",
+          "message": "El stream necesita confirmación manual antes de marcarse como estable.",
+          "level": "WARNING"
+        },
+        {
+          "code": "logo_asset_missing",
+          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Mantener en revisión manual; buen candidato de classic hits. Revisar estabilidad larga, redirects y respuesta del origen."
+    },
+    {
+      "stationId": "rock_fm_andalucia",
+      "streamState": "VERIFIED",
+      "logoState": "VERIFIED",
+      "isOfficialSource": true,
+      "needsManualReview": false,
+      "lastCheckedAt": "2026-04-01T18:45:00Z",
+      "httpStatusCode": 200,
+      "contentType": "application/vnd.apple.mpegurl",
+      "finalStreamUrl": "https://rockfm-cope.flumotion.com/playlist.m3u8",
+      "protocol": "HLS",
+      "hasPlayableStream": true,
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [],
+      "notes": "Logo de marca empaquetado ya en radio-data/assets/logos para Rock FM."
+    }
+  ]
+}

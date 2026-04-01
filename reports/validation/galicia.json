@@ -1,0 +1,200 @@
+{
+  "version": 3,
+  "communityId": "galicia",
+  "generatedAt": "2026-04-01T18:45:00Z",
+  "stations": [
+    {
+      "stationId": "radio_galega",
+      "streamState": "VERIFIED",
+      "logoState": "PENDING",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T12:00:00Z",
+      "httpStatusCode": 200,
+      "contentType": "application/vnd.apple.mpegurl",
+      "finalStreamUrl": "https://crtvg-radiogalega-hls.flumotion.cloud/playlist.m3u8",
+      "protocol": "HLS",
+      "hasPlayableStream": true,
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "logo_asset_missing",
+          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Autonómica principal; falta asset oficial."
+    },
+    {
+      "stationId": "radio_galega_musica",
+      "streamState": "VERIFIED",
+      "logoState": "PENDING",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T12:00:00Z",
+      "httpStatusCode": 200,
+      "contentType": "application/vnd.apple.mpegurl",
+      "finalStreamUrl": "https://crtvg-radiogalega-musica-hls.flumotion.cloud/playlist.m3u8",
+      "protocol": "HLS",
+      "hasPlayableStream": true,
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "logo_asset_missing",
+          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Abre línea folk/música gallega."
+    },
+    {
+      "stationId": "son_galicia_radio",
+      "streamState": "VERIFIED",
+      "logoState": "PENDING",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T12:00:00Z",
+      "httpStatusCode": 200,
+      "contentType": "application/vnd.apple.mpegurl",
+      "finalStreamUrl": "https://crtvg-songalicia-hls.flumotion.cloud/playlist.m3u8",
+      "protocol": "HLS",
+      "hasPlayableStream": true,
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "logo_asset_missing",
+          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Refuerza la vertical musical regional."
+    },
+    {
+      "stationId": "radio_marca_vigo",
+      "streamState": "PENDING",
+      "logoState": "PENDING",
+      "isOfficialSource": false,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T12:00:00Z",
+      "httpStatusCode": 200,
+      "contentType": "audio/mpeg",
+      "finalStreamUrl": "https://streaming.enacast.com/radiomarcavigoHD.mp3",
+      "protocol": "MP3",
+      "hasPlayableStream": true,
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "manual_stream_review",
+          "message": "El stream necesita confirmación manual antes de marcarse como estable.",
+          "level": "WARNING"
+        },
+        {
+          "code": "logo_asset_missing",
+          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Mantener en revisión manual hasta validar estabilidad. Revisar estabilidad larga, redirects y respuesta del origen."
+    },
+    {
+      "stationId": "radio_marca_coruna",
+      "streamState": "VERIFIED",
+      "logoState": "PENDING",
+      "isOfficialSource": false,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T12:00:00Z",
+      "httpStatusCode": 200,
+      "contentType": "audio/mpeg",
+      "finalStreamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_CORUNA.mp3",
+      "protocol": "MP3",
+      "hasPlayableStream": true,
+      "isRedirected": true,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "logo_asset_missing",
+          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
+          "level": "WARNING"
+        },
+        {
+          "code": "stream_redirect",
+          "message": "El stream usa un endpoint de redirect y conviene fijar el destino final.",
+          "level": "INFO"
+        }
+      ],
+      "notes": "Deportiva útil para Galicia."
+    },
+    {
+      "stationId": "los40_classic_vigo",
+      "streamState": "VERIFIED",
+      "logoState": "PENDING",
+      "isOfficialSource": false,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T12:00:00Z",
+      "httpStatusCode": 200,
+      "contentType": "audio/mpeg",
+      "finalStreamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40CL_ASO_VIGO.mp3",
+      "protocol": "MP3",
+      "hasPlayableStream": true,
+      "isRedirected": true,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "logo_asset_missing",
+          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
+          "level": "WARNING"
+        },
+        {
+          "code": "stream_redirect",
+          "message": "El stream usa un endpoint de redirect y conviene fijar el destino final.",
+          "level": "INFO"
+        }
+      ],
+      "notes": "Candidato principal para classic hits en Galicia."
+    },
+    {
+      "stationId": "kiss_fm_galicia",
+      "streamState": "VERIFIED",
+      "logoState": "PENDING",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T12:00:00Z",
+      "httpStatusCode": 200,
+      "contentType": "audio/mpeg",
+      "finalStreamUrl": "https://kissfm.kissfmradio.cires21.com/kissfm.mp3",
+      "protocol": "MP3",
+      "hasPlayableStream": true,
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "logo_asset_missing",
+          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Cobertura musical hits."
+    },
+    {
+      "stationId": "rock_fm_galicia",
+      "streamState": "VERIFIED",
+      "logoState": "VERIFIED",
+      "isOfficialSource": true,
+      "needsManualReview": false,
+      "lastCheckedAt": "2026-04-01T18:45:00Z",
+      "httpStatusCode": 200,
+      "contentType": "application/vnd.apple.mpegurl",
+      "finalStreamUrl": "https://rockfm-cope.flumotion.com/playlist.m3u8",
+      "protocol": "HLS",
+      "hasPlayableStream": true,
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [],
+      "notes": "Logo de marca empaquetado ya en radio-data/assets/logos para Rock FM."
+    }
+  ]
+}

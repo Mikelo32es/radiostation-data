@@ -1,0 +1,165 @@
+{
+  "version": 4,
+  "communityId": "asturias",
+  "generatedAt": "2026-04-01T20:10:00Z",
+  "stations": [
+    {
+      "stationId": "rpa",
+      "streamState": "PENDING",
+      "logoState": "PENDING",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T20:10:00Z",
+      "httpStatusCode": null,
+      "contentType": null,
+      "finalStreamUrl": "https://cdn-rtpa.watchity.net/wct-3545e416-1a16-44b5-b0db-481136ecacc9/continuous/7be5c015-1da2-4927-a49b-8d232faa69be/radio/index.m3u8",
+      "protocol": "HLS",
+      "hasPlayableStream": null,
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "seed_pending_validation",
+          "message": "Stream pendiente de validación técnica en esta fase.",
+          "level": "WARNING"
+        },
+        {
+          "code": "logo_asset_missing",
+          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Semilla cargada para ampliar cobertura por comunidad. Falta validación técnica final del stream."
+    },
+    {
+      "stationId": "ser_asturias",
+      "streamState": "PENDING",
+      "logoState": "VERIFIED",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T20:10:00Z",
+      "httpStatusCode": null,
+      "contentType": null,
+      "finalStreamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_ASTURIAS.mp3",
+      "protocol": "MP3",
+      "hasPlayableStream": null,
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "seed_pending_validation",
+          "message": "Stream pendiente de validación técnica en esta fase.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Semilla cargada para ampliar cobertura por comunidad. Falta validación técnica final del stream. Logo de marca ya empaquetado en radio-data/assets/logos."
+    },
+    {
+      "stationId": "cope_asturias",
+      "streamState": "PENDING",
+      "logoState": "VERIFIED",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T20:10:00Z",
+      "httpStatusCode": null,
+      "contentType": null,
+      "finalStreamUrl": "https://wecast-bl02.flumotion.com/copesedes/asturias.mp3",
+      "protocol": "MP3",
+      "hasPlayableStream": null,
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "seed_pending_validation",
+          "message": "Stream pendiente de validación técnica en esta fase.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Semilla cargada para ampliar cobertura por comunidad. Falta validación técnica final del stream. Logo de marca ya empaquetado en radio-data/assets/logos."
+    },
+    {
+      "stationId": "onda_cero_oviedo",
+      "streamState": "PENDING",
+      "logoState": "PENDING",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T20:10:00Z",
+      "httpStatusCode": null,
+      "contentType": null,
+      "finalStreamUrl": "https://atres-live.ondacero.es/live/delegaciones/oc/oviedo/master.m3u8",
+      "protocol": "HLS",
+      "hasPlayableStream": null,
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "seed_pending_validation",
+          "message": "Stream pendiente de validación técnica en esta fase.",
+          "level": "WARNING"
+        },
+        {
+          "code": "logo_asset_missing",
+          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Semilla cargada para ampliar cobertura por comunidad. Falta validación técnica final del stream."
+    },
+    {
+      "stationId": "radio_marca_asturias",
+      "streamState": "PENDING",
+      "logoState": "PENDING",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T20:10:00Z",
+      "httpStatusCode": null,
+      "contentType": null,
+      "finalStreamUrl": "https://streaming.enacast.com/radiomarcaasturiasHD.mp3",
+      "protocol": "MP3",
+      "hasPlayableStream": null,
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "seed_pending_validation",
+          "message": "Stream pendiente de validación técnica en esta fase.",
+          "level": "WARNING"
+        },
+        {
+          "code": "logo_asset_missing",
+          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Semilla cargada para ampliar cobertura por comunidad. Falta validación técnica final del stream."
+    },
+    {
+      "stationId": "master_fm_asturias",
+      "streamState": "PENDING",
+      "logoState": "PENDING",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T20:10:00Z",
+      "httpStatusCode": null,
+      "contentType": null,
+      "finalStreamUrl": "https://radios.masterfm.es:8000/asturias",
+      "protocol": "MP3",
+      "hasPlayableStream": null,
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "seed_pending_validation",
+          "message": "Stream pendiente de validación técnica en esta fase.",
+          "level": "WARNING"
+        },
+        {
+          "code": "logo_asset_missing",
+          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Semilla cargada para ampliar cobertura por comunidad. Falta validación técnica final del stream."
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "version": 3,
+  "countryCode": "es",
+  "communityId": "castilla_y_leon",
+  "stations": [
+    {
+      "id": "ser_valladolid",
+      "name": "SER Valladolid",
+      "shortLabel": "Actualidad",
+      "categories": [
+        "news",
+        "generalist",
+        "community"
+      ],
+      "communityId": "castilla_y_leon",
+      "streams": [
+        {
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_VALLADOLID.mp3",
+          "formatHint": "audio/mpeg",
+          "qualityLabel": "MP3",
+          "isPrimary": true,
+          "isOfficial": true
+        }
+      ],
+      "logo": {
+        "source": "official_packaged",
+        "validationState": "VERIFIED",
+        "assetPath": "prisa/ser-valladolid.png"
+      },
+      "accentColor": "#2E5BFF",
+      "musicGenres": [],
+      "isFeatured": true,
+      "sourceSeed": "myTuner",
+      "validation": {
+        "streamState": "PENDING",
+        "logoState": "VERIFIED",
+        "isOfficialSource": true,
+        "needsManualReview": true
+      }
+    },
+    {
+      "id": "cope_valladolid",
+      "name": "COPE Valladolid",
+      "shortLabel": "Generalista",
+      "categories": [
+        "news",
+        "sports",
+        "generalist",
+        "community"
+      ],
+      "communityId": "castilla_y_leon",
+      "streams": [
+        {
+          "url": "https://flucast09-h-cloud.flumotion.com/cope/valladolid.mp3",
+          "formatHint": "audio/mpeg",
+          "qualityLabel": "MP3",
+          "isPrimary": true,
+          "isOfficial": true
+        }
+      ],
+      "logo": {
+        "source": "official_packaged",
+        "validationState": "VERIFIED",
+        "assetPath": "cope/cope-valladolid.png"
+      },
+      "accentColor": "#17A0FF",
+      "musicGenres": [],
+      "isFeatured": false,
+      "sourceSeed": "myTuner",
+      "validation": {
+        "streamState": "PENDING",
+        "logoState": "VERIFIED",
+        "isOfficialSource": true,
+        "needsManualReview": true
+      }
+    },
+    {
+      "id": "onda_cero_castilla_y_leon",
+      "name": "Onda Cero Castilla y León",
+      "shortLabel": "Actualidad",
+      "categories": [
+        "news",
+        "generalist",
+        "community"
+      ],
+      "communityId": "castilla_y_leon",
+      "streams": [
+        {
+          "url": "https://atres-live.ondacero.es/live/ondacero/master.m3u8",
+          "formatHint": "application/x-mpegURL",
+          "qualityLabel": "HLS",
+          "isPrimary": true,
+          "isOfficial": true
+        }
+      ],
+      "logo": {
+        "source": "official_seed",
+        "validationState": "PENDING",
+        "remoteUrl": "https://graph.facebook.com/ondacero/picture?width=600&height=600"
+      },
+      "accentColor": "#1E8E3E",
+      "musicGenres": [],
+      "isFeatured": false,
+      "sourceSeed": "myTuner",
+      "validation": {
+        "streamState": "PENDING",
+        "logoState": "PENDING",
+        "isOfficialSource": true,
+        "needsManualReview": true
+      }
+    },
+    {
+      "id": "kiss_fm_castilla_y_leon",
+      "name": "Kiss FM Castilla y León",
+      "shortLabel": "Hits",
+      "categories": [
+        "music",
+        "community"
+      ],
+      "communityId": "castilla_y_leon",
+      "streams": [
+        {
+          "url": "https://kissfm.kissfmradio.cires21.com/kissfm.mp3",
+          "formatHint": "audio/mpeg",
+          "qualityLabel": "MP3",
+          "isPrimary": true,
+          "isOfficial": true
+        }
+      ],
+      "logo": {
+        "source": "official_seed",
+        "validationState": "PENDING",
+        "remoteUrl": "https://graph.facebook.com/kissfm.es/picture?width=600&height=600"
+      },
+      "accentColor": "#FF6D00",
+      "musicGenres": [
+        "pop",
+        "hits",
+        "remember"
+      ],
+      "isFeatured": false,
+      "sourceSeed": "myTuner",
+      "validation": {
+        "streamState": "PENDING",
+        "logoState": "PENDING",
+        "isOfficialSource": true,
+        "needsManualReview": true
+      }
+    },
+    {
+      "id": "los40_castilla_y_leon",
+      "name": "LOS40 Castilla y León",
+      "shortLabel": "Pop",
+      "categories": [
+        "music",
+        "community"
+      ],
+      "communityId": "castilla_y_leon",
+      "streams": [
+        {
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/Los40.mp3",
+          "formatHint": "audio/mpeg",
+          "qualityLabel": "MP3",
+          "isPrimary": true,
+          "isOfficial": true
+        }
+      ],
+      "logo": {
+        "source": "official_packaged",
+        "validationState": "VERIFIED",
+        "assetPath": "prisa/los40-castilla-y-leon.png"
+      },
+      "accentColor": "#FF5252",
+      "musicGenres": [
+        "pop",
+        "dance",
+        "urban",
+        "hits"
+      ],
+      "isFeatured": true,
+      "sourceSeed": "myTuner",
+      "validation": {
+        "streamState": "PENDING",
+        "logoState": "VERIFIED",
+        "isOfficialSource": true,
+        "needsManualReview": true
+      }
+    },
+    {
+      "id": "rock_fm_castilla_y_leon",
+      "name": "Rock FM Castilla y León",
+      "shortLabel": "Rock",
+      "categories": [
+        "music",
+        "community"
+      ],
+      "communityId": "castilla_y_leon",
+      "streams": [
+        {
+          "url": "https://rockfm-cope.flumotion.com/playlist.m3u8",
+          "formatHint": "application/x-mpegURL",
+          "qualityLabel": "HLS",
+          "isPrimary": true,
+          "isOfficial": true
+        }
+      ],
+      "logo": {
+        "source": "official_packaged",
+        "validationState": "VERIFIED",
+        "assetPath": "cope/rock-fm-castilla-y-leon.png"
+      },
+      "accentColor": "#F97316",
+      "musicGenres": [
+        "rock",
+        "alternative",
+        "classic_hits",
+        "metal"
+      ],
+      "isFeatured": false,
+      "sourceSeed": "myTuner",
+      "validation": {
+        "streamState": "PENDING",
+        "logoState": "VERIFIED",
+        "isOfficialSource": true,
+        "needsManualReview": true
+      }
+    }
+  ]
+}

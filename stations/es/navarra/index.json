@@ -1,0 +1,216 @@
+{
+  "version": 4,
+  "countryCode": "es",
+  "communityId": "navarra",
+  "stations": [
+    {
+      "id": "radio_nacional_navarra",
+      "name": "Radio Nacional Navarra",
+      "shortLabel": "Pública",
+      "categories": [
+        "news",
+        "generalist",
+        "community"
+      ],
+      "communityId": "navarra",
+      "streams": [
+        {
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/nav/mp3/high",
+          "formatHint": "audio/mpeg",
+          "qualityLabel": "MP3",
+          "isPrimary": true,
+          "isOfficial": true
+        }
+      ],
+      "logo": {
+        "source": "official_seed",
+        "validationState": "PENDING",
+        "remoteUrl": "https://graph.facebook.com/radionacionalrne/picture?width=600&height=600"
+      },
+      "accentColor": "#F97316",
+      "musicGenres": [],
+      "isFeatured": true,
+      "sourceSeed": "myTuner",
+      "validation": {
+        "streamState": "PENDING",
+        "logoState": "PENDING",
+        "isOfficialSource": true,
+        "needsManualReview": true
+      }
+    },
+    {
+      "id": "radio_5_navarra",
+      "name": "Radio 5 Navarra",
+      "shortLabel": "Noticias",
+      "categories": [
+        "news",
+        "community"
+      ],
+      "communityId": "navarra",
+      "streams": [
+        {
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/nav/mp3/high",
+          "formatHint": "audio/mpeg",
+          "qualityLabel": "MP3",
+          "isPrimary": true,
+          "isOfficial": true
+        }
+      ],
+      "logo": {
+        "source": "official_seed",
+        "validationState": "PENDING",
+        "remoteUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg"
+      },
+      "accentColor": "#FB923C",
+      "musicGenres": [],
+      "isFeatured": false,
+      "sourceSeed": "myTuner",
+      "validation": {
+        "streamState": "PENDING",
+        "logoState": "PENDING",
+        "isOfficialSource": true,
+        "needsManualReview": true
+      }
+    },
+    {
+      "id": "ser_pamplona",
+      "name": "SER Pamplona",
+      "shortLabel": "Actualidad",
+      "categories": [
+        "news",
+        "generalist",
+        "community"
+      ],
+      "communityId": "navarra",
+      "streams": [
+        {
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_PAMPLONA.mp3",
+          "formatHint": "audio/mpeg",
+          "qualityLabel": "MP3",
+          "isPrimary": true,
+          "isOfficial": true
+        }
+      ],
+      "logo": {
+        "source": "official_packaged",
+        "validationState": "VERIFIED",
+        "assetPath": "prisa/ser-generic.png"
+      },
+      "accentColor": "#2E5BFF",
+      "musicGenres": [],
+      "isFeatured": true,
+      "sourceSeed": "myTuner",
+      "validation": {
+        "streamState": "PENDING",
+        "logoState": "VERIFIED",
+        "isOfficialSource": true,
+        "needsManualReview": true
+      }
+    },
+    {
+      "id": "cope_pamplona",
+      "name": "COPE Pamplona",
+      "shortLabel": "Generalista",
+      "categories": [
+        "news",
+        "sports",
+        "generalist",
+        "community"
+      ],
+      "communityId": "navarra",
+      "streams": [
+        {
+          "url": "https://wecast-bl02.flumotion.com/copesedes/pamplona.mp3",
+          "formatHint": "audio/mpeg",
+          "qualityLabel": "MP3",
+          "isPrimary": true,
+          "isOfficial": true
+        }
+      ],
+      "logo": {
+        "source": "official_packaged",
+        "validationState": "VERIFIED",
+        "assetPath": "cope/cope-generic.png"
+      },
+      "accentColor": "#17A0FF",
+      "musicGenres": [],
+      "isFeatured": false,
+      "sourceSeed": "myTuner",
+      "validation": {
+        "streamState": "PENDING",
+        "logoState": "VERIFIED",
+        "isOfficialSource": true,
+        "needsManualReview": true
+      }
+    },
+    {
+      "id": "onda_cero_pamplona",
+      "name": "Onda Cero Pamplona",
+      "shortLabel": "Actualidad",
+      "categories": [
+        "news",
+        "generalist",
+        "community"
+      ],
+      "communityId": "navarra",
+      "streams": [
+        {
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/pamplona/master.m3u8",
+          "formatHint": "application/x-mpegURL",
+          "qualityLabel": "HLS",
+          "isPrimary": true,
+          "isOfficial": true
+        }
+      ],
+      "logo": {
+        "source": "official_seed",
+        "validationState": "PENDING",
+        "remoteUrl": "https://graph.facebook.com/ondacero/picture?width=600&height=600"
+      },
+      "accentColor": "#1E8E3E",
+      "musicGenres": [],
+      "isFeatured": false,
+      "sourceSeed": "myTuner",
+      "validation": {
+        "streamState": "PENDING",
+        "logoState": "PENDING",
+        "isOfficialSource": true,
+        "needsManualReview": true
+      }
+    },
+    {
+      "id": "radio_universidad_navarra",
+      "name": "Radio Universidad de Navarra",
+      "shortLabel": "Campus",
+      "categories": [
+        "community",
+        "generalist"
+      ],
+      "communityId": "navarra",
+      "streams": [
+        {
+          "url": "https://s2.radio.co/sb23429e9f/listen",
+          "formatHint": "audio/mpeg",
+          "qualityLabel": "MP3",
+          "isPrimary": true,
+          "isOfficial": true
+        }
+      ],
+      "logo": {
+        "source": "official_seed",
+        "validationState": "PENDING",
+        "remoteUrl": "https://graph.facebook.com/radiouniversidaddenavarra/picture?width=600&height=600"
+      },
+      "accentColor": "#8B5CF6",
+      "musicGenres": [],
+      "isFeatured": false,
+      "sourceSeed": "myTuner",
+      "validation": {
+        "streamState": "PENDING",
+        "logoState": "PENDING",
+        "isOfficialSource": true,
+        "needsManualReview": true
+      }
+    }
+  ]
+}

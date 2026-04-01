@@ -1,0 +1,172 @@
+{
+  "version": 3,
+  "communityId": "catalunya",
+  "generatedAt": "2026-04-01T18:45:00Z",
+  "stations": [
+    {
+      "stationId": "catalunya_radio",
+      "streamState": "VERIFIED",
+      "logoState": "PENDING",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T12:00:00Z",
+      "httpStatusCode": 200,
+      "contentType": "application/vnd.apple.mpegurl",
+      "finalStreamUrl": "https://directes-radio-int.3catdirectes.cat/live-content/catalunya-radio-hls/master.m3u8",
+      "protocol": "HLS",
+      "hasPlayableStream": true,
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "logo_asset_missing",
+          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Autonómica principal; falta asset oficial."
+    },
+    {
+      "stationId": "rac1",
+      "streamState": "VERIFIED",
+      "logoState": "PENDING",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T12:00:00Z",
+      "httpStatusCode": 200,
+      "contentType": "audio/mpeg",
+      "finalStreamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/RAC_1.mp3",
+      "protocol": "MP3",
+      "hasPlayableStream": true,
+      "isRedirected": true,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "logo_asset_missing",
+          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
+          "level": "WARNING"
+        },
+        {
+          "code": "stream_redirect",
+          "message": "El stream usa un endpoint de redirect y conviene fijar el destino final.",
+          "level": "INFO"
+        }
+      ],
+      "notes": "Generalista clave para Catalunya."
+    },
+    {
+      "stationId": "ser_barcelona",
+      "streamState": "VERIFIED",
+      "logoState": "VERIFIED",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T18:45:00Z",
+      "httpStatusCode": 200,
+      "contentType": "audio/mpeg",
+      "finalStreamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_BARCELONA.mp3",
+      "protocol": "MP3",
+      "hasPlayableStream": true,
+      "isRedirected": true,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "stream_redirect",
+          "message": "El stream usa un endpoint de redirect y conviene fijar el destino final.",
+          "level": "INFO"
+        }
+      ],
+      "notes": "Logo de marca empaquetado ya en radio-data/assets/logos para SER Barcelona."
+    },
+    {
+      "stationId": "radio_marca_barcelona",
+      "streamState": "PENDING",
+      "logoState": "PENDING",
+      "isOfficialSource": false,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T12:00:00Z",
+      "httpStatusCode": 200,
+      "contentType": "audio/mpeg",
+      "finalStreamUrl": "https://radiomarcabcnmedia.dns-lcinternet.com:9000/stream",
+      "protocol": "MP3",
+      "hasPlayableStream": true,
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "manual_stream_review",
+          "message": "El stream necesita confirmación manual antes de marcarse como estable.",
+          "level": "WARNING"
+        },
+        {
+          "code": "logo_asset_missing",
+          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Mantener en revisión manual hasta confirmar estabilidad. Revisar estabilidad larga, redirects y respuesta del origen."
+    },
+    {
+      "stationId": "cadena100_barcelona",
+      "streamState": "VERIFIED",
+      "logoState": "PENDING",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T12:00:00Z",
+      "httpStatusCode": 200,
+      "contentType": "application/vnd.apple.mpegurl",
+      "finalStreamUrl": "https://cadena100bcn-cope.flumotion.com/playlist.m3u8",
+      "protocol": "HLS",
+      "hasPlayableStream": true,
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "logo_asset_missing",
+          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Semilla musical de hits para Barcelona."
+    },
+    {
+      "stationId": "los40_catalunya",
+      "streamState": "VERIFIED",
+      "logoState": "VERIFIED",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T18:45:00Z",
+      "httpStatusCode": 200,
+      "contentType": "audio/mpeg",
+      "finalStreamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/Los40.mp3",
+      "protocol": "MP3",
+      "hasPlayableStream": true,
+      "isRedirected": true,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "stream_redirect",
+          "message": "El stream usa un endpoint de redirect y conviene fijar el destino final.",
+          "level": "INFO"
+        }
+      ],
+      "notes": "Logo de marca empaquetado ya en radio-data/assets/logos para LOS40."
+    },
+    {
+      "stationId": "rock_fm_barcelona",
+      "streamState": "VERIFIED",
+      "logoState": "VERIFIED",
+      "isOfficialSource": true,
+      "needsManualReview": false,
+      "lastCheckedAt": "2026-04-01T18:45:00Z",
+      "httpStatusCode": 200,
+      "contentType": "application/vnd.apple.mpegurl",
+      "finalStreamUrl": "https://rockfm-barcelona.flumotion.com/playlist.m3u8",
+      "protocol": "HLS",
+      "hasPlayableStream": true,
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [],
+      "notes": "Logo de marca empaquetado ya en radio-data/assets/logos para Rock FM Barcelona."
+    }
+  ]
+}

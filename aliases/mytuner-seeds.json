@@ -1,0 +1,807 @@
+{
+  "version": 4,
+  "seedProvider": "myTuner",
+  "communities": [
+    {
+      "communityId": "euskadi",
+      "items": [
+        {
+          "stationId": "radio_euskadi",
+          "seedName": "Radio Euskadi",
+          "aliases": [
+            "Radio Euskadi"
+          ]
+        },
+        {
+          "stationId": "euskadi_irratia",
+          "seedName": "Euskadi Irratia",
+          "aliases": [
+            "Euskadi Irratia"
+          ]
+        },
+        {
+          "stationId": "gaztea",
+          "seedName": "Gaztea",
+          "aliases": [
+            "Gaztea",
+            "EITB Gaztea"
+          ]
+        },
+        {
+          "stationId": "ser_bilbao",
+          "seedName": "SER Bilbao",
+          "aliases": [
+            "Cadena SER Bilbao",
+            "SER Bilbao"
+          ]
+        },
+        {
+          "stationId": "cope_bilbao",
+          "seedName": "COPE Bilbao",
+          "aliases": [
+            "COPE Bilbao",
+            "COPE País Vasco Bilbao"
+          ]
+        },
+        {
+          "stationId": "los40",
+          "seedName": "LOS40",
+          "aliases": [
+            "LOS40",
+            "Los 40"
+          ]
+        },
+        {
+          "stationId": "rock_fm",
+          "seedName": "Rock FM",
+          "aliases": [
+            "Rock FM",
+            "ROCKFM"
+          ]
+        }
+      ]
+    },
+    {
+      "communityId": "madrid",
+      "items": [
+        {
+          "stationId": "ser_madrid",
+          "seedName": "SER Madrid",
+          "aliases": [
+            "SER Madrid",
+            "Radio Madrid"
+          ]
+        },
+        {
+          "stationId": "cope_madrid",
+          "seedName": "COPE Madrid",
+          "aliases": [
+            "COPE Madrid"
+          ]
+        },
+        {
+          "stationId": "onda_cero_madrid",
+          "seedName": "Onda Cero Madrid",
+          "aliases": [
+            "Onda Cero Madrid"
+          ]
+        },
+        {
+          "stationId": "kiss_fm_madrid",
+          "seedName": "Kiss FM",
+          "aliases": [
+            "Kiss FM"
+          ]
+        }
+      ]
+    },
+    {
+      "communityId": "andalucia",
+      "items": [
+        {
+          "stationId": "canal_sur_sevilla",
+          "seedName": "Canal Sur Radio Sevilla",
+          "aliases": [
+            "Canal Sur Radio Sevilla",
+            "Canal Sur Radio"
+          ]
+        },
+        {
+          "stationId": "rai_andalucia",
+          "seedName": "Radio Andalucía Información",
+          "aliases": [
+            "Radio Andalucía Información",
+            "RAI"
+          ]
+        },
+        {
+          "stationId": "onda_cero_sevilla",
+          "seedName": "Onda Cero Sevilla",
+          "aliases": [
+            "Onda Cero Sevilla"
+          ]
+        },
+        {
+          "stationId": "radio_marca_sevilla",
+          "seedName": "Radio Marca Sevilla",
+          "aliases": [
+            "Radio Marca Sevilla"
+          ]
+        }
+      ]
+    },
+    {
+      "communityId": "catalunya",
+      "items": [
+        {
+          "stationId": "catalunya_radio",
+          "seedName": "Catalunya Ràdio",
+          "aliases": [
+            "Catalunya Ràdio",
+            "Catalunya Radio"
+          ]
+        },
+        {
+          "stationId": "rac1",
+          "seedName": "RAC1",
+          "aliases": [
+            "RAC1"
+          ]
+        },
+        {
+          "stationId": "ser_barcelona",
+          "seedName": "SER Barcelona",
+          "aliases": [
+            "SER Barcelona",
+            "Radio Barcelona"
+          ]
+        },
+        {
+          "stationId": "radio_marca_barcelona",
+          "seedName": "Radio Marca Barcelona",
+          "aliases": [
+            "Radio Marca Barcelona"
+          ]
+        }
+      ]
+    },
+    {
+      "communityId": "galicia",
+      "items": [
+        {
+          "stationId": "radio_galega",
+          "seedName": "Radio Galega",
+          "aliases": [
+            "Radio Galega"
+          ]
+        },
+        {
+          "stationId": "radio_galega_musica",
+          "seedName": "Radio Galega Música",
+          "aliases": [
+            "Radio Galega Música",
+            "Radio Galega Musica"
+          ]
+        },
+        {
+          "stationId": "son_galicia_radio",
+          "seedName": "Son Galicia Radio",
+          "aliases": [
+            "Son Galicia Radio"
+          ]
+        },
+        {
+          "stationId": "radio_marca_vigo",
+          "seedName": "Radio Marca Vigo",
+          "aliases": [
+            "Radio Marca Vigo"
+          ]
+        }
+      ]
+    },
+    {
+      "communityId": "comunitat_valenciana",
+      "items": [
+        {
+          "stationId": "a_punt_radio",
+          "seedName": "À Punt Ràdio",
+          "aliases": [
+            "À Punt Ràdio",
+            "A Punt Radio"
+          ]
+        },
+        {
+          "stationId": "ser_valencia",
+          "seedName": "SER Valencia",
+          "aliases": [
+            "SER Valencia",
+            "Radio Valencia"
+          ]
+        },
+        {
+          "stationId": "cope_valencia",
+          "seedName": "COPE Valencia",
+          "aliases": [
+            "COPE Valencia"
+          ]
+        },
+        {
+          "stationId": "onda_cero_valencia",
+          "seedName": "Onda Cero Valencia",
+          "aliases": [
+            "Onda Cero Valencia"
+          ]
+        },
+        {
+          "stationId": "los40_valencia",
+          "seedName": "LOS40 Valencia",
+          "aliases": [
+            "LOS40 Valencia",
+            "Los 40 Valencia"
+          ]
+        },
+        {
+          "stationId": "rock_fm_valencia",
+          "seedName": "Rock FM Valencia",
+          "aliases": [
+            "Rock FM Valencia"
+          ]
+        }
+      ]
+    },
+    {
+      "communityId": "canarias",
+      "items": [
+        {
+          "stationId": "canarias_radio",
+          "seedName": "Canarias Radio",
+          "aliases": [
+            "Canarias Radio",
+            "Canarias Radio La Autonómica"
+          ]
+        },
+        {
+          "stationId": "ser_las_palmas",
+          "seedName": "SER Las Palmas",
+          "aliases": [
+            "SER Las Palmas"
+          ]
+        },
+        {
+          "stationId": "cope_canarias",
+          "seedName": "COPE Canarias",
+          "aliases": [
+            "COPE Canarias"
+          ]
+        },
+        {
+          "stationId": "onda_cero_tenerife",
+          "seedName": "Onda Cero Tenerife",
+          "aliases": [
+            "Onda Cero Tenerife"
+          ]
+        },
+        {
+          "stationId": "los40_canarias",
+          "seedName": "LOS40 Canarias",
+          "aliases": [
+            "LOS40 Canarias"
+          ]
+        },
+        {
+          "stationId": "rock_fm_canarias",
+          "seedName": "Rock FM Canarias",
+          "aliases": [
+            "Rock FM Canarias"
+          ]
+        }
+      ]
+    },
+    {
+      "communityId": "castilla_y_leon",
+      "items": [
+        {
+          "stationId": "ser_valladolid",
+          "seedName": "SER Valladolid",
+          "aliases": [
+            "SER Valladolid"
+          ]
+        },
+        {
+          "stationId": "cope_valladolid",
+          "seedName": "COPE Valladolid",
+          "aliases": [
+            "COPE Valladolid"
+          ]
+        },
+        {
+          "stationId": "onda_cero_castilla_y_leon",
+          "seedName": "Onda Cero Castilla y León",
+          "aliases": [
+            "Onda Cero Castilla y León",
+            "Onda Cero Castilla y Leon"
+          ]
+        },
+        {
+          "stationId": "kiss_fm_castilla_y_leon",
+          "seedName": "Kiss FM Castilla y León",
+          "aliases": [
+            "Kiss FM Castilla y León",
+            "Kiss FM Castilla y Leon"
+          ]
+        },
+        {
+          "stationId": "los40_castilla_y_leon",
+          "seedName": "LOS40 Castilla y León",
+          "aliases": [
+            "LOS40 Castilla y León",
+            "LOS40 Castilla y Leon"
+          ]
+        },
+        {
+          "stationId": "rock_fm_castilla_y_leon",
+          "seedName": "Rock FM Castilla y León",
+          "aliases": [
+            "Rock FM Castilla y León",
+            "Rock FM Castilla y Leon"
+          ]
+        }
+      ]
+    },
+    {
+      "communityId": "aragon",
+      "items": [
+        {
+          "stationId": "aragon_radio",
+          "seedName": "Aragón Radio",
+          "aliases": [
+            "Aragón Radio",
+            "Aragon Radio"
+          ]
+        },
+        {
+          "stationId": "ser_zaragoza",
+          "seedName": "SER Zaragoza",
+          "aliases": [
+            "SER Zaragoza"
+          ]
+        },
+        {
+          "stationId": "cope_zaragoza",
+          "seedName": "COPE Zaragoza",
+          "aliases": [
+            "COPE Zaragoza"
+          ]
+        },
+        {
+          "stationId": "onda_cero_zaragoza",
+          "seedName": "Onda Cero Zaragoza",
+          "aliases": [
+            "Onda Cero Zaragoza"
+          ]
+        },
+        {
+          "stationId": "los40_zaragoza",
+          "seedName": "LOS40 Zaragoza",
+          "aliases": [
+            "LOS40 Zaragoza"
+          ]
+        },
+        {
+          "stationId": "rock_fm_aragon",
+          "seedName": "Rock FM Aragón",
+          "aliases": [
+            "Rock FM Aragón",
+            "Rock FM Aragon"
+          ]
+        }
+      ]
+    },
+    {
+      "communityId": "asturias",
+      "items": [
+        {
+          "stationId": "rpa",
+          "seedName": "RPA",
+          "aliases": [
+            "RPA",
+            "Radio del Principado de Asturias"
+          ]
+        },
+        {
+          "stationId": "ser_asturias",
+          "seedName": "SER Asturias",
+          "aliases": [
+            "SER Asturias",
+            "Cadena SER Asturias"
+          ]
+        },
+        {
+          "stationId": "cope_asturias",
+          "seedName": "COPE Asturias",
+          "aliases": [
+            "COPE Asturias",
+            "Cadena COPE Asturias"
+          ]
+        },
+        {
+          "stationId": "onda_cero_oviedo",
+          "seedName": "Onda Cero Oviedo",
+          "aliases": [
+            "Onda Cero Oviedo"
+          ]
+        },
+        {
+          "stationId": "radio_marca_asturias",
+          "seedName": "Radio Marca Asturias",
+          "aliases": [
+            "Radio Marca Asturias"
+          ]
+        },
+        {
+          "stationId": "master_fm_asturias",
+          "seedName": "Master FM Asturias",
+          "aliases": [
+            "Master FM Asturias"
+          ]
+        }
+      ]
+    },
+    {
+      "communityId": "cantabria",
+      "items": [
+        {
+          "stationId": "radio_nacional_cantabria",
+          "seedName": "Radio Nacional Cantabria",
+          "aliases": [
+            "Radio Nacional Cantabria",
+            "RNE Cantabria"
+          ]
+        },
+        {
+          "stationId": "radio_5_cantabria",
+          "seedName": "Radio 5 Cantabria",
+          "aliases": [
+            "Radio 5 Cantabria"
+          ]
+        },
+        {
+          "stationId": "ser_santander",
+          "seedName": "SER Santander",
+          "aliases": [
+            "SER Santander",
+            "Cadena SER Santander"
+          ]
+        },
+        {
+          "stationId": "cope_santander",
+          "seedName": "COPE Santander",
+          "aliases": [
+            "COPE Santander",
+            "Cadena COPE Santander"
+          ]
+        },
+        {
+          "stationId": "onda_cero_santander",
+          "seedName": "Onda Cero Santander",
+          "aliases": [
+            "Onda Cero Santander"
+          ]
+        },
+        {
+          "stationId": "radio_foramontanos",
+          "seedName": "Radio Foramontanos",
+          "aliases": [
+            "Radio Foramontanos"
+          ]
+        }
+      ]
+    },
+    {
+      "communityId": "murcia",
+      "items": [
+        {
+          "stationId": "radio_nacional_murcia",
+          "seedName": "Radio Nacional Murcia",
+          "aliases": [
+            "Radio Nacional Murcia",
+            "RNE Murcia"
+          ]
+        },
+        {
+          "stationId": "radio_5_murcia",
+          "seedName": "Radio 5 Murcia",
+          "aliases": [
+            "Radio 5 Murcia"
+          ]
+        },
+        {
+          "stationId": "ser_murcia",
+          "seedName": "SER Murcia",
+          "aliases": [
+            "SER Murcia",
+            "Cadena SER Murcia"
+          ]
+        },
+        {
+          "stationId": "ser_cartagena",
+          "seedName": "SER Cartagena",
+          "aliases": [
+            "SER Cartagena",
+            "Cadena SER Cartagena"
+          ]
+        },
+        {
+          "stationId": "cope_murcia",
+          "seedName": "COPE Murcia",
+          "aliases": [
+            "COPE Murcia",
+            "Cadena COPE Murcia"
+          ]
+        },
+        {
+          "stationId": "onda_cero_murcia",
+          "seedName": "Onda Cero Murcia",
+          "aliases": [
+            "Onda Cero Murcia"
+          ]
+        }
+      ]
+    },
+    {
+      "communityId": "navarra",
+      "items": [
+        {
+          "stationId": "radio_nacional_navarra",
+          "seedName": "Radio Nacional Navarra",
+          "aliases": [
+            "Radio Nacional Navarra",
+            "RNE Navarra"
+          ]
+        },
+        {
+          "stationId": "radio_5_navarra",
+          "seedName": "Radio 5 Navarra",
+          "aliases": [
+            "Radio 5 Navarra"
+          ]
+        },
+        {
+          "stationId": "ser_pamplona",
+          "seedName": "SER Pamplona",
+          "aliases": [
+            "SER Pamplona",
+            "Cadena SER Pamplona"
+          ]
+        },
+        {
+          "stationId": "cope_pamplona",
+          "seedName": "COPE Pamplona",
+          "aliases": [
+            "COPE Pamplona",
+            "Cadena COPE Pamplona"
+          ]
+        },
+        {
+          "stationId": "onda_cero_pamplona",
+          "seedName": "Onda Cero Pamplona",
+          "aliases": [
+            "Onda Cero Pamplona"
+          ]
+        },
+        {
+          "stationId": "radio_universidad_navarra",
+          "seedName": "Radio Universidad de Navarra",
+          "aliases": [
+            "Radio Universidad de Navarra",
+            "Universidad de Navarra Radio"
+          ]
+        }
+      ]
+    },
+    {
+      "communityId": "la_rioja",
+      "items": [
+        {
+          "stationId": "radio_nacional_la_rioja",
+          "seedName": "Radio Nacional La Rioja",
+          "aliases": [
+            "Radio Nacional La Rioja",
+            "RNE La Rioja"
+          ]
+        },
+        {
+          "stationId": "radio_5_la_rioja",
+          "seedName": "Radio 5 La Rioja",
+          "aliases": [
+            "Radio 5 La Rioja"
+          ]
+        },
+        {
+          "stationId": "ser_rioja",
+          "seedName": "SER Rioja",
+          "aliases": [
+            "SER Rioja",
+            "Cadena SER Rioja"
+          ]
+        },
+        {
+          "stationId": "cope_logrono",
+          "seedName": "COPE Logroño",
+          "aliases": [
+            "COPE Logroño",
+            "Cadena COPE Logroño"
+          ]
+        },
+        {
+          "stationId": "onda_cero_rioja",
+          "seedName": "Onda Cero Rioja - Logroño",
+          "aliases": [
+            "Onda Cero Rioja - Logroño"
+          ]
+        },
+        {
+          "stationId": "melodia_fm_rioja",
+          "seedName": "Melodía FM Rioja",
+          "aliases": [
+            "Melodía FM Rioja"
+          ]
+        }
+      ]
+    },
+    {
+      "communityId": "extremadura",
+      "items": [
+        {
+          "stationId": "canal_extremadura_radio",
+          "seedName": "Canal Extremadura Radio",
+          "aliases": [
+            "Canal Extremadura Radio",
+            "Canal Extremadura"
+          ]
+        },
+        {
+          "stationId": "radio_nacional_extremadura",
+          "seedName": "Radio Nacional Extremadura",
+          "aliases": [
+            "Radio Nacional Extremadura",
+            "RNE Extremadura"
+          ]
+        },
+        {
+          "stationId": "ser_extremadura",
+          "seedName": "SER Extremadura",
+          "aliases": [
+            "SER Extremadura",
+            "Cadena SER Extremadura"
+          ]
+        },
+        {
+          "stationId": "ser_merida",
+          "seedName": "SER Mérida",
+          "aliases": [
+            "SER Mérida",
+            "Cadena SER Mérida"
+          ]
+        },
+        {
+          "stationId": "cope_badajoz",
+          "seedName": "COPE Badajoz",
+          "aliases": [
+            "COPE Badajoz",
+            "Cadena COPE Badajoz"
+          ]
+        },
+        {
+          "stationId": "onda_cero_badajoz",
+          "seedName": "Onda Cero Badajoz",
+          "aliases": [
+            "Onda Cero Badajoz"
+          ]
+        }
+      ]
+    },
+    {
+      "communityId": "castilla_la_mancha",
+      "items": [
+        {
+          "stationId": "cmm_radio",
+          "seedName": "CMM Radio",
+          "aliases": [
+            "CMM Radio",
+            "Castilla-La Mancha Media Radio"
+          ]
+        },
+        {
+          "stationId": "radio_nacional_castilla_la_mancha",
+          "seedName": "Radio Nacional Castilla-La Mancha",
+          "aliases": [
+            "Radio Nacional Castilla-La Mancha",
+            "RNE Castilla-La Mancha"
+          ]
+        },
+        {
+          "stationId": "radio_5_castilla_la_mancha",
+          "seedName": "Radio 5 Castilla-La Mancha",
+          "aliases": [
+            "Radio 5 Castilla-La Mancha"
+          ]
+        },
+        {
+          "stationId": "ser_albacete",
+          "seedName": "SER Albacete",
+          "aliases": [
+            "SER Albacete",
+            "Cadena SER Albacete"
+          ]
+        },
+        {
+          "stationId": "cope_toledo",
+          "seedName": "COPE Toledo",
+          "aliases": [
+            "COPE Toledo",
+            "Cadena COPE Toledo"
+          ]
+        },
+        {
+          "stationId": "onda_cero_toledo",
+          "seedName": "Onda Cero Toledo",
+          "aliases": [
+            "Onda Cero Toledo"
+          ]
+        }
+      ]
+    },
+    {
+      "communityId": "illes_balears",
+      "items": [
+        {
+          "stationId": "ib3_radio",
+          "seedName": "IB3 Ràdio",
+          "aliases": [
+            "IB3 Ràdio",
+            "IB3 Radio"
+          ]
+        },
+        {
+          "stationId": "radio_nacional_islas_baleares",
+          "seedName": "Radio Nacional Islas Baleares",
+          "aliases": [
+            "Radio Nacional Islas Baleares",
+            "RNE Islas Baleares"
+          ]
+        },
+        {
+          "stationId": "ser_mallorca",
+          "seedName": "SER Mallorca",
+          "aliases": [
+            "SER Mallorca",
+            "Cadena SER Mallorca"
+          ]
+        },
+        {
+          "stationId": "cope_mallorca",
+          "seedName": "COPE Mallorca",
+          "aliases": [
+            "COPE Mallorca",
+            "Cadena COPE Mallorca"
+          ]
+        },
+        {
+          "stationId": "onda_cero_mallorca",
+          "seedName": "Onda Cero Mallorca",
+          "aliases": [
+            "Onda Cero Mallorca"
+          ]
+        },
+        {
+          "stationId": "ibiza_global_radio",
+          "seedName": "Ibiza Global Radio",
+          "aliases": [
+            "Ibiza Global Radio"
+          ]
+        }
+      ]
+    }
+  ]
+}

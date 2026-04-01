@@ -1,0 +1,155 @@
+{
+  "version": 3,
+  "communityId": "canarias",
+  "generatedAt": "2026-04-01T18:45:00Z",
+  "stations": [
+    {
+      "stationId": "canarias_radio",
+      "streamState": "PENDING",
+      "logoState": "PENDING",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T18:45:00Z",
+      "httpStatusCode": null,
+      "contentType": null,
+      "finalStreamUrl": "https://rtvc-live01.flumotion.com/playlist.m3u8",
+      "protocol": "HLS",
+      "hasPlayableStream": null,
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "seed_pending_validation",
+          "message": "Stream pendiente de validación técnica en esta fase.",
+          "level": "WARNING"
+        },
+        {
+          "code": "logo_asset_missing",
+          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Semilla cargada para ampliar cobertura por comunidad. Falta validación técnica final del stream."
+    },
+    {
+      "stationId": "ser_las_palmas",
+      "streamState": "PENDING",
+      "logoState": "VERIFIED",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T18:45:00Z",
+      "httpStatusCode": null,
+      "contentType": null,
+      "finalStreamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_LAS_PALMAS.mp3",
+      "protocol": "MP3",
+      "hasPlayableStream": null,
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "seed_pending_validation",
+          "message": "Stream pendiente de validación técnica en esta fase.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Semilla cargada para ampliar cobertura por comunidad. Falta validación técnica final del stream. Logo de marca ya empaquetado en radio-data/assets/logos."
+    },
+    {
+      "stationId": "cope_canarias",
+      "streamState": "PENDING",
+      "logoState": "VERIFIED",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T18:45:00Z",
+      "httpStatusCode": null,
+      "contentType": null,
+      "finalStreamUrl": "https://flucast09-h-cloud.flumotion.com/cope/canarias.mp3",
+      "protocol": "MP3",
+      "hasPlayableStream": null,
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "seed_pending_validation",
+          "message": "Stream pendiente de validación técnica en esta fase.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Semilla cargada para ampliar cobertura por comunidad. Falta validación técnica final del stream. Logo de marca ya empaquetado en radio-data/assets/logos."
+    },
+    {
+      "stationId": "onda_cero_tenerife",
+      "streamState": "PENDING",
+      "logoState": "PENDING",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T18:45:00Z",
+      "httpStatusCode": null,
+      "contentType": null,
+      "finalStreamUrl": "https://atres-live.ondacero.es/live/ondacero/master.m3u8",
+      "protocol": "HLS",
+      "hasPlayableStream": null,
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "seed_pending_validation",
+          "message": "Stream pendiente de validación técnica en esta fase.",
+          "level": "WARNING"
+        },
+        {
+          "code": "logo_asset_missing",
+          "message": "Falta exportar el logo oficial a radio-data/assets/logos.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Semilla cargada para ampliar cobertura por comunidad. Falta validación técnica final del stream."
+    },
+    {
+      "stationId": "los40_canarias",
+      "streamState": "PENDING",
+      "logoState": "VERIFIED",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T18:45:00Z",
+      "httpStatusCode": null,
+      "contentType": null,
+      "finalStreamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/Los40.mp3",
+      "protocol": "MP3",
+      "hasPlayableStream": null,
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "seed_pending_validation",
+          "message": "Stream pendiente de validación técnica en esta fase.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Semilla cargada para ampliar cobertura por comunidad. Falta validación técnica final del stream. Logo de marca ya empaquetado en radio-data/assets/logos."
+    },
+    {
+      "stationId": "rock_fm_canarias",
+      "streamState": "PENDING",
+      "logoState": "VERIFIED",
+      "isOfficialSource": true,
+      "needsManualReview": true,
+      "lastCheckedAt": "2026-04-01T18:45:00Z",
+      "httpStatusCode": null,
+      "contentType": null,
+      "finalStreamUrl": "https://rockfm-cope.flumotion.com/playlist.m3u8",
+      "protocol": "HLS",
+      "hasPlayableStream": null,
+      "isRedirected": false,
+      "isGeoRestricted": false,
+      "issues": [
+        {
+          "code": "seed_pending_validation",
+          "message": "Stream pendiente de validación técnica en esta fase.",
+          "level": "WARNING"
+        }
+      ],
+      "notes": "Semilla cargada para ampliar cobertura por comunidad. Falta validación técnica final del stream. Logo de marca ya empaquetado en radio-data/assets/logos."
+    }
+  ]
+}
