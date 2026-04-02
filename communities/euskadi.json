@@ -3,10 +3,10 @@
   "community": "Euskadi",
   "seedSource": "myTuner",
   "seedCount": 129,
-  "playableCount": 65,
-  "verifiedCount": 52,
-  "candidateCount": 15,
-  "pendingCount": 62,
+  "playableCount": 69,
+  "verifiedCount": 55,
+  "candidateCount": 16,
+  "pendingCount": 58,
   "notes": [
     "Remate final de logos: cerrados los 11 que quedaban vacíos usando URLs directas visibles, principalmente desde fichas individuales de myTuner.",
     "myTuner usado como semilla de nombres, categorías y orden inicial.",
@@ -15,7 +15,8 @@
     "La app puede rotar entre varios streams por emisora según prioridad.",
     "Logos visibles reforzados: reemplazadas URLs problemáticas de Facebook Graph por imágenes directas de ficha myTuner cuando la imagen sí renderiza correctamente.",
     "Logos de Euskadi rematados: las 21 entradas que seguían sin imagen visible ya apuntan a URLs directas renderizables, principalmente desde ficha individual de myTuner.",
-    "Nueva pasada de remate: otros 9 logos de Euskadi resueltos desde ficha individual de myTuner para radios locales/online de Bilbao y entorno."
+    "Nueva pasada de remate: otros 9 logos de Euskadi resueltos desde ficha individual de myTuner para radios locales/online de Bilbao y entorno.",
+    "2026-04-02: añadidos streams verificados desde TDTChannels para Radio Marca, Cadena Dial y RNE Radio 3; Radio Llodio pasa a candidate con endpoint OGG inferido desde fmstream y web oficial."
   ],
   "stations": [
     {
@@ -141,7 +142,7 @@
       "seedName": "Radio Marca Nacional",
       "name": "Radio Marca",
       "tagline": "Información y actualidad deportiva",
-      "description": "Cadena deportiva nacional sembrada desde myTuner.",
+      "description": "Cadena deportiva nacional con streams públicos listados en TDTChannels.",
       "category": "Deporte",
       "community": "Euskadi",
       "websiteUrl": "https://www.marca.com/radio.html",
@@ -150,15 +151,30 @@
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 5,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONALAAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONAL.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "cadena-dial",
       "seedName": "Cadena Dial",
       "name": "Cadena Dial",
       "tagline": "Música en español",
-      "description": "Cadena musical nacional sembrada desde myTuner.",
+      "description": "Cadena musical nacional con streams públicos listados en TDTChannels.",
       "category": "Música",
       "community": "Euskadi",
       "musicType": "Pop en español",
@@ -168,8 +184,23 @@
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 6,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIALAAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "rock-fm",
@@ -278,7 +309,7 @@
       "seedName": "RNE Radio 3",
       "name": "RNE Radio 3",
       "tagline": "Cultura y música alternativa",
-      "description": "Cadena pública temática sembrada desde myTuner.",
+      "description": "Canal público temático de RTVE con stream HLS público listado en TDTChannels.",
       "category": "Música",
       "community": "Euskadi",
       "musicType": "Alternativa",
@@ -288,8 +319,16 @@
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 11,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r3_main.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "hit-fm",
@@ -2038,7 +2077,7 @@
       "seedName": "Radio Llodio",
       "name": "Radio Llodio",
       "tagline": "Emisora local de Laudio/Llodio",
-      "description": "Semilla de myTuner; web oficial localizada pero stream pendiente de verificación.",
+      "description": "Emisora local de Laudio/Llodio con web oficial; fmstream publica un endpoint OGG en v2.ayser.net:8000 compatible con su marca, pendiente de validación final.",
       "category": "Noticias",
       "community": "Euskadi",
       "websiteUrl": "https://radiollodio.com/",
@@ -2047,8 +2086,16 @@
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 87,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "OGG candidato",
+          "url": "http://v2.ayser.net:8000/stream.ogg",
+          "format": "ogg",
+          "priority": 1,
+          "source": "fmstream (inferred from public snippet)"
+        }
+      ]
     },
     {
       "id": "sur-20-radio",

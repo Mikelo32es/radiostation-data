@@ -6,10 +6,10 @@ Base de datos inicial para RadioStation.
 
 - Semilla: myTuner Euskadi
 - Entradas sembradas: 129
-- Entradas con stream reproducible cargado: 65
-- Verificadas: 52
-- Candidatas/revisión manual: 15
-- Pendientes de stream/logo oficial: 62
+- Entradas con stream reproducible cargado: 69
+- Verificadas: 55
+- Candidatas/revisión manual: 16
+- Pendientes de stream/logo oficial: 58
 
 ## Mejora aplicada en esta pasada
 
@@ -27,3 +27,5 @@ Base de datos inicial para RadioStation.
 - Las entradas sin stream quedan en la base para seguimiento, pero la app debe priorizar o filtrar las reproducibles.
 
 - 2026-04-02: sustituídos logos problemáticos de RNE Radio 5, Radio Euskadi, Onda Vasca, Euskadi Irratia, Radio Vitoria, Arrate Irratia, Hala Bedi Bat, STZ Irratia, Segura Irratia y Ataun Irratia por URLs directas de imagen de myTuner para mejorar renderizado en app.
+
+- 2026-04-02: añadidos streams verificados desde TDTChannels para Radio Marca, Cadena Dial y RNE Radio 3; Radio Llodio pasa a candidate con endpoint OGG inferido desde fmstream y su web oficial.

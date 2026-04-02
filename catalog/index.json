@@ -1,12 +1,12 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Euskadi rematada en logos: 129 entradas, 65 reproducibles y 129/129 con logoUrl visible.",
+  "syncMessage": "Euskadi avanza en streams: 129 entradas, 69 reproducibles y 129/129 con logoUrl visible.",
   "stats": {
     "seedCount": 129,
-    "playableCount": 65,
-    "verifiedCount": 52,
-    "candidateCount": 15,
-    "pendingCount": 62
+    "playableCount": 69,
+    "verifiedCount": 55,
+    "candidateCount": 16,
+    "pendingCount": 58
   },
   "featuredIds": [
     "los-40-principales",
@@ -46,7 +46,7 @@
       "name": "Euskadi",
       "path": "communities/euskadi.json",
       "seedCount": 129,
-      "playableCount": 65
+      "playableCount": 69
     }
   ]
 }
