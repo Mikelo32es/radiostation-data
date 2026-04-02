@@ -1,0 +1,418 @@
+{
+  "repoName": "radiostation-data",
+  "community": "Madrid",
+  "seedSource": "myTuner",
+  "seedCount": 15,
+  "playableCount": 15,
+  "verifiedCount": 15,
+  "candidateCount": 0,
+  "pendingCount": 0,
+  "notes": [
+    "Alta inicial de Madrid partiendo de myTuner como semilla de nombres, orden y frecuencias de referencia.",
+    "Streams priorizados desde TDTChannels cuando existían entradas públicas verificables; para Libertad FM se añade stream actual visto en RadioCut y fallback histórico público.",
+    "Logos visibles fijados con URLs directas de imagen de myTuner para evitar problemas de renderizado con endpoints de Facebook Graph.",
+    "Todos los IDs de Madrid se han dejado únicos para convivir con Euskadi sin colisiones en la app."
+  ],
+  "stations": [
+    {
+      "id": "onda-madrid",
+      "seedName": "Onda Madrid",
+      "name": "Onda Madrid",
+      "tagline": "Radio pública madrileña",
+      "description": "Emisora pública de la Comunidad de Madrid orientada a información y actualidad madrileña.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.telemadrid.es/emision-en-directo-ondamadrid/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/169/onda-madrid.365edbe5.png",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 1,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS 101.3 FM",
+          "url": "https://live.telemadrid.cross-media.es/6389769037112/eu-central-1/6416060453001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiajI5YjgyLmVncmVzcy5haGc3NmwiLCJhY2NvdW50X2lkIjoiNjQxNjA2MDQ1MzAwMSIsImVobiI6ImxpdmUudGVsZW1hZHJpZC5jcm9zcy1tZWRpYS5lcyIsImlzcyI6ImJsaXZlLXBsYXliYWNrLXNvdXJjZS1hcGkiLCJzdWIiOiJwYXRobWFwdG9rZW4iLCJhdWQiOlsiNjQxNjA2MDQ1MzAwMSJdLCJqdGkiOiI2Mzg5NzY5MDM3MTEyIn0.mSEPQICNIKBAWWzolDpDk6cERGe7k93rkqQunSc6cG4/playlist-hls.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "HLS 106 FM",
+          "url": "https://live.telemadrid.cross-media.es/6389770485112/eu-central-1/6416060453001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiajI5YjgyLmVncmVzcy5haGc3NmwiLCJhY2NvdW50X2lkIjoiNjQxNjA2MDQ1MzAwMSIsImVobiI6ImxpdmUudGVsZW1hZHJpZC5jcm9zcy1tZWRpYS5lcyIsImlzcyI6ImJsaXZlLXBsYXliYWNrLXNvdXJjZS1hcGkiLCJzdWIiOiJwYXRobWFwdG9rZW4iLCJhdWQiOlsiNjQxNjA2MDQ1MzAwMSJdLCJqdGkiOiI2Mzg5NzcwNDg1MTEyIn0.MZsybG7gZngXIa5TKgjC4kKqA5hzM_oyShyMLKKaohQ/playlist-hls.m3u8",
+          "format": "hls",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-madrid-ser",
+      "seedName": "Radio Madrid SER",
+      "name": "Radio Madrid SER",
+      "tagline": "Actualidad generalista desde Madrid",
+      "description": "Edición madrileña de la Cadena SER con información, cultura y deportes dedicados a Madrid.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://cadenaser.com/radio-madrid/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/vu35s4gfskmk.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 2,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_MADRID.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "cadena-cope-madrid",
+      "seedName": "Cadena COPE Madrid",
+      "name": "Cadena COPE Madrid",
+      "tagline": "COPE local de Madrid",
+      "description": "Señal madrileña de COPE en 106.3 FM con programación local y generalista.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.cope.es/directos/madrid",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/1871/cope-madrid.15ded8f3.png",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 3,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://flucast09-h-cloud.flumotion.com/cope/madrid.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-cero-madrid",
+      "seedName": "Onda Cero Madrid",
+      "name": "Onda Cero Madrid",
+      "tagline": "Información y magazines en Madrid",
+      "description": "Señal madrileña de Onda Cero con programación informativa, deportiva y de actualidad.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.ondacero.es/emisoras/comunidad-madrid/madrid/directo/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/168/onda-cero-madrid.eb6cebfc.png",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 4,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://atres-live.ondacero.es/live/ondacero/master.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "esradio",
+      "seedName": "EsRadio",
+      "name": "esRadio",
+      "tagline": "Generalista con señal propia en Madrid",
+      "description": "Cadena generalista de Libertad Digital con frecuencia propia en Madrid, 99.1 FM.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://esradio.libertaddigital.com/directo.html",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/592/esradio.c53d1b9e.png",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 5,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://libertaddigital-radio-live1.flumotion.com/libertaddigital/ld-live1-high.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://libertaddigital-radio-live1.flumotion.com/libertaddigital/ld-live1-high.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "libertad-fm",
+      "seedName": "Libertad FM",
+      "name": "Libertad FM",
+      "tagline": "Radio hablada desde Madrid",
+      "description": "Emisora hablada con frecuencia 107.0 FM en Madrid y señal online pública.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://radiolibertad.es/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/462/libertad-fm.989a605f.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 6,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://endirecto.libertadfm.es/hq-libertadfm.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "RadioCut"
+        },
+        {
+          "label": "MP3 fallback histórico",
+          "url": "http://reserva.libertadfm.es:1935/hq-libertadfm.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "Directorio público"
+        }
+      ]
+    },
+    {
+      "id": "vaughan-radio",
+      "seedName": "Vaughan Radio",
+      "name": "Vaughan Radio",
+      "tagline": "Radio bilingüe para practicar inglés",
+      "description": "Radio online de Grupo Vaughan orientada a aprendizaje y escucha de inglés desde Madrid.",
+      "category": "Educación",
+      "community": "Madrid",
+      "websiteUrl": "https://grupovaughan.com/vaughan-radio/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/abKKbrBjGn.png",
+      "language": "en",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 7,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://vaughanradioweb.streaming-pro.com:8058/vaughanradio.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "top-radio",
+      "seedName": "Top Radio | España",
+      "name": "Top Radio",
+      "tagline": "Música en español desde Madrid",
+      "description": "Emisora musical madrileña en 97.2 FM dedicada a éxitos españoles y latinos.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Pop en español",
+      "websiteUrl": "https://www.topradio.es/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/252/top-radio-spain.8a90733b.png",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 8,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://mdstrm.com/audio/66ec3c9fabba24a0a2e59de8/live.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-intereconomia",
+      "seedName": "Radio Intereconomía",
+      "name": "Radio Intereconomía",
+      "tagline": "Economía y mercados",
+      "description": "Emisora especializada en información económica, financiera y política desde Madrid.",
+      "category": "Economía",
+      "community": "Madrid",
+      "websiteUrl": "https://intereconomia.com/directo/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/WAsBY8S326.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 9,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streaming.intereconomia.com/siliconorg",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "capital-radio",
+      "seedName": "Capital Radio",
+      "name": "Capital Radio",
+      "tagline": "Pura economía",
+      "description": "Radio económica nacida en Madrid con programación de análisis, empresa y mercados.",
+      "category": "Economía",
+      "community": "Madrid",
+      "websiteUrl": "https://www.capitalradio.es/directo",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/671/capital-radio.3bec34e0.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 10,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://mdstrm.com/audio/67d2a8685ae4234de49e40f6/live.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-tentacion",
+      "seedName": "Radio Tentación",
+      "name": "Radio Tentación",
+      "tagline": "Éxitos pop y latinos",
+      "description": "Emisora madrileña en 91.4 FM orientada a éxitos europeos, pop y top 40.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Pop latino",
+      "websiteUrl": "https://www.radiotentacion.com/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/qsx7hlyfbmhr.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 11,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streaming6.locucionar.com:2020/stream/radiotentacion",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "rvk-radio-vallekas",
+      "seedName": "RVK - Radio Vallekas",
+      "name": "RVK - Radio Vallekas",
+      "tagline": "Radio libre de barrio",
+      "description": "Emisora comunitaria de Vallecas con señal online pública y enfoque local.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Alternativa",
+      "websiteUrl": "https://www.radiovallekas.org/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/qJckRLtpwv.png",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 12,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://radio.radiobot.org/listen/rvk/rvk.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-intercontinental",
+      "seedName": "Radio Intercontinental",
+      "name": "Radio Intercontinental",
+      "tagline": "Histórica emisora madrileña",
+      "description": "Emisora histórica de Madrid con programación generalista y musical en 95.4 y 107.8 FM.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://radiointercontinental.com/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/646/radio-intercontinental.06c9c480.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 13,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://cast5.servcast.net/proxy/inter/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-inter",
+      "seedName": "Radio Inter",
+      "name": "Radio Inter",
+      "tagline": "Actualidad global y análisis",
+      "description": "Cadena temática centrada en análisis de noticias, economía y actualidad internacional desde Madrid.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.radiointer.es/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/gagdutEEG4.png",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 14,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://radioserver12.profesionalhosting.com/proxy/pkg156993/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "master-fm-madrid",
+      "seedName": "Master FM Madrid",
+      "name": "Master FM Madrid",
+      "tagline": "Música comercial en Madrid",
+      "description": "Emisora musical madrileña en 93.7 FM con programación orientada a hits y radiofórmula.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Top 40",
+      "websiteUrl": "https://www.lamaster.es/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/vub9xjskyr5j.png",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 15,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://radios.masterfm.es:8000/web24",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    }
+  ]
+}

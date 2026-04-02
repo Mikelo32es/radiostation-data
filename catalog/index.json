@@ -1,44 +1,48 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Euskadi avanza en streams: 129 entradas, 69 reproducibles y 129/129 con logoUrl visible.",
+  "syncMessage": "Euskadi estable y Madrid arranca: 144 entradas, 84 reproducibles y 15 emisoras verificadas nuevas para Madrid.",
   "stats": {
-    "seedCount": 129,
-    "playableCount": 69,
-    "verifiedCount": 57,
+    "seedCount": 144,
+    "playableCount": 84,
+    "verifiedCount": 72,
     "candidateCount": 14,
     "pendingCount": 58
   },
   "featuredIds": [
+    "eitb-radio-euskadi",
+    "onda-vasca",
     "los-40-principales",
     "cadena-100",
-    "los40-classic",
-    "kiss-fm",
     "rock-fm",
-    "rne-radio-nacional",
-    "rne-radio-5",
-    "melodia-fm",
-    "hit-fm",
-    "megastarfm"
+    "onda-madrid",
+    "radio-madrid-ser",
+    "cadena-cope-madrid",
+    "onda-cero-madrid",
+    "esradio",
+    "capital-radio",
+    "top-radio"
   ],
   "trendingIds": [
     "eitb-radio-euskadi",
     "eitb-euskadi-irratia",
     "radio-bilbao-ser",
-    "radio-marca-bilbao",
-    "hala-bedi-bat-107-4",
-    "onda-vasca",
-    "radio-nervion",
-    "eitb-gaztea"
+    "onda-madrid",
+    "radio-madrid-ser",
+    "cadena-cope-madrid",
+    "onda-cero-madrid",
+    "esradio",
+    "radio-intereconomia",
+    "vaughan-radio"
   ],
   "recentIds": [
-    "eitb-radio-euskadi",
-    "onda-vasca",
-    "radio-marca-bilbao",
-    "hala-bedi-bat-107-4",
-    "bizkaia-irratia",
-    "euskadigital",
-    "uribe-fm",
-    "ataun-irratia"
+    "onda-madrid",
+    "radio-madrid-ser",
+    "cadena-cope-madrid",
+    "onda-cero-madrid",
+    "esradio",
+    "libertad-fm",
+    "top-radio",
+    "radio-intereconomia"
   ],
   "communities": [
     {
@@ -47,6 +51,13 @@
       "path": "communities/euskadi.json",
       "seedCount": 129,
       "playableCount": 69
+    },
+    {
+      "id": "madrid",
+      "name": "Madrid",
+      "path": "communities/madrid.json",
+      "seedCount": 15,
+      "playableCount": 15
     }
   ]
 }
