@@ -3,11 +3,16 @@
   "community": "Euskadi",
   "seedSource": "myTuner",
   "seedCount": 129,
-  "playableCount": 53,
+  "playableCount": 63,
   "verifiedCount": 51,
-  "candidateCount": 4,
-  "pendingCount": 74,
-  "notes": "Semillas importadas desde myTuner Euskadi. La app debe mostrar/reproducir primero entradas con stream y usar fallback automático entre múltiples streams.",
+  "candidateCount": 14,
+  "pendingCount": 64,
+  "notes": [
+    "myTuner usado como semilla de nombres, categorías y orden inicial.",
+    "Streams verificados priorizados desde TDTChannels y webs oficiales cuando fue posible.",
+    "Streams añadidos como candidate proceden de directorios públicos y siguen pendientes de validación manual final.",
+    "La app puede rotar entre varios streams por emisora según prioridad."
+  ],
   "stations": [
     {
       "id": "los-40-principales",
@@ -1550,7 +1555,7 @@
       "seedName": "Hitz Funky Radio",
       "name": "Hitz Funky Radio",
       "tagline": "Canal musical temático",
-      "description": "Semilla de myTuner pendiente de verificación oficial.",
+      "description": "Semilla de myTuner con varios endpoints públicos detectados en índices abiertos; pendiente de validación manual final.",
       "category": "Música",
       "community": "Euskadi",
       "musicType": "Funky",
@@ -1558,8 +1563,23 @@
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 67,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Zeno candidato 1",
+          "url": "http://stream.zeno.fm/azgx0ktf4p8uv",
+          "format": "mp3",
+          "priority": 1,
+          "source": "radiobrowser index"
+        },
+        {
+          "label": "Zeno candidato 2",
+          "url": "https://stream.zeno.fm/zcpx195bt7zuv",
+          "format": "mp3",
+          "priority": 2,
+          "source": "RCAST directory"
+        }
+      ]
     },
     {
       "id": "bizkaia-irratia",
@@ -1816,8 +1836,8 @@
       "id": "euskadigital",
       "seedName": "EuskaDigital",
       "name": "EuskaDigital",
-      "tagline": "Radio online temática",
-      "description": "Semilla de myTuner pendiente de verificación oficial.",
+      "tagline": "Tecnología y cultura digital desde Euskadi",
+      "description": "Proyecto radiofónico de la Asociación EuskoNet con mount point público detectado en su servidor Icecast; pendiente de validación final del endpoint exacto.",
       "category": "Música",
       "community": "Euskadi",
       "musicType": "Electrónica",
@@ -1825,8 +1845,24 @@
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 81,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Icecast mount candidato",
+          "url": "https://stream.euskonet.eus/euskadigital",
+          "format": "mp3",
+          "priority": 1,
+          "source": "EuskoNet Icecast"
+        },
+        {
+          "label": "Icecast alternativo candidato",
+          "url": "http://stream.euskonet.eus:8000/euskadigital",
+          "format": "mp3",
+          "priority": 2,
+          "source": "fmstream directory"
+        }
+      ],
+      "websiteUrl": "https://www.euskadigital.eus/"
     },
     {
       "id": "funky-party",
@@ -1849,7 +1885,7 @@
       "seedName": "Ataun Irratia",
       "name": "Ataun Irratia",
       "tagline": "Irratia local de Ataun",
-      "description": "Semilla de myTuner; web oficial localizada pero stream pendiente de verificación.",
+      "description": "Semilla de myTuner con web oficial localizada y stream público detectado en directorios de radio; pendiente de validación manual final.",
       "category": "Noticias",
       "community": "Euskadi",
       "websiteUrl": "https://www.ataun.eus/ataun-irratia",
@@ -1858,15 +1894,23 @@
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 83,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "MP3 candidato",
+          "url": "http://server8.emitironline.com:18572/stream",
+          "format": "mp3",
+          "priority": 1,
+          "source": "fmstream directory"
+        }
+      ]
     },
     {
       "id": "hitz-90s-fm",
       "seedName": "Hitz 90s FM",
       "name": "Hitz 90s FM",
       "tagline": "Canal temático 90s",
-      "description": "Semilla de myTuner pendiente de verificación oficial.",
+      "description": "Semilla de myTuner con dos endpoints públicos detectados en índices abiertos; pendiente de validación manual final.",
       "category": "Música",
       "community": "Euskadi",
       "musicType": "90s",
@@ -1874,8 +1918,24 @@
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 84,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Zeno candidato 1",
+          "url": "http://stream.zeno.fm/1q3dwmd6yf8uv",
+          "format": "mp3",
+          "priority": 1,
+          "source": "radiobrowser index"
+        },
+        {
+          "label": "Zeno candidato 2",
+          "url": "https://stream.zeno.fm/x3sxe2nv0p8uv",
+          "format": "mp3",
+          "priority": 2,
+          "source": "RCAST directory"
+        }
+      ],
+      "websiteUrl": "https://zeno.fm/radio/hitz-90s-fm/"
     },
     {
       "id": "deluxe-radio-varios",
@@ -1989,7 +2049,7 @@
       "seedName": "Hitz 91.0",
       "name": "Hitz 91.0",
       "tagline": "Radio online musical",
-      "description": "Semilla de myTuner pendiente de verificación oficial.",
+      "description": "Semilla de myTuner con stream público localizado en índices abiertos de radios online; pendiente de validación manual final.",
       "category": "Música",
       "community": "Euskadi",
       "musicType": "Hits",
@@ -1997,8 +2057,16 @@
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 91,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Zeno candidato",
+          "url": "http://stream.zeno.fm/f2qmny74gd0uv",
+          "format": "mp3",
+          "priority": 1,
+          "source": "radiobrowser index"
+        }
+      ]
     },
     {
       "id": "bi-music-radio",
@@ -2037,7 +2105,7 @@
       "seedName": "Hitz Africa FM",
       "name": "Hitz Africa FM",
       "tagline": "Radio online musical",
-      "description": "Semilla de myTuner pendiente de verificación oficial.",
+      "description": "Semilla de myTuner con stream público localizado en directorio abierto; pendiente de validación manual final.",
       "category": "Música",
       "community": "Euskadi",
       "musicType": "Afro",
@@ -2045,8 +2113,16 @@
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 94,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "MP3 candidato",
+          "url": "http://ec2.yesstreaming.net:2960/stream",
+          "format": "mp3",
+          "priority": 1,
+          "source": "RCAST directory"
+        }
+      ]
     },
     {
       "id": "siberia-93-8-fm",
@@ -2196,7 +2272,7 @@
       "seedName": "Hitz 91.9 Radio",
       "name": "Hitz 91.9 Radio",
       "tagline": "Radio online musical",
-      "description": "Semilla de myTuner pendiente de verificación oficial.",
+      "description": "Semilla de myTuner con stream público detectado en directorios abiertos; pendiente de validación manual final.",
       "category": "Música",
       "community": "Euskadi",
       "musicType": "Hits",
@@ -2204,8 +2280,17 @@
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 104,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Zeno candidato",
+          "url": "https://node-33.zeno.fm/p9m9tuyap98uv",
+          "format": "mp3",
+          "priority": 1,
+          "source": "RCAST directory"
+        }
+      ],
+      "websiteUrl": "https://zeno.fm/radio/hitz-919-radio-1/"
     },
     {
       "id": "home-and-abroad-fm",
@@ -2244,7 +2329,7 @@
       "seedName": "Hitz 91.5 FM",
       "name": "Hitz 91.5 FM",
       "tagline": "Radio online musical",
-      "description": "Semilla de myTuner pendiente de verificación oficial.",
+      "description": "Semilla de myTuner con varios streams públicos localizados en directorios abiertos; pendiente de validación manual final.",
       "category": "Música",
       "community": "Euskadi",
       "musicType": "Hits",
@@ -2252,8 +2337,23 @@
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 107,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "MP3 candidato 1",
+          "url": "http://ec2.yesstreaming.net:3110/stream",
+          "format": "mp3",
+          "priority": 1,
+          "source": "RCAST directory"
+        },
+        {
+          "label": "Zeno candidato 2",
+          "url": "https://stream.zeno.fm/zskjbd7n200tv",
+          "format": "mp3",
+          "priority": 2,
+          "source": "RCAST snippet"
+        }
+      ]
     },
     {
       "id": "r-b-hit-fm",
@@ -2339,7 +2439,7 @@
       "seedName": "Uribe FM",
       "name": "Uribe FM",
       "tagline": "Emisora local de Uribe",
-      "description": "Semilla de myTuner con referencia local; stream pendiente de verificación.",
+      "description": "Semilla de myTuner con presencia local en Uribe Kosta y stream público localizado en listados abiertos; pendiente de validación manual final.",
       "category": "Noticias",
       "community": "Euskadi",
       "musicType": "Variedad",
@@ -2347,8 +2447,16 @@
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 113,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "MP3 candidato",
+          "url": "http://server8.emitironline.com:10822/radio",
+          "format": "mp3",
+          "priority": 1,
+          "source": "Spain.json directory"
+        }
+      ]
     },
     {
       "id": "bi-fm",
@@ -2623,7 +2731,7 @@
       "seedName": "Hitz Radio 24/7",
       "name": "Hitz Radio 24/7",
       "tagline": "Radio online musical",
-      "description": "Semilla de myTuner pendiente de verificación oficial.",
+      "description": "Semilla de myTuner con stream público detectado en directorios abiertos; pendiente de validación manual final.",
       "category": "Música",
       "community": "Euskadi",
       "musicType": "Hits",
@@ -2631,8 +2739,17 @@
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 127,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "MP3 candidato",
+          "url": "http://live2.rcast.net:9122/stream",
+          "format": "mp3",
+          "priority": 1,
+          "source": "RCAST directory"
+        }
+      ],
+      "websiteUrl": "https://zeno.fm/radio/hitz-radio-24-7/"
     },
     {
       "id": "radio-la-mega",

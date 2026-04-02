@@ -1,12 +1,12 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Euskadi sembrada desde myTuner: 129 entradas, 53 reproducibles con stream detectado.",
+  "syncMessage": "Euskadi ampliada desde myTuner: 129 entradas, 63 reproducibles entre verificadas y candidatas.",
   "stats": {
     "seedCount": 129,
-    "playableCount": 53,
+    "playableCount": 63,
     "verifiedCount": 51,
-    "candidateCount": 4,
-    "pendingCount": 74
+    "candidateCount": 14,
+    "pendingCount": 64
   },
   "featuredIds": [
     "los-40-principales",
@@ -36,7 +36,9 @@
     "radio-marca-bilbao",
     "hala-bedi-bat-107-4",
     "bizkaia-irratia",
-    "naiz-irratia"
+    "euskadigital",
+    "uribe-fm",
+    "ataun-irratia"
   ],
   "communities": [
     {
@@ -44,7 +46,7 @@
       "name": "Euskadi",
       "path": "communities/euskadi.json",
       "seedCount": 129,
-      "playableCount": 53
+      "playableCount": 63
     }
   ]
 }
