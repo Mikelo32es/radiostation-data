@@ -3,10 +3,10 @@
   "community": "Euskadi",
   "seedSource": "myTuner",
   "seedCount": 129,
-  "playableCount": 63,
-  "verifiedCount": 51,
-  "candidateCount": 14,
-  "pendingCount": 64,
+  "playableCount": 65,
+  "verifiedCount": 52,
+  "candidateCount": 15,
+  "pendingCount": 62,
   "notes": [
     "myTuner usado como semilla de nombres, categorías y orden inicial.",
     "Streams verificados priorizados desde TDTChannels y webs oficiales cuando fue posible.",
@@ -937,7 +937,9 @@
       "seedPage": 1,
       "seedRank": 37,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/394/deluxe-radio-flamenco-flow.b01410be.png",
+      "websiteUrl": "https://djmisterion.wixsite.com/deluxeradio"
     },
     {
       "id": "radio-marca-donostia",
@@ -1069,7 +1071,9 @@
       "seedPage": 1,
       "seedRank": 43,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/nmsqf8nydH.jpg",
+      "websiteUrl": "https://hardrockanimals.webnode.es"
     },
     {
       "id": "eitb-musika",
@@ -1334,7 +1338,9 @@
       "seedPage": 1,
       "seedRank": 56,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/821/deluxe-radio-d-rumbas.b01410be.png",
+      "websiteUrl": "https://djmisterion.wixsite.com/deluxeradio"
     },
     {
       "id": "cadena-100-gipuzkoa",
@@ -1489,7 +1495,9 @@
       "seedPage": 2,
       "seedRank": 63,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/825/deluxe-radio-deep-house-spain.b01410be.png",
+      "websiteUrl": "https://djmisterion.wixsite.com/deluxeradio"
     },
     {
       "id": "radio-eibar-ser",
@@ -1547,8 +1555,16 @@
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 66,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://soporte.ikernet.net:6443/listen/segura_irratia/radio.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "Directorio público"
+        }
+      ]
     },
     {
       "id": "hitz-funky-radio",
@@ -1627,7 +1643,9 @@
       "seedPage": 2,
       "seedRank": 69,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/822/deluxe-radio-45-rpm.b01410be.png",
+      "websiteUrl": "https://djmisterion.wixsite.com/deluxeradio"
     },
     {
       "id": "deluxe-radio-house",
@@ -1643,7 +1661,9 @@
       "seedPage": 2,
       "seedRank": 70,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/957/radio-house-spain.5cfbeee1.png",
+      "websiteUrl": "https://djmisterion.wixsite.com/deluxeradio"
     },
     {
       "id": "deluxe-radio-deep-house",
@@ -1659,7 +1679,9 @@
       "seedPage": 2,
       "seedRank": 71,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/824/deluxe-radio-deep-house.b01410be.png",
+      "websiteUrl": "https://djmisterion.wixsite.com/deluxeradio"
     },
     {
       "id": "deluxe-radio-infantil",
@@ -1675,7 +1697,9 @@
       "seedPage": 2,
       "seedRank": 72,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/892/deluxe-radio-infantil.b01410be.png",
+      "websiteUrl": "https://djmisterion.wixsite.com/deluxeradio"
     },
     {
       "id": "deluxe-radio-de-fiesta",
@@ -1691,7 +1715,9 @@
       "seedPage": 2,
       "seedRank": 73,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/823/deluxe-radio-d-fiesta.b01410be.png",
+      "websiteUrl": "https://djmisterion.wixsite.com/deluxeradio"
     },
     {
       "id": "bilbo-hiria-irratia",
@@ -1701,8 +1727,8 @@
       "description": "Radio comunitaria de Bilbao.",
       "category": "Noticias",
       "community": "Euskadi",
-      "websiteUrl": "https://www.bilbohiria.eus/",
-      "logoUrl": "https://graph.facebook.com/bilbohiria/picture?type=large",
+      "websiteUrl": "https://bilbohiria.eus",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/FdXxxNT9wq.png",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
@@ -1783,8 +1809,8 @@
       "description": "Emisora local de Oñati.",
       "category": "Noticias",
       "community": "Euskadi",
-      "websiteUrl": "https://mozoiloirratia.eus/",
-      "logoUrl": "https://graph.facebook.com/mozoiloirratia/picture?type=large",
+      "websiteUrl": "https://mozoiloirratia.eus",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/997/mozoilo-irratia.d5a3cc4f.jpg",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
@@ -1814,7 +1840,9 @@
       "seedPage": 2,
       "seedRank": 79,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/085/hits-1-san-sebastian.c32c4eec.png",
+      "websiteUrl": "https://www.hits1radio.com"
     },
     {
       "id": "deluxe-radio-perreo",
@@ -1951,7 +1979,9 @@
       "seedPage": 2,
       "seedRank": 85,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/362/deluxe-radio-directo.b01410be.png",
+      "websiteUrl": "https://djmisterion.wixsite.com/deluxeradio"
     },
     {
       "id": "radio-formula-hit-castellon-98-3-fm",
@@ -1988,7 +2018,7 @@
       "category": "Noticias",
       "community": "Euskadi",
       "websiteUrl": "https://radiollodio.com/",
-      "logoUrl": "https://radiollodio.com/wp-content/uploads/2024/01/logo-radiollodio.svg",
+      "logoUrl": "https://radiollodio.com/wp-content/uploads/2020/02/LOGO-RADIO-LLODIO-LOGOTIPO-1.png",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
@@ -2042,7 +2072,9 @@
       "seedPage": 2,
       "seedRank": 90,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/040/radio-eurolatina.5e7880cd.png",
+      "websiteUrl": "https://www.radioeurolatina.com"
     },
     {
       "id": "hitz-91-0",
@@ -2082,7 +2114,8 @@
       "seedPage": 2,
       "seedRank": 92,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/305/bi-music-radio.1c469884.jpg"
     },
     {
       "id": "nido-musical-radio",
@@ -2217,7 +2250,9 @@
       "seedPage": 2,
       "seedRank": 100,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/2j6mkk7gt89p.png",
+      "websiteUrl": "https://mytuner-radio.com/es/emisora/enkarterri-irratia-la-voz-del-cadagua-471593/"
     },
     {
       "id": "afrobeat-now-fm",
@@ -2259,13 +2294,14 @@
       "description": "Semilla de myTuner pendiente de verificación oficial.",
       "category": "Noticias",
       "community": "Euskadi",
-      "websiteUrl": "https://radiolidereuskadi.com/",
+      "websiteUrl": "https://www.radiolider.com",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 103,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/909/radio-lider-euskadi.26bb0e16.png"
     },
     {
       "id": "hitz-91-9-radio",
@@ -2385,7 +2421,9 @@
       "seedPage": 2,
       "seedRank": 109,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/781/soft-music-radio.abcc75a4.png",
+      "websiteUrl": "https://www.soft-radio.com"
     },
     {
       "id": "deluxe-radio-mainstage",
@@ -2622,13 +2660,22 @@
       "description": "Semilla de myTuner pendiente de verificación oficial.",
       "category": "Noticias",
       "community": "Euskadi",
-      "websiteUrl": "https://radiogaldakao.eus/",
+      "websiteUrl": "https://www.radiogaldakao.eus/",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 121,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "http://listen.radionomy.com:80/GDKOirratia/;#.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "Sitio oficial"
+        }
+      ],
+      "logoUrl": "https://gdkoirratiacom.wordpress.com/wp-content/uploads/2017/12/cropped-untitled-design-15.png"
     },
     {
       "id": "hala-bedi-bi-88-8",

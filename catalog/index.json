@@ -1,12 +1,12 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Euskadi ampliada desde myTuner: 129 entradas, 63 reproducibles entre verificadas y candidatas.",
+  "syncMessage": "Euskadi rematada: 129 entradas, 65 reproducibles y mejora fuerte de logos.",
   "stats": {
     "seedCount": 129,
-    "playableCount": 63,
-    "verifiedCount": 51,
-    "candidateCount": 14,
-    "pendingCount": 64
+    "playableCount": 65,
+    "verifiedCount": 52,
+    "candidateCount": 15,
+    "pendingCount": 62
   },
   "featuredIds": [
     "los-40-principales",
@@ -46,7 +46,7 @@
       "name": "Euskadi",
       "path": "communities/euskadi.json",
       "seedCount": 129,
-      "playableCount": 63
+      "playableCount": 65
     }
   ]
 }
