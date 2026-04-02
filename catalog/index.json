@@ -1,48 +1,48 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Euskadi estable y Madrid arranca: 144 entradas, 84 reproducibles y 15 emisoras verificadas nuevas para Madrid.",
+  "syncMessage": "Euskadi se mantiene estable y Madrid crece con una segunda tanda local: 162 entradas, 102 reproducibles y 33 emisoras verificadas ya en Madrid.",
   "stats": {
-    "seedCount": 144,
-    "playableCount": 84,
-    "verifiedCount": 72,
+    "seedCount": 162,
+    "playableCount": 102,
+    "verifiedCount": 90,
     "candidateCount": 14,
     "pendingCount": 58
   },
   "featuredIds": [
     "eitb-radio-euskadi",
     "onda-vasca",
-    "los-40-principales",
-    "cadena-100",
-    "rock-fm",
     "onda-madrid",
     "radio-madrid-ser",
     "cadena-cope-madrid",
     "onda-cero-madrid",
     "esradio",
     "capital-radio",
-    "top-radio"
+    "top-radio",
+    "ser-madrid-norte",
+    "sol-radio-madrid",
+    "master-fm-madrid"
   ],
   "trendingIds": [
-    "eitb-radio-euskadi",
-    "eitb-euskadi-irratia",
-    "radio-bilbao-ser",
     "onda-madrid",
     "radio-madrid-ser",
-    "cadena-cope-madrid",
-    "onda-cero-madrid",
-    "esradio",
-    "radio-intereconomia",
-    "vaughan-radio"
+    "ser-henares",
+    "ser-madrid-sur",
+    "onda-cero-madrid-sur",
+    "onda-cero-sierra",
+    "sol-radio-madrid",
+    "la-jungla-radio",
+    "radio-enlace-107-5-fm",
+    "radio-madrid-sierra"
   ],
   "recentIds": [
-    "onda-madrid",
-    "radio-madrid-ser",
-    "cadena-cope-madrid",
-    "onda-cero-madrid",
-    "esradio",
-    "libertad-fm",
-    "top-radio",
-    "radio-intereconomia"
+    "ser-henares",
+    "ser-madrid-norte",
+    "ser-madrid-oeste",
+    "onda-cero-alcala-de-henares",
+    "onda-cero-madrid-sur",
+    "sol-radio-madrid",
+    "onda-aranjuez",
+    "inforadio-ucm"
   ],
   "communities": [
     {
@@ -56,8 +56,8 @@
       "id": "madrid",
       "name": "Madrid",
       "path": "communities/madrid.json",
-      "seedCount": 15,
-      "playableCount": 15
+      "seedCount": 33,
+      "playableCount": 33
     }
   ]
 }
