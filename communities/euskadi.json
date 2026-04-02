@@ -12,7 +12,8 @@
     "Streams verificados priorizados desde TDTChannels y webs oficiales cuando fue posible.",
     "Streams añadidos como candidate proceden de directorios públicos y siguen pendientes de validación manual final.",
     "La app puede rotar entre varios streams por emisora según prioridad.",
-    "Logos visibles reforzados: reemplazadas URLs problemáticas de Facebook Graph por imágenes directas de ficha myTuner cuando la imagen sí renderiza correctamente."
+    "Logos visibles reforzados: reemplazadas URLs problemáticas de Facebook Graph por imágenes directas de ficha myTuner cuando la imagen sí renderiza correctamente.",
+    "Pasada extra de logos: añadidas URLs directas de imagen desde fichas individuales de myTuner en emisoras que seguían sin logo visible."
   ],
   "stations": [
     {
@@ -562,7 +563,8 @@
       "seedPage": 1,
       "seedRank": 22,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/769/free-fm.aa638097.jpg"
     },
     {
       "id": "europa-fm-gipuzkoa",
@@ -782,7 +784,8 @@
       "seedPage": 1,
       "seedRank": 30,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/757/roca-fm.35407fe8.jpg"
     },
     {
       "id": "free-fm-80s",
@@ -798,7 +801,8 @@
       "seedPage": 1,
       "seedRank": 31,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/827/free-fm-80s.16928eb8.png"
     },
     {
       "id": "radio-marca-bilbao",
@@ -1031,7 +1035,8 @@
       "seedPage": 1,
       "seedRank": 41,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/690/free-fm-spain.be1f4c93.jpg"
     },
     {
       "id": "onda-cero-vitoria",
@@ -1116,7 +1121,8 @@
       "seedPage": 1,
       "seedRank": 45,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/714/free-fm-love.c1ba1f4e.jpg"
     },
     {
       "id": "cadena-cope-vitoria",
@@ -1157,7 +1163,8 @@
       "seedPage": 1,
       "seedRank": 47,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/814/free-fm-top-100.dc7b4dc7.jpg"
     },
     {
       "id": "radio-gorbea",
@@ -1239,7 +1246,8 @@
       "seedPage": 1,
       "seedRank": 51,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/020/free-fm-classical.0ef23d56.jpg"
     },
     {
       "id": "kiss-fm-91-6",
@@ -1307,7 +1315,8 @@
       "seedPage": 1,
       "seedRank": 54,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/630/free-fm-chill.f57f67ef.png"
     },
     {
       "id": "free-fm-x-mas",
@@ -1323,7 +1332,8 @@
       "seedPage": 1,
       "seedRank": 55,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/6uzYMVMHad.jpg"
     },
     {
       "id": "deluxe-radio-de-rumbas",
@@ -1415,7 +1425,8 @@
       "seedPage": 1,
       "seedRank": 59,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/680/radio-tropical-spain.9eb2c91b.jpg"
     },
     {
       "id": "free-fm-sports",
@@ -1430,7 +1441,8 @@
       "seedPage": 1,
       "seedRank": 60,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/BtX4kYE4dC.jpg"
     },
     {
       "id": "naiz-irratia",
@@ -1862,7 +1874,8 @@
       "seedPage": 2,
       "seedRank": 80,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/830/deluxe-radio-perreo.b01410be.png"
     },
     {
       "id": "euskadigital",
@@ -2211,7 +2224,8 @@
       "seedPage": 2,
       "seedRank": 97,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/300/deluxe-radio-retro-dance.b01410be.png"
     },
     {
       "id": "city-classic-fm",
@@ -2227,7 +2241,8 @@
       "seedPage": 2,
       "seedRank": 98,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/712/city-classic-fm.011aa8a1.jpg"
     },
     {
       "id": "radio-sbkfm-qguay-europa",
@@ -2449,7 +2464,8 @@
       "seedPage": 2,
       "seedRank": 110,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/108/deluxe-radio-mainstage.b01410be.png"
     },
     {
       "id": "radio-tejina",
@@ -2565,7 +2581,8 @@
       "seedPage": 2,
       "seedRank": 116,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/m6mstp6fmuzc.png"
     },
     {
       "id": "hala-bedi-bat-107-4",
@@ -2734,7 +2751,8 @@
       "seedPage": 3,
       "seedRank": 123,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/vnsktqrftva9.jpeg"
     },
     {
       "id": "fm-blue",
@@ -2807,7 +2825,8 @@
           "source": "RCAST directory"
         }
       ],
-      "websiteUrl": "https://zeno.fm/radio/hitz-radio-24-7/"
+      "websiteUrl": "https://zeno.fm/radio/hitz-radio-24-7/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/879/hitz-radio-247.c3189df4.png"
     },
     {
       "id": "radio-la-mega",
@@ -2823,7 +2842,8 @@
       "seedPage": 3,
       "seedRank": 128,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/2UmsAYxR6h.png"
     },
     {
       "id": "deluxe-radio-sbk",
@@ -2839,7 +2859,9 @@
       "seedPage": 3,
       "seedRank": 129,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/647/deluxe-radio-latino.b01410be.png"
     }
-  ]
+  ],
+  "logoMissingCount": 21
 }
