@@ -4,8 +4,8 @@
   "seedSource": "myTuner",
   "seedCount": 129,
   "playableCount": 69,
-  "verifiedCount": 55,
-  "candidateCount": 16,
+  "verifiedCount": 57,
+  "candidateCount": 14,
   "pendingCount": 58,
   "notes": [
     "Remate final de logos: cerrados los 11 que quedaban vacíos usando URLs directas visibles, principalmente desde fichas individuales de myTuner.",
@@ -16,7 +16,8 @@
     "Logos visibles reforzados: reemplazadas URLs problemáticas de Facebook Graph por imágenes directas de ficha myTuner cuando la imagen sí renderiza correctamente.",
     "Logos de Euskadi rematados: las 21 entradas que seguían sin imagen visible ya apuntan a URLs directas renderizables, principalmente desde ficha individual de myTuner.",
     "Nueva pasada de remate: otros 9 logos de Euskadi resueltos desde ficha individual de myTuner para radios locales/online de Bilbao y entorno.",
-    "2026-04-02: añadidos streams verificados desde TDTChannels para Radio Marca, Cadena Dial y RNE Radio 3; Radio Llodio pasa a candidate con endpoint OGG inferido desde fmstream y web oficial."
+    "2026-04-02: añadidos streams verificados desde TDTChannels para Radio Marca, Cadena Dial y RNE Radio 3; Radio Llodio pasa a candidate con endpoint OGG inferido desde fmstream y web oficial.",
+    "2026-04-02: EuskaDigital y Radio Llodio suben a verified tras nueva comprobación pública de sus endpoints; además se corrigen webs oficiales de Ataun Irratia, Uribe FM y Sorgintxu Irratia."
   ],
   "stations": [
     {
@@ -1602,7 +1603,7 @@
       "seedName": "Segura Irratia",
       "name": "Segura Irratia",
       "tagline": "Irratia local de Segura",
-      "description": "Semilla de myTuner; web oficial localizada pero stream pendiente de verificación.",
+      "description": "Semilla de myTuner con web oficial activa; el stream MP3 público sigue listado en directorios abiertos actuales y queda mantenido como candidato a falta de validación manual final.",
       "category": "Noticias",
       "community": "Euskadi",
       "websiteUrl": "https://segurairratia.eus/",
@@ -1614,11 +1615,11 @@
       "verificationStatus": "candidate",
       "streams": [
         {
-          "label": "MP3 principal",
+          "label": "MP3 candidato",
           "url": "https://soporte.ikernet.net:6443/listen/segura_irratia/radio.mp3",
           "format": "mp3",
           "priority": 1,
-          "source": "Directorio público"
+          "source": "RCast live directory"
         }
       ]
     },
@@ -1925,7 +1926,7 @@
       "seedName": "EuskaDigital",
       "name": "EuskaDigital",
       "tagline": "Tecnología y cultura digital desde Euskadi",
-      "description": "Proyecto radiofónico de la Asociación EuskoNet con mount point público detectado en su servidor Icecast; pendiente de validación final del endpoint exacto.",
+      "description": "Proyecto radiofónico de la Asociación EuskoNet con mount point público /euskadigital visible en su servidor Icecast y programación publicada en su web oficial.",
       "category": "Música",
       "community": "Euskadi",
       "musicType": "Electrónica",
@@ -1933,21 +1934,21 @@
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 81,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": [
         {
-          "label": "Icecast mount candidato",
+          "label": "Icecast principal",
           "url": "https://stream.euskonet.eus/euskadigital",
           "format": "mp3",
           "priority": 1,
-          "source": "EuskoNet Icecast"
+          "source": "EuskaDigital / EuskoNet Icecast"
         },
         {
-          "label": "Icecast alternativo candidato",
+          "label": "Icecast alternativo",
           "url": "http://stream.euskonet.eus:8000/euskadigital",
           "format": "mp3",
           "priority": 2,
-          "source": "fmstream directory"
+          "source": "Directorio público"
         }
       ],
       "websiteUrl": "https://www.euskadigital.eus/",
@@ -1975,10 +1976,10 @@
       "seedName": "Ataun Irratia",
       "name": "Ataun Irratia",
       "tagline": "Irratia local de Ataun",
-      "description": "Semilla de myTuner con web oficial localizada y stream público detectado en directorios de radio; pendiente de validación manual final.",
+      "description": "Semilla de myTuner con web oficial propia activa y presencia de reproductor en directo; se mantiene el stream público detectado como candidato hasta validación manual final.",
       "category": "Noticias",
       "community": "Euskadi",
-      "websiteUrl": "https://www.ataun.eus/ataun-irratia",
+      "websiteUrl": "https://www.ataunirratia.eus/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/910/ataun-irratia.cfa99ffb.png",
       "language": "es",
       "sourceSeed": "myTuner",
@@ -1991,7 +1992,7 @@
           "url": "http://server8.emitironline.com:18572/stream",
           "format": "mp3",
           "priority": 1,
-          "source": "fmstream directory"
+          "source": "Directorio público"
         }
       ]
     },
@@ -2076,8 +2077,8 @@
       "id": "radio-llodio",
       "seedName": "Radio Llodio",
       "name": "Radio Llodio",
-      "tagline": "Emisora local de Laudio/Llodio",
-      "description": "Emisora local de Laudio/Llodio con web oficial; fmstream publica un endpoint OGG en v2.ayser.net:8000 compatible con su marca, pendiente de validación final.",
+      "tagline": "Emisora local de Laudio y Alto Nervión",
+      "description": "Emisora local de Laudio/Llodio con web oficial activa; su página oficial y su perfil oficial en Facebook apuntan al stream OGG público en infraestructura AYSER.",
       "category": "Noticias",
       "community": "Euskadi",
       "websiteUrl": "https://radiollodio.com/",
@@ -2086,14 +2087,14 @@
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 87,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": [
         {
-          "label": "OGG candidato",
+          "label": "OGG principal",
           "url": "http://v2.ayser.net:8000/stream.ogg",
           "format": "ogg",
           "priority": 1,
-          "source": "fmstream (inferred from public snippet)"
+          "source": "Radio Llodio / Facebook oficial"
         }
       ]
     },
@@ -2568,7 +2569,7 @@
       "seedName": "Uribe FM",
       "name": "Uribe FM",
       "tagline": "Emisora local de Uribe",
-      "description": "Semilla de myTuner con presencia local en Uribe Kosta y stream público localizado en listados abiertos; pendiente de validación manual final.",
+      "description": "Emisora local de Uribe Kosta con web oficial activa; se mantiene el stream MP3 público localizado en listados abiertos como candidato hasta validación manual final.",
       "category": "Noticias",
       "community": "Euskadi",
       "musicType": "Variedad",
@@ -2583,10 +2584,11 @@
           "url": "http://server8.emitironline.com:10822/radio",
           "format": "mp3",
           "priority": 1,
-          "source": "Spain.json directory"
+          "source": "RadioCut / directorio público"
         }
       ],
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/t52kemvyftjz.png"
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/t52kemvyftjz.png",
+      "websiteUrl": "https://www.uribefm.com/"
     },
     {
       "id": "bi-fm",
@@ -2809,8 +2811,8 @@
       "id": "sorgintxu-irratia",
       "seedName": "Sorgintxu Irratia",
       "name": "Sorgintxu Irratia",
-      "tagline": "Irratia local",
-      "description": "Semilla de myTuner pendiente de verificación oficial.",
+      "tagline": "La voz de las Enkartaciones",
+      "description": "Emisora local 107.4 FM con web oficial y contacto público verificados; sigue pendiente de localizar un stream público reproducible antes de marcarla como jugable.",
       "category": "Noticias",
       "community": "Euskadi",
       "language": "es",
@@ -2819,7 +2821,8 @@
       "seedRank": 123,
       "verificationStatus": "seeded_pending",
       "streams": [],
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/vnsktqrftva9.jpeg"
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/vnsktqrftva9.jpeg",
+      "websiteUrl": "https://www.sorgintxuirratia.com/"
     },
     {
       "id": "fm-blue",
