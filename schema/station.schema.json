@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RadioStation Station",
+  "type": "object",
+  "required": ["id", "name", "category", "community", "streamUrl"],
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "tagline": { "type": ["string", "null"] },
+    "description": { "type": ["string", "null"] },
+    "category": { "type": "string" },
+    "community": { "type": "string" },
+    "streamUrl": { "type": "string" },
+    "logoUrl": { "type": ["string", "null"] },
+    "musicType": { "type": ["string", "null"] },
+    "language": { "type": ["string", "null"] },
+    "websiteUrl": { "type": ["string", "null"] },
+    "source": { "type": ["string", "null"] },
+    "isVerified": { "type": "boolean" }
+  }
+}

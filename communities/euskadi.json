@@ -1,0 +1,16 @@
+{
+  "community": "Euskadi",
+  "stations": [
+    {
+      "id": "radioeuskadi",
+      "name": "Radio Euskadi",
+      "category": "Noticias",
+      "community": "Euskadi",
+      "streamUrl": "http://mp3-eitb.stream.flumotion.com/eitb/radioeuskadi.mp3",
+      "language": "Español",
+      "websiteUrl": "https://www.eitb.eus/es/radio/radio-euskadi/",
+      "logoUrl": null,
+      "isVerified": true
+    }
+  ]
+}
