@@ -1,4 +1,4 @@
-# radiostatio-data
+# radiostation-data
 
 Base de datos de RadioStation inspirada en la lógica de catálogo de TuneIn:
 
