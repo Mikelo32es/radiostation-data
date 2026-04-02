@@ -1,21 +1,118 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "RadioStation Station",
+  "title": "RadioStation community catalog",
   "type": "object",
-  "required": ["id", "name", "category", "community", "streamUrl"],
+  "required": [
+    "repoName",
+    "community",
+    "seedCount",
+    "stations"
+  ],
   "properties": {
-    "id": { "type": "string" },
-    "name": { "type": "string" },
-    "tagline": { "type": ["string", "null"] },
-    "description": { "type": ["string", "null"] },
-    "category": { "type": "string" },
-    "community": { "type": "string" },
-    "streamUrl": { "type": "string" },
-    "logoUrl": { "type": ["string", "null"] },
-    "musicType": { "type": ["string", "null"] },
-    "language": { "type": ["string", "null"] },
-    "websiteUrl": { "type": ["string", "null"] },
-    "source": { "type": ["string", "null"] },
-    "isVerified": { "type": "boolean" }
+    "repoName": {
+      "type": "string"
+    },
+    "community": {
+      "type": "string"
+    },
+    "seedSource": {
+      "type": "string"
+    },
+    "seedCount": {
+      "type": "integer"
+    },
+    "playableCount": {
+      "type": "integer"
+    },
+    "verifiedCount": {
+      "type": "integer"
+    },
+    "candidateCount": {
+      "type": "integer"
+    },
+    "pendingCount": {
+      "type": "integer"
+    },
+    "stations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "seedName",
+          "name",
+          "category",
+          "community",
+          "verificationStatus",
+          "streams"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "seedName": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "tagline": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string"
+          },
+          "community": {
+            "type": "string"
+          },
+          "musicType": {
+            "type": "string"
+          },
+          "websiteUrl": {
+            "type": "string"
+          },
+          "logoUrl": {
+            "type": "string"
+          },
+          "verificationStatus": {
+            "enum": [
+              "verified",
+              "candidate",
+              "seeded_pending"
+            ]
+          },
+          "streams": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "label",
+                "url"
+              ],
+              "properties": {
+                "label": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "format": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "source": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }

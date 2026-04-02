@@ -1,84 +1,50 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Catálogo GitHub listo para escalar por comunidades y logos oficiales.",
-  "featuredIds": ["radioeuskadi", "cope", "los40"],
-  "trendingIds": ["cadenaser", "los40"],
-  "recentIds": ["radioeuskadi", "ondacero"],
-  "stations": [
+  "syncMessage": "Euskadi sembrada desde myTuner: 129 entradas, 53 reproducibles con stream detectado.",
+  "stats": {
+    "seedCount": 129,
+    "playableCount": 53,
+    "verifiedCount": 51,
+    "candidateCount": 4,
+    "pendingCount": 74
+  },
+  "featuredIds": [
+    "los-40-principales",
+    "cadena-100",
+    "los40-classic",
+    "kiss-fm",
+    "rock-fm",
+    "rne-radio-nacional",
+    "rne-radio-5",
+    "melodia-fm",
+    "hit-fm",
+    "megastarfm"
+  ],
+  "trendingIds": [
+    "eitb-radio-euskadi",
+    "eitb-euskadi-irratia",
+    "radio-bilbao-ser",
+    "radio-marca-bilbao",
+    "hala-bedi-bat-107-4",
+    "onda-vasca",
+    "radio-nervion",
+    "eitb-gaztea"
+  ],
+  "recentIds": [
+    "eitb-radio-euskadi",
+    "onda-vasca",
+    "radio-marca-bilbao",
+    "hala-bedi-bat-107-4",
+    "bizkaia-irratia",
+    "naiz-irratia"
+  ],
+  "communities": [
     {
-      "id": "cadenaser",
-      "name": "Cadena SER",
-      "tagline": "Actualidad, análisis y grandes programas",
-      "description": "Emisora generalista nacional preparada para catálogo GitHub.",
-      "category": "Noticias",
-      "community": "Nacional",
-      "streamUrl": "http://19993.live.streamtheworld.com/CADENASERAAC.aac",
-      "logoUrl": null,
-      "musicType": null,
-      "language": "Español",
-      "websiteUrl": "https://cadenaser.com",
-      "source": "github",
-      "isVerified": false
-    },
-    {
-      "id": "cope",
-      "name": "COPE",
-      "tagline": "Información en directo y foco deportivo",
-      "description": "Emisora nacional con hueco para logo oficial y metadatos ampliados.",
-      "category": "Deporte",
-      "community": "Nacional",
-      "streamUrl": "http://195.55.74.205/cope/net1-low.mp3",
-      "logoUrl": null,
-      "musicType": null,
-      "language": "Español",
-      "websiteUrl": "https://www.cope.es",
-      "source": "github",
-      "isVerified": false
-    },
-    {
-      "id": "ondacero",
-      "name": "Onda Cero",
-      "tagline": "Radio generalista de ámbito estatal",
-      "description": "Emisora nacional disponible en el índice principal.",
-      "category": "Nacional",
-      "community": "Nacional",
-      "streamUrl": "http://icecast-streaming.nice264.com/ondacero",
-      "logoUrl": null,
-      "musicType": null,
-      "language": "Español",
-      "websiteUrl": "https://www.ondacero.es",
-      "source": "github",
-      "isVerified": false
-    },
-    {
-      "id": "los40",
-      "name": "LOS40",
-      "tagline": "Éxitos actuales y ritmo continuo",
-      "description": "Canal musical de referencia con subcategoría Pop.",
-      "category": "Música",
-      "community": "Comunidad de Madrid",
-      "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40AAC.aac",
-      "logoUrl": null,
-      "musicType": "Pop",
-      "language": "Español",
-      "websiteUrl": "https://los40.com",
-      "source": "github",
-      "isVerified": false
-    },
-    {
-      "id": "radioeuskadi",
-      "name": "Radio Euskadi",
-      "tagline": "Información y programas desde Euskadi",
-      "description": "Primera base autonómica priorizada para RadioStation.",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "streamUrl": "http://mp3-eitb.stream.flumotion.com/eitb/radioeuskadi.mp3",
-      "logoUrl": null,
-      "musicType": null,
-      "language": "Español",
-      "websiteUrl": "https://www.eitb.eus/es/radio/radio-euskadi/",
-      "source": "github",
-      "isVerified": true
+      "id": "euskadi",
+      "name": "Euskadi",
+      "path": "communities/euskadi.json",
+      "seedCount": 129,
+      "playableCount": 53
     }
   ]
 }

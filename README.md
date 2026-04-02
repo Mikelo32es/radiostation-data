@@ -1,22 +1,19 @@
 # radiostation-data
 
-Base de datos de RadioStation inspirada en la lógica de catálogo de TuneIn:
+Base de datos inicial para RadioStation.
 
-- **Home** con secciones editoriales como `featuredIds`, `trendingIds` y `recentIds`.
-- **Browse** por categoría (`Noticias`, `Deporte`, `Nacional`, `Música`) y por comunidad.
-- **Escalado por ubicación**: preparados ficheros por comunidad autónoma.
-- **Fichas ricas** de emisora: stream, web, idioma, verificación y logo oficial cuando exista.
-- **Sin bloqueo en la app**: si GitHub falla, RadioStation usa el catálogo local de respaldo.
+## Euskadi
 
-## Estructura inicial
+- Semilla: myTuner Euskadi
+- Entradas sembradas: 129
+- Entradas con stream reproducible cargado: 53
+- Verificadas: 51
+- Candidatas/revisión manual: 4
+- Pendientes de stream/logo oficial: 74
 
-- `catalog/index.json` → índice que consume actualmente la app.
-- `communities/euskadi.json` → ejemplo de partición por comunidad.
-- `schema/station.schema.json` → guía mínima de campos.
+## Criterio de trabajo
 
-## Siguiente fase recomendada
-
-1. Sustituir `logoUrl` nulos por logos oficiales validados.
-2. Crear un JSON por comunidad autónoma.
-3. Añadir categorías musicales y subcategorías.
-4. Añadir metadatos editoriales: prioridad, popularidad, calidad de stream, último chequeo.
+- myTuner se usa solo como semilla de nombres.
+- Los streams y logos se intentan verificar con fuentes públicas, TDTChannels y webs oficiales.
+- La app puede recibir varios streams por emisora y probar el siguiente automáticamente si falla el primero.
+- Las entradas sin stream quedan en la base para seguimiento, pero la app debe priorizar o filtrar las reproducibles.
