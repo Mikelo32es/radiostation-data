@@ -16,8 +16,7 @@
     "Logos visibles reforzados: reemplazadas URLs problemáticas de Facebook Graph por imágenes directas de ficha myTuner cuando la imagen sí renderiza correctamente.",
     "Logos de Euskadi rematados: las 21 entradas que seguían sin imagen visible ya apuntan a URLs directas renderizables, principalmente desde ficha individual de myTuner.",
     "Nueva pasada de remate: otros 9 logos de Euskadi resueltos desde ficha individual de myTuner para radios locales/online de Bilbao y entorno.",
-    "2026-04-02: añadidos streams verificados desde TDTChannels para Radio Marca, Cadena Dial y RNE Radio 3; Radio Llodio pasa a candidate con endpoint OGG inferido desde fmstream y web oficial.",
-    "2026-04-02: remate puntual de incidencias reportadas: logos más estables para RNE Radio 3, Radio Clásica, Gaztea, EITB Musika, Hala Bedi Bi y BI FM; además se añaden fallbacks MP3/HLS para Cadena 100, Rock FM, MegaStar FM, RNE Radio 3, Radio Clásica y BI FM."
+    "2026-04-02: añadidos streams verificados desde TDTChannels para Radio Marca, Cadena Dial y RNE Radio 3; Radio Llodio pasa a candidate con endpoint OGG inferido desde fmstream y web oficial."
   ],
   "stations": [
     {
@@ -79,10 +78,10 @@
         },
         {
           "label": "MP3 alternativo",
-          "url": "http://195.55.74.203/cope/cadena100.mp3",
+          "url": "https://cadena100-cope-rrcast.flumotion.com/cope/cadena100.mp3",
           "format": "mp3",
           "priority": 2,
-          "source": "Directorio público"
+          "source": "FMStream / directorio público"
         }
       ]
     },
@@ -236,10 +235,10 @@
         },
         {
           "label": "MP3 alternativo",
-          "url": "http://195.55.74.203/cope/rockfm.mp3",
+          "url": "https://rockfm-cope-rrcast.flumotion.com/cope/rockfm-low.mp3",
           "format": "mp3",
           "priority": 2,
-          "source": "Directorio público"
+          "source": "FMStream / directorio público"
         }
       ]
     },
@@ -329,7 +328,7 @@
       "community": "Euskadi",
       "musicType": "Alternativa",
       "websiteUrl": "https://www.rtve.es/radio/radio3/",
-      "logoUrl": "https://graph.facebook.com/radio3/picture?width=512&height=512",
+      "logoUrl": "https://graph.facebook.com/radio3/picture?width=400&height=400",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
@@ -337,18 +336,25 @@
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "HLS principal",
+          "label": "HLS principal (Akamai)",
           "url": "https://rtvelivestream.akamaized.net/rtvesec/rne/rne_r3_main.m3u8",
           "format": "hls",
           "priority": 1,
-          "source": "Directorio público actual"
+          "source": "MundoPlus listado público"
         },
         {
-          "label": "HLS alternativo",
+          "label": "HLS alternativo (RTVE)",
           "url": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r3_main.m3u8",
           "format": "hls",
           "priority": 2,
           "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://dispatcher.rndfnk.com/crtve/rner3/main/mp3/high",
+          "format": "mp3",
+          "priority": 3,
+          "source": "listado público RTVE"
         }
       ]
     },
@@ -404,10 +410,10 @@
         },
         {
           "label": "MP3 alternativo",
-          "url": "http://195.55.74.203/cope/megastar.mp3",
+          "url": "https://megastar-cope-rrcast.flumotion.com/cope/megastar.mp3",
           "format": "mp3",
           "priority": 2,
-          "source": "Directorio público"
+          "source": "FMStream / directorio público"
         }
       ]
     },
@@ -421,7 +427,7 @@
       "community": "Euskadi",
       "musicType": "Clásica",
       "websiteUrl": "https://www.rtve.es/radio/radioclasica/",
-      "logoUrl": "https://graph.facebook.com/radioclasicartve/picture?width=512&height=512",
+      "logoUrl": "https://graph.facebook.com/radioclasicartve/picture?width=400&height=400",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
@@ -429,18 +435,25 @@
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "HLS principal",
+          "label": "HLS principal (Akamai)",
           "url": "https://rtvelivestream.akamaized.net/rtvesec/rne/rne_r2_main.m3u8",
           "format": "hls",
           "priority": 1,
-          "source": "Directorio público actual"
+          "source": "MundoPlus listado público"
         },
         {
-          "label": "HLS alternativo",
+          "label": "HLS alternativo (RTVE)",
           "url": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r2_main.m3u8",
           "format": "hls",
           "priority": 2,
           "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://dispatcher.rndfnk.com/crtve/rnerc/main/mp3/high",
+          "format": "mp3",
+          "priority": 3,
+          "source": "listado público RTVE"
         }
       ]
     },
@@ -915,8 +928,8 @@
       "category": "Música",
       "community": "Euskadi",
       "musicType": "Pop",
-      "websiteUrl": "https://gaztea.eus/",
-      "logoUrl": "https://graph.facebook.com/gaztea/picture?width=512&height=512",
+      "websiteUrl": "https://www.eitb.eus/eu/gaztea/",
+      "logoUrl": "https://graph.facebook.com/gaztea/picture?width=400&height=400",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
@@ -1169,7 +1182,7 @@
       "community": "Euskadi",
       "musicType": "Variedad",
       "websiteUrl": "https://www.eitb.eus/es/radio/eitb-musika/",
-      "logoUrl": "https://graph.facebook.com/eitb/picture?width=512&height=512",
+      "logoUrl": "https://graph.facebook.com/eitbmusika/picture?width=400&height=400",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
@@ -1182,6 +1195,13 @@
           "format": "hls",
           "priority": 1,
           "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "http://mp3-eitb.stream.flumotion.com/eitb/eitbmusika.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "listado público EITB"
         }
       ]
     },
@@ -2634,7 +2654,7 @@
       "community": "Euskadi",
       "musicType": "Indie",
       "websiteUrl": "https://www.bifmradio.com/",
-      "logoUrl": "https://graph.facebook.com/bifmradiocom/picture?width=512&height=512",
+      "logoUrl": "https://graph.facebook.com/bifmradiocom/picture?width=400&height=400",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
@@ -2642,17 +2662,10 @@
       "verificationStatus": "candidate",
       "streams": [
         {
-          "label": "Candidato alternativo",
-          "url": "http://radioserver9.profesionalhosting.com:36379",
-          "format": "mp3",
-          "priority": 1,
-          "source": "Directorio público"
-        },
-        {
           "label": "Candidato tercero",
           "url": "http://94.75.234.135:8052/listen.plsmp3",
           "format": "mp3",
-          "priority": 2,
+          "priority": 1,
           "source": "liveradio.ie"
         }
       ]
@@ -2825,7 +2838,7 @@
       "community": "Euskadi",
       "musicType": "Alternativa",
       "websiteUrl": "https://halabedi.eus/irratia/",
-      "logoUrl": "https://graph.facebook.com/HalaBedi/picture?width=512&height=512",
+      "logoUrl": "https://graph.facebook.com/HalaBedi/picture?width=400&height=400",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 3,
