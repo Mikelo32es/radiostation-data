@@ -13,8 +13,8 @@ Base de datos inicial para RadioStation.
 
 ## Mejora aplicada en esta pasada
 
-- Cerrados 30 logos que estaban vacíos en Euskadi con URLs directas y visibles, principalmente desde la ficha individual de cada emisora en myTuner.
-- Quedan 118/129 entradas de Euskadi con `logoUrl` cargado, y 11 pendientes de cerrar.
+- Cerrados los 11 logos que seguían vacíos en Euskadi con URLs directas y visibles.
+- Queda Euskadi con **129/129** entradas con `logoUrl` cargado.
 - La mejora se ha centrado en que los logos realmente se vean en la app, sin inventar marcas ni mezclar imágenes ajenas.
 
 ## Criterio de trabajo

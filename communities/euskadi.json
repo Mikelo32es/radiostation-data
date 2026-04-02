@@ -8,6 +8,7 @@
   "candidateCount": 15,
   "pendingCount": 62,
   "notes": [
+    "Remate final de logos: cerrados los 11 que quedaban vacíos usando URLs directas visibles, principalmente desde fichas individuales de myTuner.",
     "myTuner usado como semilla de nombres, categorías y orden inicial.",
     "Streams verificados priorizados desde TDTChannels y webs oficiales cuando fue posible.",
     "Streams añadidos como candidate proceden de directorios públicos y siguen pendientes de validación manual final.",
@@ -1207,7 +1208,8 @@
       "seedPage": 1,
       "seedRank": 49,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/924/reggae-fm-1.ab6e6bde.jpg"
     },
     {
       "id": "radio-marca-vitoria-gasteiz",
@@ -2079,7 +2081,8 @@
       "seedPage": 2,
       "seedRank": 89,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/5fjwzmhympgq.png"
     },
     {
       "id": "radio-eurolatina-98-4-fm",
@@ -2155,7 +2158,8 @@
       "seedPage": 2,
       "seedRank": 93,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/430/nido-musical-radio.76c33563.png"
     },
     {
       "id": "hitz-africa-fm",
@@ -2196,7 +2200,8 @@
       "seedPage": 2,
       "seedRank": 95,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/238/siberia-938-fm.5bd73ff2.png"
     },
     {
       "id": "dorado-digital-radio",
@@ -2212,7 +2217,8 @@
       "seedPage": 2,
       "seedRank": 96,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/896/dorado-digital-radio.52b71170.png"
     },
     {
       "id": "deluxe-radio-retro-dance",
@@ -2262,7 +2268,8 @@
       "seedPage": 2,
       "seedRank": 99,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/478/radio-sbkfm-qguay-europa.446bd38b.jpg"
     },
     {
       "id": "enkarterri-irratia-la-voz-del-cadagua",
@@ -2312,7 +2319,8 @@
       "seedPage": 2,
       "seedRank": 102,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/799/radio-tx.a91a49fd.png"
     },
     {
       "id": "radio-lider-euskadi",
@@ -2488,7 +2496,8 @@
       "seedPage": 2,
       "seedRank": 111,
       "verificationStatus": "candidate",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/km9h9w4j6uxx.png"
     },
     {
       "id": "rock-hitz-fm",
@@ -2688,7 +2697,8 @@
       "seedPage": 2,
       "seedRank": 120,
       "verificationStatus": "candidate",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/v98yaw7krmln.png"
     },
     {
       "id": "radio-galdakao",
@@ -2778,7 +2788,8 @@
       "seedPage": 3,
       "seedRank": 124,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/pmuefugtke3s.png"
     },
     {
       "id": "radio-yayico-2020",
@@ -2794,7 +2805,8 @@
       "seedPage": 3,
       "seedRank": 125,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static.mytuner.mobi/media/tvos_radios/qu2tgh78pwzh.png"
     },
     {
       "id": "okuns-live-radio-fm",

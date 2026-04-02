@@ -1,6 +1,6 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Euskadi rematada mejor: 129 entradas, 65 reproducibles y solo 11 logos pendientes de cerrar.",
+  "syncMessage": "Euskadi rematada en logos: 129 entradas, 65 reproducibles y 129/129 con logoUrl visible.",
   "stats": {
     "seedCount": 129,
     "playableCount": 65,
