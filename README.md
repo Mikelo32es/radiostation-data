@@ -13,14 +13,13 @@ Base de datos inicial para RadioStation.
 
 ## Mejora aplicada en esta pasada
 
-- Remate de logos faltantes con prioridad para emisoras locales y fichas concretas de myTuner.
-- Refuerzo de logos en radios locales como Radio Galdakao, Radio Llodio, Radio Líder Euskadi, Bilbo Hiria Irratia, Mozoilo Irratia y Enkarterri Irratia.
-- Alta de stream reproducible para Radio Galdakao.
-- Alta de stream candidato para Segura Irratia.
+- Sustituidas las URLs problemáticas de `graph.facebook.com` por imágenes directas y visibles de ficha individual en myTuner cuando esa imagen sí renderiza correctamente.
+- Refuerzo adicional de logos en emisoras candidatas o locales como EuskaDigital, Uribe FM, Urban FM, Hitz Funky Radio, Hitz 90s FM, Hitz 91.0, Hitz 91.5 FM, Hitz 91.9 Radio y Hitz Africa FM.
+- La mejora se ha centrado en que los logos realmente se vean en la app, sin inventar marcas ni mezclar imágenes ajenas.
 
 ## Criterio de trabajo
 
-- myTuner se usa solo como semilla de nombres.
+- myTuner se usa como semilla de nombres y también como apoyo visual cuando el logo público estable de la emisora no renderiza bien desde otras fuentes.
 - Los streams y logos se intentan verificar con fuentes públicas, TDTChannels y webs oficiales.
 - Cuando una web oficial no expone una imagen estable, se toma como apoyo la ficha individual de la emisora en myTuner.
 - Cuando no aparece un endpoint oficial claro, pero sí un stream público consistente en directorios abiertos, la emisora pasa a `candidate` y no a `verified`.
