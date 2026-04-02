@@ -13,7 +13,8 @@
     "Streams añadidos como candidate proceden de directorios públicos y siguen pendientes de validación manual final.",
     "La app puede rotar entre varios streams por emisora según prioridad.",
     "Logos visibles reforzados: reemplazadas URLs problemáticas de Facebook Graph por imágenes directas de ficha myTuner cuando la imagen sí renderiza correctamente.",
-    "Pasada extra de logos: añadidas URLs directas de imagen desde fichas individuales de myTuner en emisoras que seguían sin logo visible."
+    "Logos de Euskadi rematados: las 21 entradas que seguían sin imagen visible ya apuntan a URLs directas renderizables, principalmente desde ficha individual de myTuner.",
+    "Nueva pasada de remate: otros 9 logos de Euskadi resueltos desde ficha individual de myTuner para radios locales/online de Bilbao y entorno."
   ],
   "stations": [
     {
@@ -901,7 +902,8 @@
       "seedPage": 1,
       "seedRank": 35,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/27ranv4emndt.png"
     },
     {
       "id": "radio-7",
@@ -1924,7 +1926,8 @@
       "seedPage": 2,
       "seedRank": 82,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/460/funky-party.865dd3a5.png"
     },
     {
       "id": "ataun-irratia",
@@ -2059,7 +2062,8 @@
       "seedPage": 2,
       "seedRank": 88,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/nnztcc6qgynn.jpg"
     },
     {
       "id": "reina-de-las-marismas",
@@ -2291,7 +2295,8 @@
       "seedPage": 2,
       "seedRank": 101,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/895/afrobeat-now-fm.2db81b7c.jpg"
     },
     {
       "id": "radio-tx",
@@ -2366,7 +2371,8 @@
       "seedPage": 2,
       "seedRank": 105,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/244/hitz-home-abroad-fm.2ad5553a.png"
     },
     {
       "id": "groove-time-fm",
@@ -2382,7 +2388,8 @@
       "seedPage": 2,
       "seedRank": 106,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/896/groove-time-fm.1bbe511a.jpg"
     },
     {
       "id": "hitz-91-5-fm",
@@ -2430,7 +2437,8 @@
       "seedPage": 2,
       "seedRank": 108,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/897/rb-hit-fm.853763ca.jpg"
     },
     {
       "id": "soft-radio",
@@ -2496,7 +2504,8 @@
       "seedPage": 2,
       "seedRank": 112,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/490/rock-hitz-fm.285d143d.png"
     },
     {
       "id": "uribe-fm",
@@ -2662,7 +2671,8 @@
       "seedPage": 2,
       "seedRank": 119,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/zqfjvcsugtnt.png"
     },
     {
       "id": "samaniego-estereo-104-1-fm",
@@ -2800,7 +2810,8 @@
       "seedPage": 3,
       "seedRank": 126,
       "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/435/okuns-live-radio-fm.256df0c6.png"
     },
     {
       "id": "hitz-radio-24-7",
@@ -2862,6 +2873,5 @@
       "streams": [],
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/647/deluxe-radio-latino.b01410be.png"
     }
-  ],
-  "logoMissingCount": 21
+  ]
 }

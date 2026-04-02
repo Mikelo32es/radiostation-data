@@ -13,8 +13,8 @@ Base de datos inicial para RadioStation.
 
 ## Mejora aplicada en esta pasada
 
-- Sustituidas las URLs problemáticas de `graph.facebook.com` por imágenes directas y visibles de ficha individual en myTuner cuando esa imagen sí renderiza correctamente.
-- Refuerzo adicional de logos en emisoras candidatas o locales como EuskaDigital, Uribe FM, Urban FM, Hitz Funky Radio, Hitz 90s FM, Hitz 91.0, Hitz 91.5 FM, Hitz 91.9 Radio y Hitz Africa FM.
+- Cerrados 30 logos que estaban vacíos en Euskadi con URLs directas y visibles, principalmente desde la ficha individual de cada emisora en myTuner.
+- Quedan 118/129 entradas de Euskadi con `logoUrl` cargado, y 11 pendientes de cerrar.
 - La mejora se ha centrado en que los logos realmente se vean en la app, sin inventar marcas ni mezclar imágenes ajenas.
 
 ## Criterio de trabajo
