@@ -25,3 +25,5 @@ Base de datos inicial para RadioStation.
 - Cuando no aparece un endpoint oficial claro, pero sí un stream público consistente en directorios abiertos, la emisora pasa a `candidate` y no a `verified`.
 - La app puede recibir varios streams por emisora y probar el siguiente automáticamente si falla el primero.
 - Las entradas sin stream quedan en la base para seguimiento, pero la app debe priorizar o filtrar las reproducibles.
+
+- 2026-04-02: sustituídos logos problemáticos de RNE Radio 5, Radio Euskadi, Onda Vasca, Euskadi Irratia, Radio Vitoria, Arrate Irratia, Hala Bedi Bat, STZ Irratia, Segura Irratia y Ataun Irratia por URLs directas de imagen de myTuner para mejorar renderizado en app.
