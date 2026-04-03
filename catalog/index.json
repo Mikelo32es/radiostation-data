@@ -1,14 +1,22 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Euskadi se mantiene estable y Madrid queda prácticamente cerrada: 186 entradas, 126 reproducibles y 57 emisoras verificadas ya en Madrid.",
+  "syncMessage": "Euskadi se mantiene estable y Madrid gana cadenas conocidas/mainstream: 201 entradas, 141 reproducibles y 72 emisoras verificadas ya en Madrid.",
   "stats": {
-    "seedCount": 186,
-    "playableCount": 126,
-    "verifiedCount": 112,
+    "seedCount": 201,
+    "playableCount": 141,
+    "verifiedCount": 127,
     "candidateCount": 16,
     "pendingCount": 58
   },
   "featuredIds": [
+    "los40",
+    "cadena-100",
+    "rock-fm",
+    "kiss-fm",
+    "europa-fm",
+    "radio-marca",
+    "cadena-dial",
+    "los40-classic",
     "esencia-radio",
     "espacio-4-fm",
     "onda-vallekana",
@@ -16,47 +24,39 @@
     "pozuelo-radio",
     "eitb-radio-euskadi",
     "onda-vasca",
-    "onda-madrid",
-    "radio-madrid-ser",
-    "cadena-cope-madrid",
-    "onda-cero-madrid",
-    "radio-nacional-madrid",
-    "radio-5-madrid",
-    "esradio",
-    "capital-radio",
-    "top-radio"
+    "onda-madrid"
   ],
   "trendingIds": [
+    "los40",
+    "rock-fm",
+    "cadena-100",
+    "kiss-fm",
+    "europa-fm",
+    "radio-marca",
+    "los40-classic",
+    "megastar-fm",
     "esencia-radio",
     "espacio-4-fm",
     "rec-radio",
     "onda-vallekana",
     "onda-madrid",
-    "radio-madrid-ser",
-    "ser-henares",
-    "ser-madrid-sur",
-    "onda-cero-madrid-sur",
-    "sol-radio-madrid",
-    "radio-nacional-madrid",
-    "radio-5-madrid",
-    "peperadio",
-    "radio-ciguena"
+    "radio-madrid-ser"
   ],
   "recentIds": [
-    "radio-espana-network",
-    "espacio-4-fm",
-    "esencia-radio",
-    "rec-radio",
-    "pozuelo-radio",
-    "onda-vallekana",
-    "radio-nacional-madrid",
-    "radio-5-madrid",
-    "el-salto-radio",
-    "dynamis-radio",
-    "unika-fm",
-    "radio-romanul",
-    "radio-ciguena",
-    "radio-utopia"
+    "los40",
+    "cadena-100",
+    "rock-fm",
+    "kiss-fm",
+    "europa-fm",
+    "cadena-dial",
+    "radio-marca",
+    "los40-classic",
+    "loca-fm",
+    "hit-fm",
+    "melodia-fm",
+    "megastar-fm",
+    "los40-urban",
+    "los40-dance"
   ],
   "communities": [
     {
@@ -70,8 +70,8 @@
       "id": "madrid",
       "name": "Madrid",
       "path": "communities/madrid.json",
-      "seedCount": 57,
-      "playableCount": 57
+      "seedCount": 72,
+      "playableCount": 72
     }
   ]
 }
