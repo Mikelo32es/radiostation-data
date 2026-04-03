@@ -2,11 +2,11 @@
   "repoName": "radiostation-data",
   "syncMessage": "Euskadi se mantiene estable y Madrid gana una tanda grande de pulido y ampliación: 235 entradas, 175 reproducibles y 106 emisoras verificadas ya en Madrid.",
   "stats": {
-    "seedCount": 235,
-    "playableCount": 175,
-    "verifiedCount": 161,
-    "candidateCount": 16,
-    "pendingCount": 60
+    "seedCount": 321,
+    "playableCount": 261,
+    "verifiedCount": 243,
+    "candidateCount": 20,
+    "pendingCount": 58
   },
   "featuredIds": [
     "mariskalrock-radio",
@@ -74,6 +74,13 @@
       "path": "communities/madrid.json",
       "seedCount": 106,
       "playableCount": 106
+    },
+    {
+      "id": "andalucia",
+      "name": "Andalucía",
+      "path": "communities/andalucia.json",
+      "seedCount": 99,
+      "playableCount": 99
     }
   ]
 }
