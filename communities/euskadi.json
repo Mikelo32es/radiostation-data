@@ -3105,6 +3105,32 @@
       "verificationStatus": "seeded_pending",
       "streams": [],
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/647/deluxe-radio-latino.b01410be.png"
+    },
+    {
+      "id": "waiting-room",
+      "seedName": "Waiting Room",
+      "name": "Waiting Room",
+      "tagline": "Music for your senses",
+      "description": "Canal musical online presente en la semilla de myTuner. Directorios públicos lo sitúan en Bizkaia, aunque otros lo etiquetan como Madrid; se incorpora a Euskadi como candidato reproducible pendiente de validación manual final.",
+      "category": "Música",
+      "community": "Euskadi",
+      "musicType": "Chillout",
+      "websiteUrl": "https://www.thewaitingroom.com/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/757/waiting-room.4f126cec.png",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 3,
+      "seedRank": 130,
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "AAC candidato",
+          "url": "https://streaming.coolmusicradio.com/listen/waiting-room/radio",
+          "format": "aac",
+          "priority": 1,
+          "source": "RadioBox / Cool Music Radio"
+        }
+      ]
     }
   ]
 }
