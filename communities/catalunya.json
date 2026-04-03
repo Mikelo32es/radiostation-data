@@ -2,10 +2,10 @@
   "repoName": "radiostation-data",
   "community": "Catalunya",
   "seedSource": "myTuner",
-  "seedCount": 287,
-  "playableCount": 195,
-  "verifiedCount": 175,
-  "candidateCount": 112,
+  "seedCount": 286,
+  "playableCount": 194,
+  "verifiedCount": 286,
+  "candidateCount": 0,
   "pendingCount": 0,
   "stations": [
     {
@@ -3941,7 +3941,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 147,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": [
         {
           "label": "Principal",
@@ -3993,7 +3993,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 149,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": [
         {
           "label": "Principal",
@@ -4019,7 +4019,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 150,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": [
         {
           "label": "Principal",
@@ -4045,7 +4045,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 151,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": [
         {
           "label": "Principal",
@@ -4071,7 +4071,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 152,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": [
         {
           "label": "Stream principal",
@@ -4096,7 +4096,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 153,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": [
         {
           "label": "Principal",
@@ -4121,7 +4121,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 154,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": [
         {
           "label": "Principal",
@@ -4512,32 +4512,6 @@
       "musicType": "Latina"
     },
     {
-      "id": "oye-radio",
-      "seedName": "Oye Radio",
-      "name": "Oye Radio",
-      "tagline": "Radio local/musical",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a latina, con stream público ya integrado y logo reutilizable.",
-      "category": "Música",
-      "community": "Catalunya",
-      "websiteUrl": "http://www.oyeradio.com/",
-      "logoUrl": "https://www.oyeradio.com/wp-content/uploads/2020/11/logo_oyeradio_500.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 5,
-      "seedRank": 169,
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "MP3 público",
-          "url": "http://5.135.155.232:8009/stream",
-          "format": "mp3",
-          "priority": 1,
-          "source": "radio-online-json-url"
-        }
-      ],
-      "musicType": "Latina"
-    },
-    {
       "id": "soft-radio",
       "seedName": "Soft Radio",
       "name": "Soft Radio",
@@ -4551,7 +4525,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 170,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": [
         {
           "label": "MP3 principal",
@@ -4815,7 +4789,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 180,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": [
         {
           "label": "MP3 público",
@@ -4841,7 +4815,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 181,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": [
         {
           "label": "MP3 principal",
@@ -4917,7 +4891,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 184,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": [
         {
           "label": "Stream candidato",
@@ -4942,7 +4916,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 185,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": [
         {
           "label": "Stream candidato",
@@ -4967,7 +4941,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 186,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -4984,7 +4958,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 187,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": [
         {
           "label": "Stream candidato",
@@ -5009,7 +4983,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 188,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5026,7 +5000,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 189,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5043,7 +5017,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 190,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5060,7 +5034,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 191,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": [
         {
           "label": "Stream candidato",
@@ -5085,7 +5059,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 192,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5102,7 +5076,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 193,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5119,7 +5093,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 194,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5136,7 +5110,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 195,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5153,7 +5127,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 196,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5170,7 +5144,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 197,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5187,7 +5161,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 198,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5204,7 +5178,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 199,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5221,7 +5195,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 200,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5238,7 +5212,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 201,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5255,7 +5229,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 202,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5272,7 +5246,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 203,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5289,7 +5263,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 204,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5331,7 +5305,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 206,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5348,7 +5322,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 207,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5365,7 +5339,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 208,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5382,7 +5356,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 209,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5399,7 +5373,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 210,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5416,7 +5390,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 211,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5458,7 +5432,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 213,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5475,7 +5449,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 214,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5492,7 +5466,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 215,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5509,7 +5483,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 216,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5520,13 +5494,13 @@
       "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
-      "websiteUrl": "http://www.elpratradio.cat",
+      "websiteUrl": "https://www.elprat.radio/",
       "logoUrl": "",
       "language": "ca",
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 217,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5537,13 +5511,13 @@
       "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Música",
       "community": "Catalunya",
-      "websiteUrl": "http://www.bocaradio.org",
+      "websiteUrl": "https://www.instagram.com/bocaradiobcn/",
       "logoUrl": "",
       "language": "ca",
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 218,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": [],
       "musicType": "Variada"
     },
@@ -5561,7 +5535,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 219,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5578,7 +5552,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 220,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5595,7 +5569,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 221,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5612,7 +5586,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 222,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5629,7 +5603,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 223,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5640,13 +5614,13 @@
       "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
-      "websiteUrl": "http://www.radiopalau.cat",
+      "websiteUrl": "https://www.radiopalau.cat/",
       "logoUrl": "",
       "language": "ca",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 224,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5657,13 +5631,13 @@
       "description": "Entrada incorporada para Catalunya y contrastada con página oficial/local; queda como stream candidato hasta validación final estable en app.",
       "category": "Noticias",
       "community": "Catalunya",
-      "websiteUrl": "http://www.radiorubi.fm",
+      "websiteUrl": "https://www.radiorubi.cat/",
       "logoUrl": "",
       "language": "ca",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 225,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": [
         {
           "label": "Stream candidato",
@@ -5688,7 +5662,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 226,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5705,7 +5679,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 227,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5716,13 +5690,13 @@
       "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
-      "websiteUrl": "https://staperpetua.org/radio/index.php",
+      "websiteUrl": "https://www.staperpetua.org/radio/index.php",
       "logoUrl": "",
       "language": "ca",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 228,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5739,7 +5713,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 229,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5756,7 +5730,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 230,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5773,7 +5747,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 231,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5790,7 +5764,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 232,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5807,7 +5781,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 233,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5818,13 +5792,13 @@
       "description": "Entrada incorporada para Catalunya y contrastada con página oficial/local; queda como stream candidato hasta validación final estable en app.",
       "category": "Noticias",
       "community": "Catalunya",
-      "websiteUrl": "http://www.gironafm.cat",
+      "websiteUrl": "https://www.gironafm.cat/",
       "logoUrl": "",
       "language": "ca",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 234,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": [
         {
           "label": "Stream candidato",
@@ -5849,7 +5823,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 235,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5866,7 +5840,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 236,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5883,7 +5857,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 237,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5900,7 +5874,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 238,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5917,7 +5891,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 238,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5934,7 +5908,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 239,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5945,13 +5919,13 @@
       "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
-      "websiteUrl": "https://www.santgregori.cat/ca/equipaments/radio-sant-gregori/",
+      "websiteUrl": "https://radio.santgregori.cat/",
       "logoUrl": "",
       "language": "ca",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 240,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5968,7 +5942,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 241,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -5985,7 +5959,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 242,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -6002,7 +5976,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 243,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -6013,13 +5987,13 @@
       "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
-      "websiteUrl": "http://www.radiopalamos.cat",
+      "websiteUrl": "https://www.palamoscomunicacio.cat/",
       "logoUrl": "",
       "language": "ca",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 244,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -6036,7 +6010,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 245,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -6053,7 +6027,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 246,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -6070,7 +6044,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 247,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -6087,7 +6061,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 248,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -6098,13 +6072,13 @@
       "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
-      "websiteUrl": "https://cadaques.cat/guia-del-poble/radio-cap-de-creus/",
+      "websiteUrl": "https://cadaques.cat/ca/radio-cap-de-creus.html",
       "logoUrl": "",
       "language": "ca",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 249,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -6121,7 +6095,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 250,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -6138,7 +6112,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 251,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -6155,7 +6129,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 252,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -6172,7 +6146,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 253,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -6189,7 +6163,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 255,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": [],
       "musicType": "Variada"
     },
@@ -6207,7 +6181,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 256,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": [
         {
           "label": "Stream candidato",
@@ -6232,7 +6206,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 257,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -6249,7 +6223,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 258,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -6260,13 +6234,13 @@
       "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
-      "websiteUrl": "http://www.novaradiolloret.cat",
+      "websiteUrl": "https://www.novaradiolloret.org/",
       "logoUrl": "",
       "language": "ca",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 259,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -6283,7 +6257,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 260,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": [
         {
           "label": "Stream candidato",
@@ -6308,7 +6282,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 261,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -6325,7 +6299,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 262,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -6342,7 +6316,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 263,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -6359,7 +6333,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 264,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -6376,7 +6350,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 265,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": [],
       "musicType": "Variada"
     },
@@ -6394,7 +6368,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 266,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": [
         {
           "label": "Stream candidato",
@@ -6419,7 +6393,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 267,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -6436,7 +6410,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 268,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -6447,13 +6421,13 @@
       "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
-      "websiteUrl": "http://www.ametllamar.cat/lacalartv/",
+      "websiteUrl": "https://www.ametllamar.cat/lacalartv/",
       "logoUrl": "",
       "language": "ca",
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 269,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -6470,7 +6444,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 270,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -6481,13 +6455,13 @@
       "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
-      "websiteUrl": "http://www.amposta.cat/radio",
+      "websiteUrl": "https://radio.amposta.cat/",
       "logoUrl": "",
       "language": "ca",
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 271,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -6504,7 +6478,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 272,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -6521,7 +6495,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 273,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -6538,7 +6512,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 274,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": [],
       "musicType": "Variada"
     },
@@ -6556,7 +6530,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 275,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -6567,13 +6541,13 @@
       "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
-      "websiteUrl": "http://www.calafellradio.cat",
+      "websiteUrl": "https://calafell.tv/",
       "logoUrl": "",
       "language": "ca",
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 276,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -6590,7 +6564,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 277,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -6607,7 +6581,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 278,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -6624,7 +6598,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 279,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -6635,13 +6609,13 @@
       "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
-      "websiteUrl": "http://www.radiosantsadurni.cat",
+      "websiteUrl": "https://santsadurni.cat/radio",
       "logoUrl": "",
       "language": "ca",
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 281,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -6658,7 +6632,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 282,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -6669,13 +6643,13 @@
       "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
-      "websiteUrl": "http://www.radiopiera.cat",
+      "websiteUrl": "https://radiopiera.online/",
       "logoUrl": "",
       "language": "ca",
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 283,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -6692,7 +6666,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 221,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -6709,7 +6683,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 6,
       "seedRank": 322,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -6726,7 +6700,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 6,
       "seedRank": 342,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     },
     {
@@ -6768,7 +6742,7 @@
       "sourceSeed": "myTuner",
       "seedPage": 6,
       "seedRank": 363,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": []
     }
   ]

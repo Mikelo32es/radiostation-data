@@ -1,11 +1,11 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Catalunya pasa de semilla masiva a catálogo depurado: 169 pendientes procesadas, 3 emisoras promovidas a reproducibles, 86 movidas a candidatas con soporte oficial y 80 retiradas por falta de corroboración suficiente.",
+  "syncMessage": "Catalunya queda rematada sin candidatas: verificación masiva contra webs oficiales y páginas municipales, ajuste de URLs activas y retirada de entradas fuera de ámbito o no aprovechables para la comunidad.",
   "stats": {
-    "seedCount": 995,
-    "playableCount": 669,
-    "verifiedCount": 564,
-    "candidateCount": 205,
+    "seedCount": 994,
+    "playableCount": 668,
+    "verifiedCount": 675,
+    "candidateCount": 93,
     "pendingCount": 226
   },
   "featuredIds": [
@@ -86,8 +86,8 @@
       "id": "catalunya",
       "name": "Catalunya",
       "path": "communities/catalunya.json",
-      "seedCount": 287,
-      "playableCount": 195
+      "seedCount": 286,
+      "playableCount": 194
     }
   ]
 }
