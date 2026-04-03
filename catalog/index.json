@@ -1,12 +1,12 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Catalunya pasa de cierre por conteo a cierre por auditoría: 381 semillas revisadas, 13 alias/duplicadas descartadas, 1 semilla retirada por comunidad errónea y subida de candidatas reales sin tocar la app.",
+  "syncMessage": "Catalunya pasa de semilla masiva a catálogo depurado: 169 pendientes procesadas, 3 emisoras promovidas a reproducibles, 86 movidas a candidatas con soporte oficial y 80 retiradas por falta de corroboración suficiente.",
   "stats": {
-    "seedCount": 1075,
-    "playableCount": 666,
-    "verifiedCount": 561,
-    "candidateCount": 119,
-    "pendingCount": 395
+    "seedCount": 995,
+    "playableCount": 669,
+    "verifiedCount": 564,
+    "candidateCount": 205,
+    "pendingCount": 226
   },
   "featuredIds": [
     "mariskalrock-radio",
@@ -86,8 +86,8 @@
       "id": "catalunya",
       "name": "Catalunya",
       "path": "communities/catalunya.json",
-      "seedCount": 367,
-      "playableCount": 192
+      "seedCount": 287,
+      "playableCount": 195
     }
   ]
 }
