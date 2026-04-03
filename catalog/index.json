@@ -1,12 +1,12 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Galicia: bloque rehecho con limpieza conservadora, quedándonos solo con emisoras gallegas y desconexiones territoriales claramente verificables.",
+  "syncMessage": "Galicia: pasada fina sobre el bloque de 124 para limpiar metadatos heredados, ajustar webs y subir varias locales a verified sin tocar la app.",
   "stats": {
-    "seedCount": 1065,
-    "playableCount": 730,
-    "verifiedCount": 746,
-    "candidateCount": 93,
-    "pendingCount": 226
+    "seedCount": 804,
+    "playableCount": 622,
+    "verifiedCount": 644,
+    "candidateCount": 87,
+    "pendingCount": 73
   },
   "featuredIds": [
     "mariskalrock-radio",
@@ -65,8 +65,8 @@
       "id": "andalucia",
       "name": "Andalucía",
       "path": "communities/andalucia.json",
-      "seedCount": 423,
-      "playableCount": 270
+      "seedCount": 99,
+      "playableCount": 99
     },
     {
       "id": "euskadi",
