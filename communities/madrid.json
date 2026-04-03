@@ -2475,6 +2475,383 @@
           "source": "TDTChannels"
         }
       ]
+    },
+    {
+      "id": "informa-radio-madrid",
+      "seedName": "Informa Radio Madrid",
+      "name": "Informa Radio Madrid",
+      "tagline": "Actualidad y debate desde Madrid",
+      "description": "Emisora hablada con base en Madrid, centrada en actualidad, entrevistas y programación informativa.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://informaradio.edatv.news/",
+      "logoUrl": "https://graph.facebook.com/100087258914803/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 1,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "http://24x7.red:42045/informa",
+          "format": "mp3",
+          "priority": 1,
+          "source": "Radio Browser"
+        }
+      ]
+    },
+    {
+      "id": "ecuashyri-fm",
+      "seedName": "ECUASHYRI FM",
+      "name": "ECUASHYRI FM",
+      "tagline": "Radio latina desde Madrid",
+      "description": "Emisora latina orientada a la comunidad ecuatoriana y latinoamericana, emitida desde Madrid.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Latina",
+      "websiteUrl": "https://ecuashyri.es/",
+      "logoUrl": "https://graph.facebook.com/Ecuadorstereo/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 2,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://securestream.radioshd.info:7018/stream",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TingFM"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-urban",
+      "seedName": "Loca FM Urban",
+      "name": "Loca FM Urban",
+      "tagline": "Urbano y reggaetón del universo Loca FM",
+      "description": "Canal urbano de Loca FM con foco en reggaetón, hip hop y sonido urbano asociado a la escena madrileña.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Urbana",
+      "websiteUrl": "https://www.locafm.com/loca-urban/player.html",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 3,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s1.we4stream.com:2020/stream/locaurban",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "canal-fiesta-radio",
+      "seedName": "Canal Fiesta Radio",
+      "name": "Canal Fiesta Radio",
+      "tagline": "Pop en español muy presente en agregadores de Madrid",
+      "description": "Radiofórmula musical de Canal Sur muy popular en agregadores y apps de radio, con fuerte peso de pop español y latino.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Pop",
+      "websiteUrl": "https://www.canalsurmas.es/videos/19997-canal-fiesta-radio",
+      "logoUrl": "https://pbs.twimg.com/profile_images/2014607361843793920/uKfZnuel_200x200.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 4,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://rtva-live-radio.flumotion.com/rtva/cfr.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "la-flamenca",
+      "seedName": "La Flamenca",
+      "name": "La Flamenca",
+      "tagline": "Flamenco y rumba online",
+      "description": "Emisora musical dedicada al flamenco, rumba y canción española que también aparece en listados de escucha asociados a Madrid.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Flamenco",
+      "websiteUrl": "https://emisorasmusicales.net/laflamenca/",
+      "logoUrl": "https://media.emisorasmusicales.net/wp-content/uploads/2020/03/11023733/LaFlamenca-200x200.png",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 5,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://stream.emisorasmusicales.net/radio/8070/laflamenca.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "dial-baladas",
+      "seedName": "Dial Baladas",
+      "name": "Dial Baladas",
+      "tagline": "Baladas y pop melódico de la familia Dial",
+      "description": "Canal temático de Cadena Dial centrado en baladas y pop melódico en español.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Baladas",
+      "websiteUrl": "https://play.cadenadial.com/emisora/dialbaladas",
+      "logoUrl": "https://recursosweb.prisaradio.com/fotos/dest/010002743853.jpg",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 6,
+      "seedRank": 6,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL_03AAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL_03.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "dial-latino",
+      "seedName": "Dial Latino",
+      "name": "Dial Latino",
+      "tagline": "Latino actual dentro del universo Dial",
+      "description": "Canal temático de Cadena Dial especializado en éxitos latinos y pop latino.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Latina",
+      "websiteUrl": "https://play.cadenadial.com/emisora/diallatino",
+      "logoUrl": "https://recursosweb.prisaradio.com/fotos/dest/010002743851.jpg",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 6,
+      "seedRank": 7,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL_02AAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL_02.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-hard",
+      "seedName": "Loca FM Hard",
+      "name": "Loca FM Hard",
+      "tagline": "Hard dance y makina",
+      "description": "Canal duro de Loca FM con selección orientada a hard dance y sonidos más intensos de club.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Hard Dance",
+      "websiteUrl": "https://www.locafm.com/hard/player.html",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 6,
+      "seedRank": 8,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_hard/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-ambient",
+      "seedName": "Loca FM Ambient",
+      "name": "Loca FM Ambient",
+      "tagline": "Ambient y electrónica relajada",
+      "description": "Canal ambiental de Loca FM con electrónica downtempo, paisajes sonoros y sesiones relajadas.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Ambient",
+      "websiteUrl": "https://www.locafm.com/ambient/player.html",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 6,
+      "seedRank": 9,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_ambient/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-hard-techno",
+      "seedName": "Loca FM Hard Techno",
+      "name": "Loca FM Hard Techno",
+      "tagline": "Techno duro 24/7",
+      "description": "Canal de Loca FM enfocado en hard techno y ritmos contundentes de pista.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Hard Techno",
+      "websiteUrl": "https://www.locafm.com/hard-techno/player.html",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 6,
+      "seedRank": 10,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_hard_techno/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-industrial",
+      "seedName": "Loca FM Industrial",
+      "name": "Loca FM Industrial",
+      "tagline": "Industrial y electrónica oscura",
+      "description": "Canal de Loca FM con selección industrial, EBM y electrónica más oscura.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Industrial",
+      "websiteUrl": "https://www.locafm.com/industrial/player.html",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 6,
+      "seedRank": 11,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_industrial/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-drum-bass",
+      "seedName": "Loca FM Drum&Bass",
+      "name": "Loca FM Drum&Bass",
+      "tagline": "Canal DnB del ecosistema Loca",
+      "description": "Canal de Loca FM especializado en drum and bass y bass music de club.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Drum & Bass",
+      "websiteUrl": "https://www.locafm.com/drum-bass/player.html",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 6,
+      "seedRank": 12,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_drum__bass/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "la-urban-radio",
+      "seedName": "La Urban Radio",
+      "name": "La Urban Radio",
+      "tagline": "Sonido urbano en español",
+      "description": "Emisora centrada en música urbana, reggaetón y hits latinos contemporáneos.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Urbana",
+      "websiteUrl": "https://www.urbanrevolution.es",
+      "logoUrl": "https://graph.facebook.com/urbanrevolution.es/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 6,
+      "seedRank": 13,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://st1.urbanrevolution.es:8443/laurbanfm.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "mariskalrock-radio",
+      "seedName": "MariskalRock Radio",
+      "name": "MariskalRock Radio",
+      "tagline": "Rock online de referencia",
+      "description": "Radio online de rock y metal muy reconocible para completar el bloque musical fuerte del catálogo.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Rock",
+      "websiteUrl": "https://mariskalrock.com",
+      "logoUrl": "https://graph.facebook.com/mariskalrock/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 6,
+      "seedRank": 14,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://media.profesionalhosting.com:8047/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
     }
   ]
 }

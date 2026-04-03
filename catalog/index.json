@@ -1,14 +1,19 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Euskadi se mantiene estable y Madrid gana una tanda grande de generalistas nacionales y canales Loca FM: 221 entradas, 161 reproducibles y 92 emisoras verificadas ya en Madrid.",
+  "syncMessage": "Euskadi se mantiene estable y Madrid gana una tanda grande de pulido y ampliación: 235 entradas, 175 reproducibles y 106 emisoras verificadas ya en Madrid.",
   "stats": {
-    "seedCount": 221,
-    "playableCount": 161,
-    "verifiedCount": 147,
+    "seedCount": 235,
+    "playableCount": 175,
+    "verifiedCount": 161,
     "candidateCount": 16,
     "pendingCount": 60
   },
   "featuredIds": [
+    "mariskalrock-radio",
+    "la-flamenca",
+    "canal-fiesta-radio",
+    "loca-fm-urban",
+    "informa-radio-madrid",
     "cadena-ser-nacional",
     "cope-nacional",
     "onda-cero-nacional",
@@ -19,14 +24,16 @@
     "rock-fm",
     "kiss-fm",
     "europa-fm",
-    "cadena-dial",
-    "loca-fm",
-    "loca-fm-dance",
-    "loca-fm-techno",
-    "radio-madrid-ser",
-    "onda-madrid"
+    "cadena-dial"
   ],
   "trendingIds": [
+    "loca-fm-industrial",
+    "loca-fm-hard",
+    "la-flamenca",
+    "canal-fiesta-radio",
+    "loca-fm-urban",
+    "ecuashyri-fm",
+    "informa-radio-madrid",
     "cadena-ser-nacional",
     "cope-nacional",
     "onda-cero-nacional",
@@ -35,30 +42,23 @@
     "cadena-100",
     "kiss-fm",
     "europa-fm",
-    "loca-fm",
-    "loca-fm-dance",
-    "loca-fm-remember",
-    "loca-fm-techno",
-    "radio-3-rne",
-    "radio-clasica-rne"
+    "loca-fm"
   ],
   "recentIds": [
-    "cadena-ser-nacional",
-    "cope-nacional",
-    "onda-cero-nacional",
-    "radio-3-rne",
-    "radio-clasica-rne",
-    "radio-maria-espana-madrid",
-    "loca-fm-dance",
-    "loca-fm-remember",
-    "loca-fm-house",
-    "loca-fm-chill-out",
-    "loca-fm-tech-house",
-    "loca-fm-trance",
-    "loca-fm-techno",
-    "loca-fm-big-room",
-    "loca-fm-loca-80s",
-    "loca-fm-loca-90s"
+    "informa-radio-madrid",
+    "ecuashyri-fm",
+    "loca-fm-urban",
+    "canal-fiesta-radio",
+    "la-flamenca",
+    "dial-baladas",
+    "dial-latino",
+    "loca-fm-hard",
+    "loca-fm-ambient",
+    "loca-fm-hard-techno",
+    "loca-fm-industrial",
+    "loca-fm-drum-bass",
+    "la-urban-radio",
+    "mariskalrock-radio"
   ],
   "communities": [
     {
@@ -72,8 +72,8 @@
       "id": "madrid",
       "name": "Madrid",
       "path": "communities/madrid.json",
-      "seedCount": 92,
-      "playableCount": 92
+      "seedCount": 106,
+      "playableCount": 106
     }
   ]
 }
