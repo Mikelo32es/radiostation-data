@@ -1,10 +1,10 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Euskadi se mantiene estable y Madrid gana una tanda grande de pulido y ampliación: 235 entradas, 175 reproducibles y 106 emisoras verificadas ya en Madrid.",
+  "syncMessage": "Andalucía gana una ampliación grande sin tocar la app: 145 entradas, 145 reproducibles y 142 emisoras verificadas en la comunidad.",
   "stats": {
-    "seedCount": 321,
-    "playableCount": 261,
-    "verifiedCount": 243,
+    "seedCount": 367,
+    "playableCount": 307,
+    "verifiedCount": 289,
     "candidateCount": 20,
     "pendingCount": 58
   },
@@ -79,8 +79,8 @@
       "id": "andalucia",
       "name": "Andalucía",
       "path": "communities/andalucia.json",
-      "seedCount": 99,
-      "playableCount": 99
+      "seedCount": 145,
+      "playableCount": 145
     }
   ]
 }

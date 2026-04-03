@@ -2,9 +2,9 @@
   "repoName": "radiostation-data",
   "community": "Andalucía",
   "seedSource": "myTuner",
-  "seedCount": 99,
-  "playableCount": 99,
-  "verifiedCount": 96,
+  "seedCount": 145,
+  "playableCount": 145,
+  "verifiedCount": 142,
   "candidateCount": 3,
   "pendingCount": 0,
   "notes": [
@@ -14,7 +14,8 @@
     "Cuando la fuente pública expone una única URL estable, se conserva esa señal como principal sin inventar alternativas.",
     "Las entradas con retorno dudoso o error puntual en la comprobación web se dejan como candidate, no como verified.",
     "Se priorizan logos oficiales o de marca pública estable: Facebook Graph, X/Twitter, myradioonline o activos ya usados en la app.",
-    "No se han tocado Euskadi ni Madrid; esta pasada solo añade Andalucía y actualiza el índice global."
+    "No se han tocado Euskadi ni Madrid; esta pasada solo añade Andalucía y actualiza el índice global.",
+    "Segunda tanda: ampliación con radios municipales, comarcales y musicales andaluzas verificadas desde el bloque Andalucía de TDTChannels."
   ],
   "stations": [
     {
@@ -2335,6 +2336,1125 @@
         {
           "label": "Stream principal",
           "url": "https://stream.produccionesdale.com/listen/lafresca/altacalidad",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "cope-ronda",
+      "seedName": "COPE Ronda",
+      "name": "COPE Ronda",
+      "tagline": "COPE local en la Serranía",
+      "description": "Emisora local de COPE para Ronda y la Serranía con información, deporte y actualidad de proximidad.",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "https://coperonda.es",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?height=200&width=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://securestreams5.autopo.st:1869/;?type=http&nocache=347&url=copesedes/ronda.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-cero-baza",
+      "seedName": "Onda Cero Baza",
+      "name": "Onda Cero Baza",
+      "tagline": "Actualidad de Baza y comarca",
+      "description": "Delegación andaluza de Onda Cero con cobertura local de Baza y su entorno.",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "https://www.ondacero.es/emisoras/andalucia/baza/directo/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?height=200&width=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/baza/master.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-cero-el-ejido",
+      "seedName": "Onda Cero El Ejido",
+      "name": "Onda Cero El Ejido",
+      "tagline": "Actualidad de poniente almeriense",
+      "description": "Señal local de Onda Cero para El Ejido y el poniente almeriense.",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "https://www.ondacero.es/emisoras/andalucia/el-ejido/directo/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?height=200&width=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/elejido/master.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca-malaga",
+      "seedName": "Radio Marca Málaga",
+      "name": "Radio Marca Málaga",
+      "tagline": "Deporte local y nacional",
+      "description": "Emisora deportiva malagueña de Radio Marca con foco en fútbol y actualidad deportiva de la Costa del Sol.",
+      "category": "Deporte",
+      "community": "Andalucía",
+      "websiteUrl": "https://www.marca.com/radio.html",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?height=200&width=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://malagafm.streaming-pro.com:8131/malagafmmobile",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-comarca",
+      "seedName": "SER Comarca",
+      "name": "SER Comarca",
+      "tagline": "Actualidad del Campo de Gibraltar",
+      "description": "Delegación comarcal de la SER centrada en actualidad y servicio para el Campo de Gibraltar.",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "https://cadenaser.com/ser-comarca/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?height=200&width=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://eu1.lhdserver.es:8075/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-cadiz-radio",
+      "seedName": "Onda Cádiz Radio",
+      "name": "Onda Cádiz Radio",
+      "tagline": "Radio municipal gaditana",
+      "description": "Señal municipal de Cádiz con servicio público, información local y programación de proximidad.",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "https://ondacadiz.es/radio/directo",
+      "logoUrl": "https://graph.facebook.com/ondacadiz/picture?height=200&width=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://ondacadiztv.es:30443/ocr/directo/icecast.audio",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "elixir-fm",
+      "seedName": "Elixir FM",
+      "name": "Elixir FM",
+      "tagline": "Dance y fiesta continua",
+      "description": "Emisora musical andaluza con programación dance y varios endpoints públicos para fallback.",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "https://grupoelixir.es",
+      "logoUrl": "https://graph.facebook.com/elixirfiestas/picture?height=200&width=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://radio.grupoelixir.es:9009/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "Fallback 1",
+          "url": "https://radio.grupoelixir.es:9012/stream",
+          "format": "stream",
+          "priority": 2,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "Fallback 2",
+          "url": "https://radio.grupoelixir.es:9015/stream",
+          "format": "stream",
+          "priority": 3,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "Fallback 3",
+          "url": "https://radio.grupoelixir.es:9006/stream",
+          "format": "stream",
+          "priority": 4,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Dance"
+    },
+    {
+      "id": "beachgrooves",
+      "seedName": "Beachgrooves",
+      "name": "Beachgrooves",
+      "tagline": "House y sonido costero",
+      "description": "Emisora musical de la Costa del Sol centrada en house, electrónica suave y ambiente playero.",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "https://beachgrooves.com",
+      "logoUrl": "https://graph.facebook.com/beach.grooves/picture?height=200&width=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://stream.beachgrooves.com:9000/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "House"
+    },
+    {
+      "id": "radio-chipiona",
+      "seedName": "Radio Chipiona",
+      "name": "Radio Chipiona",
+      "tagline": "Información local de Chipiona",
+      "description": "Radio local de Chipiona con programación municipal, magazine e información de cercanía.",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "https://radiochipiona.radiostream321.com",
+      "logoUrl": "https://graph.facebook.com/radiochipiona/picture?height=200&width=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://uk3freenew.listen2myradio.com/live.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "spectrum-fm",
+      "seedName": "Spectrum FM",
+      "name": "Spectrum FM",
+      "tagline": "Radio internacional Costa del Sol",
+      "description": "Emisora de la Costa del Sol dirigida a público internacional con mezcla de hits, magazines y servicio local.",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "https://spectrumfm.net",
+      "logoUrl": "https://graph.facebook.com/SpectrumFMSpain/picture?height=200&width=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://eu8.fastcast4u.com/proxy/spectrumcds2?mp=/1",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "onda-jerez-radio",
+      "seedName": "Onda Jerez Radio",
+      "name": "Onda Jerez Radio",
+      "tagline": "Radio municipal de Jerez",
+      "description": "Señal pública de Jerez con información local, cultura y servicio ciudadano.",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "https://www.ondajerez.com/radio",
+      "logoUrl": "https://graph.facebook.com/OndaJerezRTV/picture?height=200&width=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://radio.ondajerez.com:8443/Ondajerez.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-la-isla",
+      "seedName": "Radio La Isla",
+      "name": "Radio La Isla",
+      "tagline": "Actualidad de San Fernando",
+      "description": "Emisora local de San Fernando con programación cercana y foco en información isleña.",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "https://radiolaisla.com",
+      "logoUrl": "https://graph.facebook.com/radiolaisla/picture?height=200&width=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://server10.emitironline.com:30132/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "global-radio",
+      "seedName": "Global Radio",
+      "name": "Global Radio",
+      "tagline": "Hits internacionales Costa del Sol",
+      "description": "Radio de perfil internacional con mezcla musical, entretenimiento y presencia en la Costa del Sol.",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "https://global.fm/streamwindow/",
+      "logoUrl": "https://graph.facebook.com/loveglobalradio/picture?height=200&width=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://stream.aiir.com/ugvtqtv4jfmuv",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Top 40"
+    },
+    {
+      "id": "radio-rociana-del-condado",
+      "seedName": "Radio Rociana del Condado",
+      "name": "Radio Rociana del Condado",
+      "tagline": "Información local del Condado",
+      "description": "Emisora local de Rociana del Condado con servicio de proximidad y programación municipal.",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "https://www.radiorociana.com/player",
+      "logoUrl": "https://graph.facebook.com/radiorociana/picture?height=200&width=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://streaming.radiorociana.com/;stream.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "integracion-radio",
+      "seedName": "Integración Radio",
+      "name": "Integración Radio",
+      "tagline": "Variedad y comunidad",
+      "description": "Emisora andaluza orientada a acompañamiento musical y programación comunitaria.",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "https://www.integracionradio.com",
+      "logoUrl": "https://pbs.twimg.com/profile_images/603682455984414720/aXSEPW0z_200x200.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://eu1.lhdserver.es:9061/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "onda-sur-motril",
+      "seedName": "Onda Sur Motril",
+      "name": "Onda Sur Motril",
+      "tagline": "Actualidad de Motril",
+      "description": "Radio local de Motril con información, magazines y servicio de proximidad.",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "https://telemotril.com/onda-sur-107-7fm/",
+      "logoUrl": "https://graph.facebook.com/telemotriltv/picture?height=200&width=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "http://radio.telemotril.com:8000/live",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-sevillanas",
+      "seedName": "Radio Sevillanas",
+      "name": "Radio Sevillanas",
+      "tagline": "Sevillanas y raíz andaluza",
+      "description": "Emisora musical especializada en sevillanas, copla y repertorio andaluz de raíz popular.",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "https://www.radiosevillanas.com",
+      "logoUrl": "https://graph.facebook.com/web.radiosevillanas/picture?height=200&width=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "http://radio.wesped.com:8000/;stream.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Sevillanas"
+    },
+    {
+      "id": "fiebre-latina-radio",
+      "seedName": "Fiebre Latina Radio",
+      "name": "Fiebre Latina Radio",
+      "tagline": "Latino y fiesta",
+      "description": "Emisora musical con foco en repertorio latino, urbano y ritmos bailables.",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "https://fiebrelatinaradio.com",
+      "logoUrl": "https://graph.facebook.com/fiebrelatinaradio/picture?height=200&width=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://eu1.lhdserver.es:9035/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Latino"
+    },
+    {
+      "id": "radio-chanquete",
+      "seedName": "Radio Chanquete",
+      "name": "Radio Chanquete",
+      "tagline": "Música popular de la Costa del Sol",
+      "description": "Emisora malagueña con varios streams públicos y programación musical continua.",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "http://www.chanquetefm.com",
+      "logoUrl": "https://graph.facebook.com/radiochanquete/picture?height=200&width=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "http://185.23.192.118:8008/;stream.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "Fallback 1",
+          "url": "http://185.23.192.118:8012/;stream.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "Fallback 2",
+          "url": "http://185.23.192.118:8014/;stream.mp3",
+          "format": "mp3",
+          "priority": 3,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "la-mega-malaga",
+      "seedName": "La Mega Málaga",
+      "name": "La Mega Málaga",
+      "tagline": "Top 40 y urbano",
+      "description": "Emisora musical malagueña con hits comerciales y sonido latino-urbano.",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "https://www.lamegamalaga.es",
+      "logoUrl": "https://graph.facebook.com/lamegacostadelsol/picture?height=200&width=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://streaming2.elitecomunicacion.es:8220//stream?type=.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Top 40"
+    },
+    {
+      "id": "onda-guillena-radio",
+      "seedName": "Onda Guillena Radio",
+      "name": "Onda Guillena Radio",
+      "tagline": "Radio local de Guillena",
+      "description": "Emisora municipal sevillana con programación de cercanía y servicio local.",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "https://onda.guillena.org",
+      "logoUrl": "https://graph.facebook.com/onda.guillena/picture?height=200&width=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://srv6021.dns-lcinternet.com:10171/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-salobrena",
+      "seedName": "Radio Salobreña",
+      "name": "Radio Salobreña",
+      "tagline": "Radio municipal de Salobreña",
+      "description": "Señal local de Salobreña con información, magazine y contenidos de proximidad.",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "https://www.radiosalobrena.com/endirecto/",
+      "logoUrl": "https://graph.facebook.com/radiosalobrena/picture?height=200&width=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streaming2.elitecomunicacion.es:8078/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-almaina",
+      "seedName": "Radio Almaina",
+      "name": "Radio Almaina",
+      "tagline": "Radio comunitaria de Granada",
+      "description": "Proyecto radiofónico comunitario granadino con contenidos sociales, culturales y de cercanía.",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "https://radiobot.radioslibres.info/public/radio_almaina",
+      "logoUrl": "https://pbs.twimg.com/profile_images/2117013357/perfil-facebook_200x200.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://radiobot.radioslibres.info/listen/radio_almaina/radio.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-cartaya",
+      "seedName": "Radio Cartaya",
+      "name": "Radio Cartaya",
+      "tagline": "Actualidad local de Cartaya",
+      "description": "Emisora onubense de proximidad con magazines, información local y servicio público.",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "https://www.radiocartaya.es",
+      "logoUrl": "https://graph.facebook.com/radiocartaya/picture?height=200&width=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://eu1.lhdserver.es:9237/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-martos",
+      "seedName": "Radio Martos",
+      "name": "Radio Martos",
+      "tagline": "Radio municipal de Martos",
+      "description": "Señal local de Martos con servicio de proximidad e información municipal.",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "https://martos.es/radio-martos/emision-en-directo/",
+      "logoUrl": "https://graph.facebook.com/radiomartos/picture?height=200&width=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streaming2.elitecomunicacion.es:8234/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "cadena-luna",
+      "seedName": "Cadena Luna",
+      "name": "Cadena Luna",
+      "tagline": "Música y entretenimiento Costa Tropical",
+      "description": "Emisora musical de la Costa Tropical con repertorio variado y programación de compañía.",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "https://www.cadenaluna.es",
+      "logoUrl": "https://graph.facebook.com/CadenaLunaRadio/picture?height=200&width=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://radio.almunecar360.com:8100/radio",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "la-mas-fm-almunecar",
+      "seedName": "La Más FM Almuñécar",
+      "name": "La Más FM Almuñécar",
+      "tagline": "Hits y radiofórmula local",
+      "description": "Emisora musical de Almuñécar con selección comercial y enfoque local.",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "https://lamasfm.com",
+      "logoUrl": "https://graph.facebook.com/LAMASFM/picture?height=200&width=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streaming2.elitecomunicacion.es:8142/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Top 40"
+    },
+    {
+      "id": "la-mega-fm-costa-tropical",
+      "seedName": "La Mega FM Costa Tropical",
+      "name": "La Mega FM Costa Tropical",
+      "tagline": "Éxitos Costa Tropical",
+      "description": "Radio musical de la costa granadina con foco en hits y entretenimiento.",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "https://www.lamegafmcostatropical.com",
+      "logoUrl": "https://graph.facebook.com/megacostatropical/picture?height=200&width=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streaming12.elitecomunicacion.es:8642/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Top 40"
+    },
+    {
+      "id": "latino-fm",
+      "seedName": "Latino FM",
+      "name": "Latino FM",
+      "tagline": "Ritmo latino en Málaga",
+      "description": "Emisora musical malagueña centrada en repertorio latino y bailable.",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "http://www.latinofm.es",
+      "logoUrl": "https://graph.facebook.com/LatinoFMmalaga/picture?height=200&width=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "http://185.23.192.118:8000/;stream.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Latino"
+    },
+    {
+      "id": "radio-oro",
+      "seedName": "Radio Oro",
+      "name": "Radio Oro",
+      "tagline": "Oldies y clásicos populares",
+      "description": "Emisora musical especializada en oldies y clásicos con dos streams públicos para fallback.",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "http://www.radiooro.es",
+      "logoUrl": "https://graph.facebook.com/RadioOroMalaga/picture?height=200&width=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "http://185.23.192.118:8002/;stream.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "Fallback 1",
+          "url": "http://185.23.192.118:8004/;stream.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Oldies"
+    },
+    {
+      "id": "radio-nerja",
+      "seedName": "Radio Nerja",
+      "name": "Radio Nerja",
+      "tagline": "Actualidad local de Nerja",
+      "description": "Emisora de proximidad con información y servicio para Nerja y su entorno.",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "https://radionerja.com",
+      "logoUrl": "https://graph.facebook.com/radionerja/picture?height=200&width=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://online.vibacomunicacion.com:9974/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-mijas",
+      "seedName": "Radio Mijas",
+      "name": "Radio Mijas",
+      "tagline": "Radio municipal de Mijas",
+      "description": "Señal local de Mijas con actualidad municipal, magazine y servicio ciudadano.",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "https://mijascomunicacion.com/radio-mijas-en-directo/",
+      "logoUrl": "https://graph.facebook.com/RadioMijas/picture?height=200&width=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s9.voscast.com:9691/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "sportdirect-radio",
+      "seedName": "SportDirect Radio",
+      "name": "SportDirect Radio",
+      "tagline": "Actualidad y debate deportivo",
+      "description": "Radio temática centrada en deporte y actualidad competitiva con base andaluza.",
+      "category": "Deporte",
+      "community": "Andalucía",
+      "websiteUrl": "https://sportdirectradio.es",
+      "logoUrl": "https://graph.facebook.com/SportDirectRadio/picture?height=200&width=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streaming12.elitecomunicacion.es:8036/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-ciudad-roquetas",
+      "seedName": "Radio Ciudad Roquetas",
+      "name": "Radio Ciudad Roquetas",
+      "tagline": "Radio municipal de Roquetas",
+      "description": "Señal pública local de Roquetas de Mar con información y contenidos de proximidad.",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "https://www.radiociudadroquetas.es/es/radio-ciudad",
+      "logoUrl": "https://graph.facebook.com/radiociudadroquetas/picture?height=200&width=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://broadcast.radioponiente.org:8040/;.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "central-fm",
+      "seedName": "Central FM",
+      "name": "Central FM",
+      "tagline": "Hits comerciales y compañía",
+      "description": "Emisora musical andaluza de radiofórmula y entretenimiento.",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "https://www.centralfm.com",
+      "logoUrl": "https://graph.facebook.com/131322746891532/picture?height=200&width=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://s29.myradiostream.com/4922/listen.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Top 40"
+    },
+    {
+      "id": "onda-mencia-radio",
+      "seedName": "Onda Mencía Radio",
+      "name": "Onda Mencía Radio",
+      "tagline": "Radio local de Doña Mencía",
+      "description": "Emisora de proximidad con información municipal y programación local.",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "https://escucha.ondamenciaradio.com",
+      "logoUrl": "https://graph.facebook.com/OndaMenciaRadio/picture?height=200&width=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streaming12.elitecomunicacion.es:8146/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-loja-radio",
+      "seedName": "Onda Loja Radio",
+      "name": "Onda Loja Radio",
+      "tagline": "Actualidad local de Loja",
+      "description": "Radio municipal de Loja con información, magazines y servicio público.",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "https://ondaloja.es",
+      "logoUrl": "https://graph.facebook.com/370465614347/picture?height=200&width=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://stream.radiofutura.es:8090/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-arcos",
+      "seedName": "Radio Arcos",
+      "name": "Radio Arcos",
+      "tagline": "Radio local de Arcos",
+      "description": "Emisora de proximidad para Arcos de la Frontera con información municipal y magazines.",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "https://www.radioarcos.com",
+      "logoUrl": "https://graph.facebook.com/RadioArcos/picture?height=200&width=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://streaming2.elitecomunicacion.es:8098/stream?type=.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "chocolate-fm",
+      "seedName": "Chocolate FM",
+      "name": "Chocolate FM",
+      "tagline": "Dance y éxitos comerciales",
+      "description": "Emisora musical centrada en dance, hits y sonido festivo.",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "https://www.chocolatefm.com",
+      "logoUrl": "https://graph.facebook.com/ydimequetegusta/picture?height=200&width=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://streaming2.elitecomunicacion.es:8082/live.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Dance"
+    },
+    {
+      "id": "granada-fm",
+      "seedName": "Granada FM",
+      "name": "Granada FM",
+      "tagline": "Variedad musical granadina",
+      "description": "Emisora musical de Granada con selección variada y acompañamiento continuo.",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "https://granadafm.es",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1572284910198722561/2BQxFxMX_200x200.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streaming2.elitecomunicacion.es:8028/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "oldies-fm",
+      "seedName": "Oldies FM",
+      "name": "Oldies FM",
+      "tagline": "Clásicos y oldies",
+      "description": "Emisora especializada en oldies y grandes éxitos de décadas pasadas.",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "https://oldiesfm.net",
+      "logoUrl": "https://graph.facebook.com/oldiesfmes/picture?height=200&width=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://h3004255.stratoserver.net:8000/oldiesfm",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Oldies"
+    },
+    {
+      "id": "antena-huelva",
+      "seedName": "Antena Huelva",
+      "name": "Antena Huelva",
+      "tagline": "Información local onubense",
+      "description": "Emisora local con foco en actualidad y cercanía para Huelva y su entorno.",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "https://antenahuelva.com",
+      "logoUrl": "https://graph.facebook.com/109385783852066/picture?height=200&width=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://stm2.emiteonline.com:9024/antenahuelva",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-luz-dalias",
+      "seedName": "Radio Luz Dalías",
+      "name": "Radio Luz Dalías",
+      "tagline": "Radio local del poniente",
+      "description": "Emisora de proximidad para Dalías y su entorno con programación local.",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "https://www.radioluzdalias.com/es/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1163744422116438016/Fw93iC2M_200x200.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://broadcast.radioponiente.org:8034/;.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-4-ronda",
+      "seedName": "Onda 4 Ronda",
+      "name": "Onda 4 Ronda",
+      "tagline": "Actualidad de Ronda",
+      "description": "Emisora local de Ronda con magazines, información y servicio de cercanía.",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "https://onda4.org/en-directo/",
+      "logoUrl": "https://akouradio.com/StatImage/31583.png",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://cervera.eldialdigital.com:23161/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "90-fm",
+      "seedName": "90 FM",
+      "name": "90 FM",
+      "tagline": "Dance y clásicos de club",
+      "description": "Emisora musical con perfil dance y repertorio festivo.",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "http://www.90fm.es",
+      "logoUrl": "https://pbs.twimg.com/profile_images/2277895539/ypj3m6ggljmfnoy5cqvt_200x200.jpeg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "http://185.23.192.118:8010/;stream.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Dance"
+    },
+    {
+      "id": "radio-torredonjimeno",
+      "seedName": "Radio Torredonjimeno",
+      "name": "Radio Torredonjimeno",
+      "tagline": "Radio municipal de Torredonjimeno",
+      "description": "Señal local con información municipal y programación de proximidad.",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "https://radiotorredonjimeno.blogspot.com",
+      "logoUrl": "https://graph.facebook.com/radiotorredonjimeno/picture?height=200&width=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streaming2.elitecomunicacion.es:8118/stream",
           "format": "stream",
           "priority": 1,
           "source": "TDTChannels"
