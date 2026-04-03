@@ -1,12 +1,12 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Madrid mantiene 156 entradas desde myTuner: 115 ya reproducibles, 6 revisadas con web/metadatos y 35 todavía pendientes de stream estable.",
+  "syncMessage": "Euskadi se mantiene estable y Madrid gana una tanda grande de pulido y ampliación: 235 entradas, 175 reproducibles y 106 emisoras verificadas ya en Madrid.",
   "stats": {
-    "seedCount": 285,
-    "playableCount": 184,
-    "verifiedCount": 170,
-    "candidateCount": 22,
-    "pendingCount": 93
+    "seedCount": 321,
+    "playableCount": 261,
+    "verifiedCount": 243,
+    "candidateCount": 20,
+    "pendingCount": 58
   },
   "featuredIds": [
     "mariskalrock-radio",
@@ -72,8 +72,15 @@
       "id": "madrid",
       "name": "Madrid",
       "path": "communities/madrid.json",
-      "seedCount": 156,
-      "playableCount": 115
+      "seedCount": 106,
+      "playableCount": 106
+    },
+    {
+      "id": "andalucia",
+      "name": "Andalucía",
+      "path": "communities/andalucia.json",
+      "seedCount": 99,
+      "playableCount": 99
     }
   ]
 }
