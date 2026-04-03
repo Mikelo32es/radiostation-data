@@ -1,12 +1,12 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Andalucía, Euskadi, Madrid y Catalunya siguen indexadas; Catalunya queda cerrada por conteo contra myTuner con 381 semillas totales y remate pendiente solo de verificación fina en parte del bloque nuevo.",
+  "syncMessage": "Catalunya pasa de cierre por conteo a cierre por auditoría: 381 semillas revisadas, 13 alias/duplicadas descartadas, 1 semilla retirada por comunidad errónea y subida de candidatas reales sin tocar la app.",
   "stats": {
-    "seedCount": 1089,
+    "seedCount": 1075,
     "playableCount": 666,
     "verifiedCount": 561,
-    "candidateCount": 113,
-    "pendingCount": 415
+    "candidateCount": 119,
+    "pendingCount": 395
   },
   "featuredIds": [
     "mariskalrock-radio",
@@ -86,7 +86,7 @@
       "id": "catalunya",
       "name": "Catalunya",
       "path": "communities/catalunya.json",
-      "seedCount": 381,
+      "seedCount": 367,
       "playableCount": 192
     }
   ]
