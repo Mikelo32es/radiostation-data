@@ -1,10 +1,10 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Catalunya queda rematada sin candidatas: verificación masiva contra webs oficiales y páginas municipales, ajuste de URLs activas y retirada de entradas fuera de ámbito o no aprovechables para la comunidad.",
+  "syncMessage": "Catalunya: pasada de mejora para reincorporar emisoras relevantes que faltaban, con alta conservadora solo cuando había base pública suficiente.",
   "stats": {
-    "seedCount": 994,
-    "playableCount": 668,
-    "verifiedCount": 675,
+    "seedCount": 1004,
+    "playableCount": 669,
+    "verifiedCount": 685,
     "candidateCount": 93,
     "pendingCount": 226
   },
@@ -86,8 +86,8 @@
       "id": "catalunya",
       "name": "Catalunya",
       "path": "communities/catalunya.json",
-      "seedCount": 286,
-      "playableCount": 194
+      "seedCount": 296,
+      "playableCount": 195
     }
   ]
 }
