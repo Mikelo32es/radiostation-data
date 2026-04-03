@@ -2,12 +2,12 @@
   "repoName": "radiostation-data",
   "community": "Madrid",
   "seedSource": "myTuner",
-  "seedCount": 92,
-  "playableCount": 92,
-  "verifiedCount": 92,
+  "seedCount": 206,
+  "playableCount": 206,
+  "verifiedCount": 206,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Madrid gana una tanda grande con generalistas nacionales, RTVE temática y un bloque amplio de canales Loca FM, manteniendo streams públicos y fallback donde aplica.",
+  "notes": "Madrid suma una tanda grande de 100 emisoras con refuerzo de redes públicas, deportivas, infantiles y musicales, manteniendo streams públicos y fallback donde aplica.",
   "stations": [
     {
       "id": "onda-madrid",
@@ -2848,6 +2848,2506 @@
           "label": "Stream principal",
           "url": "https://media.profesionalhosting.com:8047/stream",
           "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "mdt-radio-remember",
+      "seedName": "MDT Radio Remember",
+      "name": "MDT Radio Remember",
+      "tagline": "Canal MDT Remember",
+      "description": "Canal temático de MDT Radio dedicado a remember con foco en música dance y remember.",
+      "category": "Música",
+      "community": "Madrid",
+      "websiteUrl": "https://www.mdtradio.com",
+      "logoUrl": "https://graph.facebook.com/mdtradio/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 107,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://streams1.mdtradio.com:8443/mdtweb",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "mdt-radio-pop-stars",
+      "seedName": "MDT Radio Pop Stars",
+      "name": "MDT Radio Pop Stars",
+      "tagline": "Canal MDT Pop Stars",
+      "description": "Canal temático de MDT Radio dedicado a pop stars con foco en música dance y remember.",
+      "category": "Música",
+      "community": "Madrid",
+      "websiteUrl": "https://mdtradio.com/canales-tematicos/",
+      "logoUrl": "https://mdtradio.com/wp-content/uploads/2024/11/Logo-MDT-Radio-Pop-Stars-Fm2.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 108,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://streams1.mdtradio.com:8443/PopStarsFm",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "mdt-radio-80s",
+      "seedName": "MDT Radio 80s",
+      "name": "MDT Radio 80s",
+      "tagline": "Canal MDT 80s",
+      "description": "Canal temático de MDT Radio dedicado a 80s con foco en música dance y remember.",
+      "category": "Música",
+      "community": "Madrid",
+      "websiteUrl": "https://mdtradio.com/canales-tematicos/",
+      "logoUrl": "https://mdtradio.com/wp-content/uploads/2024/08/Logo-MDT-Radio-80s-300x300.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 109,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://streams1.mdtradio.com:8443/MDTradio80",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "mdt-radio-90s",
+      "seedName": "MDT Radio 90s",
+      "name": "MDT Radio 90s",
+      "tagline": "Canal MDT 90s",
+      "description": "Canal temático de MDT Radio dedicado a 90s con foco en música dance y remember.",
+      "category": "Música",
+      "community": "Madrid",
+      "websiteUrl": "https://mdtradio.com/canales-tematicos/",
+      "logoUrl": "https://mdtradio.com/wp-content/uploads/2024/08/Logo-MDT-Radio-90s-300x300.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 110,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://streams1.mdtradio.com:8443/MDTradio90",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "mdt-radio-2000",
+      "seedName": "MDT Radio 2000",
+      "name": "MDT Radio 2000",
+      "tagline": "Canal MDT 2000",
+      "description": "Canal temático de MDT Radio dedicado a 2000 con foco en música dance y remember.",
+      "category": "Música",
+      "community": "Madrid",
+      "websiteUrl": "https://mdtradio.com/canales-tematicos/",
+      "logoUrl": "https://mdtradio.com/wp-content/uploads/2024/08/Logo-MDT-Radio-2000-300x300.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 111,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://streams1.mdtradio.com:8443/MDTradio2000",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "elite-love",
+      "seedName": "Élite Love",
+      "name": "Élite Love",
+      "tagline": "Canal Élite Love",
+      "description": "Señal temática de Cadena Élite dedicada a love con programación musical continua.",
+      "category": "Música",
+      "community": "Madrid",
+      "websiteUrl": "https://www.cadenaelite.es/elitelove/",
+      "logoUrl": "https://graph.facebook.com/cadena.elitegranada/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 112,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://streaming2.elitecomunicacion.es/proxy/elitelove/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "elite-dance",
+      "seedName": "Élite Dance",
+      "name": "Élite Dance",
+      "tagline": "Canal Élite Dance",
+      "description": "Señal temática de Cadena Élite dedicada a dance con programación musical continua.",
+      "category": "Música",
+      "community": "Madrid",
+      "websiteUrl": "https://www.cadenaelite.es/elitedance/",
+      "logoUrl": "https://graph.facebook.com/cadena.elitegranada/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 113,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://streaming2.elitecomunicacion.es/proxy/elitedance/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "elite-oldies",
+      "seedName": "Élite Oldies",
+      "name": "Élite Oldies",
+      "tagline": "Canal Élite Oldies",
+      "description": "Señal temática de Cadena Élite dedicada a oldies con programación musical continua.",
+      "category": "Música",
+      "community": "Madrid",
+      "websiteUrl": "https://www.cadenaelite.es/eliteoldies/",
+      "logoUrl": "https://graph.facebook.com/cadena.elitegranada/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 114,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://streaming2.elitecomunicacion.es/proxy/eliteoldies/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "elite-urban",
+      "seedName": "Élite Urban",
+      "name": "Élite Urban",
+      "tagline": "Canal Élite Urban",
+      "description": "Señal temática de Cadena Élite dedicada a urban con programación musical continua.",
+      "category": "Música",
+      "community": "Madrid",
+      "websiteUrl": "https://www.cadenaelite.es/eliteurban/",
+      "logoUrl": "https://graph.facebook.com/cadena.elitegranada/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 115,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://streaming2.elitecomunicacion.es/proxy/eliteurban/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "valencia-cf-radio",
+      "seedName": "Valencia CF Radio",
+      "name": "Valencia CF Radio",
+      "tagline": "Radio oficial de club",
+      "description": "Canal oficial de Valencia CF, centrado en actualidad, retransmisiones y contenido de club.",
+      "category": "Deportes",
+      "community": "Madrid",
+      "websiteUrl": "https://www.valenciacf.com/es/vcf-media/radio",
+      "logoUrl": "https://graph.facebook.com/ValenciaCF/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 116,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3",
+          "url": "https://radio-valencia-direct.flumotion.com/rvfc/shoutcast.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "sevilla-fc-radio",
+      "seedName": "Sevilla FC Radio",
+      "name": "Sevilla FC Radio",
+      "tagline": "Radio oficial de club",
+      "description": "Canal oficial de Sevilla FC, centrado en actualidad, retransmisiones y contenido de club.",
+      "category": "Deportes",
+      "community": "Madrid",
+      "websiteUrl": "https://live.sevillafc.es",
+      "logoUrl": "https://graph.facebook.com/sevillafc/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 117,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS",
+          "url": "https://open.http.mp.streamamg.com/p/3001314/sp/300131400/playManifest/entryId/0_ye0b8tc0/format/applehttp/protocol/https/uiConfId/30026292/a.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "real-betis-radio",
+      "seedName": "Real Betis Radio",
+      "name": "Real Betis Radio",
+      "tagline": "Radio oficial de club",
+      "description": "Canal oficial de Real Betis, centrado en actualidad, retransmisiones y contenido de club.",
+      "category": "Deportes",
+      "community": "Madrid",
+      "websiteUrl": "https://www.realbetisbalompie.es/rtvbetis/directo-radio",
+      "logoUrl": "https://graph.facebook.com/realbetisbalompie/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 118,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3",
+          "url": "https://comcast01-h-cloud.flumotion.com/betistv/radio1.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ud-almeria-radio",
+      "seedName": "UD Almeria Radio",
+      "name": "UD Almeria Radio",
+      "tagline": "Radio oficial de club",
+      "description": "Canal oficial de UD Almeria, centrado en actualidad, retransmisiones y contenido de club.",
+      "category": "Deportes",
+      "community": "Madrid",
+      "websiteUrl": "https://www.udalmeriasad.com/radio",
+      "logoUrl": "https://graph.facebook.com/udalmeriasad/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 119,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://srv6022.dns-lcinternet.com:8002/livelq",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-osasuna",
+      "seedName": "Radio Osasuna",
+      "name": "Radio Osasuna",
+      "tagline": "Radio oficial de club",
+      "description": "Canal oficial de Radio Osasuna, centrado en actualidad, retransmisiones y contenido de club.",
+      "category": "Deportes",
+      "community": "Madrid",
+      "websiteUrl": "https://www.osasuna.es/radio-osasuna",
+      "logoUrl": "https://graph.facebook.com/Osasuna/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 120,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://stream.radio.co/s2d5fcbba2/listen",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "babyradio",
+      "seedName": "Babyradio",
+      "name": "Babyradio",
+      "tagline": "Canal infantil Infantil",
+      "description": "Señal infantil de Babyradio con contenidos pensados para público familiar y primeros oyentes.",
+      "category": "Educación",
+      "community": "Madrid",
+      "websiteUrl": "https://babyradio.es/#radio-player",
+      "logoUrl": "https://yt3.googleusercontent.com/ytc/AIdro_k2PqG2pKYF9_qLh_ut69Z0MtU-jXsRvezCZQtbjivJsX8=s200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 121,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://srv6022.dns-lcinternet.com:8033/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "babyradio-latinoamerica",
+      "seedName": "Babyradio LatinoAmérica",
+      "name": "Babyradio LatinoAmérica",
+      "tagline": "Canal infantil LatinoAmérica",
+      "description": "Señal infantil de Babyradio con contenidos pensados para público familiar y primeros oyentes.",
+      "category": "Educación",
+      "community": "Madrid",
+      "websiteUrl": "https://babyradio.es/#radio-player",
+      "logoUrl": "https://yt3.googleusercontent.com/ytc/AIdro_k2PqG2pKYF9_qLh_ut69Z0MtU-jXsRvezCZQtbjivJsX8=s200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 122,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://srv6022.dns-lcinternet.com:8047/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "babyradio-nanas",
+      "seedName": "Babyradio Nanas",
+      "name": "Babyradio Nanas",
+      "tagline": "Canal infantil Nanas",
+      "description": "Señal infantil de Babyradio con contenidos pensados para público familiar y primeros oyentes.",
+      "category": "Educación",
+      "community": "Madrid",
+      "websiteUrl": "https://babyradio.es/#radio-player",
+      "logoUrl": "https://yt3.googleusercontent.com/ytc/AIdro_k2PqG2pKYF9_qLh_ut69Z0MtU-jXsRvezCZQtbjivJsX8=s200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 123,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://srv6022.dns-lcinternet.com:8027/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "babyradio-cuentos-infantiles",
+      "seedName": "Babyradio Cuentos Infantiles",
+      "name": "Babyradio Cuentos Infantiles",
+      "tagline": "Canal infantil Cuentos Infantiles",
+      "description": "Señal infantil de Babyradio con contenidos pensados para público familiar y primeros oyentes.",
+      "category": "Educación",
+      "community": "Madrid",
+      "websiteUrl": "https://babyradio.es/#radio-player",
+      "logoUrl": "https://yt3.googleusercontent.com/ytc/AIdro_k2PqG2pKYF9_qLh_ut69Z0MtU-jXsRvezCZQtbjivJsX8=s200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 124,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://srv6022.dns-lcinternet.com:8049/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "antenita",
+      "seedName": "Antenita",
+      "name": "Antenita",
+      "tagline": "Radio infantil y familiar",
+      "description": "Emisora pensada para niñas, niños y familias, con contenidos musicales y educativos.",
+      "category": "Educación",
+      "community": "Madrid",
+      "websiteUrl": "https://www.antenita.es",
+      "logoUrl": "https://graph.facebook.com/Pequeradio/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 125,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://vps-9f1e2662.vps.ovh.net/antenitafm",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "flamenco-radio",
+      "seedName": "Flamenco Radio",
+      "name": "Flamenco Radio",
+      "tagline": "Canal temático andaluz",
+      "description": "Señal musical temática centrada en flamenco, copla y sonidos de raíz andaluza.",
+      "category": "Música",
+      "community": "Madrid",
+      "websiteUrl": "https://www.canalsurmas.es/videos/19987-flamenco-radio",
+      "logoUrl": "https://graph.facebook.com/FlamencoRadio/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 126,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3",
+          "url": "https://rtva-live-radio.flumotion.com/rtva/flamenco.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-andalucia-informacion",
+      "seedName": "Radio Andalucía Información",
+      "name": "Radio Andalucía Información",
+      "tagline": "Información continua andaluza",
+      "description": "Canal informativo de Andalucía orientado a actualidad, boletines y servicio público.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.canalsurmas.es/videos/37911-rai",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1343337992803528711/onGzQLfO_200x200.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 127,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3",
+          "url": "https://rtva-live-radio.flumotion.com/rtva/rai.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "canal-sur-radio-musica",
+      "seedName": "Canal Sur Radio Musica",
+      "name": "Canal Sur Radio Musica",
+      "tagline": "Canal musical de Canal Sur",
+      "description": "Señal temática musical de Canal Sur con foco en música andaluza y española.",
+      "category": "Música",
+      "community": "Madrid",
+      "websiteUrl": "https://www.canalsurmas.es/videos/20775-canal-sur-musica",
+      "logoUrl": "https://myradioonline.es/public/uploads/radio_img/canal-sur-radio-musica/play_250_250.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 128,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3",
+          "url": "https://rtva-live-radio.flumotion.com/rtva/csm.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "canal-sur-radio-almeria",
+      "seedName": "Canal Sur Radio Almería",
+      "name": "Canal Sur Radio Almería",
+      "tagline": "Señal local de Canal Sur en Almería",
+      "description": "Desconexión territorial de Canal Sur Radio para Almería, con información y actualidad de proximidad.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.canalsurmas.es/videos/21003-canal-sur-radio-almeria",
+      "logoUrl": "https://graph.facebook.com/canalsuralmeria/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 129,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3",
+          "url": "https://rtva-live-radio.flumotion.com/rtva/csralm.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "canal-sur-radio-cadiz",
+      "seedName": "Canal Sur Radio Cadiz",
+      "name": "Canal Sur Radio Cadiz",
+      "tagline": "Señal local de Canal Sur en Cadiz",
+      "description": "Desconexión territorial de Canal Sur Radio para Cadiz, con información y actualidad de proximidad.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.canalsurmas.es/videos/20766-canal-sur-radio-cadiz",
+      "logoUrl": "https://graph.facebook.com/canalsurcadiz/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 130,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3",
+          "url": "https://rtva-live-radio.flumotion.com/rtva/csrcad.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "canal-sur-radio-campo-de-gibraltar",
+      "seedName": "Canal Sur Radio Campo de Gibraltar",
+      "name": "Canal Sur Radio Campo de Gibraltar",
+      "tagline": "Señal local de Canal Sur en Campo de Gibraltar",
+      "description": "Desconexión territorial de Canal Sur Radio para Campo de Gibraltar, con información y actualidad de proximidad.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.canalsurmas.es/videos/20768-canal-sur-radio-campo-de-gibraltar",
+      "logoUrl": "https://graph.facebook.com/canalsurcadiz/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 131,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3",
+          "url": "https://rtva-live-radio.flumotion.com/rtva/csralg.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "canal-sur-radio-cordoba",
+      "seedName": "Canal Sur Radio Córdoba",
+      "name": "Canal Sur Radio Córdoba",
+      "tagline": "Señal local de Canal Sur en Córdoba",
+      "description": "Desconexión territorial de Canal Sur Radio para Córdoba, con información y actualidad de proximidad.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.canalsurmas.es/videos/20769-canal-sur-radio-cordoba",
+      "logoUrl": "https://graph.facebook.com/canalsurcordoba/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 132,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3",
+          "url": "https://rtva-live-radio.flumotion.com/rtva/csrcor.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "canal-sur-radio-granada",
+      "seedName": "Canal Sur Radio Granada",
+      "name": "Canal Sur Radio Granada",
+      "tagline": "Señal local de Canal Sur en Granada",
+      "description": "Desconexión territorial de Canal Sur Radio para Granada, con información y actualidad de proximidad.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.canalsurmas.es/videos/20770-canal-sur-radio-granada",
+      "logoUrl": "https://graph.facebook.com/canalsurgranada/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 133,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3",
+          "url": "https://rtva-live-radio.flumotion.com/rtva/csrgra.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "canal-sur-radio-huelva",
+      "seedName": "Canal Sur Radio Huelva",
+      "name": "Canal Sur Radio Huelva",
+      "tagline": "Señal local de Canal Sur en Huelva",
+      "description": "Desconexión territorial de Canal Sur Radio para Huelva, con información y actualidad de proximidad.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.canalsurmas.es/videos/20771-canal-sur-radio-huelva",
+      "logoUrl": "https://graph.facebook.com/canalsurhuelva/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 134,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3",
+          "url": "https://rtva-live-radio.flumotion.com/rtva/csrhue.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "canal-sur-radio-jaen",
+      "seedName": "Canal Sur Radio Jaén",
+      "name": "Canal Sur Radio Jaén",
+      "tagline": "Señal local de Canal Sur en Jaén",
+      "description": "Desconexión territorial de Canal Sur Radio para Jaén, con información y actualidad de proximidad.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.canalsurmas.es/videos/20772-canal-sur-radio-jaen",
+      "logoUrl": "https://graph.facebook.com/canalsurjaen/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 135,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3",
+          "url": "https://rtva-live-radio.flumotion.com/rtva/csrjae.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "canal-sur-radio-jerez",
+      "seedName": "Canal Sur Radio Jerez",
+      "name": "Canal Sur Radio Jerez",
+      "tagline": "Señal local de Canal Sur en Jerez",
+      "description": "Desconexión territorial de Canal Sur Radio para Jerez, con información y actualidad de proximidad.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.canalsurmas.es/videos/20767-canal-sur-radio-jerez",
+      "logoUrl": "https://graph.facebook.com/canalsurradioytv/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 136,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3",
+          "url": "https://rtva-live-radio.flumotion.com/rtva/csrjer.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "canal-sur-radio-malaga",
+      "seedName": "Canal Sur Radio Málaga",
+      "name": "Canal Sur Radio Málaga",
+      "tagline": "Señal local de Canal Sur en Málaga",
+      "description": "Desconexión territorial de Canal Sur Radio para Málaga, con información y actualidad de proximidad.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.canalsurmas.es/videos/20773-canal-sur-radio-malaga",
+      "logoUrl": "https://graph.facebook.com/canalsurmalaga/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 137,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3",
+          "url": "https://rtva-live-radio.flumotion.com/rtva/csrmal.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "canal-sur-radio-sevilla",
+      "seedName": "Canal Sur Radio Sevilla",
+      "name": "Canal Sur Radio Sevilla",
+      "tagline": "Señal local de Canal Sur en Sevilla",
+      "description": "Desconexión territorial de Canal Sur Radio para Sevilla, con información y actualidad de proximidad.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.canalsurmas.es/videos/20774-canal-sur-radio-sevilla",
+      "logoUrl": "https://graph.facebook.com/canalsursevilla/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 138,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3",
+          "url": "https://rtva-live-radio.flumotion.com/rtva/csrsev.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-nacional-andalucia",
+      "seedName": "Radio Nacional Andalucía",
+      "name": "Radio Nacional Andalucía",
+      "tagline": "Señal territorial de RNE en Andalucía",
+      "description": "Edición territorial de Radio Nacional de España para Andalucía, con actualidad, información y programación de servicio público.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_and-live/3893442/",
+      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 139,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/and/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-5-andalucia",
+      "seedName": "Radio 5 Andalucía",
+      "name": "Radio 5 Andalucía",
+      "tagline": "Información continua desde Andalucía",
+      "description": "Señal territorial de Radio 5 Todo Noticias para Andalucía, orientada a información continua y servicio público.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_and/3894738/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 140,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/sev/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca-almeria",
+      "seedName": "Radio Marca Almería",
+      "name": "Radio Marca Almería",
+      "tagline": "Deporte y actualidad desde Almería",
+      "description": "Señal local de Radio Marca para Almería, centrada en deporte, actualidad y retransmisiones.",
+      "category": "Deportes",
+      "community": "Madrid",
+      "websiteUrl": "https://www.radiomarcaalmeria.com/radio-en-directo/",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 141,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3",
+          "url": "https://streaming.indalteco.net/proxy/radiomarca?mp=/rmarcaalm.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca-malaga",
+      "seedName": "Radio Marca Málaga",
+      "name": "Radio Marca Málaga",
+      "tagline": "Deporte y actualidad desde Málaga",
+      "description": "Señal local de Radio Marca para Málaga, centrada en deporte, actualidad y retransmisiones.",
+      "category": "Deportes",
+      "community": "Madrid",
+      "websiteUrl": "https://www.marca.com/radio.html",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 142,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://malagafm.streaming-pro.com:8131/malagafmmobile",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca-sevilla",
+      "seedName": "Radio Marca Sevilla",
+      "name": "Radio Marca Sevilla",
+      "tagline": "Deporte y actualidad desde Sevilla",
+      "description": "Señal local de Radio Marca para Sevilla, centrada en deporte, actualidad y retransmisiones.",
+      "category": "Deportes",
+      "community": "Madrid",
+      "websiteUrl": "https://www.marca.com/radio.html",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 143,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_SEVILLA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "los40-almeria",
+      "seedName": "LOS40 Almería",
+      "name": "LOS40 Almería",
+      "tagline": "LOS40 local en Almería",
+      "description": "Señal local o regional de LOS40 para Almería, con hits, entretenimiento y radiofórmula musical.",
+      "category": "Música",
+      "community": "Madrid",
+      "websiteUrl": "http://www.seralmeria.com/onlineradio/40almeria.html",
+      "logoUrl": "https://graph.facebook.com/los40/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 144,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_ASO_ALMERIA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "los40-guadix",
+      "seedName": "LOS40 Guadix",
+      "name": "LOS40 Guadix",
+      "tagline": "LOS40 local en Guadix",
+      "description": "Señal local o regional de LOS40 para Guadix, con hits, entretenimiento y radiofórmula musical.",
+      "category": "Música",
+      "community": "Madrid",
+      "websiteUrl": "https://cadenaser.com/emisora/radio_guadix/",
+      "logoUrl": "https://graph.facebook.com/los40/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 145,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_ASO_GUADIX.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "los40-indalo",
+      "seedName": "LOS40 Indalo",
+      "name": "LOS40 Indalo",
+      "tagline": "LOS40 local en Indalo",
+      "description": "Señal local o regional de LOS40 para Indalo, con hits, entretenimiento y radiofórmula musical.",
+      "category": "Música",
+      "community": "Madrid",
+      "websiteUrl": "http://www.seralmeria.com/onlineradio/40indalo.html",
+      "logoUrl": "https://graph.facebook.com/los40/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 146,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_ASO_INDALO.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "los40-poniente",
+      "seedName": "LOS40 Poniente",
+      "name": "LOS40 Poniente",
+      "tagline": "LOS40 local en Poniente",
+      "description": "Señal local o regional de LOS40 para Poniente, con hits, entretenimiento y radiofórmula musical.",
+      "category": "Música",
+      "community": "Madrid",
+      "websiteUrl": "http://www.seralmeria.com/onlineradio/40poniente.html",
+      "logoUrl": "https://graph.facebook.com/los40/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 147,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_ASO_PONIENTE.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "cadena-dial-almeria",
+      "seedName": "Cadena Dial Almería",
+      "name": "Cadena Dial Almería",
+      "tagline": "Dial local en Almería",
+      "description": "Señal local o regional de Cadena Dial para Almería, centrada en música en español y radiofórmula.",
+      "category": "Música",
+      "community": "Madrid",
+      "websiteUrl": "https://www.lavozdealmeria.com/radios/dialalmeria",
+      "logoUrl": "https://graph.facebook.com/cadenadial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 148,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3",
+          "url": "https://streaming.indalteco.net/proxy/dial?mp=/dial.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "cadena-dial-andalucia-este",
+      "seedName": "Cadena Dial Andalucia Este",
+      "name": "Cadena Dial Andalucia Este",
+      "tagline": "Dial local en Andalucia Este",
+      "description": "Señal local o regional de Cadena Dial para Andalucia Este, centrada en música en español y radiofórmula.",
+      "category": "Música",
+      "community": "Madrid",
+      "websiteUrl": "http://dialandaluciaeste.com",
+      "logoUrl": "https://graph.facebook.com/cadenadial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 149,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "http://streaming5.elitecomunicacion.es:8226/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "cadena-dial-levante",
+      "seedName": "Cadena Dial Levante",
+      "name": "Cadena Dial Levante",
+      "tagline": "Dial local en Levante",
+      "description": "Señal local o regional de Cadena Dial para Levante, centrada en música en español y radiofórmula.",
+      "category": "Música",
+      "community": "Madrid",
+      "websiteUrl": "https://www.lavozdealmeria.com/radios/diallevante",
+      "logoUrl": "https://graph.facebook.com/cadenadial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 150,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3",
+          "url": "https://streaming.indalteco.net/proxy/diallevante?mp=/diallevante.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "cadena-dial-sierra-alcaudete",
+      "seedName": "Cadena Dial Sierra - Alcaudete",
+      "name": "Cadena Dial Sierra - Alcaudete",
+      "tagline": "Dial local en Sierra - Alcaudete",
+      "description": "Señal local o regional de Cadena Dial para Sierra - Alcaudete, centrada en música en español y radiofórmula.",
+      "category": "Música",
+      "community": "Madrid",
+      "websiteUrl": "https://dialsierra.com",
+      "logoUrl": "https://graph.facebook.com/cadenadial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 151,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "http://streaming.cloud.innovasur.es:8810/alcaudete",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "nostalgia-fm",
+      "seedName": "Nostalgia FM",
+      "name": "Nostalgia FM",
+      "tagline": "Música nostálgica en continuo",
+      "description": "Emisora musical temática orientada a grandes éxitos nostálgicos y programación continua.",
+      "category": "Música",
+      "community": "Madrid",
+      "websiteUrl": "https://nostalgiafm.es/web/",
+      "logoUrl": "https://graph.facebook.com/nostalgiaspain/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 152,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://azura.abcorp.es/radio/8040/live",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-nacional-aragon",
+      "seedName": "Radio Nacional Aragón",
+      "name": "Radio Nacional Aragón",
+      "tagline": "Señal territorial de RNE en Aragón",
+      "description": "Edición territorial de Radio Nacional de España para Aragón, con actualidad, información y programación de servicio público.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_ara-live/3893524/",
+      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 153,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/ara/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-5-aragon",
+      "seedName": "Radio 5 Aragón",
+      "name": "Radio 5 Aragón",
+      "tagline": "Información continua desde Aragón",
+      "description": "Señal territorial de Radio 5 Todo Noticias para Aragón, orientada a información continua y servicio público.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_ara/3894741/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 154,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/zgz/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca-zaragoza",
+      "seedName": "Radio Marca Zaragoza",
+      "name": "Radio Marca Zaragoza",
+      "tagline": "Deporte y actualidad desde Zaragoza",
+      "description": "Señal local de Radio Marca para Zaragoza, centrada en deporte, actualidad y retransmisiones.",
+      "category": "Deportes",
+      "community": "Madrid",
+      "websiteUrl": "https://www.marca.com/radio.html",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 155,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://c6.auracast.net/radio/8020/rmzgz",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "los40-zaragoza",
+      "seedName": "LOS40 Zaragoza",
+      "name": "LOS40 Zaragoza",
+      "tagline": "LOS40 local en Zaragoza",
+      "description": "Señal local o regional de LOS40 para Zaragoza, con hits, entretenimiento y radiofórmula musical.",
+      "category": "Música",
+      "community": "Madrid",
+      "websiteUrl": "https://los40.com/tag/zaragoza/",
+      "logoUrl": "https://graph.facebook.com/los40/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 156,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_ZARAGOZA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "los40-classic-bajo-aragon",
+      "seedName": "LOS40 Classic Bajo Aragón",
+      "name": "LOS40 Classic Bajo Aragón",
+      "tagline": "LOS40 local en Classic Bajo Aragón",
+      "description": "Señal local o regional de LOS40 para Classic Bajo Aragón, con hits, entretenimiento y radiofórmula musical.",
+      "category": "Música",
+      "community": "Madrid",
+      "websiteUrl": "https://www.lacomarca.net/radio-streaming/?channel=los-40-classic",
+      "logoUrl": "https://graph.facebook.com/Los40Classic.Oficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 157,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3",
+          "url": "https://los40classic.radioonlinelacomarca.net:8533/40classic.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-nacional-canarias",
+      "seedName": "Radio Nacional Canarias",
+      "name": "Radio Nacional Canarias",
+      "tagline": "Señal territorial de RNE en Canarias",
+      "description": "Edición territorial de Radio Nacional de España para Canarias, con actualidad, información y programación de servicio público.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_ten-live/3893530/",
+      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 158,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/cnr/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-5-canarias-las-palmas",
+      "seedName": "Radio 5 Canarias - Las Palmas",
+      "name": "Radio 5 Canarias - Las Palmas",
+      "tagline": "Información continua desde Canarias - Las Palmas",
+      "description": "Señal territorial de Radio 5 Todo Noticias para Canarias - Las Palmas, orientada a información continua y servicio público.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_ten-live/3893530/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 159,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/lpa/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-5-canarias-santa-cruz-de-tenerife",
+      "seedName": "Radio 5 Canarias - Santa Cruz de Tenerife",
+      "name": "Radio 5 Canarias - Santa Cruz de Tenerife",
+      "tagline": "Información continua desde Canarias - Santa Cruz de Tenerife",
+      "description": "Señal territorial de Radio 5 Todo Noticias para Canarias - Santa Cruz de Tenerife, orientada a información continua y servicio público.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_cnr-live/3894726/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 160,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/ten/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca-tenerife",
+      "seedName": "Radio Marca Tenerife",
+      "name": "Radio Marca Tenerife",
+      "tagline": "Deporte y actualidad desde Tenerife",
+      "description": "Señal local de Radio Marca para Tenerife, centrada en deporte, actualidad y retransmisiones.",
+      "category": "Deportes",
+      "community": "Madrid",
+      "websiteUrl": "https://radiomarcatenerife.com",
+      "logoUrl": "https://graph.facebook.com/RadioMarcaTfe/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 161,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://cervera.eldialdigital.com:22131/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca-lanzarote",
+      "seedName": "Radio Marca Lanzarote",
+      "name": "Radio Marca Lanzarote",
+      "tagline": "Deporte y actualidad desde Lanzarote",
+      "description": "Señal local de Radio Marca para Lanzarote, centrada en deporte, actualidad y retransmisiones.",
+      "category": "Deportes",
+      "community": "Madrid",
+      "websiteUrl": "https://lancelot.es/radio.php",
+      "logoUrl": "https://graph.facebook.com/RadioMarcaLanzarote/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 162,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS",
+          "url": "https://5c0956165db0b.streamlock.net/radio/marca.stream_aac/playlist.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-nacional-cantabria",
+      "seedName": "Radio Nacional Cantabria",
+      "name": "Radio Nacional Cantabria",
+      "tagline": "Señal territorial de RNE en Cantabria",
+      "description": "Edición territorial de Radio Nacional de España para Cantabria, con actualidad, información y programación de servicio público.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_ctb-live/3893531/",
+      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 163,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/ctb/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-5-cantabria",
+      "seedName": "Radio 5 Cantabria",
+      "name": "Radio 5 Cantabria",
+      "tagline": "Información continua desde Cantabria",
+      "description": "Señal territorial de Radio 5 Todo Noticias para Cantabria, orientada a información continua y servicio público.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_ctb-live/3894780/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 164,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/ctb/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-nacional-castilla-la-mancha",
+      "seedName": "Radio Nacional Castilla-La Mancha",
+      "name": "Radio Nacional Castilla-La Mancha",
+      "tagline": "Señal territorial de RNE en Castilla-La Mancha",
+      "description": "Edición territorial de Radio Nacional de España para Castilla-La Mancha, con actualidad, información y programación de servicio público.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_clm-live/3893547/",
+      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 165,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/clm/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-5-castilla-la-mancha",
+      "seedName": "Radio 5 Castilla-La Mancha",
+      "name": "Radio 5 Castilla-La Mancha",
+      "tagline": "Información continua desde Castilla-La Mancha",
+      "description": "Señal territorial de Radio 5 Todo Noticias para Castilla-La Mancha, orientada a información continua y servicio público.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_clm-live/3894725/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 166,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/tol/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-nacional-castilla-y-leon",
+      "seedName": "Radio Nacional Castilla y León",
+      "name": "Radio Nacional Castilla y León",
+      "tagline": "Señal territorial de RNE en Castilla y León",
+      "description": "Edición territorial de Radio Nacional de España para Castilla y León, con actualidad, información y programación de servicio público.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_cyl-live/3893532/",
+      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 167,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/cyl/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-5-castilla-y-leon",
+      "seedName": "Radio 5 Castilla y León",
+      "name": "Radio 5 Castilla y León",
+      "tagline": "Información continua desde Castilla y León",
+      "description": "Señal territorial de Radio 5 Todo Noticias para Castilla y León, orientada a información continua y servicio público.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_cyl-live/3894781/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 168,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/vll/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca-valladolid",
+      "seedName": "Radio Marca Valladolid",
+      "name": "Radio Marca Valladolid",
+      "tagline": "Deporte y actualidad desde Valladolid",
+      "description": "Señal local de Radio Marca para Valladolid, centrada en deporte, actualidad y retransmisiones.",
+      "category": "Deportes",
+      "community": "Madrid",
+      "websiteUrl": "https://radiomarcavalladolid.com",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 169,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3",
+          "url": "https://radiomarcavalladolid.streaming-pro.com:6106/radiomarca.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "los40-leon",
+      "seedName": "LOS40 León",
+      "name": "LOS40 León",
+      "tagline": "LOS40 local en León",
+      "description": "Señal local o regional de LOS40 para León, con hits, entretenimiento y radiofórmula musical.",
+      "category": "Música",
+      "community": "Madrid",
+      "websiteUrl": "http://www.40leon.es/directo/",
+      "logoUrl": "https://graph.facebook.com/los40/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 170,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_ASO_LEON.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-nacional-catalunya",
+      "seedName": "Radio Nacional Catalunya",
+      "name": "Radio Nacional Catalunya",
+      "tagline": "Señal territorial de RNE en Catalunya",
+      "description": "Edición territorial de Radio Nacional de España para Catalunya, con actualidad, información y programación de servicio público.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_cat-live/3893527/",
+      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 171,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/cat/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-5-catalunya",
+      "seedName": "Radio 5 Catalunya",
+      "name": "Radio 5 Catalunya",
+      "tagline": "Información continua desde Catalunya",
+      "description": "Señal territorial de Radio 5 Todo Noticias para Catalunya, orientada a información continua y servicio público.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_cat/3894724/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 172,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/bcn/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "los40-catalunya",
+      "seedName": "LOS40 Catalunya",
+      "name": "LOS40 Catalunya",
+      "tagline": "LOS40 local en Catalunya",
+      "description": "Señal local o regional de LOS40 para Catalunya, con hits, entretenimiento y radiofórmula musical.",
+      "category": "Música",
+      "community": "Madrid",
+      "websiteUrl": "https://play.los40.com/emisora/los40_catalunya/",
+      "logoUrl": "https://graph.facebook.com/els40/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 173,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_CAT.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca-barcelona",
+      "seedName": "Radio Marca Barcelona",
+      "name": "Radio Marca Barcelona",
+      "tagline": "Deporte y actualidad desde Barcelona",
+      "description": "Señal local de Radio Marca para Barcelona, centrada en deporte, actualidad y retransmisiones.",
+      "category": "Deportes",
+      "community": "Madrid",
+      "websiteUrl": "https://www.marca.com/radio.html",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 174,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://radiomarcabcnmedia.dns-lcinternet.com:9000/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "mdt-radio-barcelona",
+      "seedName": "MDT Radio Barcelona",
+      "name": "MDT Radio Barcelona",
+      "tagline": "Canal MDT Barcelona",
+      "description": "Canal temático de MDT Radio dedicado a barcelona con foco en música dance y remember.",
+      "category": "Música",
+      "community": "Madrid",
+      "websiteUrl": "https://mdtradio.com",
+      "logoUrl": "https://graph.facebook.com/MDTradioBarcelona/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 175,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://streams1.mdtradio.com:8443/MdtBarcelonaEstudio",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-nacional-navarra",
+      "seedName": "Radio Nacional Navarra",
+      "name": "Radio Nacional Navarra",
+      "tagline": "Señal territorial de RNE en Navarra",
+      "description": "Edición territorial de Radio Nacional de España para Navarra, con actualidad, información y programación de servicio público.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_nav-live/3893551/",
+      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 176,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/nav/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-5-navarra",
+      "seedName": "Radio 5 Navarra",
+      "name": "Radio 5 Navarra",
+      "tagline": "Información continua desde Navarra",
+      "description": "Señal territorial de Radio 5 Todo Noticias para Navarra, orientada a información continua y servicio público.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_nav-live/3894787/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 177,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/nav/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-nacional-comunidad-valenciana",
+      "seedName": "Radio Nacional Comunidad Valenciana",
+      "name": "Radio Nacional Comunidad Valenciana",
+      "tagline": "Señal territorial de RNE en Comunidad Valenciana",
+      "description": "Edición territorial de Radio Nacional de España para Comunidad Valenciana, con actualidad, información y programación de servicio público.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_val-live/3893537/",
+      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 178,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/val/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-5-comunidad-valenciana",
+      "seedName": "Radio 5 Comunidad Valenciana",
+      "name": "Radio 5 Comunidad Valenciana",
+      "tagline": "Información continua desde Comunidad Valenciana",
+      "description": "Señal territorial de Radio 5 Todo Noticias para Comunidad Valenciana, orientada a información continua y servicio público.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_val-live/3894731/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 179,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/vlc/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca-valencia",
+      "seedName": "Radio Marca Valencia",
+      "name": "Radio Marca Valencia",
+      "tagline": "Deporte y actualidad desde Valencia",
+      "description": "Señal local de Radio Marca para Valencia, centrada en deporte, actualidad y retransmisiones.",
+      "category": "Deportes",
+      "community": "Madrid",
+      "websiteUrl": "https://www.marca.com/radio.html",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 180,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_VALENCIA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca-elche",
+      "seedName": "Radio Marca Elche",
+      "name": "Radio Marca Elche",
+      "tagline": "Deporte y actualidad desde Elche",
+      "description": "Señal local de Radio Marca para Elche, centrada en deporte, actualidad y retransmisiones.",
+      "category": "Deportes",
+      "community": "Madrid",
+      "websiteUrl": "https://radiomarcaelche.es",
+      "logoUrl": "https://graph.facebook.com/radiomarcaelche/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 181,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3",
+          "url": "https://directo.teleelx.es:8000/radio.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "los40-benidorm",
+      "seedName": "LOS40 Benidorm",
+      "name": "LOS40 Benidorm",
+      "tagline": "LOS40 local en Benidorm",
+      "description": "Señal local o regional de LOS40 para Benidorm, con hits, entretenimiento y radiofórmula musical.",
+      "category": "Música",
+      "community": "Madrid",
+      "websiteUrl": "https://40benidorm.com/assets/player/player.html",
+      "logoUrl": "https://pbs.twimg.com/profile_images/732171106782695424/eSJEnwoL_200x200.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 182,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_ASO_BENIDORM.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "los40-castellon",
+      "seedName": "LOS40 Castellón",
+      "name": "LOS40 Castellón",
+      "tagline": "LOS40 local en Castellón",
+      "description": "Señal local o regional de LOS40 para Castellón, con hits, entretenimiento y radiofórmula musical.",
+      "category": "Música",
+      "community": "Madrid",
+      "websiteUrl": "https://cadenaser.com/emisora/radio_castellon/",
+      "logoUrl": "https://graph.facebook.com/Los40Castellon/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 183,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_ASO_CASTELLON.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "cadena-dial-castellon",
+      "seedName": "Cadena Dial Castellón",
+      "name": "Cadena Dial Castellón",
+      "tagline": "Dial local en Castellón",
+      "description": "Señal local o regional de Cadena Dial para Castellón, centrada en música en español y radiofórmula.",
+      "category": "Música",
+      "community": "Madrid",
+      "websiteUrl": "https://cadenaser.com/emisora/radio_castellon/",
+      "logoUrl": "https://graph.facebook.com/cadenadialcastelllon/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 184,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-nacional-extremadura",
+      "seedName": "Radio Nacional Extremadura",
+      "name": "Radio Nacional Extremadura",
+      "tagline": "Señal territorial de RNE en Extremadura",
+      "description": "Edición territorial de Radio Nacional de España para Extremadura, con actualidad, información y programación de servicio público.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_ext-live/3893533/",
+      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 185,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/ext/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-5-extremadura",
+      "seedName": "Radio 5 Extremadura",
+      "name": "Radio 5 Extremadura",
+      "tagline": "Información continua desde Extremadura",
+      "description": "Señal territorial de Radio 5 Todo Noticias para Extremadura, orientada a información continua y servicio público.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_ext-live/3894783/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 186,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/cce/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "cadena-dial-zafra-rio-bodion",
+      "seedName": "Cadena Dial Zafra-Río Bodión",
+      "name": "Cadena Dial Zafra-Río Bodión",
+      "tagline": "Dial local en Zafra-Río Bodión",
+      "description": "Señal local o regional de Cadena Dial para Zafra-Río Bodión, centrada en música en español y radiofórmula.",
+      "category": "Música",
+      "community": "Madrid",
+      "websiteUrl": "https://www.radiotvzafra.es/en-directo/cadena-dial-zafra",
+      "logoUrl": "https://graph.facebook.com/cadenadial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 187,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://radiotvzafra.es/cadenadial",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-nacional-galicia",
+      "seedName": "Radio Nacional Galicia",
+      "name": "Radio Nacional Galicia",
+      "tagline": "Señal territorial de RNE en Galicia",
+      "description": "Edición territorial de Radio Nacional de España para Galicia, con actualidad, información y programación de servicio público.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_gal-live/3893549/",
+      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 188,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/gal/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-5-galicia",
+      "seedName": "Radio 5 Galicia",
+      "name": "Radio 5 Galicia",
+      "tagline": "Información continua desde Galicia",
+      "description": "Señal territorial de Radio 5 Todo Noticias para Galicia, orientada a información continua y servicio público.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_gal-live/3894729/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 189,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/lcg/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca-vigo",
+      "seedName": "Radio Marca Vigo",
+      "name": "Radio Marca Vigo",
+      "tagline": "Deporte y actualidad desde Vigo",
+      "description": "Señal local de Radio Marca para Vigo, centrada en deporte, actualidad y retransmisiones.",
+      "category": "Deportes",
+      "community": "Madrid",
+      "websiteUrl": "https://www.marca.com/radio.html",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 190,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3",
+          "url": "https://streaming.enacast.com/radiomarcavigoHD.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca-coruna",
+      "seedName": "Radio Marca Coruña",
+      "name": "Radio Marca Coruña",
+      "tagline": "Deporte y actualidad desde Coruña",
+      "description": "Señal local de Radio Marca para Coruña, centrada en deporte, actualidad y retransmisiones.",
+      "category": "Deportes",
+      "community": "Madrid",
+      "websiteUrl": "https://www.marca.com/radio.html",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 191,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_CORUNA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "los40-classic-vigo",
+      "seedName": "LOS40 Classic Vigo",
+      "name": "LOS40 Classic Vigo",
+      "tagline": "LOS40 local en Classic Vigo",
+      "description": "Señal local o regional de LOS40 para Classic Vigo, con hits, entretenimiento y radiofórmula musical.",
+      "category": "Música",
+      "community": "Madrid",
+      "websiteUrl": "https://gruporadiovigo.com/la-radio-y-tv-online/",
+      "logoUrl": "https://graph.facebook.com/Los40Classic.Oficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 192,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40CL_ASO_VIGO.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-nacional-islas-baleares",
+      "seedName": "Radio Nacional Islas Baleares",
+      "name": "Radio Nacional Islas Baleares",
+      "tagline": "Señal territorial de RNE en Islas Baleares",
+      "description": "Edición territorial de Radio Nacional de España para Islas Baleares, con actualidad, información y programación de servicio público.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_bal/3893546/",
+      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 193,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/bal/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-5-islas-baleares",
+      "seedName": "Radio 5 Islas Baleares",
+      "name": "Radio 5 Islas Baleares",
+      "tagline": "Información continua desde Islas Baleares",
+      "description": "Señal territorial de Radio 5 Todo Noticias para Islas Baleares, orientada a información continua y servicio público.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_bal/3894743/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 194,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/pmi/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-nacional-la-rioja",
+      "seedName": "Radio Nacional La Rioja",
+      "name": "Radio Nacional La Rioja",
+      "tagline": "Señal territorial de RNE en La Rioja",
+      "description": "Edición territorial de Radio Nacional de España para La Rioja, con actualidad, información y programación de servicio público.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_rio-live/3893536/",
+      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 195,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/rio/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-5-la-rioja",
+      "seedName": "Radio 5 La Rioja",
+      "name": "Radio 5 La Rioja",
+      "tagline": "Información continua desde La Rioja",
+      "description": "Señal territorial de Radio 5 Todo Noticias para La Rioja, orientada a información continua y servicio público.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_rio-live/3894788/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 196,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/rio/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-nacional-pais-vasco",
+      "seedName": "Radio Nacional País Vasco",
+      "name": "Radio Nacional País Vasco",
+      "tagline": "Señal territorial de RNE en País Vasco",
+      "description": "Edición territorial de Radio Nacional de España para País Vasco, con actualidad, información y programación de servicio público.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_eus-live/3893548/",
+      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 197,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/eus/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-5-pais-vasco",
+      "seedName": "Radio 5 País Vasco",
+      "name": "Radio 5 País Vasco",
+      "tagline": "Información continua desde País Vasco",
+      "description": "Señal territorial de Radio 5 Todo Noticias para País Vasco, orientada a información continua y servicio público.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_eus-live/3894782/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 198,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/vit/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca-bilbao",
+      "seedName": "Radio Marca Bilbao",
+      "name": "Radio Marca Bilbao",
+      "tagline": "Deporte y actualidad desde Bilbao",
+      "description": "Señal local de Radio Marca para Bilbao, centrada en deporte, actualidad y retransmisiones.",
+      "category": "Deportes",
+      "community": "Madrid",
+      "websiteUrl": "https://www.radiomarcabilbao.com",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 199,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://server8.emitironline.com:18475/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca-donostia",
+      "seedName": "Radio Marca Donostia",
+      "name": "Radio Marca Donostia",
+      "tagline": "Deporte y actualidad desde Donostia",
+      "description": "Señal local de Radio Marca para Donostia, centrada en deporte, actualidad y retransmisiones.",
+      "category": "Deportes",
+      "community": "Madrid",
+      "websiteUrl": "https://www.marca.com/radio.html",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 200,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://marca-sansebastian.streaming-pro.com:6101/live",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca-vitoria",
+      "seedName": "Radio Marca Vitoria",
+      "name": "Radio Marca Vitoria",
+      "tagline": "Deporte y actualidad desde Vitoria",
+      "description": "Señal local de Radio Marca para Vitoria, centrada en deporte, actualidad y retransmisiones.",
+      "category": "Deportes",
+      "community": "Madrid",
+      "websiteUrl": "https://www.marca.com/radio.html",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 201,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3",
+          "url": "https://control.streaming-pro.com:6014/marcavitoria.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-nacional-asturias",
+      "seedName": "Radio Nacional Asturias",
+      "name": "Radio Nacional Asturias",
+      "tagline": "Señal territorial de RNE en Asturias",
+      "description": "Edición territorial de Radio Nacional de España para Asturias, con actualidad, información y programación de servicio público.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_ast-live/3893526/",
+      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 202,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/ast/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-5-asturias",
+      "seedName": "Radio 5 Asturias",
+      "name": "Radio 5 Asturias",
+      "tagline": "Información continua desde Asturias",
+      "description": "Señal territorial de Radio 5 Todo Noticias para Asturias, orientada a información continua y servicio público.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_ast/3894742/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 203,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/ast/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca-asturias",
+      "seedName": "Radio Marca Asturias",
+      "name": "Radio Marca Asturias",
+      "tagline": "Deporte y actualidad desde Asturias",
+      "description": "Señal local de Radio Marca para Asturias, centrada en deporte, actualidad y retransmisiones.",
+      "category": "Deportes",
+      "community": "Madrid",
+      "websiteUrl": "https://www.marca.com/radio.html",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 204,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3",
+          "url": "https://streaming.enacast.com/radiomarcaasturiasHD.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-nacional-murcia",
+      "seedName": "Radio Nacional Murcia",
+      "name": "Radio Nacional Murcia",
+      "tagline": "Señal territorial de RNE en Murcia",
+      "description": "Edición territorial de Radio Nacional de España para Murcia, con actualidad, información y programación de servicio público.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_mur-live/3893550/",
+      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 205,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/mur/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-5-murcia",
+      "seedName": "Radio 5 Murcia",
+      "name": "Radio 5 Murcia",
+      "tagline": "Información continua desde Murcia",
+      "description": "Señal territorial de Radio 5 Todo Noticias para Murcia, orientada a información continua y servicio público.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_mur-live/3894785/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 206,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/mur/mp3/high",
+          "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
         }
