@@ -1,12 +1,12 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Andalucía suma 50 remates más sin tocar la app: 270 reproducibles, 219 verificadas, 51 candidatas y 153 todavía pendientes.",
+  "syncMessage": "Madrid mantiene 156 entradas desde myTuner: 115 ya reproducibles, 6 revisadas con web/metadatos y 35 todavía pendientes de stream estable.",
   "stats": {
-    "seedCount": 645,
-    "playableCount": 432,
-    "verifiedCount": 366,
-    "candidateCount": 68,
-    "pendingCount": 211
+    "seedCount": 285,
+    "playableCount": 184,
+    "verifiedCount": 170,
+    "candidateCount": 22,
+    "pendingCount": 93
   },
   "featuredIds": [
     "mariskalrock-radio",
@@ -65,22 +65,15 @@
       "id": "euskadi",
       "name": "Euskadi",
       "path": "communities/euskadi.json",
-      "seedCount": 130,
-      "playableCount": 70
+      "seedCount": 129,
+      "playableCount": 69
     },
     {
       "id": "madrid",
       "name": "Madrid",
       "path": "communities/madrid.json",
-      "seedCount": 92,
-      "playableCount": 92
-    },
-    {
-      "id": "andalucia",
-      "name": "Andalucía",
-      "path": "communities/andalucia.json",
-      "seedCount": 423,
-      "playableCount": 270
+      "seedCount": 156,
+      "playableCount": 115
     }
   ]
 }
