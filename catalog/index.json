@@ -1,10 +1,10 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Galicia ampliada hasta 124: se mantiene la base local limpia y se completa con emisoras nacionales/online y variantes literales de myTuner usando streams/logos ya validados en el repositorio.",
+  "syncMessage": "Galicia: bloque rehecho con limpieza conservadora, quedándonos solo con emisoras gallegas y desconexiones territoriales claramente verificables.",
   "stats": {
-    "seedCount": 1128,
-    "playableCount": 793,
-    "verifiedCount": 809,
+    "seedCount": 1065,
+    "playableCount": 730,
+    "verifiedCount": 746,
     "candidateCount": 93,
     "pendingCount": 226
   },
