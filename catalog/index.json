@@ -1,15 +1,14 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Euskadi se mantiene estable y Madrid sigue afinándose: Waiting Room entra verificada y el catálogo madrileño sube a 73 emisoras reproducibles.",
+  "syncMessage": "Euskadi se mantiene estable y Madrid gana cadenas conocidas/mainstream: 201 entradas, 141 reproducibles y 72 emisoras verificadas ya en Madrid.",
   "stats": {
-    "seedCount": 202,
-    "playableCount": 142,
-    "verifiedCount": 128,
+    "seedCount": 201,
+    "playableCount": 141,
+    "verifiedCount": 127,
     "candidateCount": 16,
     "pendingCount": 58
   },
   "featuredIds": [
-    "waiting-room",
     "los40",
     "cadena-100",
     "rock-fm",
@@ -24,10 +23,10 @@
     "rec-radio",
     "pozuelo-radio",
     "eitb-radio-euskadi",
-    "onda-vasca"
+    "onda-vasca",
+    "onda-madrid"
   ],
   "trendingIds": [
-    "waiting-room",
     "los40",
     "rock-fm",
     "cadena-100",
@@ -40,10 +39,10 @@
     "espacio-4-fm",
     "rec-radio",
     "onda-vallekana",
-    "onda-madrid"
+    "onda-madrid",
+    "radio-madrid-ser"
   ],
   "recentIds": [
-    "waiting-room",
     "los40",
     "cadena-100",
     "rock-fm",
@@ -56,7 +55,8 @@
     "hit-fm",
     "melodia-fm",
     "megastar-fm",
-    "los40-urban"
+    "los40-urban",
+    "los40-dance"
   ],
   "communities": [
     {
@@ -70,8 +70,8 @@
       "id": "madrid",
       "name": "Madrid",
       "path": "communities/madrid.json",
-      "seedCount": 73,
-      "playableCount": 73
+      "seedCount": 72,
+      "playableCount": 72
     }
   ]
 }
