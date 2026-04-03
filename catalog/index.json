@@ -1,12 +1,12 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Andalucía, Euskadi, Madrid y Catalunya siguen indexadas; Catalunya suma otro bloque de 100 emisoras con semilla ampliada y verificación incremental.",
+  "syncMessage": "Andalucía, Euskadi, Madrid y Catalunya siguen indexadas; Catalunya queda cerrada por conteo contra myTuner con 381 semillas totales y remate pendiente solo de verificación fina en parte del bloque nuevo.",
   "stats": {
-    "seedCount": 991,
+    "seedCount": 1089,
     "playableCount": 666,
     "verifiedCount": 561,
     "candidateCount": 113,
-    "pendingCount": 317
+    "pendingCount": 415
   },
   "featuredIds": [
     "mariskalrock-radio",
@@ -86,7 +86,7 @@
       "id": "catalunya",
       "name": "Catalunya",
       "path": "communities/catalunya.json",
-      "seedCount": 283,
+      "seedCount": 381,
       "playableCount": 192
     }
   ]
