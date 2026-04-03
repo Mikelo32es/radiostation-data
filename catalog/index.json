@@ -1,12 +1,12 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Andalucía, Euskadi, Madrid y Catalunya están indexadas; Catalunya sube con un bloque adicional de 100 emisoras manteniendo la carga remota por comunidades.",
+  "syncMessage": "Andalucía, Euskadi, Madrid y Catalunya siguen indexadas; Catalunya suma otro bloque de 100 emisoras con semilla ampliada y verificación incremental.",
   "stats": {
-    "seedCount": 891,
-    "playableCount": 657,
+    "seedCount": 991,
+    "playableCount": 666,
     "verifiedCount": 561,
-    "candidateCount": 104,
-    "pendingCount": 226
+    "candidateCount": 113,
+    "pendingCount": 317
   },
   "featuredIds": [
     "mariskalrock-radio",
@@ -86,8 +86,8 @@
       "id": "catalunya",
       "name": "Catalunya",
       "path": "communities/catalunya.json",
-      "seedCount": 183,
-      "playableCount": 183
+      "seedCount": 283,
+      "playableCount": 192
     }
   ]
 }
