@@ -1,11 +1,11 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Catalunya arranca con un primer bloque verificado y la carga remota ya incluye Andalucía, Euskadi, Madrid y Catalunya.",
+  "syncMessage": "Andalucía, Euskadi, Madrid y Catalunya están indexadas; Catalunya sube con un bloque adicional de 100 emisoras manteniendo la carga remota por comunidades.",
   "stats": {
-    "seedCount": 791,
-    "playableCount": 557,
-    "verifiedCount": 472,
-    "candidateCount": 93,
+    "seedCount": 891,
+    "playableCount": 657,
+    "verifiedCount": 561,
+    "candidateCount": 104,
     "pendingCount": 226
   },
   "featuredIds": [
@@ -86,8 +86,8 @@
       "id": "catalunya",
       "name": "Catalunya",
       "path": "communities/catalunya.json",
-      "seedCount": 83,
-      "playableCount": 83
+      "seedCount": 183,
+      "playableCount": 183
     }
   ]
 }
