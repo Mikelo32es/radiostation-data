@@ -1,14 +1,19 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Euskadi se mantiene estable y Madrid sigue creciendo: 180 entradas, 120 reproducibles y 51 emisoras verificadas ya en Madrid.",
+  "syncMessage": "Euskadi se mantiene estable y Madrid queda prácticamente cerrada: 186 entradas, 126 reproducibles y 57 emisoras verificadas ya en Madrid.",
   "stats": {
-    "seedCount": 180,
-    "playableCount": 120,
-    "verifiedCount": 106,
+    "seedCount": 186,
+    "playableCount": 126,
+    "verifiedCount": 112,
     "candidateCount": 16,
     "pendingCount": 58
   },
   "featuredIds": [
+    "esencia-radio",
+    "espacio-4-fm",
+    "onda-vallekana",
+    "rec-radio",
+    "pozuelo-radio",
     "eitb-radio-euskadi",
     "onda-vasca",
     "onda-madrid",
@@ -19,14 +24,13 @@
     "radio-5-madrid",
     "esradio",
     "capital-radio",
-    "top-radio",
-    "ser-madrid-norte",
-    "sol-radio-madrid",
-    "unika-fm",
-    "globo-fm",
-    "mdt-radio-madrid"
+    "top-radio"
   ],
   "trendingIds": [
+    "esencia-radio",
+    "espacio-4-fm",
+    "rec-radio",
+    "onda-vallekana",
     "onda-madrid",
     "radio-madrid-ser",
     "ser-henares",
@@ -36,11 +40,15 @@
     "radio-nacional-madrid",
     "radio-5-madrid",
     "peperadio",
-    "radio-ciguena",
-    "radio-almenara",
-    "onda-latina"
+    "radio-ciguena"
   ],
   "recentIds": [
+    "radio-espana-network",
+    "espacio-4-fm",
+    "esencia-radio",
+    "rec-radio",
+    "pozuelo-radio",
+    "onda-vallekana",
     "radio-nacional-madrid",
     "radio-5-madrid",
     "el-salto-radio",
@@ -48,13 +56,7 @@
     "unika-fm",
     "radio-romanul",
     "radio-ciguena",
-    "radio-utopia",
-    "peperadio",
-    "radio-almenara",
-    "onda-merlin-c-radio",
-    "globo-fm",
-    "onda-latina",
-    "mdt-radio-madrid"
+    "radio-utopia"
   ],
   "communities": [
     {
@@ -68,8 +70,8 @@
       "id": "madrid",
       "name": "Madrid",
       "path": "communities/madrid.json",
-      "seedCount": 51,
-      "playableCount": 51
+      "seedCount": 57,
+      "playableCount": 57
     }
   ]
 }

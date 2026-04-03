@@ -2,19 +2,12 @@
   "repoName": "radiostation-data",
   "community": "Madrid",
   "seedSource": "myTuner",
-  "seedCount": 51,
-  "playableCount": 51,
-  "verifiedCount": 51,
+  "seedCount": 57,
+  "playableCount": 57,
+  "verifiedCount": 57,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": [
-    "Alta inicial de Madrid partiendo de myTuner como semilla de nombres, orden y frecuencias de referencia.",
-    "Streams priorizados desde TDTChannels cuando existían entradas públicas verificables; para Libertad FM se añade stream actual visto en RadioCut y fallback histórico público.",
-    "Se mantienen logos con URL directa siempre que se ha podido y, cuando no había una imagen pública mejor, se deja endpoint público existente usado por agregadores para evitar inventar assets.",
-    "Todos los IDs de Madrid se han dejado únicos para convivir con Euskadi sin colisiones en la app.",
-    "2026-04-03: segunda tanda de Madrid añadida con emisoras locales y delegaciones comarcales, cruzando myTuner como semilla cuando existe ficha y TDTChannels/webs públicas para streams verificables.",
-    "2026-04-03: tercera tanda de Madrid añadida con radios públicas, comunitarias, universitarias y musicales para reforzar cobertura local sin tocar la app ni Euskadi."
-  ],
+  "notes": "Madrid queda prácticamente cerrada con generalistas, locales, comunitarias, universitarias y musicales verificadas a partir de myTuner como semilla y TDTChannels/webs oficiales para streams públicos.",
   "stations": [
     {
       "id": "onda-madrid",
@@ -1321,6 +1314,159 @@
         {
           "label": "Stream principal",
           "url": "https://streams1.mdtradio.com:8443/MdtMadrid",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-espana-network",
+      "seedName": "Radio España",
+      "name": "Radio España Network",
+      "tagline": "Get Up N’Dance online desde el entorno de Madrid",
+      "description": "Emisora online orientada a dance y electrónica, incluida en el bloque madrileño público usado como referencia de catálogo.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Dance",
+      "websiteUrl": "https://www.espananetwork.net/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/582/radio-espana-network.406b0f62.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 4,
+      "seedRank": 1,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://stream.zeno.fm/ocinyyji4rntv",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "espacio-4-fm",
+      "seedName": "Espacio 4 FM",
+      "name": "Espacio 4 FM",
+      "tagline": "La radio de la fiesta desde Rivas Vaciamadrid",
+      "description": "Emisora cultural y asociativa nacida en Rivas Vaciamadrid, con programación musical, DJs y contenido local.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Electrónica",
+      "websiteUrl": "https://www.espacio4fm.com/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/uxmfabbdnref.png",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 4,
+      "seedRank": 2,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://stream.zeno.fm/fz0bc82wn0hvv",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "esencia-radio",
+      "seedName": "Esencia Radio",
+      "name": "Esencia Radio",
+      "tagline": "La radio del ritmo en Madrid",
+      "description": "Emisora musical de Madrid con señal online y presencia en Tres Cantos, centrada en hits, actualidad musical y cultura pop.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Pop",
+      "websiteUrl": "https://www.esenciaradio.com/endirecto/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/QxU5VtQCPm.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 4,
+      "seedRank": 3,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://stream.zeno.fm/apu4qxap0rquv",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "rec-radio",
+      "seedName": "REC Radio",
+      "name": "REC Radio",
+      "tagline": "La radio en positivo",
+      "description": "Emisora de proximidad con cobertura de Madrid norte y señal online, muy orientada a información local, agenda y magazines.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.recradio.es/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/398/rec-radio.dda7b9b0.png",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 4,
+      "seedRank": 4,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://server9.emitironline.com:19488/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "pozuelo-radio",
+      "seedName": "Pozuelo Radio",
+      "name": "Pozuelo Radio",
+      "tagline": "Emisora local del noroeste de Madrid",
+      "description": "Radio local de Pozuelo de Alarcón y su entorno, con información de proximidad, deporte y programación musical.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.pozueloradio.es/",
+      "logoUrl": "https://graph.facebook.com/pozueloradio/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 4,
+      "seedRank": 5,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "http://5.135.183.124:8197/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-vallekana",
+      "seedName": "Onda Vallekana",
+      "name": "Onda Vallekana",
+      "tagline": "Radio online comunitaria de Vallekas",
+      "description": "Proyecto autogestionado nacido en Vallekas con programación social, cultural y musical, abierto al asociacionismo del barrio.",
+      "category": "Comunitaria",
+      "community": "Madrid",
+      "websiteUrl": "https://www.ondavallekana.es/",
+      "logoUrl": "https://ondavallekana.es/wp-content/uploads/2023/11/ReducidoLogo2.png",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 4,
+      "seedRank": 6,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://sonic.sistemahost.es/8152/;",
           "format": "auto",
           "priority": 1,
           "source": "TDTChannels"
