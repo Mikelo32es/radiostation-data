@@ -1,12 +1,12 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Catalunya arranca con un primer bloque verificado y la carga remota ya incluye Euskadi, Madrid y Catalunya con streams contrastados.",
+  "syncMessage": "Catalunya arranca con un primer bloque verificado y la carga remota ya incluye Andalucía, Euskadi, Madrid y Catalunya.",
   "stats": {
-    "seedCount": 368,
-    "playableCount": 287,
-    "verifiedCount": 253,
-    "candidateCount": 34,
-    "pendingCount": 81
+    "seedCount": 791,
+    "playableCount": 557,
+    "verifiedCount": 472,
+    "candidateCount": 93,
+    "pendingCount": 226
   },
   "featuredIds": [
     "mariskalrock-radio",
@@ -61,6 +61,13 @@
     "mariskalrock-radio"
   ],
   "communities": [
+    {
+      "id": "andalucia",
+      "name": "Andalucía",
+      "path": "communities/andalucia.json",
+      "seedCount": 423,
+      "playableCount": 270
+    },
     {
       "id": "euskadi",
       "name": "Euskadi",
