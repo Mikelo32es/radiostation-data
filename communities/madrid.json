@@ -2,17 +2,18 @@
   "repoName": "radiostation-data",
   "community": "Madrid",
   "seedSource": "myTuner",
-  "seedCount": 33,
-  "playableCount": 33,
-  "verifiedCount": 33,
+  "seedCount": 51,
+  "playableCount": 51,
+  "verifiedCount": 51,
   "candidateCount": 0,
   "pendingCount": 0,
   "notes": [
     "Alta inicial de Madrid partiendo de myTuner como semilla de nombres, orden y frecuencias de referencia.",
     "Streams priorizados desde TDTChannels cuando existían entradas públicas verificables; para Libertad FM se añade stream actual visto en RadioCut y fallback histórico público.",
-    "Logos visibles fijados con URLs directas de imagen de myTuner para evitar problemas de renderizado con endpoints de Facebook Graph.",
+    "Se mantienen logos con URL directa siempre que se ha podido y, cuando no había una imagen pública mejor, se deja endpoint público existente usado por agregadores para evitar inventar assets.",
     "Todos los IDs de Madrid se han dejado únicos para convivir con Euskadi sin colisiones en la app.",
-    "2026-04-03: segunda tanda de Madrid añadida con emisoras locales y delegaciones comarcales, cruzando myTuner como semilla cuando existe ficha y TDTChannels/webs públicas para streams verificables."
+    "2026-04-03: segunda tanda de Madrid añadida con emisoras locales y delegaciones comarcales, cruzando myTuner como semilla cuando existe ficha y TDTChannels/webs públicas para streams verificables.",
+    "2026-04-03: tercera tanda de Madrid añadida con radios públicas, comunitarias, universitarias y musicales para reforzar cobertura local sin tocar la app ni Euskadi."
   ],
   "stations": [
     {
@@ -863,6 +864,464 @@
           "label": "MP3 principal",
           "url": "https://giss.tv:666/inforadioucm.mp3",
           "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-nacional-madrid",
+      "seedName": "Radio Nacional Madrid",
+      "name": "Radio Nacional Madrid",
+      "tagline": "La radio pública generalista en Madrid",
+      "description": "Ventana madrileña de RNE Radio Nacional con actualidad, cultura y servicio público desde RTVE.",
+      "category": "Nacional",
+      "community": "Madrid",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_mad-live/3893534/",
+      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 3,
+      "seedRank": 1,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/mad/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-5-madrid",
+      "seedName": "Radio 5 Madrid",
+      "name": "Radio 5 Madrid",
+      "tagline": "Todo noticias desde Madrid",
+      "description": "Señal madrileña de Radio 5 con boletines, tráfico, servicio público y actualidad continua.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_mad-live/3894730/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 3,
+      "seedRank": 2,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/mad/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "el-salto-radio",
+      "seedName": "El Salto Radio",
+      "name": "El Salto Radio",
+      "tagline": "Actualidad y cultura desde Madrid",
+      "description": "Canal sonoro de El Salto Diario con entrevistas, actualidad social, cultura y podcasts en directo.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.elsaltodiario.com/el-salto-radio/",
+      "logoUrl": "https://graph.facebook.com/ElSaltoDiario/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 3,
+      "seedRank": 3,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://radio.radiobot.org/listen/salto/elsaltoradio.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "dynamis-radio",
+      "seedName": "Dynamis Radio",
+      "name": "Dynamis Radio",
+      "tagline": "Emisora cristiana desde Madrid",
+      "description": "Radio cristiana con predicación, música y programación de inspiración evangélica producida en Madrid.",
+      "category": "Religión",
+      "community": "Madrid",
+      "websiteUrl": "https://www.dynamisradio.org",
+      "logoUrl": "https://graph.facebook.com/dynamisradio/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 3,
+      "seedRank": 4,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://control.streaming-pro.com:8014/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "unika-fm",
+      "seedName": "Unika FM",
+      "name": "Unika FM",
+      "tagline": "Dance madrileño las 24 horas",
+      "description": "Emisora dance de Madrid con sesiones, radio shows internacionales y electrónica comercial.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Electrónica",
+      "websiteUrl": "https://unika.fm",
+      "logoUrl": "https://graph.facebook.com/unikafmmuchomasquedance/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 3,
+      "seedRank": 5,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://server1.easystreaming.pro:8443/unika",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-romanul",
+      "seedName": "Radio Romanul",
+      "name": "Radio Romanul",
+      "tagline": "La voz rumana del Corredor del Henares",
+      "description": "Emisora de Alcalá de Henares dirigida a la comunidad rumana con información, música y servicio.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "World",
+      "websiteUrl": "https://www.radioromanul.es/live/",
+      "logoUrl": "https://graph.facebook.com/RadioRomanul/picture?width=200&height=200",
+      "language": "ro",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 3,
+      "seedRank": 6,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "http://streaming.radioromanul.es:55556/web",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-ciguena",
+      "seedName": "Radio Cigüeña",
+      "name": "Radio Cigüeña",
+      "tagline": "Radio comunitaria de Rivas",
+      "description": "Emisora libre y solidaria de Rivas-Vaciamadrid con magacines, información local y programación social.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.radiociguena.org",
+      "logoUrl": "https://graph.facebook.com/297157036138/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 3,
+      "seedRank": 7,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://cervera.eldialdigital.com:25171/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-utopia",
+      "seedName": "Radio Utopía",
+      "name": "Radio Utopía",
+      "tagline": "Radio libre del norte metropolitano",
+      "description": "Emisora libre de Alcobendas-San Sebastián de los Reyes con programas vecinales, sociales y musicales.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Alternativa",
+      "websiteUrl": "https://www.radioutopia.org.es",
+      "logoUrl": "https://graph.facebook.com/179099278878655/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 3,
+      "seedRank": 8,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "http://streaming.radioutopia.org.es:8000/radio-utopia.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "peperadio",
+      "seedName": "Peperadio",
+      "name": "Peperadio",
+      "tagline": "La popyrock de Madrid",
+      "description": "Fórmula musical madrileña centrada en pop y rock hits desde los 70 hasta hoy.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Rock",
+      "websiteUrl": "https://peperadio.es",
+      "logoUrl": "https://peperadio.es/Content/images/logo.png",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 3,
+      "seedRank": 9,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://server10.emitironline.com:8032/",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-almenara",
+      "seedName": "Radio Almenara",
+      "name": "Radio Almenara",
+      "tagline": "La radio comunitaria del norte de Madrid",
+      "description": "Emisora vecinal de Tetuán con información de barrio, cultura y participación social.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://radioalmenara.net",
+      "logoUrl": "https://graph.facebook.com/RadioAlmenara/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 3,
+      "seedRank": 10,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://cervera.eldialdigital.com:25211/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-merlin-c-radio",
+      "seedName": "Onda Merlín C Radio",
+      "name": "Onda Merlín C Radio",
+      "tagline": "Radio social desde Villaverde",
+      "description": "OMC Radio es una emisora comunitaria madrileña volcada en cultura urbana, educación y barrio.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Variedad",
+      "websiteUrl": "https://www.omcradio.org/escuchanos/",
+      "logoUrl": "https://graph.facebook.com/OmcRadio/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 3,
+      "seedRank": 11,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://radio.radiobot.org/listen/omc/directo.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-morata",
+      "seedName": "Radio Morata",
+      "name": "Radio Morata",
+      "tagline": "Emisora local del sureste madrileño",
+      "description": "Radio local de Morata de Tajuña con información municipal, cercanía y programación generalista.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.radiomorata.com",
+      "logoUrl": "https://graph.facebook.com/radiomorata/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 3,
+      "seedRank": 12,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://cervera.eldialdigital.com:25141/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-villalba",
+      "seedName": "Radio Villalba",
+      "name": "Radio Villalba",
+      "tagline": "La emisora municipal de Collado Villalba",
+      "description": "Radio municipal de Collado Villalba con actualidad, agenda y vida local de la sierra madrileña.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.colladovillalba.es/radio-villalba",
+      "logoUrl": "https://graph.facebook.com/radiovillalbafm/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 3,
+      "seedRank": 13,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://srv7041.dns-lcinternet.com/8042/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "eco-leganes",
+      "seedName": "ECO Leganés",
+      "name": "ECO Leganés",
+      "tagline": "Comunicación comunitaria desde Leganés",
+      "description": "Proyecto radiofónico comunitario con contenidos locales, sociales y culturales desde Leganés.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://ecoleganes.org",
+      "logoUrl": "https://graph.facebook.com/ecoleganes01/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 3,
+      "seedRank": 14,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://cervera.eldialdigital.com:25191/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "globo-fm",
+      "seedName": "Globo FM",
+      "name": "Globo FM",
+      "tagline": "Clásicos y actualidad desde Madrid",
+      "description": "Fórmula musical y magazines desde Madrid con clásicos, hits y programas temáticos.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Classic Hits",
+      "websiteUrl": "https://www.globofm.es",
+      "logoUrl": "https://pbs.twimg.com/profile_images/972013004484173824/BMLZEKXs_200x200.jpg",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 3,
+      "seedRank": 15,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://sonic.sistemahost.es/8200/;.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-latina",
+      "seedName": "Onda Latina",
+      "name": "Onda Latina",
+      "tagline": "La radio diferente en Madrid",
+      "description": "Emisora madrileña alternativa con programación multicultural y fuerte presencia de música latina.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Latina",
+      "websiteUrl": "http://www.ondalatina.com.es",
+      "logoUrl": "https://graph.facebook.com/ondalatina.com.es/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 3,
+      "seedRank": 16,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://cervera.eldialdigital.com:21131/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-univ-alcala-henares",
+      "seedName": "Radio Univ. Alcalá Henares",
+      "name": "Radio Univ. Alcalá Henares",
+      "tagline": "La radio de la Universidad de Alcalá",
+      "description": "Emisora universitaria de Alcalá de Henares con divulgación, campus, cultura y programación joven.",
+      "category": "Educación",
+      "community": "Madrid",
+      "websiteUrl": "https://www.ruah.es/emision-online/",
+      "logoUrl": "https://graph.facebook.com/ruahradio/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 3,
+      "seedRank": 17,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streaming2.elitecomunicacion.es:8066/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "mdt-radio-madrid",
+      "seedName": "MDT Radio Madrid",
+      "name": "MDT Radio Madrid",
+      "tagline": "Remember dance desde Madrid",
+      "description": "Emisora remember con fuerte foco en dance de los 80, 90 y 2000 para público madrileño.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Retro Dance",
+      "websiteUrl": "https://mdtradio.com",
+      "logoUrl": "https://graph.facebook.com/mdtradiomadrid/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 3,
+      "seedRank": 18,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streams1.mdtradio.com:8443/MdtMadrid",
+          "format": "auto",
           "priority": 1,
           "source": "TDTChannels"
         }
