@@ -2,12 +2,12 @@
   "repoName": "radiostation-data",
   "community": "Madrid",
   "seedSource": "myTuner",
-  "seedCount": 72,
-  "playableCount": 72,
-  "verifiedCount": 72,
+  "seedCount": 73,
+  "playableCount": 73,
+  "verifiedCount": 73,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Madrid queda mucho más sólida con generalistas, locales, comunitarias, universitarias y ahora también un bloque fuerte de cadenas conocidas/mainstream verificadas con streams públicos.",
+  "notes": "Madrid sigue creciendo sin tocar la app y suma Waiting Room, una online chillout/easy listening que el usuario ha pedido expresamente, además de mantener el bloque fuerte de cadenas conocidas, locales y comunitarias.",
   "stations": [
     {
       "id": "onda-madrid",
@@ -1908,6 +1908,32 @@
           "format": "mp3",
           "priority": 2,
           "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "waiting-room",
+      "seedName": "Waiting Room",
+      "name": "Waiting Room",
+      "tagline": "Chillout elegante para escuchar sin prisa",
+      "description": "Radio online de perfil chillout y easy listening. Está indexada como emisora de Madrid en myTuner y Online Radio Box, y RadioBox expone un stream público operativo para integrarla en catálogo.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Chillout",
+      "websiteUrl": "https://www.thewaitingroom.com/",
+      "logoUrl": "https://radiobox.live/storage/station-images/46572.webp",
+      "language": "en",
+      "sourceSeed": "myTuner",
+      "seedPage": 5,
+      "seedRank": 1,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC+ principal",
+          "url": "https://streaming.coolmusicradio.com/listen/waiting-room/radio",
+          "format": "aac",
+          "priority": 1,
+          "source": "RadioBox"
         }
       ]
     }
