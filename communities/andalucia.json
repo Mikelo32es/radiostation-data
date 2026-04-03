@@ -3,24 +3,14 @@
   "community": "Andalucía",
   "seedSource": "myTuner",
   "seedCount": 423,
-  "playableCount": 220,
-  "verifiedCount": 207,
-  "candidateCount": 13,
-  "pendingCount": 203,
+  "playableCount": 270,
+  "verifiedCount": 219,
+  "candidateCount": 51,
+  "pendingCount": 153,
   "notes": [
-    "Semilla principal tomada de myTuner Andalucía para priorizar nombres y jerarquía regional.",
-    "Verificación principal de streams apoyada en TDTChannels y en endpoints públicos de cada cadena o emisora.",
-    "Se han mantenido las variantes territoriales claras de Canal Sur, SER, COPE, Onda Cero, Cadena Dial, LOS40, Europa FM y Radiolé.",
-    "Cuando la fuente pública expone una única URL estable, se conserva esa señal como principal sin inventar alternativas.",
-    "Las entradas con retorno dudoso o error puntual en la comprobación web se dejan como candidate, no como verified.",
-    "Se priorizan logos oficiales o de marca pública estable: Facebook Graph, X/Twitter, myradioonline o activos ya usados en la app.",
-    "No se han tocado Euskadi ni Madrid; esta pasada solo añade Andalucía y actualiza el índice global.",
-    "Se completa Andalucía hasta 423 entradas para dejar alineada la cobertura semilla con myTuner.",
-    "La ampliación mezcla tres niveles: verificadas con stream público, candidatas con retorno dudoso y semillas pendientes sin stream inventado.",
-    "TDTChannels aporta esta pasada 57 altas verificadas adicionales y conserva fallback real donde la fuente pública publica varias URLs.",
-    "La ampliación de semilla usa la página autonómica, la vista por frecuencias FM y varias páginas de ciudad de myTuner para no perder locales andaluzas.",
-    "No se inventan streams para cerrar el número: las entradas sin verificación quedan como seeded_pending hasta contraste manual posterior.",
-    "2026-04-03: rematadas 65 entradas andaluzas pendientes; se consolidan marcas nacionales ya operativas, SER locales verificadas y varias candidatas con señal pública común donde la variante exacta sigue pendiente."
+    "Andalucía completada a 423 semillas usando myTuner como referencia de catálogo.",
+    "Nueva tanda: 50 pendientes rematadas, mezclando cierres directos y coberturas provisionales de red/local.",
+    "Las entradas candidate quedan ya reproducibles, pero siguen marcadas para localizar una equivalencia exacta cuando exista."
   ],
   "stations": [
     {
@@ -4316,18 +4306,26 @@
       "id": "babyradio",
       "seedName": "Babyradio",
       "name": "Babyradio",
-      "tagline": "Semilla musical pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Rematada con stream público verificado",
+      "description": "Babyradio rematada con la señal pública de la marca localizada en TDTChannels.",
       "category": "Música",
       "community": "Andalucía",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://babyradio.es/#radio-player",
+      "logoUrl": "https://yt3.googleusercontent.com/ytc/AIdro_k2PqG2pKYF9_qLh_ut69Z0MtU-jXsRvezCZQtbjivJsX8=s200",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 322,
-      "verificationStatus": "seeded_pending",
-      "streams": [],
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://srv6022.dns-lcinternet.com:8033/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
       "musicType": "Infantil"
     },
     {
@@ -4504,35 +4502,79 @@
       "id": "cadena-cope-inter-comarcas",
       "seedName": "Cadena COPE Inter Comarcas",
       "name": "Cadena COPE Inter Comarcas",
-      "tagline": "Semilla pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Cobertura provisional reproducible",
+      "description": "Se usa provisionalmente la señal de red de COPE mientras se localiza una desconexión inequívoca de Inter Comarcas.",
       "category": "Noticias",
       "community": "Andalucía",
-      "websiteUrl": "https://www.cope.es/",
+      "websiteUrl": "https://www.cope.es/directos/",
       "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 332,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://flucast09-h-cloud.flumotion.com/cope/net1.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "AAC alternativo 2",
+          "url": "https://flucast31-h-cloud.flumotion.com/cope/net2.aac",
+          "format": "aac",
+          "priority": 2,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo 3",
+          "url": "https://flucast09-h-cloud.flumotion.com/cope/net1.mp3",
+          "format": "mp3",
+          "priority": 3,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo 4",
+          "url": "https://flucast31-h-cloud.flumotion.com/cope/net2.mp3",
+          "format": "mp3",
+          "priority": 4,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "cadena-dial-villacarrillo",
       "seedName": "Cadena Dial Villacarrillo",
       "name": "Cadena Dial Villacarrillo",
-      "tagline": "Semilla musical pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Cobertura provisional reproducible",
+      "description": "Se aplica la señal general de Cadena Dial como cobertura provisional para la variante de Villacarrillo.",
       "category": "Música",
       "community": "Andalucía",
-      "websiteUrl": "https://www.cadenadial.com/",
+      "websiteUrl": "https://play.cadenadial.com",
       "logoUrl": "https://graph.facebook.com/CadenaDial/picture?width=200&height=200",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 333,
-      "verificationStatus": "seeded_pending",
-      "streams": [],
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIALAAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ],
       "musicType": "Top 40"
     },
     {
@@ -4750,18 +4792,26 @@
       "id": "sfc-sevilla-futbol-club-radio-91-6",
       "seedName": "SFC Sevilla Fútbol Club Radio 91.6",
       "name": "SFC Sevilla Fútbol Club Radio 91.6",
-      "tagline": "Semilla deportiva pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Rematada con stream público verificado",
+      "description": "Señal del club verificada con el directo público de Sevilla FC Radio en TDTChannels.",
       "category": "Deporte",
       "community": "Andalucía",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://live.sevillafc.es/",
+      "logoUrl": "https://graph.facebook.com/sevillafc/picture?height=200&width=200",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 344,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://open.http.mp.streamamg.com/p/3001314/sp/300131400/playManifest/entryId/0_ye0b8tc0/format/applehttp/protocol/https/uiConfId/30026292/a.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "oxigeno-costa-del-sol",
@@ -4947,18 +4997,26 @@
       "id": "radio-andujar",
       "seedName": "Radio Andújar",
       "name": "Radio Andújar",
-      "tagline": "Semilla pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Cobertura provisional reproducible",
+      "description": "Se usa provisionalmente la señal pública local de SER Andújar para cubrir la plaza de Andújar.",
       "category": "Noticias",
       "community": "Andalucía",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://cadenaser.com/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?height=200&width=200",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 354,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_ANDUJAR.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "rne-radio-clasica",
@@ -5073,18 +5131,26 @@
       "id": "radio-loja-ser",
       "seedName": "Radio Loja SER",
       "name": "Radio Loja SER",
-      "tagline": "Semilla pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Cobertura provisional reproducible",
+      "description": "Se remata con una señal local pública de Loja pendiente de confirmar como mejor equivalencia editorial.",
       "category": "Noticias",
       "community": "Andalucía",
-      "websiteUrl": "https://cadenaser.com/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?height=200&width=200",
+      "websiteUrl": "https://ondaloja.es",
+      "logoUrl": "https://graph.facebook.com/370465614347/picture?width=200&height=200",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 359,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://stream.radiofutura.es:8090/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "rumbera-fm",
@@ -5158,18 +5224,26 @@
       "id": "la-jungla",
       "seedName": "La Jungla",
       "name": "La Jungla",
-      "tagline": "Semilla musical pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Rematada con stream público verificado",
+      "description": "La entrada de myTuner queda rematada con la señal pública de La Jungla Radio publicada en TDTChannels.",
       "category": "Música",
       "community": "Andalucía",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://lajunglaradio.com",
+      "logoUrl": "https://graph.facebook.com/LaJunglaRadio/picture?width=200&height=200",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 363,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://streaming12.elitecomunicacion.es:8626/stream?type=.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "beachgrooves-radio",
@@ -5650,8 +5724,8 @@
       "id": "radio-marca-granada",
       "seedName": "Radio Marca Granada",
       "name": "Radio Marca Granada",
-      "tagline": "Semilla deportiva pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Cobertura provisional reproducible",
+      "description": "Se usa la señal pública de Radio Marca a la espera de cerrar una desconexión específica de Granada.",
       "category": "Deporte",
       "community": "Andalucía",
       "websiteUrl": "https://www.marca.com/radio.html",
@@ -5660,8 +5734,23 @@
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 385,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONALAAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONAL.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "fusion-radio-96-2-fm",
@@ -5726,35 +5815,51 @@
       "id": "the-one",
       "seedName": "The One",
       "name": "The One",
-      "tagline": "Semilla musical pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Rematada con stream público verificado",
+      "description": "La entrada queda rematada con la señal pública de ONE FM localizada en TDTChannels.",
       "category": "Música",
       "community": "Andalucía",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://onefm.es",
+      "logoUrl": "https://graph.facebook.com/OneFM.es/picture?width=200&height=200",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 389,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://stream.onefm.es:8000/onefm.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "la-mega-latina",
       "seedName": "La Mega Latina",
       "name": "La Mega Latina",
-      "tagline": "Semilla musical pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Cobertura provisional reproducible",
+      "description": "Se usa provisionalmente una señal pública de La Mega mientras se confirma la variante latina exacta.",
       "category": "Música",
       "community": "Andalucía",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://emisorasmusicales.net/lamega/",
+      "logoUrl": "https://media.emisorasmusicales.net/wp-content/uploads/2020/03/11023732/LaMega-200x200.png",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 390,
-      "verificationStatus": "seeded_pending",
-      "streams": [],
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://stream.emisorasmusicales.net/radio/8020/lamega.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
       "musicType": "Latino"
     },
     {
@@ -5778,18 +5883,26 @@
       "id": "radio-betis",
       "seedName": "Radio Betis",
       "name": "Radio Betis",
-      "tagline": "Semilla deportiva pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Rematada con stream público verificado",
+      "description": "Señal oficial del club verificada con el directo público de Real Betis Radio.",
       "category": "Deporte",
       "community": "Andalucía",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://www.realbetisbalompie.es/",
+      "logoUrl": "https://graph.facebook.com/realbetisbalompie/picture?height=200&width=200",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 392,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://comcast01-h-cloud.flumotion.com/betistv/radio1.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "free-fm-top-100",
@@ -5889,8 +6002,8 @@
       "id": "radio-marca-huelva",
       "seedName": "Radio Marca Huelva",
       "name": "Radio Marca Huelva",
-      "tagline": "Semilla deportiva pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Cobertura provisional reproducible",
+      "description": "Se usa la señal pública de Radio Marca a la espera de cerrar una desconexión específica de Huelva.",
       "category": "Deporte",
       "community": "Andalucía",
       "websiteUrl": "https://www.marca.com/radio.html",
@@ -5899,8 +6012,23 @@
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 398,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONALAAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONAL.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "cadena-digital",
@@ -6024,36 +6152,59 @@
       "id": "cadena-dial-europa",
       "seedName": "Cadena Dial Europa",
       "name": "Cadena Dial Europa",
-      "tagline": "Semilla musical pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Cobertura provisional reproducible",
+      "description": "Se aplica la señal general de Cadena Dial como cobertura provisional de la variante Europa.",
       "category": "Música",
       "community": "Andalucía",
-      "websiteUrl": "https://www.cadenadial.com/",
+      "websiteUrl": "https://play.cadenadial.com",
       "logoUrl": "https://graph.facebook.com/CadenaDial/picture?width=200&height=200",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 404,
-      "verificationStatus": "seeded_pending",
-      "streams": [],
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIALAAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ],
       "musicType": "Top 40"
     },
     {
       "id": "corazonradio",
       "seedName": "CorazonRadio",
       "name": "CorazonRadio",
-      "tagline": "Semilla musical pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Rematada con stream público verificado",
+      "description": "La marca musical coincide con Corazón FM y queda verificada con stream público detectado en TDTChannels.",
       "category": "Música",
       "community": "Andalucía",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://www.emisorasmusicales.net/emisoras/corazon-fm/",
+      "logoUrl": "https://media.emisorasmusicales.net/wp-content/uploads/2022/11/11020420/Corazon_1000x1000-con-fondo-200x200.png",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 405,
-      "verificationStatus": "seeded_pending",
-      "streams": [],
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://stream.emisorasmusicales.net/listen/corazon_fm/corazonfm.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
       "musicType": "Top 40"
     },
     {
@@ -6154,18 +6305,47 @@
       "id": "cadena-cope-ecija",
       "seedName": "Cadena Cope Ecija",
       "name": "Cadena Cope Ecija",
-      "tagline": "Semilla pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Cobertura provisional reproducible",
+      "description": "Se usa provisionalmente la señal de red de COPE mientras se localiza una desconexión inequívoca de Écija.",
       "category": "Noticias",
       "community": "Andalucía",
-      "websiteUrl": "https://www.cope.es/",
+      "websiteUrl": "https://www.cope.es/directos/",
       "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 411,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://flucast09-h-cloud.flumotion.com/cope/net1.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "AAC alternativo 2",
+          "url": "https://flucast31-h-cloud.flumotion.com/cope/net2.aac",
+          "format": "aac",
+          "priority": 2,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo 3",
+          "url": "https://flucast09-h-cloud.flumotion.com/cope/net1.mp3",
+          "format": "mp3",
+          "priority": 3,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo 4",
+          "url": "https://flucast31-h-cloud.flumotion.com/cope/net2.mp3",
+          "format": "mp3",
+          "priority": 4,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "decada-fm-100-1",
@@ -6206,18 +6386,26 @@
       "id": "radio-flamenca-huelva",
       "seedName": "Radio Flamenca Huelva",
       "name": "Radio Flamenca Huelva",
-      "tagline": "Semilla musical pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Cobertura provisional reproducible",
+      "description": "Se usa una señal pública flamenca muy cercana a la semilla mientras se confirma la emisora exacta de Huelva.",
       "category": "Música",
       "community": "Andalucía",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://emisorasmusicales.net/laflamenca/",
+      "logoUrl": "https://media.emisorasmusicales.net/wp-content/uploads/2020/03/11023733/LaFlamenca-200x200.png",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 414,
-      "verificationStatus": "seeded_pending",
-      "streams": [],
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://stream.emisorasmusicales.net/radio/8070/laflamenca.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
       "musicType": "Flamenco"
     },
     {
@@ -6258,35 +6446,51 @@
       "id": "elite-radio-sevilla",
       "seedName": "Élite Rádio Sevilla",
       "name": "Élite Rádio Sevilla",
-      "tagline": "Semilla musical pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Cobertura provisional reproducible",
+      "description": "La marca Élite queda resuelta provisionalmente con una señal pública de la misma familia publicada en TDTChannels.",
       "category": "Música",
       "community": "Andalucía",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://www.cadenaelite.es/eliteoldies/",
+      "logoUrl": "https://graph.facebook.com/cadena.elitegranada/picture?width=200&height=200",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 417,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streaming2.elitecomunicacion.es/proxy/eliteoldies/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "master-fm-sevilla",
       "seedName": "Master FM Sevilla",
       "name": "Master FM Sevilla",
-      "tagline": "Semilla musical pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Rematada con stream público verificado",
+      "description": "Variante sevillana rematada con la señal pública de Master FM expuesta en TDTChannels.",
       "category": "Música",
       "community": "Andalucía",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://masterfm.es",
+      "logoUrl": "https://graph.facebook.com/masterfm.es/picture?width=200&height=200",
       "language": "en",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 418,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://radios.masterfm.es:8000/web24",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "onda-joven-sevilla",
@@ -6351,8 +6555,8 @@
       "id": "radio-marca-cadiz",
       "seedName": "Radio Marca Cádiz",
       "name": "Radio Marca Cádiz",
-      "tagline": "Semilla deportiva pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Cobertura provisional reproducible",
+      "description": "Se usa la señal pública de Radio Marca a la espera de cerrar una desconexión específica de Cádiz.",
       "category": "Deporte",
       "community": "Andalucía",
       "websiteUrl": "https://www.marca.com/radio.html",
@@ -6361,8 +6565,23 @@
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 422,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONALAAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONAL.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "hispanidade-radio",
@@ -6385,18 +6604,26 @@
       "id": "la-mega-marbella",
       "seedName": "La Mega Marbella",
       "name": "La Mega Marbella",
-      "tagline": "Semilla pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Cobertura provisional reproducible",
+      "description": "Se usa la señal pública de La Mega Málaga mientras se remata la variante exacta de Marbella.",
       "category": "Noticias",
       "community": "Andalucía",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://www.lamegamalaga.es",
+      "logoUrl": "https://graph.facebook.com/lamegacostadelsol/picture?width=200&height=200",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 424,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://streaming2.elitecomunicacion.es:8220//stream?type=.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "radio-motril-ser",
@@ -6575,35 +6802,72 @@
       "id": "antena-huelva-radio-romantica",
       "seedName": "Antena Huelva Radio Romantica",
       "name": "Antena Huelva Radio Romantica",
-      "tagline": "Semilla pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Cobertura provisional reproducible",
+      "description": "Se reutiliza provisionalmente la señal pública principal de Antena Huelva mientras se confirma el canal romántico exacto.",
       "category": "Noticias",
       "community": "Andalucía",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://antenahuelva.com",
+      "logoUrl": "https://graph.facebook.com/109385783852066/picture?width=200&height=200",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 432,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://stm2.emiteonline.com:9024/antenahuelva",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "cope-radio-lebrija-102-9",
       "seedName": "COPE Radio Lebrija 102.9",
       "name": "COPE Radio Lebrija 102.9",
-      "tagline": "Semilla pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Cobertura provisional reproducible",
+      "description": "Se usa provisionalmente la señal de red de COPE mientras se localiza una desconexión inequívoca de Lebrija.",
       "category": "Noticias",
       "community": "Andalucía",
-      "websiteUrl": "https://www.cope.es/",
+      "websiteUrl": "https://www.cope.es/directos/",
       "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 433,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://flucast09-h-cloud.flumotion.com/cope/net1.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "AAC alternativo 2",
+          "url": "https://flucast31-h-cloud.flumotion.com/cope/net2.aac",
+          "format": "aac",
+          "priority": 2,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo 3",
+          "url": "https://flucast09-h-cloud.flumotion.com/cope/net1.mp3",
+          "format": "mp3",
+          "priority": 3,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo 4",
+          "url": "https://flucast31-h-cloud.flumotion.com/cope/net2.mp3",
+          "format": "mp3",
+          "priority": 4,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "radio-consolacion",
@@ -6844,18 +7108,26 @@
       "id": "radio-voz-del-condado",
       "seedName": "Radio Voz del Condado",
       "name": "Radio Voz del Condado",
-      "tagline": "Semilla pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Cobertura provisional reproducible",
+      "description": "Se carga una señal pública del Condado de Huelva, pendiente de confirmar como equivalencia exacta de la marca.",
       "category": "Noticias",
       "community": "Andalucía",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://www.radiorociana.com/player",
+      "logoUrl": "https://graph.facebook.com/radiorociana/picture?width=200&height=200",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 446,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://streaming.radiorociana.com/;stream.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "cadena-100",
@@ -6912,18 +7184,26 @@
       "id": "radio-mix-106",
       "seedName": "Radio Mix 106",
       "name": "Radio Mix 106",
-      "tagline": "Semilla musical pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Cobertura provisional reproducible",
+      "description": "Se usa provisionalmente una señal pública de MIX FM muy próxima a la marca sembrada.",
       "category": "Música",
       "community": "Andalucía",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://www.mixfm-radio.com",
+      "logoUrl": "https://yt3.ggpht.com/ytc/AKedOLQaktY1_Rv_MrWTve_Lj8JyaB9EektpPVByC6G0=s200-c-k-c0x00ffffff-no-rj",
       "language": "en",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 449,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://server10.emitironline.com:8064/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "radio-albolote",
@@ -6963,18 +7243,26 @@
       "id": "onda-indalo-radio",
       "seedName": "Onda Índalo Radio",
       "name": "Onda Índalo Radio",
-      "tagline": "Semilla pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Cobertura provisional reproducible",
+      "description": "Se usa provisionalmente una señal local con la marca Indalo mientras se confirma la equivalencia exacta.",
       "category": "Noticias",
       "community": "Andalucía",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://play.los40.com/",
+      "logoUrl": "https://graph.facebook.com/los40/picture?width=200&height=200",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 452,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_ASO_INDALO.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "radio-tarsus",
@@ -6997,18 +7285,26 @@
       "id": "cadena-elite",
       "seedName": "Cadena Elite",
       "name": "Cadena Elite",
-      "tagline": "Semilla musical pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Cobertura provisional reproducible",
+      "description": "Se remata provisionalmente con una señal pública de la familia Cadena Élite.",
       "category": "Música",
       "community": "Andalucía",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://www.cadenaelite.es/eliteoldies/",
+      "logoUrl": "https://graph.facebook.com/cadena.elitegranada/picture?width=200&height=200",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 454,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streaming2.elitecomunicacion.es/proxy/eliteoldies/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "radio-metropolitana-costa-del-sol",
@@ -7146,18 +7442,33 @@
       "id": "esradio-sevilla",
       "seedName": "esRadio Sevilla",
       "name": "esRadio Sevilla",
-      "tagline": "Semilla pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Cobertura provisional reproducible",
+      "description": "Se aplica la señal pública de red de esRadio mientras se localiza una desconexión inequívoca de Sevilla.",
       "category": "Noticias",
       "community": "Andalucía",
-      "websiteUrl": "https://esradio.libertaddigital.com/",
+      "websiteUrl": "https://esradio.libertaddigital.com/directo.html",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/592/esradio.c53d1b9e.png",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 460,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://libertaddigital-radio-live1.flumotion.com/libertaddigital/ld-live1-high.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://libertaddigital-radio-live1.flumotion.com/libertaddigital/ld-live1-high.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "radio-alfaguara",
@@ -7197,18 +7508,26 @@
       "id": "radio-ejido",
       "seedName": "Radio Ejido",
       "name": "Radio Ejido",
-      "tagline": "Semilla pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Cobertura provisional reproducible",
+      "description": "Se usa una señal pública local de El Ejido pendiente de confirmar como equivalencia final de la semilla.",
       "category": "Noticias",
       "community": "Andalucía",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://www.ondacero.es/emisoras/andalucia/el-ejido/directo/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 463,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/elejido/master.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "tropical-fm-marbella-107-0",
@@ -7248,18 +7567,26 @@
       "id": "proxima-radio",
       "seedName": "Próxima Radio",
       "name": "Próxima Radio",
-      "tagline": "Semilla pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Rematada con stream público verificado",
+      "description": "La semilla queda cerrada con la señal pública de Pròxima FM localizada en TDTChannels.",
       "category": "Noticias",
       "community": "Andalucía",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "http://proximafm.cat",
+      "logoUrl": "https://graph.facebook.com/proximafm/picture?width=200&height=200",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 466,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://mars.streamerr.co/8058/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "radio-dipalme",
@@ -7333,18 +7660,26 @@
       "id": "onda-color-107-3-fm",
       "seedName": "Onda Color 107.3 FM",
       "name": "Onda Color 107.3 FM",
-      "tagline": "Semilla musical pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Rematada con stream público verificado",
+      "description": "Onda Color queda verificada con su stream público en TDTChannels.",
       "category": "Música",
       "community": "Andalucía",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://ondacolor.es",
+      "logoUrl": "https://graph.facebook.com/ondacolor/picture?width=200&height=200",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 471,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streaming12.elitecomunicacion.es:8212/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "radio-torrox-107-3-fm",
@@ -7460,18 +7795,26 @@
       "id": "radio-luna-escacena",
       "seedName": "Radio Luna Escacena",
       "name": "Radio Luna Escacena",
-      "tagline": "Semilla pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Cobertura provisional reproducible",
+      "description": "Se remata con una señal pública de Cadena Luna mientras se confirma la variante exacta de Escacena.",
       "category": "Noticias",
       "community": "Andalucía",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://www.cadenaluna.es",
+      "logoUrl": "https://graph.facebook.com/CadenaLunaRadio/picture?width=200&height=200",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 478,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://radio.almunecar360.com:8100/radio",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "los-megaexitos",
@@ -7764,18 +8107,26 @@
       "id": "remember-fm",
       "seedName": "Remember FM",
       "name": "Remember FM",
-      "tagline": "Semilla musical pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Rematada con stream público verificado",
+      "description": "Marca remember rematada con la señal pública de Remember Radio publicada en TDTChannels.",
       "category": "Música",
       "community": "Andalucía",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://radioremember.es",
+      "logoUrl": "https://graph.facebook.com/rememberradiocs/picture?width=200&height=200",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 493,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://sm1.streamingmovil.com:2199/proxy/webrr?mp=/WEB",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "maxima-fm",
@@ -7798,36 +8149,52 @@
       "id": "orbita-dance",
       "seedName": "Órbita Dance",
       "name": "Órbita Dance",
-      "tagline": "Semilla musical pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Cobertura provisional reproducible",
+      "description": "Se usa provisionalmente una señal dance pública muy cercana a la marca sembrada.",
       "category": "Música",
       "community": "Andalucía",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://www.cadenaelite.es/elitedance/",
+      "logoUrl": "https://graph.facebook.com/cadena.elitegranada/picture?width=200&height=200",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 495,
-      "verificationStatus": "seeded_pending",
-      "streams": [],
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streaming2.elitecomunicacion.es/proxy/elitedance/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
       "musicType": "Dance"
     },
     {
       "id": "free-fm-chill",
       "seedName": "Free FM Chill",
       "name": "Free FM Chill",
-      "tagline": "Semilla musical pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Cobertura provisional reproducible",
+      "description": "Se usa provisionalmente una señal chill pública y estable mientras se confirma la emisora exacta.",
       "category": "Música",
       "community": "Andalucía",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://www.locafm.com/chill-out/player.html",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 496,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_chill_out/live",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "radio-cumbia-espana",
@@ -7850,36 +8217,52 @@
       "id": "top-radio-dance",
       "seedName": "Top Radio Dance",
       "name": "Top Radio Dance",
-      "tagline": "Semilla musical pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Cobertura provisional reproducible",
+      "description": "Se aplica la señal pública de Top Radio mientras se remata la variante dance exacta.",
       "category": "Música",
       "community": "Andalucía",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://www.topradio.es",
+      "logoUrl": "https://graph.facebook.com/topradioes/picture?width=200&height=200",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 498,
-      "verificationStatus": "seeded_pending",
-      "streams": [],
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://mdstrm.com/audio/66ec3c9fabba24a0a2e59de8/live.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
       "musicType": "Dance"
     },
     {
       "id": "radio-dance-edt",
       "seedName": "Radio Dance EDT",
       "name": "Radio Dance EDT",
-      "tagline": "Semilla musical pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Cobertura provisional reproducible",
+      "description": "Se usa provisionalmente una señal dance pública muy próxima a la semilla EDT.",
       "category": "Música",
       "community": "Andalucía",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://www.cadenaelite.es/elitedance/",
+      "logoUrl": "https://graph.facebook.com/cadena.elitegranada/picture?width=200&height=200",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 499,
-      "verificationStatus": "seeded_pending",
-      "streams": [],
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streaming2.elitecomunicacion.es/proxy/elitedance/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
       "musicType": "Dance"
     },
     {
@@ -7921,18 +8304,26 @@
       "id": "sevilla-musical",
       "seedName": "Sevilla Musical",
       "name": "Sevilla Musical",
-      "tagline": "Semilla musical pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Cobertura provisional reproducible",
+      "description": "Se usa provisionalmente una señal musical pública muy cercana a la semilla sevillana.",
       "category": "Música",
       "community": "Andalucía",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://fm-musical.com",
+      "logoUrl": "https://graph.facebook.com/99fmmusical/picture?width=200&height=200",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 502,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://sonic.mediatelekom.net/8476/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "hits-1-san-sebastian",
@@ -8040,18 +8431,26 @@
       "id": "ud-almeria-radio",
       "seedName": "UD Almería Radio",
       "name": "UD Almería Radio",
-      "tagline": "Semilla pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Rematada con stream público verificado",
+      "description": "La radio oficial del club queda verificada con su directo público en TDTChannels.",
       "category": "Noticias",
       "community": "Andalucía",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://www.udalmeriasad.com/radio",
+      "logoUrl": "https://graph.facebook.com/udalmeriasad/picture?width=200&height=200",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 509,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://srv6022.dns-lcinternet.com:8002/livelq",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "rne-5-almeria",
@@ -8082,18 +8481,26 @@
       "id": "los-40-catalunya",
       "seedName": "LOS 40 Catalunya",
       "name": "LOS 40 Catalunya",
-      "tagline": "Semilla pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Rematada con stream público verificado",
+      "description": "La señal exacta de LOS40 Catalunya está publicada en TDTChannels y queda cargada.",
       "category": "Noticias",
       "community": "Andalucía",
-      "websiteUrl": "https://los40.com/",
-      "logoUrl": "https://graph.facebook.com/los40/picture?width=200&height=200",
+      "websiteUrl": "https://play.los40.com/emisora/los40_catalunya/",
+      "logoUrl": "https://graph.facebook.com/els40/picture?width=200&height=200",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 511,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_CAT.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "si-fm",
@@ -8226,18 +8633,26 @@
       "id": "remember-vip-dance",
       "seedName": "Remember Vip Dance",
       "name": "Remember Vip Dance",
-      "tagline": "Semilla musical pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Cobertura provisional reproducible",
+      "description": "Se cubre provisionalmente con una señal remember pública mientras se localiza la variante exacta VIP Dance.",
       "category": "Música",
       "community": "Andalucía",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://rememberthemusicfm.com",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1034848375705878528/qt4gn64O_200x200.jpg",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 519,
-      "verificationStatus": "seeded_pending",
-      "streams": [],
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://eu1.lhdserver.es:9041/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
       "musicType": "Dance"
     },
     {
@@ -8261,35 +8676,51 @@
       "id": "los-90-fm",
       "seedName": "LOS 90 FM",
       "name": "LOS 90 FM",
-      "tagline": "Semilla musical pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Cobertura provisional reproducible",
+      "description": "Se usa la señal pública de 90 FM como equivalencia provisional de la variante sembrada.",
       "category": "Música",
       "community": "Andalucía",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "http://www.90fm.es",
+      "logoUrl": "https://pbs.twimg.com/profile_images/2277895539/ypj3m6ggljmfnoy5cqvt_200x200.jpeg",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 521,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "http://185.23.192.118:8010/;stream.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "boom-fm-granada-103-8",
       "seedName": "Boom FM Granada 103.8",
       "name": "Boom FM Granada 103.8",
-      "tagline": "Semilla musical pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Cobertura provisional reproducible",
+      "description": "Se remata con una señal pública granadina mientras se confirma la marca exacta Boom FM.",
       "category": "Música",
       "community": "Andalucía",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://granadafm.es",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1572284910198722561/2BQxFxMX_200x200.jpg",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 522,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://streaming2.elitecomunicacion.es:8028/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "radio-clavel",
@@ -8312,18 +8743,26 @@
       "id": "hits-90-s",
       "seedName": "HITS 90`s",
       "name": "HITS 90`s",
-      "tagline": "Semilla musical pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Cobertura provisional reproducible",
+      "description": "Se usa provisionalmente una señal temática 90s pública y estable.",
       "category": "Música",
       "community": "Andalucía",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://www.locafm.com/loca-90-s/player.html",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 524,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_90s_/live",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "frecuencia-prometheus",
@@ -8346,35 +8785,51 @@
       "id": "hits-80-s",
       "seedName": "HITS 80's",
       "name": "HITS 80's",
-      "tagline": "Semilla musical pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Cobertura provisional reproducible",
+      "description": "Se usa provisionalmente una señal temática 80s pública y estable.",
       "category": "Música",
       "community": "Andalucía",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://www.locafm.com/loca-80-s/player.html",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 526,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_80s/live",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "orbita-hit",
       "seedName": "orbita hit",
       "name": "orbita hit",
-      "tagline": "Semilla musical pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Cobertura provisional reproducible",
+      "description": "Se usa provisionalmente una señal hit pública y estable muy próxima a la semilla.",
       "category": "Música",
       "community": "Andalucía",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://www.formulahit.com",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1967694999/Formula_Hit_200x200.jpg",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 527,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://sonic.sistemahost.es/8176/stream;.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "funkmania-smooth-jazz",
@@ -8508,18 +8963,26 @@
       "id": "canal-cadiz",
       "seedName": "Canal Cadiz",
       "name": "Canal Cadiz",
-      "tagline": "Semilla pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Cobertura provisional reproducible",
+      "description": "Se remata con una señal pública local de Cádiz mientras se confirma la equivalencia exacta de la marca.",
       "category": "Noticias",
       "community": "Andalucía",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://ondacadiz.es/radio/directo",
+      "logoUrl": "https://graph.facebook.com/ondacadiz/picture?width=200&height=200",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 535,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Icecast directo",
+          "url": "https://ondacadiztv.es:30443/ocr/directo/icecast.audio",
+          "format": "icecast",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "radio-los-penitentes",
@@ -8542,35 +9005,51 @@
       "id": "onda-disco-cadiz",
       "seedName": "Onda Disco Cadiz",
       "name": "Onda Disco Cadiz",
-      "tagline": "Semilla pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Cobertura provisional reproducible",
+      "description": "Se remata con una señal pública local de Cádiz mientras se localiza una variante musical inequívoca.",
       "category": "Noticias",
       "community": "Andalucía",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://ondacadiz.es/radio/directo",
+      "logoUrl": "https://graph.facebook.com/ondacadiz/picture?width=200&height=200",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 537,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Icecast directo",
+          "url": "https://ondacadiztv.es:30443/ocr/directo/icecast.audio",
+          "format": "icecast",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "radio-puerto-real",
       "seedName": "Radio Puerto Real",
       "name": "Radio Puerto Real",
-      "tagline": "Semilla pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Cobertura provisional reproducible",
+      "description": "Se usa una señal pública de la bahía pendiente de confirmar como mejor equivalencia exacta de Puerto Real.",
       "category": "Noticias",
       "community": "Andalucía",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://www.radiopuerto.fm/",
+      "logoUrl": "https://graph.facebook.com/radiopuertofm/picture?height=200&width=200",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 538,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "HD principal",
+          "url": "https://enacast.com/radiopuerto/streams/HD",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "cool-breeze-radio",
@@ -8800,18 +9279,26 @@
       "id": "radio-1-axarquia",
       "seedName": "Radio 1 Axarquía",
       "name": "Radio 1 Axarquía",
-      "tagline": "Semilla pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Cobertura provisional reproducible",
+      "description": "Se usa provisionalmente una señal pública local de Axarquía mientras se cierra la emisora exacta.",
       "category": "Noticias",
       "community": "Andalucía",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://cadenaser.com/radio-axarquia/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 552,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "MP3 local",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_AXARQUIA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "radio-el-rincon-de-la-boquerona",
@@ -9007,18 +9494,26 @@
       "id": "radio-formula-mega",
       "seedName": "Radio Fórmula Mega",
       "name": "Radio Fórmula Mega",
-      "tagline": "Semilla musical pendiente de verificación",
-      "description": "Entrada sembrada desde myTuner Andalucía para completar cobertura regional; pendiente de contrastar stream público estable y logo oficial reutilizable.",
+      "tagline": "Cobertura provisional reproducible",
+      "description": "Se usa provisionalmente una señal pública de La Mega para cubrir la variante sembrada.",
       "category": "Música",
       "community": "Andalucía",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://emisorasmusicales.net/lamega/",
+      "logoUrl": "https://media.emisorasmusicales.net/wp-content/uploads/2020/03/11023732/LaMega-200x200.png",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 564,
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://stream.emisorasmusicales.net/radio/8020/lamega.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "lick-103-6-fm-marbella",

@@ -1,12 +1,12 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Andalucía remata otra tanda de pendientes sin tocar la app: 220 reproducibles, 207 verificadas, 13 candidatas y 203 todavía pendientes.",
+  "syncMessage": "Andalucía suma 50 remates más sin tocar la app: 270 reproducibles, 219 verificadas, 51 candidatas y 153 todavía pendientes.",
   "stats": {
     "seedCount": 645,
-    "playableCount": 382,
-    "verifiedCount": 354,
-    "candidateCount": 30,
-    "pendingCount": 261
+    "playableCount": 432,
+    "verifiedCount": 366,
+    "candidateCount": 68,
+    "pendingCount": 211
   },
   "featuredIds": [
     "mariskalrock-radio",
@@ -80,7 +80,7 @@
       "name": "Andalucía",
       "path": "communities/andalucia.json",
       "seedCount": 423,
-      "playableCount": 220
+      "playableCount": 270
     }
   ]
 }
