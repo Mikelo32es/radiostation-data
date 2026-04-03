@@ -2,9 +2,9 @@
   "repoName": "radiostation-data",
   "syncMessage": "Catalunya: pasada de mejora para reincorporar emisoras relevantes que faltaban, con alta conservadora solo cuando había base pública suficiente.",
   "stats": {
-    "seedCount": 1004,
-    "playableCount": 669,
-    "verifiedCount": 685,
+    "seedCount": 1054,
+    "playableCount": 719,
+    "verifiedCount": 735,
     "candidateCount": 93,
     "pendingCount": 226
   },
@@ -88,6 +88,13 @@
       "path": "communities/catalunya.json",
       "seedCount": 296,
       "playableCount": 195
+    },
+    {
+      "id": "galicia",
+      "name": "Galicia",
+      "path": "communities/galicia.json",
+      "seedCount": 50,
+      "playableCount": 50
     }
   ]
 }

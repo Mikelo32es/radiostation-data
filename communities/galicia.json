@@ -1,0 +1,1509 @@
+{
+  "repoName": "radiostation-data",
+  "community": "Galicia",
+  "seedSource": "myTuner",
+  "seedCount": 50,
+  "playableCount": 50,
+  "verifiedCount": 50,
+  "candidateCount": 0,
+  "pendingCount": 0,
+  "notes": [
+    "Semilla de nombres priorizada desde myTuner Galicia y fichas locales visibles de ciudades gallegas.",
+    "Verificación principal de streams y logos cruzada con TDTChannels y señales oficiales públicas cuando estaban disponibles.",
+    "En cadenas como SER, COPE, Onda Cero y Radio Marca se añade fallback de cadena para mejorar robustez de reproducción.",
+    "Se ha mantenido Galicia aislada en esta pasada sin tocar otras comunidades ni la app."
+  ],
+  "stations": [
+    {
+      "id": "radio-galega",
+      "seedName": "RG - Radio Galega",
+      "name": "Radio Galega",
+      "tagline": "La radio pública generalista de Galicia",
+      "description": "Señal principal de la radio pública gallega, usada como referencia informativa y de proximidad en Galicia.",
+      "category": "Noticias",
+      "community": "Galicia",
+      "websiteUrl": "https://agalegaaudio.gal/videos/120144-radio-galega",
+      "logoUrl": "https://graph.facebook.com/aradiogalega/picture?width=200&height=200",
+      "language": "gl",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 1,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://crtvg-radiogalega-hls.flumotion.cloud/playlist.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 Galicia RNE fallback",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/gal/mp3/high",
+          "format": "mp3",
+          "priority": 2,
+          "source": "RTVE"
+        }
+      ]
+    },
+    {
+      "id": "radio-galega-musica",
+      "seedName": "RGM - Radio Galega Música",
+      "name": "Radio Galega Música",
+      "tagline": "La musical pública gallega",
+      "description": "Canal musical de CRTVG centrado en una selección amplia con sabor gallego y vocación pública.",
+      "category": "Música",
+      "community": "Galicia",
+      "musicType": "Variedad",
+      "websiteUrl": "https://www.agalegaaudio.gal/videos/81609-rgmusica",
+      "logoUrl": "https://graph.facebook.com/aradiogalega/picture?width=200&height=200",
+      "language": "gl",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 2,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://crtvg-radiogalega-musica-hls.flumotion.cloud/playlist.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "son-galicia-radio",
+      "seedName": "Son Galicia Radio",
+      "name": "Son Galicia Radio",
+      "tagline": "Música y raíz gallega en clave pública",
+      "description": "Señal temática de CRTVG orientada a música gallega, folk y sonido regional.",
+      "category": "Música",
+      "community": "Galicia",
+      "musicType": "Folk",
+      "websiteUrl": "https://www.agalegaaudio.gal/videos/81610-rsong",
+      "logoUrl": "https://graph.facebook.com/aradiogalega/picture?width=200&height=200",
+      "language": "gl",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 3,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://crtvg-songalicia-hls.flumotion.cloud/playlist.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "rne-radio-nacional-galicia",
+      "seedName": "Radio Nacional Galicia",
+      "name": "RNE Radio Nacional Galicia",
+      "tagline": "Desconexión gallega de Radio Nacional",
+      "description": "Ventana territorial de Radio Nacional para Galicia con programación e información autonómica.",
+      "category": "Noticias",
+      "community": "Galicia",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_gal-live/3893549/",
+      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 4,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 Galicia",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/gal/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "RTVE"
+        },
+        {
+          "label": "HLS nacional fallback",
+          "url": "https://rtvelivestream.akamaized.net/rtvesec/rne_r1_main.m3u8",
+          "format": "m3u8",
+          "priority": 2,
+          "source": "RTVE"
+        }
+      ]
+    },
+    {
+      "id": "rne-radio-5-galicia",
+      "seedName": "Radio 5 Galicia",
+      "name": "RNE Radio 5 Galicia",
+      "tagline": "Todo noticias con ventana gallega",
+      "description": "Señal territorial de Radio 5 para Galicia, útil como opción informativa continua.",
+      "category": "Noticias",
+      "community": "Galicia",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_gal-live/3894729/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 5,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 Galicia",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/lcg/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "RTVE"
+        }
+      ]
+    },
+    {
+      "id": "radio-galicia-ser",
+      "seedName": "Radio Galicia SER",
+      "name": "Radio Galicia SER",
+      "tagline": "La SER de Santiago y área compostelana",
+      "description": "Marca histórica de la Cadena SER en Galicia con foco en Santiago y actualidad autonómica.",
+      "category": "Noticias",
+      "community": "Galicia",
+      "websiteUrl": "https://cadenaser.com/radio-galicia/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 6,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 Galicia",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_GALICIA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 Cadena SER fallback",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENASER_ALT1.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "Cadena SER"
+        }
+      ]
+    },
+    {
+      "id": "radio-coruna-ser",
+      "seedName": "Radio Coruña SER",
+      "name": "Radio Coruña SER",
+      "tagline": "La SER local de A Coruña",
+      "description": "Desconexión coruñesa de la Cadena SER, muy visible en la semilla de Galicia.",
+      "category": "Noticias",
+      "community": "Galicia",
+      "websiteUrl": "https://cadenaser.com/radio-coruna/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 7,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 A Coruña",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_CORUNA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 Galicia fallback",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_GALICIA.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "Cadena SER"
+        }
+      ]
+    },
+    {
+      "id": "radio-vigo-ser",
+      "seedName": "Radio Vigo SER",
+      "name": "Radio Vigo SER",
+      "tagline": "La SER de Vigo y su área metropolitana",
+      "description": "Emisora local de Cadena SER en Vigo, con desconexión propia y fuerte peso deportivo.",
+      "category": "Noticias",
+      "community": "Galicia",
+      "websiteUrl": "https://cadenaser.com/radio-vigo/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 8,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 Vigo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_VIGO.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 Galicia fallback",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_GALICIA.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "Cadena SER"
+        }
+      ]
+    },
+    {
+      "id": "radio-lugo-ser",
+      "seedName": "Radio Lugo SER",
+      "name": "Radio Lugo SER",
+      "tagline": "La SER lucense",
+      "description": "Ventana local de la Cadena SER en Lugo, añadida con stream específico y fallback de cadena.",
+      "category": "Noticias",
+      "community": "Galicia",
+      "websiteUrl": "https://cadenaser.com/radio-lugo/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 9,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC Lugo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_LUGOAAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 Galicia fallback",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_GALICIA.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "Cadena SER"
+        }
+      ]
+    },
+    {
+      "id": "radio-ourense-ser",
+      "seedName": "Radio Ourense Ser",
+      "name": "Radio Ourense SER",
+      "tagline": "La SER de Ourense",
+      "description": "Desconexión de Cadena SER en Ourense, verificada con endpoint específico de la cadena.",
+      "category": "Noticias",
+      "community": "Galicia",
+      "websiteUrl": "https://cadenaser.com/radio-ourense/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 10,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 Ourense",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_OURENSE.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 Galicia fallback",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_GALICIA.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "Cadena SER"
+        }
+      ]
+    },
+    {
+      "id": "radio-pontevedra-ser",
+      "seedName": "Radio Pontevedra SER",
+      "name": "Radio Pontevedra SER",
+      "tagline": "La SER de Pontevedra",
+      "description": "Señal local de la Cadena SER para Pontevedra con respaldo de la señal gallega.",
+      "category": "Noticias",
+      "community": "Galicia",
+      "websiteUrl": "https://cadenaser.com/radio-pontevedra/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 11,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 Pontevedra",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_PONTEVEDRA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 Galicia fallback",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_GALICIA.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "Cadena SER"
+        }
+      ]
+    },
+    {
+      "id": "ser-baixo-mino",
+      "seedName": "Cadena SER Baixo Miño",
+      "name": "SER Baixo Miño",
+      "tagline": "SER para el sur pontevedrés",
+      "description": "Señal comarcal de SER en el Baixo Miño, pensada para reforzar cobertura local gallega.",
+      "category": "Noticias",
+      "community": "Galicia",
+      "websiteUrl": "https://cadenaser.com/ser-baixo-mino/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 12,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 Baixo Miño",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_BAIXOMINO.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 Galicia fallback",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_GALICIA.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "Cadena SER"
+        }
+      ]
+    },
+    {
+      "id": "ser-arosa",
+      "seedName": "SER Arosa",
+      "name": "SER Arosa",
+      "tagline": "La SER de O Salnés y Arosa",
+      "description": "Emisora comarcal de la SER para O Salnés y el entorno de Arosa.",
+      "category": "Noticias",
+      "community": "Galicia",
+      "websiteUrl": "https://cadenaser.com/radio-arosa/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 13,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 Arosa",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_AROSA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 Galicia fallback",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_GALICIA.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "Cadena SER"
+        }
+      ]
+    },
+    {
+      "id": "ser-ferrol",
+      "seedName": "SER Ferrol",
+      "name": "SER Ferrol",
+      "tagline": "La SER de Ferrolterra",
+      "description": "Cobertura local de la SER para Ferrol y comarca.",
+      "category": "Noticias",
+      "community": "Galicia",
+      "websiteUrl": "https://cadenaser.com/radio-ferrol/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 14,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 Ferrol",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_FERROL.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 Galicia fallback",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_GALICIA.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "Cadena SER"
+        }
+      ]
+    },
+    {
+      "id": "ser-nordes",
+      "seedName": "SER Nordés",
+      "name": "SER Nordés",
+      "tagline": "La SER del noroeste coruñés",
+      "description": "Señal comarcal de la SER orientada a la Costa da Morte y entorno de Cee.",
+      "category": "Noticias",
+      "community": "Galicia",
+      "websiteUrl": "https://cadenaser.com/radio-nordes/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 15,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 Nordés",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_CEE.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 Galicia fallback",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_GALICIA.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "Cadena SER"
+        }
+      ]
+    },
+    {
+      "id": "ser-principal-monforte",
+      "seedName": "SER Principal Monforte",
+      "name": "SER Principal Monforte",
+      "tagline": "Señal SER para Monforte",
+      "description": "Emisora comarcal de referencia en Monforte añadida con su stream dedicado.",
+      "category": "Noticias",
+      "community": "Galicia",
+      "websiteUrl": "http://www.radioytele.es",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 16,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "http://srv0510.lcinternet.com:8007/stream",
+          "format": "mp3",
+          "priority": 1,
+          "source": "Radio y Tele"
+        },
+        {
+          "label": "MP3 Galicia fallback",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_GALICIA.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "Cadena SER"
+        }
+      ]
+    },
+    {
+      "id": "ser-principal-vilalba",
+      "seedName": "SER Principal Vilalba",
+      "name": "SER Principal Vilalba",
+      "tagline": "Señal SER para A Terra Chá",
+      "description": "Emisora comarcal de la órbita SER con foco en Vilalba y A Terra Chá.",
+      "category": "Noticias",
+      "community": "Galicia",
+      "websiteUrl": "http://www.radioytele.es",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 17,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "http://srv0510.lcinternet.com:8006/stream",
+          "format": "mp3",
+          "priority": 1,
+          "source": "Radio y Tele"
+        },
+        {
+          "label": "MP3 Galicia fallback",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_GALICIA.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "Cadena SER"
+        }
+      ]
+    },
+    {
+      "id": "cope-a-coruna",
+      "seedName": "Cadena COPE Coruña",
+      "name": "COPE A Coruña",
+      "tagline": "COPE local para A Coruña",
+      "description": "Señal coruñesa de COPE con stream local y respaldo de la cadena nacional.",
+      "category": "Noticias",
+      "community": "Galicia",
+      "websiteUrl": "https://www.cope.es/directos/a-coruna",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 18,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 A Coruña",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/lacoruna.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "AAC COPE fallback",
+          "url": "https://flucast09-h-cloud.flumotion.com/cope/net1.aac",
+          "format": "aac",
+          "priority": 2,
+          "source": "COPE"
+        }
+      ]
+    },
+    {
+      "id": "cope-lugo",
+      "seedName": "Cadena COPE Lugo",
+      "name": "COPE Lugo",
+      "tagline": "COPE local para Lugo",
+      "description": "Desconexión de COPE en Lugo con endpoint local dedicado.",
+      "category": "Noticias",
+      "community": "Galicia",
+      "websiteUrl": "https://www.cope.es/directos/lugo",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 19,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 Lugo",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/lugo.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "AAC COPE fallback",
+          "url": "https://flucast09-h-cloud.flumotion.com/cope/net1.aac",
+          "format": "aac",
+          "priority": 2,
+          "source": "COPE"
+        }
+      ]
+    },
+    {
+      "id": "cope-ourense",
+      "seedName": "Cadena COPE Ourense",
+      "name": "COPE Ourense",
+      "tagline": "COPE local para Ourense",
+      "description": "Emisora local de COPE en Ourense con stream específico y fallback nacional.",
+      "category": "Noticias",
+      "community": "Galicia",
+      "websiteUrl": "https://www.cope.es/directos/ourense",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 20,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 Ourense",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/orense.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "AAC COPE fallback",
+          "url": "https://flucast09-h-cloud.flumotion.com/cope/net1.aac",
+          "format": "aac",
+          "priority": 2,
+          "source": "COPE"
+        }
+      ]
+    },
+    {
+      "id": "cope-pontevedra",
+      "seedName": "Cadena COPE Pontevedra",
+      "name": "COPE Pontevedra",
+      "tagline": "COPE local para Pontevedra",
+      "description": "Señal de COPE en Pontevedra con cobertura informativa de proximidad.",
+      "category": "Noticias",
+      "community": "Galicia",
+      "websiteUrl": "https://www.cope.es/directos/pontevedra",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 21,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 Pontevedra",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/pontevedra.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "AAC COPE fallback",
+          "url": "https://flucast09-h-cloud.flumotion.com/cope/net1.aac",
+          "format": "aac",
+          "priority": 2,
+          "source": "COPE"
+        }
+      ]
+    },
+    {
+      "id": "cope-vigo",
+      "seedName": "Cadena COPE Vigo",
+      "name": "COPE Vigo",
+      "tagline": "COPE local para Vigo",
+      "description": "Desconexión viguesa de COPE, priorizada por ser una plaza fuerte del catálogo gallego.",
+      "category": "Noticias",
+      "community": "Galicia",
+      "websiteUrl": "https://www.cope.es/directos/vigo",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 22,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 Vigo",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/vigo.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "AAC COPE fallback",
+          "url": "https://flucast09-h-cloud.flumotion.com/cope/net1.aac",
+          "format": "aac",
+          "priority": 2,
+          "source": "COPE"
+        }
+      ]
+    },
+    {
+      "id": "cope-santiago",
+      "seedName": "Cadena COPE Santiago",
+      "name": "COPE Santiago",
+      "tagline": "COPE local para Santiago",
+      "description": "Emisora local de COPE para Santiago de Compostela y área próxima.",
+      "category": "Noticias",
+      "community": "Galicia",
+      "websiteUrl": "https://www.cope.es/directos/santiago",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 23,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 Santiago",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/santiago.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "AAC COPE fallback",
+          "url": "https://flucast09-h-cloud.flumotion.com/cope/net1.aac",
+          "format": "aac",
+          "priority": 2,
+          "source": "COPE"
+        }
+      ]
+    },
+    {
+      "id": "cope-ferrol",
+      "seedName": "Cadena COPE Ferrol",
+      "name": "COPE Ferrol",
+      "tagline": "COPE local para Ferrolterra",
+      "description": "Señal local de COPE en Ferrol con respaldo de cadena nacional para fallback.",
+      "category": "Noticias",
+      "community": "Galicia",
+      "websiteUrl": "https://www.cope.es/directos/ferrol",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 24,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 Ferrol",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/ferrol.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "AAC COPE fallback",
+          "url": "https://flucast09-h-cloud.flumotion.com/cope/net1.aac",
+          "format": "aac",
+          "priority": 2,
+          "source": "COPE"
+        }
+      ]
+    },
+    {
+      "id": "cope-ribadeo",
+      "seedName": "Cadena COPE Ribadeo",
+      "name": "COPE Ribadeo",
+      "tagline": "COPE local para A Mariña",
+      "description": "Desconexión de COPE en Ribadeo, útil para reforzar cobertura del norte lucense.",
+      "category": "Noticias",
+      "community": "Galicia",
+      "websiteUrl": "https://www.cope.es/directos/ribadeo",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 25,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 Ribadeo",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/ribadeo.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "AAC COPE fallback",
+          "url": "https://flucast09-h-cloud.flumotion.com/cope/net1.aac",
+          "format": "aac",
+          "priority": 2,
+          "source": "COPE"
+        }
+      ]
+    },
+    {
+      "id": "onda-cero-a-coruna",
+      "seedName": "Onda Cero A Coruña",
+      "name": "Onda Cero A Coruña",
+      "tagline": "Onda Cero local para A Coruña",
+      "description": "Señal local de Onda Cero en A Coruña con HLS dedicado y respaldo nacional.",
+      "category": "Noticias",
+      "community": "Galicia",
+      "websiteUrl": "https://www.ondacero.es/emisoras/galicia/coruna/directo/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 26,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS A Coruña",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/acoruna/master.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "HLS Onda Cero fallback",
+          "url": "https://atres-live.ondacero.es/live/ondacero/master.m3u8",
+          "format": "m3u8",
+          "priority": 2,
+          "source": "Onda Cero"
+        }
+      ]
+    },
+    {
+      "id": "onda-cero-lugo",
+      "seedName": "Onda Cero Lugo",
+      "name": "Onda Cero Lugo",
+      "tagline": "Onda Cero local para Lugo",
+      "description": "Desconexión lucense de Onda Cero con señal específica verificada.",
+      "category": "Noticias",
+      "community": "Galicia",
+      "websiteUrl": "https://www.ondacero.es/emisoras/galicia/lugo/directo/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 27,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS Lugo",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/lugo/master.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "HLS Onda Cero fallback",
+          "url": "https://atres-live.ondacero.es/live/ondacero/master.m3u8",
+          "format": "m3u8",
+          "priority": 2,
+          "source": "Onda Cero"
+        }
+      ]
+    },
+    {
+      "id": "onda-cero-ourense",
+      "seedName": "Onda Cero Ourense",
+      "name": "Onda Cero Ourense",
+      "tagline": "Onda Cero local para Ourense",
+      "description": "Señal local de Onda Cero para Ourense, mantenida con fallback nacional.",
+      "category": "Noticias",
+      "community": "Galicia",
+      "websiteUrl": "https://www.ondacero.es/emisoras/galicia/ourense/directo/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 28,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS Ourense",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/ourense/master.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "HLS Onda Cero fallback",
+          "url": "https://atres-live.ondacero.es/live/ondacero/master.m3u8",
+          "format": "m3u8",
+          "priority": 2,
+          "source": "Onda Cero"
+        }
+      ]
+    },
+    {
+      "id": "onda-cero-pontevedra",
+      "seedName": "Onda Cero Pontevedra",
+      "name": "Onda Cero Pontevedra",
+      "tagline": "Onda Cero local para Pontevedra",
+      "description": "Desconexión de Onda Cero en Pontevedra con señal HLS específica.",
+      "category": "Noticias",
+      "community": "Galicia",
+      "websiteUrl": "https://www.ondacero.es/emisoras/galicia/pontevedra/directo/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 29,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS Pontevedra",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/pontevedra/master.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "HLS Onda Cero fallback",
+          "url": "https://atres-live.ondacero.es/live/ondacero/master.m3u8",
+          "format": "m3u8",
+          "priority": 2,
+          "source": "Onda Cero"
+        }
+      ]
+    },
+    {
+      "id": "onda-cero-santiago",
+      "seedName": "Onda Cero Santiago",
+      "name": "Onda Cero Santiago",
+      "tagline": "Onda Cero local para Santiago",
+      "description": "Señal compostelana de Onda Cero, útil como cobertura local de noticias y magazines.",
+      "category": "Noticias",
+      "community": "Galicia",
+      "websiteUrl": "https://www.ondacero.es/emisoras/galicia/santiago/directo/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 30,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS Santiago",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/santiago/master.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "HLS Onda Cero fallback",
+          "url": "https://atres-live.ondacero.es/live/ondacero/master.m3u8",
+          "format": "m3u8",
+          "priority": 2,
+          "source": "Onda Cero"
+        }
+      ]
+    },
+    {
+      "id": "onda-cero-vigo",
+      "seedName": "Onda Cero Vigo",
+      "name": "Onda Cero Vigo",
+      "tagline": "Onda Cero local para Vigo",
+      "description": "Desconexión viguesa de Onda Cero, priorizada por su peso en el catálogo gallego.",
+      "category": "Noticias",
+      "community": "Galicia",
+      "websiteUrl": "https://www.ondacero.es/emisoras/galicia/vigo/directo/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 31,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS Vigo",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/vigo/master.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "HLS Onda Cero fallback",
+          "url": "https://atres-live.ondacero.es/live/ondacero/master.m3u8",
+          "format": "m3u8",
+          "priority": 2,
+          "source": "Onda Cero"
+        }
+      ]
+    },
+    {
+      "id": "onda-cero-monforte-de-lemos",
+      "seedName": "Onda Cero Monforte de Lemos",
+      "name": "Onda Cero Monforte de Lemos",
+      "tagline": "Onda Cero local para Monforte",
+      "description": "Señal comarcal de Onda Cero en Monforte de Lemos.",
+      "category": "Noticias",
+      "community": "Galicia",
+      "websiteUrl": "https://www.ondacero.es/emisoras/galicia/monforte-lemos/directo/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 32,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS Monforte",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/monforte/master.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "HLS Onda Cero fallback",
+          "url": "https://atres-live.ondacero.es/live/ondacero/master.m3u8",
+          "format": "m3u8",
+          "priority": 2,
+          "source": "Onda Cero"
+        }
+      ]
+    },
+    {
+      "id": "esradio-galicia",
+      "seedName": "EsRadio Galicia",
+      "name": "esRadio Galicia",
+      "tagline": "La marca regional de esRadio en Galicia",
+      "description": "Señal de esRadio orientada a Galicia, presente en myTuner y con fallback de la cadena nacional.",
+      "category": "Noticias",
+      "community": "Galicia",
+      "websiteUrl": "https://www.esradiogalicia.com",
+      "logoUrl": "https://graph.facebook.com/esradio/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 33,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://libertaddigital-radio-live1.flumotion.com/libertaddigital/ld-live1-high.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "esRadio"
+        },
+        {
+          "label": "MP3 fallback",
+          "url": "https://libertaddigital-radio-live1.flumotion.com/libertaddigital/ld-live1-high.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "esRadio"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca-vigo",
+      "seedName": "Radio Marca Vigo",
+      "name": "Radio Marca Vigo",
+      "tagline": "Deporte local desde Vigo",
+      "description": "Marca deportiva local de Vigo con stream dedicado y apoyo del feed nacional de Radio Marca.",
+      "category": "Deporte",
+      "community": "Galicia",
+      "websiteUrl": "https://www.marca.com/radio.html",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 34,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 Vigo",
+          "url": "https://streaming.enacast.com/radiomarcavigoHD.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "AAC Radio Marca fallback",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONALAAC.aac",
+          "format": "aac",
+          "priority": 2,
+          "source": "Radio Marca"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca-coruna",
+      "seedName": "Radio Marca Coruña",
+      "name": "Radio Marca Coruña",
+      "tagline": "Deporte local desde A Coruña",
+      "description": "Señal deportiva local de A Coruña integrada en la red Radio Marca.",
+      "category": "Deporte",
+      "community": "Galicia",
+      "websiteUrl": "https://www.marca.com/radio.html",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 35,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 A Coruña",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_CORUNA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "AAC Radio Marca fallback",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONALAAC.aac",
+          "format": "aac",
+          "priority": 2,
+          "source": "Radio Marca"
+        }
+      ]
+    },
+    {
+      "id": "los40-classic-vigo",
+      "seedName": "LOS40 Classic Vigo",
+      "name": "LOS40 Classic Vigo",
+      "tagline": "Éxitos clásicos desde Vigo",
+      "description": "Ventana local de LOS40 Classic en Vigo con stream específico del grupo Radio Vigo.",
+      "category": "Música",
+      "community": "Galicia",
+      "musicType": "Classic Hits",
+      "websiteUrl": "https://gruporadiovigo.com/la-radio-y-tv-online/",
+      "logoUrl": "https://graph.facebook.com/Los40Classic.Oficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 36,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 Vigo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40CL_ASO_VIGO.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 nacional fallback",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_CLASSICAAC.aac",
+          "format": "aac",
+          "priority": 2,
+          "source": "LOS40"
+        }
+      ]
+    },
+    {
+      "id": "radio-picarina",
+      "seedName": "Radio Picariña",
+      "name": "Radio Picariña",
+      "tagline": "Canal infantil de CRTVG",
+      "description": "Señal infantil de aGalegaAudio para público familiar y contenidos para peques.",
+      "category": "Educación",
+      "community": "Galicia",
+      "musicType": "Infantil",
+      "websiteUrl": "https://www.agalegaaudio.gal/videos/117823-radio-picarina",
+      "logoUrl": "https://graph.facebook.com/aradiogalega/picture?width=200&height=200",
+      "language": "gl",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 37,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://crtvg-picarina-schlive.flumotion.cloud/crtvglive/smil:channel11PRG.smil/playlist.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-voz",
+      "seedName": "Radio Voz Santiago",
+      "name": "Radio Voz",
+      "tagline": "La Voz de Galicia en formato radio",
+      "description": "Cadena gallega ligada a La Voz de Galicia, añadida con su stream público de Santiago como señal principal.",
+      "category": "Noticias",
+      "community": "Galicia",
+      "websiteUrl": "https://www.radiovoz.com",
+      "logoUrl": "https://graph.facebook.com/radiovoz/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 38,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 Santiago",
+          "url": "https://live.radiovoz.es/mp3/stream_santiago.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "Radio Voz"
+        }
+      ]
+    },
+    {
+      "id": "kyoto-fm",
+      "seedName": "Kyoto FM",
+      "name": "Kyoto FM",
+      "tagline": "Dance y electrónica desde Galicia",
+      "description": "Emisora gallega online centrada en electrónica, dance y sesiones.",
+      "category": "Música",
+      "community": "Galicia",
+      "musicType": "Dance",
+      "websiteUrl": "https://www.kyotofm.es",
+      "logoUrl": "https://graph.facebook.com/kyotofm/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 39,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://sonic.mediatelekom.net/8148/stream",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "formula-fun-galicia",
+      "seedName": "Formula Fun Galicia",
+      "name": "Fórmula Fun Galicia",
+      "tagline": "Hits actuales y ritmo gallego",
+      "description": "Emisora musical gallega online con perfil de hits y entretenimiento.",
+      "category": "Música",
+      "community": "Galicia",
+      "musicType": "Hits",
+      "websiteUrl": "https://www.formulafungalicia.es",
+      "logoUrl": "https://graph.facebook.com/FormulaFunGalicia/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 40,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://s30.myradiostream.com/:30464/listen.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "cuac-fm",
+      "seedName": "CUAC 103.4 FM",
+      "name": "CUAC FM",
+      "tagline": "La comunitaria de A Coruña",
+      "description": "Emisora comunitaria histórica de A Coruña con stream público estable.",
+      "category": "Comunitaria",
+      "community": "Galicia",
+      "websiteUrl": "https://cuacfm.org/directo/",
+      "logoUrl": "https://graph.facebook.com/cuacfm/picture?width=200&height=200",
+      "language": "gl",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 41,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://streaming.cuacfm.org/cuacfm-128k.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-municipal-de-tui",
+      "seedName": "Radio Municipal de Tui",
+      "name": "Radio Municipal de Tui",
+      "tagline": "La radio municipal de Tui",
+      "description": "Emisora local del Concello de Tui con señal pública estable.",
+      "category": "Noticias",
+      "community": "Galicia",
+      "websiteUrl": "https://www.tui.gal/gl/servizos/radio-municipal-tui",
+      "logoUrl": "https://graph.facebook.com/RadioMunicipaldeTui/picture?width=200&height=200",
+      "language": "gl",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 42,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://srv7021.dns-lcinternet.com/8070/stream",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-negreira",
+      "seedName": "Radio Negreira",
+      "name": "Radio Negreira",
+      "tagline": "La radio local de Negreira",
+      "description": "Señal local de Negreira incorporada para dar más profundidad al catálogo gallego.",
+      "category": "Noticias",
+      "community": "Galicia",
+      "websiteUrl": "https://concellodenegreira.gal",
+      "logoUrl": "https://yt3.googleusercontent.com/ytc/APkrFKYmoi9DDHfPuxKJenC5c3CM9hfoksrZljpcsJGK5Q=s200",
+      "language": "gl",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 43,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://srv7031.dns-lcinternet.com/8030/stream",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-fene",
+      "seedName": "Radio Fene",
+      "name": "Radio Fene",
+      "tagline": "La radio local de Fene",
+      "description": "Emisora de proximidad integrada en el ecosistema de Radiofusión.",
+      "category": "Noticias",
+      "community": "Galicia",
+      "websiteUrl": "https://www.radiofusion.eu/emisora/radio-fene",
+      "logoUrl": "https://graph.facebook.com/Radiofene/picture?width=200&height=200",
+      "language": "gl",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 44,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://srv7031.dns-lcinternet.com/8086/stream",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radiofusion",
+      "seedName": "Radiofusión",
+      "name": "Radiofusión",
+      "tagline": "Red local gallega de proximidad",
+      "description": "Marca gallega de radios locales y comarcales con enfoque informativo y social.",
+      "category": "Noticias",
+      "community": "Galicia",
+      "websiteUrl": "https://www.radiofusion.eu",
+      "logoUrl": "https://graph.facebook.com/Radiofusionga/picture?width=200&height=200",
+      "language": "gl",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 45,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://srv7031.dns-lcinternet.com/8032/stream",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-lider",
+      "seedName": "Radio Líder Santiago",
+      "name": "Radio Líder",
+      "tagline": "Generalista privada con foco gallego",
+      "description": "Cadena privada muy reconocible en Galicia, incorporada con su directo oficial.",
+      "category": "Noticias",
+      "community": "Galicia",
+      "websiteUrl": "https://radiolider.com/en-directo/",
+      "logoUrl": "https://graph.facebook.com/radiolidergalicia/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 46,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://server9.emitironline.com:8200/stream",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "net-galicia-radio",
+      "seedName": "Net Galicia Radio",
+      "name": "Net Galicia Radio",
+      "tagline": "Radio online gallega de entretenimiento",
+      "description": "Emisora online gallega centrada en música y entretenimiento digital.",
+      "category": "Música",
+      "community": "Galicia",
+      "musicType": "Variedad",
+      "websiteUrl": "https://www.netgaliciaradio.es",
+      "logoUrl": "https://www.netgaliciaradio.es/wp-content/uploads/2022/09/logo.png",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 47,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://sonicpanel.streaming10.net/8140/stream",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "verbena-fm",
+      "seedName": "Verbena FM",
+      "name": "Verbena FM",
+      "tagline": "Fiesta gallega y música popular",
+      "description": "Emisora musical gallega orientada a fiesta, verbena y repertorio popular.",
+      "category": "Música",
+      "community": "Galicia",
+      "musicType": "Variedad",
+      "websiteUrl": "https://verbenafm.com",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1463159511133442059/uVV15n4k_200x200.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 48,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streaming12.elitecomunicacion.es:8222/stream",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "plus-buena-fm",
+      "seedName": "+Buena FM",
+      "name": "+Buena FM",
+      "tagline": "Latino y fiesta desde Galicia",
+      "description": "Emisora musical con perfil latino y festivo dentro del ecosistema gallego.",
+      "category": "Música",
+      "community": "Galicia",
+      "musicType": "Latina",
+      "websiteUrl": "https://masbuenafm.com",
+      "logoUrl": "https://graph.facebook.com/masbuenafm/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 49,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://sonic.mediatelekom.net/8156/stream",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "metro-fm-ferrol",
+      "seedName": "Metro FM Ferrol",
+      "name": "Metro FM Ferrol",
+      "tagline": "Hits locales desde Ferrol",
+      "description": "Emisora musical local de Ferrol con señal online pública.",
+      "category": "Música",
+      "community": "Galicia",
+      "musicType": "Hits",
+      "websiteUrl": "https://metrofmferrol.com",
+      "logoUrl": "https://www.tvferrol.es/es/recursos/patrocinadores_2/MccbkxMU.png",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 50,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://mediastreamm.com/8216/;.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    }
+  ]
+}
