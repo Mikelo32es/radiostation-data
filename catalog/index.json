@@ -1,12 +1,12 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Euskadi se mantiene estable y Madrid gana una tanda grande de pulido y ampliación: 235 entradas, 175 reproducibles y 106 emisoras verificadas ya en Madrid.",
+  "syncMessage": "Catalunya arranca con un primer bloque verificado y la carga remota ya incluye Euskadi, Madrid y Catalunya con streams contrastados.",
   "stats": {
-    "seedCount": 321,
-    "playableCount": 261,
-    "verifiedCount": 243,
-    "candidateCount": 20,
-    "pendingCount": 58
+    "seedCount": 368,
+    "playableCount": 287,
+    "verifiedCount": 253,
+    "candidateCount": 34,
+    "pendingCount": 81
   },
   "featuredIds": [
     "mariskalrock-radio",
@@ -66,21 +66,21 @@
       "name": "Euskadi",
       "path": "communities/euskadi.json",
       "seedCount": 129,
-      "playableCount": 69
+      "playableCount": 89
     },
     {
       "id": "madrid",
       "name": "Madrid",
       "path": "communities/madrid.json",
-      "seedCount": 106,
-      "playableCount": 106
+      "seedCount": 156,
+      "playableCount": 115
     },
     {
-      "id": "andalucia",
-      "name": "Andalucía",
-      "path": "communities/andalucia.json",
-      "seedCount": 99,
-      "playableCount": 99
+      "id": "catalunya",
+      "name": "Catalunya",
+      "path": "communities/catalunya.json",
+      "seedCount": 83,
+      "playableCount": 83
     }
   ]
 }
