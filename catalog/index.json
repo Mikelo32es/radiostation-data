@@ -1,24 +1,14 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Euskadi se mantiene estable y Madrid pega otro salto grande: 335 entradas, 275 reproducibles y 261 emisoras verificadas ya en Madrid.",
+  "syncMessage": "Andalucía queda sembrada hasta 423 entradas sin tocar la app: 156 reproducibles, 153 verificadas, 3 candidatas y 267 pendientes de remate fino.",
   "stats": {
-    "seedCount": 335,
-    "playableCount": 275,
-    "verifiedCount": 261,
-    "candidateCount": 16,
-    "pendingCount": 58
+    "seedCount": 659,
+    "playableCount": 332,
+    "verifiedCount": 314,
+    "candidateCount": 20,
+    "pendingCount": 325
   },
   "featuredIds": [
-    "radio-nacional-andalucia",
-    "radio-5-catalunya",
-    "radio-marca-bilbao",
-    "canal-sur-radio-musica",
-    "flamenco-radio",
-    "los40-zaragoza",
-    "cadena-dial-castellon",
-    "valencia-cf-radio",
-    "mdt-radio-remember",
-    "elite-dance",
     "mariskalrock-radio",
     "la-flamenca",
     "canal-fiesta-radio",
@@ -26,19 +16,17 @@
     "informa-radio-madrid",
     "cadena-ser-nacional",
     "cope-nacional",
-    "onda-cero-nacional"
+    "onda-cero-nacional",
+    "radio-3-rne",
+    "radio-clasica-rne",
+    "los40",
+    "cadena-100",
+    "rock-fm",
+    "kiss-fm",
+    "europa-fm",
+    "cadena-dial"
   ],
   "trendingIds": [
-    "radio-marca-bilbao",
-    "radio-marca-barcelona",
-    "los40-catalunya",
-    "mdt-radio-80s",
-    "mdt-radio-2000",
-    "canal-sur-radio-sevilla",
-    "flamenco-radio",
-    "elite-urban",
-    "babyradio-cuentos-infantiles",
-    "radio-5-galicia",
     "loca-fm-industrial",
     "loca-fm-hard",
     "la-flamenca",
@@ -46,40 +34,53 @@
     "loca-fm-urban",
     "ecuashyri-fm",
     "informa-radio-madrid",
-    "cadena-ser-nacional"
+    "cadena-ser-nacional",
+    "cope-nacional",
+    "onda-cero-nacional",
+    "los40",
+    "rock-fm",
+    "cadena-100",
+    "kiss-fm",
+    "europa-fm",
+    "loca-fm"
   ],
   "recentIds": [
-    "mdt-radio-remember",
-    "mdt-radio-pop-stars",
-    "mdt-radio-80s",
-    "mdt-radio-90s",
-    "mdt-radio-2000",
-    "elite-love",
-    "elite-dance",
-    "elite-oldies",
-    "elite-urban",
-    "valencia-cf-radio",
-    "sevilla-fc-radio",
-    "real-betis-radio",
-    "ud-almeria-radio",
-    "radio-osasuna",
-    "babyradio",
-    "babyradio-latinoamerica"
+    "informa-radio-madrid",
+    "ecuashyri-fm",
+    "loca-fm-urban",
+    "canal-fiesta-radio",
+    "la-flamenca",
+    "dial-baladas",
+    "dial-latino",
+    "loca-fm-hard",
+    "loca-fm-ambient",
+    "loca-fm-hard-techno",
+    "loca-fm-industrial",
+    "loca-fm-drum-bass",
+    "la-urban-radio",
+    "mariskalrock-radio"
   ],
   "communities": [
     {
       "id": "euskadi",
       "name": "Euskadi",
       "path": "communities/euskadi.json",
-      "seedCount": 129,
-      "playableCount": 69
+      "seedCount": 130,
+      "playableCount": 70
     },
     {
       "id": "madrid",
       "name": "Madrid",
       "path": "communities/madrid.json",
-      "seedCount": 206,
-      "playableCount": 206
+      "seedCount": 106,
+      "playableCount": 106
+    },
+    {
+      "id": "andalucia",
+      "name": "Andalucía",
+      "path": "communities/andalucia.json",
+      "seedCount": 423,
+      "playableCount": 156
     }
   ]
 }
