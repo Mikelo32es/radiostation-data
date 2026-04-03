@@ -1,10 +1,10 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Catalunya: pasada de mejora para reincorporar emisoras relevantes que faltaban, con alta conservadora solo cuando había base pública suficiente.",
+  "syncMessage": "Galicia: bloque rehecho con limpieza conservadora, quedándonos solo con emisoras gallegas y desconexiones territoriales claramente verificables.",
   "stats": {
-    "seedCount": 1154,
-    "playableCount": 819,
-    "verifiedCount": 835,
+    "seedCount": 1065,
+    "playableCount": 730,
+    "verifiedCount": 746,
     "candidateCount": 93,
     "pendingCount": 226
   },
@@ -93,8 +93,8 @@
       "id": "galicia",
       "name": "Galicia",
       "path": "communities/galicia.json",
-      "seedCount": 150,
-      "playableCount": 150
+      "seedCount": 61,
+      "playableCount": 61
     }
   ]
 }
