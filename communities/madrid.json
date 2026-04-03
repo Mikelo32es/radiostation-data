@@ -2,12 +2,12 @@
   "repoName": "radiostation-data",
   "community": "Madrid",
   "seedSource": "myTuner",
-  "seedCount": 72,
-  "playableCount": 72,
-  "verifiedCount": 72,
+  "seedCount": 92,
+  "playableCount": 92,
+  "verifiedCount": 92,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Madrid queda mucho más sólida con generalistas, locales, comunitarias, universitarias y ahora también un bloque fuerte de cadenas conocidas/mainstream verificadas con streams públicos.",
+  "notes": "Madrid gana una tanda grande con generalistas nacionales, RTVE temática y un bloque amplio de canales Loca FM, manteniendo streams públicos y fallback donde aplica.",
   "stations": [
     {
       "id": "onda-madrid",
@@ -1907,6 +1907,571 @@
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_DANCE.mp3",
           "format": "mp3",
           "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "cadena-ser-nacional",
+      "seedName": "Cadena SER",
+      "name": "Cadena SER",
+      "tagline": "La gran generalista nacional",
+      "description": "Señal nacional de Cadena SER, muy escuchada también en Madrid, con actualidad, magazines, información y deporte.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://play.cadenaser.com/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 5,
+      "seedRank": 1,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENASERAAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "AAC alternativo 1",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENASER_ALT1AAC.aac",
+          "format": "aac",
+          "priority": 2,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENASER.mp3",
+          "format": "mp3",
+          "priority": 3,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo 1",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENASER_ALT1.mp3",
+          "format": "mp3",
+          "priority": 4,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "cope-nacional",
+      "seedName": "COPE",
+      "name": "COPE",
+      "tagline": "Actualidad, opinión y deporte",
+      "description": "Señal nacional de COPE, muy reconocible en Madrid por su mezcla de información, entretenimiento y grandes programas deportivos.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.cope.es/",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 5,
+      "seedRank": 2,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://flucast09-h-cloud.flumotion.com/cope/net1.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "AAC alternativo",
+          "url": "https://flucast31-h-cloud.flumotion.com/cope/net2.aac",
+          "format": "aac",
+          "priority": 2,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 principal",
+          "url": "https://flucast09-h-cloud.flumotion.com/cope/net1.mp3",
+          "format": "mp3",
+          "priority": 3,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://flucast31-h-cloud.flumotion.com/cope/net2.mp3",
+          "format": "mp3",
+          "priority": 4,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-cero-nacional",
+      "seedName": "Onda Cero",
+      "name": "Onda Cero",
+      "tagline": "Información y entretenimiento nacional",
+      "description": "Señal nacional de Onda Cero, presente en Madrid y centrada en información, actualidad, opinión y magazines.",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.ondacero.es/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 5,
+      "seedRank": 3,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://radio-atres-live.ondacero.es/api/livestream-redirect/OCAAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "HLS alternativo",
+          "url": "https://atres-live.ondacero.es/live/ondacero/master.m3u8",
+          "format": "hls",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-3-rne",
+      "seedName": "RNE Radio 3",
+      "name": "RNE Radio 3",
+      "tagline": "La emisora alternativa de RTVE",
+      "description": "Canal musical y cultural de RTVE, muy reconocido por su enfoque alternativo, independiente y de nuevos sonidos.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Alternativa",
+      "websiteUrl": "https://www.rtve.es/radio/radio3/",
+      "logoUrl": "https://graph.facebook.com/radio3/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 5,
+      "seedRank": 4,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r3_main.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-clasica-rne",
+      "seedName": "RNE Radio Clásica",
+      "name": "RNE Radio Clásica",
+      "tagline": "Clásica y cultura en RTVE",
+      "description": "Señal de RTVE especializada en música clásica, patrimonio musical y programación cultural de referencia.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Clásica",
+      "websiteUrl": "https://www.rtve.es/radio/radioclasica/",
+      "logoUrl": "https://graph.facebook.com/radioclasicartve/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 5,
+      "seedRank": 5,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r2_main.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-maria-espana-madrid",
+      "seedName": "Radio María España",
+      "name": "Radio María España",
+      "tagline": "Radio religiosa de alcance nacional",
+      "description": "Emisora religiosa católica de cobertura nacional, también presente entre las radios escuchadas en Madrid.",
+      "category": "Religión",
+      "community": "Madrid",
+      "websiteUrl": "https://www.radiomaria.es/",
+      "logoUrl": "https://graph.facebook.com/RadioMariaSpa/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 5,
+      "seedRank": 6,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://dreamsiteradiocp4.com/proxy/rmspain1?mp=%2Fstream%2F1%2F%3B.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-dance",
+      "seedName": "Loca FM Dance",
+      "name": "Loca FM Dance",
+      "tagline": "Dance y electrónica 24/7",
+      "description": "Canal dance de Loca FM con sonido club y rotación electrónica muy ligada a la escena madrileña.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Dance Electrónica",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 5,
+      "seedRank": 7,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_dance/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-remember",
+      "seedName": "Loca FM Remember",
+      "name": "Loca FM Remember",
+      "tagline": "Clásicos remember y dance",
+      "description": "Canal remember de Loca FM con foco en himnos dance y electrónica clásica muy asociados a la cultura de club.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Remember",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 5,
+      "seedRank": 8,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_remember/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-house",
+      "seedName": "Loca FM House",
+      "name": "Loca FM House",
+      "tagline": "House con ADN de club",
+      "description": "Canal house de Loca FM con sesiones y selección centrada en house y sonidos de pista.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "House",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 5,
+      "seedRank": 9,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_house/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-chill-out",
+      "seedName": "Loca FM Chill Out",
+      "name": "Loca FM Chill Out",
+      "tagline": "Chill out y downtempo",
+      "description": "Canal chill out de Loca FM para ambientes relajados, lounge y downtempo.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Chill Out",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 5,
+      "seedRank": 10,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_chill_out/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-tech-house",
+      "seedName": "Loca FM Tech House",
+      "name": "Loca FM Tech House",
+      "tagline": "Tech house continuo",
+      "description": "Canal de Loca FM enfocado a tech house y grooves de club.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Tech House",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 5,
+      "seedRank": 11,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_tech_house/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-trance",
+      "seedName": "Loca FM Trance",
+      "name": "Loca FM Trance",
+      "tagline": "Trance y melodías electrónicas",
+      "description": "Canal temático de Loca FM dedicado al trance y a la electrónica melódica.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Trance",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 5,
+      "seedRank": 12,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_trance/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-techno",
+      "seedName": "Loca FM Techno",
+      "name": "Loca FM Techno",
+      "tagline": "Techno sin descanso",
+      "description": "Canal techno de Loca FM, muy alineado con el perfil electrónico fuerte que encaja bien en Madrid.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Techno",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 5,
+      "seedRank": 13,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_techo/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-big-room",
+      "seedName": "Loca FM Big Room",
+      "name": "Loca FM Big Room",
+      "tagline": "Big room y festival",
+      "description": "Canal de Loca FM orientado a big room y sonido festivalero.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Big Room",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 5,
+      "seedRank": 14,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_big_room/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-deep-house",
+      "seedName": "Loca FM Deep House",
+      "name": "Loca FM Deep House",
+      "tagline": "Deep house elegante",
+      "description": "Canal deep house de Loca FM con selección más atmosférica y refinada.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Deep House",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 5,
+      "seedRank": 15,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_deep_house/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-sessions",
+      "seedName": "Loca FM Sessions",
+      "name": "Loca FM Sessions",
+      "tagline": "Sesiones y mezclas continuas",
+      "description": "Canal de sesiones continuas de Loca FM con mezcla orientada a DJ sets y sonido nonstop.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Sesiones DJ",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 5,
+      "seedRank": 16,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_sessions/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-loca-80s",
+      "seedName": "Loca FM Loca 80s",
+      "name": "Loca FM Loca 80s",
+      "tagline": "Viaje a los 80",
+      "description": "Canal temático de Loca FM dedicado a clásicos y nostalgia ochentera.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "80s",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 5,
+      "seedRank": 17,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_80s/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-loca-90s",
+      "seedName": "Loca FM Loca 90s",
+      "name": "Loca FM Loca 90s",
+      "tagline": "Viaje a los 90",
+      "description": "Canal temático de Loca FM dedicado a himnos noventeros y electrónica de esa época.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "90s",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 5,
+      "seedRank": 18,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_90s_/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-melodic-house",
+      "seedName": "Loca FM Melodic House",
+      "name": "Loca FM Melodic House",
+      "tagline": "Melodic house continuo",
+      "description": "Canal de Loca FM centrado en melodic house y electrónica melódica.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Melodic House",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 5,
+      "seedRank": 19,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_melodic_house/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-melodic-techno",
+      "seedName": "Loca FM Melodic Techno",
+      "name": "Loca FM Melodic Techno",
+      "tagline": "Melodic techno continuo",
+      "description": "Canal de Loca FM dedicado a melodic techno y sesiones atmosféricas.",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Melodic Techno",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 5,
+      "seedRank": 20,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_melodic_techno/live",
+          "format": "auto",
+          "priority": 1,
           "source": "TDTChannels"
         }
       ]
