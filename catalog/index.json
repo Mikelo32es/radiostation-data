@@ -1,12 +1,12 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "La Rioja: alta de 28 semillas visibles en myTuner, con 24 emisoras ya reproducibles y 4 pendientes de cierre fino de stream; app sin cambios.",
+  "syncMessage": "La Rioja: revisadas las 4 pendientes; Radio Haro verificada, Máxima FM Rioja y Lokura pasan a candidate, Radio 3 Pasitos sigue pendiente; app sin cambios.",
   "stats": {
-    "seedCount": 896,
-    "playableCount": 710,
-    "verifiedCount": 732,
-    "candidateCount": 87,
-    "pendingCount": 77
+    "seedCount": 872,
+    "playableCount": 689,
+    "verifiedCount": 709,
+    "candidateCount": 89,
+    "pendingCount": 74
   },
   "featuredIds": [
     "mariskalrock-radio",
@@ -107,8 +107,8 @@
       "id": "la-rioja",
       "name": "La Rioja",
       "path": "communities/la-rioja.json",
-      "seedCount": 28,
-      "playableCount": 24
+      "seedCount": 4,
+      "playableCount": 3
     }
   ],
   "homePath": "catalog/home.json"
