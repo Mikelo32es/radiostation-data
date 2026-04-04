@@ -2,12 +2,12 @@
   "repoName": "radiostation-data",
   "community": "Asturias",
   "seedSource": "myTuner",
-  "seedCount": 63,
-  "playableCount": 63,
-  "verifiedCount": 63,
+  "seedCount": 64,
+  "playableCount": 64,
+  "verifiedCount": 64,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Pasada fina de Asturias: añadidas SER Occidente y SER Oriente, más refuerzo de cadenas y online reproducibles con stream público ya contrastado. Se dejan fuera emisoras localizadas en la semilla que siguen flojas de stream o de verificación para no meter ruido.",
+  "notes": "Pasada final de Asturias: integración en snapshot actual, ajuste fino del bloque deportivo y alta de Radio Marca Nacional sin tocar la app.",
   "stations": [
     {
       "id": "rpa-asturias",
@@ -491,7 +491,7 @@
       "seedName": "Carrusel FM",
       "name": "Carrusel FM",
       "tagline": "Remember asturiano de los 60, 70 y 80",
-      "description": "Emisora asturiana orientada a clásicos y remember con especial peso de los 60, 70 y 80.",
+      "description": "Emisora remember asturiana centrada en éxitos en español de los 60, 70 y 80, con retransmisión puntual de espacios deportivos locales.",
       "category": "Música",
       "community": "Asturias",
       "musicType": "Remember",
@@ -695,11 +695,11 @@
       "id": "apq-radio",
       "seedName": "APQ Radio",
       "name": "APQ Radio",
-      "tagline": "La radio musical del occidente asturiano",
-      "description": "Emisora asturiana con programación musical y presencia local, incorporando doble stream como fallback.",
-      "category": "Música",
+      "tagline": "Deporte asturiano y radio local",
+      "description": "Emisora asturiana con programación deportiva, musical y generalista, con especial peso del deporte asturiano y doble stream como fallback.",
+      "category": "Deporte",
       "community": "Asturias",
-      "musicType": "Variedad",
+      "musicType": "Deportiva / Generalista",
       "websiteUrl": "https://www.apqradio.es",
       "logoUrl": "https://graph.facebook.com/APQRadio.es/picture?width=200&height=200",
       "language": "es",
@@ -1706,6 +1706,38 @@
           "format": "mp3",
           "priority": 1,
           "source": "TingFM listing"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca-nacional",
+      "seedName": "Radio Marca Nacional",
+      "name": "Radio Marca Nacional",
+      "tagline": "Deporte 24 horas",
+      "description": "Señal nacional de Radio Marca, añadida al refuerzo deportivo de Asturias con streams públicos en AAC y MP3.",
+      "category": "Deporte",
+      "community": "Asturias",
+      "websiteUrl": "https://www.marca.com/radio.html",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 64,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC oficial",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONALAAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels / WebRadioStreams"
+        },
+        {
+          "label": "MP3 oficial",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONAL.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels / WebRadioStreams"
         }
       ]
     }
