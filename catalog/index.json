@@ -1,10 +1,10 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "La Rioja: revisadas las 4 pendientes; Radio Haro verificada, Máxima FM Rioja y Lokura pasan a candidate, Radio 3 Pasitos sigue pendiente; app sin cambios.",
+  "syncMessage": "La Rioja: parche corregido sin borrar emisoras previas; se conservan 28 semillas, con Radio Haro SER cerrada, Maxima FM Rioja y Lokura Radio en candidate, y Radio 3 Pasitos pendiente.",
   "stats": {
-    "seedCount": 872,
-    "playableCount": 689,
-    "verifiedCount": 709,
+    "seedCount": 896,
+    "playableCount": 713,
+    "verifiedCount": 733,
     "candidateCount": 89,
     "pendingCount": 74
   },
@@ -107,8 +107,8 @@
       "id": "la-rioja",
       "name": "La Rioja",
       "path": "communities/la-rioja.json",
-      "seedCount": 4,
-      "playableCount": 3
+      "seedCount": 28,
+      "playableCount": 27
     }
   ],
   "homePath": "catalog/home.json"
