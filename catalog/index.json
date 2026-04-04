@@ -1,10 +1,10 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Asturias: integración en la base actual, pasada fina del bloque deportivo y alta de Radio Marca Nacional; app sin cambios.",
+  "syncMessage": "La Rioja: alta de comunidad con bloque local/regional verificado y cadenas base ya estables; app sin cambios.",
   "stats": {
-    "seedCount": 868,
-    "playableCount": 686,
-    "verifiedCount": 708,
+    "seedCount": 897,
+    "playableCount": 715,
+    "verifiedCount": 737,
     "candidateCount": 87,
     "pendingCount": 73
   },
@@ -102,6 +102,13 @@
       "path": "communities/asturias.json",
       "seedCount": 64,
       "playableCount": 64
+    },
+    {
+      "id": "la-rioja",
+      "name": "La Rioja",
+      "path": "communities/la-rioja.json",
+      "seedCount": 29,
+      "playableCount": 29
     }
   ],
   "homePath": "catalog/home.json"
