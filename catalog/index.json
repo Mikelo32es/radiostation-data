@@ -1,10 +1,10 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Galicia: pasada fina sobre el bloque de 124 para limpiar metadatos heredados, ajustar webs y subir varias locales a verified sin tocar la app.",
+  "syncMessage": "Asturias: alta inicial de la comunidad con bloque verificado de autonómicas, locales y cadenas clave, sin tocar la app.",
   "stats": {
-    "seedCount": 804,
-    "playableCount": 622,
-    "verifiedCount": 644,
+    "seedCount": 853,
+    "playableCount": 671,
+    "verifiedCount": 693,
     "candidateCount": 87,
     "pendingCount": 73
   },
@@ -69,18 +69,11 @@
       "playableCount": 99
     },
     {
-      "id": "euskadi",
-      "name": "Euskadi",
-      "path": "communities/euskadi.json",
-      "seedCount": 129,
-      "playableCount": 89
-    },
-    {
-      "id": "madrid",
-      "name": "Madrid",
-      "path": "communities/madrid.json",
-      "seedCount": 156,
-      "playableCount": 115
+      "id": "asturias",
+      "name": "Asturias",
+      "path": "communities/asturias.json",
+      "seedCount": 49,
+      "playableCount": 49
     },
     {
       "id": "catalunya",
@@ -90,11 +83,25 @@
       "playableCount": 195
     },
     {
+      "id": "euskadi",
+      "name": "Euskadi",
+      "path": "communities/euskadi.json",
+      "seedCount": 129,
+      "playableCount": 89
+    },
+    {
       "id": "galicia",
       "name": "Galicia",
       "path": "communities/galicia.json",
       "seedCount": 124,
       "playableCount": 124
+    },
+    {
+      "id": "madrid",
+      "name": "Madrid",
+      "path": "communities/madrid.json",
+      "seedCount": 156,
+      "playableCount": 115
     }
   ],
   "homePath": "catalog/home.json"
