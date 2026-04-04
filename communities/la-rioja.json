@@ -2,390 +2,19 @@
   "repoName": "radiostation-data",
   "community": "La Rioja",
   "seedSource": "myTuner",
-  "seedCount": 29,
-  "playableCount": 29,
-  "verifiedCount": 29,
+  "seedCount": 28,
+  "playableCount": 24,
+  "verifiedCount": 24,
   "candidateCount": 0,
-  "pendingCount": 0,
-  "notes": "La Rioja: alta de comunidad desde la base actual con núcleo local/regional verificado (SER Rioja, COPE Logroño, Onda Cero Logroño, RNE La Rioja, Canal Ebro, Radio Logroño y esRadio Arnedo) y apoyo de cadenas nacionales ya estables. App sin cambios.",
+  "pendingCount": 4,
+  "notes": "Integración de La Rioja desde el snapshot actual usando myTuner como semilla: 28 entradas visibles, 24 con stream reproducible ya fijado y 4 seeds dejadas pendientes hasta cerrar endpoint directo sin inventar URLs.",
   "stations": [
-    {
-      "id": "radio-rioja-ser",
-      "seedName": "Radio Rioja SER",
-      "name": "Radio Rioja SER",
-      "tagline": "La SER de referencia en Logroño y La Rioja",
-      "description": "Edición riojana de la Cadena SER con programación local, información, deportes y cobertura regional desde Logroño.",
-      "category": "Noticias",
-      "community": "La Rioja",
-      "websiteUrl": "https://cadenaser.com/radio-rioja/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 1,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_RIOJA.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cadena-cope-logrono",
-      "seedName": "Cadena COPE Logroño",
-      "name": "Cadena COPE Logroño",
-      "tagline": "Información y magazines desde La Rioja",
-      "description": "Desconexión riojana de COPE con actualidad, deporte y programación local desde Logroño.",
-      "category": "Noticias",
-      "community": "La Rioja",
-      "websiteUrl": "https://www.cope.es/directos/logrono",
-      "logoUrl": "https://graph.facebook.com/coperioja/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 2,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://wecast-bl02.flumotion.com/copesedes/logrono.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "onda-cero-logrono",
-      "seedName": "Onda Cero Logroño",
-      "name": "Onda Cero Logroño",
-      "tagline": "Actualidad y programación local en La Rioja",
-      "description": "Señal riojana de Onda Cero con desconexión para Logroño y Calahorra, integrada con stream oficial HLS.",
-      "category": "Noticias",
-      "community": "La Rioja",
-      "websiteUrl": "https://www.ondacero.es/emisoras/rioja/rioja/directo/",
-      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 3,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/logrono/master.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-nacional-la-rioja",
-      "seedName": "RNE Radio Nacional",
-      "name": "Radio Nacional La Rioja",
-      "tagline": "La desconexión riojana de RNE",
-      "description": "Desconexión de Radio Nacional para La Rioja con cobertura informativa de RTVE y señal regional verificada.",
-      "category": "Noticias",
-      "community": "La Rioja",
-      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_rio-live/3893536/",
-      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 4,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://dispatcher.rndfnk.com/crtve/rne1/rio/mp3/high",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-5-la-rioja",
-      "seedName": "RNE Radio 5",
-      "name": "Radio 5 La Rioja",
-      "tagline": "Boletines y servicio público desde La Rioja",
-      "description": "Señal territorial de Radio 5 para La Rioja con cobertura informativa y boletines permanentes de RTVE.",
-      "category": "Noticias",
-      "community": "La Rioja",
-      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_rio-live/3894788/",
-      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 5,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://dispatcher.rndfnk.com/crtve/rne5/rio/mp3/high",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "europa-fm-logrono",
-      "seedName": "Europa FM",
-      "name": "Europa FM Logroño",
-      "tagline": "Pop rock y radiofórmula desde Logroño",
-      "description": "Ventana riojana de Europa FM integrada con stream oficial y cobertura para Logroño.",
-      "category": "Música",
-      "community": "La Rioja",
-      "musicType": "Pop Rock",
-      "websiteUrl": "https://www.europafm.com/frecuencias/logrono/",
-      "logoUrl": "https://graph.facebook.com/tueuropafm/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 6,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://atres-live.europafm.com/live/delegaciones/efm/logrono/master.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "melodia-fm-rioja",
-      "seedName": "Melodía FM",
-      "name": "Melodía FM Rioja",
-      "tagline": "Clásicos y soft pop con presencia riojana",
-      "description": "Señal musical de Melodía FM distribuida para La Rioja y enlazada desde Medios Riojanos.",
-      "category": "Música",
-      "community": "La Rioja",
-      "musicType": "Clásicos y Soft Pop",
-      "websiteUrl": "https://mediosriojanos.com/medios-riojanos-directo/",
-      "logoUrl": "https://graph.facebook.com/tumelodiafm/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 7,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://atres-live.melodia-fm.com/live/melodiafm/master.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ser-calahorra",
-      "seedName": "SER Calahorra",
-      "name": "SER Calahorra",
-      "tagline": "Información y cercanía para Rioja Baja",
-      "description": "Emisora local de la Cadena SER centrada en Calahorra y Rioja Baja, con señal oficial verificada.",
-      "category": "Noticias",
-      "community": "La Rioja",
-      "websiteUrl": "https://cadenaser.com/radio-rioja-calahorra/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 8,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_CALAHORRA.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "esradio-arnedo",
-      "seedName": "esRadio Arnedo",
-      "name": "esRadio Arnedo",
-      "tagline": "Actualidad comarcal de Rioja Baja y Ribera",
-      "description": "Señal local ligada a Radio Arnedo, muy centrada en la actualidad de Arnedo, Rioja Baja y la Ribera navarra.",
-      "category": "Noticias",
-      "community": "La Rioja",
-      "websiteUrl": "https://www.radioarnedo.com",
-      "logoUrl": "https://graph.facebook.com/ondarioja.radioarnedo/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 9,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://stream20.usastreams.com/8154/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-logrono",
-      "seedName": "Radio Logroño",
-      "name": "Radio Logroño",
-      "tagline": "Rock y pop local desde Logroño",
-      "description": "Emisora musical online asentada en Logroño, con perfil rock y pop y señal pública servida desde Zeno.",
-      "category": "Música",
-      "community": "La Rioja",
-      "musicType": "Rock y Pop",
-      "websiteUrl": "https://radiologrono.es",
-      "logoUrl": "https://graph.facebook.com/radiologrono/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 10,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://stream.zeno.fm/19buxw48djlvv",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "canal-ebro",
-      "seedName": "Canal Ebro Radio",
-      "name": "Canal Ebro Radio",
-      "tagline": "Éxitos, participación y cercanía riojana",
-      "description": "Emisora musical riojana con presencia en Logroño y Arnedo, muy orientada a pop, latino y entretenimiento local.",
-      "category": "Música",
-      "community": "La Rioja",
-      "musicType": "Pop Latino y Retro",
-      "websiteUrl": "https://www.canalebro.com/radioonline/",
-      "logoUrl": "https://graph.facebook.com/canalebro/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 11,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "http://streaming.capsulaimposible.com:8000/stream/2/canalebro.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "los40",
-      "seedName": "Los 40 Principales",
-      "name": "LOS40",
-      "tagline": "Top 40 nacional con cobertura fuerte en La Rioja",
-      "description": "Señal nacional de LOS40, muy presente también en La Rioja a través de la oferta de myTuner.",
-      "category": "Música",
-      "community": "La Rioja",
-      "musicType": "Top 40",
-      "websiteUrl": "https://play.los40.com",
-      "logoUrl": "https://graph.facebook.com/los40/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 12,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "AAC principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40AAC.aac",
-          "format": "aac",
-          "priority": 1,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "MP3 alternativo",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/Los40.mp3",
-          "format": "mp3",
-          "priority": 2,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cadena-100",
-      "seedName": "Cadena 100",
-      "name": "Cadena 100",
-      "tagline": "Éxitos pop y fórmula nacional",
-      "description": "Cadena 100 forma parte del bloque principal que myTuner muestra para La Rioja y mantiene stream oficial ya verificado.",
-      "category": "Música",
-      "community": "La Rioja",
-      "musicType": "Pop",
-      "websiteUrl": "https://www.cadena100.es",
-      "logoUrl": "https://graph.facebook.com/CADENA100/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 13,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://cadena100-cope.flumotion.com/chunks.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "los40-classic",
-      "seedName": "Los40 Classic",
-      "name": "LOS40 Classic",
-      "tagline": "Clásicos del pop y rock comercial",
-      "description": "Canal temático de clásicos asociado al bloque principal de La Rioja en myTuner.",
-      "category": "Música",
-      "community": "La Rioja",
-      "musicType": "Clásicos",
-      "websiteUrl": "https://play.los40.com/los40_classic",
-      "logoUrl": "https://graph.facebook.com/los40classic/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 14,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "AAC principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_CLASSICAAC.aac",
-          "format": "aac",
-          "priority": 1,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "MP3 alternativo",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_CLASSIC.mp3",
-          "format": "mp3",
-          "priority": 2,
-          "source": "TDTChannels"
-        }
-      ]
-    },
     {
       "id": "radio-marca-nacional",
       "seedName": "Radio Marca Nacional",
       "name": "Radio Marca Nacional",
-      "tagline": "Actualidad deportiva 24 horas",
-      "description": "Señal nacional deportiva incorporada al bloque riojano con streams oficiales ya reutilizados.",
+      "tagline": "Deporte 24 horas",
+      "description": "Señal nacional de Radio Marca, añadida al refuerzo deportivo de Asturias con streams públicos en AAC y MP3.",
       "category": "Deporte",
       "community": "La Rioja",
       "websiteUrl": "https://www.marca.com/radio.html",
@@ -393,7 +22,7 @@
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
-      "seedRank": 15,
+      "seedRank": 1,
       "verificationStatus": "verified",
       "streams": [
         {
@@ -413,25 +42,83 @@
       ]
     },
     {
-      "id": "kiss-fm",
-      "seedName": "KISS FM",
-      "name": "KISS FM",
-      "tagline": "Fórmula musical de grandes éxitos",
-      "description": "Cadena musical nacional incluida por presencia destacada en myTuner para La Rioja.",
+      "id": "los-40-principales",
+      "seedName": "Los 40 Principales",
+      "name": "LOS40",
+      "tagline": "Éxitos actuales y radiofórmula",
+      "description": "Cadena musical de referencia con hits actuales y presencia destacada entre las emisoras más escuchadas en Asturias.",
       "category": "Música",
       "community": "La Rioja",
-      "musicType": "Éxitos",
-      "websiteUrl": "https://www.kissfm.es/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/117/kiss-fm.51b9402b.jpg",
+      "musicType": "Pop",
+      "websiteUrl": "https://los40.com/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/3jk5k9pcxrp9.jpg",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
-      "seedRank": 16,
+      "seedRank": 2,
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "MP3 principal",
-          "url": "https://kissfm.kissfmradio.cires21.com/kissfm.mp3",
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40AAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "cadena-100",
+      "seedName": "Cadena 100",
+      "name": "Cadena 100",
+      "tagline": "Pop y entretenimiento musical",
+      "description": "Cadena musical muy presente en la escucha generalista y musical del Principado.",
+      "category": "Música",
+      "community": "La Rioja",
+      "musicType": "Pop",
+      "websiteUrl": "https://www.cadena100.es",
+      "logoUrl": "https://graph.facebook.com/CADENA100/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 3,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://cadena100-cope.flumotion.com/chunks.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "rne-radio-nacional",
+      "seedName": "RNE Radio Nacional",
+      "name": "RNE Radio Nacional",
+      "tagline": "Información y programas de RNE",
+      "description": "Señal de Radio Nacional accesible en La Rioja con programación informativa y de servicio público.",
+      "category": "Noticias",
+      "community": "La Rioja",
+      "websiteUrl": "https://www.rtve.es/radio/rne/",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/RNE_logo.svg/512px-RNE_logo.svg.png",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 4,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "RNE 1 Euskadi",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/eus/mp3/high",
           "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
@@ -439,32 +126,32 @@
       ]
     },
     {
-      "id": "cadena-dial",
-      "seedName": "Cadena Dial",
-      "name": "Cadena Dial",
-      "tagline": "Pop español y latino",
-      "description": "Cadena Dial aparece entre las emisoras destacadas de La Rioja en myTuner y se integra con streams oficiales.",
+      "id": "los40-classic",
+      "seedName": "Los40 Classic",
+      "name": "LOS40 Classic",
+      "tagline": "Clásicos pop y nostalgia",
+      "description": "Señal temática de LOS40 centrada en clásicos pop y repertorio nostálgico.",
       "category": "Música",
       "community": "La Rioja",
-      "musicType": "Pop Español",
-      "websiteUrl": "https://play.cadenadial.com",
-      "logoUrl": "https://graph.facebook.com/CadenaDial/picture?width=200&height=200",
+      "musicType": "Classic Hits",
+      "websiteUrl": "https://play.los40.com/los40_classic",
+      "logoUrl": "https://graph.facebook.com/los40classic/picture?width=200&height=200",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
-      "seedRank": 17,
+      "seedRank": 5,
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "AAC principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIALAAC.aac",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_CLASSICAAC.aac",
           "format": "aac",
           "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "MP3 alternativo",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL.mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_CLASSIC.mp3",
           "format": "mp3",
           "priority": 2,
           "source": "TDTChannels"
@@ -475,8 +162,8 @@
       "id": "rock-fm",
       "seedName": "Rock FM",
       "name": "Rock FM",
-      "tagline": "Rock clásico y radiofórmula temática",
-      "description": "Rock FM se mantiene en La Rioja con su stream verificado y logo oficial.",
+      "tagline": "Clásicos del rock",
+      "description": "Cadena especializada en rock clásico, integrada en Asturias con stream público ya contrastado.",
       "category": "Música",
       "community": "La Rioja",
       "musicType": "Rock",
@@ -485,7 +172,7 @@
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
-      "seedRank": 18,
+      "seedRank": 6,
       "verificationStatus": "verified",
       "streams": [
         {
@@ -498,77 +185,25 @@
       ]
     },
     {
-      "id": "radio-clasica-rne",
-      "seedName": "RNE Radio Clásica",
-      "name": "RNE Radio Clásica",
-      "tagline": "Clásica y repertorio cultural de RTVE",
-      "description": "Señal nacional temática de RTVE incluida dentro del bloque riojano visible en myTuner.",
-      "category": "Música",
-      "community": "La Rioja",
-      "musicType": "Clásica",
-      "websiteUrl": "https://www.rtve.es/radio/radioclasica/",
-      "logoUrl": "https://graph.facebook.com/radioclasicartve/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 19,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r2_main.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-3-rne",
-      "seedName": "RNE Radio 3",
-      "name": "RNE Radio 3",
-      "tagline": "Música alternativa y cultura contemporánea",
-      "description": "Canal temático de RTVE presente en la oferta de La Rioja mostrada por myTuner.",
-      "category": "Música",
-      "community": "La Rioja",
-      "musicType": "Alternativa",
-      "websiteUrl": "https://www.rtve.es/radio/radio3/",
-      "logoUrl": "https://graph.facebook.com/radio3/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 20,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r3_main.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "hit-fm",
-      "seedName": "HIT FM",
-      "name": "HIT FM",
-      "tagline": "Pop actual y radiofórmula joven",
-      "description": "HIT FM aparece entre las musicales que myTuner destaca para La Rioja.",
+      "id": "kiss-fm",
+      "seedName": "KISS FM",
+      "name": "KISS FM",
+      "tagline": "Éxitos y clásicos pop",
+      "description": "Cadena musical de grandes éxitos y oldies pop con señal nacional estable.",
       "category": "Música",
       "community": "La Rioja",
       "musicType": "Pop",
-      "websiteUrl": "https://www.hitfm.es",
-      "logoUrl": "https://graph.facebook.com/hitfm.es/picture?width=200&height=200",
+      "websiteUrl": "https://www.kissfm.es/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/117/kiss-fm.51b9402b.jpg",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
-      "seedRank": 21,
+      "seedRank": 7,
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "MP3 principal",
-          "url": "https://adhandler.kissfmradio.cires21.com/get_link?url=https://bbhitfm.kissfmradio.cires21.com/bbhitfm.mp3",
+          "url": "https://kissfm.kissfmradio.cires21.com/kissfm.mp3",
           "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
@@ -576,20 +211,44 @@
       ]
     },
     {
-      "id": "megastar-fm",
-      "seedName": "MegaStarFM",
-      "name": "MegaStar FM",
-      "tagline": "Fórmula urbana y pop joven",
-      "description": "MegaStar FM figura entre las musicales más visibles del bloque riojano en myTuner.",
-      "category": "Música",
+      "id": "rne-radio-5",
+      "seedName": "RNE Radio 5",
+      "name": "RNE Radio 5",
+      "tagline": "Información continua de RNE",
+      "description": "Señal de Radio 5 para seguir boletines, actualidad y servicio continuo desde La Rioja.",
+      "category": "Noticias",
       "community": "La Rioja",
-      "musicType": "Urbana y Pop",
-      "websiteUrl": "https://www.megastar.fm",
-      "logoUrl": "https://graph.facebook.com/MegaStarFM/picture?width=200&height=200",
+      "websiteUrl": "https://www.rtve.es/radio/radio5/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/745/radio-5.9b6b99b4.png",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
-      "seedRank": 22,
+      "seedRank": 8,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Radio 5 Vitoria",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/vit/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "megastarfm",
+      "seedName": "MegaStarFM",
+      "name": "MegaStar FM",
+      "tagline": "Éxitos jóvenes",
+      "description": "Canal musical incorporado al bloque de Catalunya, orientada a chr, con stream público ya integrado y logo reutilizable.",
+      "category": "Música",
+      "community": "La Rioja",
+      "websiteUrl": "https://www.megastarfm.com/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/dQkptB2RDC.png",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 9,
       "verificationStatus": "verified",
       "streams": [
         {
@@ -599,153 +258,56 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ]
-    },
-    {
-      "id": "los40-urban",
-      "seedName": "LOS40 Urban",
-      "name": "LOS40 Urban",
-      "tagline": "Urbano comercial y éxitos latinos",
-      "description": "Canal temático de LOS40 que también aparece en la página riojana de myTuner.",
-      "category": "Música",
-      "community": "La Rioja",
-      "musicType": "Urbana",
-      "websiteUrl": "https://play.los40.com/los40_urban",
-      "logoUrl": "https://graph.facebook.com/los40urban/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 23,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "AAC principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_URBANAAC.aac",
-          "format": "aac",
-          "priority": 1,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "MP3 alternativo",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_URBAN.mp3",
-          "format": "mp3",
-          "priority": 2,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "loca-fm",
-      "seedName": "Loca FM",
-      "name": "Loca FM",
-      "tagline": "Dance y electrónica",
-      "description": "Señal temática de electrónica incluida dentro del bloque riojano de myTuner.",
-      "category": "Música",
-      "community": "La Rioja",
-      "websiteUrl": "https://www.locafm.com/live/player.html",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 24,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://s3.we4stream.com:2020/stream/locafm",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
       ],
-      "musicType": "Dance Electrónica"
+      "musicType": "CHR"
     },
     {
-      "id": "los40-dance",
-      "seedName": "Los40 Dance",
-      "name": "LOS40 Dance",
-      "tagline": "Dance y electrónica comercial",
-      "description": "Canal dance de LOS40 reutilizado para completar el bloque musical de La Rioja.",
+      "id": "melodia-fm",
+      "seedName": "Melodía FM",
+      "name": "Melodía FM",
+      "tagline": "Clásicos pop-rock y oldies",
+      "description": "Cadena de oldies y clásicos pop-rock con programación musical continua.",
       "category": "Música",
       "community": "La Rioja",
-      "musicType": "Dance",
-      "websiteUrl": "https://play.los40.com/los40_dance",
-      "logoUrl": "https://graph.facebook.com/los40dance/picture?width=200&height=200",
+      "musicType": "Classic Hits",
+      "websiteUrl": "https://www.melodia-fm.com/directo/",
+      "logoUrl": "https://graph.facebook.com/tumelodiafm/picture?width=200&height=200",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
-      "seedRank": 25,
+      "seedRank": 10,
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "AAC principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_DANCEAAC.aac",
+          "url": "https://radio-atres-live.ondacero.es/api/livestream-redirect/MELODIA_FMAAC.aac",
           "format": "aac",
           "priority": 1,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "MP3 alternativo",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_DANCE.mp3",
-          "format": "mp3",
-          "priority": 2,
           "source": "TDTChannels"
         }
       ]
     },
     {
-      "id": "radiole",
-      "seedName": "Radiolé",
-      "name": "Radiolé",
-      "tagline": "Flamenco, rumba y canción popular",
-      "description": "Radiolé aparece en la selección principal de myTuner para La Rioja y se integra con streams oficiales.",
+      "id": "europa-fm",
+      "seedName": "Europa FM",
+      "name": "Europa FM",
+      "tagline": "Música, shows y cultura pop",
+      "description": "Señal nacional de Europa FM para complementar la versión asturiana con otro acceso de escucha.",
       "category": "Música",
       "community": "La Rioja",
-      "musicType": "Flamenco y Popular",
-      "websiteUrl": "https://play.radiole.com",
-      "logoUrl": "https://graph.facebook.com/radiole/picture?width=200&height=200",
+      "musicType": "Top 40",
+      "websiteUrl": "https://www.europafm.com/directo/",
+      "logoUrl": "https://graph.facebook.com/tueuropafm/picture?width=200&height=200",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
-      "seedRank": 26,
+      "seedRank": 11,
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "AAC principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOLEAAC.aac",
+          "url": "https://radio-atres-live.ondacero.es/api/livestream-redirect/EFMAAC.aac",
           "format": "aac",
-          "priority": 1,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "MP3 alternativo",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOLE.mp3",
-          "format": "mp3",
-          "priority": 2,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-intereconomia",
-      "seedName": "Radio Intereconomía",
-      "name": "Radio Intereconomía",
-      "tagline": "Mercados, empresa y actualidad económica",
-      "description": "Emisora económica nacional visible en el catálogo de La Rioja mostrado por myTuner.",
-      "category": "Economía",
-      "community": "La Rioja",
-      "websiteUrl": "https://intereconomia.com/directo/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/WAsBY8S326.jpg",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 27,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://streaming.intereconomia.com/siliconorg",
-          "format": "auto",
           "priority": 1,
           "source": "TDTChannels"
         }
@@ -755,8 +317,8 @@
       "id": "radio-maria-espana",
       "seedName": "Radio María España",
       "name": "Radio María España",
-      "tagline": "Radio religiosa de ámbito nacional",
-      "description": "Señal religiosa nacional presente también en el bloque de La Rioja de myTuner.",
+      "tagline": "Radio religiosa de alcance nacional",
+      "description": "Cadena religiosa nacional incorporada en el refuerzo de Asturias con stream público estable ya contrastado en el repositorio.",
       "category": "Religión",
       "community": "La Rioja",
       "websiteUrl": "https://www.radiomaria.es/",
@@ -764,7 +326,7 @@
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
-      "seedRank": 28,
+      "seedRank": 12,
       "verificationStatus": "verified",
       "streams": [
         {
@@ -777,33 +339,376 @@
       ]
     },
     {
-      "id": "esradio",
-      "seedName": "EsRadio",
-      "name": "esRadio",
-      "tagline": "Actualidad y opinión de ámbito nacional",
-      "description": "Señal generalista nacional de esRadio incluida en la oferta principal de La Rioja mostrada por myTuner.",
+      "id": "onda-cero-logrono",
+      "seedName": "Onda Cero Logroño",
+      "name": "Onda Cero Logroño",
+      "tagline": "La señal de Onda Cero en La Rioja",
+      "description": "Delegación riojana de Onda Cero con programación local y nacional. Verificada con el directo público de Atresmedia.",
       "category": "Noticias",
       "community": "La Rioja",
-      "websiteUrl": "https://esradio.libertaddigital.com/directo.html",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/592/esradio.c53d1b9e.png",
+      "websiteUrl": "https://www.ondacero.es/emisoras/rioja/rioja/directo/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
-      "seedRank": 29,
+      "seedRank": 13,
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "AAC principal",
-          "url": "https://libertaddigital-radio-live1.flumotion.com/libertaddigital/ld-live1-high.aac",
-          "format": "aac",
+          "label": "HLS directo",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/logrono/master.m3u8",
+          "format": "hls",
           "priority": 1,
           "source": "TDTChannels"
-        },
+        }
+      ]
+    },
+    {
+      "id": "cadena-cope-logrono",
+      "seedName": "Cadena COPE Logroño",
+      "name": "Cadena COPE Logroño",
+      "tagline": "La COPE de Logroño",
+      "description": "Ventana local de COPE en Logroño con señal pública y logo accesible del grupo en La Rioja.",
+      "category": "Noticias",
+      "community": "La Rioja",
+      "websiteUrl": "https://www.cope.es/directos/logrono",
+      "logoUrl": "https://graph.facebook.com/coperioja/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 14,
+      "verificationStatus": "verified",
+      "streams": [
         {
-          "label": "MP3 alternativo",
-          "url": "https://libertaddigital-radio-live1.flumotion.com/libertaddigital/ld-live1-high.mp3",
+          "label": "MP3 directo",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/logrono.mp3",
           "format": "mp3",
-          "priority": 2,
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-rioja-ser",
+      "seedName": "Radio Rioja SER",
+      "name": "Radio Rioja SER",
+      "tagline": "La SER de La Rioja",
+      "description": "Señal riojana de la Cadena SER, contrastada con stream público del grupo y presencia clara en La Rioja.",
+      "category": "Noticias",
+      "community": "La Rioja",
+      "websiteUrl": "https://cadenaser.com/radio-rioja/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 15,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_RIOJA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "free-fm-classics",
+      "seedName": "Free FM Classics",
+      "name": "Free FM Classics",
+      "tagline": "Clásicos pop y oldies online",
+      "description": "Canal temático de clásicos añadido al refuerzo de Asturias con stream público ya verificado en otras comunidades.",
+      "category": "Música",
+      "community": "La Rioja",
+      "websiteUrl": "https://www.freefmworld.com",
+      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fwww.freefmworld.com",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 16,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream directo",
+          "url": "https://xxdelgado.radioca.st",
+          "format": "auto",
+          "priority": 1,
+          "source": "Radiomap"
+        }
+      ],
+      "musicType": "Oldies"
+    },
+    {
+      "id": "canal-ebro-radio",
+      "seedName": "Canal Ebro Radio",
+      "name": "Canal Ebro Radio",
+      "tagline": "Radio local desde La Rioja Baja",
+      "description": "Emisora riojana visible en myTuner y verificada con stream MP3 público y web oficial.",
+      "category": "Noticias",
+      "community": "La Rioja",
+      "websiteUrl": "https://www.canalebro.com/radioonline/",
+      "logoUrl": "https://graph.facebook.com/canalebro/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 17,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 directo",
+          "url": "http://streaming.capsulaimposible.com:8000/stream/2/canalebro.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "maxima-fm-rioja-107-1-fm",
+      "seedName": "Maxima FM Rioja 107.1 FM",
+      "name": "Maxima FM Rioja 107.1 FM",
+      "tagline": "Electrónica desde Logroño",
+      "description": "Semilla visible en myTuner para La Rioja. Se deja localizada en catálogo, pero el endpoint directo queda pendiente de fijar sin inventar una URL.",
+      "category": "Música",
+      "community": "La Rioja",
+      "musicType": "Electrónica",
+      "websiteUrl": "https://mytuner-radio.com/radio/maxima-fm-rioja-1089-fm-496294/",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 18,
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "free-fm-x-mas",
+      "seedName": "Free FM X-Mas",
+      "name": "Free FM X-Mas",
+      "tagline": "Canal temático navidad",
+      "description": "Canal musical incorporado al bloque de Catalunya, orientada a navidad, con stream público ya integrado y logo reutilizable.",
+      "category": "Música",
+      "community": "La Rioja",
+      "websiteUrl": "https://sites.google.com/view/freefmworld",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/6uzYMVMHad.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 19,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "http://stream.zeno.fm/h60er015v68uv",
+          "format": "mp3",
+          "priority": 1,
+          "source": "radiobrowser index"
+        }
+      ],
+      "musicType": "Navidad"
+    },
+    {
+      "id": "radio-logrono",
+      "seedName": "Radio Logroño",
+      "name": "Radio Logroño",
+      "tagline": "Emisora online riojana",
+      "description": "Proyecto radiofónico online con directo público y presencia visible en La Rioja.",
+      "category": "Noticias",
+      "community": "La Rioja",
+      "websiteUrl": "https://radiologrono.es/",
+      "logoUrl": "https://graph.facebook.com/radiologrono/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 20,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Zeno principal",
+          "url": "https://stream.zeno.fm/19buxw48djlvv",
+          "format": "mp3",
+          "priority": 1,
+          "source": "Web oficial"
+        }
+      ]
+    },
+    {
+      "id": "radio-formula-hit-castellon-98-3-fm",
+      "seedName": "Radio Formula Hit Castellón 98.3 FM",
+      "name": "Formula Hit",
+      "tagline": "Entrada de myTuner con stream operativo detectado",
+      "description": "Canal musical incorporado al bloque de Catalunya, orientada a pop, con stream público ya integrado y logo reutilizable.",
+      "category": "Música",
+      "community": "La Rioja",
+      "websiteUrl": "https://www.formulahit.com/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/RgdbbKgcvW.png",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 21,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://sonic.sistemahost.es/8176/stream;.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Pop"
+    },
+    {
+      "id": "lokura-radio",
+      "seedName": "Lokura Radio",
+      "name": "Lokura Radio",
+      "tagline": "Dance y sesiones 24 horas",
+      "description": "Semilla detectada en myTuner para Logroño. Se deja referenciada mientras se termina de fijar un stream directo contrastado.",
+      "category": "Música",
+      "community": "La Rioja",
+      "musicType": "Dance",
+      "websiteUrl": "https://suena.live/p/5/?identificador=lokuraradio",
+      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fsuena.live",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 22,
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "radio-3-pasitos",
+      "seedName": "Radio 3 Pasitos",
+      "name": "Radio 3 Pasitos",
+      "tagline": "Música online visible en myTuner",
+      "description": "Entrada visible en myTuner para La Rioja. Se conserva en catálogo a la espera de cerrar un endpoint directo verificable.",
+      "category": "Música",
+      "community": "La Rioja",
+      "websiteUrl": "https://zeno.fm/radio/radio-3-pasitos-en-directo/",
+      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fzeno.fm",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 23,
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "onda-ocio",
+      "seedName": "Onda Ocio",
+      "name": "Onda Ocio",
+      "tagline": "Radio musical y magazine en Logroño",
+      "description": "Emisora visible en myTuner para La Rioja con stream público difundido por la propia emisora en redes.",
+      "category": "Música",
+      "community": "La Rioja",
+      "musicType": "Variedad",
+      "websiteUrl": "https://ondaocio.com/",
+      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fondaocio.com",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 24,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Zeno directo",
+          "url": "http://stream.zeno.fm/u4e4bdyuvmzuv",
+          "format": "mp3",
+          "priority": 1,
+          "source": "Facebook / Zeno"
+        }
+      ]
+    },
+    {
+      "id": "vive-radio",
+      "seedName": "Vive! Radio",
+      "name": "Vive! Radio",
+      "tagline": "Radio hablada y magazines",
+      "description": "Cadena de proximidad visible en myTuner para Arnedo. Integrada con el stream público que usa la red Vive! Radio.",
+      "category": "Noticias",
+      "community": "La Rioja",
+      "websiteUrl": "https://www.viveradio.es/viveBurgos",
+      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fwww.viveradio.es",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 25,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://streaming.viveradio.es/viveburgos",
+          "format": "mp3",
+          "priority": 1,
+          "source": "Web oficial"
+        }
+      ]
+    },
+    {
+      "id": "radio-haro-ser",
+      "seedName": "Radio Haro SER",
+      "name": "Radio Haro SER",
+      "tagline": "La SER de Haro",
+      "description": "Semilla localizada en myTuner para Haro. Se deja registrada mientras se cierra un stream directo verificable sin forzar una URL genérica.",
+      "category": "Noticias",
+      "community": "La Rioja",
+      "websiteUrl": "https://cadenaser.com/rioja/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 26,
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "radio-3-rne",
+      "seedName": "RNE Radio 3",
+      "name": "RNE Radio 3",
+      "tagline": "La emisora alternativa de RTVE",
+      "description": "Canal musical y cultural de RTVE con foco alternativo y descubrimiento de nuevos sonidos.",
+      "category": "Música",
+      "community": "La Rioja",
+      "musicType": "Alternativa",
+      "websiteUrl": "https://www.rtve.es/radio/radio3/",
+      "logoUrl": "https://graph.facebook.com/radio3/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 27,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r3_main.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-clasica-rne",
+      "seedName": "RNE Radio Clásica",
+      "name": "RNE Radio Clásica",
+      "tagline": "Clásica y cultura en RTVE",
+      "description": "Señal de RTVE especializada en música clásica, patrimonio sonoro y programación cultural.",
+      "category": "Música",
+      "community": "La Rioja",
+      "musicType": "Clásica",
+      "websiteUrl": "https://www.rtve.es/radio/radioclasica/",
+      "logoUrl": "https://graph.facebook.com/radioclasicartve/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 28,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r2_main.m3u8",
+          "format": "hls",
+          "priority": 1,
           "source": "TDTChannels"
         }
       ]
