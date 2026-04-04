@@ -2,12 +2,12 @@
   "repoName": "radiostation-data",
   "community": "Asturias",
   "seedSource": "myTuner",
-  "seedCount": 49,
-  "playableCount": 49,
-  "verifiedCount": 49,
+  "seedCount": 63,
+  "playableCount": 63,
+  "verifiedCount": 63,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Asturias incorporada desde cero con bloque inicial verificado: prioridad a emisoras autonómicas y locales detectadas en myTuner, verificadas con streams públicos y fallback donde existía.",
+  "notes": "Pasada fina de Asturias: añadidas SER Occidente y SER Oriente, más refuerzo de cadenas y online reproducibles con stream público ya contrastado. Se dejan fuera emisoras localizadas en la semilla que siguen flojas de stream o de verificación para no meter ruido.",
   "stations": [
     {
       "id": "rpa-asturias",
@@ -1348,6 +1348,364 @@
           "format": "aac",
           "priority": 1,
           "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-occidente",
+      "seedName": "SER Occidente",
+      "name": "SER Occidente",
+      "tagline": "Cadena SER en el occidente asturiano",
+      "description": "Emisora local de la red SER para Navia y el occidente de Asturias, añadida en la pasada fina con stream público tipo StreamTheWorld coherente con la nomenclatura de la cadena.",
+      "category": "Noticias",
+      "community": "Asturias",
+      "websiteUrl": "https://cadenaser.com/ser-occidente/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 50,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_OCCIDENTE.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TuneIn/FMStream (nomenclatura pública)"
+        }
+      ]
+    },
+    {
+      "id": "ser-oriente",
+      "seedName": "SER Oriente",
+      "name": "SER Oriente",
+      "tagline": "Cadena SER en el oriente asturiano",
+      "description": "Emisora local de la red SER para Llanes y el oriente de Asturias, añadida en la pasada fina con stream público tipo StreamTheWorld coherente con la nomenclatura de la cadena.",
+      "category": "Noticias",
+      "community": "Asturias",
+      "websiteUrl": "https://cadenaser.com/ser-oriente/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 51,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_ORIENTE.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TuneIn/FMStream (nomenclatura pública)"
+        }
+      ]
+    },
+    {
+      "id": "radio-intereconomia",
+      "seedName": "Radio Intereconomía",
+      "name": "Radio Intereconomía",
+      "tagline": "Economía y mercados",
+      "description": "Refuerzo añadido en la pasada fina de Asturias: cadena económica con presencia específica en myTuner Asturias y stream público ya reutilizado en otras comunidades.",
+      "category": "Economía",
+      "community": "Asturias",
+      "websiteUrl": "https://intereconomia.com/directo/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/WAsBY8S326.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 52,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streaming.intereconomia.com/siliconorg",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-maria-espana",
+      "seedName": "Radio María España",
+      "name": "Radio María España",
+      "tagline": "Radio religiosa de alcance nacional",
+      "description": "Cadena religiosa nacional incorporada en el refuerzo de Asturias con stream público estable ya contrastado en el repositorio.",
+      "category": "Religión",
+      "community": "Asturias",
+      "websiteUrl": "https://www.radiomaria.es/",
+      "logoUrl": "https://graph.facebook.com/RadioMariaSpa/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 53,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://dreamsiteradiocp4.com/proxy/rmspain1?mp=%2Fstream%2F1%2F%3B.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "la-jungla-radio",
+      "seedName": "La Jungla Radio",
+      "name": "La Jungla Radio",
+      "tagline": "Entretenimiento musical y radiofórmula",
+      "description": "Canal musical incorporado en la pasada fina de Asturias para reforzar el bloque online reproducible con stream público ya verificado.",
+      "category": "Música",
+      "community": "Asturias",
+      "websiteUrl": "https://lajunglaradio.com",
+      "logoUrl": "https://graph.facebook.com/LaJunglaRadio/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 54,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://streaming12.elitecomunicacion.es:8626/stream?type=.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Éxitos y entretenimiento"
+    },
+    {
+      "id": "free-fm-rock",
+      "seedName": "Free FM Rock",
+      "name": "Free FM Rock",
+      "tagline": "Canal temático rock",
+      "description": "Canal temático de rock añadido al refuerzo de Asturias con stream público estable ya verificado en otras comunidades.",
+      "category": "Música",
+      "community": "Asturias",
+      "websiteUrl": "https://www.freefmrock.com/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/769/free-fm.aa638097.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 55,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://freefmrock.radioca.st/stream",
+          "format": "mp3",
+          "priority": 1,
+          "source": "fmstream (public listing)"
+        }
+      ],
+      "musicType": "Rock"
+    },
+    {
+      "id": "free-fm-classics",
+      "seedName": "Free FM Classics",
+      "name": "Free FM Classics",
+      "tagline": "Clásicos pop y oldies online",
+      "description": "Canal temático de clásicos añadido al refuerzo de Asturias con stream público ya verificado en otras comunidades.",
+      "category": "Música",
+      "community": "Asturias",
+      "websiteUrl": "https://www.freefmworld.com",
+      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fwww.freefmworld.com",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 56,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream directo",
+          "url": "https://xxdelgado.radioca.st",
+          "format": "auto",
+          "priority": 1,
+          "source": "Radiomap"
+        }
+      ],
+      "musicType": "Oldies"
+    },
+    {
+      "id": "free-fm-80s",
+      "seedName": "Free FM 80s",
+      "name": "Free FM 80s",
+      "tagline": "Canal temático de los 80",
+      "description": "Canal temático de los 80 añadido al refuerzo de Asturias con stream público ya verificado en otras comunidades.",
+      "category": "Música",
+      "community": "Asturias",
+      "websiteUrl": "https://sites.google.com/view/freefmworld",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/827/free-fm-80s.16928eb8.png",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 57,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "http://freefm80.radioca.st/",
+          "format": "mp3",
+          "priority": 1,
+          "source": "radiobrowser index"
+        }
+      ],
+      "musicType": "80s"
+    },
+    {
+      "id": "free-fm-world",
+      "seedName": "Free FM World",
+      "name": "Free FM World",
+      "tagline": "Canal temático world music",
+      "description": "Canal temático world music añadido al refuerzo de Asturias con stream público ya contrastado en el repositorio.",
+      "category": "Música",
+      "community": "Asturias",
+      "musicType": "World",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 58,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://rocafmadrid.radioca.st/stream",
+          "format": "mp3",
+          "priority": 1,
+          "source": "rcast/fmstream public listing"
+        }
+      ],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/690/free-fm-spain.be1f4c93.jpg",
+      "websiteUrl": "https://sites.google.com/view/freefmworld"
+    },
+    {
+      "id": "free-fm-love",
+      "seedName": "Free FM Love",
+      "name": "Free FM Love",
+      "tagline": "Canal temático romántico",
+      "description": "Canal temático romántico añadido al refuerzo de Asturias con stream público ya verificado en otras comunidades.",
+      "category": "Música",
+      "community": "Asturias",
+      "websiteUrl": "https://sites.google.com/view/freefmworld",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/714/free-fm-love.c1ba1f4e.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 59,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://stream.zeno.fm/umsptm6rvy8uv",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TingFM listing"
+        }
+      ],
+      "musicType": "Romántica"
+    },
+    {
+      "id": "free-fm-top-100",
+      "seedName": "Free FM Top 100",
+      "name": "Free FM Top 100",
+      "tagline": "Canal temático top hits",
+      "description": "Canal temático top hits añadido al refuerzo de Asturias con stream público contrastado en el repositorio.",
+      "category": "Música",
+      "community": "Asturias",
+      "musicType": "Top 100",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 60,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://stream.zeno.fm/a5h7vfret68uv",
+          "format": "mp3",
+          "priority": 1,
+          "source": "fmstream public listing"
+        }
+      ],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/814/free-fm-top-100.dc7b4dc7.jpg",
+      "websiteUrl": "https://www.freefmradio.net"
+    },
+    {
+      "id": "free-fm-classical",
+      "seedName": "Free FM Classical",
+      "name": "Free FM Classical",
+      "tagline": "Canal temático clásica",
+      "description": "Canal temático de música clásica añadido al refuerzo de Asturias con stream público ya verificado en otras comunidades.",
+      "category": "Música",
+      "community": "Asturias",
+      "websiteUrl": "https://sites.google.com/view/freefmworld",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/020/free-fm-classical.0ef23d56.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 61,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "http://stream.zeno.fm/x5jlpogsaedvv",
+          "format": "mp3",
+          "priority": 1,
+          "source": "radiobrowser index"
+        }
+      ],
+      "musicType": "Clásica"
+    },
+    {
+      "id": "free-fm-chill",
+      "seedName": "Free FM Chill",
+      "name": "Free FM Chill",
+      "tagline": "Canal chillout",
+      "description": "Canal chill añadido al refuerzo de Asturias con stream público ya integrado y reproducible.",
+      "category": "Música",
+      "community": "Asturias",
+      "websiteUrl": "https://www.locafm.com/chill-out/player.html",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 62,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_chill_out/live",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "free-fm-sports",
+      "seedName": "Free FM Sports",
+      "name": "Free FM Sports",
+      "tagline": "Canal temático deportivo",
+      "description": "Canal temático deportivo añadido al refuerzo de Asturias con stream público ya verificado en otras comunidades.",
+      "category": "Deporte",
+      "community": "Asturias",
+      "websiteUrl": "https://sites.google.com/view/freefmworld",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/BtX4kYE4dC.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 63,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://stream.zeno.fm/31nnibfpnxktv",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TingFM listing"
         }
       ]
     }

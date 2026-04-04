@@ -1,10 +1,10 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Asturias: alta inicial de la comunidad con bloque verificado de autonómicas, locales y cadenas clave, sin tocar la app.",
+  "syncMessage": "Asturias: ampliación y pasada fina del bloque con más emisoras verificadas y sin tocar la app.",
   "stats": {
-    "seedCount": 853,
-    "playableCount": 671,
-    "verifiedCount": 693,
+    "seedCount": 867,
+    "playableCount": 685,
+    "verifiedCount": 707,
     "candidateCount": 87,
     "pendingCount": 73
   },
@@ -72,8 +72,8 @@
       "id": "asturias",
       "name": "Asturias",
       "path": "communities/asturias.json",
-      "seedCount": 49,
-      "playableCount": 49
+      "seedCount": 63,
+      "playableCount": 63
     },
     {
       "id": "catalunya",
