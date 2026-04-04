@@ -33,9 +33,6 @@
             "type": "string",
             "minLength": 1
           },
-          "subtitle": {
-            "type": "string"
-          },
           "source": {
             "type": "string",
             "enum": [
