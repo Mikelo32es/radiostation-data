@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "sections": [
+    {
+      "id": "trending-now",
+      "label": "AHORA",
+      "title": "En tendencia",
+      "subtitle": "Emisoras que están sonando fuerte ahora mismo en el catálogo.",
+      "source": "trending",
+      "limit": 12
+    },
+    {
+      "id": "news-live",
+      "label": "DIRECTO",
+      "title": "Noticias en directo",
+      "subtitle": "Actualidad, boletines y análisis listos para escuchar.",
+      "source": "query",
+      "query": {
+        "category": "Noticias",
+        "verifiedOnly": true
+      },
+      "limit": 12
+    },
+    {
+      "id": "music-frontline",
+      "label": "MÚSICA",
+      "title": "Música en primer plano",
+      "subtitle": "Una estantería musical curada desde el catálogo de GitHub.",
+      "source": "query",
+      "query": {
+        "category": "Música",
+        "verifiedOnly": true
+      },
+      "limit": 12
+    },
+    {
+      "id": "latest-ready",
+      "label": "NUEVAS",
+      "title": "Últimas incorporaciones",
+      "subtitle": "Lo más reciente que ya está verificado o listo para reproducir.",
+      "source": "recent",
+      "limit": 12
+    }
+  ]
+}

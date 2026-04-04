@@ -96,5 +96,6 @@
       "seedCount": 124,
       "playableCount": 124
     }
-  ]
+  ],
+  "homePath": "catalog/home.json"
 }
