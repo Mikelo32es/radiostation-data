@@ -1,12 +1,12 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "La Rioja: parche corregido sin borrar emisoras previas; se conservan 28 semillas, con Radio Haro SER cerrada, Maxima FM Rioja y Lokura Radio en candidate, y Radio 3 Pasitos pendiente.",
+  "syncMessage": "Extremadura: se añade la comunidad con 57 semillas de myTuner, 30 verificadas con stream real operativo y el resto clasificado como candidate o seeded_pending para remate fino posterior.",
   "stats": {
-    "seedCount": 896,
-    "playableCount": 713,
-    "verifiedCount": 733,
-    "candidateCount": 89,
-    "pendingCount": 74
+    "seedCount": 953,
+    "playableCount": 723,
+    "verifiedCount": 763,
+    "candidateCount": 88,
+    "pendingCount": 102
   },
   "featuredIds": [
     "mariskalrock-radio",
@@ -45,6 +45,14 @@
     "loca-fm"
   ],
   "recentIds": [
+    "radio-extremadura-ser",
+    "cadena-ser-caceres",
+    "cadena-ser-merida",
+    "cadena-ser-tierra-de-barros",
+    "cadena-cope-badajoz",
+    "onda-cero-badajoz",
+    "radiogolex",
+    "radio-azuaga-fm",
     "informa-radio-madrid",
     "ecuashyri-fm",
     "loca-fm-urban",
@@ -54,11 +62,7 @@
     "dial-latino",
     "loca-fm-hard",
     "loca-fm-ambient",
-    "loca-fm-hard-techno",
-    "loca-fm-industrial",
-    "loca-fm-drum-bass",
-    "la-urban-radio",
-    "mariskalrock-radio"
+    "loca-fm-hard-techno"
   ],
   "communities": [
     {
@@ -69,11 +73,18 @@
       "playableCount": 99
     },
     {
+      "id": "extremadura",
+      "name": "Extremadura",
+      "path": "communities/extremadura.json",
+      "seedCount": 57,
+      "playableCount": 30
+    },
+    {
       "id": "euskadi",
       "name": "Euskadi",
       "path": "communities/euskadi.json",
       "seedCount": 129,
-      "playableCount": 89
+      "playableCount": 69
     },
     {
       "id": "madrid",
