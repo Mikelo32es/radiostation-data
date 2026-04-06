@@ -2,10 +2,10 @@
   "repoName": "radiostation-data",
   "community": "Euskadi",
   "seedSource": "myTuner",
-  "seedCount": 129,
-  "playableCount": 69,
+  "seedCount": 130,
+  "playableCount": 70,
   "verifiedCount": 55,
-  "candidateCount": 16,
+  "candidateCount": 17,
   "pendingCount": 58,
   "notes": [
     "Remate final de logos: cerrados los 11 que quedaban vacíos usando URLs directas visibles, principalmente desde fichas individuales de myTuner.",
@@ -314,7 +314,7 @@
       "community": "Euskadi",
       "musicType": "Alternativa",
       "websiteUrl": "https://www.rtve.es/radio/radio3/",
-      "logoUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Radio%203%202026.png",
+      "logoUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/RNE%20Radio%203%20%282016%29.png",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
@@ -392,7 +392,7 @@
       "community": "Euskadi",
       "musicType": "Clásica",
       "websiteUrl": "https://www.rtve.es/radio/radioclasica/",
-      "logoUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Radio%20Cl%C3%A1sica%20RNE%20%282016%29.jpg",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/RNE_logo.svg/512px-RNE_logo.svg.png",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
@@ -1133,7 +1133,7 @@
       "community": "Euskadi",
       "musicType": "Variedad",
       "websiteUrl": "https://www.eitb.eus/es/radio/eitb-musika/",
-      "logoUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/EITB%20Musika.png",
+      "logoUrl": "https://www.eitb.eus/multimedia/images/2022/11/17/3077931/20221117163833_eitb-musika_logo_960x540.jpg",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
@@ -2624,7 +2624,7 @@
       "community": "Euskadi",
       "musicType": "Latina",
       "websiteUrl": "http://www.oyeradio.com/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/AfNwH2gFNn.jpg",
+      "logoUrl": "https://www.oyeradio.com/wp-content/uploads/2020/11/logo_oyeradio_500.png",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
@@ -2931,6 +2931,32 @@
       "verificationStatus": "seeded_pending",
       "streams": [],
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/647/deluxe-radio-latino.b01410be.png"
+    },
+    {
+      "id": "waiting-room",
+      "seedName": "Waiting Room",
+      "name": "Waiting Room",
+      "tagline": "Music for your senses",
+      "description": "Canal musical online presente en la semilla de myTuner. Directorios públicos lo sitúan en Bizkaia, aunque otros lo etiquetan como Madrid; se incorpora a Euskadi como candidato reproducible pendiente de validación manual final.",
+      "category": "Música",
+      "community": "Euskadi",
+      "musicType": "Chillout",
+      "websiteUrl": "https://www.thewaitingroom.com/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/757/waiting-room.4f126cec.png",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 3,
+      "seedRank": 130,
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "AAC candidato",
+          "url": "https://streaming.coolmusicradio.com/listen/waiting-room/radio",
+          "format": "aac",
+          "priority": 1,
+          "source": "RadioBox / Cool Music Radio"
+        }
+      ]
     }
   ]
 }
