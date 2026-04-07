@@ -1,6 +1,6 @@
 {
   "repoName": "radiostation-data",
-  "community": "Extremadura",
+  "community": "Navarra",
   "seedSource": "myTuner + verified catalog pool",
   "seedCount": 100,
   "playableCount": 100,
@@ -9,684 +9,12 @@
   "pendingCount": 0,
   "stations": [
     {
-      "id": "extremadura--esradio",
-      "name": "esRadio",
-      "tagline": "Generalista con señal propia en Madrid",
-      "description": "",
-      "category": "Noticias",
-      "community": "Extremadura",
-      "websiteUrl": "https://esradio.libertaddigital.com/directo.html",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/592/esradio.c53d1b9e.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "AAC principal",
-          "url": "https://libertaddigital-radio-live1.flumotion.com/libertaddigital/ld-live1-high.aac",
-          "format": "aac",
-          "priority": 1,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "MP3 alternativo",
-          "url": "https://libertaddigital-radio-live1.flumotion.com/libertaddigital/ld-live1-high.mp3",
-          "format": "mp3",
-          "priority": 2,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--radio-marca-nacional",
-      "name": "Radio Marca Nacional",
-      "tagline": "Deporte 24 horas",
-      "description": "",
-      "category": "Deporte",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.marca.com/radio.html",
-      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "AAC oficial",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONALAAC.aac",
-          "format": "aac",
-          "priority": 1,
-          "source": "TDTChannels / WebRadioStreams"
-        },
-        {
-          "label": "MP3 oficial",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONAL.mp3",
-          "format": "mp3",
-          "priority": 2,
-          "source": "TDTChannels / WebRadioStreams"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--cadena-dial",
-      "name": "Cadena Dial",
-      "tagline": "Pop español y latino",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://play.cadenadial.com",
-      "logoUrl": "https://graph.facebook.com/CadenaDial/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "AAC principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIALAAC.aac",
-          "format": "aac",
-          "priority": 1,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "MP3 alternativo",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL.mp3",
-          "format": "mp3",
-          "priority": 2,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--los-40-principales",
-      "name": "LOS40",
-      "tagline": "Éxitos actuales y radiofórmula",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://los40.com/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/3jk5k9pcxrp9.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "AAC principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40AAC.aac",
-          "format": "aac",
-          "priority": 1,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "MP3 alternativo",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40.mp3",
-          "format": "mp3",
-          "priority": 2,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--los40-classic",
-      "name": "LOS40 Classic",
-      "tagline": "Clásicos pop y nostalgia",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://play.los40.com/los40_classic",
-      "logoUrl": "https://graph.facebook.com/los40classic/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "AAC principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_CLASSICAAC.aac",
-          "format": "aac",
-          "priority": 1,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "MP3 alternativo",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_CLASSIC.mp3",
-          "format": "mp3",
-          "priority": 2,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--radiole",
-      "name": "Radiolé",
-      "tagline": "Copla, sevillanas y canción española",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://play.radiole.com",
-      "logoUrl": "https://graph.facebook.com/radiole/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "AAC principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOLEAAC.aac",
-          "format": "aac",
-          "priority": 1,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "MP3 alternativo",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOLE.mp3",
-          "format": "mp3",
-          "priority": 2,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--cadena-100",
-      "name": "Cadena 100",
-      "tagline": "Pop y entretenimiento musical",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.cadena100.es",
-      "logoUrl": "https://graph.facebook.com/CADENA100/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://cadena100-cope.flumotion.com/chunks.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--rne-radio-nacional",
-      "name": "RNE Radio Nacional",
-      "tagline": "Información y programas de RNE",
-      "description": "",
-      "category": "Nacional",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.rtve.es/radio/rne/",
-      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/RNE_logo.svg/512px-RNE_logo.svg.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "RNE 1 Euskadi",
-          "url": "https://dispatcher.rndfnk.com/crtve/rne1/eus/mp3/high",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--rock-fm",
-      "name": "Rock FM",
-      "tagline": "Clásicos del rock",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.rockfm.fm",
-      "logoUrl": "https://graph.facebook.com/RockFM/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://rockfm-cope.flumotion.com/playlist.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--kiss-fm",
-      "name": "KISS FM",
-      "tagline": "Éxitos y clásicos pop",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.kissfm.es/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/117/kiss-fm.51b9402b.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://kissfm.kissfmradio.cires21.com/kissfm.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--rne-radio-5",
-      "name": "RNE Radio 5",
-      "tagline": "Información continua de RNE",
-      "description": "",
-      "category": "Noticias",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.rtve.es/radio/radio5/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/745/radio-5.9b6b99b4.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Radio 5 Vitoria",
-          "url": "https://dispatcher.rndfnk.com/crtve/rne5/vit/mp3/high",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--europa-fm",
-      "name": "Europa FM",
-      "tagline": "Música, shows y cultura pop",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.europafm.com/directo/",
-      "logoUrl": "https://graph.facebook.com/tueuropafm/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "AAC principal",
-          "url": "https://radio-atres-live.ondacero.es/api/livestream-redirect/EFMAAC.aac",
-          "format": "aac",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--rne-radio-clasica",
-      "name": "RNE Radio Clásica",
-      "tagline": "Clásica y cultura en RTVE",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.rtve.es/radio/radioclasica/",
-      "logoUrl": "https://graph.facebook.com/radioclasicartve/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r2_main.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--radio-maria-espana",
-      "name": "Radio María España",
-      "tagline": "Radio religiosa de alcance nacional",
-      "description": "",
-      "category": "Religión",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.radiomaria.es/",
-      "logoUrl": "https://graph.facebook.com/RadioMariaSpa/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://dreamsiteradiocp4.com/proxy/rmspain1?mp=%2Fstream%2F1%2F%3B.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--rne-radio-3",
-      "name": "RNE Radio 3",
-      "tagline": "La emisora alternativa de RTVE",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.rtve.es/radio/radio3/",
-      "logoUrl": "https://graph.facebook.com/radio3/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r3_main.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--cadena-cope-badajoz",
-      "name": "Cadena COPE Badajoz",
-      "tagline": "COPE local de Badajoz",
-      "description": "",
-      "category": "Noticias",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.cope.es/directos/badajoz",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/846/cadena-cope-badajoz.5751b83b.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 directo",
-          "url": "https://wecast-bl02.flumotion.com/copesedes/badajoz.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--cadena-cope-caceres",
-      "name": "Cadena COPE Cáceres",
-      "tagline": "COPE local de Cáceres",
-      "description": "",
-      "category": "Noticias",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.cope.es/directos/caceres",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/849/cadena-cope-caceres.66c123e9.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 directo",
-          "url": "https://wecast-bl02.flumotion.com/copesedes/caceres.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--radio-extremadura-ser",
-      "name": "Radio Extremadura SER",
-      "tagline": "SER regional de Extremadura",
-      "description": "",
-      "category": "Noticias",
-      "community": "Extremadura",
-      "websiteUrl": "https://play.cadenaser.com/emisora/radio_extremadura/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/5VA3kpJeX8.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 directo",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_EXTREMADURA.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--cadena-ser-caceres",
-      "name": "Cadena SER Cáceres",
-      "tagline": "SER local de Cáceres",
-      "description": "",
-      "category": "Noticias",
-      "community": "Extremadura",
-      "websiteUrl": "https://cadenaser.com/ser-caceres/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/pxpfnlnwnpx9.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 directo",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_CACERES.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--cadena-cope-merida",
-      "name": "Cadena COPE Mérida",
-      "tagline": "COPE local de Mérida",
-      "description": "",
-      "category": "Noticias",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.cope.es/directos/merida",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/875/cadena-cope-merida.01dc2f5c.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 directo",
-          "url": "https://wecast-bl02.flumotion.com/copesedes/merida.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--onda-cero-merida",
-      "name": "Onda Cero Mérida",
-      "tagline": "Onda Cero local de Mérida",
-      "description": "",
-      "category": "Noticias",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.ondacero.es/emisoras/extremadura/merida/directo/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/170/onda-cero-merida.46294057.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS directo",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/merida/master.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--free-fm-classics",
-      "name": "Free FM Classics",
-      "tagline": "Clásicos pop y oldies online",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.freefmworld.com",
-      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fwww.freefmworld.com",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream directo",
-          "url": "https://xxdelgado.radioca.st",
-          "format": "auto",
-          "priority": 1,
-          "source": "Radiomap"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--free-fm-world",
-      "name": "Free FM World",
-      "tagline": "Canal temático world music",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://sites.google.com/view/freefmworld",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/690/free-fm-spain.be1f4c93.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "https://rocafmadrid.radioca.st/stream",
-          "format": "mp3",
-          "priority": 1,
-          "source": "rcast/fmstream public listing"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--cadena-ser-merida",
-      "name": "Cadena SER Mérida",
-      "tagline": "SER local de Mérida",
-      "description": "",
-      "category": "Noticias",
-      "community": "Extremadura",
-      "websiteUrl": "https://cadenaser.com/ser-merida/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/e85a4yb6dczh.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 directo",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_MERIDA.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--cadena-100-vegas-altas",
-      "name": "Cadena 100 Vegas Altas",
-      "tagline": "Desconexión musical de Vegas Altas",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://cadena100vegasaltas.com",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/kqxn5vycybfv.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream directo",
-          "url": "https://eu1.lhdserver.es:8017/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--free-fm-x-mas",
-      "name": "Free FM X-Mas",
-      "tagline": "Canal temático navidad",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://sites.google.com/view/freefmworld",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/6uzYMVMHad.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "http://stream.zeno.fm/h60er015v68uv",
-          "format": "mp3",
-          "priority": 1,
-          "source": "radiobrowser index"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--radio-azuaga-fm",
-      "name": "Radio Azuaga FM",
-      "tagline": "Servicio público local en Azuaga",
-      "description": "",
-      "category": "Comunitaria",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.ayuntamientodeazuaga.es/radioazuaga/en-directo/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/hGmyBRUmhv.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream directo",
-          "url": "https://www.ayuntamientodeazuaga.es:8443/radioazuagafm",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--onda-cero-badajoz",
-      "name": "Onda Cero Badajoz",
-      "tagline": "Onda Cero local de Badajoz",
-      "description": "",
-      "category": "Noticias",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.ondacero.es/emisoras/extremadura/badajoz/directo/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/ufTJPb9HvF.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS directo",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/badajoz/master.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--cadena-ser-tierra-de-barros",
-      "name": "Cadena SER Tierra de Barros",
-      "tagline": "SER local de Almendralejo",
-      "description": "",
-      "category": "Noticias",
-      "community": "Extremadura",
-      "websiteUrl": "https://cadenaser.com/ser-tierra-de-barros/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/qxwuhkwsjth7.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 directo",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_ALMENDRALEJO.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--radiogolex",
-      "name": "Radiogolex",
-      "tagline": "La radio que revoluciona el deporte",
-      "description": "",
-      "category": "Deporte",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.radiogolex.com",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/jjfvpljqgdgp.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream directo",
-          "url": "https://streaming12.elitecomunicacion.es:8218/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--cadena-ser-nacional",
+      "id": "navarra--cadena-ser-nacional",
       "name": "Cadena SER",
       "tagline": "La gran generalista nacional",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://play.cadenaser.com/",
       "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
       "sourceSeed": "github-national-pilot",
@@ -723,12 +51,12 @@
       ]
     },
     {
-      "id": "extremadura--cope-nacional",
+      "id": "navarra--cope-nacional",
       "name": "COPE",
       "tagline": "Actualidad, opinión y deporte",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.cope.es/",
       "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
       "sourceSeed": "github-national-pilot",
@@ -765,12 +93,187 @@
       ]
     },
     {
-      "id": "extremadura--los40-dance",
+      "id": "navarra--los-40-principales",
+      "name": "LOS40",
+      "tagline": "La radiofórmula líder de éxitos",
+      "description": "",
+      "category": "Música",
+      "community": "Navarra",
+      "websiteUrl": "https://play.los40.com",
+      "logoUrl": "https://graph.facebook.com/los40/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40AAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/Los40.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40.mp3",
+          "format": "mp3",
+          "priority": 3,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "navarra--esradio",
+      "name": "esRadio",
+      "tagline": "Generalista con señal propia en Madrid",
+      "description": "",
+      "category": "Noticias",
+      "community": "Navarra",
+      "websiteUrl": "https://esradio.libertaddigital.com/directo.html",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/592/esradio.c53d1b9e.png",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://libertaddigital-radio-live1.flumotion.com/libertaddigital/ld-live1-high.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://libertaddigital-radio-live1.flumotion.com/libertaddigital/ld-live1-high.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "navarra--radio-marca-nacional",
+      "name": "Radio Marca",
+      "tagline": "La deportiva nacional más reconocible",
+      "description": "",
+      "category": "Deporte",
+      "community": "Navarra",
+      "websiteUrl": "https://www.marca.com/radio.html",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONALAAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONAL.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "navarra--los40-classic",
+      "name": "LOS40 Classic",
+      "tagline": "Clásicos del pop y rock en español e internacional",
+      "description": "",
+      "category": "Música",
+      "community": "Navarra",
+      "websiteUrl": "https://play.los40.com/los40_classic",
+      "logoUrl": "https://graph.facebook.com/los40classic/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_CLASSICAAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_CLASSIC.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "navarra--cadena-dial",
+      "name": "Cadena Dial",
+      "tagline": "La gran cadena de pop en español",
+      "description": "",
+      "category": "Música",
+      "community": "Navarra",
+      "websiteUrl": "https://play.cadenadial.com",
+      "logoUrl": "https://graph.facebook.com/CadenaDial/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIALAAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "navarra--radiole",
+      "name": "Radiolé",
+      "tagline": "Música popular española y flamenco",
+      "description": "",
+      "category": "Música",
+      "community": "Navarra",
+      "websiteUrl": "https://play.radiole.com",
+      "logoUrl": "https://graph.facebook.com/radiole/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOLEAAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOLE.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "navarra--los40-dance",
       "name": "LOS40 Dance",
       "tagline": "Dance y electrónica comercial",
       "description": "",
       "category": "Música",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://play.los40.com/los40_dance",
       "logoUrl": "https://graph.facebook.com/los40dance/picture?width=200&height=200",
       "sourceSeed": "github-national-pilot",
@@ -793,12 +296,40 @@
       ]
     },
     {
-      "id": "extremadura--onda-cero-nacional",
+      "id": "navarra--radio-maria-espana",
+      "name": "Radio María España",
+      "tagline": "Radio religiosa de alcance nacional",
+      "description": "",
+      "category": "Religión",
+      "community": "Navarra",
+      "websiteUrl": "https://www.radiomaria.es/",
+      "logoUrl": "https://graph.facebook.com/RadioMariaSpa/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://dreamsiteradiocp4.com/proxy/rmspain1?mp=%2Fstream%2F1%2F%3B.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 principal",
+          "url": "https://dreamsiteradiocp4.com/proxy/rmspain1?mp=/stream/1/;.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "navarra--onda-cero-nacional",
       "name": "Onda Cero",
       "tagline": "Información y entretenimiento nacional",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.ondacero.es/",
       "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
       "sourceSeed": "github-national-pilot",
@@ -821,12 +352,12 @@
       ]
     },
     {
-      "id": "extremadura--vaughan-radio",
+      "id": "navarra--vaughan-radio",
       "name": "Vaughan Radio",
       "tagline": "Radio bilingüe para practicar inglés",
       "description": "",
       "category": "Educación",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://grupovaughan.com/vaughan-radio/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/abKKbrBjGn.png",
       "sourceSeed": "github-national-pilot",
@@ -842,12 +373,12 @@
       ]
     },
     {
-      "id": "extremadura--radio-intereconomia",
+      "id": "navarra--radio-intereconomia",
       "name": "Radio Intereconomía",
       "tagline": "Economía y mercados",
       "description": "",
       "category": "Economía",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://intereconomia.com/directo/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/WAsBY8S326.jpg",
       "sourceSeed": "github-national-pilot",
@@ -863,12 +394,12 @@
       ]
     },
     {
-      "id": "extremadura--capital-radio",
+      "id": "navarra--capital-radio",
       "name": "Capital Radio",
       "tagline": "Pura economía",
       "description": "",
       "category": "Economía",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.capitalradio.es/directo",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/671/capital-radio.3bec34e0.jpg",
       "sourceSeed": "github-national-pilot",
@@ -884,12 +415,138 @@
       ]
     },
     {
-      "id": "extremadura--hit-fm",
+      "id": "navarra--rne-radio-nacional",
+      "name": "RNE Radio Nacional",
+      "tagline": "Información y programas de RNE",
+      "description": "",
+      "category": "Nacional",
+      "community": "Navarra",
+      "websiteUrl": "https://www.rtve.es/radio/rne/",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/RNE_logo.svg/512px-RNE_logo.svg.png",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "RNE 1 Euskadi",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/eus/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "navarra--rne-radio-5",
+      "name": "RNE Radio 5",
+      "tagline": "Información continua de RNE",
+      "description": "",
+      "category": "Noticias",
+      "community": "Navarra",
+      "websiteUrl": "https://www.rtve.es/radio/radio5/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/745/radio-5.9b6b99b4.png",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Radio 5 Vitoria",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/vit/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "navarra--cadena-100",
+      "name": "Cadena 100",
+      "tagline": "Hits y entretenimiento con gran presencia en Madrid",
+      "description": "",
+      "category": "Música",
+      "community": "Navarra",
+      "websiteUrl": "https://www.cadena100.es",
+      "logoUrl": "https://graph.facebook.com/CADENA100/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://cadena100-cope.flumotion.com/chunks.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "navarra--rock-fm",
+      "name": "Rock FM",
+      "tagline": "Clásicos del rock con presencia fuerte en Madrid",
+      "description": "",
+      "category": "Música",
+      "community": "Navarra",
+      "websiteUrl": "https://www.rockfm.fm",
+      "logoUrl": "https://graph.facebook.com/RockFM/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://rockfm-cope.flumotion.com/playlist.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "navarra--kiss-fm",
+      "name": "Kiss FM",
+      "tagline": "Éxitos 80, 90 y actuales",
+      "description": "",
+      "category": "Música",
+      "community": "Navarra",
+      "websiteUrl": "https://www.kissfm.es/player/",
+      "logoUrl": "https://graph.facebook.com/kissfm.es/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://kissfm.kissfmradio.cires21.com/kissfm.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "navarra--europa-fm",
+      "name": "Europa FM",
+      "tagline": "Música, morning shows y cultura pop",
+      "description": "",
+      "category": "Música",
+      "community": "Navarra",
+      "websiteUrl": "https://www.europafm.com/directo/",
+      "logoUrl": "https://graph.facebook.com/tueuropafm/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://radio-atres-live.ondacero.es/api/livestream-redirect/EFMAAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "navarra--hit-fm",
       "name": "Hit FM",
       "tagline": "Éxitos jóvenes y radiofórmula",
       "description": "",
       "category": "Música",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.hitfm.es",
       "logoUrl": "https://graph.facebook.com/hitfm.es/picture?width=200&height=200",
       "sourceSeed": "github-national-pilot",
@@ -905,12 +562,12 @@
       ]
     },
     {
-      "id": "extremadura--melodia-fm",
+      "id": "navarra--melodia-fm",
       "name": "Melodía FM",
       "tagline": "Clásicos adultos contemporáneos",
       "description": "",
       "category": "Música",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.melodia-fm.com/directo/",
       "logoUrl": "https://graph.facebook.com/tumelodiafm/picture?width=200&height=200",
       "sourceSeed": "github-national-pilot",
@@ -926,12 +583,12 @@
       ]
     },
     {
-      "id": "extremadura--megastarfm",
+      "id": "navarra--megastarfm",
       "name": "MegaStar FM",
       "tagline": "Hit radio joven del grupo COPE",
       "description": "",
       "category": "Música",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.megastarfm.com/",
       "logoUrl": "https://graph.facebook.com/MegaStarFM/picture?width=200&height=200",
       "sourceSeed": "github-national-pilot",
@@ -947,12 +604,54 @@
       ]
     },
     {
-      "id": "extremadura--hala-bedi-bat-107-4",
+      "id": "navarra--radio-3-rne",
+      "name": "RNE Radio 3",
+      "tagline": "La emisora alternativa de RTVE",
+      "description": "",
+      "category": "Música",
+      "community": "Navarra",
+      "websiteUrl": "https://www.rtve.es/radio/radio3/",
+      "logoUrl": "https://graph.facebook.com/radio3/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r3_main.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "navarra--radio-clasica-rne",
+      "name": "RNE Radio Clásica",
+      "tagline": "Clásica y cultura en RTVE",
+      "description": "",
+      "category": "Música",
+      "community": "Navarra",
+      "websiteUrl": "https://www.rtve.es/radio/radioclasica/",
+      "logoUrl": "https://graph.facebook.com/radioclasicartve/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r2_main.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "navarra--hala-bedi-bat-107-4",
       "name": "Hala Bedi Bat 107.4",
       "tagline": "Radio libre de Vitoria-Gasteiz",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://halabedi.eus/irratia/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/vd7rczhhpavg.jpg",
       "sourceSeed": "myTuner",
@@ -982,12 +681,12 @@
       ]
     },
     {
-      "id": "extremadura--onda-madrid",
+      "id": "navarra--onda-madrid",
       "name": "Onda Madrid",
       "tagline": "Radio pública madrileña",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.telemadrid.es/emision-en-directo-ondamadrid/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/169/onda-madrid.365edbe5.png",
       "sourceSeed": "myTuner",
@@ -1010,12 +709,12 @@
       ]
     },
     {
-      "id": "extremadura--rac-1",
+      "id": "navarra--rac-1",
       "name": "RAC1",
       "tagline": "Actualidad y deporte en catalán",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.rac1.cat",
       "logoUrl": "https://graph.facebook.com/rac1oficial/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -1038,12 +737,12 @@
       ]
     },
     {
-      "id": "extremadura--libertad-fm",
+      "id": "navarra--libertad-fm",
       "name": "Libertad FM",
       "tagline": "Radio hablada desde Madrid",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://radiolibertad.es/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/462/libertad-fm.989a605f.jpg",
       "sourceSeed": "myTuner",
@@ -1066,12 +765,12 @@
       ]
     },
     {
-      "id": "extremadura--rac-105",
+      "id": "navarra--rac-105",
       "name": "RAC105",
       "tagline": "Hits y radiofórmula catalana",
       "description": "",
       "category": "Música",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.rac105.cat",
       "logoUrl": "https://graph.facebook.com/rac105/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -1094,12 +793,12 @@
       ]
     },
     {
-      "id": "extremadura--eitb-radio-euskadi",
+      "id": "navarra--eitb-radio-euskadi",
       "name": "Radio Euskadi",
       "tagline": "Información y programas desde Euskadi",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.eitb.eus/es/radio/radio-euskadi/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/SbBRr4a3Xm.png",
       "sourceSeed": "myTuner",
@@ -1122,12 +821,12 @@
       ]
     },
     {
-      "id": "extremadura--rg-radio-galega",
+      "id": "navarra--rg-radio-galega",
       "name": "RG - Radio Galega",
       "tagline": "La radio pública generalista de Galicia",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.agalegaaudio.gal/videos/120144-radio-galega",
       "logoUrl": "https://graph.facebook.com/aradiogalega/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -1150,12 +849,12 @@
       ]
     },
     {
-      "id": "extremadura--europa-fm-gipuzkoa",
+      "id": "navarra--europa-fm-gipuzkoa",
       "name": "Europa FM Gipuzkoa",
       "tagline": "Europa FM en Gipuzkoa",
       "description": "",
       "category": "Música",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.europafm.com/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/Ek9UByQg3m.png",
       "sourceSeed": "myTuner",
@@ -1178,12 +877,12 @@
       ]
     },
     {
-      "id": "extremadura--onda-cero-a-coruna",
+      "id": "navarra--onda-cero-a-coruna",
       "name": "Onda Cero A Coruña",
       "tagline": "Onda Cero local para A Coruña",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.ondacero.es/emisoras/galicia/coruna/directo/",
       "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -1206,12 +905,12 @@
       ]
     },
     {
-      "id": "extremadura--onda-vasca",
+      "id": "navarra--onda-vasca",
       "name": "Onda Vasca",
       "tagline": "Actualidad, opinión y proximidad",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.ondavasca.com/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/ECxKcK4qzJ.png",
       "sourceSeed": "myTuner",
@@ -1234,12 +933,12 @@
       ]
     },
     {
-      "id": "extremadura--rgm-radio-galega-musica",
+      "id": "navarra--rgm-radio-galega-musica",
       "name": "RGM - Radio Galega Música",
       "tagline": "La musical pública gallega",
       "description": "",
       "category": "Música",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.agalegaaudio.gal/videos/81609-rgmusica",
       "logoUrl": "https://graph.facebook.com/aradiogalega/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -1262,12 +961,12 @@
       ]
     },
     {
-      "id": "extremadura--apq-radio",
+      "id": "navarra--apq-radio",
       "name": "APQ Radio",
       "tagline": "Deporte asturiano y radio local",
       "description": "",
       "category": "Deporte",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.apqradio.es",
       "logoUrl": "https://graph.facebook.com/APQRadio.es/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -1290,12 +989,12 @@
       ]
     },
     {
-      "id": "extremadura--eitb-euskadi-irratia",
+      "id": "navarra--eitb-euskadi-irratia",
       "name": "Euskadi Irratia",
       "tagline": "Información y magazine en euskera",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.eitb.eus/eu/irratia/euskadi-irratia/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/vrdXYJVBaZ_jfDA33i.png",
       "sourceSeed": "myTuner",
@@ -1318,12 +1017,12 @@
       ]
     },
     {
-      "id": "extremadura--radio-coruna-ser",
+      "id": "navarra--radio-coruna-ser",
       "name": "Radio Coruña SER",
       "tagline": "La SER local de A Coruña",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://cadenaser.com/radio-coruna/",
       "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -1346,12 +1045,12 @@
       ]
     },
     {
-      "id": "extremadura--radio-vigo-ser",
+      "id": "navarra--radio-vigo-ser",
       "name": "Radio Vigo SER",
       "tagline": "La SER de Vigo y su área metropolitana",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://cadenaser.com/radio-vigo/",
       "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -1374,12 +1073,12 @@
       ]
     },
     {
-      "id": "extremadura--eitb-radio-vitoria",
+      "id": "navarra--eitb-radio-vitoria",
       "name": "Radio Vitoria",
       "tagline": "Actualidad local en Álava",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.eitb.eus/es/radio/radio-vitoria/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/ZksDJFpn4L.png",
       "sourceSeed": "myTuner",
@@ -1402,12 +1101,12 @@
       ]
     },
     {
-      "id": "extremadura--cadena-cope-coruna",
+      "id": "navarra--cadena-cope-coruna",
       "name": "Cadena COPE Coruña",
       "tagline": "COPE local para A Coruña",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.cope.es/directos/a-coruna",
       "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -1430,12 +1129,12 @@
       ]
     },
     {
-      "id": "extremadura--cadena-cope-vigo",
+      "id": "navarra--cadena-cope-vigo",
       "name": "Cadena COPE Vigo",
       "tagline": "COPE local para Vigo",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.cope.es/directos/vigo",
       "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -1458,12 +1157,12 @@
       ]
     },
     {
-      "id": "extremadura--eitb-gaztea",
+      "id": "navarra--eitb-gaztea",
       "name": "Gaztea",
       "tagline": "Música joven de EiTB",
       "description": "",
       "category": "Música",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.eitb.eus/eu/gaztea/",
       "logoUrl": "https://www.eitb.eus/multimedia/images/2022/11/17/3077932/20221117163842_eitb-gaztea_logo_960x540.jpg",
       "sourceSeed": "myTuner",
@@ -1486,12 +1185,12 @@
       ]
     },
     {
-      "id": "extremadura--radio-marca-coruna",
+      "id": "navarra--radio-marca-coruna",
       "name": "Radio Marca Coruña",
       "tagline": "Deporte local desde A Coruña",
       "description": "",
       "category": "Deporte",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.marca.com/radio.html",
       "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -1514,12 +1213,12 @@
       ]
     },
     {
-      "id": "extremadura--onda-cero-vigo",
+      "id": "navarra--onda-cero-vigo",
       "name": "Onda Cero Vigo",
       "tagline": "Onda Cero local para Vigo",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.ondacero.es/emisoras/galicia/vigo/directo/",
       "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -1542,12 +1241,12 @@
       ]
     },
     {
-      "id": "extremadura--radio-galicia-ser",
+      "id": "navarra--radio-galicia-ser",
       "name": "Radio Galicia SER",
       "tagline": "La SER de Santiago y área compostelana",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://cadenaser.com/radio-galicia/",
       "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -1570,12 +1269,12 @@
       ]
     },
     {
-      "id": "extremadura--radio-ourense-ser",
+      "id": "navarra--radio-ourense-ser",
       "name": "Radio Ourense Ser",
       "tagline": "La SER de Ourense",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://cadenaser.com/radio-ourense/",
       "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -1598,12 +1297,12 @@
       ]
     },
     {
-      "id": "extremadura--cadena-cope-santiago",
+      "id": "navarra--cadena-cope-santiago",
       "name": "Cadena COPE Santiago",
       "tagline": "COPE local para Santiago",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.cope.es/directos/santiago",
       "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -1626,12 +1325,12 @@
       ]
     },
     {
-      "id": "extremadura--radio-pontevedra-ser",
+      "id": "navarra--radio-pontevedra-ser",
       "name": "Radio Pontevedra SER",
       "tagline": "La SER de Pontevedra",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://cadenaser.com/radio-pontevedra/",
       "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -1654,12 +1353,12 @@
       ]
     },
     {
-      "id": "extremadura--onda-cero-pontevedra",
+      "id": "navarra--onda-cero-pontevedra",
       "name": "Onda Cero Pontevedra",
       "tagline": "Onda Cero local para Pontevedra",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.ondacero.es/emisoras/galicia/pontevedra/directo/",
       "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -1682,12 +1381,12 @@
       ]
     },
     {
-      "id": "extremadura--onda-cero-santiago",
+      "id": "navarra--onda-cero-santiago",
       "name": "Onda Cero Santiago",
       "tagline": "Onda Cero local para Santiago",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.ondacero.es/emisoras/galicia/santiago/directo/",
       "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -1710,12 +1409,12 @@
       ]
     },
     {
-      "id": "extremadura--cadena-cope-pontevedra",
+      "id": "navarra--cadena-cope-pontevedra",
       "name": "Cadena COPE Pontevedra",
       "tagline": "COPE local para Pontevedra",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.cope.es/directos/pontevedra",
       "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -1738,12 +1437,12 @@
       ]
     },
     {
-      "id": "extremadura--radio-marca-vigo",
+      "id": "navarra--radio-marca-vigo",
       "name": "Radio Marca Vigo",
       "tagline": "Deporte local desde Vigo",
       "description": "",
       "category": "Deporte",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.marca.com/radio.html",
       "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -1766,12 +1465,12 @@
       ]
     },
     {
-      "id": "extremadura--onda-cero-ourense",
+      "id": "navarra--onda-cero-ourense",
       "name": "Onda Cero Ourense",
       "tagline": "Onda Cero local para Ourense",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.ondacero.es/emisoras/galicia/ourense/directo/",
       "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -1794,12 +1493,12 @@
       ]
     },
     {
-      "id": "extremadura--cadena-100-gipuzkoa",
+      "id": "navarra--cadena-100-gipuzkoa",
       "name": "Cadena 100 Gipuzkoa",
       "tagline": "Cadena 100 con entrada local en Gipuzkoa",
       "description": "",
       "category": "Música",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.cadena100.es/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/cmlmwnqzz26u.jpg",
       "sourceSeed": "myTuner",
@@ -1822,12 +1521,12 @@
       ]
     },
     {
-      "id": "extremadura--cadena-cope-ourense",
+      "id": "navarra--cadena-cope-ourense",
       "name": "Cadena COPE Ourense",
       "tagline": "COPE local para Ourense",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.cope.es/directos/ourense",
       "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -1850,12 +1549,12 @@
       ]
     },
     {
-      "id": "extremadura--onda-cero-lugo",
+      "id": "navarra--onda-cero-lugo",
       "name": "Onda Cero Lugo",
       "tagline": "Onda Cero local para Lugo",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.ondacero.es/emisoras/galicia/lugo/directo/",
       "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -1878,12 +1577,12 @@
       ]
     },
     {
-      "id": "extremadura--radio-arosa-ser",
+      "id": "navarra--radio-arosa-ser",
       "name": "Radio Arosa SER",
       "tagline": "La SER de O Salnés y Arosa",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://cadenaser.com/radio-arosa/",
       "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -1906,12 +1605,12 @@
       ]
     },
     {
-      "id": "extremadura--cadena-dial-baladas",
+      "id": "navarra--cadena-dial-baladas",
       "name": "Cadena Dial Baladas",
       "tagline": "Baladas y pop melódico en español",
       "description": "",
       "category": "Música",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://play.cadenadial.com/emisora/dialbaladas",
       "logoUrl": "https://recursosweb.prisaradio.com/fotos/dest/010002743853.jpg",
       "sourceSeed": "myTuner",
@@ -1934,12 +1633,12 @@
       ]
     },
     {
-      "id": "extremadura--tarragona-radio",
+      "id": "navarra--tarragona-radio",
       "name": "Tarragona Ràdio",
       "tagline": "Actualidad de Tarragona ciudad",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.tarragonaradio.cat",
       "logoUrl": "https://graph.facebook.com/tarragonaradio/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -1962,12 +1661,12 @@
       ]
     },
     {
-      "id": "extremadura--radio-ciutat-de-badalona",
+      "id": "navarra--radio-ciutat-de-badalona",
       "name": "Ràdio Ciutat de Badalona",
       "tagline": "La radio pública de Badalona",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://radio.bdncom.cat",
       "logoUrl": "https://pbs.twimg.com/profile_images/1993636082642976768/7YX0mFB8_200x200.jpg",
       "sourceSeed": "myTuner",
@@ -1990,12 +1689,12 @@
       ]
     },
     {
-      "id": "extremadura--jazz-radio-bcn",
+      "id": "navarra--jazz-radio-bcn",
       "name": "Jazz Radio BCN",
       "tagline": "Jazz desde Barcelona",
       "description": "",
       "category": "Música",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.jazzradiobcn.com",
       "logoUrl": "https://6e34eb1495.cbaul-cdnwnd.com/a7658da9cd3120f642cd6802a66d23d4/200000000-46869477e1/JAZZ.jpg",
       "sourceSeed": "myTuner",
@@ -2018,12 +1717,12 @@
       ]
     },
     {
-      "id": "extremadura--canal-blau-radio",
+      "id": "navarra--canal-blau-radio",
       "name": "Canal Blau Ràdio",
       "tagline": "La voz de Vilanova i la Geltrú",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://podcast.canalblau.cat",
       "logoUrl": "https://graph.facebook.com/CanalBlau/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -2046,12 +1745,12 @@
       ]
     },
     {
-      "id": "extremadura--radio-el-vendrell",
+      "id": "navarra--radio-el-vendrell",
       "name": "Ràdio El Vendrell",
       "tagline": "Actualidad del Baix Penedès",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.rtvelvendrell.cat/directes/radio/",
       "logoUrl": "https://graph.facebook.com/rtvelvendrell/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -2074,12 +1773,12 @@
       ]
     },
     {
-      "id": "extremadura--altafulla-radio",
+      "id": "navarra--altafulla-radio",
       "name": "Altafulla Ràdio",
       "tagline": "La emisora local de Altafulla",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://altafullaradio.cat",
       "logoUrl": "https://graph.facebook.com/altafulla.radio/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -2102,12 +1801,12 @@
       ]
     },
     {
-      "id": "extremadura--radio-silenci",
+      "id": "navarra--radio-silenci",
       "name": "Ràdio Silenci",
       "tagline": "Proximidad desde la Garriga",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.radiosilenci.cat",
       "logoUrl": "https://graph.facebook.com/rsilenci/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -2130,12 +1829,12 @@
       ]
     },
     {
-      "id": "extremadura--rap107",
+      "id": "navarra--rap107",
       "name": "RAP107",
       "tagline": "La radio de Parets del Vallès",
       "description": "",
       "category": "Música",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://enacast.com/rap107/",
       "logoUrl": "https://graph.facebook.com/rap107/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -2158,12 +1857,12 @@
       ]
     },
     {
-      "id": "extremadura--radio-caldes",
+      "id": "navarra--radio-caldes",
       "name": "Ràdio Caldes",
       "tagline": "La radio local de Caldes",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.radiocaldes.cat",
       "logoUrl": "https://graph.facebook.com/RadioCaldes107.8fm/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -2186,12 +1885,12 @@
       ]
     },
     {
-      "id": "extremadura--radio-cubelles",
+      "id": "navarra--radio-cubelles",
       "name": "Ràdio Cubelles",
       "tagline": "La radio local de Cubelles",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.radiocubelles.cat",
       "logoUrl": "https://graph.facebook.com/radiocubelles/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -2214,12 +1913,12 @@
       ]
     },
     {
-      "id": "extremadura--cadena-cope-lugo",
+      "id": "navarra--cadena-cope-lugo",
       "name": "Cadena COPE Lugo",
       "tagline": "COPE local para Lugo",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.cope.es/directos/lugo",
       "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -2242,12 +1941,12 @@
       ]
     },
     {
-      "id": "extremadura--cadena-cope-ferrol",
+      "id": "navarra--cadena-cope-ferrol",
       "name": "Cadena COPE Ferrol",
       "tagline": "COPE local para Ferrolterra",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.cope.es/directos/ferrol",
       "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -2270,12 +1969,12 @@
       ]
     },
     {
-      "id": "extremadura--bizkaia-irratia",
+      "id": "navarra--bizkaia-irratia",
       "name": "Bizkaia Irratia",
       "tagline": "Radio en euskera desde Bizkaia",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://bizkaiairratia.eus/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/amwbzlabqxwc.png",
       "sourceSeed": "myTuner",
@@ -2298,12 +1997,12 @@
       ]
     },
     {
-      "id": "extremadura--cadena-cope-ribadeo",
+      "id": "navarra--cadena-cope-ribadeo",
       "name": "Cadena COPE Ribadeo",
       "tagline": "COPE local para A Mariña",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.cope.es/directos/ribadeo",
       "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -2326,12 +2025,12 @@
       ]
     },
     {
-      "id": "extremadura--radio-mollet",
+      "id": "navarra--radio-mollet",
       "name": "Ràdio Mollet",
       "tagline": "Actualidad de Mollet del Vallès",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.radiomollet.com",
       "logoUrl": "https://graph.facebook.com/radiomollet963/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -2354,12 +2053,12 @@
       ]
     },
     {
-      "id": "extremadura--onda-cero-monforte-de-lemos",
+      "id": "navarra--onda-cero-monforte-de-lemos",
       "name": "Onda Cero Monforte de Lemos",
       "tagline": "Onda Cero local para Monforte",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.ondacero.es/emisoras/galicia/monforte-lemos/directo/",
       "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -2382,12 +2081,12 @@
       ]
     },
     {
-      "id": "extremadura--radio-principal-monforte-ser",
+      "id": "navarra--radio-principal-monforte-ser",
       "name": "Radio Principal Monforte SER",
       "tagline": "Señal SER para Monforte",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "http://www.radioytele.es",
       "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -2410,12 +2109,12 @@
       ]
     },
     {
-      "id": "extremadura--radio-despi",
+      "id": "navarra--radio-despi",
       "name": "Ràdio Despí",
       "tagline": "La radio de Sant Joan Despí",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://radiodespi.net/directo/",
       "logoUrl": "https://graph.facebook.com/radiodespi/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -2438,12 +2137,12 @@
       ]
     },
     {
-      "id": "extremadura--radio-desvern",
+      "id": "navarra--radio-desvern",
       "name": "Ràdio Desvern",
       "tagline": "La radio de Sant Just Desvern",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://www.radiodesvern.com",
       "logoUrl": "https://graph.facebook.com/radiodesvernoficial/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -2466,12 +2165,12 @@
       ]
     },
     {
-      "id": "extremadura--radio-nordes-ser",
+      "id": "navarra--radio-nordes-ser",
       "name": "Radio Nordés SER",
       "tagline": "La SER del noroeste coruñés",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://cadenaser.com/radio-nordes/",
       "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -2494,12 +2193,12 @@
       ]
     },
     {
-      "id": "extremadura--cadena-ser-baixo-mino",
+      "id": "navarra--cadena-ser-baixo-mino",
       "name": "Cadena SER Baixo Miño",
       "tagline": "SER para el sur pontevedrés",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://cadenaser.com/ser-baixo-mino/",
       "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -2522,12 +2221,12 @@
       ]
     },
     {
-      "id": "extremadura--radio-lugo-ser",
+      "id": "navarra--radio-lugo-ser",
       "name": "Radio Lugo SER",
       "tagline": "La SER lucense",
       "description": "",
       "category": "Noticias",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://cadenaser.com/radio-lugo/",
       "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
       "sourceSeed": "myTuner",
@@ -2550,12 +2249,12 @@
       ]
     },
     {
-      "id": "extremadura--hala-bedi-bi-88-8",
+      "id": "navarra--hala-bedi-bi-88-8",
       "name": "Hala Bedi Bi 88.8",
       "tagline": "Segundo canal de Hala Bedi",
       "description": "",
       "category": "Música",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://halabedi.eus/irratia/",
       "logoUrl": "https://halabedi.eus/wp-content/uploads/2019/09/cropped-logo-halabedi-192x192.png",
       "sourceSeed": "myTuner",
@@ -2578,12 +2277,12 @@
       ]
     },
     {
-      "id": "extremadura--los40-urban",
+      "id": "navarra--los40-urban",
       "name": "LOS40 Urban",
       "tagline": "Urbano, reggaetón y hits latinos",
       "description": "",
       "category": "Música",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://play.los40.com/los40_urban",
       "logoUrl": "https://graph.facebook.com/los40urban/picture?width=200&height=200",
       "sourceSeed": "TDTChannels",
@@ -2606,12 +2305,12 @@
       ]
     },
     {
-      "id": "extremadura--dial-latino",
+      "id": "navarra--dial-latino",
       "name": "Dial Latino",
       "tagline": "Latino actual dentro del universo Dial",
       "description": "",
       "category": "Música",
-      "community": "Extremadura",
+      "community": "Navarra",
       "websiteUrl": "https://play.cadenadial.com/emisora/diallatino",
       "logoUrl": "https://recursosweb.prisaradio.com/fotos/dest/010002743851.jpg",
       "sourceSeed": "myTuner",
@@ -2629,6 +2328,321 @@
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL_02.mp3",
           "format": "mp3",
           "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "navarra--catalunya-radio",
+      "name": "Catalunya Ràdio",
+      "tagline": "La generalista pública de Catalunya",
+      "description": "",
+      "category": "Noticias",
+      "community": "Navarra",
+      "websiteUrl": "https://www.3cat.cat/3cat/directes/catalunya-radio/",
+      "logoUrl": "https://graph.facebook.com/catradio/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://directes-radio-int.3catdirectes.cat/live-content/catalunya-radio-hls/master.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "navarra--rpa-asturias",
+      "name": "RPA",
+      "tagline": "La radio pública del Principado",
+      "description": "",
+      "category": "Noticias",
+      "community": "Navarra",
+      "websiteUrl": "https://rtpa.es/radio",
+      "logoUrl": "https://graph.facebook.com/RTPAoficial/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://cdn-rtpa.watchity.net/wct-3545e416-1a16-44b5-b0db-481136ecacc9/continuous/7be5c015-1da2-4927-a49b-8d232faa69be/radio/index.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "navarra--catalunya-informacio",
+      "name": "Catalunya Informació",
+      "tagline": "Información continua 24 horas",
+      "description": "",
+      "category": "Noticias",
+      "community": "Navarra",
+      "websiteUrl": "https://www.3cat.cat/3cat/directes/3catinfo-radio/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1968163923477098496/blka6O_j_200x200.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://directes-radio-int.3catdirectes.cat/live-content/catalunya-informacio-hls/master.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "navarra--radio-madrid-ser",
+      "name": "Radio Madrid SER",
+      "tagline": "Actualidad generalista desde Madrid",
+      "description": "",
+      "category": "Noticias",
+      "community": "Navarra",
+      "websiteUrl": "https://cadenaser.com/radio-madrid/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/vu35s4gfskmk.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_MADRID.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "navarra--radio-nacional-asturias",
+      "name": "Radio Nacional Asturias",
+      "tagline": "La desconexión asturiana de RNE",
+      "description": "",
+      "category": "Noticias",
+      "community": "Navarra",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_ast-live/3893526/",
+      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/ast/mp3/high",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "navarra--cadena-cope-madrid",
+      "name": "Cadena COPE Madrid",
+      "tagline": "COPE local de Madrid",
+      "description": "",
+      "category": "Noticias",
+      "community": "Navarra",
+      "websiteUrl": "https://www.cope.es/directos/madrid",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/1871/cope-madrid.15ded8f3.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://flucast09-h-cloud.flumotion.com/cope/madrid.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "navarra--catalunya-musica",
+      "name": "Catalunya Música",
+      "tagline": "Clásica y conciertos",
+      "description": "",
+      "category": "Música",
+      "community": "Navarra",
+      "websiteUrl": "https://www.3cat.cat/3cat/directes/catalunya-musica/",
+      "logoUrl": "https://graph.facebook.com/catmusica/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://directes-radio-int.3catdirectes.cat/live-content/catalunya-musica-hls/master.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "navarra--radio-5-asturias",
+      "name": "Radio 5 Asturias",
+      "tagline": "Información continua con foco asturiano",
+      "description": "",
+      "category": "Noticias",
+      "community": "Navarra",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_ast/3894742/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/ast/mp3/high",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "navarra--icat",
+      "name": "iCat",
+      "tagline": "Música alternativa y cultura pop",
+      "description": "",
+      "category": "Música",
+      "community": "Navarra",
+      "websiteUrl": "https://www.3cat.cat/3cat/directes/icat/",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/ICat.cat.svg/250px-ICat.cat.svg.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://directes-radio-int.3catdirectes.cat/live-content/icat-hls/master.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "navarra--onda-cero-madrid",
+      "name": "Onda Cero Madrid",
+      "tagline": "Información y magazines en Madrid",
+      "description": "",
+      "category": "Noticias",
+      "community": "Navarra",
+      "websiteUrl": "https://www.ondacero.es/emisoras/comunidad-madrid/madrid/directo/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/168/onda-cero-madrid.eb6cebfc.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://atres-live.ondacero.es/live/ondacero/master.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "navarra--radio-marca-asturias",
+      "name": "Radio Marca Asturias",
+      "tagline": "Deporte asturiano en directo",
+      "description": "",
+      "category": "Deporte",
+      "community": "Navarra",
+      "websiteUrl": "https://www.marca.com/radio.html",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://streaming.enacast.com/radiomarcaasturiasHD.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "navarra--ser-asturias",
+      "name": "Radio Asturias SER",
+      "tagline": "La SER de Oviedo y Asturias",
+      "description": "",
+      "category": "Noticias",
+      "community": "Navarra",
+      "websiteUrl": "https://cadenaser.com/radio-asturias/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_ASTURIAS.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "navarra--ser-aviles",
+      "name": "Cadena SER Avilés",
+      "tagline": "Actualidad local desde Avilés",
+      "description": "",
+      "category": "Noticias",
+      "community": "Navarra",
+      "websiteUrl": "https://cadenaser.com/ser-aviles/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_AVILES.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "navarra--radio-nacional-catalunya",
+      "name": "Radio Nacional Catalunya",
+      "tagline": "Radio Nacional con desconexión catalana",
+      "description": "",
+      "category": "Noticias",
+      "community": "Navarra",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_cat-live/3893527/",
+      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/cat/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "navarra--ser-gijon",
+      "name": "Cadena SER Gijón",
+      "tagline": "La SER de Gijón y su entorno",
+      "description": "",
+      "category": "Noticias",
+      "community": "Navarra",
+      "websiteUrl": "https://cadenaser.com/ser-gijon/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_GIJON.mp3",
+          "format": "mp3",
+          "priority": 1,
           "source": "TDTChannels"
         }
       ]

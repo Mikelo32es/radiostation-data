@@ -1,1249 +1,23 @@
 {
   "repoName": "radiostation-data",
   "community": "Euskadi",
-  "seedSource": "myTuner",
+  "seedSource": "myTuner + verified catalog pool",
   "seedCount": 100,
   "playableCount": 100,
-  "verifiedCount": 86,
-  "candidateCount": 14,
+  "verifiedCount": 100,
+  "candidateCount": 0,
   "pendingCount": 0,
   "stations": [
     {
-      "id": "radio-bilbao-ser",
-      "seedName": "Radio Bilbao SER",
-      "name": "Radio Bilbao",
-      "tagline": "SER Bilbao, actualidad local",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "websiteUrl": "https://cadenaser.com/radio-bilbao/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/Kddwktxm2B.jpg",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 15,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_BILBAO.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "eitb-radio-euskadi",
-      "seedName": "EiTB Radio Euskadi",
-      "name": "Radio Euskadi",
-      "tagline": "Información y programas desde Euskadi",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "websiteUrl": "https://www.eitb.eus/es/radio/radio-euskadi/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/SbBRr4a3Xm.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 17,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://multimedia.eitb.eus/live-content/radioeuskadi-hls/master.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "MP3 alternativo",
-          "url": "http://mp3-eitb.stream.flumotion.com/eitb/radioeuskadi.mp3",
-          "format": "mp3",
-          "priority": 2,
-          "source": "EITB legacy"
-        }
-      ]
-    },
-    {
-      "id": "radio-nervion",
-      "seedName": "Radio Nervion",
-      "name": "Radio Nervión",
-      "tagline": "Actualidad y entretenimiento local",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "websiteUrl": "https://www.radionervion.com/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/673/radio-nervion.c62d3fb9.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 18,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://radionervion.streaming-pro.com:6132/radionervion",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "onda-cero-bilbao",
-      "seedName": "Onda Cero Bilbao",
-      "name": "Onda Cero Bilbao",
-      "tagline": "Actualidad local desde Bilbao",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "websiteUrl": "https://www.ondacero.es/emisoras/pais-vasco/bilbao/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/162/onda-cero-bilbao.3bcfaf26.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 20,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS Bilbao",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/bilbao/master.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cadena-cope-bilbao",
-      "seedName": "Cadena COPE Bilbao",
-      "name": "COPE Bilbao",
-      "tagline": "COPE en Bilbao",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "websiteUrl": "https://www.cope.es/emisoras/pais-vasco/vizcaya/bilbao",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/841/cope-bilbao.157bad2b.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 21,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 Bilbao",
-          "url": "https://wecast-bl02.flumotion.com/copesedes/bilbao.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "europa-fm-gipuzkoa",
-      "seedName": "Europa FM Gipuzkoa",
-      "name": "Europa FM Gipuzkoa",
-      "tagline": "Europa FM en Gipuzkoa",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Pop",
-      "websiteUrl": "https://www.europafm.com/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/Ek9UByQg3m.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 23,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Zeno alternativo",
-          "url": "https://node-29.zeno.fm/se76qau1hc9uv",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "AAC nacional",
-          "url": "https://radio-atres-live.ondacero.es/api/livestream-redirect/EFMAAC.aac",
-          "format": "aac",
-          "priority": 2,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "onda-vasca",
-      "seedName": "Onda Vasca",
-      "name": "Onda Vasca",
-      "tagline": "Actualidad, opinión y proximidad",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "websiteUrl": "https://www.ondavasca.com/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/ECxKcK4qzJ.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 25,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Bizkaia",
-          "url": "https://live.ondavasca.com:8001/bizkaia",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "Gipuzkoa",
-          "url": "https://live.ondavasca.com:8001/gipuzkoa",
-          "format": "mp3",
-          "priority": 2,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cadena-ser-vitoria",
-      "seedName": "Cadena SER Vitoria",
-      "name": "SER Vitoria",
-      "tagline": "SER en Vitoria-Gasteiz",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "websiteUrl": "https://cadenaser.com/radio-vitoria/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/Wa6yaHqXfq.jpg",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 26,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_VITORIA.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-san-sebastian-ser",
-      "seedName": "Radio San Sebastián SER",
-      "name": "Radio San Sebastián",
-      "tagline": "SER en Donostia / San Sebastián",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "websiteUrl": "https://cadenaser.com/radio-san-sebastian/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/d84ygmbsjtae.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 27,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_SAN_SEBASTIAN.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "eitb-euskadi-irratia",
-      "seedName": "EiTB Euskadi Irratia",
-      "name": "Euskadi Irratia",
-      "tagline": "Información y magazine en euskera",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "websiteUrl": "https://www.eitb.eus/eu/irratia/euskadi-irratia/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/vrdXYJVBaZ_jfDA33i.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 28,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://multimedia.eitb.eus/live-content/euskadirratia-hls/master.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "MP3 alternativo",
-          "url": "http://mp3-eitb.stream.flumotion.com/eitb/euskadiirratia.mp3",
-          "format": "mp3",
-          "priority": 2,
-          "source": "EITB legacy"
-        }
-      ]
-    },
-    {
-      "id": "eitb-radio-vitoria",
-      "seedName": "EiTB Radio Vitoria",
-      "name": "Radio Vitoria",
-      "tagline": "Actualidad local en Álava",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "websiteUrl": "https://www.eitb.eus/es/radio/radio-vitoria/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/ZksDJFpn4L.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 29,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://multimedia.eitb.eus/live-content/radiovitoria-hls/master.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "MP3 alternativo",
-          "url": "http://195.55.74.215/eitb/radiovitoria.mp3?GKID",
-          "format": "mp3",
-          "priority": 2,
-          "source": "legacy"
-        }
-      ]
-    },
-    {
-      "id": "radio-marca-bilbao",
-      "seedName": "Radio Marca Bilbao",
-      "name": "Radio Marca Bilbao",
-      "tagline": "Deporte local y nacional desde Bilbao",
-      "category": "Deporte",
-      "community": "Euskadi",
-      "websiteUrl": "https://www.marca.com/radio.html",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/687/radio-marca-bilbao.a427ae9b.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 32,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://server8.emitironline.com:18475/stream",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "eitb-gaztea",
-      "seedName": "EiTB Gaztea",
-      "name": "Gaztea",
-      "tagline": "Música joven de EiTB",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Pop",
-      "websiteUrl": "https://www.eitb.eus/eu/gaztea/",
-      "logoUrl": "https://www.eitb.eus/multimedia/images/2022/11/17/3077932/20221117163842_eitb-gaztea_logo_960x540.jpg",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 33,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://multimedia.eitb.eus/live-content/gaztea-hls/master.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "MP3 alternativo",
-          "url": "http://mp3-eitb.stream.flumotion.com/eitb/gaztea.mp3",
-          "format": "mp3",
-          "priority": 2,
-          "source": "EITB legacy"
-        }
-      ]
-    },
-    {
-      "id": "herri-irratia-radio-popular",
-      "seedName": "Herri Irratia - Radio Popular",
-      "name": "Radio Popular - Herri Irratia",
-      "tagline": "Información y magazines locales",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "websiteUrl": "https://radiopopular.com/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/p5BdExkRfF.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 34,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://stream.mediasector.es/listen/radio_popular/radiopopular.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-7",
-      "seedName": "Radio 7",
-      "name": "Radio 7",
-      "tagline": "Actualidad y entretenimiento desde Gipuzkoa",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "websiteUrl": "https://www.radio7.com/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/4mq7yvFxtR.jpg",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 36,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://radio7.streaming-pro.com:6146/radio7.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-marca-donostia",
-      "seedName": "Radio Marca Donostia",
-      "name": "Radio Marca Donostia",
-      "tagline": "Deporte local desde Donostia",
-      "category": "Deporte",
-      "community": "Euskadi",
-      "websiteUrl": "https://www.marca.com/radio.html",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/xmlf5smkbea9.jpg",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 38,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://marca-sansebastian.streaming-pro.com:6101/live",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "onda-cero-san-sebastian",
-      "seedName": "Onda Cero San Sebastián",
-      "name": "Onda Cero San Sebastián",
-      "tagline": "Onda Cero en Donostia",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "websiteUrl": "https://www.ondacero.es/emisoras/pais-vasco/san-sebastian/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/429/onda-cero-san-sebastian.8c0aa461.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 39,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS San Sebastián",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/sansebastian/master.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cadena-cope-san-sebastian",
-      "seedName": "Cadena COPE San Sebastián",
-      "name": "COPE San Sebastián",
-      "tagline": "COPE en Donostia",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "websiteUrl": "https://www.cope.es/emisoras/pais-vasco/guipuzcoa/san-sebastian",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/884/cadena-cope-san-sebastian.e07071a2.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 40,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 San Sebastián",
-          "url": "https://wecast-bl02.flumotion.com/copesedes/ssebastian.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "onda-cero-vitoria",
-      "seedName": "Onda Cero Vitoria",
-      "name": "Onda Cero Vitoria",
-      "tagline": "Onda Cero en Vitoria-Gasteiz",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "websiteUrl": "https://www.ondacero.es/emisoras/pais-vasco/vitoria/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/430/onda-cero-vitoria.5c6b2e46.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 42,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS Vitoria",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/vitoria/master.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "eitb-musika",
-      "seedName": "EiTB Musika",
-      "name": "EITB Musika",
-      "tagline": "Canal musical de EiTB",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Variedad",
-      "websiteUrl": "https://www.eitb.eus/es/radio/eitb-musika/",
-      "logoUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/EITB%20Musika.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 44,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://multimedia.eitb.eus/live-content/eitbmusika-hls/master.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cadena-cope-vitoria",
-      "seedName": "Cadena COPE Vitoria",
-      "name": "COPE Vitoria",
-      "tagline": "COPE en Vitoria-Gasteiz",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "websiteUrl": "https://www.cope.es/emisoras/pais-vasco/alava/vitoria",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/412/cadena-cope-vitoria.a4e72121.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 46,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 Vitoria",
-          "url": "https://wecast-bl02.flumotion.com/copesedes/vitoria.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-gorbea",
-      "seedName": "Radio Gorbea",
-      "name": "Radio Gorbea",
-      "tagline": "Radio local alavesa",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "websiteUrl": "https://www.radiogorbea.com/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/uzshm6jc84m8.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 48,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://cdn-peer021.streaming-pro.com:6135/radiogorbea.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-marca-vitoria-gasteiz",
-      "seedName": "Radio Marca Vitoria-Gasteiz",
-      "name": "Radio Marca Vitoria",
-      "tagline": "Deporte local desde Vitoria-Gasteiz",
-      "category": "Deporte",
-      "community": "Euskadi",
-      "websiteUrl": "https://www.marca.com/radio.html",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/afy5k3tbpymp.jpg",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 50,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://control.streaming-pro.com:6014/marcavitoria.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "kiss-fm-91-6",
-      "seedName": "Kiss FM 91.6",
-      "name": "Kiss FM 91.6",
-      "tagline": "Repetidor/listado local de Kiss FM",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Pop",
-      "websiteUrl": "https://www.kissfm.es/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/831/kiss-music-fm.f5fc5ea5.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 52,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://kissfm.kissfmradio.cires21.com/kissfm.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "vinilo-fm",
-      "seedName": "Vinilo FM",
-      "name": "Vinilo FM",
-      "tagline": "Clásicos y oldies desde Bizkaia",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Classic Hits",
-      "websiteUrl": "https://vinilofm.es/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/WvYVyHUvbU.jpg",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 53,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 Bizkaia",
-          "url": "https://radio.vinilofm.es/radio/8000/bizkaia.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cadena-100-gipuzkoa",
-      "seedName": "Cadena 100 Gipuzkoa",
-      "name": "Cadena 100 Gipuzkoa",
-      "tagline": "Cadena 100 con entrada local en Gipuzkoa",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Pop",
-      "websiteUrl": "https://www.cadena100.es/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/cmlmwnqzz26u.jpg",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 57,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Zeno alternativo",
-          "url": "https://stream.zeno.fm/129gp05ccchvv",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "HLS nacional",
-          "url": "https://cadena100-cope.flumotion.com/chunks.m3u8",
-          "format": "hls",
-          "priority": 2,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-donosti",
-      "seedName": "Radio Donosti",
-      "name": "Radio Donosti",
-      "tagline": "Actualidad local de Donostia",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "websiteUrl": "https://www.radiodonosti.com/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/628/radio-donosti-985-fm.0192a341.jpg",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 58,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Zeno alternativo",
-          "url": "https://stream-176.zeno.fm/zgn5w0dsrusvv",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "naiz-irratia",
-      "seedName": "Naiz Irratia",
-      "name": "Naiz Irratia",
-      "tagline": "Actualidad en euskera",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "websiteUrl": "https://irratia.naiz.eus/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/nswsabl5yduf.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 2,
-      "seedRank": 61,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://zuzenean.naizirratia.eus/naiz_irratia.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-irun-ser",
-      "seedName": "Radio Irun SER",
-      "name": "Radio Irun",
-      "tagline": "SER en Irun",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "websiteUrl": "https://cadenaser.com/radio-irun/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/jvyjqkypxkus.jpg",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 2,
-      "seedRank": 62,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_IRUN.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-eibar-ser",
-      "seedName": "Radio Eibar SER",
-      "name": "Radio Eibar",
-      "tagline": "SER en Eibar",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "websiteUrl": "https://cadenaser.com/radio-eibar/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/pfmuhnrhynkf.jpg",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 2,
-      "seedRank": 64,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_EIBAR.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "segura-irratia",
-      "seedName": "Segura Irratia",
-      "name": "Segura Irratia",
-      "tagline": "Irratia local de Segura",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "websiteUrl": "https://segurairratia.eus/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/653/segura-irratia.cf94d527.jpg",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 2,
-      "seedRank": 66,
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://soporte.ikernet.net:6443/listen/segura_irratia/radio.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "Directorio público"
-        }
-      ]
-    },
-    {
-      "id": "hitz-funky-radio",
-      "seedName": "Hitz Funky Radio",
-      "name": "Hitz Funky Radio",
-      "tagline": "Canal musical temático",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Funky",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/098/hitz-funky-radio.8797717c.jpg",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 2,
-      "seedRank": 67,
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Zeno candidato 1",
-          "url": "http://stream.zeno.fm/azgx0ktf4p8uv",
-          "format": "mp3",
-          "priority": 1,
-          "source": "radiobrowser index"
-        },
-        {
-          "label": "Zeno candidato 2",
-          "url": "https://stream.zeno.fm/zcpx195bt7zuv",
-          "format": "mp3",
-          "priority": 2,
-          "source": "RCAST directory"
-        }
-      ]
-    },
-    {
-      "id": "bizkaia-irratia",
-      "seedName": "Bizkaia Irratia",
-      "name": "Bizkaia Irratia",
-      "tagline": "Radio en euskera desde Bizkaia",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "websiteUrl": "https://bizkaiairratia.eus/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/amwbzlabqxwc.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 2,
-      "seedRank": 68,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://stream.mediasector.es/radio/8230/bizkaiairratia.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "Música alternativo",
-          "url": "https://server12.mediasector.es/listen/bizkaia_irratia_musika/radio.mp3",
-          "format": "mp3",
-          "priority": 2,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "bilbo-hiria-irratia",
-      "seedName": "Bilbo Hiria Irratia",
-      "name": "Bilbo Hiria Irratia",
-      "tagline": "Irratia comunitaria de Bilbao",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "websiteUrl": "https://bilbohiria.eus",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/FdXxxNT9wq.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 2,
-      "seedRank": 74,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://server8.emitironline.com:18392/stream",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "arrate-irratia",
-      "seedName": "Arrate Irratia",
-      "name": "Arrate Irratia",
-      "tagline": "Radio local de Eibar",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "websiteUrl": "https://www.arrateirratia.eus/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/467/arrate-irratia.63d86943.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 2,
-      "seedRank": 75,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Directo",
-          "url": "https://online.arrateirratia.eus/zuzenean",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "mozoilo-irratia",
-      "seedName": "Mozoilo Irratia",
-      "name": "Mozoilo Irratia",
-      "tagline": "Irratia local de Oñati",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "websiteUrl": "https://mozoiloirratia.eus",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/997/mozoilo-irratia.d5a3cc4f.jpg",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 2,
-      "seedRank": 78,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://a10.asurahosting.com:9060/radio.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "euskadigital",
-      "seedName": "EuskaDigital",
-      "name": "EuskaDigital",
-      "tagline": "Tecnología y cultura digital desde Euskadi",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Electrónica",
-      "websiteUrl": "https://www.euskadigital.eus/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/PFwA88buez.jpg",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 2,
-      "seedRank": 81,
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Icecast mount candidato",
-          "url": "https://stream.euskonet.eus/euskadigital",
-          "format": "mp3",
-          "priority": 1,
-          "source": "EuskoNet Icecast"
-        },
-        {
-          "label": "Icecast alternativo candidato",
-          "url": "http://stream.euskonet.eus:8000/euskadigital",
-          "format": "mp3",
-          "priority": 2,
-          "source": "fmstream directory"
-        }
-      ]
-    },
-    {
-      "id": "ataun-irratia",
-      "seedName": "Ataun Irratia",
-      "name": "Ataun Irratia",
-      "tagline": "Irratia local de Ataun",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "websiteUrl": "https://www.ataun.eus/ataun-irratia",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/910/ataun-irratia.cfa99ffb.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 2,
-      "seedRank": 83,
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "MP3 candidato",
-          "url": "http://server8.emitironline.com:18572/stream",
-          "format": "mp3",
-          "priority": 1,
-          "source": "fmstream directory"
-        }
-      ]
-    },
-    {
-      "id": "hitz-90s-fm",
-      "seedName": "Hitz 90s FM",
-      "name": "Hitz 90s FM",
-      "tagline": "Canal temático 90s",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "90s",
-      "websiteUrl": "https://zeno.fm/radio/hitz-90s-fm/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/590/hitz-90s-fm.350feb58.jpg",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 2,
-      "seedRank": 84,
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Zeno candidato 1",
-          "url": "http://stream.zeno.fm/1q3dwmd6yf8uv",
-          "format": "mp3",
-          "priority": 1,
-          "source": "radiobrowser index"
-        },
-        {
-          "label": "Zeno candidato 2",
-          "url": "https://stream.zeno.fm/x3sxe2nv0p8uv",
-          "format": "mp3",
-          "priority": 2,
-          "source": "RCAST directory"
-        }
-      ]
-    },
-    {
-      "id": "radio-formula-hit-castellon-98-3-fm",
-      "seedName": "Radio Formula Hit Castellón 98.3 FM",
-      "name": "Formula Hit",
-      "tagline": "Entrada de myTuner con stream operativo detectado",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Pop",
-      "websiteUrl": "https://www.formulahit.com/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/RgdbbKgcvW.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 2,
-      "seedRank": 86,
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://sonic.sistemahost.es/8176/stream;.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-llodio",
-      "seedName": "Radio Llodio",
-      "name": "Radio Llodio",
-      "tagline": "Emisora local de Laudio/Llodio",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "websiteUrl": "https://radiollodio.com/",
-      "logoUrl": "https://radiollodio.com/wp-content/uploads/2020/02/LOGO-RADIO-LLODIO-LOGOTIPO-1.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 2,
-      "seedRank": 87,
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "OGG candidato",
-          "url": "http://v2.ayser.net:8000/stream.ogg",
-          "format": "ogg",
-          "priority": 1,
-          "source": "fmstream (inferred from public snippet)"
-        }
-      ]
-    },
-    {
-      "id": "hitz-91-0",
-      "seedName": "Hitz 91.0",
-      "name": "Hitz 91.0",
-      "tagline": "Radio online musical",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Hits",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/185/hitz-910.f033127e.jpg",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 2,
-      "seedRank": 91,
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Zeno candidato",
-          "url": "http://stream.zeno.fm/f2qmny74gd0uv",
-          "format": "mp3",
-          "priority": 1,
-          "source": "radiobrowser index"
-        }
-      ]
-    },
-    {
-      "id": "hitz-africa-fm",
-      "seedName": "Hitz Africa FM",
-      "name": "Hitz Africa FM",
-      "tagline": "Radio online musical",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Afro",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/078/hitz-africa-fm.08c90290.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 2,
-      "seedRank": 94,
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "MP3 candidato",
-          "url": "http://ec2.yesstreaming.net:2960/stream",
-          "format": "mp3",
-          "priority": 1,
-          "source": "RCAST directory"
-        }
-      ]
-    },
-    {
-      "id": "hitz-91-9-radio",
-      "seedName": "Hitz 91.9 Radio",
-      "name": "Hitz 91.9 Radio",
-      "tagline": "Radio online musical",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Hits",
-      "websiteUrl": "https://zeno.fm/radio/hitz-919-radio-1/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/078/hitz-919.f194041d.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 2,
-      "seedRank": 104,
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Zeno candidato",
-          "url": "https://node-33.zeno.fm/p9m9tuyap98uv",
-          "format": "mp3",
-          "priority": 1,
-          "source": "RCAST directory"
-        }
-      ]
-    },
-    {
-      "id": "hitz-91-5-fm",
-      "seedName": "Hitz 91.5 FM",
-      "name": "Hitz 91.5 FM",
-      "tagline": "Radio online musical",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Hits",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/297/hitz-915.c533c68d.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 2,
-      "seedRank": 107,
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "MP3 candidato 1",
-          "url": "http://ec2.yesstreaming.net:3110/stream",
-          "format": "mp3",
-          "priority": 1,
-          "source": "RCAST directory"
-        },
-        {
-          "label": "Zeno candidato 2",
-          "url": "https://stream.zeno.fm/zskjbd7n200tv",
-          "format": "mp3",
-          "priority": 2,
-          "source": "RCAST snippet"
-        }
-      ]
-    },
-    {
-      "id": "uribe-fm",
-      "seedName": "Uribe FM",
-      "name": "Uribe FM",
-      "tagline": "Emisora local de Uribe",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "musicType": "Variedad",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/t52kemvyftjz.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 2,
-      "seedRank": 113,
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "MP3 candidato",
-          "url": "http://server8.emitironline.com:10822/radio",
-          "format": "mp3",
-          "priority": 1,
-          "source": "Spain.json directory"
-        }
-      ]
-    },
-    {
-      "id": "bi-fm",
-      "seedName": "BI FM",
-      "name": "BI FM",
-      "tagline": "Música alternativa desde Bizkaia",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Indie",
-      "websiteUrl": "https://www.bifmradio.com/",
-      "logoUrl": "https://www.bifmradio.com/wp-content/uploads/2020/12/bifm-logo.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 2,
-      "seedRank": 114,
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato tercero",
-          "url": "http://94.75.234.135:8052/listen.plsmp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "liveradio.ie"
-        }
-      ]
-    },
-    {
-      "id": "hala-bedi-bat-107-4",
-      "seedName": "Hala Bedi Bat 107.4",
+      "id": "euskadi--hala-bedi-bat-107-4",
       "name": "Hala Bedi Bat 107.4",
       "tagline": "Radio libre de Vitoria-Gasteiz",
+      "description": "",
       "category": "Noticias",
       "community": "Euskadi",
       "websiteUrl": "https://halabedi.eus/irratia/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/vd7rczhhpavg.jpg",
-      "language": "es",
       "sourceSeed": "myTuner",
-      "seedPage": 2,
-      "seedRank": 117,
       "verificationStatus": "verified",
       "streams": [
         {
@@ -1270,67 +44,239 @@
       ]
     },
     {
-      "id": "stz-irratia",
-      "seedName": "Stz Irratia",
-      "name": "STZ Irratia",
-      "tagline": "Santurtzi Irratia",
+      "id": "euskadi--eitb-radio-euskadi",
+      "name": "Radio Euskadi",
+      "tagline": "Información y programas desde Euskadi",
+      "description": "",
       "category": "Noticias",
       "community": "Euskadi",
-      "websiteUrl": "https://stzirratia.eus/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/9djfk9t3h9xw.png",
-      "language": "es",
+      "websiteUrl": "https://www.eitb.eus/es/radio/radio-euskadi/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/SbBRr4a3Xm.png",
       "sourceSeed": "myTuner",
-      "seedPage": 2,
-      "seedRank": 118,
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "Directo",
-          "url": "https://one.cloudstreaming.eu/proxy/stzradio/stream",
+          "label": "HLS principal",
+          "url": "https://multimedia.eitb.eus/live-content/radioeuskadi-hls/master.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "http://mp3-eitb.stream.flumotion.com/eitb/radioeuskadi.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "EITB legacy"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--europa-fm-gipuzkoa",
+      "name": "Europa FM Gipuzkoa",
+      "tagline": "Europa FM en Gipuzkoa",
+      "description": "",
+      "category": "Música",
+      "community": "Euskadi",
+      "websiteUrl": "https://www.europafm.com/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/Ek9UByQg3m.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Zeno alternativo",
+          "url": "https://node-29.zeno.fm/se76qau1hc9uv",
           "format": "mp3",
           "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "AAC nacional",
+          "url": "https://radio-atres-live.ondacero.es/api/livestream-redirect/EFMAAC.aac",
+          "format": "aac",
+          "priority": 2,
           "source": "TDTChannels"
         }
       ]
     },
     {
-      "id": "radio-galdakao",
-      "seedName": "Radio Galdakao",
-      "name": "Radio Galdakao",
-      "tagline": "Emisora local de Galdakao",
+      "id": "euskadi--onda-vasca",
+      "name": "Onda Vasca",
+      "tagline": "Actualidad, opinión y proximidad",
+      "description": "",
       "category": "Noticias",
       "community": "Euskadi",
-      "websiteUrl": "https://www.radiogaldakao.eus/",
-      "logoUrl": "https://gdkoirratiacom.wordpress.com/wp-content/uploads/2017/12/cropped-untitled-design-15.png",
-      "language": "es",
+      "websiteUrl": "https://www.ondavasca.com/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/ECxKcK4qzJ.png",
       "sourceSeed": "myTuner",
-      "seedPage": 3,
-      "seedRank": 121,
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "MP3 principal",
-          "url": "http://listen.radionomy.com:80/GDKOirratia/;#.mp3",
+          "label": "Bizkaia",
+          "url": "https://live.ondavasca.com:8001/bizkaia",
           "format": "mp3",
           "priority": 1,
-          "source": "Sitio oficial"
+          "source": "TDTChannels"
+        },
+        {
+          "label": "Gipuzkoa",
+          "url": "https://live.ondavasca.com:8001/gipuzkoa",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
         }
       ]
     },
     {
-      "id": "hala-bedi-bi-88-8",
-      "seedName": "Hala Bedi Bi 88.8",
-      "name": "Hala Bedi Bi 88.8",
-      "tagline": "Segundo canal de Hala Bedi",
+      "id": "euskadi--eitb-euskadi-irratia",
+      "name": "Euskadi Irratia",
+      "tagline": "Información y magazine en euskera",
+      "description": "",
+      "category": "Noticias",
+      "community": "Euskadi",
+      "websiteUrl": "https://www.eitb.eus/eu/irratia/euskadi-irratia/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/vrdXYJVBaZ_jfDA33i.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://multimedia.eitb.eus/live-content/euskadirratia-hls/master.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "http://mp3-eitb.stream.flumotion.com/eitb/euskadiirratia.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "EITB legacy"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--eitb-radio-vitoria",
+      "name": "Radio Vitoria",
+      "tagline": "Actualidad local en Álava",
+      "description": "",
+      "category": "Noticias",
+      "community": "Euskadi",
+      "websiteUrl": "https://www.eitb.eus/es/radio/radio-vitoria/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/ZksDJFpn4L.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://multimedia.eitb.eus/live-content/radiovitoria-hls/master.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "http://195.55.74.215/eitb/radiovitoria.mp3?GKID",
+          "format": "mp3",
+          "priority": 2,
+          "source": "legacy"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--eitb-gaztea",
+      "name": "Gaztea",
+      "tagline": "Música joven de EiTB",
+      "description": "",
       "category": "Música",
       "community": "Euskadi",
-      "musicType": "Alternativa",
+      "websiteUrl": "https://www.eitb.eus/eu/gaztea/",
+      "logoUrl": "https://www.eitb.eus/multimedia/images/2022/11/17/3077932/20221117163842_eitb-gaztea_logo_960x540.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://multimedia.eitb.eus/live-content/gaztea-hls/master.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "http://mp3-eitb.stream.flumotion.com/eitb/gaztea.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "EITB legacy"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--cadena-100-gipuzkoa",
+      "name": "Cadena 100 Gipuzkoa",
+      "tagline": "Cadena 100 con entrada local en Gipuzkoa",
+      "description": "",
+      "category": "Música",
+      "community": "Euskadi",
+      "websiteUrl": "https://www.cadena100.es/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/cmlmwnqzz26u.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Zeno alternativo",
+          "url": "https://stream.zeno.fm/129gp05ccchvv",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "HLS nacional",
+          "url": "https://cadena100-cope.flumotion.com/chunks.m3u8",
+          "format": "hls",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--bizkaia-irratia",
+      "name": "Bizkaia Irratia",
+      "tagline": "Radio en euskera desde Bizkaia",
+      "description": "",
+      "category": "Noticias",
+      "community": "Euskadi",
+      "websiteUrl": "https://bizkaiairratia.eus/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/amwbzlabqxwc.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://stream.mediasector.es/radio/8230/bizkaiairratia.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "Música alternativo",
+          "url": "https://server12.mediasector.es/listen/bizkaia_irratia_musika/radio.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--hala-bedi-bi-88-8",
+      "name": "Hala Bedi Bi 88.8",
+      "tagline": "Segundo canal de Hala Bedi",
+      "description": "",
+      "category": "Música",
+      "community": "Euskadi",
       "websiteUrl": "https://halabedi.eus/irratia/",
       "logoUrl": "https://halabedi.eus/wp-content/uploads/2019/09/cropped-logo-halabedi-192x192.png",
-      "language": "es",
       "sourceSeed": "myTuner",
-      "seedPage": 3,
-      "seedRank": 122,
       "verificationStatus": "verified",
       "streams": [
         {
@@ -1350,79 +296,230 @@
       ]
     },
     {
-      "id": "hitz-radio-24-7",
-      "seedName": "Hitz Radio 24/7",
-      "name": "Hitz Radio 24/7",
-      "tagline": "Radio online musical",
-      "category": "Música",
+      "id": "euskadi--radio-bilbao-ser",
+      "name": "Radio Bilbao",
+      "tagline": "SER Bilbao, actualidad local",
+      "description": "",
+      "category": "Noticias",
       "community": "Euskadi",
-      "musicType": "Hits",
-      "websiteUrl": "https://zeno.fm/radio/hitz-radio-24-7/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/879/hitz-radio-247.c3189df4.png",
-      "language": "es",
+      "websiteUrl": "https://cadenaser.com/radio-bilbao/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/Kddwktxm2B.jpg",
       "sourceSeed": "myTuner",
-      "seedPage": 3,
-      "seedRank": 127,
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": [
         {
-          "label": "MP3 candidato",
-          "url": "http://live2.rcast.net:9122/stream",
+          "label": "MP3 principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_BILBAO.mp3",
           "format": "mp3",
           "priority": 1,
-          "source": "RCAST directory"
+          "source": "TDTChannels"
         }
       ]
     },
     {
-      "id": "radio-marca-nacional-euskadi",
-      "seedName": "Radio Marca Nacional",
-      "name": "Radio Marca Nacional",
-      "tagline": "Deporte 24 horas",
+      "id": "euskadi--radio-nervion",
+      "name": "Radio Nervión",
+      "tagline": "Actualidad y entretenimiento local",
+      "description": "",
+      "category": "Noticias",
+      "community": "Euskadi",
+      "websiteUrl": "https://www.radionervion.com/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/673/radio-nervion.c62d3fb9.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://radionervion.streaming-pro.com:6132/radionervion",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--onda-cero-bilbao",
+      "name": "Onda Cero Bilbao",
+      "tagline": "Actualidad local desde Bilbao",
+      "description": "",
+      "category": "Noticias",
+      "community": "Euskadi",
+      "websiteUrl": "https://www.ondacero.es/emisoras/pais-vasco/bilbao/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/162/onda-cero-bilbao.3bcfaf26.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS Bilbao",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/bilbao/master.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--cadena-cope-bilbao",
+      "name": "COPE Bilbao",
+      "tagline": "COPE en Bilbao",
+      "description": "",
+      "category": "Noticias",
+      "community": "Euskadi",
+      "websiteUrl": "https://www.cope.es/emisoras/pais-vasco/vizcaya/bilbao",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/841/cope-bilbao.157bad2b.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 Bilbao",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/bilbao.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--cadena-ser-vitoria",
+      "name": "SER Vitoria",
+      "tagline": "SER en Vitoria-Gasteiz",
+      "description": "",
+      "category": "Noticias",
+      "community": "Euskadi",
+      "websiteUrl": "https://cadenaser.com/radio-vitoria/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/Wa6yaHqXfq.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_VITORIA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--radio-san-sebastian-ser",
+      "name": "Radio San Sebastián",
+      "tagline": "SER en Donostia / San Sebastián",
+      "description": "",
+      "category": "Noticias",
+      "community": "Euskadi",
+      "websiteUrl": "https://cadenaser.com/radio-san-sebastian/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/d84ygmbsjtae.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_SAN_SEBASTIAN.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--radio-marca-bilbao",
+      "name": "Radio Marca Bilbao",
+      "tagline": "Deporte local y nacional desde Bilbao",
+      "description": "",
       "category": "Deporte",
       "community": "Euskadi",
       "websiteUrl": "https://www.marca.com/radio.html",
-      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 1,
-      "seedRank": 2,
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/687/radio-marca-bilbao.a427ae9b.png",
+      "sourceSeed": "myTuner",
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "AAC oficial",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONALAAC.aac",
-          "format": "aac",
-          "priority": 1,
-          "source": "TDTChannels / WebRadioStreams"
-        },
-        {
-          "label": "MP3 oficial",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONAL.mp3",
+          "label": "MP3 principal",
+          "url": "https://server8.emitironline.com:18475/stream",
           "format": "mp3",
-          "priority": 2,
-          "source": "TDTChannels / WebRadioStreams"
+          "priority": 1,
+          "source": "TDTChannels"
         }
       ]
     },
     {
-      "id": "capital-radio-euskadi",
-      "seedName": "Capital Radio",
-      "name": "Capital Radio",
-      "tagline": "Pura economía",
-      "category": "Economía",
+      "id": "euskadi--herri-irratia-radio-popular",
+      "name": "Radio Popular - Herri Irratia",
+      "tagline": "Información y magazines locales",
+      "description": "",
+      "category": "Noticias",
       "community": "Euskadi",
-      "websiteUrl": "https://www.capitalradio.es/directo",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/671/capital-radio.3bec34e0.jpg",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 1,
-      "seedRank": 10,
+      "websiteUrl": "https://radiopopular.com/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/p5BdExkRfF.png",
+      "sourceSeed": "myTuner",
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "HLS principal",
-          "url": "https://mdstrm.com/audio/67d2a8685ae4234de49e40f6/live.m3u8",
+          "label": "MP3 principal",
+          "url": "https://stream.mediasector.es/listen/radio_popular/radiopopular.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--radio-7",
+      "name": "Radio 7",
+      "tagline": "Actualidad y entretenimiento desde Gipuzkoa",
+      "description": "",
+      "category": "Noticias",
+      "community": "Euskadi",
+      "websiteUrl": "https://www.radio7.com/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/4mq7yvFxtR.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://radio7.streaming-pro.com:6146/radio7.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--radio-marca-donostia",
+      "name": "Radio Marca Donostia",
+      "tagline": "Deporte local desde Donostia",
+      "description": "",
+      "category": "Deporte",
+      "community": "Euskadi",
+      "websiteUrl": "https://www.marca.com/radio.html",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/xmlf5smkbea9.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://marca-sansebastian.streaming-pro.com:6101/live",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--onda-cero-san-sebastian",
+      "name": "Onda Cero San Sebastián",
+      "tagline": "Onda Cero en Donostia",
+      "description": "",
+      "category": "Noticias",
+      "community": "Euskadi",
+      "websiteUrl": "https://www.ondacero.es/emisoras/pais-vasco/san-sebastian/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/429/onda-cero-san-sebastian.8c0aa461.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS San Sebastián",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/sansebastian/master.m3u8",
           "format": "hls",
           "priority": 1,
           "source": "TDTChannels"
@@ -1430,47 +527,20 @@
       ]
     },
     {
-      "id": "radio-intereconomia-euskadi",
-      "seedName": "Radio Intereconomía",
-      "name": "Radio Intereconomía",
-      "tagline": "Economía y mercados",
-      "category": "Economía",
+      "id": "euskadi--cadena-cope-san-sebastian",
+      "name": "COPE San Sebastián",
+      "tagline": "COPE en Donostia",
+      "description": "",
+      "category": "Noticias",
       "community": "Euskadi",
-      "websiteUrl": "https://intereconomia.com/directo/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/WAsBY8S326.jpg",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 1,
-      "seedRank": 9,
+      "websiteUrl": "https://www.cope.es/emisoras/pais-vasco/guipuzcoa/san-sebastian",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/884/cadena-cope-san-sebastian.e07071a2.png",
+      "sourceSeed": "myTuner",
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "Stream principal",
-          "url": "https://streaming.intereconomia.com/siliconorg",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "vaughan-radio-euskadi",
-      "seedName": "Vaughan Radio",
-      "name": "Vaughan Radio",
-      "tagline": "Radio bilingüe para practicar inglés",
-      "category": "Educación",
-      "community": "Euskadi",
-      "websiteUrl": "https://grupovaughan.com/vaughan-radio/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/abKKbrBjGn.png",
-      "language": "en",
-      "sourceSeed": "verified_pool",
-      "seedPage": 1,
-      "seedRank": 7,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://vaughanradioweb.streaming-pro.com:8058/vaughanradio.mp3",
+          "label": "MP3 San Sebastián",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/ssebastian.mp3",
           "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
@@ -1478,24 +548,20 @@
       ]
     },
     {
-      "id": "cadena-100-euskadi",
-      "seedName": "Cadena 100",
-      "name": "Cadena 100",
-      "tagline": "Pop y entretenimiento musical",
-      "category": "Música",
+      "id": "euskadi--onda-cero-vitoria",
+      "name": "Onda Cero Vitoria",
+      "tagline": "Onda Cero en Vitoria-Gasteiz",
+      "description": "",
+      "category": "Noticias",
       "community": "Euskadi",
-      "musicType": "Pop",
-      "websiteUrl": "https://www.cadena100.es",
-      "logoUrl": "https://graph.facebook.com/CADENA100/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 1,
-      "seedRank": 5,
+      "websiteUrl": "https://www.ondacero.es/emisoras/pais-vasco/vitoria/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/430/onda-cero-vitoria.5c6b2e46.png",
+      "sourceSeed": "myTuner",
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "HLS principal",
-          "url": "https://cadena100-cope.flumotion.com/chunks.m3u8",
+          "label": "HLS Vitoria",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/vitoria/master.m3u8",
           "format": "hls",
           "priority": 1,
           "source": "TDTChannels"
@@ -1503,81 +569,62 @@
       ]
     },
     {
-      "id": "cadena-dial-euskadi",
-      "seedName": "Cadena Dial",
-      "name": "Cadena Dial",
-      "tagline": "Pop español y latino",
+      "id": "euskadi--eitb-musika",
+      "name": "EITB Musika",
+      "tagline": "Canal musical de EiTB",
+      "description": "",
       "category": "Música",
       "community": "Euskadi",
-      "musicType": "Latina",
-      "websiteUrl": "https://play.cadenadial.com",
-      "logoUrl": "https://graph.facebook.com/CadenaDial/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 1,
-      "seedRank": 3,
+      "websiteUrl": "https://www.eitb.eus/es/radio/eitb-musika/",
+      "logoUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/EITB%20Musika.png",
+      "sourceSeed": "myTuner",
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "AAC principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIALAAC.aac",
-          "format": "aac",
+          "label": "HLS principal",
+          "url": "https://multimedia.eitb.eus/live-content/eitbmusika-hls/master.m3u8",
+          "format": "hls",
           "priority": 1,
           "source": "TDTChannels"
-        },
+        }
+      ]
+    },
+    {
+      "id": "euskadi--cadena-cope-vitoria",
+      "name": "COPE Vitoria",
+      "tagline": "COPE en Vitoria-Gasteiz",
+      "description": "",
+      "category": "Noticias",
+      "community": "Euskadi",
+      "websiteUrl": "https://www.cope.es/emisoras/pais-vasco/alava/vitoria",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/412/cadena-cope-vitoria.a4e72121.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
         {
-          "label": "MP3 alternativo",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL.mp3",
+          "label": "MP3 Vitoria",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/vitoria.mp3",
           "format": "mp3",
-          "priority": 2,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "europa-fm-euskadi",
-      "seedName": "Europa FM",
-      "name": "Europa FM",
-      "tagline": "Música, shows y cultura pop",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Top 40",
-      "websiteUrl": "https://www.europafm.com/directo/",
-      "logoUrl": "https://graph.facebook.com/tueuropafm/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 1,
-      "seedRank": 12,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "AAC principal",
-          "url": "https://radio-atres-live.ondacero.es/api/livestream-redirect/EFMAAC.aac",
-          "format": "aac",
           "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
-      "id": "hit-fm-euskadi",
-      "seedName": "Hit FM",
-      "name": "Hit FM",
-      "tagline": "Éxitos jóvenes y radiofórmula",
-      "category": "Música",
+      "id": "euskadi--radio-gorbea",
+      "name": "Radio Gorbea",
+      "tagline": "Radio local alavesa",
+      "description": "",
+      "category": "Noticias",
       "community": "Euskadi",
-      "musicType": "Hits",
-      "websiteUrl": "https://www.hitfm.es",
-      "logoUrl": "https://graph.facebook.com/hitfm.es/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 4,
-      "seedRank": 68,
+      "websiteUrl": "https://www.radiogorbea.com/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/uzshm6jc84m8.png",
+      "sourceSeed": "myTuner",
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "MP3 principal",
-          "url": "https://adhandler.kissfmradio.cires21.com/get_link?url=https://bbhitfm.kissfmradio.cires21.com/bbhitfm.mp3",
+          "url": "https://cdn-peer021.streaming-pro.com:6135/radiogorbea.mp3",
           "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
@@ -1585,19 +632,36 @@
       ]
     },
     {
-      "id": "kiss-fm-euskadi",
-      "seedName": "KISS FM",
-      "name": "KISS FM",
-      "tagline": "Éxitos y clásicos pop",
+      "id": "euskadi--radio-marca-vitoria-gasteiz",
+      "name": "Radio Marca Vitoria",
+      "tagline": "Deporte local desde Vitoria-Gasteiz",
+      "description": "",
+      "category": "Deporte",
+      "community": "Euskadi",
+      "websiteUrl": "https://www.marca.com/radio.html",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/afy5k3tbpymp.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://control.streaming-pro.com:6014/marcavitoria.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--kiss-fm-91-6",
+      "name": "Kiss FM 91.6",
+      "tagline": "Repetidor/listado local de Kiss FM",
+      "description": "",
       "category": "Música",
       "community": "Euskadi",
-      "musicType": "Pop",
       "websiteUrl": "https://www.kissfm.es/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/117/kiss-fm.51b9402b.jpg",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 1,
-      "seedRank": 9,
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/831/kiss-music-fm.f5fc5ea5.png",
+      "sourceSeed": "myTuner",
       "verificationStatus": "verified",
       "streams": [
         {
@@ -1610,276 +674,384 @@
       ]
     },
     {
-      "id": "los-40-principales-euskadi",
-      "seedName": "Los 40 Principales",
-      "name": "LOS40",
-      "tagline": "Éxitos actuales y radiofórmula",
+      "id": "euskadi--vinilo-fm",
+      "name": "Vinilo FM",
+      "tagline": "Clásicos y oldies desde Bizkaia",
+      "description": "",
       "category": "Música",
       "community": "Euskadi",
-      "musicType": "Pop",
-      "websiteUrl": "https://los40.com/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/3jk5k9pcxrp9.jpg",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 1,
-      "seedRank": 4,
+      "websiteUrl": "https://vinilofm.es/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/WvYVyHUvbU.jpg",
+      "sourceSeed": "myTuner",
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "AAC principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40AAC.aac",
-          "format": "aac",
+          "label": "MP3 Bizkaia",
+          "url": "https://radio.vinilofm.es/radio/8000/bizkaia.mp3",
+          "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--radio-donosti",
+      "name": "Radio Donosti",
+      "tagline": "Actualidad local de Donostia",
+      "description": "",
+      "category": "Noticias",
+      "community": "Euskadi",
+      "websiteUrl": "https://www.radiodonosti.com/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/628/radio-donosti-985-fm.0192a341.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Zeno alternativo",
+          "url": "https://stream-176.zeno.fm/zgn5w0dsrusvv",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--naiz-irratia",
+      "name": "Naiz Irratia",
+      "tagline": "Actualidad en euskera",
+      "description": "",
+      "category": "Noticias",
+      "community": "Euskadi",
+      "websiteUrl": "https://irratia.naiz.eus/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/nswsabl5yduf.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://zuzenean.naizirratia.eus/naiz_irratia.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--radio-irun-ser",
+      "name": "Radio Irun",
+      "tagline": "SER en Irun",
+      "description": "",
+      "category": "Noticias",
+      "community": "Euskadi",
+      "websiteUrl": "https://cadenaser.com/radio-irun/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/jvyjqkypxkus.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_IRUN.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--radio-eibar-ser",
+      "name": "Radio Eibar",
+      "tagline": "SER en Eibar",
+      "description": "",
+      "category": "Noticias",
+      "community": "Euskadi",
+      "websiteUrl": "https://cadenaser.com/radio-eibar/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/pfmuhnrhynkf.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_EIBAR.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--bilbo-hiria-irratia",
+      "name": "Bilbo Hiria Irratia",
+      "tagline": "Irratia comunitaria de Bilbao",
+      "description": "",
+      "category": "Noticias",
+      "community": "Euskadi",
+      "websiteUrl": "https://bilbohiria.eus",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/FdXxxNT9wq.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://server8.emitironline.com:18392/stream",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--arrate-irratia",
+      "name": "Arrate Irratia",
+      "tagline": "Radio local de Eibar",
+      "description": "",
+      "category": "Noticias",
+      "community": "Euskadi",
+      "websiteUrl": "https://www.arrateirratia.eus/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/467/arrate-irratia.63d86943.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Directo",
+          "url": "https://online.arrateirratia.eus/zuzenean",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--mozoilo-irratia",
+      "name": "Mozoilo Irratia",
+      "tagline": "Irratia local de Oñati",
+      "description": "",
+      "category": "Noticias",
+      "community": "Euskadi",
+      "websiteUrl": "https://mozoiloirratia.eus",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/997/mozoilo-irratia.d5a3cc4f.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://a10.asurahosting.com:9060/radio.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--stz-irratia",
+      "name": "STZ Irratia",
+      "tagline": "Santurtzi Irratia",
+      "description": "",
+      "category": "Noticias",
+      "community": "Euskadi",
+      "websiteUrl": "https://stzirratia.eus/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/9djfk9t3h9xw.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Directo",
+          "url": "https://one.cloudstreaming.eu/proxy/stzradio/stream",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--radio-galdakao",
+      "name": "Radio Galdakao",
+      "tagline": "Emisora local de Galdakao",
+      "description": "",
+      "category": "Noticias",
+      "community": "Euskadi",
+      "websiteUrl": "https://www.radiogaldakao.eus/",
+      "logoUrl": "https://gdkoirratiacom.wordpress.com/wp-content/uploads/2017/12/cropped-untitled-design-15.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "http://listen.radionomy.com:80/GDKOirratia/;#.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "Sitio oficial"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--hitz-funky-radio",
+      "name": "Hitz Funky Radio",
+      "tagline": "Canal musical temático",
+      "description": "",
+      "category": "Música",
+      "community": "Euskadi",
+      "websiteUrl": "",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/098/hitz-funky-radio.8797717c.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Zeno candidato 1",
+          "url": "http://stream.zeno.fm/azgx0ktf4p8uv",
+          "format": "mp3",
+          "priority": 1,
+          "source": "radiobrowser index"
         },
         {
-          "label": "MP3 alternativo",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40.mp3",
+          "label": "Zeno candidato 2",
+          "url": "https://stream.zeno.fm/zcpx195bt7zuv",
           "format": "mp3",
           "priority": 2,
-          "source": "TDTChannels"
+          "source": "RCAST directory"
         }
       ]
     },
     {
-      "id": "los40-classic-euskadi",
-      "seedName": "Los40 Classic",
-      "name": "LOS40 Classic",
-      "tagline": "Clásicos pop y nostalgia",
+      "id": "euskadi--euskadigital",
+      "name": "EuskaDigital",
+      "tagline": "Tecnología y cultura digital desde Euskadi",
+      "description": "",
       "category": "Música",
       "community": "Euskadi",
-      "musicType": "Classic Hits",
-      "websiteUrl": "https://play.los40.com/los40_classic",
-      "logoUrl": "https://graph.facebook.com/los40classic/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 1,
-      "seedRank": 7,
+      "websiteUrl": "https://www.euskadigital.eus/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/PFwA88buez.jpg",
+      "sourceSeed": "myTuner",
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "AAC principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_CLASSICAAC.aac",
-          "format": "aac",
+          "label": "Icecast mount candidato",
+          "url": "https://stream.euskonet.eus/euskadigital",
+          "format": "mp3",
           "priority": 1,
-          "source": "TDTChannels"
+          "source": "EuskoNet Icecast"
         },
         {
-          "label": "MP3 alternativo",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_CLASSIC.mp3",
+          "label": "Icecast alternativo candidato",
+          "url": "http://stream.euskonet.eus:8000/euskadigital",
           "format": "mp3",
           "priority": 2,
-          "source": "TDTChannels"
+          "source": "fmstream directory"
         }
       ]
     },
     {
-      "id": "los40-dance-euskadi",
-      "seedName": "LOS40 Dance",
-      "name": "LOS40 Dance",
-      "tagline": "Dance y electrónica comercial",
+      "id": "euskadi--hitz-90s-fm",
+      "name": "Hitz 90s FM",
+      "tagline": "Canal temático 90s",
+      "description": "",
       "category": "Música",
       "community": "Euskadi",
-      "musicType": "Dance",
-      "websiteUrl": "https://play.los40.com/los40_dance",
-      "logoUrl": "https://graph.facebook.com/los40dance/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 4,
-      "seedRank": 72,
+      "websiteUrl": "https://zeno.fm/radio/hitz-90s-fm/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/590/hitz-90s-fm.350feb58.jpg",
+      "sourceSeed": "myTuner",
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "AAC principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_DANCEAAC.aac",
-          "format": "aac",
+          "label": "Zeno candidato 1",
+          "url": "http://stream.zeno.fm/1q3dwmd6yf8uv",
+          "format": "mp3",
           "priority": 1,
-          "source": "TDTChannels"
+          "source": "radiobrowser index"
         },
         {
-          "label": "MP3 alternativo",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_DANCE.mp3",
+          "label": "Zeno candidato 2",
+          "url": "https://stream.zeno.fm/x3sxe2nv0p8uv",
           "format": "mp3",
           "priority": 2,
-          "source": "TDTChannels"
+          "source": "RCAST directory"
         }
       ]
     },
     {
-      "id": "megastarfm-euskadi",
-      "seedName": "MegaStar FM",
-      "name": "MegaStar FM",
-      "tagline": "Hit radio joven del grupo COPE",
+      "id": "euskadi--hitz-91-5-fm",
+      "name": "Hitz 91.5 FM",
+      "tagline": "Radio online musical",
+      "description": "",
       "category": "Música",
       "community": "Euskadi",
-      "musicType": "Top 40",
-      "websiteUrl": "https://www.megastarfm.com/",
-      "logoUrl": "https://graph.facebook.com/MegaStarFM/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 4,
-      "seedRank": 70,
+      "websiteUrl": "",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/297/hitz-915.c533c68d.png",
+      "sourceSeed": "myTuner",
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "HLS principal",
-          "url": "https://megastar-cope.flumotion.com/playlist.m3u8",
-          "format": "hls",
+          "label": "MP3 candidato 1",
+          "url": "http://ec2.yesstreaming.net:3110/stream",
+          "format": "mp3",
           "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "melodia-fm-euskadi",
-      "seedName": "Melodía FM",
-      "name": "Melodía FM",
-      "tagline": "Clásicos adultos contemporáneos",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Adult Hits",
-      "websiteUrl": "https://www.melodia-fm.com/directo/",
-      "logoUrl": "https://graph.facebook.com/tumelodiafm/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 4,
-      "seedRank": 69,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "AAC principal",
-          "url": "https://radio-atres-live.ondacero.es/api/livestream-redirect/MELODIA_FMAAC.aac",
-          "format": "aac",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radiole-euskadi",
-      "seedName": "Radiolé",
-      "name": "Radiolé",
-      "tagline": "Copla, sevillanas y canción española",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Flamenco",
-      "websiteUrl": "https://play.radiole.com",
-      "logoUrl": "https://graph.facebook.com/radiole/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 1,
-      "seedRank": 10,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "AAC principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOLEAAC.aac",
-          "format": "aac",
-          "priority": 1,
-          "source": "TDTChannels"
+          "source": "RCAST directory"
         },
         {
-          "label": "MP3 alternativo",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOLE.mp3",
+          "label": "Zeno candidato 2",
+          "url": "https://stream.zeno.fm/zskjbd7n200tv",
           "format": "mp3",
           "priority": 2,
-          "source": "TDTChannels"
+          "source": "RCAST snippet"
         }
       ]
     },
     {
-      "id": "radio-3-rne-euskadi",
-      "seedName": "RNE Radio 3",
-      "name": "RNE Radio 3",
-      "tagline": "La emisora alternativa de RTVE",
+      "id": "euskadi--segura-irratia",
+      "name": "Segura Irratia",
+      "tagline": "Irratia local de Segura",
+      "description": "",
+      "category": "Noticias",
+      "community": "Euskadi",
+      "websiteUrl": "https://segurairratia.eus/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/653/segura-irratia.cf94d527.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://soporte.ikernet.net:6443/listen/segura_irratia/radio.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "Directorio público"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--ataun-irratia",
+      "name": "Ataun Irratia",
+      "tagline": "Irratia local de Ataun",
+      "description": "",
+      "category": "Noticias",
+      "community": "Euskadi",
+      "websiteUrl": "https://www.ataun.eus/ataun-irratia",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/910/ataun-irratia.cfa99ffb.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 candidato",
+          "url": "http://server8.emitironline.com:18572/stream",
+          "format": "mp3",
+          "priority": 1,
+          "source": "fmstream directory"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--radio-formula-hit-castellon-98-3-fm",
+      "name": "Formula Hit",
+      "tagline": "Entrada de myTuner con stream operativo detectado",
+      "description": "",
       "category": "Música",
       "community": "Euskadi",
-      "musicType": "Alternativa",
-      "websiteUrl": "https://www.rtve.es/radio/radio3/",
-      "logoUrl": "https://graph.facebook.com/radio3/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 5,
-      "seedRank": 4,
+      "websiteUrl": "https://www.formulahit.com/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/RgdbbKgcvW.png",
+      "sourceSeed": "myTuner",
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "HLS principal",
-          "url": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r3_main.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-clasica-rne-euskadi",
-      "seedName": "RNE Radio Clásica",
-      "name": "RNE Radio Clásica",
-      "tagline": "Clásica y cultura en RTVE",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Clásica",
-      "websiteUrl": "https://www.rtve.es/radio/radioclasica/",
-      "logoUrl": "https://graph.facebook.com/radioclasicartve/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 5,
-      "seedRank": 5,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r2_main.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "rock-fm-euskadi",
-      "seedName": "Rock FM",
-      "name": "Rock FM",
-      "tagline": "Clásicos del rock",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Rock",
-      "websiteUrl": "https://www.rockfm.fm",
-      "logoUrl": "https://graph.facebook.com/RockFM/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 1,
-      "seedRank": 8,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://rockfm-cope.flumotion.com/playlist.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "rne-radio-nacional-euskadi",
-      "seedName": "RNE Radio Nacional",
-      "name": "RNE Radio Nacional",
-      "tagline": "Información y programas de RNE",
-      "category": "Nacional",
-      "community": "Euskadi",
-      "websiteUrl": "https://www.rtve.es/radio/rne/",
-      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/RNE_logo.svg/512px-RNE_logo.svg.png",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 1,
-      "seedRank": 6,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "RNE 1 Euskadi",
-          "url": "https://dispatcher.rndfnk.com/crtve/rne1/eus/mp3/high",
+          "label": "MP3 principal",
+          "url": "https://sonic.sistemahost.es/8176/stream;.mp3",
           "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
@@ -1887,18 +1059,162 @@
       ]
     },
     {
-      "id": "cadena-ser-nacional-euskadi",
-      "seedName": "Cadena SER",
+      "id": "euskadi--radio-llodio",
+      "name": "Radio Llodio",
+      "tagline": "Emisora local de Laudio/Llodio",
+      "description": "",
+      "category": "Noticias",
+      "community": "Euskadi",
+      "websiteUrl": "https://radiollodio.com/",
+      "logoUrl": "https://radiollodio.com/wp-content/uploads/2020/02/LOGO-RADIO-LLODIO-LOGOTIPO-1.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "OGG candidato",
+          "url": "http://v2.ayser.net:8000/stream.ogg",
+          "format": "ogg",
+          "priority": 1,
+          "source": "fmstream (inferred from public snippet)"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--hitz-91-0",
+      "name": "Hitz 91.0",
+      "tagline": "Radio online musical",
+      "description": "",
+      "category": "Música",
+      "community": "Euskadi",
+      "websiteUrl": "",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/185/hitz-910.f033127e.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Zeno candidato",
+          "url": "http://stream.zeno.fm/f2qmny74gd0uv",
+          "format": "mp3",
+          "priority": 1,
+          "source": "radiobrowser index"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--hitz-africa-fm",
+      "name": "Hitz Africa FM",
+      "tagline": "Radio online musical",
+      "description": "",
+      "category": "Música",
+      "community": "Euskadi",
+      "websiteUrl": "",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/078/hitz-africa-fm.08c90290.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 candidato",
+          "url": "http://ec2.yesstreaming.net:2960/stream",
+          "format": "mp3",
+          "priority": 1,
+          "source": "RCAST directory"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--hitz-91-9-radio",
+      "name": "Hitz 91.9 Radio",
+      "tagline": "Radio online musical",
+      "description": "",
+      "category": "Música",
+      "community": "Euskadi",
+      "websiteUrl": "https://zeno.fm/radio/hitz-919-radio-1/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/078/hitz-919.f194041d.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Zeno candidato",
+          "url": "https://node-33.zeno.fm/p9m9tuyap98uv",
+          "format": "mp3",
+          "priority": 1,
+          "source": "RCAST directory"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--uribe-fm",
+      "name": "Uribe FM",
+      "tagline": "Emisora local de Uribe",
+      "description": "",
+      "category": "Noticias",
+      "community": "Euskadi",
+      "websiteUrl": "",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/t52kemvyftjz.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 candidato",
+          "url": "http://server8.emitironline.com:10822/radio",
+          "format": "mp3",
+          "priority": 1,
+          "source": "Spain.json directory"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--bi-fm",
+      "name": "BI FM",
+      "tagline": "Música alternativa desde Bizkaia",
+      "description": "",
+      "category": "Música",
+      "community": "Euskadi",
+      "websiteUrl": "https://www.bifmradio.com/",
+      "logoUrl": "https://www.bifmradio.com/wp-content/uploads/2020/12/bifm-logo.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Candidato tercero",
+          "url": "http://94.75.234.135:8052/listen.plsmp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "liveradio.ie"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--hitz-radio-24-7",
+      "name": "Hitz Radio 24/7",
+      "tagline": "Radio online musical",
+      "description": "",
+      "category": "Música",
+      "community": "Euskadi",
+      "websiteUrl": "https://zeno.fm/radio/hitz-radio-24-7/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/879/hitz-radio-247.c3189df4.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 candidato",
+          "url": "http://live2.rcast.net:9122/stream",
+          "format": "mp3",
+          "priority": 1,
+          "source": "RCAST directory"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--cadena-ser-nacional",
       "name": "Cadena SER",
       "tagline": "La gran generalista nacional",
+      "description": "",
       "category": "Noticias",
       "community": "Euskadi",
       "websiteUrl": "https://play.cadenaser.com/",
       "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 5,
-      "seedRank": 1,
+      "sourceSeed": "github-national-pilot",
       "verificationStatus": "verified",
       "streams": [
         {
@@ -1932,18 +1248,15 @@
       ]
     },
     {
-      "id": "cope-nacional-euskadi",
-      "seedName": "COPE",
+      "id": "euskadi--cope-nacional",
       "name": "COPE",
       "tagline": "Actualidad, opinión y deporte",
+      "description": "",
       "category": "Noticias",
       "community": "Euskadi",
       "websiteUrl": "https://www.cope.es/",
       "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 5,
-      "seedRank": 2,
+      "sourceSeed": "github-national-pilot",
       "verificationStatus": "verified",
       "streams": [
         {
@@ -1977,18 +1290,50 @@
       ]
     },
     {
-      "id": "esradio-euskadi",
-      "seedName": "EsRadio",
+      "id": "euskadi--los-40-principales",
+      "name": "LOS40",
+      "tagline": "La radiofórmula líder de éxitos",
+      "description": "",
+      "category": "Música",
+      "community": "Euskadi",
+      "websiteUrl": "https://play.los40.com",
+      "logoUrl": "https://graph.facebook.com/los40/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40AAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/Los40.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40.mp3",
+          "format": "mp3",
+          "priority": 3,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--esradio",
       "name": "esRadio",
       "tagline": "Generalista con señal propia en Madrid",
+      "description": "",
       "category": "Noticias",
       "community": "Euskadi",
       "websiteUrl": "https://esradio.libertaddigital.com/directo.html",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/592/esradio.c53d1b9e.png",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 1,
-      "seedRank": 1,
+      "sourceSeed": "github-national-pilot",
       "verificationStatus": "verified",
       "streams": [
         {
@@ -2008,73 +1353,155 @@
       ]
     },
     {
-      "id": "onda-cero-nacional-euskadi",
-      "seedName": "Onda Cero",
-      "name": "Onda Cero",
-      "tagline": "Información y entretenimiento nacional",
-      "category": "Noticias",
+      "id": "euskadi--radio-marca-nacional",
+      "name": "Radio Marca",
+      "tagline": "La deportiva nacional más reconocible",
+      "description": "",
+      "category": "Deporte",
       "community": "Euskadi",
-      "websiteUrl": "https://www.ondacero.es/",
-      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 5,
-      "seedRank": 3,
+      "websiteUrl": "https://www.marca.com/radio.html",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "AAC principal",
-          "url": "https://radio-atres-live.ondacero.es/api/livestream-redirect/OCAAC.aac",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONALAAC.aac",
           "format": "aac",
           "priority": 1,
           "source": "TDTChannels"
         },
         {
-          "label": "HLS alternativo",
-          "url": "https://atres-live.ondacero.es/live/ondacero/master.m3u8",
-          "format": "hls",
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONAL.mp3",
+          "format": "mp3",
           "priority": 2,
           "source": "TDTChannels"
         }
       ]
     },
     {
-      "id": "rne-radio-5-euskadi",
-      "seedName": "RNE Radio 5",
-      "name": "RNE Radio 5",
-      "tagline": "Información continua de RNE",
-      "category": "Noticias",
+      "id": "euskadi--los40-classic",
+      "name": "LOS40 Classic",
+      "tagline": "Clásicos del pop y rock en español e internacional",
+      "description": "",
+      "category": "Música",
       "community": "Euskadi",
-      "websiteUrl": "https://www.rtve.es/radio/radio5/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/745/radio-5.9b6b99b4.png",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 1,
-      "seedRank": 11,
+      "websiteUrl": "https://play.los40.com/los40_classic",
+      "logoUrl": "https://graph.facebook.com/los40classic/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "Radio 5 Vitoria",
-          "url": "https://dispatcher.rndfnk.com/crtve/rne5/vit/mp3/high",
-          "format": "mp3",
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_CLASSICAAC.aac",
+          "format": "aac",
           "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_CLASSIC.mp3",
+          "format": "mp3",
+          "priority": 2,
           "source": "TDTChannels"
         }
       ]
     },
     {
-      "id": "radio-maria-espana-euskadi",
-      "seedName": "Radio María España",
+      "id": "euskadi--cadena-dial",
+      "name": "Cadena Dial",
+      "tagline": "La gran cadena de pop en español",
+      "description": "",
+      "category": "Música",
+      "community": "Euskadi",
+      "websiteUrl": "https://play.cadenadial.com",
+      "logoUrl": "https://graph.facebook.com/CadenaDial/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIALAAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--radiole",
+      "name": "Radiolé",
+      "tagline": "Música popular española y flamenco",
+      "description": "",
+      "category": "Música",
+      "community": "Euskadi",
+      "websiteUrl": "https://play.radiole.com",
+      "logoUrl": "https://graph.facebook.com/radiole/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOLEAAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOLE.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--los40-dance",
+      "name": "LOS40 Dance",
+      "tagline": "Dance y electrónica comercial",
+      "description": "",
+      "category": "Música",
+      "community": "Euskadi",
+      "websiteUrl": "https://play.los40.com/los40_dance",
+      "logoUrl": "https://graph.facebook.com/los40dance/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_DANCEAAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_DANCE.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--radio-maria-espana",
       "name": "Radio María España",
       "tagline": "Radio religiosa de alcance nacional",
+      "description": "",
       "category": "Religión",
       "community": "Euskadi",
       "websiteUrl": "https://www.radiomaria.es/",
       "logoUrl": "https://graph.facebook.com/RadioMariaSpa/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 4,
-      "seedRank": 124,
+      "sourceSeed": "github-national-pilot",
       "verificationStatus": "verified",
       "streams": [
         {
@@ -2094,575 +1521,975 @@
       ]
     },
     {
-      "id": "free-fm-rock-euskadi",
-      "seedName": "Free FM Rock",
-      "name": "Free FM Rock",
-      "tagline": "Canal temático rock",
-      "category": "Música",
+      "id": "euskadi--onda-cero-nacional",
+      "name": "Onda Cero",
+      "tagline": "Información y entretenimiento nacional",
+      "description": "",
+      "category": "Noticias",
       "community": "Euskadi",
-      "musicType": "Rock",
-      "websiteUrl": "https://www.freefmrock.com/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/769/free-fm.aa638097.jpg",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 2,
-      "seedRank": 55,
+      "websiteUrl": "https://www.ondacero.es/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "Principal",
-          "url": "https://freefmrock.radioca.st/stream",
-          "format": "mp3",
+          "label": "AAC principal",
+          "url": "https://radio-atres-live.ondacero.es/api/livestream-redirect/OCAAC.aac",
+          "format": "aac",
           "priority": 1,
-          "source": "fmstream (public listing)"
+          "source": "TDTChannels"
+        },
+        {
+          "label": "HLS alternativo",
+          "url": "https://atres-live.ondacero.es/live/ondacero/master.m3u8",
+          "format": "hls",
+          "priority": 2,
+          "source": "TDTChannels"
         }
       ]
     },
     {
-      "id": "free-fm-classics-euskadi",
-      "seedName": "Free FM Classics",
-      "name": "Free FM Classics",
-      "tagline": "Clásicos pop y oldies online",
-      "category": "Música",
+      "id": "euskadi--vaughan-radio",
+      "name": "Vaughan Radio",
+      "tagline": "Radio bilingüe para practicar inglés",
+      "description": "",
+      "category": "Educación",
       "community": "Euskadi",
-      "musicType": "Oldies",
-      "websiteUrl": "https://www.freefmworld.com",
-      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fwww.freefmworld.com",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 2,
-      "seedRank": 56,
+      "websiteUrl": "https://grupovaughan.com/vaughan-radio/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/abKKbrBjGn.png",
+      "sourceSeed": "github-national-pilot",
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "Stream directo",
-          "url": "https://xxdelgado.radioca.st",
+          "label": "MP3 principal",
+          "url": "https://vaughanradioweb.streaming-pro.com:8058/vaughanradio.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--radio-intereconomia",
+      "name": "Radio Intereconomía",
+      "tagline": "Economía y mercados",
+      "description": "",
+      "category": "Economía",
+      "community": "Euskadi",
+      "websiteUrl": "https://intereconomia.com/directo/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/WAsBY8S326.jpg",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streaming.intereconomia.com/siliconorg",
           "format": "auto",
           "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--capital-radio",
+      "name": "Capital Radio",
+      "tagline": "Pura economía",
+      "description": "",
+      "category": "Economía",
+      "community": "Euskadi",
+      "websiteUrl": "https://www.capitalradio.es/directo",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/671/capital-radio.3bec34e0.jpg",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://mdstrm.com/audio/67d2a8685ae4234de49e40f6/live.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--rne-radio-nacional",
+      "name": "RNE Radio Nacional",
+      "tagline": "Información y programas de RNE",
+      "description": "",
+      "category": "Nacional",
+      "community": "Euskadi",
+      "websiteUrl": "https://www.rtve.es/radio/rne/",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/RNE_logo.svg/512px-RNE_logo.svg.png",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "RNE 1 Euskadi",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/eus/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--rne-radio-5",
+      "name": "RNE Radio 5",
+      "tagline": "Información continua de RNE",
+      "description": "",
+      "category": "Noticias",
+      "community": "Euskadi",
+      "websiteUrl": "https://www.rtve.es/radio/radio5/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/745/radio-5.9b6b99b4.png",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Radio 5 Vitoria",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/vit/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--cadena-100",
+      "name": "Cadena 100",
+      "tagline": "Hits y entretenimiento con gran presencia en Madrid",
+      "description": "",
+      "category": "Música",
+      "community": "Euskadi",
+      "websiteUrl": "https://www.cadena100.es",
+      "logoUrl": "https://graph.facebook.com/CADENA100/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://cadena100-cope.flumotion.com/chunks.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--rock-fm",
+      "name": "Rock FM",
+      "tagline": "Clásicos del rock con presencia fuerte en Madrid",
+      "description": "",
+      "category": "Música",
+      "community": "Euskadi",
+      "websiteUrl": "https://www.rockfm.fm",
+      "logoUrl": "https://graph.facebook.com/RockFM/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://rockfm-cope.flumotion.com/playlist.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--europa-fm",
+      "name": "Europa FM",
+      "tagline": "Música, morning shows y cultura pop",
+      "description": "",
+      "category": "Música",
+      "community": "Euskadi",
+      "websiteUrl": "https://www.europafm.com/directo/",
+      "logoUrl": "https://graph.facebook.com/tueuropafm/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://radio-atres-live.ondacero.es/api/livestream-redirect/EFMAAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--hit-fm",
+      "name": "Hit FM",
+      "tagline": "Éxitos jóvenes y radiofórmula",
+      "description": "",
+      "category": "Música",
+      "community": "Euskadi",
+      "websiteUrl": "https://www.hitfm.es",
+      "logoUrl": "https://graph.facebook.com/hitfm.es/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://adhandler.kissfmradio.cires21.com/get_link?url=https://bbhitfm.kissfmradio.cires21.com/bbhitfm.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--melodia-fm",
+      "name": "Melodía FM",
+      "tagline": "Clásicos adultos contemporáneos",
+      "description": "",
+      "category": "Música",
+      "community": "Euskadi",
+      "websiteUrl": "https://www.melodia-fm.com/directo/",
+      "logoUrl": "https://graph.facebook.com/tumelodiafm/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://radio-atres-live.ondacero.es/api/livestream-redirect/MELODIA_FMAAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--megastarfm",
+      "name": "MegaStar FM",
+      "tagline": "Hit radio joven del grupo COPE",
+      "description": "",
+      "category": "Música",
+      "community": "Euskadi",
+      "websiteUrl": "https://www.megastarfm.com/",
+      "logoUrl": "https://graph.facebook.com/MegaStarFM/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://megastar-cope.flumotion.com/playlist.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--radio-3-rne",
+      "name": "RNE Radio 3",
+      "tagline": "La emisora alternativa de RTVE",
+      "description": "",
+      "category": "Música",
+      "community": "Euskadi",
+      "websiteUrl": "https://www.rtve.es/radio/radio3/",
+      "logoUrl": "https://graph.facebook.com/radio3/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r3_main.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--radio-clasica-rne",
+      "name": "RNE Radio Clásica",
+      "tagline": "Clásica y cultura en RTVE",
+      "description": "",
+      "category": "Música",
+      "community": "Euskadi",
+      "websiteUrl": "https://www.rtve.es/radio/radioclasica/",
+      "logoUrl": "https://graph.facebook.com/radioclasicartve/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r2_main.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--onda-madrid",
+      "name": "Onda Madrid",
+      "tagline": "Radio pública madrileña",
+      "description": "",
+      "category": "Noticias",
+      "community": "Euskadi",
+      "websiteUrl": "https://www.telemadrid.es/emision-en-directo-ondamadrid/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/169/onda-madrid.365edbe5.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS 101.3 FM",
+          "url": "https://live.telemadrid.cross-media.es/6389769037112/eu-central-1/6416060453001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiajI5YjgyLmVncmVzcy5haGc3NmwiLCJhY2NvdW50X2lkIjoiNjQxNjA2MDQ1MzAwMSIsImVobiI6ImxpdmUudGVsZW1hZHJpZC5jcm9zcy1tZWRpYS5lcyIsImlzcyI6ImJsaXZlLXBsYXliYWNrLXNvdXJjZS1hcGkiLCJzdWIiOiJwYXRobWFwdG9rZW4iLCJhdWQiOlsiNjQxNjA2MDQ1MzAwMSJdLCJqdGkiOiI2Mzg5NzY5MDM3MTEyIn0.mSEPQICNIKBAWWzolDpDk6cERGe7k93rkqQunSc6cG4/playlist-hls.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "HLS 106 FM",
+          "url": "https://live.telemadrid.cross-media.es/6389770485112/eu-central-1/6416060453001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiajI5YjgyLmVncmVzcy5haGc3NmwiLCJhY2NvdW50X2lkIjoiNjQxNjA2MDQ1MzAwMSIsImVobiI6ImxpdmUudGVsZW1hZHJpZC5jcm9zcy1tZWRpYS5lcyIsImlzcyI6ImJsaXZlLXBsYXliYWNrLXNvdXJjZS1hcGkiLCJzdWIiOiJwYXRobWFwdG9rZW4iLCJhdWQiOlsiNjQxNjA2MDQ1MzAwMSJdLCJqdGkiOiI2Mzg5NzcwNDg1MTEyIn0.MZsybG7gZngXIa5TKgjC4kKqA5hzM_oyShyMLKKaohQ/playlist-hls.m3u8",
+          "format": "hls",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--rac-1",
+      "name": "RAC1",
+      "tagline": "Actualidad y deporte en catalán",
+      "description": "",
+      "category": "Noticias",
+      "community": "Euskadi",
+      "websiteUrl": "https://www.rac1.cat",
+      "logoUrl": "https://graph.facebook.com/rac1oficial/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RAC_1.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RAC_MES_1.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--libertad-fm",
+      "name": "Libertad FM",
+      "tagline": "Radio hablada desde Madrid",
+      "description": "",
+      "category": "Noticias",
+      "community": "Euskadi",
+      "websiteUrl": "https://radiolibertad.es/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/462/libertad-fm.989a605f.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://endirecto.libertadfm.es/hq-libertadfm.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "RadioCut"
+        },
+        {
+          "label": "MP3 fallback histórico",
+          "url": "http://reserva.libertadfm.es:1935/hq-libertadfm.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "Directorio público"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--rac-105",
+      "name": "RAC105",
+      "tagline": "Hits y radiofórmula catalana",
+      "description": "",
+      "category": "Música",
+      "community": "Euskadi",
+      "websiteUrl": "https://www.rac105.cat",
+      "logoUrl": "https://graph.facebook.com/rac105/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RAC105AAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RAC105.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--rg-radio-galega",
+      "name": "RG - Radio Galega",
+      "tagline": "La radio pública generalista de Galicia",
+      "description": "",
+      "category": "Noticias",
+      "community": "Euskadi",
+      "websiteUrl": "https://www.agalegaaudio.gal/videos/120144-radio-galega",
+      "logoUrl": "https://graph.facebook.com/aradiogalega/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://crtvg-radiogalega-hls.flumotion.cloud/playlist.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://wecast-b03-04.flumotion.com/radiogalega/live.mp3",
+          "format": "mp3",
+          "priority": 2,
           "source": "Radiomap"
         }
       ]
     },
     {
-      "id": "free-fm-80s-euskadi",
-      "seedName": "Free FM 80s",
-      "name": "Free FM 80s",
-      "tagline": "Canal temático de los 80",
-      "category": "Música",
+      "id": "euskadi--onda-cero-a-coruna",
+      "name": "Onda Cero A Coruña",
+      "tagline": "Onda Cero local para A Coruña",
+      "description": "",
+      "category": "Noticias",
       "community": "Euskadi",
-      "musicType": "80s",
-      "websiteUrl": "https://sites.google.com/view/freefmworld",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/827/free-fm-80s.16928eb8.png",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 2,
-      "seedRank": 57,
+      "websiteUrl": "https://www.ondacero.es/emisoras/galicia/coruna/directo/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "Principal",
-          "url": "http://freefm80.radioca.st/",
-          "format": "mp3",
-          "priority": 1,
-          "source": "radiobrowser index"
-        }
-      ]
-    },
-    {
-      "id": "free-fm-world-euskadi",
-      "seedName": "Free FM World",
-      "name": "Free FM World",
-      "tagline": "Canal temático world music",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "World",
-      "websiteUrl": "https://sites.google.com/view/freefmworld",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/690/free-fm-spain.be1f4c93.jpg",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 2,
-      "seedRank": 58,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "https://rocafmadrid.radioca.st/stream",
-          "format": "mp3",
-          "priority": 1,
-          "source": "rcast/fmstream public listing"
-        }
-      ]
-    },
-    {
-      "id": "free-fm-love-euskadi",
-      "seedName": "Free FM Love",
-      "name": "Free FM Love",
-      "tagline": "Canal temático romántico",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Romántica",
-      "websiteUrl": "https://sites.google.com/view/freefmworld",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/714/free-fm-love.c1ba1f4e.jpg",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 2,
-      "seedRank": 59,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "https://stream.zeno.fm/umsptm6rvy8uv",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TingFM listing"
-        }
-      ]
-    },
-    {
-      "id": "free-fm-top-100-euskadi",
-      "seedName": "Free FM Top 100",
-      "name": "Free FM Top 100",
-      "tagline": "Canal temático top hits",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Top 100",
-      "websiteUrl": "https://www.freefmradio.net",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/814/free-fm-top-100.dc7b4dc7.jpg",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 2,
-      "seedRank": 60,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "https://stream.zeno.fm/a5h7vfret68uv",
-          "format": "mp3",
-          "priority": 1,
-          "source": "fmstream public listing"
-        }
-      ]
-    },
-    {
-      "id": "free-fm-classical-euskadi",
-      "seedName": "Free FM Classical",
-      "name": "Free FM Classical",
-      "tagline": "Canal temático clásica",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Clásica",
-      "websiteUrl": "https://sites.google.com/view/freefmworld",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/020/free-fm-classical.0ef23d56.jpg",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 2,
-      "seedRank": 61,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "http://stream.zeno.fm/x5jlpogsaedvv",
-          "format": "mp3",
-          "priority": 1,
-          "source": "radiobrowser index"
-        }
-      ]
-    },
-    {
-      "id": "free-fm-chill-euskadi",
-      "seedName": "Free FM Chill",
-      "name": "Free FM Chill",
-      "tagline": "Canal chillout",
-      "category": "Música",
-      "community": "Euskadi",
-      "websiteUrl": "https://www.locafm.com/chill-out/player.html",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 2,
-      "seedRank": 62,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_chill_out/live",
-          "format": "stream",
+          "label": "HLS A Coruña",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/acoruna/master.m3u8",
+          "format": "m3u8",
           "priority": 1,
           "source": "TDTChannels"
+        },
+        {
+          "label": "HLS Onda Cero fallback",
+          "url": "https://atres-live.ondacero.es/live/ondacero/master.m3u8",
+          "format": "m3u8",
+          "priority": 2,
+          "source": "Onda Cero"
         }
       ]
     },
     {
-      "id": "free-fm-sports-euskadi",
-      "seedName": "Free FM Sports",
-      "name": "Free FM Sports",
-      "tagline": "Canal temático deportivo",
+      "id": "euskadi--rgm-radio-galega-musica",
+      "name": "RGM - Radio Galega Música",
+      "tagline": "La musical pública gallega",
+      "description": "",
+      "category": "Música",
+      "community": "Euskadi",
+      "websiteUrl": "https://www.agalegaaudio.gal/videos/81609-rgmusica",
+      "logoUrl": "https://graph.facebook.com/aradiogalega/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://crtvg-radiogalega-musica-hls.flumotion.cloud/playlist.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://wecast-b02-02.flumotion.com/radiogalega-musica/live.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "Radiomap"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--apq-radio",
+      "name": "APQ Radio",
+      "tagline": "Deporte asturiano y radio local",
+      "description": "",
       "category": "Deporte",
       "community": "Euskadi",
-      "websiteUrl": "https://sites.google.com/view/freefmworld",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/BtX4kYE4dC.jpg",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 2,
-      "seedRank": 63,
+      "websiteUrl": "https://www.apqradio.es",
+      "logoUrl": "https://graph.facebook.com/APQRadio.es/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "Principal",
-          "url": "https://stream.zeno.fm/31nnibfpnxktv",
+          "label": "Stream principal",
+          "url": "https://stm2.emiteonline.com:9012/apqradio",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "Stream alternativo",
+          "url": "https://stm2.emiteonline.com:9013/apqradio2",
+          "format": "auto",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--radio-coruna-ser",
+      "name": "Radio Coruña SER",
+      "tagline": "La SER local de A Coruña",
+      "description": "",
+      "category": "Noticias",
+      "community": "Euskadi",
+      "websiteUrl": "https://cadenaser.com/radio-coruna/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 A Coruña",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_CORUNA.mp3",
           "format": "mp3",
           "priority": 1,
-          "source": "TingFM listing"
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 Galicia fallback",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_GALICIA.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "Cadena SER"
         }
       ]
     },
     {
-      "id": "free-fm-x-mas-euskadi",
-      "seedName": "Free FM X-Mas",
-      "name": "Free FM X-Mas",
-      "tagline": "Canal temático navidad",
-      "category": "Música",
+      "id": "euskadi--radio-vigo-ser",
+      "name": "Radio Vigo SER",
+      "tagline": "La SER de Vigo y su área metropolitana",
+      "description": "",
+      "category": "Noticias",
       "community": "Euskadi",
-      "musicType": "Navidad",
-      "websiteUrl": "https://sites.google.com/view/freefmworld",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/6uzYMVMHad.jpg",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 4,
-      "seedRank": 154,
+      "websiteUrl": "https://cadenaser.com/radio-vigo/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "Principal",
-          "url": "http://stream.zeno.fm/h60er015v68uv",
+          "label": "MP3 Vigo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_VIGO.mp3",
           "format": "mp3",
           "priority": 1,
-          "source": "radiobrowser index"
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 Galicia fallback",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_GALICIA.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "Cadena SER"
         }
       ]
     },
     {
-      "id": "loca-fm-euskadi",
-      "seedName": "Loca FM",
-      "name": "Loca FM",
-      "tagline": "Dance y electrónica con ADN madrileño",
-      "category": "Música",
+      "id": "euskadi--cadena-cope-coruna",
+      "name": "Cadena COPE Coruña",
+      "tagline": "COPE local para A Coruña",
+      "description": "",
+      "category": "Noticias",
       "community": "Euskadi",
-      "musicType": "Dance Electrónica",
-      "websiteUrl": "https://www.locafm.com/live/player.html",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 3,
-      "seedRank": 109,
+      "websiteUrl": "https://www.cope.es/directos/a-coruna",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "Stream principal",
-          "url": "https://s3.we4stream.com:2020/stream/locafm",
-          "format": "auto",
+          "label": "MP3 A Coruña",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/lacoruna.mp3",
+          "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
+        },
+        {
+          "label": "AAC COPE fallback",
+          "url": "https://flucast09-h-cloud.flumotion.com/cope/net1.aac",
+          "format": "aac",
+          "priority": 2,
+          "source": "COPE"
         }
       ]
     },
     {
-      "id": "loca-fm-dance-euskadi",
-      "seedName": "Loca FM Dance",
-      "name": "Loca FM Dance",
-      "tagline": "Dance y electrónica 24/7",
-      "category": "Música",
+      "id": "euskadi--cadena-cope-vigo",
+      "name": "Cadena COPE Vigo",
+      "tagline": "COPE local para Vigo",
+      "description": "",
+      "category": "Noticias",
       "community": "Euskadi",
-      "musicType": "Dance Electrónica",
-      "websiteUrl": "https://www.locafm.com/",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 4,
-      "seedRank": 126,
+      "websiteUrl": "https://www.cope.es/directos/vigo",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_dance/live",
-          "format": "auto",
+          "label": "MP3 Vigo",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/vigo.mp3",
+          "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
+        },
+        {
+          "label": "AAC COPE fallback",
+          "url": "https://flucast09-h-cloud.flumotion.com/cope/net1.aac",
+          "format": "aac",
+          "priority": 2,
+          "source": "COPE"
         }
       ]
     },
     {
-      "id": "loca-fm-remember-euskadi",
-      "seedName": "Loca FM Remember",
-      "name": "Loca FM Remember",
-      "tagline": "Clásicos remember y dance",
-      "category": "Música",
+      "id": "euskadi--radio-marca-coruna",
+      "name": "Radio Marca Coruña",
+      "tagline": "Deporte local desde A Coruña",
+      "description": "",
+      "category": "Deporte",
       "community": "Euskadi",
-      "musicType": "Remember",
-      "websiteUrl": "https://www.locafm.com/",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 4,
-      "seedRank": 127,
+      "websiteUrl": "https://www.marca.com/radio.html",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_remember/live",
-          "format": "auto",
+          "label": "MP3 A Coruña",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_CORUNA.mp3",
+          "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
+        },
+        {
+          "label": "AAC Radio Marca fallback",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONALAAC.aac",
+          "format": "aac",
+          "priority": 2,
+          "source": "Radio Marca"
         }
       ]
     },
     {
-      "id": "loca-fm-house-euskadi",
-      "seedName": "Loca FM House",
-      "name": "Loca FM House",
-      "tagline": "House con ADN de club",
-      "category": "Música",
+      "id": "euskadi--onda-cero-vigo",
+      "name": "Onda Cero Vigo",
+      "tagline": "Onda Cero local para Vigo",
+      "description": "",
+      "category": "Noticias",
       "community": "Euskadi",
-      "musicType": "House",
-      "websiteUrl": "https://www.locafm.com/",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 4,
-      "seedRank": 128,
+      "websiteUrl": "https://www.ondacero.es/emisoras/galicia/vigo/directo/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_house/live",
-          "format": "auto",
+          "label": "HLS Vigo",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/vigo/master.m3u8",
+          "format": "m3u8",
           "priority": 1,
           "source": "TDTChannels"
+        },
+        {
+          "label": "HLS Onda Cero fallback",
+          "url": "https://atres-live.ondacero.es/live/ondacero/master.m3u8",
+          "format": "m3u8",
+          "priority": 2,
+          "source": "Onda Cero"
         }
       ]
     },
     {
-      "id": "loca-fm-chill-out-euskadi",
-      "seedName": "Loca FM Chill Out",
-      "name": "Loca FM Chill Out",
-      "tagline": "Chill out y downtempo",
-      "category": "Música",
+      "id": "euskadi--radio-galicia-ser",
+      "name": "Radio Galicia SER",
+      "tagline": "La SER de Santiago y área compostelana",
+      "description": "",
+      "category": "Noticias",
       "community": "Euskadi",
-      "musicType": "Chill Out",
-      "websiteUrl": "https://www.locafm.com/",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 4,
-      "seedRank": 129,
+      "websiteUrl": "https://cadenaser.com/radio-galicia/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_chill_out/live",
-          "format": "auto",
+          "label": "MP3 Galicia",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_GALICIA.mp3",
+          "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 Cadena SER fallback",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENASER_ALT1.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "Cadena SER"
         }
       ]
     },
     {
-      "id": "loca-fm-tech-house-euskadi",
-      "seedName": "Loca FM Tech House",
-      "name": "Loca FM Tech House",
-      "tagline": "Tech house continuo",
-      "category": "Música",
+      "id": "euskadi--radio-ourense-ser",
+      "name": "Radio Ourense Ser",
+      "tagline": "La SER de Ourense",
+      "description": "",
+      "category": "Noticias",
       "community": "Euskadi",
-      "musicType": "Tech House",
-      "websiteUrl": "https://www.locafm.com/",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 4,
-      "seedRank": 130,
+      "websiteUrl": "https://cadenaser.com/radio-ourense/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_tech_house/live",
-          "format": "auto",
+          "label": "MP3 Ourense",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_OURENSE.mp3",
+          "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 Galicia fallback",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_GALICIA.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "Cadena SER"
         }
       ]
     },
     {
-      "id": "loca-fm-trance-euskadi",
-      "seedName": "Loca FM Trance",
-      "name": "Loca FM Trance",
-      "tagline": "Trance y melodías electrónicas",
-      "category": "Música",
+      "id": "euskadi--cadena-cope-santiago",
+      "name": "Cadena COPE Santiago",
+      "tagline": "COPE local para Santiago",
+      "description": "",
+      "category": "Noticias",
       "community": "Euskadi",
-      "musicType": "Trance",
-      "websiteUrl": "https://www.locafm.com/",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 4,
-      "seedRank": 131,
+      "websiteUrl": "https://www.cope.es/directos/santiago",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_trance/live",
-          "format": "auto",
+          "label": "MP3 Santiago",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/santiago.mp3",
+          "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
+        },
+        {
+          "label": "AAC COPE fallback",
+          "url": "https://flucast09-h-cloud.flumotion.com/cope/net1.aac",
+          "format": "aac",
+          "priority": 2,
+          "source": "COPE"
         }
       ]
     },
     {
-      "id": "loca-fm-techno-euskadi",
-      "seedName": "Loca FM Techno",
-      "name": "Loca FM Techno",
-      "tagline": "Techno sin descanso",
-      "category": "Música",
+      "id": "euskadi--radio-pontevedra-ser",
+      "name": "Radio Pontevedra SER",
+      "tagline": "La SER de Pontevedra",
+      "description": "",
+      "category": "Noticias",
       "community": "Euskadi",
-      "musicType": "Techno",
-      "websiteUrl": "https://www.locafm.com/",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 4,
-      "seedRank": 132,
+      "websiteUrl": "https://cadenaser.com/radio-pontevedra/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_techo/live",
-          "format": "auto",
+          "label": "MP3 Pontevedra",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_PONTEVEDRA.mp3",
+          "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 Galicia fallback",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_GALICIA.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "Cadena SER"
         }
       ]
     },
     {
-      "id": "loca-fm-big-room-euskadi",
-      "seedName": "Loca FM Big Room",
-      "name": "Loca FM Big Room",
-      "tagline": "Big room y festival",
-      "category": "Música",
+      "id": "euskadi--onda-cero-pontevedra",
+      "name": "Onda Cero Pontevedra",
+      "tagline": "Onda Cero local para Pontevedra",
+      "description": "",
+      "category": "Noticias",
       "community": "Euskadi",
-      "musicType": "Big Room",
-      "websiteUrl": "https://www.locafm.com/",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 4,
-      "seedRank": 133,
+      "websiteUrl": "https://www.ondacero.es/emisoras/galicia/pontevedra/directo/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_big_room/live",
-          "format": "auto",
+          "label": "HLS Pontevedra",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/pontevedra/master.m3u8",
+          "format": "m3u8",
           "priority": 1,
           "source": "TDTChannels"
+        },
+        {
+          "label": "HLS Onda Cero fallback",
+          "url": "https://atres-live.ondacero.es/live/ondacero/master.m3u8",
+          "format": "m3u8",
+          "priority": 2,
+          "source": "Onda Cero"
         }
       ]
     },
     {
-      "id": "loca-fm-deep-house-euskadi",
-      "seedName": "Loca FM Deep House",
-      "name": "Loca FM Deep House",
-      "tagline": "Deep house elegante",
-      "category": "Música",
+      "id": "euskadi--onda-cero-santiago",
+      "name": "Onda Cero Santiago",
+      "tagline": "Onda Cero local para Santiago",
+      "description": "",
+      "category": "Noticias",
       "community": "Euskadi",
-      "musicType": "Deep House",
-      "websiteUrl": "https://www.locafm.com/",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 4,
-      "seedRank": 134,
+      "websiteUrl": "https://www.ondacero.es/emisoras/galicia/santiago/directo/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_deep_house/live",
-          "format": "auto",
+          "label": "HLS Santiago",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/santiago/master.m3u8",
+          "format": "m3u8",
           "priority": 1,
           "source": "TDTChannels"
+        },
+        {
+          "label": "HLS Onda Cero fallback",
+          "url": "https://atres-live.ondacero.es/live/ondacero/master.m3u8",
+          "format": "m3u8",
+          "priority": 2,
+          "source": "Onda Cero"
         }
       ]
     },
     {
-      "id": "loca-fm-sessions-euskadi",
-      "seedName": "Loca FM Sessions",
-      "name": "Loca FM Sessions",
-      "tagline": "Sesiones y mezclas continuas",
-      "category": "Música",
+      "id": "euskadi--cadena-cope-pontevedra",
+      "name": "Cadena COPE Pontevedra",
+      "tagline": "COPE local para Pontevedra",
+      "description": "",
+      "category": "Noticias",
       "community": "Euskadi",
-      "musicType": "Sesiones DJ",
-      "websiteUrl": "https://www.locafm.com/",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 4,
-      "seedRank": 135,
+      "websiteUrl": "https://www.cope.es/directos/pontevedra",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_sessions/live",
-          "format": "auto",
+          "label": "MP3 Pontevedra",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/pontevedra.mp3",
+          "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
+        },
+        {
+          "label": "AAC COPE fallback",
+          "url": "https://flucast09-h-cloud.flumotion.com/cope/net1.aac",
+          "format": "aac",
+          "priority": 2,
+          "source": "COPE"
         }
       ]
     },
     {
-      "id": "loca-fm-ambient-euskadi",
-      "seedName": "Loca FM Ambient",
-      "name": "Loca FM Ambient",
-      "tagline": "Ambient y electrónica relajada",
-      "category": "Música",
+      "id": "euskadi--radio-marca-vigo",
+      "name": "Radio Marca Vigo",
+      "tagline": "Deporte local desde Vigo",
+      "description": "",
+      "category": "Deporte",
       "community": "Euskadi",
-      "musicType": "Ambient",
-      "websiteUrl": "https://www.locafm.com/ambient/player.html",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 4,
-      "seedRank": 136,
+      "websiteUrl": "https://www.marca.com/radio.html",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_ambient/live",
-          "format": "auto",
+          "label": "MP3 Vigo",
+          "url": "https://streaming.enacast.com/radiomarcavigoHD.mp3",
+          "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
+        },
+        {
+          "label": "AAC Radio Marca fallback",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONALAAC.aac",
+          "format": "aac",
+          "priority": 2,
+          "source": "Radio Marca"
         }
       ]
     },
     {
-      "id": "loca-fm-hard-euskadi",
-      "seedName": "Loca FM Hard",
-      "name": "Loca FM Hard",
-      "tagline": "Hard dance y makina",
-      "category": "Música",
+      "id": "euskadi--onda-cero-ourense",
+      "name": "Onda Cero Ourense",
+      "tagline": "Onda Cero local para Ourense",
+      "description": "",
+      "category": "Noticias",
       "community": "Euskadi",
-      "musicType": "Hard Dance",
-      "websiteUrl": "https://www.locafm.com/hard/player.html",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
-      "sourceSeed": "verified_pool",
-      "seedPage": 4,
-      "seedRank": 137,
+      "websiteUrl": "https://www.ondacero.es/emisoras/galicia/ourense/directo/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_hard/live",
-          "format": "auto",
+          "label": "HLS Ourense",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/ourense/master.m3u8",
+          "format": "m3u8",
           "priority": 1,
           "source": "TDTChannels"
+        },
+        {
+          "label": "HLS Onda Cero fallback",
+          "url": "https://atres-live.ondacero.es/live/ondacero/master.m3u8",
+          "format": "m3u8",
+          "priority": 2,
+          "source": "Onda Cero"
+        }
+      ]
+    },
+    {
+      "id": "euskadi--cadena-cope-ourense",
+      "name": "Cadena COPE Ourense",
+      "tagline": "COPE local para Ourense",
+      "description": "",
+      "category": "Noticias",
+      "community": "Euskadi",
+      "websiteUrl": "https://www.cope.es/directos/ourense",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 Ourense",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/orense.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "AAC COPE fallback",
+          "url": "https://flucast09-h-cloud.flumotion.com/cope/net1.aac",
+          "format": "aac",
+          "priority": 2,
+          "source": "COPE"
         }
       ]
     }

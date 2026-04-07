@@ -1,12 +1,12 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Catálogo GitHub optimizado y sincronizado.",
+  "syncMessage": "Catálogo autonómico ampliado a 17 comunidades con 100 emisoras reproducibles por comunidad.",
   "stats": {
-    "seedCount": 902,
-    "playableCount": 801,
-    "verifiedCount": 739,
-    "candidateCount": 62,
-    "pendingCount": 101
+    "seedCount": 1725,
+    "playableCount": 1725,
+    "verifiedCount": 1725,
+    "candidateCount": 0,
+    "pendingCount": 0
   },
   "featuredIds": [
     "mariskalrock-radio",
@@ -69,6 +69,13 @@
       "playableCount": 100
     },
     {
+      "id": "aragon",
+      "name": "Aragón",
+      "path": "communities/aragon.json",
+      "seedCount": 100,
+      "playableCount": 100
+    },
+    {
       "id": "asturias",
       "name": "Asturias",
       "path": "communities/asturias.json",
@@ -76,11 +83,88 @@
       "playableCount": 100
     },
     {
+      "id": "illes-balears",
+      "name": "Illes Balears",
+      "path": "communities/illes-balears.json",
+      "seedCount": 100,
+      "playableCount": 100
+    },
+    {
+      "id": "canarias",
+      "name": "Canarias",
+      "path": "communities/canarias.json",
+      "seedCount": 100,
+      "playableCount": 100
+    },
+    {
+      "id": "cantabria",
+      "name": "Cantabria",
+      "path": "communities/cantabria.json",
+      "seedCount": 100,
+      "playableCount": 100
+    },
+    {
+      "id": "castilla-la-mancha",
+      "name": "Castilla-La Mancha",
+      "path": "communities/castilla-la-mancha.json",
+      "seedCount": 100,
+      "playableCount": 100
+    },
+    {
+      "id": "castilla-y-leon",
+      "name": "Castilla y León",
+      "path": "communities/castilla-y-leon.json",
+      "seedCount": 100,
+      "playableCount": 100
+    },
+    {
       "id": "catalunya",
       "name": "Catalunya",
       "path": "communities/catalunya.json",
-      "seedCount": 271,
-      "playableCount": 170
+      "seedCount": 100,
+      "playableCount": 100
+    },
+    {
+      "id": "comunitat-valenciana",
+      "name": "Comunitat Valenciana",
+      "path": "communities/comunitat-valenciana.json",
+      "seedCount": 100,
+      "playableCount": 100
+    },
+    {
+      "id": "extremadura",
+      "name": "Extremadura",
+      "path": "communities/extremadura.json",
+      "seedCount": 100,
+      "playableCount": 100
+    },
+    {
+      "id": "galicia",
+      "name": "Galicia",
+      "path": "communities/galicia.json",
+      "seedCount": 100,
+      "playableCount": 100
+    },
+    {
+      "id": "madrid",
+      "name": "Madrid",
+      "path": "communities/madrid.json",
+      "seedCount": 100,
+      "playableCount": 100
+    },
+    {
+      "id": "murcia",
+      "name": "Región de Murcia",
+      "path": "communities/murcia.json",
+      "seedCount": 100,
+      "playableCount": 100
+    },
+    {
+      "id": "navarra",
+      "name": "Navarra",
+      "path": "communities/navarra.json",
+      "seedCount": 100,
+      "playableCount": 100
     },
     {
       "id": "euskadi",
@@ -90,23 +174,9 @@
       "playableCount": 100
     },
     {
-      "id": "galicia",
-      "name": "Galicia",
-      "path": "communities/galicia.json",
-      "seedCount": 106,
-      "playableCount": 106
-    },
-    {
       "id": "la-rioja",
       "name": "La Rioja",
       "path": "communities/la-rioja.json",
-      "seedCount": 100,
-      "playableCount": 100
-    },
-    {
-      "id": "madrid",
-      "name": "Madrid",
-      "path": "communities/madrid.json",
       "seedCount": 100,
       "playableCount": 100
     },
