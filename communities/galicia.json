@@ -7,16 +7,15 @@
   "verifiedCount": 64,
   "candidateCount": 42,
   "pendingCount": 0,
-  "notes": "Bloque Galicia ampliado a 124 entradas alineadas con la lista actual de myTuner Galicia. Se han corregido alias duplicados y vacíos; una parte del bloque queda como candidate cuando todavía falta aislar el endpoint exacto del emisor. Pasada fina: se corrigieron webs y descripciones claramente heredadas de otras marcas, y se subieron a verified varias fichas con señal/localidad mejor asentadas.",
   "stations": [
     {
       "id": "loca-fm",
       "seedName": "Loca FM",
       "name": "Loca FM",
       "tagline": "Dance y electrónica con ADN madrileño",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a dance electrónica, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Galicia",
+      "musicType": "Dance Electrónica",
       "websiteUrl": "https://www.locafm.com/live/player.html",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "language": "es",
@@ -32,15 +31,13 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Dance Electrónica"
+      ]
     },
     {
       "id": "rg-radio-galega",
       "seedName": "RG - Radio Galega",
       "name": "RG - Radio Galega",
       "tagline": "La radio pública generalista de Galicia",
-      "description": "Emisora pública generalista de la CRTVG para Galicia, sembrada desde myTuner y verificada con endpoints públicos de CRTVG/Radiomap.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.agalegaaudio.gal/videos/120144-radio-galega",
@@ -72,9 +69,9 @@
       "seedName": "Free FM Rock",
       "name": "Free FM Rock",
       "tagline": "Canal temático rock",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a rock, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Galicia",
+      "musicType": "Rock",
       "websiteUrl": "https://www.freefmrock.com/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/769/free-fm.aa638097.jpg",
       "language": "es",
@@ -90,15 +87,13 @@
           "priority": 1,
           "source": "fmstream (public listing)"
         }
-      ],
-      "musicType": "Rock"
+      ]
     },
     {
       "id": "kyoto-fm",
       "seedName": "Kyoto FM",
       "name": "Kyoto FM",
       "tagline": "Dance y electrónica desde Galicia",
-      "description": "Emisora gallega online centrada en electrónica, dance y sesiones.",
       "category": "Música",
       "community": "Galicia",
       "musicType": "Dance",
@@ -124,7 +119,6 @@
       "seedName": "Onda Cero A Coruña",
       "name": "Onda Cero A Coruña",
       "tagline": "Onda Cero local para A Coruña",
-      "description": "Señal local de Onda Cero en A Coruña con HLS dedicado y respaldo nacional.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.ondacero.es/emisoras/galicia/coruna/directo/",
@@ -156,9 +150,9 @@
       "seedName": "Free FM Classics",
       "name": "Free FM Classics",
       "tagline": "Clásicos pop y oldies online",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a oldies, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Galicia",
+      "musicType": "Oldies",
       "websiteUrl": "https://www.freefmworld.com",
       "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fwww.freefmworld.com",
       "language": "es",
@@ -174,15 +168,13 @@
           "priority": 1,
           "source": "Radiomap"
         }
-      ],
-      "musicType": "Oldies"
+      ]
     },
     {
       "id": "orquestas",
       "seedName": "ORQUESTAS",
       "name": "ORQUESTAS",
       "tagline": "Fiesta gallega y música popular",
-      "description": "Emisora musical gallega orientada a fiesta, verbena y repertorio popular.",
       "category": "Música",
       "community": "Galicia",
       "musicType": "Variedad",
@@ -208,7 +200,6 @@
       "seedName": "RGM - Radio Galega Música",
       "name": "RGM - Radio Galega Música",
       "tagline": "La musical pública gallega",
-      "description": "Canal musical de la CRTVG orientado a música gallega y actualidad musical, con verificación en CRTVG y Radiomap.",
       "category": "Música",
       "community": "Galicia",
       "musicType": "Variedad",
@@ -241,9 +232,9 @@
       "seedName": "Free FM 80s",
       "name": "Free FM 80s",
       "tagline": "Canal temático de los 80",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a 80s, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Galicia",
+      "musicType": "80s",
       "websiteUrl": "https://sites.google.com/view/freefmworld",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/827/free-fm-80s.16928eb8.png",
       "language": "es",
@@ -259,15 +250,13 @@
           "priority": 1,
           "source": "radiobrowser index"
         }
-      ],
-      "musicType": "80s"
+      ]
     },
     {
       "id": "radio-coruna-ser",
       "seedName": "Radio Coruña SER",
       "name": "Radio Coruña SER",
       "tagline": "La SER local de A Coruña",
-      "description": "Desconexión coruñesa de la Cadena SER, muy visible en la semilla de Galicia.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://cadenaser.com/radio-coruna/",
@@ -299,7 +288,6 @@
       "seedName": "Radio Vigo SER",
       "name": "Radio Vigo SER",
       "tagline": "La SER de Vigo y su área metropolitana",
-      "description": "Emisora local de Cadena SER en Vigo, con desconexión propia y fuerte peso deportivo.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://cadenaser.com/radio-vigo/",
@@ -331,7 +319,6 @@
       "seedName": "Cadena COPE Coruña",
       "name": "Cadena COPE Coruña",
       "tagline": "COPE local para A Coruña",
-      "description": "Señal coruñesa de COPE con stream local y respaldo de la cadena nacional.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.cope.es/directos/a-coruna",
@@ -363,10 +350,11 @@
       "seedName": "Cadena Dance Spain",
       "name": "Cadena Dance Spain",
       "tagline": "Canal dance",
-      "description": "Entrada sembrada desde myTuner Galicia. Mientras se localiza el endpoint exacto de Cadena Dance Spain, se deja una señal dance operativa y estable como provisional.",
       "category": "Música",
       "community": "Galicia",
       "musicType": "Dance",
+      "websiteUrl": "https://www.locafm.com/live/player.html",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
@@ -380,16 +368,13 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "websiteUrl": "https://www.locafm.com/live/player.html"
+      ]
     },
     {
       "id": "cadena-cope-vigo",
       "seedName": "Cadena COPE Vigo",
       "name": "Cadena COPE Vigo",
       "tagline": "COPE local para Vigo",
-      "description": "Desconexión viguesa de COPE, priorizada por ser una plaza fuerte del catálogo gallego.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.cope.es/directos/vigo",
@@ -421,7 +406,6 @@
       "seedName": "Radio Marca Coruña",
       "name": "Radio Marca Coruña",
       "tagline": "Deporte local desde A Coruña",
-      "description": "Señal deportiva local de A Coruña integrada en la red Radio Marca.",
       "category": "Deporte",
       "community": "Galicia",
       "websiteUrl": "https://www.marca.com/radio.html",
@@ -453,7 +437,6 @@
       "seedName": "Radio Voz Coruña",
       "name": "Radio Voz Coruña",
       "tagline": "Radio Voz en A Coruña",
-      "description": "Variante local de Radio Voz para A Coruña, sembrada desde páginas gallegas de myTuner y verificada con stream público de Radiomap.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.radiovoz.com",
@@ -478,7 +461,6 @@
       "seedName": "Onda Cero Vigo",
       "name": "Onda Cero Vigo",
       "tagline": "Onda Cero local para Vigo",
-      "description": "Desconexión viguesa de Onda Cero, priorizada por su peso en el catálogo gallego.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.ondacero.es/emisoras/galicia/vigo/directo/",
@@ -510,7 +492,6 @@
       "seedName": "Radio Galicia SER",
       "name": "Radio Galicia SER",
       "tagline": "La SER de Santiago y área compostelana",
-      "description": "Marca histórica de la Cadena SER en Galicia con foco en Santiago y actualidad autonómica.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://cadenaser.com/radio-galicia/",
@@ -542,10 +523,11 @@
       "seedName": "Free FM World",
       "name": "Free FM World",
       "tagline": "Canal temático world music",
-      "description": "Entrada alineada con myTuner Galicia; stream público contrastado en directorios abiertos de radio online.",
       "category": "Música",
       "community": "Galicia",
       "musicType": "World",
+      "websiteUrl": "https://sites.google.com/view/freefmworld",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/690/free-fm-spain.be1f4c93.jpg",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
@@ -559,16 +541,13 @@
           "priority": 1,
           "source": "rcast/fmstream public listing"
         }
-      ],
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/690/free-fm-spain.be1f4c93.jpg",
-      "websiteUrl": "https://sites.google.com/view/freefmworld"
+      ]
     },
     {
       "id": "esradio-galicia",
       "seedName": "EsRadio Galicia",
       "name": "EsRadio Galicia",
       "tagline": "La marca regional de esRadio en Galicia",
-      "description": "Señal de esRadio orientada a Galicia, presente en myTuner y con fallback de la cadena nacional.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.esradiogalicia.com",
@@ -600,9 +579,9 @@
       "seedName": "Muralla Metal Rock",
       "name": "Muralla Metal Rock",
       "tagline": "Canal temático rock",
-      "description": "Entrada sembrada desde myTuner Galicia. Mientras se localiza el endpoint exacto de Muralla Metal Rock, se deja una señal online alternativa operativa como provisional.",
       "category": "Música",
       "community": "Galicia",
+      "musicType": "Rock",
       "websiteUrl": "https://www.scannerfm.com",
       "logoUrl": "https://graph.facebook.com/scannerFM/picture?width=200&height=200",
       "language": "es",
@@ -618,17 +597,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Rock"
+      ]
     },
     {
       "id": "free-fm-love",
       "seedName": "Free FM Love",
       "name": "Free FM Love",
       "tagline": "Canal temático romántico",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a romántica, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Galicia",
+      "musicType": "Romántica",
       "websiteUrl": "https://sites.google.com/view/freefmworld",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/714/free-fm-love.c1ba1f4e.jpg",
       "language": "es",
@@ -644,15 +622,13 @@
           "priority": 1,
           "source": "TingFM listing"
         }
-      ],
-      "musicType": "Romántica"
+      ]
     },
     {
       "id": "radio-ourense-ser",
       "seedName": "Radio Ourense Ser",
       "name": "Radio Ourense Ser",
       "tagline": "La SER de Ourense",
-      "description": "Desconexión de Cadena SER en Ourense, verificada con endpoint específico de la cadena.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://cadenaser.com/radio-ourense/",
@@ -684,7 +660,6 @@
       "seedName": "Cadena COPE Santiago",
       "name": "Cadena COPE Santiago",
       "tagline": "COPE local para Santiago",
-      "description": "Emisora local de COPE para Santiago de Compostela y área próxima.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.cope.es/directos/santiago",
@@ -716,7 +691,6 @@
       "seedName": "Radio Pontevedra SER",
       "name": "Radio Pontevedra SER",
       "tagline": "La SER de Pontevedra",
-      "description": "Señal local de la Cadena SER para Pontevedra con respaldo de la señal gallega.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://cadenaser.com/radio-pontevedra/",
@@ -748,10 +722,11 @@
       "seedName": "Free FM Top 100",
       "name": "Free FM Top 100",
       "tagline": "Canal temático top hits",
-      "description": "Entrada alineada con myTuner Galicia; stream público contrastado en directorios abiertos de radio online.",
       "category": "Música",
       "community": "Galicia",
       "musicType": "Top 100",
+      "websiteUrl": "https://www.freefmradio.net",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/814/free-fm-top-100.dc7b4dc7.jpg",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
@@ -765,16 +740,13 @@
           "priority": 1,
           "source": "fmstream public listing"
         }
-      ],
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/814/free-fm-top-100.dc7b4dc7.jpg",
-      "websiteUrl": "https://www.freefmradio.net"
+      ]
     },
     {
       "id": "radio-verbena",
       "seedName": "Radio Verbena",
       "name": "Radio Verbena",
       "tagline": "Fiesta gallega y música popular",
-      "description": "Emisora musical gallega orientada a fiesta, verbena y repertorio popular.",
       "category": "Música",
       "community": "Galicia",
       "musicType": "Variedad",
@@ -800,7 +772,6 @@
       "seedName": "Onda Cero Pontevedra",
       "name": "Onda Cero Pontevedra",
       "tagline": "Onda Cero local para Pontevedra",
-      "description": "Desconexión de Onda Cero en Pontevedra con señal HLS específica.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.ondacero.es/emisoras/galicia/pontevedra/directo/",
@@ -832,7 +803,6 @@
       "seedName": "Onda Cero Santiago",
       "name": "Onda Cero Santiago",
       "tagline": "Onda Cero local para Santiago",
-      "description": "Señal compostelana de Onda Cero, útil como cobertura local de noticias y magazines.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.ondacero.es/emisoras/galicia/santiago/directo/",
@@ -864,7 +834,6 @@
       "seedName": "Cadena COPE Pontevedra",
       "name": "Cadena COPE Pontevedra",
       "tagline": "COPE local para Pontevedra",
-      "description": "Señal de COPE en Pontevedra con cobertura informativa de proximidad.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.cope.es/directos/pontevedra",
@@ -896,9 +865,9 @@
       "seedName": "Free FM Classical",
       "name": "Free FM Classical",
       "tagline": "Canal temático clásica",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a clásica, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Galicia",
+      "musicType": "Clásica",
       "websiteUrl": "https://sites.google.com/view/freefmworld",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/020/free-fm-classical.0ef23d56.jpg",
       "language": "es",
@@ -914,15 +883,13 @@
           "priority": 1,
           "source": "radiobrowser index"
         }
-      ],
-      "musicType": "Clásica"
+      ]
     },
     {
       "id": "radio-marca-vigo",
       "seedName": "Radio Marca Vigo",
       "name": "Radio Marca Vigo",
       "tagline": "Deporte local desde Vigo",
-      "description": "Marca deportiva local de Vigo con stream dedicado y apoyo del feed nacional de Radio Marca.",
       "category": "Deporte",
       "community": "Galicia",
       "websiteUrl": "https://www.marca.com/radio.html",
@@ -954,7 +921,6 @@
       "seedName": "Cadena COPE Más Coruña",
       "name": "Cadena COPE Más Coruña",
       "tagline": "COPE local para A Coruña",
-      "description": "Entrada sembrada desde myTuner Galicia. Mientras se aísla el endpoint exacto del emisor, se deja una señal operativa de la misma marca, familia o estilo para que la ficha quede utilizable.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.cope.es/directos/a-coruna",
@@ -986,7 +952,6 @@
       "seedName": "Radio Líder España",
       "name": "Radio Líder España",
       "tagline": "Generalista privada con foco gallego",
-      "description": "Cadena privada muy reconocible en Galicia, incorporada con su directo oficial.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://radiolider.com/en-directo/",
@@ -1011,7 +976,6 @@
       "seedName": "Formula Fun Galicia",
       "name": "Formula Fun Galicia",
       "tagline": "Hits actuales y ritmo gallego",
-      "description": "Emisora musical gallega online con perfil de hits y entretenimiento.",
       "category": "Música",
       "community": "Galicia",
       "musicType": "Hits",
@@ -1037,7 +1001,6 @@
       "seedName": "Free FM Chill",
       "name": "Free FM Chill",
       "tagline": "Cobertura provisional reproducible",
-      "description": "Canal musical incorporado al bloque de Catalunya, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Galicia",
       "websiteUrl": "https://www.locafm.com/chill-out/player.html",
@@ -1062,7 +1025,6 @@
       "seedName": "Onda Cero Ourense",
       "name": "Onda Cero Ourense",
       "tagline": "Onda Cero local para Ourense",
-      "description": "Señal local de Onda Cero para Ourense, mantenida con fallback nacional.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.ondacero.es/emisoras/galicia/ourense/directo/",
@@ -1094,9 +1056,9 @@
       "seedName": "Free FM X-Mas",
       "name": "Free FM X-Mas",
       "tagline": "Canal temático navidad",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a navidad, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Galicia",
+      "musicType": "Navidad",
       "websiteUrl": "https://sites.google.com/view/freefmworld",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/6uzYMVMHad.jpg",
       "language": "es",
@@ -1112,15 +1074,13 @@
           "priority": 1,
           "source": "radiobrowser index"
         }
-      ],
-      "musicType": "Navidad"
+      ]
     },
     {
       "id": "cadena-cope-ourense",
       "seedName": "Cadena COPE Ourense",
       "name": "Cadena COPE Ourense",
       "tagline": "COPE local para Ourense",
-      "description": "Emisora local de COPE en Ourense con stream específico y fallback nacional.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.cope.es/directos/ourense",
@@ -1152,7 +1112,6 @@
       "seedName": "Free FM Sports",
       "name": "Free FM Sports",
       "tagline": "Canal temático deportivo",
-      "description": "Estación añadida al bloque de Catalunya, con stream público ya integrado y logo reutilizable.",
       "category": "Deporte",
       "community": "Galicia",
       "websiteUrl": "https://sites.google.com/view/freefmworld",
@@ -1177,7 +1136,6 @@
       "seedName": "Onda Cero Lugo",
       "name": "Onda Cero Lugo",
       "tagline": "Onda Cero local para Lugo",
-      "description": "Desconexión lucense de Onda Cero con señal específica verificada.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.ondacero.es/emisoras/galicia/lugo/directo/",
@@ -1209,7 +1167,6 @@
       "seedName": "Son Galicia Radio",
       "name": "Son Galicia Radio",
       "tagline": "Música y raíz gallega en clave pública",
-      "description": "Señal temática de CRTVG orientada a música gallega, folk y sonido regional.",
       "category": "Música",
       "community": "Galicia",
       "musicType": "Folk",
@@ -1235,7 +1192,6 @@
       "seedName": "RadioVoz Vigo",
       "name": "RadioVoz Vigo",
       "tagline": "Radio Voz en Vigo",
-      "description": "Variante local de Radio Voz para Vigo, sembrada desde myTuner Galicia y verificada con stream público de Radiomap.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.radiovoz.com",
@@ -1260,7 +1216,6 @@
       "seedName": "Radio Arosa SER",
       "name": "Radio Arosa SER",
       "tagline": "La SER de O Salnés y Arosa",
-      "description": "Emisora comarcal de la SER para O Salnés y el entorno de Arosa.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://cadenaser.com/radio-arosa/",
@@ -1292,9 +1247,9 @@
       "seedName": "Órbita Dance",
       "name": "Órbita Dance",
       "tagline": "Dance y electrónica 24/7",
-      "description": "Entrada sembrada desde myTuner Galicia. Mientras se aísla el endpoint exacto del emisor, se deja una señal operativa de la misma marca, familia o estilo para que la ficha quede utilizable.",
       "category": "Música",
       "community": "Galicia",
+      "musicType": "Dance Electrónica",
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "language": "es",
@@ -1310,15 +1265,13 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Dance Electrónica"
+      ]
     },
     {
       "id": "cadena-cope-lugo",
       "seedName": "Cadena COPE Lugo",
       "name": "Cadena COPE Lugo",
       "tagline": "COPE local para Lugo",
-      "description": "Desconexión de COPE en Lugo con endpoint local dedicado.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.cope.es/directos/lugo",
@@ -1350,7 +1303,6 @@
       "seedName": "SiRadio - Comunidade Galega",
       "name": "SiRadio - Comunidade Galega",
       "tagline": "Cadena gallega de proximidad",
-      "description": "Entrada sembrada desde myTuner Galicia. Se mantiene como candidata mientras se termina de aislar el endpoint exacto de esta variante dentro de la red SiRadio.",
       "category": "Música",
       "community": "Galicia",
       "musicType": "Variedad",
@@ -1376,7 +1328,6 @@
       "seedName": "Radio Voz Santiago",
       "name": "Radio Voz Santiago",
       "tagline": "Radio Voz en Santiago de Compostela",
-      "description": "Señal local de Radio Voz para Santiago, sembrada desde myTuner Galicia y verificada con stream público de Radiomap.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.radiovoz.com",
@@ -1401,7 +1352,6 @@
       "seedName": "Cadena COPE Ferrol",
       "name": "Cadena COPE Ferrol",
       "tagline": "COPE local para Ferrolterra",
-      "description": "Señal local de COPE en Ferrol con respaldo de cadena nacional para fallback.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.cope.es/directos/ferrol",
@@ -1433,9 +1383,9 @@
       "seedName": "Fórmula Éxitos MP",
       "name": "Fórmula Éxitos MP",
       "tagline": "Canal pop temático de MDT",
-      "description": "Entrada sembrada desde myTuner Galicia. Mientras se aísla el endpoint exacto del emisor, se deja una señal operativa de la misma marca, familia o estilo para que la ficha quede utilizable.",
       "category": "Música",
       "community": "Galicia",
+      "musicType": "Pop",
       "websiteUrl": "https://mdtradio.com/canales-tematicos/",
       "logoUrl": "https://mdtradio.com/wp-content/uploads/2024/11/Logo-MDT-Radio-Pop-Stars-Fm2.jpg",
       "language": "es",
@@ -1451,15 +1401,13 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Pop"
+      ]
     },
     {
       "id": "radiovoz-ferrol",
       "seedName": "RadioVoz Ferrol",
       "name": "RadioVoz Ferrol",
       "tagline": "Desconexión local de RadioVoz para Ferrol",
-      "description": "Entrada sembrada desde myTuner Galicia y apoyada en un endpoint local de la propia red RadioVoz; se deja ya como ficha local operativa dentro de la cadena.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.radiovoz.es/",
@@ -1484,7 +1432,6 @@
       "seedName": "Radio Valga",
       "name": "Radio Valga",
       "tagline": "107.9 FM de Valga en directo",
-      "description": "Rádio municipal de Valga con emisión online pública; se mantiene con stream operativo y metadatos alineados con su web.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://radiovalga.es/",
@@ -1509,7 +1456,6 @@
       "seedName": "Cadena COPE Ribadeo",
       "name": "Cadena COPE Ribadeo",
       "tagline": "COPE local para A Mariña",
-      "description": "Desconexión de COPE en Ribadeo, útil para reforzar cobertura del norte lucense.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.cope.es/directos/ribadeo",
@@ -1541,7 +1487,6 @@
       "seedName": "Onda Cero Monforte de Lemos",
       "name": "Onda Cero Monforte de Lemos",
       "tagline": "Onda Cero local para Monforte",
-      "description": "Señal comarcal de Onda Cero en Monforte de Lemos.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.ondacero.es/emisoras/galicia/monforte-lemos/directo/",
@@ -1573,7 +1518,6 @@
       "seedName": "Radio Principal Monforte SER",
       "name": "Radio Principal Monforte SER",
       "tagline": "Señal SER para Monforte",
-      "description": "Emisora comarcal de referencia en Monforte añadida con su stream dedicado.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "http://www.radioytele.es",
@@ -1605,7 +1549,6 @@
       "seedName": "Eme Radio FM",
       "name": "Eme Radio FM",
       "tagline": "Radio Voz en Vigo",
-      "description": "Entrada sembrada desde myTuner Galicia. Mientras se aísla el endpoint exacto del emisor, se deja una señal operativa de la misma marca, familia o estilo para que la ficha quede utilizable.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.radiovoz.com",
@@ -1630,7 +1573,6 @@
       "seedName": "Radio Líder",
       "name": "Radio Líder",
       "tagline": "Generalista privada con foco gallego",
-      "description": "Cadena privada muy reconocible en Galicia, incorporada con su directo oficial.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://radiolider.com/en-directo/",
@@ -1655,7 +1597,6 @@
       "seedName": "SiRadio - Vigo",
       "name": "SiRadio - Vigo",
       "tagline": "Cadena gallega con emisión para Vigo",
-      "description": "Entrada sembrada desde myTuner Galicia. La marca y la web ya quedan alineadas con SiRadio; el stream sigue marcado como provisional hasta aislar el endpoint propio.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.siradio.org",
@@ -1680,7 +1621,6 @@
       "seedName": "Radio 8 Vigo 88.1 FM",
       "name": "Radio 8 Vigo 88.1 FM",
       "tagline": "Radio Voz en Vigo",
-      "description": "Entrada sembrada desde myTuner Galicia. Mientras se aísla el endpoint exacto del emisor, se deja una señal operativa de la misma marca, familia o estilo para que la ficha quede utilizable.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.radiovoz.com",
@@ -1705,7 +1645,6 @@
       "seedName": "Radio Nordés SER",
       "name": "Radio Nordés SER",
       "tagline": "La SER del noroeste coruñés",
-      "description": "Cadena SER en la Costa da Morte y el noroeste coruñés, mantenida con stream local y fallback gallego de la propia red.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://cadenaser.com/radio-nordes/",
@@ -1737,7 +1676,6 @@
       "seedName": "Radio Municipal de Tui",
       "name": "Radio Municipal de Tui",
       "tagline": "La radio municipal de Tui",
-      "description": "Emisora local del Concello de Tui con señal pública estable.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.tui.gal/gl/servizos/radio-municipal-tui",
@@ -1762,7 +1700,6 @@
       "seedName": "Radio Zumba",
       "name": "Radio Zumba",
       "tagline": "Latino urbano y ritmo",
-      "description": "Entrada sembrada desde myTuner Galicia. Mientras se aísla el endpoint exacto del emisor, se deja una señal operativa de la misma marca, familia o estilo para que la ficha quede utilizable.",
       "category": "Música",
       "community": "Galicia",
       "musicType": "Latino",
@@ -1770,6 +1707,8 @@
       "logoUrl": "https://graph.facebook.com/GozaderaSpain/picture?height=200&width=200",
       "language": "es",
       "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 80,
       "verificationStatus": "candidate",
       "streams": [
         {
@@ -1779,16 +1718,13 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "seedPage": 2,
-      "seedRank": 80
+      ]
     },
     {
       "id": "radio-lider-santiago",
       "seedName": "Radio Líder Santiago",
       "name": "Radio Líder Santiago",
       "tagline": "Generalista privada con foco gallego",
-      "description": "Entrada sembrada desde myTuner Galicia. Mientras se localiza el endpoint exacto de Radio Líder Santiago, se deja una señal local operativa de Santiago como provisional.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.radiovoz.com",
@@ -1813,9 +1749,9 @@
       "seedName": "Radio Peter Club",
       "name": "Radio Peter Club",
       "tagline": "Techno sin descanso",
-      "description": "Entrada sembrada desde myTuner Galicia. Mientras se aísla el endpoint exacto del emisor, se deja una señal operativa de la misma marca, familia o estilo para que la ficha quede utilizable.",
       "category": "Música",
       "community": "Galicia",
+      "musicType": "Techno",
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "language": "es",
@@ -1831,15 +1767,13 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Techno"
+      ]
     },
     {
       "id": "radio-xallas-107-5-fm",
       "seedName": "Radio Xallas 107.5 FM",
       "name": "Radio Xallas 107.5 FM",
       "tagline": "107.5 FM de Santa Comba",
-      "description": "Emisora local de Santa Comba presente en myTuner y directorios gallegos; se mantiene con stream operativo mientras se sigue afinando su metadato oficial.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://concellodenegreira.gal",
@@ -1864,7 +1798,6 @@
       "seedName": "Buena Onda Musical",
       "name": "Buena Onda Musical",
       "tagline": "Latino y fiesta desde Galicia",
-      "description": "Entrada sembrada desde myTuner Galicia. Mientras se aísla el endpoint exacto del emisor, se deja una señal operativa de la misma marca, familia o estilo para que la ficha quede utilizable.",
       "category": "Música",
       "community": "Galicia",
       "musicType": "Latina",
@@ -1890,7 +1823,6 @@
       "seedName": "Radio Pentecostal La Armadura de Dios",
       "name": "Radio Pentecostal La Armadura de Dios",
       "tagline": "Radio religiosa de alcance nacional",
-      "description": "Entrada sembrada desde myTuner Galicia. Mientras se aísla el endpoint exacto del emisor, se deja una señal operativa de la misma marca, familia o estilo para que la ficha quede utilizable.",
       "category": "Religión",
       "community": "Galicia",
       "websiteUrl": "https://www.radiomaria.es/",
@@ -1915,7 +1847,6 @@
       "seedName": "Voz del Cielo",
       "name": "Voz del Cielo",
       "tagline": "Radio religiosa de alcance nacional",
-      "description": "Entrada sembrada desde myTuner Galicia. Mientras se aísla el endpoint exacto del emisor, se deja una señal operativa de la misma marca, familia o estilo para que la ficha quede utilizable.",
       "category": "Religión",
       "community": "Galicia",
       "websiteUrl": "https://www.radiomaria.es/",
@@ -1940,7 +1871,6 @@
       "seedName": "OURENSE SI RADIO",
       "name": "OURENSE SI RADIO",
       "tagline": "Cadena gallega con emisión para Ourense",
-      "description": "Entrada sembrada desde myTuner Galicia. Se deja como candidata hasta localizar el endpoint propio de la emisión de Ourense y separar del todo la ficha del fallback actual.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.siradio.gal/",
@@ -1972,7 +1902,6 @@
       "seedName": "CUAC 103.4 FM",
       "name": "CUAC 103.4 FM",
       "tagline": "La comunitaria de A Coruña",
-      "description": "Emisora comunitaria histórica de A Coruña con stream público estable.",
       "category": "Comunitaria",
       "community": "Galicia",
       "websiteUrl": "https://cuacfm.org/directo/",
@@ -1997,7 +1926,6 @@
       "seedName": "RadioVoz Bergantiños",
       "name": "RadioVoz Bergantiños",
       "tagline": "Desconexión local de RadioVoz para Bergantiños",
-      "description": "Entrada sembrada desde myTuner Galicia y apoyada en un endpoint local de la propia red RadioVoz; se deja ya como ficha local operativa dentro de la cadena.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.radiovoz.es/",
@@ -2022,7 +1950,6 @@
       "seedName": "SiRadio - Ourense",
       "name": "SiRadio - Ourense",
       "tagline": "Desconexión territorial de RTVE en Galicia",
-      "description": "Entrada sembrada desde myTuner Galicia. Mientras se aísla el endpoint exacto del emisor, se deja una señal operativa de la misma marca, familia o estilo para que la ficha quede utilizable.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.rtve.es/play/radio/",
@@ -2047,7 +1974,6 @@
       "seedName": "RADIO BETANZOS",
       "name": "RADIO BETANZOS",
       "tagline": "Con lo mejor de todos",
-      "description": "Emisora online listada en myTuner y radio-espana, con web propia y stream operativo mantenido en la ficha.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://radiobetanzos.com/",
@@ -2072,7 +1998,6 @@
       "seedName": "RadioVoz Orense",
       "name": "RadioVoz Orense",
       "tagline": "Radio Voz en Ourense",
-      "description": "Variante local de Radio Voz para Ourense, con stream público localizado en directorios de radio y compatible con la red Radio Voz.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.radiovoz.com",
@@ -2097,9 +2022,9 @@
       "seedName": "JG Radio Online",
       "name": "JG Radio Online",
       "tagline": "Electrónica y cultura urbana",
-      "description": "Entrada sembrada desde myTuner Galicia. Mientras se aísla el endpoint exacto del emisor, se deja una señal operativa de la misma marca, familia o estilo para que la ficha quede utilizable.",
       "category": "Música",
       "community": "Galicia",
+      "musicType": "Electrónica",
       "websiteUrl": "https://www.scannerfm.com",
       "logoUrl": "https://graph.facebook.com/scannerFM/picture?width=200&height=200",
       "language": "es",
@@ -2115,17 +2040,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Electrónica"
+      ]
     },
     {
       "id": "afradio",
       "seedName": "AFradio",
       "name": "AFradio",
       "tagline": "Música y entretenimiento digital",
-      "description": "Entrada sembrada desde myTuner Galicia. Mientras se aísla el endpoint exacto del emisor, se deja una señal operativa de la misma marca, familia o estilo para que la ficha quede utilizable.",
       "category": "Música",
       "community": "Galicia",
+      "musicType": "Variedad",
       "websiteUrl": "https://coolturafm.com",
       "logoUrl": "https://graph.facebook.com/coolturafm/picture?width=200&height=200",
       "language": "es",
@@ -2141,15 +2065,13 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Variedad"
+      ]
     },
     {
       "id": "antena-1-radio",
       "seedName": "Antena 1 Radio",
       "name": "Antena 1 Radio",
       "tagline": "Dance y remember andaluz",
-      "description": "Entrada sembrada desde myTuner Galicia. Mientras se aísla el endpoint exacto del emisor, se deja una señal operativa de la misma marca, familia o estilo para que la ficha quede utilizable.",
       "category": "Música",
       "community": "Galicia",
       "musicType": "Dance",
@@ -2157,6 +2079,8 @@
       "logoUrl": "https://yt3.ggpht.com/ytc/AKedOLRETQgEcm3bzxRJOct7AMt2oYneaikmoSjYi_GqxQ%3Ds200-c-k-c0x00ffffff-no-rj",
       "language": "es",
       "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 95,
       "verificationStatus": "candidate",
       "streams": [
         {
@@ -2166,16 +2090,13 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "seedPage": 2,
-      "seedRank": 95
+      ]
     },
     {
       "id": "radio-picarina",
       "seedName": "Radio Picariña",
       "name": "Radio Picariña",
       "tagline": "Canal infantil de CRTVG",
-      "description": "Señal infantil de aGalegaAudio para público familiar y contenidos para peques.",
       "category": "Educación",
       "community": "Galicia",
       "musicType": "Infantil",
@@ -2201,7 +2122,6 @@
       "seedName": "RadioVoz Ribeira Sacra",
       "name": "RadioVoz Ribeira Sacra",
       "tagline": "Desconexión local de RadioVoz para Ribeira Sacra",
-      "description": "Entrada sembrada desde myTuner Galicia y apoyada en un endpoint local de la propia red RadioVoz; se deja ya como ficha local operativa dentro de la cadena.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.radiovoz.es/",
@@ -2226,7 +2146,6 @@
       "seedName": "Radio Estrada",
       "name": "Radio Estrada",
       "tagline": "Red local gallega de proximidad",
-      "description": "Entrada sembrada desde myTuner Galicia. Mientras se aísla el endpoint exacto del emisor, se deja una señal operativa de la misma marca, familia o estilo para que la ficha quede utilizable.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.radiofusion.eu",
@@ -2251,7 +2170,6 @@
       "seedName": "Radio Alegria FM",
       "name": "Radio Alegria FM",
       "tagline": "Oldies y nostalgia musical",
-      "description": "Entrada sembrada desde myTuner Galicia. Mientras se aísla el endpoint exacto del emisor, se deja una señal operativa de la misma marca, familia o estilo para que la ficha quede utilizable.",
       "category": "Música",
       "community": "Galicia",
       "musicType": "Oldies",
@@ -2259,6 +2177,8 @@
       "logoUrl": "https://graph.facebook.com/NostalgiaFMSpain/picture?height=200&width=200",
       "language": "es",
       "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 99,
       "verificationStatus": "candidate",
       "streams": [
         {
@@ -2268,16 +2188,13 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "seedPage": 2,
-      "seedRank": 99
+      ]
     },
     {
       "id": "cadena-ser-baixo-mino",
       "seedName": "Cadena SER Baixo Miño",
       "name": "Cadena SER Baixo Miño",
       "tagline": "SER para el sur pontevedrés",
-      "description": "Señal comarcal de SER en el Baixo Miño, pensada para reforzar cobertura local gallega.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://cadenaser.com/ser-baixo-mino/",
@@ -2309,7 +2226,6 @@
       "seedName": "Camino FM - Santiago, Spain",
       "name": "Camino FM - Santiago, Spain",
       "tagline": "102.7 FM orientada al Camino de Santiago",
-      "description": "Emisora en inglés enfocada al entorno del Camino de Santiago; se corrige la web pública y se mantiene como candidata hasta aislar su endpoint definitivo.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.caminofm.com/",
@@ -2334,7 +2250,6 @@
       "seedName": "Radio Armadura de Deus",
       "name": "Radio Armadura de Deus",
       "tagline": "Radio religiosa de alcance nacional",
-      "description": "Entrada sembrada desde myTuner Galicia. Mientras se aísla el endpoint exacto del emisor, se deja una señal operativa de la misma marca, familia o estilo para que la ficha quede utilizable.",
       "category": "Religión",
       "community": "Galicia",
       "websiteUrl": "https://www.radiomaria.es/",
@@ -2359,9 +2274,9 @@
       "seedName": "Hits Soung Radio",
       "name": "Hits Soung Radio",
       "tagline": "Éxitos jóvenes y radiofórmula",
-      "description": "Entrada sembrada desde myTuner Galicia. Mientras se localiza el endpoint exacto de Hits Soung Radio, se deja una señal musical online operativa como provisional.",
       "category": "Música",
       "community": "Galicia",
+      "musicType": "Hits",
       "websiteUrl": "https://www.radioplaneta.com/",
       "logoUrl": "https://yt3.ggpht.com/ytc/AKedOLRETQgEcm3bzxRJOct7AMt2oYneaikmoSjYi_GqxQ%3Ds200-c-k-c0x00ffffff-no-rj",
       "language": "es",
@@ -2377,15 +2292,13 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Hits"
+      ]
     },
     {
       "id": "solfami",
       "seedName": "SOLFAMI",
       "name": "SOLFAMI",
       "tagline": "Música y raíz gallega en clave pública",
-      "description": "Entrada sembrada desde myTuner Galicia. Mientras se aísla el endpoint exacto del emisor, se deja una señal operativa de la misma marca, familia o estilo para que la ficha quede utilizable.",
       "category": "Música",
       "community": "Galicia",
       "musicType": "Folk",
@@ -2411,7 +2324,6 @@
       "seedName": "Radio Amistad",
       "name": "Radio Amistad",
       "tagline": "Radio religiosa de alcance nacional",
-      "description": "Entrada sembrada desde myTuner Galicia. Mientras se aísla el endpoint exacto del emisor, se deja una señal operativa de la misma marca, familia o estilo para que la ficha quede utilizable.",
       "category": "Religión",
       "community": "Galicia",
       "websiteUrl": "https://www.radiomaria.es/",
@@ -2436,7 +2348,6 @@
       "seedName": "Radio Inter",
       "name": "Radio Inter",
       "tagline": "Actualidad global y análisis",
-      "description": "Cadena temática centrada en análisis de noticias, economía y actualidad internacional desde Madrid.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.radiointer.es/",
@@ -2461,7 +2372,6 @@
       "seedName": "Religiao de Deus",
       "name": "Religiao de Deus",
       "tagline": "Radio religiosa de alcance nacional",
-      "description": "Entrada sembrada desde myTuner Galicia. Mientras se aísla el endpoint exacto del emisor, se deja una señal operativa de la misma marca, familia o estilo para que la ficha quede utilizable.",
       "category": "Religión",
       "community": "Galicia",
       "websiteUrl": "https://www.radiomaria.es/",
@@ -2486,7 +2396,6 @@
       "seedName": "Pontevedra Viva",
       "name": "Pontevedra Viva",
       "tagline": "Radio online de PontevedraViva",
-      "description": "La ficha queda alineada con la marca pública de PontevedraViva Radio; el stream se mantiene provisional a la espera de aislar el endpoint exacto del reproductor web.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://pontevedraviva.com/radio/",
@@ -2518,7 +2427,6 @@
       "seedName": "Radio Obradoiro",
       "name": "Radio Obradoiro",
       "tagline": "105.9 FM de Santiago de Compostela",
-      "description": "Emisora compostelana presente en myTuner; se corrige la web pública y se mantiene como candidata hasta sustituir el stream provisional por el endpoint exacto del emisor.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://radioobradoirogalicia.es.tl/",
@@ -2543,7 +2451,6 @@
       "seedName": "Radio Lugo SER",
       "name": "Radio Lugo SER",
       "tagline": "La SER lucense",
-      "description": "Ventana local de la Cadena SER en Lugo, añadida con stream específico y fallback de cadena.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://cadenaser.com/radio-lugo/",
@@ -2575,7 +2482,6 @@
       "seedName": "Conexiondance Radio",
       "name": "Conexiondance Radio",
       "tagline": "Dance electrónico y club",
-      "description": "Entrada sembrada desde myTuner Galicia. Mientras se aísla el endpoint exacto del emisor, se deja una señal operativa de la misma marca, familia o estilo para que la ficha quede utilizable.",
       "category": "Música",
       "community": "Galicia",
       "musicType": "Dance",
@@ -2583,6 +2489,8 @@
       "logoUrl": "https://pbs.twimg.com/profile_images/1580311659226210310/umHvZ3-d_200x200.jpg",
       "language": "es",
       "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 111,
       "verificationStatus": "candidate",
       "streams": [
         {
@@ -2592,16 +2500,13 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "seedPage": 2,
-      "seedRank": 111
+      ]
     },
     {
       "id": "via-radio-galicia",
       "seedName": "Via Radio Galicia",
       "name": "Via Radio Galicia",
       "tagline": "Radio online gallega de entretenimiento",
-      "description": "Entrada sembrada desde myTuner Galicia. Mientras se aísla el endpoint exacto del emisor, se deja una señal operativa de la misma marca, familia o estilo para que la ficha quede utilizable.",
       "category": "Música",
       "community": "Galicia",
       "musicType": "Variedad",
@@ -2627,7 +2532,6 @@
       "seedName": "Radio Neria",
       "name": "Radio Neria",
       "tagline": "La radio local de Negreira",
-      "description": "Entrada sembrada desde myTuner Galicia. Mientras se aísla el endpoint exacto del emisor, se deja una señal operativa de la misma marca, familia o estilo para que la ficha quede utilizable.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://concellodenegreira.gal",
@@ -2652,9 +2556,9 @@
       "seedName": "Party FM",
       "name": "Party FM",
       "tagline": "Dance y electrónica 24/7",
-      "description": "Entrada sembrada desde myTuner Galicia. Mientras se aísla el endpoint exacto del emisor, se deja una señal operativa de la misma marca, familia o estilo para que la ficha quede utilizable.",
       "category": "Música",
       "community": "Galicia",
+      "musicType": "Dance Electrónica",
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "language": "es",
@@ -2670,17 +2574,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Dance Electrónica"
+      ]
     },
     {
       "id": "ocionews-radio",
       "seedName": "OcioNews Radio",
       "name": "OcioNews Radio",
       "tagline": "Música y entretenimiento digital",
-      "description": "Entrada sembrada desde myTuner Galicia. Mientras se aísla el endpoint exacto del emisor, se deja una señal operativa de la misma marca, familia o estilo para que la ficha quede utilizable.",
       "category": "Música",
       "community": "Galicia",
+      "musicType": "Variedad",
       "websiteUrl": "https://coolturafm.com",
       "logoUrl": "https://graph.facebook.com/coolturafm/picture?width=200&height=200",
       "language": "es",
@@ -2696,15 +2599,13 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Variedad"
+      ]
     },
     {
       "id": "radiovoz-barbanza",
       "seedName": "RadioVoz Barbanza",
       "name": "RadioVoz Barbanza",
       "tagline": "Desconexión local de RadioVoz para Barbanza",
-      "description": "Entrada sembrada desde myTuner Galicia y apoyada en un endpoint local de la propia red RadioVoz; se deja ya como ficha local operativa dentro de la cadena.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.radiovoz.es/",
@@ -2729,7 +2630,6 @@
       "seedName": "RadioVoz Ribadeo",
       "name": "RadioVoz Ribadeo",
       "tagline": "Desconexión local de RadioVoz para Ribadeo",
-      "description": "Entrada sembrada desde myTuner Galicia y apoyada en un endpoint local de la propia red RadioVoz; se deja ya como ficha local operativa dentro de la cadena.",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.radiovoz.es/",
@@ -2754,7 +2654,6 @@
       "seedName": "El Rincón de Gady",
       "name": "El Rincón de Gady",
       "tagline": "Oldies y nostalgia musical",
-      "description": "Entrada sembrada desde myTuner Galicia. Mientras se aísla el endpoint exacto del emisor, se deja una señal operativa de la misma marca, familia o estilo para que la ficha quede utilizable.",
       "category": "Música",
       "community": "Galicia",
       "musicType": "Oldies",
@@ -2762,6 +2661,8 @@
       "logoUrl": "https://graph.facebook.com/NostalgiaFMSpain/picture?height=200&width=200",
       "language": "es",
       "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 118,
       "verificationStatus": "candidate",
       "streams": [
         {
@@ -2771,16 +2672,13 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "seedPage": 2,
-      "seedRank": 118
+      ]
     },
     {
       "id": "la-condesa-fm",
       "seedName": "La Condesa FM",
       "name": "La Condesa FM",
       "tagline": "Radiofórmula fresca y festiva",
-      "description": "Entrada sembrada desde myTuner Galicia. Mientras se aísla el endpoint exacto del emisor, se deja una señal operativa de la misma marca, familia o estilo para que la ficha quede utilizable.",
       "category": "Música",
       "community": "Galicia",
       "musicType": "Top 40",
@@ -2788,6 +2686,8 @@
       "logoUrl": "https://graph.facebook.com/lafresca.es/picture?height=200&width=200",
       "language": "es",
       "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 119,
       "verificationStatus": "candidate",
       "streams": [
         {
@@ -2797,16 +2697,13 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "seedPage": 2,
-      "seedRank": 119
+      ]
     },
     {
       "id": "radio-mamv",
       "seedName": "radio MAMV",
       "name": "radio MAMV",
       "tagline": "Dance y remember andaluz",
-      "description": "Entrada sembrada desde myTuner Galicia. Mientras se aísla el endpoint exacto del emisor, se deja una señal operativa de la misma marca, familia o estilo para que la ficha quede utilizable.",
       "category": "Música",
       "community": "Galicia",
       "musicType": "Dance",
@@ -2814,6 +2711,8 @@
       "logoUrl": "https://yt3.ggpht.com/ytc/AKedOLRETQgEcm3bzxRJOct7AMt2oYneaikmoSjYi_GqxQ%3Ds200-c-k-c0x00ffffff-no-rj",
       "language": "es",
       "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 120,
       "verificationStatus": "candidate",
       "streams": [
         {
@@ -2823,18 +2722,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "seedPage": 2,
-      "seedRank": 120
+      ]
     },
     {
       "id": "sonido-del-mar",
       "seedName": "Sonido del mar",
       "name": "Sonido del mar",
       "tagline": "Ambient y electrónica relajada",
-      "description": "Entrada sembrada desde myTuner Galicia. Mientras se aísla el endpoint exacto del emisor, se deja una señal operativa de la misma marca, familia o estilo para que la ficha quede utilizable.",
       "category": "Música",
       "community": "Galicia",
+      "musicType": "Ambient",
       "websiteUrl": "https://www.locafm.com/ambient/player.html",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "language": "es",
@@ -2850,15 +2747,13 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Ambient"
+      ]
     },
     {
       "id": "f-restauracion-radio",
       "seedName": "F Restauracion Radio",
       "name": "F Restauracion Radio",
       "tagline": "Radio religiosa de alcance nacional",
-      "description": "Entrada sembrada desde myTuner Galicia. Mientras se aísla el endpoint exacto del emisor, se deja una señal operativa de la misma marca, familia o estilo para que la ficha quede utilizable.",
       "category": "Religión",
       "community": "Galicia",
       "websiteUrl": "https://www.radiomaria.es/",
@@ -2883,9 +2778,9 @@
       "seedName": "Radio Tramuntana",
       "name": "Radio Tramuntana",
       "tagline": "Electrónica y cultura urbana",
-      "description": "Entrada sembrada desde myTuner Galicia. Mientras se aísla el endpoint exacto del emisor, se deja una señal operativa de la misma marca, familia o estilo para que la ficha quede utilizable.",
       "category": "Música",
       "community": "Galicia",
+      "musicType": "Electrónica",
       "websiteUrl": "https://www.scannerfm.com",
       "logoUrl": "https://graph.facebook.com/scannerFM/picture?width=200&height=200",
       "language": "es",
@@ -2901,17 +2796,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Electrónica"
+      ]
     },
     {
       "id": "radio-nove",
       "seedName": "Radio Nove",
       "name": "Radio Nove",
       "tagline": "Música y entretenimiento digital",
-      "description": "Entrada sembrada desde myTuner Galicia. Mientras se aísla el endpoint exacto del emisor, se deja una señal operativa de la misma marca, familia o estilo para que la ficha quede utilizable.",
       "category": "Música",
       "community": "Galicia",
+      "musicType": "Variedad",
       "websiteUrl": "https://coolturafm.com",
       "logoUrl": "https://graph.facebook.com/coolturafm/picture?width=200&height=200",
       "language": "es",
@@ -2927,8 +2821,7 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Variedad"
+      ]
     }
   ]
 }

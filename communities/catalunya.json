@@ -13,7 +13,6 @@
       "seedName": "Catalunya Ràdio",
       "name": "Catalunya Ràdio",
       "tagline": "La generalista pública de Catalunya",
-      "description": "Cadena principal de 3Cat, muy reconocible en Catalunya. Entrada sembrada desde myTuner y contrastada con stream público y logo accesible.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.3cat.cat/3cat/directes/catalunya-radio/",
@@ -38,7 +37,6 @@
       "seedName": "Catalunya Informació",
       "name": "Catalunya Informació",
       "tagline": "Información continua 24 horas",
-      "description": "Servicio informativo continuo de 3Cat centrado en la actualidad catalana, estatal e internacional. Sembrada desde myTuner y verificada con endpoint público.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.3cat.cat/3cat/directes/3catinfo-radio/",
@@ -63,9 +61,9 @@
       "seedName": "Catalunya Música",
       "name": "Catalunya Música",
       "tagline": "Clásica y conciertos",
-      "description": "Canal musical público de 3Cat especializado en música clásica y retransmisiones culturales. Verificada con stream HLS público y logo accesible.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Clásica",
       "websiteUrl": "https://www.3cat.cat/3cat/directes/catalunya-musica/",
       "logoUrl": "https://graph.facebook.com/catmusica/picture?width=200&height=200",
       "language": "ca",
@@ -81,17 +79,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Clásica"
+      ]
     },
     {
       "id": "icat",
       "seedName": "iCat",
       "name": "iCat",
       "tagline": "Música alternativa y cultura pop",
-      "description": "Emisora musical de 3Cat centrada en cultura, escena alternativa y nuevos sonidos. Sembrada desde myTuner y cruzada con stream público.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Alternativa",
       "websiteUrl": "https://www.3cat.cat/3cat/directes/icat/",
       "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/ICat.cat.svg/250px-ICat.cat.svg.png",
       "language": "ca",
@@ -107,15 +104,13 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Alternativa"
+      ]
     },
     {
       "id": "rac-1",
       "seedName": "RAC 1",
       "name": "RAC1",
       "tagline": "Actualidad y deporte en catalán",
-      "description": "Cadena generalista privada con fuerte peso informativo y deportivo en Catalunya. Presente en myTuner y contrastada con dos endpoints públicos de audio.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.rac1.cat",
@@ -147,7 +142,6 @@
       "seedName": "Radio Nacional Catalunya",
       "name": "Radio Nacional Catalunya",
       "tagline": "Radio Nacional con desconexión catalana",
-      "description": "Señal catalana de RNE con información y programas de proximidad. Sembrada desde myTuner y verificada con endpoint público de RTVE.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_cat-live/3893527/",
@@ -172,7 +166,6 @@
       "seedName": "Ràdio 4 RNE",
       "name": "Ràdio 4 RNE",
       "tagline": "La emisora catalana de RNE",
-      "description": "Cadena histórica de RTVE en Catalunya con programación hablada y cultural. Contrastada con stream HLS público y logo oficial accesible.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.rtve.es/play/radio/radio-4/",
@@ -197,7 +190,6 @@
       "seedName": "Radio 5 Catalunya",
       "name": "Radio 5 Catalunya",
       "tagline": "Boletines y servicio público",
-      "description": "Desconexión catalana de Radio 5 RNE, centrada en información y servicio. Verificada con stream público de RTVE.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_cat/3894724/",
@@ -222,7 +214,6 @@
       "seedName": "SER Catalunya",
       "name": "SER Catalunya",
       "tagline": "La SER en clave catalana",
-      "description": "Señal autonómica de la Cadena SER para Catalunya. Sembrada desde myTuner y verificada con stream público de Prisa Radio.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://play.cadenaser.com/emisora/sercat/",
@@ -247,9 +238,9 @@
       "seedName": "LOS40 Catalunya",
       "name": "LOS40 Catalunya",
       "tagline": "Éxitos actuales con edición catalana",
-      "description": "Versión catalana de LOS40 con foco musical mainstream. Presente en myTuner y verificada con stream público de Prisa Radio.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Top 40",
       "websiteUrl": "https://play.los40.com/emisora/los40_catalunya/",
       "logoUrl": "https://graph.facebook.com/els40/picture?width=200&height=200",
       "language": "ca",
@@ -265,17 +256,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Top 40"
+      ]
     },
     {
       "id": "flaix-fm",
       "seedName": "Flaix FM",
       "name": "Flaix FM",
       "tagline": "Dance y éxitos de club",
-      "description": "Cadena musical catalana muy reconocible por su enfoque dance y hit radio. Verificada con stream público y logo accesible.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Dance",
       "websiteUrl": "https://flaixfm.cat",
       "logoUrl": "https://pbs.twimg.com/profile_images/1051761197127745541/whMnn4_K_200x200.jpg",
       "language": "ca",
@@ -291,17 +281,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Dance"
+      ]
     },
     {
       "id": "flaixbac",
       "seedName": "Ràdio Flaixbac",
       "name": "Flaixbac",
       "tagline": "Pop y entretenimiento joven",
-      "description": "Emisora musical catalana orientada al pop comercial y al entretenimiento diario. Contrastada con stream público y logo accesible.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Pop",
       "websiteUrl": "https://www.flaixbac.cat",
       "logoUrl": "https://pbs.twimg.com/profile_images/1164926188307001344/PtDeZDOO_200x200.jpg",
       "language": "ca",
@@ -317,17 +306,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Pop"
+      ]
     },
     {
       "id": "rac-105",
       "seedName": "RAC 105",
       "name": "RAC105",
       "tagline": "Hits y radiofórmula catalana",
-      "description": "Cadena musical del grupo RAC con sonido contemporáneo y fuerte implantación en Catalunya. Verificada con dos endpoints públicos.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Hits",
       "websiteUrl": "https://www.rac105.cat",
       "logoUrl": "https://graph.facebook.com/rac105/picture?width=200&height=200",
       "language": "ca",
@@ -350,17 +338,16 @@
           "priority": 2,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Hits"
+      ]
     },
     {
       "id": "radio-teletaxi",
       "seedName": "Radio TeleTaxi",
       "name": "Radio TeleTaxi",
       "tagline": "Popular, latina y de proximidad",
-      "description": "Emisora histórica del área de Barcelona, muy reconocible por su perfil popular y cercano. Verificada con stream MP3 público.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Latina",
       "websiteUrl": "https://www.radioteletaxi.com/reproductor/",
       "logoUrl": "https://graph.facebook.com/radioteletaxi/picture?width=200&height=200",
       "language": "es",
@@ -376,15 +363,13 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Latina"
+      ]
     },
     {
       "id": "radio-marca-barcelona",
       "seedName": "Radio Marca Barcelona",
       "name": "Radio Marca Barcelona",
       "tagline": "Deporte y actualidad desde Barcelona",
-      "description": "Desconexión local de Radio Marca con seguimiento deportivo y actualidad del área de Barcelona. Contraste con stream público.",
       "category": "Deporte",
       "community": "Catalunya",
       "websiteUrl": "https://www.marca.com/radio.html",
@@ -409,7 +394,6 @@
       "seedName": "Ràdio Barcelona SER",
       "name": "SER Barcelona",
       "tagline": "La histórica emisora barcelonesa de la SER",
-      "description": "Emisora local de referencia en Barcelona, con información general y programas de proximidad. Verificada con stream público de Prisa.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://cadenaser.com/radio-barcelona/",
@@ -434,7 +418,6 @@
       "seedName": "SER Ebre",
       "name": "SER Ebre",
       "tagline": "Actualidad de les Terres de l’Ebre",
-      "description": "Señal local de la SER para les Terres de l’Ebre. Contrastada con stream público y logo accesible.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://cadenaser.com/ser-ebre/",
@@ -459,7 +442,6 @@
       "seedName": "SER Girona",
       "name": "SER Girona",
       "tagline": "La SER de Girona",
-      "description": "Cobertura local de la Cadena SER para Girona y su entorno. Verificada con stream público de Prisa Radio.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://cadenaser.com/radio-girona/",
@@ -484,7 +466,6 @@
       "seedName": "SER Lleida",
       "name": "SER Lleida",
       "tagline": "La SER de Lleida",
-      "description": "Emisora local de la SER con cobertura informativa en Lleida. Verificada con stream público.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://cadenaser.com/radio-lleida/",
@@ -509,7 +490,6 @@
       "seedName": "SER Manresa",
       "name": "SER Manresa",
       "tagline": "La SER del Bages",
-      "description": "Señal local de la SER para Manresa y comarca. Contrastada con stream público enlazado por TDTChannels.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiomanresa.cat",
@@ -534,7 +514,6 @@
       "seedName": "SER Penedès-Garraf",
       "name": "SER Penedès-Garraf",
       "tagline": "Información de Penedès y Garraf",
-      "description": "Emisora local de la SER para Penedès y Garraf. Verificada con stream público.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://cadenaser.com/ser-penedesgarraf/",
@@ -559,7 +538,6 @@
       "seedName": "SER Reus",
       "name": "SER Reus",
       "tagline": "La SER en el Camp de Tarragona",
-      "description": "Emisora local de la SER con programación cercana desde Reus. Verificada con stream público.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://cadenaser.com/radio-reus/",
@@ -584,7 +562,6 @@
       "seedName": "SER Tarragona",
       "name": "SER Tarragona",
       "tagline": "Actualidad de Tarragona",
-      "description": "Señal local de la SER para Tarragona. Contrastada con stream público y logo accesible.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://cadenaser.com/ser-tarragona/",
@@ -609,7 +586,6 @@
       "seedName": "COPE Barcelona Miramar",
       "name": "COPE Barcelona Miramar",
       "tagline": "COPE local desde Barcelona",
-      "description": "Desconexión local de COPE para Barcelona. Verificada con stream público MP3 de la cadena.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.cope.es/directos/barcelona",
@@ -634,7 +610,6 @@
       "seedName": "COPE Girona",
       "name": "COPE Girona",
       "tagline": "COPE local desde Girona",
-      "description": "Señal local de COPE para Girona. Contrastada con stream público.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.cope.es/directos/girona",
@@ -659,7 +634,6 @@
       "seedName": "COPE Lleida",
       "name": "COPE Lleida",
       "tagline": "COPE local desde Lleida",
-      "description": "Señal local de COPE para Lleida, verificada con stream público.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.cope.es/directos/lleida",
@@ -684,7 +658,6 @@
       "seedName": "COPE Tarragona",
       "name": "COPE Tarragona",
       "tagline": "COPE local desde Tarragona",
-      "description": "Desconexión local de COPE en Tarragona. Verificada con stream público MP3.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.cope.es/directos/tarragona",
@@ -709,7 +682,6 @@
       "seedName": "Onda Cero Barcelona",
       "name": "Onda Cero Barcelona",
       "tagline": "Actualidad y magazine en Barcelona",
-      "description": "Desconexión barcelonesa de Onda Cero. Verificada con stream HLS público del grupo Atresmedia.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.ondacero.es/emisoras/catalunya/barcelona/directo/",
@@ -734,7 +706,6 @@
       "seedName": "Onda Cero Girona",
       "name": "Onda Cero Girona",
       "tagline": "Onda Cero para Girona",
-      "description": "Señal local de Onda Cero en Girona. Verificada con endpoint HLS público indicado por TDTChannels.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.ondacero.es/emisoras/catalunya/girona/directo/",
@@ -759,7 +730,6 @@
       "seedName": "Onda Cero Lleida",
       "name": "Onda Cero Lleida",
       "tagline": "Onda Cero para Lleida",
-      "description": "Desconexión local de Onda Cero en Lleida. Contrastada con stream HLS público.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.ondacero.es/emisoras/catalunya/lleida/directo/",
@@ -784,7 +754,6 @@
       "seedName": "Onda Cero Tarragona",
       "name": "Onda Cero Tarragona",
       "tagline": "Onda Cero para Tarragona",
-      "description": "Señal local de Onda Cero en Tarragona. Verificada con stream HLS público.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.ondacero.es/emisoras/catalunya/tarragona/directo/",
@@ -809,7 +778,6 @@
       "seedName": "Onda Cero Vilanova",
       "name": "Onda Cero Vilanova",
       "tagline": "Onda Cero en el Garraf",
-      "description": "Desconexión local de Onda Cero desde Vilanova. Contrastada con stream HLS público.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.ondacero.es/emisoras/catalunya/vilanova/directo/",
@@ -834,9 +802,9 @@
       "seedName": "Cadena 100 Barcelona",
       "name": "Cadena 100 Barcelona",
       "tagline": "Pop y éxitos desde Barcelona",
-      "description": "Versión local barcelonesa de Cadena 100. Verificada con stream HLS público.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Pop",
       "websiteUrl": "https://www.cadena100.es/emisoras/barcelona",
       "logoUrl": "https://graph.facebook.com/CADENA100/picture?width=200&height=200",
       "language": "es",
@@ -852,17 +820,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Pop"
+      ]
     },
     {
       "id": "rock-fm-barcelona",
       "seedName": "Rock FM Barcelona",
       "name": "Rock FM Barcelona",
       "tagline": "Rock clásico desde Barcelona",
-      "description": "Desconexión barcelonesa de Rock FM. Contrastada con stream HLS público.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Rock",
       "websiteUrl": "https://www.rockfm.fm/emisoras/catalunya/barcelona-provincia/barcelona",
       "logoUrl": "https://graph.facebook.com/RockFM/picture?width=200&height=200",
       "language": "es",
@@ -878,15 +845,13 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Rock"
+      ]
     },
     {
       "id": "beteve-radio",
       "seedName": "betevé ràdio",
       "name": "betevé ràdio",
       "tagline": "La radio local de Barcelona",
-      "description": "Emisora municipal de Barcelona con actualidad urbana, cultura y servicio. Verificada con stream HLS público y logo accesible.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://beteve.cat/en-directe/radio/",
@@ -911,9 +876,9 @@
       "seedName": "Barcelona City FM",
       "name": "Barcelona City FM",
       "tagline": "Sonido internacional desde Barcelona",
-      "description": "Emisora online con base en Barcelona y programación musical orientada a público internacional. Verificada con stream público.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Internacional",
       "websiteUrl": "https://www.barcelonacityfm.com",
       "logoUrl": "https://graph.facebook.com/barcelonacityfm/picture?width=200&height=200",
       "language": "en",
@@ -929,15 +894,13 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Internacional"
+      ]
     },
     {
       "id": "tarragona-radio",
       "seedName": "Tarragona Ràdio",
       "name": "Tarragona Ràdio",
       "tagline": "Actualidad de Tarragona ciudad",
-      "description": "Emisora pública local centrada en información y vida municipal de Tarragona. Verificada con stream HD y fallback MP3.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.tarragonaradio.cat",
@@ -969,7 +932,6 @@
       "seedName": "Ràdio Terrassa",
       "name": "Ràdio Terrassa",
       "tagline": "Información local de Terrassa",
-      "description": "Señal local de Terrassa con actualidad, magazine y proximidad. Contrastada con stream público.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://terrassadigital.cat/radio/",
@@ -994,7 +956,6 @@
       "seedName": "Ràdio Ciutat de Badalona",
       "name": "Ràdio Ciutat de Badalona",
       "tagline": "La radio pública de Badalona",
-      "description": "Emisora municipal de Badalona, centrada en información de ciudad y comarca. Verificada con stream HD y fallback MP3.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://radio.bdncom.cat",
@@ -1026,9 +987,9 @@
       "seedName": "ScannerFM",
       "name": "ScannerFM",
       "tagline": "Electrónica y cultura urbana",
-      "description": "Proyecto digital barcelonés con propuesta musical y cultural alternativa. Verificado con stream público y logo accesible.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Electrónica",
       "websiteUrl": "https://www.scannerfm.com",
       "logoUrl": "https://graph.facebook.com/scannerFM/picture?width=200&height=200",
       "language": "es",
@@ -1044,17 +1005,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Electrónica"
+      ]
     },
     {
       "id": "jazz-radio-bcn",
       "seedName": "Jazz Radio BCN",
       "name": "Jazz Radio BCN",
       "tagline": "Jazz desde Barcelona",
-      "description": "Emisora digital especializada en jazz con base en Barcelona. Verificada con dos streams públicos.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Jazz",
       "websiteUrl": "https://www.jazzradiobcn.com",
       "logoUrl": "https://6e34eb1495.cbaul-cdnwnd.com/a7658da9cd3120f642cd6802a66d23d4/200000000-46869477e1/JAZZ.jpg",
       "language": "en",
@@ -1077,15 +1037,13 @@
           "priority": 2,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Jazz"
+      ]
     },
     {
       "id": "radio-olot",
       "seedName": "Ràdio Olot",
       "name": "Ràdio Olot",
       "tagline": "Actualidad de la Garrotxa",
-      "description": "Emisora local de Olot y comarca con información y servicio. Contrastada con stream público.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiolot.cat",
@@ -1110,9 +1068,9 @@
       "seedName": "Imagina Ràdio",
       "name": "Imagina Ràdio",
       "tagline": "Radiofórmula del sur de Catalunya",
-      "description": "Emisora musical del Ebre con enfoque de hits y entretenimiento. Verificada con stream MP3 público.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Hits",
       "websiteUrl": "https://www.imaginaradio.cat/directe/",
       "logoUrl": "https://graph.facebook.com/ImaginaRadio103/picture?width=200&height=200",
       "language": "ca",
@@ -1128,15 +1086,13 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Hits"
+      ]
     },
     {
       "id": "radio-sabadell",
       "seedName": "Radio Sabadell 94.6 FM",
       "name": "Ràdio Sabadell",
       "tagline": "Información y deporte de Sabadell",
-      "description": "Emisora local de Sabadell con peso en actualidad y deporte. Contrastada con stream público y web oficial de la emisora.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://radiosabadell.fm",
@@ -1161,7 +1117,6 @@
       "seedName": "RCE Cultura i Esport",
       "name": "RCE Cultura i Esport",
       "tagline": "Cultura y deporte en clave local",
-      "description": "Proyecto radiofónico de proximidad con énfasis en cultura y deporte. Verificado con stream MP3 público.",
       "category": "Deporte",
       "community": "Catalunya",
       "websiteUrl": "https://rce.cat",
@@ -1186,7 +1141,6 @@
       "seedName": "Canal Blau Ràdio",
       "name": "Canal Blau Ràdio",
       "tagline": "La voz de Vilanova i la Geltrú",
-      "description": "Emisora pública del Garraf con actualidad local y comarcal. Verificada con stream HD y fallback MP3.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://podcast.canalblau.cat",
@@ -1218,7 +1172,6 @@
       "seedName": "Radio El Vendrell 107.1",
       "name": "Ràdio El Vendrell",
       "tagline": "Actualidad del Baix Penedès",
-      "description": "Emisora pública de El Vendrell con información de proximidad. Verificada con stream HD y fallback MP3.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.rtvelvendrell.cat/directes/radio/",
@@ -1250,7 +1203,6 @@
       "seedName": "Ràdio Capital",
       "name": "Ràdio Capital",
       "tagline": "Empordà en directo",
-      "description": "Emisora del Empordà centrada en proximidad, agenda y actualidad local. Contrastada con stream público y logo accesible.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiocapital.cat/endirecte/",
@@ -1275,7 +1227,6 @@
       "seedName": "Altafulla Ràdio",
       "name": "Altafulla Ràdio",
       "tagline": "La emisora local de Altafulla",
-      "description": "Emisora municipal con actualidad de Altafulla y entorno. Verificada con stream HD y MP3.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://altafullaradio.cat",
@@ -1307,7 +1258,6 @@
       "seedName": "La Marina FM",
       "name": "La Marina FM",
       "tagline": "Proximidad desde Sants-Montjuïc",
-      "description": "Emisora comunitaria y de barrio con fuerte enfoque de proximidad en Barcelona. Contrastada con stream público.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://lamarina.cat/endirecte/",
@@ -1332,7 +1282,6 @@
       "seedName": "Cerdanyola Radio",
       "name": "Cerdanyola Radio",
       "tagline": "Actualidad de Cerdanyola",
-      "description": "Emisora municipal con cobertura de Cerdanyola del Vallès. Verificada con stream MP3 público.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.cerdanyola.info/cerdanyola-radio/live",
@@ -1357,7 +1306,6 @@
       "seedName": "Mataró Ràdio",
       "name": "Mataró Ràdio",
       "tagline": "La radio pública de Mataró",
-      "description": "Señal local de Mataró Audiovisual con información de ciudad y Maresme. Verificada con stream MP3 público.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://mataroaudiovisual.cat/radio",
@@ -1382,9 +1330,9 @@
       "seedName": "Cooltura FM",
       "name": "Cooltura FM",
       "tagline": "Música y entretenimiento digital",
-      "description": "Emisora musical online con programación variada y perfil joven. Contrastada con stream público.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Variedad",
       "websiteUrl": "https://coolturafm.com",
       "logoUrl": "https://graph.facebook.com/coolturafm/picture?width=200&height=200",
       "language": "es",
@@ -1400,15 +1348,13 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Variedad"
+      ]
     },
     {
       "id": "radio-silenci",
       "seedName": "Ràdio Silenci",
       "name": "Ràdio Silenci",
       "tagline": "Proximidad desde la Garriga",
-      "description": "Emisora municipal de la Garriga con información local y servicio público. Verificada con stream HD y MP3.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiosilenci.cat",
@@ -1440,7 +1386,6 @@
       "seedName": "Ràdio Vilafranca",
       "name": "Ràdio Vilafranca",
       "tagline": "La radio de Vilafranca del Penedès",
-      "description": "Emisora local con fuerte foco de proximidad en Vilafranca. Verificada con stream MP3 público.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.rtvvilafranca.cat/radio-vilafranca/radio-en-directe/",
@@ -1465,7 +1410,6 @@
       "seedName": "Ona La Torre",
       "name": "Ona La Torre",
       "tagline": "La radio de Torredembarra",
-      "description": "Emisora local de Torredembarra con actualidad, agenda y servicio. Contrastada con stream MP3 público.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.ona-latorre.cat",
@@ -1490,7 +1434,6 @@
       "seedName": "Ràdio Estel",
       "name": "Ràdio Estel",
       "tagline": "Radio religiosa y de valores",
-      "description": "Cadena de inspiración cristiana con programación hablada y de servicio. Verificada con stream público.",
       "category": "Religión",
       "community": "Catalunya",
       "websiteUrl": "https://www.radioestel.cat/en-directe/",
@@ -1515,9 +1458,9 @@
       "seedName": "Gum FM Vielha",
       "name": "Gum FM Vielha",
       "tagline": "Sonido local desde Vielha",
-      "description": "Emisora del Aran con perfil cercano y programación variada. Contrastada con stream público.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Variedad",
       "websiteUrl": "https://www.gumfm.com",
       "logoUrl": "https://graph.facebook.com/gumfm/picture?width=200&height=200",
       "language": "ca",
@@ -1533,15 +1476,13 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Variedad"
+      ]
     },
     {
       "id": "radio-igualada",
       "seedName": "Ràdio Igualada",
       "name": "Ràdio Igualada",
       "tagline": "Actualidad de l’Anoia",
-      "description": "Emisora local de Igualada con programación de proximidad. Verificada con stream público.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.lcinternet.es/player/v3299500_igualada/player.html",
@@ -1566,9 +1507,9 @@
       "seedName": "RAP107",
       "name": "RAP107",
       "tagline": "La radio de Parets del Vallès",
-      "description": "Emisora local con programación musical y contenidos de proximidad. Verificada con stream HD y MP3.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Variedad",
       "websiteUrl": "https://enacast.com/rap107/",
       "logoUrl": "https://graph.facebook.com/rap107/picture?width=200&height=200",
       "language": "ca",
@@ -1591,15 +1532,13 @@
           "priority": 2,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Variedad"
+      ]
     },
     {
       "id": "radio-caldes",
       "seedName": "Ràdio Caldes",
       "name": "Ràdio Caldes",
       "tagline": "La radio local de Caldes",
-      "description": "Emisora municipal de Caldes de Montbui, verificada con stream HD y MP3 públicos.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiocaldes.cat",
@@ -1631,7 +1570,6 @@
       "seedName": "Ràdio Molins de Rei",
       "name": "Ràdio Molins de Rei",
       "tagline": "Actualidad de Molins de Rei",
-      "description": "Emisora local centrada en la actualidad de Molins de Rei. Verificada con stream MP3 público.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiomolinsderei.cat",
@@ -1656,7 +1594,6 @@
       "seedName": "Ràdio Cubelles",
       "name": "Ràdio Cubelles",
       "tagline": "La radio local de Cubelles",
-      "description": "Emisora pública de Cubelles con proximidad, agenda y servicio. Verificada con stream HD y MP3.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiocubelles.cat",
@@ -1688,7 +1625,6 @@
       "seedName": "Ràdio Granollers",
       "name": "Ràdio Granollers",
       "tagline": "Actualidad de Granollers y Vallès Oriental",
-      "description": "Emisora local de Granollers con foco en actualidad municipal y comarcal. Verificada con stream MP3 público.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiogranollers.cat",
@@ -1713,7 +1649,6 @@
       "seedName": "Ràdio Maricel",
       "name": "Ràdio Maricel",
       "tagline": "La radio de Sitges",
-      "description": "Emisora local de Sitges con actualidad y programas de proximidad. Contrastada con stream MP3 público.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiomaricel.cat",
@@ -1738,9 +1673,9 @@
       "seedName": "Styl Manresa",
       "name": "Styl Manresa",
       "tagline": "Radio musical del Bages",
-      "description": "Emisora musical y de entretenimiento con presencia en Manresa y entorno. Verificada con stream público.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Variedad",
       "websiteUrl": "https://www.stylfm.com",
       "logoUrl": "https://graph.facebook.com/stylfm/picture?width=200&height=200",
       "language": "ca",
@@ -1756,15 +1691,13 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Variedad"
+      ]
     },
     {
       "id": "constanti-radio",
       "seedName": "Constantí Ràdio",
       "name": "Constantí Ràdio",
       "tagline": "Información local de Constantí",
-      "description": "Emisora municipal de Constantí con foco de proximidad. Verificada con stream MP3 público.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.constantiradio.cat",
@@ -1789,7 +1722,6 @@
       "seedName": "Ràdio Cunit",
       "name": "Ràdio Cunit",
       "tagline": "La radio de Cunit",
-      "description": "Emisora local de Cunit con actualidad y servicio público. Verificada con stream MP3 público.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://radiocunit.cat",
@@ -1814,7 +1746,6 @@
       "seedName": "Ripollet Radio",
       "name": "Ripollet Ràdio",
       "tagline": "Actualidad de Ripollet",
-      "description": "Emisora local de Ripollet con programación de proximidad. Verificada con stream MP3 público.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://ripolletradio.cat/en-directe/",
@@ -1839,7 +1770,6 @@
       "seedName": "Ràdio Vilamajor",
       "name": "Ràdio Vilamajor",
       "tagline": "La radio de Sant Antoni de Vilamajor",
-      "description": "Proyecto local de proximidad en el Vallès Oriental. Contrastado con stream público.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiovilamajor.cat",
@@ -1864,7 +1794,6 @@
       "seedName": "Ràdio Mollet",
       "name": "Ràdio Mollet",
       "tagline": "Actualidad de Mollet del Vallès",
-      "description": "Emisora local de Mollet con cobertura municipal y comarcal. Verificada con stream HD y MP3.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiomollet.com",
@@ -1896,7 +1825,6 @@
       "seedName": "UAB Ràdio",
       "name": "UAB Ràdio",
       "tagline": "La radio universitaria de la UAB",
-      "description": "Proyecto universitario de la Universitat Autònoma de Barcelona. Verificado con stream HLS público.",
       "category": "Educación",
       "community": "Catalunya",
       "websiteUrl": "https://uab.media/uabradio",
@@ -1921,7 +1849,6 @@
       "seedName": "Ràdio Montblanc",
       "name": "Ràdio Montblanc",
       "tagline": "La radio de Montblanc",
-      "description": "Emisora local de Montblanc con programación de proximidad. Verificada con stream MP3 público.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiomontblanc.cat",
@@ -1946,7 +1873,6 @@
       "seedName": "Ràdio Voltregà",
       "name": "Ràdio Voltregà",
       "tagline": "Proximidad desde Osona",
-      "description": "Emisora local de Sant Hipòlit de Voltregà y entorno. Contrastada con stream público.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiovoltrega.com",
@@ -1971,7 +1897,6 @@
       "seedName": "Ràdio Despí",
       "name": "Ràdio Despí",
       "tagline": "La radio de Sant Joan Despí",
-      "description": "Emisora local de Sant Joan Despí. Verificada con stream principal y fallback MP3.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://radiodespi.net/directo/",
@@ -2003,7 +1928,6 @@
       "seedName": "Ràdio Desvern",
       "name": "Ràdio Desvern",
       "tagline": "La radio de Sant Just Desvern",
-      "description": "Emisora local de Sant Just Desvern con información y proximidad. Verificada con stream HD y MP3.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiodesvern.com",
@@ -2035,7 +1959,6 @@
       "seedName": "Ràdio Sitges",
       "name": "Ràdio Sitges",
       "tagline": "Actualidad de Sitges",
-      "description": "Emisora local de Sitges con programación de proximidad y agenda cultural. Contrastada con stream público.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiositges.com",
@@ -2060,7 +1983,6 @@
       "seedName": "Ràdio Montornès",
       "name": "Ràdio Montornès",
       "tagline": "La radio de Montornès del Vallès",
-      "description": "Emisora local con actualidad y servicio público. Verificada con stream público.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://radio.montornes.cat/radios/directe",
@@ -2085,7 +2007,6 @@
       "seedName": "Ràdio Ripoll",
       "name": "Ràdio Ripoll",
       "tagline": "Proximidad desde el Ripollès",
-      "description": "Emisora local de Ripoll con información y contenidos de comarca. Contrastada con stream público.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.corisacat.cat/radio-ripoll-3/",
@@ -2110,7 +2031,6 @@
       "seedName": "Ràdio Amèrica Barcelona",
       "name": "Ràdio Amèrica Barcelona",
       "tagline": "Puente radiofónico entre Barcelona y América",
-      "description": "Proyecto radiofónico con mirada internacional y base en Barcelona. Verificado con stream público.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.rab.cat",
@@ -2135,7 +2055,6 @@
       "seedName": "Ràdio Gràcia",
       "name": "Ràdio Gràcia",
       "tagline": "La radio del barri de Gràcia",
-      "description": "Emisora de proximidad con fuerte identidad de barrio en Barcelona. Verificada con stream MP3 público.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://radiogracia.net/",
@@ -2160,9 +2079,9 @@
       "seedName": "MDT Radio Remember",
       "name": "MDT Radio Remember",
       "tagline": "Remember y dance de escuela catalana",
-      "description": "Canal temático asociado a MDT Radio, muy vinculado a la escena dance catalana. Contrastado con stream público.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Remember",
       "websiteUrl": "https://www.mdtradio.com",
       "logoUrl": "https://graph.facebook.com/mdtradio/picture?width=200&height=200",
       "language": "es",
@@ -2178,17 +2097,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Remember"
+      ]
     },
     {
       "id": "mdt-radio-pop-stars",
       "seedName": "MDT Radio Pop Stars",
       "name": "MDT Radio Pop Stars",
       "tagline": "Canal pop temático de MDT",
-      "description": "Canal musical digital de MDT con foco en pop y éxitos. Verificado con stream público y logo accesible.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Pop",
       "websiteUrl": "https://mdtradio.com/canales-tematicos/",
       "logoUrl": "https://mdtradio.com/wp-content/uploads/2024/11/Logo-MDT-Radio-Pop-Stars-Fm2.jpg",
       "language": "es",
@@ -2204,17 +2122,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Pop"
+      ]
     },
     {
       "id": "3cat-exclusiu-digital",
       "seedName": "3Cat (Exclusiu digital)",
       "name": "3Cat (Exclusiu digital)",
       "tagline": "Emisora catalana añadida desde la semilla de myTuner y contrastada con stream público.",
-      "description": "Entrada catalana incorporada al bloque de Catalunya con stream público accesible y logo enlazado desde listados abiertos.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Variedad",
       "websiteUrl": "https://www.3cat.cat/3cat/directes/ocr1/",
       "logoUrl": "https://graph.facebook.com/som3Cat/picture?width=200&height=200",
       "language": "ca",
@@ -2230,17 +2147,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Variedad"
+      ]
     },
     {
       "id": "radio-la-mina",
       "seedName": "Radio La Mina",
       "name": "Radio La Mina",
       "tagline": "Emisora catalana añadida desde la semilla de myTuner y contrastada con stream público.",
-      "description": "Entrada catalana incorporada al bloque de Catalunya con stream público accesible y logo enlazado desde listados abiertos.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Urbana",
       "websiteUrl": "https://radiolamina.blogspot.com",
       "logoUrl": "https://graph.facebook.com/RadiolaMina/picture?width=200&height=200",
       "language": "es",
@@ -2256,17 +2172,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Urbana"
+      ]
     },
     {
       "id": "can-deu-fm",
       "seedName": "Can Deu FM",
       "name": "Can Deu FM",
       "tagline": "Emisora catalana añadida desde la semilla de myTuner y contrastada con stream público.",
-      "description": "Entrada catalana incorporada al bloque de Catalunya con stream público accesible y logo enlazado desde listados abiertos.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Variedad",
       "websiteUrl": "http://candeufm.com",
       "logoUrl": "http://candeufm.com/e107_images/custom/2021app.jpg",
       "language": "es",
@@ -2282,17 +2197,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Variedad"
+      ]
     },
     {
       "id": "actuality-fm",
       "seedName": "Actuality FM",
       "name": "Actuality FM",
       "tagline": "Emisora catalana añadida desde la semilla de myTuner y contrastada con stream público.",
-      "description": "Entrada catalana incorporada al bloque de Catalunya con stream público accesible y logo enlazado desde listados abiertos.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Dance",
       "websiteUrl": "https://www.actualityfm.es/p/play.html",
       "logoUrl": "https://graph.facebook.com/ActualityFM.es/picture?width=200&height=200",
       "language": "es",
@@ -2308,17 +2222,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Dance"
+      ]
     },
     {
       "id": "ona-de-sants-fm",
       "seedName": "Ona de Sants FM",
       "name": "Ona de Sants FM",
       "tagline": "Emisora catalana añadida desde la semilla de myTuner y contrastada con stream público.",
-      "description": "Entrada catalana incorporada al bloque de Catalunya con stream público accesible y logo enlazado desde listados abiertos.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Alternativa",
       "websiteUrl": "https://onadesants.cat",
       "logoUrl": "https://graph.facebook.com/Radioonadesants/picture?width=200&height=200",
       "language": "es",
@@ -2334,17 +2247,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Alternativa"
+      ]
     },
     {
       "id": "proxima-fm",
       "seedName": "Pròxima FM",
       "name": "Pròxima FM",
       "tagline": "Emisora catalana añadida desde la semilla de myTuner y contrastada con stream público.",
-      "description": "Entrada catalana incorporada al bloque de Catalunya con stream público accesible y logo enlazado desde listados abiertos.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Dance",
       "websiteUrl": "http://proximafm.cat",
       "logoUrl": "https://graph.facebook.com/proximafm/picture?width=200&height=200",
       "language": "es",
@@ -2360,15 +2272,13 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Dance"
+      ]
     },
     {
       "id": "radio-sant-pere-i-sant-pau",
       "seedName": "Ràdio Sant Pere i Sant Pau",
       "name": "Ràdio Sant Pere i Sant Pau",
       "tagline": "Emisora catalana añadida desde la semilla de myTuner y contrastada con stream público.",
-      "description": "Entrada catalana incorporada al bloque de Catalunya con stream público accesible y logo enlazado desde listados abiertos.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiospsp.com",
@@ -2393,9 +2303,9 @@
       "seedName": "Una Cosa Ràdio",
       "name": "Una Cosa Ràdio",
       "tagline": "Emisora catalana añadida desde la semilla de myTuner y contrastada con stream público.",
-      "description": "Entrada catalana incorporada al bloque de Catalunya con stream público accesible y logo enlazado desde listados abiertos.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Variedad",
       "websiteUrl": "https://www.unacosa.cat/radio-en-directe/",
       "logoUrl": "https://pbs.twimg.com/profile_images/1317925182712041474/rNXMGU71_200x200.jpg",
       "language": "ca",
@@ -2411,17 +2321,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Variedad"
+      ]
     },
     {
       "id": "gran-via-radio",
       "seedName": "Gran Via Radio",
       "name": "Gran Via Radio",
       "tagline": "Emisora catalana añadida desde la semilla de myTuner y contrastada con stream público.",
-      "description": "Entrada catalana incorporada al bloque de Catalunya con stream público accesible y logo enlazado desde listados abiertos.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Variedad",
       "websiteUrl": "https://granviaradiofm.es",
       "logoUrl": "https://graph.facebook.com/1397103013646307/picture?width=200&height=200",
       "language": "es",
@@ -2437,15 +2346,13 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Variedad"
+      ]
     },
     {
       "id": "radio-llanca",
       "seedName": "Ràdio Llançà",
       "name": "Ràdio Llançà",
       "tagline": "Emisora catalana añadida desde la semilla de myTuner y contrastada con stream público.",
-      "description": "Entrada catalana incorporada al bloque de Catalunya con stream público accesible y logo enlazado desde listados abiertos.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://radiollanca.cat",
@@ -2470,7 +2377,6 @@
       "seedName": "Colera Ràdio",
       "name": "Colera Ràdio",
       "tagline": "Emisora catalana añadida desde la semilla de myTuner y contrastada con stream público.",
-      "description": "Entrada catalana incorporada al bloque de Catalunya con stream público accesible y logo enlazado desde listados abiertos.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://coleraradio.com",
@@ -2495,7 +2401,6 @@
       "seedName": "Ràdio Santpedor",
       "name": "Ràdio Santpedor",
       "tagline": "Emisora catalana añadida desde la semilla de myTuner y contrastada con stream público.",
-      "description": "Entrada catalana incorporada al bloque de Catalunya con stream público accesible y logo enlazado desde listados abiertos.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://santpedor.net/radio/",
@@ -2520,7 +2425,6 @@
       "seedName": "U Ràdio",
       "name": "U Ràdio",
       "tagline": "Emisora catalana añadida desde la semilla de myTuner y contrastada con stream público.",
-      "description": "Entrada catalana incorporada al bloque de Catalunya con stream público accesible y logo enlazado desde listados abiertos.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.uradio.cat",
@@ -2545,7 +2449,6 @@
       "seedName": "21 Ràdio",
       "name": "21 Ràdio",
       "tagline": "Emisora catalana añadida desde la semilla de myTuner y contrastada con stream público.",
-      "description": "Entrada catalana incorporada al bloque de Catalunya con stream público accesible y logo enlazado desde listados abiertos.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.21radio.cat/en-directe/",
@@ -2570,9 +2473,9 @@
       "seedName": "amb2FM",
       "name": "amb2FM",
       "tagline": "Emisora catalana añadida desde la semilla de myTuner y contrastada con stream público.",
-      "description": "Entrada catalana incorporada al bloque de Catalunya con stream público accesible y logo enlazado desde listados abiertos.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Variedad",
       "websiteUrl": "https://www.amb2fm.cat",
       "logoUrl": "https://pbs.twimg.com/profile_images/1245054974628892673/tjBDH_-q_200x200.jpg",
       "language": "ca",
@@ -2588,17 +2491,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Variedad"
+      ]
     },
     {
       "id": "taronja-radio",
       "seedName": "Taronja ràdio",
       "name": "Taronja ràdio",
       "tagline": "Emisora catalana añadida desde la semilla de myTuner y contrastada con stream público.",
-      "description": "Entrada catalana incorporada al bloque de Catalunya con stream público accesible y logo enlazado desde listados abiertos.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Variedad",
       "websiteUrl": "https://www.radiocapital.cat/taronja",
       "logoUrl": "https://graph.facebook.com/taronja.cat/picture?width=200&height=200",
       "language": "ca",
@@ -2614,17 +2516,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Variedad"
+      ]
     },
     {
       "id": "mdt-radio-barcelona",
       "seedName": "MDT Radio Barcelona",
       "name": "MDT Radio Barcelona",
       "tagline": "Emisora catalana añadida desde la semilla de myTuner y contrastada con stream público.",
-      "description": "Entrada catalana incorporada al bloque de Catalunya con stream público accesible y logo enlazado desde listados abiertos.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Remember",
       "websiteUrl": "https://mdtradio.com",
       "logoUrl": "https://graph.facebook.com/MDTradioBarcelona/picture?width=200&height=200",
       "language": "es",
@@ -2640,17 +2541,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Remember"
+      ]
     },
     {
       "id": "loca-fm",
       "seedName": "Loca FM",
       "name": "Loca FM",
       "tagline": "Dance y electrónica con ADN madrileño",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a dance electrónica, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Dance Electrónica",
       "websiteUrl": "https://www.locafm.com/live/player.html",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "language": "es",
@@ -2666,17 +2566,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Dance Electrónica"
+      ]
     },
     {
       "id": "loca-fm-dance",
       "seedName": "Loca FM Dance",
       "name": "Loca FM Dance",
       "tagline": "Dance y electrónica 24/7",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a dance electrónica, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Dance Electrónica",
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "language": "es",
@@ -2692,17 +2591,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Dance Electrónica"
+      ]
     },
     {
       "id": "loca-fm-remember",
       "seedName": "Loca FM Remember",
       "name": "Loca FM Remember",
       "tagline": "Clásicos remember y dance",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a remember, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Remember",
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "language": "es",
@@ -2718,17 +2616,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Remember"
+      ]
     },
     {
       "id": "loca-fm-house",
       "seedName": "Loca FM House",
       "name": "Loca FM House",
       "tagline": "House con ADN de club",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a house, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "House",
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "language": "es",
@@ -2744,17 +2641,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "House"
+      ]
     },
     {
       "id": "loca-fm-chill-out",
       "seedName": "Loca FM Chill Out",
       "name": "Loca FM Chill Out",
       "tagline": "Chill out y downtempo",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a chill out, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Chill Out",
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "language": "es",
@@ -2770,17 +2666,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Chill Out"
+      ]
     },
     {
       "id": "loca-fm-tech-house",
       "seedName": "Loca FM Tech House",
       "name": "Loca FM Tech House",
       "tagline": "Tech house continuo",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a tech house, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Tech House",
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "language": "es",
@@ -2796,17 +2691,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Tech House"
+      ]
     },
     {
       "id": "loca-fm-trance",
       "seedName": "Loca FM Trance",
       "name": "Loca FM Trance",
       "tagline": "Trance y melodías electrónicas",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a trance, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Trance",
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "language": "es",
@@ -2822,17 +2716,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Trance"
+      ]
     },
     {
       "id": "loca-fm-techno",
       "seedName": "Loca FM Techno",
       "name": "Loca FM Techno",
       "tagline": "Techno sin descanso",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a techno, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Techno",
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "language": "es",
@@ -2848,17 +2741,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Techno"
+      ]
     },
     {
       "id": "loca-fm-big-room",
       "seedName": "Loca FM Big Room",
       "name": "Loca FM Big Room",
       "tagline": "Big room y festival",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a big room, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Big Room",
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "language": "es",
@@ -2874,17 +2766,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Big Room"
+      ]
     },
     {
       "id": "loca-fm-deep-house",
       "seedName": "Loca FM Deep House",
       "name": "Loca FM Deep House",
       "tagline": "Deep house elegante",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a deep house, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Deep House",
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "language": "es",
@@ -2900,17 +2791,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Deep House"
+      ]
     },
     {
       "id": "loca-fm-sessions",
       "seedName": "Loca FM Sessions",
       "name": "Loca FM Sessions",
       "tagline": "Sesiones y mezclas continuas",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a sesiones dj, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Sesiones DJ",
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "language": "es",
@@ -2926,17 +2816,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Sesiones DJ"
+      ]
     },
     {
       "id": "loca-fm-ambient",
       "seedName": "Loca FM Ambient",
       "name": "Loca FM Ambient",
       "tagline": "Ambient y electrónica relajada",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a ambient, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Ambient",
       "websiteUrl": "https://www.locafm.com/ambient/player.html",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "language": "es",
@@ -2952,17 +2841,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Ambient"
+      ]
     },
     {
       "id": "loca-fm-hard",
       "seedName": "Loca FM Hard",
       "name": "Loca FM Hard",
       "tagline": "Hard dance y makina",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a hard dance, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Hard Dance",
       "websiteUrl": "https://www.locafm.com/hard/player.html",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "language": "es",
@@ -2978,17 +2866,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Hard Dance"
+      ]
     },
     {
       "id": "loca-fm-hard-techno",
       "seedName": "Loca FM Hard Techno",
       "name": "Loca FM Hard Techno",
       "tagline": "Techno duro 24/7",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a hard techno, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Hard Techno",
       "websiteUrl": "https://www.locafm.com/hard-techno/player.html",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "language": "es",
@@ -3004,17 +2891,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Hard Techno"
+      ]
     },
     {
       "id": "loca-fm-drum-bass",
       "seedName": "Loca FM Drum&Bass",
       "name": "Loca FM Drum&Bass",
       "tagline": "Canal DnB del ecosistema Loca",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a drum & bass, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Drum & Bass",
       "websiteUrl": "https://www.locafm.com/drum-bass/player.html",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "language": "es",
@@ -3030,17 +2916,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Drum & Bass"
+      ]
     },
     {
       "id": "loca-fm-urban",
       "seedName": "Loca FM Urban",
       "name": "Loca FM Urban",
       "tagline": "Urbano y reggaetón del universo Loca FM",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a urbana, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Urbana",
       "websiteUrl": "https://www.locafm.com/loca-urban/player.html",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "language": "es",
@@ -3056,17 +2941,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Urbana"
+      ]
     },
     {
       "id": "loca-fm-90-s",
       "seedName": "Loca FM 90's",
       "name": "Loca FM 90's",
       "tagline": "Dance noventero de la familia Loca FM",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a 90s, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "90s",
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "language": "es",
@@ -3082,17 +2966,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "90s"
+      ]
     },
     {
       "id": "loca-fm-industrial",
       "seedName": "Loca FM Industrial",
       "name": "Loca FM Industrial",
       "tagline": "Industrial y electrónica oscura",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a industrial, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Industrial",
       "websiteUrl": "https://www.locafm.com/industrial/player.html",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "language": "es",
@@ -3108,17 +2991,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Industrial"
+      ]
     },
     {
       "id": "loca-fm-loca-80s",
       "seedName": "Loca FM Loca 80s",
       "name": "Loca FM Loca 80s",
       "tagline": "Viaje a los 80",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a 80s, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "80s",
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "language": "es",
@@ -3134,17 +3016,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "80s"
+      ]
     },
     {
       "id": "loca-fm-loca-90s",
       "seedName": "Loca FM Loca 90s",
       "name": "Loca FM Loca 90s",
       "tagline": "Viaje a los 90",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a 90s, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "90s",
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "language": "es",
@@ -3160,17 +3041,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "90s"
+      ]
     },
     {
       "id": "loca-fm-melodic-house",
       "seedName": "Loca FM Melodic House",
       "name": "Loca FM Melodic House",
       "tagline": "Melodic house continuo",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a melodic house, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Melodic House",
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "language": "es",
@@ -3186,17 +3066,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Melodic House"
+      ]
     },
     {
       "id": "loca-fm-melodic-techno",
       "seedName": "Loca FM Melodic Techno",
       "name": "Loca FM Melodic Techno",
       "tagline": "Melodic techno continuo",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a melodic techno, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Melodic Techno",
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "language": "es",
@@ -3212,17 +3091,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Melodic Techno"
+      ]
     },
     {
       "id": "free-fm-rock",
       "seedName": "Free FM Rock",
       "name": "Free FM Rock",
       "tagline": "Canal temático rock",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a rock, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Rock",
       "websiteUrl": "https://www.freefmrock.com/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/769/free-fm.aa638097.jpg",
       "language": "es",
@@ -3238,17 +3116,16 @@
           "priority": 1,
           "source": "fmstream (public listing)"
         }
-      ],
-      "musicType": "Rock"
+      ]
     },
     {
       "id": "free-fm-classics",
       "seedName": "Free FM Classics",
       "name": "Free FM Classics",
       "tagline": "Clásicos pop y oldies online",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a oldies, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Oldies",
       "websiteUrl": "https://www.freefmworld.com",
       "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fwww.freefmworld.com",
       "language": "es",
@@ -3264,17 +3141,16 @@
           "priority": 1,
           "source": "Radiomap"
         }
-      ],
-      "musicType": "Oldies"
+      ]
     },
     {
       "id": "free-fm-80s",
       "seedName": "Free FM 80s",
       "name": "Free FM 80s",
       "tagline": "Canal temático de los 80",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a 80s, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "80s",
       "websiteUrl": "https://sites.google.com/view/freefmworld",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/827/free-fm-80s.16928eb8.png",
       "language": "es",
@@ -3290,17 +3166,16 @@
           "priority": 1,
           "source": "radiobrowser index"
         }
-      ],
-      "musicType": "80s"
+      ]
     },
     {
       "id": "free-fm-love",
       "seedName": "Free FM Love",
       "name": "Free FM Love",
       "tagline": "Canal temático romántico",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a romántica, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Romántica",
       "websiteUrl": "https://sites.google.com/view/freefmworld",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/714/free-fm-love.c1ba1f4e.jpg",
       "language": "es",
@@ -3316,17 +3191,16 @@
           "priority": 1,
           "source": "TingFM listing"
         }
-      ],
-      "musicType": "Romántica"
+      ]
     },
     {
       "id": "free-fm-classical",
       "seedName": "Free FM Classical",
       "name": "Free FM Classical",
       "tagline": "Canal temático clásica",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a clásica, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Clásica",
       "websiteUrl": "https://sites.google.com/view/freefmworld",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/020/free-fm-classical.0ef23d56.jpg",
       "language": "es",
@@ -3342,15 +3216,13 @@
           "priority": 1,
           "source": "radiobrowser index"
         }
-      ],
-      "musicType": "Clásica"
+      ]
     },
     {
       "id": "free-fm-chill",
       "seedName": "Free FM Chill",
       "name": "Free FM Chill",
       "tagline": "Cobertura provisional reproducible",
-      "description": "Canal musical incorporado al bloque de Catalunya, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.locafm.com/chill-out/player.html",
@@ -3375,7 +3247,6 @@
       "seedName": "Free FM Sports",
       "name": "Free FM Sports",
       "tagline": "Canal temático deportivo",
-      "description": "Estación añadida al bloque de Catalunya, con stream público ya integrado y logo reutilizable.",
       "category": "Deporte",
       "community": "Catalunya",
       "websiteUrl": "https://sites.google.com/view/freefmworld",
@@ -3400,9 +3271,9 @@
       "seedName": "Free FM X-Mas",
       "name": "Free FM X-Mas",
       "tagline": "Canal temático navidad",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a navidad, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Navidad",
       "websiteUrl": "https://sites.google.com/view/freefmworld",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/6uzYMVMHad.jpg",
       "language": "es",
@@ -3418,17 +3289,16 @@
           "priority": 1,
           "source": "radiobrowser index"
         }
-      ],
-      "musicType": "Navidad"
+      ]
     },
     {
       "id": "la-flamenca",
       "seedName": "La Flamenca",
       "name": "La Flamenca",
       "tagline": "Flamenco y rumba online",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a flamenco, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Flamenco",
       "websiteUrl": "https://emisorasmusicales.net/laflamenca/",
       "logoUrl": "https://media.emisorasmusicales.net/wp-content/uploads/2020/03/11023733/LaFlamenca-200x200.png",
       "language": "es",
@@ -3444,17 +3314,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Flamenco"
+      ]
     },
     {
       "id": "canal-fiesta-radio",
       "seedName": "Canal Fiesta Radio",
       "name": "Canal Fiesta Radio",
       "tagline": "Éxitos andaluces y pop latino",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a pop latino, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Pop Latino",
       "websiteUrl": "https://www.canalsurmas.es/",
       "logoUrl": "https://pbs.twimg.com/profile_images/2014607361843793920/uKfZnuel_200x200.jpg",
       "language": "es",
@@ -3470,17 +3339,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Pop Latino"
+      ]
     },
     {
       "id": "flamenco-radio",
       "seedName": "Flamenco Radio",
       "name": "Flamenco Radio",
       "tagline": "Canal temático de flamenco",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a flamenco, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Flamenco",
       "websiteUrl": "https://www.canalsurmas.es/",
       "logoUrl": "https://graph.facebook.com/FlamencoRadio/picture?height=200&width=200",
       "language": "es",
@@ -3496,17 +3364,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Flamenco"
+      ]
     },
     {
       "id": "la-urban-radio",
       "seedName": "La Urban Radio",
       "name": "La Urban Radio",
       "tagline": "Sonido urbano en español",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a urbana, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Urbana",
       "websiteUrl": "https://www.urbanrevolution.es",
       "logoUrl": "https://graph.facebook.com/urbanrevolution.es/picture?width=200&height=200",
       "language": "es",
@@ -3522,17 +3389,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Urbana"
+      ]
     },
     {
       "id": "mariskalrock-radio",
       "seedName": "MariskalRock Radio",
       "name": "MariskalRock Radio",
       "tagline": "Rock online de referencia",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a rock, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Rock",
       "websiteUrl": "https://mariskalrock.com",
       "logoUrl": "https://graph.facebook.com/mariskalrock/picture?width=200&height=200",
       "language": "es",
@@ -3548,17 +3414,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Rock"
+      ]
     },
     {
       "id": "vinilo-fm",
       "seedName": "Vinilo FM",
       "name": "Vinilo FM",
       "tagline": "Clásicos y oldies desde Bizkaia",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a classic hits, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Classic Hits",
       "websiteUrl": "https://vinilofm.es/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/WvYVyHUvbU.jpg",
       "language": "es",
@@ -3574,17 +3439,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Classic Hits"
+      ]
     },
     {
       "id": "ecuashyri-fm",
       "seedName": "ECUASHYRI FM",
       "name": "ECUASHYRI FM",
       "tagline": "Radio latina desde Madrid",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a latina, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Latina",
       "websiteUrl": "https://ecuashyri.es/",
       "logoUrl": "https://graph.facebook.com/Ecuadorstereo/picture?width=200&height=200",
       "language": "es",
@@ -3600,17 +3464,16 @@
           "priority": 1,
           "source": "TingFM"
         }
-      ],
-      "musicType": "Latina"
+      ]
     },
     {
       "id": "unika-fm",
       "seedName": "Unika FM",
       "name": "Unika FM",
       "tagline": "Dance madrileño las 24 horas",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a electrónica, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Electrónica",
       "websiteUrl": "https://unika.fm",
       "logoUrl": "https://graph.facebook.com/unikafmmuchomasquedance/picture?width=200&height=200",
       "language": "es",
@@ -3626,17 +3489,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Electrónica"
+      ]
     },
     {
       "id": "la-jungla-radio",
       "seedName": "La Jungla Radio",
       "name": "La Jungla Radio",
       "tagline": "Entretenimiento musical y radiofórmula",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a éxitos y entretenimiento, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Éxitos y entretenimiento",
       "websiteUrl": "https://lajunglaradio.com",
       "logoUrl": "https://graph.facebook.com/LaJunglaRadio/picture?width=200&height=200",
       "language": "es",
@@ -3652,17 +3514,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Éxitos y entretenimiento"
+      ]
     },
     {
       "id": "radio-espana-network",
       "seedName": "Radio España",
       "name": "Radio España Network",
       "tagline": "Get Up N’Dance online desde el entorno de Madrid",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a dance, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Dance",
       "websiteUrl": "https://www.espananetwork.net/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/582/radio-espana-network.406b0f62.jpg",
       "language": "es",
@@ -3678,17 +3539,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Dance"
+      ]
     },
     {
       "id": "babyradio",
       "seedName": "Babyradio",
       "name": "Babyradio",
       "tagline": "Rematada con stream público verificado",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a infantil, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Infantil",
       "websiteUrl": "https://babyradio.es/#radio-player",
       "logoUrl": "https://yt3.googleusercontent.com/ytc/AIdro_k2PqG2pKYF9_qLh_ut69Z0MtU-jXsRvezCZQtbjivJsX8=s200",
       "language": "es",
@@ -3704,17 +3564,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Infantil"
+      ]
     },
     {
       "id": "gozadera-fm",
       "seedName": "Gozadera FM",
       "name": "Gozadera FM",
       "tagline": "Latino urbano y ritmo",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a latino, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Latino",
       "websiteUrl": "https://gozadera.es/",
       "logoUrl": "https://graph.facebook.com/GozaderaSpain/picture?height=200&width=200",
       "language": "es",
@@ -3730,17 +3589,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Latino"
+      ]
     },
     {
       "id": "dial-baladas",
       "seedName": "Dial Baladas",
       "name": "Dial Baladas",
       "tagline": "Baladas y pop melódico de la familia Dial",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a baladas, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Baladas",
       "websiteUrl": "https://play.cadenadial.com/emisora/dialbaladas",
       "logoUrl": "https://recursosweb.prisaradio.com/fotos/dest/010002743853.jpg",
       "language": "es",
@@ -3763,17 +3621,16 @@
           "priority": 2,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Baladas"
+      ]
     },
     {
       "id": "dial-latino",
       "seedName": "Dial Latino",
       "name": "Dial Latino",
       "tagline": "Latino actual dentro del universo Dial",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a latina, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Latina",
       "websiteUrl": "https://play.cadenadial.com/emisora/diallatino",
       "logoUrl": "https://recursosweb.prisaradio.com/fotos/dest/010002743851.jpg",
       "language": "es",
@@ -3796,17 +3653,16 @@
           "priority": 2,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Latina"
+      ]
     },
     {
       "id": "soft-radio",
       "seedName": "Soft Radio",
       "name": "Soft Radio",
       "tagline": "Radio online musical",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a soft, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Soft",
       "websiteUrl": "https://www.soft-radio.com",
       "logoUrl": "https://www.soft-radio.com/wp-content/uploads/2024/02/Color-softradio-webp600px.webp",
       "language": "es",
@@ -3822,17 +3678,16 @@
           "priority": 1,
           "source": "Soft Radio official / openstream"
         }
-      ],
-      "musicType": "Soft"
+      ]
     },
     {
       "id": "globo-fm",
       "seedName": "Globo FM",
       "name": "Globo FM",
       "tagline": "Clásicos y actualidad desde Madrid",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a classic hits, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Classic Hits",
       "websiteUrl": "https://www.globofm.es",
       "logoUrl": "https://pbs.twimg.com/profile_images/972013004484173824/BMLZEKXs_200x200.jpg",
       "language": "es",
@@ -3848,17 +3703,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Classic Hits"
+      ]
     },
     {
       "id": "decibelia-fm",
       "seedName": "Decibelia FM",
       "name": "Decibelia FM",
       "tagline": "Dance electrónico y club",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a dance, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Dance",
       "websiteUrl": "https://decibeliafm.es/",
       "logoUrl": "https://pbs.twimg.com/profile_images/1580311659226210310/umHvZ3-d_200x200.jpg",
       "language": "es",
@@ -3874,17 +3728,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Dance"
+      ]
     },
     {
       "id": "fiebre-latina-radio",
       "seedName": "Fiebre Latina Radio",
       "name": "Fiebre Latina Radio",
       "tagline": "Emisora musical andaluza con stream público verificado",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a latino, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Latino",
       "websiteUrl": "https://fiebrelatinaradio.com",
       "logoUrl": "https://graph.facebook.com/fiebrelatinaradio/picture?width=200&height=200",
       "language": "es",
@@ -3900,17 +3753,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Latino"
+      ]
     },
     {
       "id": "peperadio",
       "seedName": "Peperadio",
       "name": "Peperadio",
       "tagline": "La popyrock de Madrid",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a rock, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Rock",
       "websiteUrl": "https://peperadio.es",
       "logoUrl": "https://peperadio.es/Content/images/logo.png",
       "language": "es",
@@ -3926,17 +3778,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Rock"
+      ]
     },
     {
       "id": "radio-tentacion",
       "seedName": "Radio Tentación",
       "name": "Radio Tentación",
       "tagline": "Éxitos pop y latinos",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a pop latino, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Pop latino",
       "websiteUrl": "https://www.radiotentacion.com/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/qsx7hlyfbmhr.jpg",
       "language": "es",
@@ -3952,17 +3803,16 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Pop latino"
+      ]
     },
     {
       "id": "top-radio",
       "seedName": "Top Radio | España",
       "name": "Top Radio",
       "tagline": "Música en español desde Madrid",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a pop en español, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Pop en español",
       "websiteUrl": "https://www.topradio.es/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/252/top-radio-spain.8a90733b.png",
       "language": "es",
@@ -3978,15 +3828,13 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Pop en español"
+      ]
     },
     {
       "id": "dynamis-radio",
       "seedName": "Dynamis Radio",
       "name": "Dynamis Radio",
       "tagline": "Emisora cristiana desde Madrid",
-      "description": "Emisora añadida al bloque de Catalunya, con stream público ya integrado y logo reutilizable.",
       "category": "Religión",
       "community": "Catalunya",
       "websiteUrl": "https://www.dynamisradio.org",
@@ -4011,7 +3859,6 @@
       "seedName": "Libertad FM",
       "name": "Libertad FM",
       "tagline": "Radio hablada desde Madrid",
-      "description": "Emisora añadida al bloque de Catalunya, con stream público ya integrado y logo reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://radiolibertad.es/",
@@ -4043,9 +3890,9 @@
       "seedName": "Candela Radio",
       "name": "Candela Radio",
       "tagline": "Radio online musical",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a latina, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Latina",
       "websiteUrl": "https://candelaradio.fm/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/m6mstp6fmuzc.png",
       "language": "es",
@@ -4061,17 +3908,16 @@
           "priority": 1,
           "source": "radio-online-json-url"
         }
-      ],
-      "musicType": "Latina"
+      ]
     },
     {
       "id": "radio-formula-hit-castellon-98-3-fm",
       "seedName": "Radio Formula Hit Castellón 98.3 FM",
       "name": "Formula Hit",
       "tagline": "Entrada de myTuner con stream operativo detectado",
-      "description": "Canal musical incorporado al bloque de Catalunya, orientada a pop, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Pop",
       "websiteUrl": "https://www.formulahit.com/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/RgdbbKgcvW.png",
       "language": "es",
@@ -4087,15 +3933,13 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Pop"
+      ]
     },
     {
       "id": "beachgrooves",
       "seedName": "Beachgrooves",
       "name": "Beachgrooves",
       "tagline": "Emisora musical andaluza con stream público verificado",
-      "description": "Canal musical incorporado al bloque de Catalunya, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://beachgrooves.com",
@@ -4120,7 +3964,6 @@
       "seedName": "Chocolate FM",
       "name": "Chocolate FM",
       "tagline": "Emisora musical andaluza con stream público verificado",
-      "description": "Canal musical incorporado al bloque de Catalunya, con stream público ya integrado y logo reutilizable.",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.chocolatefm.com",
@@ -4145,7 +3988,6 @@
       "seedName": "Ràdio Cornellà",
       "name": "Ràdio Cornellà",
       "tagline": "Emisora local catalana",
-      "description": "Entrada incorporada para Catalunya y contrastada con página oficial/local; queda como stream candidato hasta validación final estable en app.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiocornella.cat/",
@@ -4170,7 +4012,6 @@
       "seedName": "Ràdio Tàrrega",
       "name": "Ràdio Tàrrega",
       "tagline": "Emisora local catalana",
-      "description": "Entrada incorporada para Catalunya y contrastada con página oficial/local; queda como stream candidato hasta validación final estable en app.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiotarrega.cat/",
@@ -4195,7 +4036,6 @@
       "seedName": "Vilassar Ràdio",
       "name": "Vilassar Ràdio",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://vilassarradio.cat/",
@@ -4212,7 +4052,6 @@
       "seedName": "Ràdio Premià de Mar",
       "name": "Ràdio Premià de Mar",
       "tagline": "Premià Mèdia 95.2 FM",
-      "description": "Proyecto local activo contrastado con la web oficial actual de Premià Mèdia; el stream EnaCast sigue como candidato pendiente de validación final estable en app.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://premiamedia.cat/",
@@ -4237,7 +4076,6 @@
       "seedName": "Ràdio Arenys",
       "name": "Ràdio Arenys",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radioarenys.cat",
@@ -4254,7 +4092,6 @@
       "seedName": "Ràdio Arenys de Munt",
       "name": "Ràdio Arenys de Munt",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radioarenysmunt.cat",
@@ -4271,7 +4108,6 @@
       "seedName": "Ràdio Calella",
       "name": "Ràdio Calella",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiocalella.cat",
@@ -4288,7 +4124,6 @@
       "seedName": "Ràdio Canet",
       "name": "Ràdio Canet",
       "tagline": "Emisora local catalana",
-      "description": "Entrada incorporada para Catalunya y contrastada con página oficial/local; queda como stream candidato hasta validación final estable en app.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiocanet.cat",
@@ -4313,7 +4148,6 @@
       "seedName": "Ona Malgrat",
       "name": "Ona Malgrat",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.onamalgrat.cat/",
@@ -4330,7 +4164,6 @@
       "seedName": "Ràdio Palafolls",
       "name": "Ràdio Palafolls",
       "tagline": "Emissora municipal del Maresme",
-      "description": "Emisora confirmada en web oficial con bloque “En directe / Directe 107.7FM”; se deja como candidata hasta cerrar URL pública estable del directo.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiopalafolls.cat",
@@ -4347,7 +4180,6 @@
       "seedName": "Ràdio Pineda",
       "name": "Ràdio Pineda",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiopineda.cat",
@@ -4364,7 +4196,6 @@
       "seedName": "Premià de Dalt Ràdio",
       "name": "Premià de Dalt Ràdio",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.premiadedaltmedia.cat/",
@@ -4381,7 +4212,6 @@
       "seedName": "Ràdio Llavaneres",
       "name": "Ràdio Llavaneres",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiollavaneres.cat",
@@ -4398,7 +4228,6 @@
       "seedName": "Ràdio Sant Cebrià",
       "name": "Ràdio Sant Cebrià",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiosantcebria.cat/",
@@ -4415,7 +4244,6 @@
       "seedName": "Ràdio Vallalta",
       "name": "Ràdio Vallalta",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.santiscle.cat/el-nostre-poble/guia-del-municipi/equipaments/radio-vallalta-1075.html",
@@ -4432,7 +4260,6 @@
       "seedName": "Ràdio Sant Pol",
       "name": "Ràdio Sant Pol",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.santpol.cat/radio",
@@ -4449,7 +4276,6 @@
       "seedName": "Ràdio Sant Vicenç de Montalt",
       "name": "Ràdio Sant Vicenç de Montalt",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiosantvi.cat",
@@ -4466,7 +4292,6 @@
       "seedName": "Ràdio Argentona",
       "name": "Ràdio Argentona",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://argentona.cat/radioargentona",
@@ -4483,7 +4308,6 @@
       "seedName": "Ràdio Cabrera",
       "name": "Ràdio Cabrera",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://audiovisualcabrera.net/",
@@ -4500,7 +4324,6 @@
       "seedName": "Ràdio Vilassar de Dalt",
       "name": "Ràdio Vilassar de Dalt",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiovilassardedalt.cat/",
@@ -4517,7 +4340,6 @@
       "seedName": "Ràdio Tordera",
       "name": "Ràdio Tordera",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://radiotordera.cat/radio/",
@@ -4534,7 +4356,6 @@
       "seedName": "Ràdio Santa Susanna",
       "name": "Ràdio Santa Susanna",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner ya cerrada con web oficial y stream público estable. Se deja en el catálogo reproducible sin inventar logo.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://sites.google.com/site/radiosantasusanna917fm/",
@@ -4559,7 +4380,6 @@
       "seedName": "Ràdio Abrera",
       "name": "Ràdio Abrera",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radioabrera.cat",
@@ -4576,7 +4396,6 @@
       "seedName": "Ràdio Esparreguera",
       "name": "Ràdio Esparreguera",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radioesparreguera.cat/",
@@ -4593,7 +4412,6 @@
       "seedName": "Olesa Ràdio",
       "name": "Olesa Ràdio",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.olesaradio.cat/",
@@ -4610,7 +4428,6 @@
       "seedName": "Ràdio Castelldefels",
       "name": "Ràdio Castelldefels",
       "tagline": "Ràdio local de Castelldefels",
-      "description": "Emisora confirmada en web oficial con apartado “Directe” y reproductor powered by EnaCast; queda como candidata hasta fijar la URL pública final del directo.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiocastelldefels.org",
@@ -4627,7 +4444,6 @@
       "seedName": "Ràdio Cervelló",
       "name": "Ràdio Cervelló",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.cervello.cat/actualitat/radio-cervello/",
@@ -4644,7 +4460,6 @@
       "seedName": "Ràdio Gavà",
       "name": "Ràdio Gavà",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiogava.cat",
@@ -4661,7 +4476,6 @@
       "seedName": "Ràdio Martorell",
       "name": "Ràdio Martorell",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner ya cerrada con web oficial y stream público estable. Se deja en el catálogo reproducible sin inventar logo.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://martorelldigital.cat/escolta-en-directe-radio-martorell/",
@@ -4686,7 +4500,6 @@
       "seedName": "Ràdio Sant Andreu",
       "name": "Ràdio Sant Andreu",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiosantandreu.com/",
@@ -4703,7 +4516,6 @@
       "seedName": "Ràdio Sant Boi",
       "name": "Ràdio Sant Boi",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiosantboi.cat",
@@ -4720,7 +4532,6 @@
       "seedName": "Ràdio Sant Esteve",
       "name": "Ràdio Sant Esteve",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.rtv10.cat/",
@@ -4737,7 +4548,6 @@
       "seedName": "Ràdio Sant Feliu",
       "name": "Ràdio Sant Feliu",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiosantfeliu.cat/contact",
@@ -4754,7 +4564,6 @@
       "seedName": "El Prat Ràdio",
       "name": "El Prat Ràdio",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.elprat.radio/",
@@ -4771,9 +4580,9 @@
       "seedName": "Boca Ràdio",
       "name": "Boca Ràdio",
       "tagline": "Canal musical catalán",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Variada",
       "websiteUrl": "https://www.instagram.com/bocaradiobcn/",
       "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fwww.instagram.com%2Fbocaradiobcn%2F",
       "language": "ca",
@@ -4781,15 +4590,13 @@
       "seedPage": 3,
       "seedRank": 218,
       "verificationStatus": "verified",
-      "streams": [],
-      "musicType": "Variada"
+      "streams": []
     },
     {
       "id": "sants-3-radio",
       "seedName": "Sants 3 Ràdio",
       "name": "Sants 3 Ràdio",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.sants3radio.cat",
@@ -4806,7 +4613,6 @@
       "seedName": "Ràdio Hostafrancs",
       "name": "Ràdio Hostafrancs",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiohostafrancs.cat",
@@ -4823,7 +4629,6 @@
       "seedName": "Ràdio Barberà",
       "name": "Ràdio Barberà",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiobarbera.cat/",
@@ -4840,7 +4645,6 @@
       "seedName": "Ràdio Vila-Sacra",
       "name": "Ràdio Vila-Sacra",
       "tagline": "Emisora sembrada desde myTuner",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiovila-sacra.cat/",
@@ -4857,7 +4661,6 @@
       "seedName": "Ràdio Castellar",
       "name": "Ràdio Castellar",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiocastellar.cat",
@@ -4874,7 +4677,6 @@
       "seedName": "Matadepera Ràdio",
       "name": "Matadepera Ràdio",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.matadeperaradio.cat/",
@@ -4891,7 +4693,6 @@
       "seedName": "Ràdio Palau",
       "name": "Ràdio Palau",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiopalau.cat/",
@@ -4908,7 +4709,6 @@
       "seedName": "Ràdio Rubí",
       "name": "Ràdio Rubí",
       "tagline": "Emisora local catalana",
-      "description": "Entrada incorporada para Catalunya y contrastada con página oficial/local; queda como stream candidato hasta validación final estable en app.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiorubi.cat/",
@@ -4933,7 +4733,6 @@
       "seedName": "Cugat Ràdio",
       "name": "Cugat Ràdio",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.cugat.cat/radio",
@@ -4950,7 +4749,6 @@
       "seedName": "Ràdio Sant Quirze",
       "name": "Ràdio Sant Quirze",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiosantquirze.cat/",
@@ -4967,7 +4765,6 @@
       "seedName": "Ràdio Santa Perpètua",
       "name": "Ràdio Santa Perpètua",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.staperpetua.org/radio/index.php",
@@ -4984,7 +4781,6 @@
       "seedName": "noucinc.2 ràdio",
       "name": "noucinc.2 ràdio",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.terrassadigital.cat/radio",
@@ -5001,7 +4797,6 @@
       "seedName": "Vacarisses Ràdio",
       "name": "Vacarisses Ràdio",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://vacarissesradio.wordpress.com/",
@@ -5018,7 +4813,6 @@
       "seedName": "Ràdio Vila",
       "name": "Ràdio Vila",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiovila.cat",
@@ -5035,7 +4829,6 @@
       "seedName": "Punt 7 Ràdio Sant Celoni",
       "name": "Punt 7 Ràdio Sant Celoni",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiosantceloni.cat/",
@@ -5052,7 +4845,6 @@
       "seedName": "Ona Codinenca",
       "name": "Ona Codinenca",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.onacodinenca.cat",
@@ -5069,7 +4861,6 @@
       "seedName": "Girona FM",
       "name": "Girona FM",
       "tagline": "Emisora local catalana",
-      "description": "Entrada incorporada para Catalunya y contrastada con página oficial/local; queda como stream candidato hasta validación final estable en app.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.gironafm.cat/",
@@ -5094,7 +4885,6 @@
       "seedName": "Ràdio Banyoles",
       "name": "Ràdio Banyoles",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiobanyoles.cat",
@@ -5111,7 +4901,6 @@
       "seedName": "Ràdio Cassà",
       "name": "Ràdio Cassà",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiocassa.cat",
@@ -5128,7 +4917,6 @@
       "seedName": "Ràdio Celrà",
       "name": "Ràdio Celrà",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://radio.celra.cat/",
@@ -5145,7 +4933,6 @@
       "seedName": "Llagostera Ràdio",
       "name": "Llagostera Ràdio",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.llagosteraradio.cat",
@@ -5162,7 +4949,6 @@
       "seedName": "Radio La Llagosta",
       "name": "Radio La Llagosta",
       "tagline": "Emisora sembrada desde myTuner",
-      "description": "Semilla de myTuner contrastada con web oficial municipal activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiolallagosta.cat/",
@@ -5179,7 +4965,6 @@
       "seedName": "Ràdio Salt",
       "name": "Ràdio Salt",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.infosalt.cat/radio-salt/",
@@ -5196,7 +4981,6 @@
       "seedName": "Ràdio Sant Gregori",
       "name": "Ràdio Sant Gregori",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://radio.santgregori.cat/",
@@ -5213,7 +4997,6 @@
       "seedName": "Ràdio Vilablareix",
       "name": "Ràdio Vilablareix",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiovilablareix.cat",
@@ -5230,7 +5013,6 @@
       "seedName": "Ràdio Begur",
       "name": "Ràdio Begur",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiobegur.cat/",
@@ -5247,7 +5029,6 @@
       "seedName": "Ràdio Palafrugell",
       "name": "Ràdio Palafrugell",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiopalafrugell.cat",
@@ -5264,7 +5045,6 @@
       "seedName": "Ràdio Palamós",
       "name": "Ràdio Palamós",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.palamoscomunicacio.cat/",
@@ -5281,7 +5061,6 @@
       "seedName": "Ràdio Sant Feliu de Guíxols",
       "name": "Ràdio Sant Feliu de Guíxols",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.rsf.cat/",
@@ -5298,7 +5077,6 @@
       "seedName": "Ràdio Platja d'Aro",
       "name": "Ràdio Platja d'Aro",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.rpa.cat/",
@@ -5315,7 +5093,6 @@
       "seedName": "Ràdio Montgrí",
       "name": "Ràdio Montgrí",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.torroella-estartit.cat/ca/radio-montgri.html",
@@ -5332,7 +5109,6 @@
       "seedName": "Ràdio l'Escala",
       "name": "Ràdio l'Escala",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiolescala.cat/",
@@ -5349,7 +5125,6 @@
       "seedName": "Ràdio Cap de Creus",
       "name": "Ràdio Cap de Creus",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://cadaques.cat/ca/radio-cap-de-creus.html",
@@ -5366,7 +5141,6 @@
       "seedName": "Ràdio Cabanes",
       "name": "Ràdio Cabanes",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiocabanes.cat",
@@ -5383,7 +5157,6 @@
       "seedName": "Ràdio Vilafant",
       "name": "Ràdio Vilafant",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiovilafant.cat",
@@ -5400,7 +5173,6 @@
       "seedName": "Ona Vilamalla",
       "name": "Ona Vilamalla",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://onavilamalla.es.tl/",
@@ -5417,7 +5189,6 @@
       "seedName": "Ràdio Campdevànol",
       "name": "Ràdio Campdevànol",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiocampdevanol.cat/",
@@ -5434,9 +5205,9 @@
       "seedName": "Ràdio Marina",
       "name": "Ràdio Marina",
       "tagline": "Canal musical catalán",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Variada",
       "websiteUrl": "https://marina360.cat/",
       "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fmarina360.cat%2F",
       "language": "ca",
@@ -5444,15 +5215,13 @@
       "seedPage": 4,
       "seedRank": 255,
       "verificationStatus": "verified",
-      "streams": [],
-      "musicType": "Variada"
+      "streams": []
     },
     {
       "id": "radio-tossa",
       "seedName": "Ràdio Tossa",
       "name": "Ràdio Tossa",
       "tagline": "Emisora local catalana",
-      "description": "Entrada incorporada para Catalunya y contrastada con página oficial/local; queda como stream candidato hasta validación final estable en app.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://enacast.com/radiotossa/",
@@ -5477,7 +5246,6 @@
       "seedName": "Ràdio Bonmatí",
       "name": "Ràdio Bonmatí",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiobonmati.cat/",
@@ -5494,7 +5262,6 @@
       "seedName": "Ràdio Sant Hilari",
       "name": "Ràdio Sant Hilari",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiosanthilari.com/",
@@ -5511,7 +5278,6 @@
       "seedName": "Nova Ràdio Lloret",
       "name": "Nova Ràdio Lloret",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.novaradiolloret.org/",
@@ -5528,7 +5294,6 @@
       "seedName": "Ràdio Pista",
       "name": "Ràdio Pista",
       "tagline": "Emisora local catalana",
-      "description": "Entrada incorporada para Catalunya y contrastada con página oficial/local; queda como stream candidato hasta validación final estable en app.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiopista.cat",
@@ -5553,7 +5318,6 @@
       "seedName": "Ràdio Vic",
       "name": "Ràdio Vic",
       "tagline": "Actualitat i programes des d’Osona",
-      "description": "Emisora confirmada en la web oficial, donde figura el acceso “Directe Ràdio Vic”; se deja como candidata hasta cerrar una URL pública de stream estable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiovic.cat/",
@@ -5570,7 +5334,6 @@
       "seedName": "Ràdio Manlleu",
       "name": "Ràdio Manlleu",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiomanlleu.cat",
@@ -5587,7 +5350,6 @@
       "seedName": "Ràdio Roda",
       "name": "Ràdio Roda",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radioroda.cat/",
@@ -5604,7 +5366,6 @@
       "seedName": "Ràdio Taradell",
       "name": "Ràdio Taradell",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.taradell.cat/radio-taradell-107-7.html",
@@ -5621,9 +5382,9 @@
       "seedName": "El 9 FM",
       "name": "El 9 FM",
       "tagline": "Canal musical catalán",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Variada",
       "websiteUrl": "http://el9nou.cat/el9fm",
       "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=http%3A%2F%2Fel9nou.cat%2Fel9fm",
       "language": "ca",
@@ -5631,15 +5392,13 @@
       "seedPage": 5,
       "seedRank": 265,
       "verificationStatus": "verified",
-      "streams": [],
-      "musicType": "Variada"
+      "streams": []
     },
     {
       "id": "radio-rapita",
       "seedName": "Ràdio Ràpita",
       "name": "Ràdio Ràpita",
       "tagline": "Emisora local catalana",
-      "description": "Entrada incorporada para Catalunya y contrastada con página oficial/local; queda como stream candidato hasta validación final estable en app.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiorapita.cat",
@@ -5664,7 +5423,6 @@
       "seedName": "Ràdio Tortosa",
       "name": "Ràdio Tortosa",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiotortosa.cat",
@@ -5681,7 +5439,6 @@
       "seedName": "Antena Caro",
       "name": "Antena Caro",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.antenacaro.cat",
@@ -5698,7 +5455,6 @@
       "seedName": "La Cala Ràdio",
       "name": "La Cala Ràdio",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.ametllamar.cat/lacalartv/",
@@ -5715,7 +5471,6 @@
       "seedName": "Ràdio Flix",
       "name": "Ràdio Flix",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radioflix.cat",
@@ -5732,7 +5487,6 @@
       "seedName": "Amposta Ràdio",
       "name": "Amposta Ràdio",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://radio.amposta.cat/",
@@ -5749,7 +5503,6 @@
       "seedName": "Ràdio Cambrils",
       "name": "Ràdio Cambrils",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiocambrils.cat/",
@@ -5766,7 +5519,6 @@
       "seedName": "EFMR Ràdio",
       "name": "EFMR Ràdio",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.esplugafmradio.cat",
@@ -5783,9 +5535,9 @@
       "seedName": "Hit 103",
       "name": "Hit 103",
       "tagline": "Canal musical catalán",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Música",
       "community": "Catalunya",
+      "musicType": "Variada",
       "websiteUrl": "http://hit103.cat/",
       "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=http%3A%2F%2Fhit103.cat%2F",
       "language": "ca",
@@ -5793,15 +5545,13 @@
       "seedPage": 5,
       "seedRank": 274,
       "verificationStatus": "verified",
-      "streams": [],
-      "musicType": "Variada"
+      "streams": []
     },
     {
       "id": "radio-falset",
       "seedName": "Ràdio Falset",
       "name": "Ràdio Falset",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiofalset.cat/",
@@ -5818,7 +5568,6 @@
       "seedName": "Calafell Ràdio",
       "name": "Calafell Ràdio",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://calafell.tv/",
@@ -5835,7 +5584,6 @@
       "seedName": "Ràdio Ulldecona",
       "name": "Ràdio Ulldecona",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radioulldecona.net",
@@ -5852,7 +5600,6 @@
       "seedName": "UA1",
       "name": "UA1",
       "tagline": "La ràdio de les terres de Lleida",
-      "description": "Proyecto activo confirmado en la web oficial con reproductor embebido de “Lleida FM”; queda como candidata hasta aislar una URL pública estable de audio.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.ua1.cat/",
@@ -5869,7 +5616,6 @@
       "seedName": "Ràdio Sió",
       "name": "Ràdio Sió",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiosio.cat",
@@ -5886,7 +5632,6 @@
       "seedName": "Ràdio Sant Sadurní",
       "name": "Ràdio Sant Sadurní",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://santsadurni.cat/radio",
@@ -5903,7 +5648,6 @@
       "seedName": "Ràdio Mediona",
       "name": "Ràdio Mediona",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiomediona.cat/",
@@ -5920,7 +5664,6 @@
       "seedName": "Ràdio Piera",
       "name": "Ràdio Piera",
       "tagline": "Emisora local catalana",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://radiopiera.online/",
@@ -5937,7 +5680,6 @@
       "seedName": "Esplugues FM",
       "name": "Esplugues FM",
       "tagline": "Emissora cultural i local d’Esplugues",
-      "description": "Emisora local confirmada en su web oficial; se deja como candidata porque la web pública muestra presencia/podcast pero no expone una URL de directo estable para ingestión.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://espluguesfm.cat/",
@@ -5954,7 +5696,6 @@
       "seedName": "Ràdio Delta 107.6 FM",
       "name": "Ràdio Delta 107.6 FM",
       "tagline": "Emisora sembrada desde myTuner",
-      "description": "Semilla de myTuner contrastada con web oficial o referencia institucional activa. Queda como candidata hasta cerrar stream público estable y logo oficial reutilizable.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://deltacat.cat/radio/",
@@ -5971,7 +5712,6 @@
       "seedName": "Ràdio Artesa de Segre",
       "name": "Ràdio Artesa de Segre",
       "tagline": "Emisora sembrada desde myTuner",
-      "description": "Semilla de myTuner ya cerrada con web oficial y stream público estable. Se deja en el catálogo reproducible sin inventar logo.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.artesadesegre.cat/la-ciutat/ens-municipals/radio-artesa-de-segre",
@@ -5996,7 +5736,6 @@
       "seedName": "Ràdio Calella Televisió",
       "name": "Ràdio Calella Televisió",
       "tagline": "La ràdio local de Calella",
-      "description": "Proyecto activo confirmado en la web oficial y en su página de directo; se mantiene como candidata mientras se documenta una URL pública de audio estable para la app.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiocalellatv.cat/directe/",
@@ -6013,7 +5752,6 @@
       "seedName": "Contrabanda 91.4 FM",
       "name": "Contrabanda 91.4 FM",
       "tagline": "Radio libre histórica de Barcelona",
-      "description": "Semilla de myTuner contrastada con web oficial activa. Se añade por su peso histórico en Barcelona y por disponer de stream público indicado por la propia emisora.",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.contrabanda.org/",
@@ -6038,7 +5776,6 @@
       "seedName": "Radio Kanal Barcelona 106.9 FM",
       "name": "Radio Kanal Barcelona 106.9 FM",
       "tagline": "RKB 106.9 desde Barcelona",
-      "description": "Semilla de myTuner contrastada con referencias públicas activas y web propia. Se incorpora por su presencia histórica en Barcelona y en agregadores de radio en vivo.",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiokanalbarcelona.com",
@@ -6055,7 +5792,6 @@
       "seedName": "Maresme FM",
       "name": "Maresme FM",
       "tagline": "La Fórmula Original",
-      "description": "Semilla de myTuner contrastada con web oficial activa. Se añade como emisora relevante de la órbita Barcelona-Maresme; queda pendiente cerrar URL de audio pública estable desde la propia web.",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.maresmefm.com",
@@ -6072,7 +5808,6 @@
       "seedName": "Radio Aran",
       "name": "Radio Aran",
       "tagline": "La emisora del Valle de Arán",
-      "description": "Semilla de myTuner contrastada con presencia oficial de Baqueira y directorio turístico del Valle de Arán. Se incorpora por cobertura territorial y notoriedad comarcal.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.baqueira.es/es/radio-aran-baqueira",
@@ -6089,7 +5824,6 @@
       "seedName": "Radio Unión Catalunya",
       "name": "Radio Unión Catalunya",
       "tagline": "La de todos",
-      "description": "Semilla de myTuner contrastada con web oficial activa y sección propia de directo. Se incorpora por continuidad de marca y presencia comunitaria en Barcelona.",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiounioncatalunya.com/",
@@ -6106,7 +5840,6 @@
       "seedName": "Montcada Radio 104.6",
       "name": "Montcada Radio 104.6",
       "tagline": "Emisora local de Montcada i Reixac",
-      "description": "Semilla de myTuner contrastada con web oficial declarada por la propia ficha pública de la emisora. Se incorpora por relevancia local en el área metropolitana.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.montcadaradio.com",
@@ -6123,7 +5856,6 @@
       "seedName": "Ràdio Mussol",
       "name": "Ràdio Mussol",
       "tagline": "Emissora online des d'Esplugues",
-      "description": "Semilla de myTuner contrastada con web oficial activa. Se incorpora por su presencia local en Esplugues y por seguir emitiendo online según su propio sitio.",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://radiomussol.wixsite.com/radiomussol",
@@ -6140,7 +5872,6 @@
       "seedName": "FeM Girona Radio",
       "name": "FeM Girona Radio",
       "tagline": "92.7 FM, ràdio de proximitat",
-      "description": "Semilla de myTuner contrastada con web oficial activa y presencia pública reciente de la emisora. Se incorpora por su peso local en Girona.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://femgirona.cat/",
@@ -6157,7 +5888,6 @@
       "seedName": "Ona Mar FM 88.0",
       "name": "Ona Mar FM 88.0",
       "tagline": "Los éxitos que van contigo",
-      "description": "Semilla de myTuner contrastada con web oficial activa y reproductor propio en la página de la emisora. Se incorpora como hueco claro del área Badalona-Barcelonès.",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.onamar.net/",
@@ -6174,7 +5904,6 @@
       "seedName": "Ràdio Sarrià",
       "name": "Ràdio Sarrià",
       "tagline": "La teva veu",
-      "description": "Semilla de myTuner contrastada con presencia municipal y social activa. Se incorpora por su papel como emisora local de Sarrià de Ter.",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://radio.sarriadeter.cat/",

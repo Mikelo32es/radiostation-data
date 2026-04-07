@@ -1,12 +1,12 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Piloto de catálogo nacional activado: cadenas nacionales deduplicadas y centralizadas para convivir con las emisoras autonómicas.",
+  "syncMessage": "Catálogo GitHub optimizado y sincronizado.",
   "stats": {
-    "seedCount": 805,
-    "playableCount": 602,
-    "verifiedCount": 541,
-    "candidateCount": 61,
-    "pendingCount": 203
+    "seedCount": 902,
+    "playableCount": 801,
+    "verifiedCount": 739,
+    "candidateCount": 62,
+    "pendingCount": 101
   },
   "featuredIds": [
     "mariskalrock-radio",
@@ -65,15 +65,15 @@
       "id": "andalucia",
       "name": "Andalucía",
       "path": "communities/andalucia.json",
-      "seedCount": 99,
-      "playableCount": 99
+      "seedCount": 100,
+      "playableCount": 100
     },
     {
       "id": "asturias",
       "name": "Asturias",
       "path": "communities/asturias.json",
-      "seedCount": 44,
-      "playableCount": 44
+      "seedCount": 100,
+      "playableCount": 100
     },
     {
       "id": "catalunya",
@@ -86,8 +86,8 @@
       "id": "euskadi",
       "name": "Euskadi",
       "path": "communities/euskadi.json",
-      "seedCount": 112,
-      "playableCount": 52
+      "seedCount": 100,
+      "playableCount": 100
     },
     {
       "id": "galicia",
@@ -100,15 +100,15 @@
       "id": "la-rioja",
       "name": "La Rioja",
       "path": "communities/la-rioja.json",
-      "seedCount": 14,
-      "playableCount": 13
+      "seedCount": 100,
+      "playableCount": 100
     },
     {
       "id": "madrid",
       "name": "Madrid",
       "path": "communities/madrid.json",
-      "seedCount": 134,
-      "playableCount": 93
+      "seedCount": 100,
+      "playableCount": 100
     },
     {
       "id": "national",
