@@ -1,12 +1,12 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Extremadura: añadida desde myTuner con 57 semillas; remate centrado en logos específicos por emisora y streams públicos contrastados sin tocar las comunidades ya estables.",
+  "syncMessage": "Piloto de catálogo nacional activado: cadenas nacionales deduplicadas y centralizadas para convivir con las emisoras autonómicas.",
   "stats": {
-    "seedCount": 953,
-    "playableCount": 723,
-    "verifiedCount": 763,
-    "candidateCount": 80,
-    "pendingCount": 110
+    "seedCount": 805,
+    "playableCount": 602,
+    "verifiedCount": 541,
+    "candidateCount": 61,
+    "pendingCount": 203
   },
   "featuredIds": [
     "mariskalrock-radio",
@@ -69,53 +69,53 @@
       "playableCount": 99
     },
     {
-      "id": "euskadi",
-      "name": "Euskadi",
-      "path": "communities/euskadi.json",
-      "seedCount": 129,
-      "playableCount": 89
-    },
-    {
-      "id": "madrid",
-      "name": "Madrid",
-      "path": "communities/madrid.json",
-      "seedCount": 156,
-      "playableCount": 115
+      "id": "asturias",
+      "name": "Asturias",
+      "path": "communities/asturias.json",
+      "seedCount": 44,
+      "playableCount": 44
     },
     {
       "id": "catalunya",
       "name": "Catalunya",
       "path": "communities/catalunya.json",
-      "seedCount": 296,
-      "playableCount": 195
+      "seedCount": 271,
+      "playableCount": 170
+    },
+    {
+      "id": "euskadi",
+      "name": "Euskadi",
+      "path": "communities/euskadi.json",
+      "seedCount": 112,
+      "playableCount": 52
     },
     {
       "id": "galicia",
       "name": "Galicia",
       "path": "communities/galicia.json",
-      "seedCount": 124,
-      "playableCount": 124
-    },
-    {
-      "id": "asturias",
-      "name": "Asturias",
-      "path": "communities/asturias.json",
-      "seedCount": 64,
-      "playableCount": 64
+      "seedCount": 106,
+      "playableCount": 106
     },
     {
       "id": "la-rioja",
       "name": "La Rioja",
       "path": "communities/la-rioja.json",
-      "seedCount": 28,
-      "playableCount": 27
+      "seedCount": 14,
+      "playableCount": 13
     },
     {
-      "id": "extremadura",
-      "name": "Extremadura",
-      "path": "communities/extremadura.json",
-      "seedCount": 57,
-      "playableCount": 30
+      "id": "madrid",
+      "name": "Madrid",
+      "path": "communities/madrid.json",
+      "seedCount": 134,
+      "playableCount": 93
+    },
+    {
+      "id": "national",
+      "name": "Nacional",
+      "path": "communities/national.json",
+      "seedCount": 25,
+      "playableCount": 25
     }
   ],
   "homePath": "catalog/home.json"

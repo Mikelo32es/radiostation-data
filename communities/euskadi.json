@@ -2,11 +2,11 @@
   "repoName": "radiostation-data",
   "community": "Euskadi",
   "seedSource": "myTuner",
-  "seedCount": 130,
-  "playableCount": 70,
-  "verifiedCount": 55,
-  "candidateCount": 17,
-  "pendingCount": 58,
+  "seedCount": 112,
+  "playableCount": 52,
+  "verifiedCount": 38,
+  "candidateCount": 14,
+  "pendingCount": 60,
   "notes": [
     "Remate final de logos: cerrados los 11 que quedaban vacíos usando URLs directas visibles, principalmente desde fichas individuales de myTuner.",
     "myTuner usado como semilla de nombres, categorías y orden inicial.",
@@ -19,395 +19,6 @@
     "2026-04-02: añadidos streams verificados desde TDTChannels para Radio Marca, Cadena Dial y RNE Radio 3; Radio Llodio pasa a candidate con endpoint OGG inferido desde fmstream y web oficial."
   ],
   "stations": [
-    {
-      "id": "los-40-principales",
-      "seedName": "Los 40 Principales",
-      "name": "LOS40",
-      "tagline": "Éxitos actuales y listas musicales",
-      "description": "Marca musical nacional incluida en la semilla de myTuner para Euskadi.",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Pop",
-      "websiteUrl": "https://los40.com/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/3jk5k9pcxrp9.jpg",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 1,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "AAC principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40AAC.aac",
-          "format": "aac",
-          "priority": 1,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "MP3 alternativo",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40.mp3",
-          "format": "mp3",
-          "priority": 2,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cadena-100",
-      "seedName": "Cadena 100",
-      "name": "Cadena 100",
-      "tagline": "Música y entretenimiento",
-      "description": "Cadena musical nacional incluida en la semilla de myTuner para Euskadi.",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Pop",
-      "websiteUrl": "https://www.cadena100.es/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/ZGJV5upXRa.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 2,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://cadena100-cope.flumotion.com/chunks.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "los40-classic",
-      "seedName": "Los40 Classic",
-      "name": "LOS40 Classic",
-      "tagline": "Grandes éxitos de otras décadas",
-      "description": "Cadena musical temática incluida en la semilla de myTuner para Euskadi.",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Classic Hits",
-      "websiteUrl": "https://los40.com/los40_classic/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/WwgbG6g5tt.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 3,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "AAC principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_CLASSICAAC.aac",
-          "format": "aac",
-          "priority": 1,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "MP3 alternativo",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_CLASSIC.mp3",
-          "format": "mp3",
-          "priority": 2,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "kiss-fm",
-      "seedName": "KISS FM",
-      "name": "KISS FM",
-      "tagline": "Éxitos y clásicos pop",
-      "description": "Cadena musical nacional incluida en la semilla de myTuner para Euskadi.",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Pop",
-      "websiteUrl": "https://www.kissfm.es/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/117/kiss-fm.51b9402b.jpg",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 4,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://kissfm.kissfmradio.cires21.com/kissfm.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-marca-nacional",
-      "seedName": "Radio Marca Nacional",
-      "name": "Radio Marca",
-      "tagline": "Información y actualidad deportiva",
-      "description": "Cadena deportiva nacional con streams públicos listados en TDTChannels.",
-      "category": "Deporte",
-      "community": "Euskadi",
-      "websiteUrl": "https://www.marca.com/radio.html",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/076/radio-marca.60356e7b.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 5,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "AAC principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONALAAC.aac",
-          "format": "aac",
-          "priority": 1,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "MP3 alternativo",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONAL.mp3",
-          "format": "mp3",
-          "priority": 2,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cadena-dial",
-      "seedName": "Cadena Dial",
-      "name": "Cadena Dial",
-      "tagline": "Música en español",
-      "description": "Cadena musical nacional con streams públicos listados en TDTChannels.",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Pop en español",
-      "websiteUrl": "https://www.cadenadial.com/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/L6GkAPcT26.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 6,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "AAC principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIALAAC.aac",
-          "format": "aac",
-          "priority": 1,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "MP3 alternativo",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL.mp3",
-          "format": "mp3",
-          "priority": 2,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "rock-fm",
-      "seedName": "Rock FM",
-      "name": "Rock FM",
-      "tagline": "Clásicos del rock",
-      "description": "Cadena musical nacional incluida en la semilla de myTuner para Euskadi.",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Rock",
-      "websiteUrl": "https://www.rockfm.fm/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/7WH7nKXkwa.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 7,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://rockfm-cope.flumotion.com/playlist.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "rne-radio-nacional",
-      "seedName": "RNE Radio Nacional",
-      "name": "RNE Radio Nacional",
-      "tagline": "Información y programas de RNE",
-      "description": "Señal de Radio Nacional accesible desde País Vasco.",
-      "category": "Nacional",
-      "community": "Euskadi",
-      "websiteUrl": "https://www.rtve.es/radio/rne/",
-      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/RNE_logo.svg/512px-RNE_logo.svg.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 8,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "RNE 1 Euskadi",
-          "url": "https://dispatcher.rndfnk.com/crtve/rne1/eus/mp3/high",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "rne-radio-5",
-      "seedName": "RNE Radio 5",
-      "name": "RNE Radio 5",
-      "tagline": "Información continua de RNE",
-      "description": "Señal de Radio 5 para Vitoria/Gasteiz.",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "websiteUrl": "https://www.rtve.es/radio/radio5/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/745/radio-5.9b6b99b4.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 9,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Radio 5 Vitoria",
-          "url": "https://dispatcher.rndfnk.com/crtve/rne5/vit/mp3/high",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "melodia-fm",
-      "seedName": "Melodía FM",
-      "name": "Melodía FM",
-      "tagline": "Clásicos y éxitos melódicos",
-      "description": "Cadena musical nacional sembrada desde myTuner.",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Adult Hits",
-      "websiteUrl": "https://www.melodia-fm.com/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/749/melodia-fm-spain.fc1b90ac.jpg",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 10,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "AAC principal",
-          "url": "https://radio-atres-live.ondacero.es/api/livestream-redirect/MELODIA_FMAAC.aac",
-          "format": "aac",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "rne-radio-3",
-      "seedName": "RNE Radio 3",
-      "name": "RNE Radio 3",
-      "tagline": "Cultura y música alternativa",
-      "description": "Canal público temático de RTVE con stream HLS público listado en TDTChannels.",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Alternativa",
-      "websiteUrl": "https://www.rtve.es/radio/radio3/",
-      "logoUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/RNE%20Radio%203%20%282016%29.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 11,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r3_main.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "hit-fm",
-      "seedName": "HIT FM",
-      "name": "Hit FM",
-      "tagline": "Hits nonstop",
-      "description": "Cadena musical nacional incluida en la semilla de myTuner para Euskadi.",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Dance Pop",
-      "websiteUrl": "https://www.hitfm.es/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/640/hit-fm.477231d3.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 12,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://adhandler.kissfmradio.cires21.com/get_link?url=https://bbhitfm.kissfmradio.cires21.com/bbhitfm.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "megastarfm",
-      "seedName": "MegaStarFM",
-      "name": "MegaStar FM",
-      "tagline": "Éxitos jóvenes",
-      "description": "Cadena musical nacional incluida en la semilla de myTuner para Euskadi.",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "CHR",
-      "websiteUrl": "https://www.megastarfm.com/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/dQkptB2RDC.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 13,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://megastar-cope.flumotion.com/playlist.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "rne-radio-clasica",
-      "seedName": "RNE Radio Clásica",
-      "name": "RNE Radio Clásica",
-      "tagline": "Música clásica y cultura",
-      "description": "Cadena pública temática sembrada desde myTuner.",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Clásica",
-      "websiteUrl": "https://www.rtve.es/radio/radioclasica/",
-      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/RNE_logo.svg/512px-RNE_logo.svg.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 14,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r2_main.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
     {
       "id": "radio-bilbao-ser",
       "seedName": "Radio Bilbao SER",
@@ -427,31 +38,6 @@
         {
           "label": "MP3 principal",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_BILBAO.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-intereconomia",
-      "seedName": "Radio Intereconomía",
-      "name": "Radio Intereconomía",
-      "tagline": "Mercados y economía",
-      "description": "Cadena especializada incluida en la semilla de myTuner para Euskadi.",
-      "category": "Economía",
-      "community": "Euskadi",
-      "websiteUrl": "https://intereconomia.com/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/WAsBY8S326.jpg",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 16,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://streaming.intereconomia.com/siliconorg",
           "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
@@ -509,31 +95,6 @@
         {
           "label": "MP3 principal",
           "url": "https://radionervion.streaming-pro.com:6132/radionervion",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-maria-espana",
-      "seedName": "Radio María España",
-      "name": "Radio María España",
-      "tagline": "Programación religiosa",
-      "description": "Cadena religiosa nacional incluida en la semilla de myTuner para Euskadi.",
-      "category": "Religión",
-      "community": "Euskadi",
-      "websiteUrl": "https://www.radiomaria.es/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/091/radio-maria.6259b8f9.jpg",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 19,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://dreamsiteradiocp4.com/proxy/rmspain1?mp=/stream/1/;.mp3",
           "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
@@ -603,18 +164,9 @@
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 22,
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "https://freefmrock.radioca.st/stream",
-          "format": "mp3",
-          "priority": 1,
-          "source": "fmstream (public listing)"
-        }
-      ],
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/769/free-fm.aa638097.jpg",
-      "websiteUrl": "https://www.freefmrock.com/"
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/769/free-fm.aa638097.jpg"
     },
     {
       "id": "europa-fm-gipuzkoa",
@@ -645,31 +197,6 @@
           "url": "https://radio-atres-live.ondacero.es/api/livestream-redirect/EFMAAC.aac",
           "format": "aac",
           "priority": 2,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "capital-radio",
-      "seedName": "Capital Radio",
-      "name": "Capital Radio",
-      "tagline": "Información económica y mercados",
-      "description": "Cadena especializada incluida en la semilla de myTuner para Euskadi.",
-      "category": "Economía",
-      "community": "Euskadi",
-      "websiteUrl": "https://www.capitalradio.es/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/671/capital-radio.3bec34e0.jpg",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 24,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://mdstrm.com/audio/67d2a8685ae4234de49e40f6/live.m3u8",
-          "format": "hls",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
@@ -833,18 +360,9 @@
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 30,
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "https://xxdelgado.radioca.st/stream",
-          "format": "mp3",
-          "priority": 1,
-          "source": "fmstream directory"
-        }
-      ],
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/757/roca-fm.35407fe8.jpg",
-      "websiteUrl": "https://sites.google.com/view/freefmworld"
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/757/roca-fm.35407fe8.jpg"
     },
     {
       "id": "free-fm-80s",
@@ -859,18 +377,9 @@
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 31,
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "http://freefm80.radioca.st/",
-          "format": "mp3",
-          "priority": 1,
-          "source": "radiobrowser index"
-        }
-      ],
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/827/free-fm-80s.16928eb8.png",
-      "websiteUrl": "https://sites.google.com/view/freefmworld"
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/827/free-fm-80s.16928eb8.png"
     },
     {
       "id": "radio-marca-bilbao",
@@ -1145,16 +654,8 @@
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 43,
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "https://stream.zeno.fm/zb6hfewg368uv",
-          "format": "mp3",
-          "priority": 1,
-          "source": "Zeno public listing"
-        }
-      ],
+      "verificationStatus": "seeded_pending",
+      "streams": [],
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/nmsqf8nydH.jpg",
       "websiteUrl": "https://hardrockanimals.webnode.es"
     },
@@ -1168,7 +669,7 @@
       "community": "Euskadi",
       "musicType": "Variedad",
       "websiteUrl": "https://www.eitb.eus/es/radio/eitb-musika/",
-      "logoUrl": "https://www.eitb.eus/multimedia/images/2022/11/17/3077931/20221117163833_eitb-musika_logo_960x540.jpg",
+      "logoUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/EITB%20Musika.png",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
@@ -1197,18 +698,9 @@
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 45,
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "https://stream.zeno.fm/umsptm6rvy8uv",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TingFM listing"
-        }
-      ],
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/714/free-fm-love.c1ba1f4e.jpg",
-      "websiteUrl": "https://sites.google.com/view/freefmworld"
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/714/free-fm-love.c1ba1f4e.jpg"
     },
     {
       "id": "cadena-cope-vitoria",
@@ -1290,18 +782,9 @@
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 49,
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "http://ec2.yesstreaming.net:3085/stream",
-          "format": "mp3",
-          "priority": 1,
-          "source": "RCast directory"
-        }
-      ],
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/924/reggae-fm-1.ab6e6bde.jpg",
-      "websiteUrl": "https://okunsallstations.com/"
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/924/reggae-fm-1.ab6e6bde.jpg"
     },
     {
       "id": "radio-marca-vitoria-gasteiz",
@@ -1341,18 +824,9 @@
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 51,
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "http://stream.zeno.fm/x5jlpogsaedvv",
-          "format": "mp3",
-          "priority": 1,
-          "source": "radiobrowser index"
-        }
-      ],
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/020/free-fm-classical.0ef23d56.jpg",
-      "websiteUrl": "https://sites.google.com/view/freefmworld"
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/020/free-fm-classical.0ef23d56.jpg"
     },
     {
       "id": "kiss-fm-91-6",
@@ -1419,18 +893,9 @@
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 54,
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "https://freefmchill.radioca.st/",
-          "format": "mp3",
-          "priority": 1,
-          "source": "RCast directory"
-        }
-      ],
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/630/free-fm-chill.f57f67ef.png",
-      "websiteUrl": "https://sites.google.com/view/freefmworld"
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/630/free-fm-chill.f57f67ef.png"
     },
     {
       "id": "free-fm-x-mas",
@@ -1445,18 +910,9 @@
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 55,
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "http://stream.zeno.fm/h60er015v68uv",
-          "format": "mp3",
-          "priority": 1,
-          "source": "radiobrowser index"
-        }
-      ],
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/6uzYMVMHad.jpg",
-      "websiteUrl": "https://sites.google.com/view/freefmworld"
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/6uzYMVMHad.jpg"
     },
     {
       "id": "deluxe-radio-de-rumbas",
@@ -1563,18 +1019,9 @@
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 60,
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "https://stream.zeno.fm/31nnibfpnxktv",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TingFM listing"
-        }
-      ],
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/BtX4kYE4dC.jpg",
-      "websiteUrl": "https://sites.google.com/view/freefmworld"
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/BtX4kYE4dC.jpg"
     },
     {
       "id": "naiz-irratia",
@@ -1979,7 +1426,7 @@
       "seedName": "Hits 1 San Sebastián",
       "name": "Hits 1 San Sebastián",
       "tagline": "Hits internacionales",
-      "description": "Presencia consistente en web oficial y directorios actuales; stream MP3 localizado y dejado como candidato.",
+      "description": "Semilla de myTuner pendiente de verificación oficial.",
       "category": "Música",
       "community": "Euskadi",
       "musicType": "CHR",
@@ -1987,16 +1434,8 @@
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 79,
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://hits1-audiomediaradio.radioca.st/hits1?1",
-          "format": "mp3",
-          "priority": 1,
-          "source": "Online Radio Box / fmstream"
-        }
-      ],
+      "verificationStatus": "seeded_pending",
+      "streams": [],
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/085/hits-1-san-sebastian.c32c4eec.png",
       "websiteUrl": "https://www.hits1radio.com"
     },
@@ -2445,18 +1884,9 @@
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 101,
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "https://stream.zeno.fm/6t7w7xc7uekvv",
-          "format": "mp3",
-          "priority": 1,
-          "source": "liveradio.ie"
-        }
-      ],
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/895/afrobeat-now-fm.2db81b7c.jpg",
-      "websiteUrl": "https://okunsallstations.com/"
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/895/afrobeat-now-fm.2db81b7c.jpg"
     },
     {
       "id": "radio-tx",
@@ -2480,24 +1910,16 @@
       "seedName": "Radio Líder Euskadi",
       "name": "Radio Líder Euskadi",
       "tagline": "Actualidad y entrevistas",
-      "description": "Web oficial activa y stream público localizado en directorios actuales; pendiente de validación final como oficial.",
+      "description": "Semilla de myTuner pendiente de verificación oficial.",
       "category": "Noticias",
       "community": "Euskadi",
-      "websiteUrl": "https://radiolider.com/",
+      "websiteUrl": "https://www.radiolider.com",
       "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 103,
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "MP3 público",
-          "url": "http://server8.emitironline.com:18792/stream",
-          "format": "mp3",
-          "priority": 1,
-          "source": "fmstream / Radiomap"
-        }
-      ],
+      "verificationStatus": "seeded_pending",
+      "streams": [],
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/909/radio-lider-euskadi.26bb0e16.png"
     },
     {
@@ -2539,18 +1961,9 @@
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 105,
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "https://ec2.yesstreaming.net:3015/stream",
-          "format": "mp3",
-          "priority": 1,
-          "source": "liveradio.ie"
-        }
-      ],
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/244/hitz-home-abroad-fm.2ad5553a.png",
-      "websiteUrl": "https://okunsallstations.com/"
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/244/hitz-home-abroad-fm.2ad5553a.png"
     },
     {
       "id": "groove-time-fm",
@@ -2565,16 +1978,8 @@
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 106,
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "https://stream.zeno.fm/rmn2uey66qhtv",
-          "format": "mp3",
-          "priority": 1,
-          "source": "liveradio.ie"
-        }
-      ],
+      "verificationStatus": "seeded_pending",
+      "streams": [],
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/896/groove-time-fm.1bbe511a.jpg"
     },
     {
@@ -2622,16 +2027,8 @@
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 108,
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "https://stream.zeno.fm/qd9i4fxqew6tv",
-          "format": "mp3",
-          "priority": 1,
-          "source": "liveradio.ie"
-        }
-      ],
+      "verificationStatus": "seeded_pending",
+      "streams": [],
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/897/rb-hit-fm.853763ca.jpg"
     },
     {
@@ -2639,7 +2036,7 @@
       "seedName": "Soft Radio",
       "name": "Soft Radio",
       "tagline": "Radio online musical",
-      "description": "Web oficial activa con enlaces PLS/M3U y stream de navegador público localizado; pendiente de validación final como oficial.",
+      "description": "Semilla de myTuner pendiente de verificación oficial.",
       "category": "Música",
       "community": "Euskadi",
       "musicType": "Soft",
@@ -2647,17 +2044,9 @@
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 109,
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://listen.openstream.co/6263/audio",
-          "format": "mp3",
-          "priority": 1,
-          "source": "Soft Radio official / openstream"
-        }
-      ],
-      "logoUrl": "https://www.soft-radio.com/wp-content/uploads/2024/02/Color-softradio-webp600px.webp",
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/781/soft-music-radio.abcc75a4.png",
       "websiteUrl": "https://www.soft-radio.com"
     },
     {
@@ -2766,7 +2155,7 @@
       "seedName": "Oye Radio",
       "name": "Oye Radio",
       "tagline": "Radio local/musical",
-      "description": "Emisora local de Basauri con stream público localizado en listados abiertos; pendiente de validación final como oficial.",
+      "description": "Semilla de myTuner con web oficial detectada; stream pendiente de verificación.",
       "category": "Música",
       "community": "Euskadi",
       "musicType": "Latina",
@@ -2776,23 +2165,15 @@
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 115,
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "MP3 público",
-          "url": "http://5.135.155.232:8009/stream",
-          "format": "mp3",
-          "priority": 1,
-          "source": "radio-online-json-url"
-        }
-      ]
+      "verificationStatus": "seeded_pending",
+      "streams": []
     },
     {
       "id": "candela-radio",
       "seedName": "Candela Radio",
       "name": "Candela Radio",
       "tagline": "Radio online musical",
-      "description": "Web oficial activa y stream público localizado en listados abiertos; pendiente de validación final como oficial.",
+      "description": "Semilla de myTuner pendiente de verificación oficial.",
       "category": "Música",
       "community": "Euskadi",
       "musicType": "Latina",
@@ -2800,18 +2181,9 @@
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 116,
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "MP3 público",
-          "url": "http://uk1-pn.webcast-server.net:8226",
-          "format": "mp3",
-          "priority": 1,
-          "source": "radio-online-json-url"
-        }
-      ],
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/m6mstp6fmuzc.png",
-      "websiteUrl": "https://candelaradio.fm/"
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/m6mstp6fmuzc.png"
     },
     {
       "id": "hala-bedi-bat-107-4",
@@ -2882,7 +2254,7 @@
       "seedName": "Konecta Radio",
       "name": "Konecta Radio",
       "tagline": "Radio online musical",
-      "description": "Web oficial activa y stream público localizado en listados abiertos; pendiente de validación final como oficial.",
+      "description": "Semilla de myTuner pendiente de verificación oficial.",
       "category": "Música",
       "community": "Euskadi",
       "musicType": "Variedad",
@@ -2890,18 +2262,9 @@
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 119,
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "MP3 público",
-          "url": "http://178.33.163.59:8100/stream",
-          "format": "mp3",
-          "priority": 1,
-          "source": "Curated radios / Konecta Radio"
-        }
-      ],
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/zqfjvcsugtnt.png",
-      "websiteUrl": "https://konectaradio.com/"
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/zqfjvcsugtnt.png"
     },
     {
       "id": "samaniego-estereo-104-1-fm",
@@ -3104,32 +2467,6 @@
       "verificationStatus": "seeded_pending",
       "streams": [],
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/647/deluxe-radio-latino.b01410be.png"
-    },
-    {
-      "id": "waiting-room",
-      "seedName": "Waiting Room",
-      "name": "Waiting Room",
-      "tagline": "Music for your senses",
-      "description": "Canal musical online presente en la semilla de myTuner. Directorios públicos lo sitúan en Bizkaia, aunque otros lo etiquetan como Madrid; se incorpora a Euskadi como candidato reproducible pendiente de validación manual final.",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Chillout",
-      "websiteUrl": "https://www.thewaitingroom.com/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/757/waiting-room.4f126cec.png",
-      "language": "es",
-      "sourceSeed": "myTuner",
-      "seedPage": 3,
-      "seedRank": 130,
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "AAC candidato",
-          "url": "https://streaming.coolmusicradio.com/listen/waiting-room/radio",
-          "format": "aac",
-          "priority": 1,
-          "source": "RadioBox / Cool Music Radio"
-        }
-      ]
     }
   ]
 }

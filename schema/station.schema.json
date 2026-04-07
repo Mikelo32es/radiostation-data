@@ -110,6 +110,12 @@
                 }
               }
             }
+          },
+          "aliasIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
           }
         }
       }
