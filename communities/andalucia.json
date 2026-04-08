@@ -9,273 +9,21 @@
   "pendingCount": 0,
   "stations": [
     {
-      "id": "andalucia--cope-sevilla",
-      "name": "COPE Sevilla",
-      "tagline": "Generalista de proximidad",
-      "description": "",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "websiteUrl": "https://www.cope.es/",
-      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://wecast-bl02.flumotion.com/copesedes/sevilla.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "andalucia--canal-fiesta-radio",
-      "name": "Canal Fiesta Radio",
-      "tagline": "Éxitos andaluces y pop latino",
+      "id": "andalucia--cadena-100-campo-de-gibraltar",
+      "name": "Cadena 100 Campo de Gibraltar",
+      "tagline": "Pop y entretenimiento",
       "description": "",
       "category": "Música",
       "community": "Andalucía",
-      "websiteUrl": "https://www.canalsurmas.es/",
-      "logoUrl": "https://pbs.twimg.com/profile_images/2014607361843793920/uKfZnuel_200x200.jpg",
+      "websiteUrl": "https://www.copecampodegibraltar.com/",
+      "logoUrl": "https://graph.facebook.com/CADENA100/picture?width=200&height=200",
       "sourceSeed": "myTuner",
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "MP3 principal",
-          "url": "https://rtva-live-radio.flumotion.com/rtva/cfr.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "andalucia--canal-sur-radio-sevilla",
-      "name": "Canal Sur Radio Sevilla",
-      "tagline": "Señal pública de Sevilla",
-      "description": "",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "websiteUrl": "https://www.canalsurmas.es/",
-      "logoUrl": "https://graph.facebook.com/CanalSurRadioAndalucia/picture?height=200&width=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://rtva-live-radio.flumotion.com/rtva/csrsev.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "andalucia--ser-sevilla",
-      "name": "SER Sevilla",
-      "tagline": "Cadena SER para Radio Sevilla y provincia",
-      "description": "",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "websiteUrl": "https://cadenaser.com/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?height=200&width=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_SEVILLA.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "andalucia--onda-cero-sevilla",
-      "name": "Onda Cero Sevilla",
-      "tagline": "Actualidad y magazine local",
-      "description": "",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "websiteUrl": "https://www.ondacero.es/",
-      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/sevilla/master.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "andalucia--cope-malaga",
-      "name": "COPE Málaga",
-      "tagline": "Generalista de proximidad",
-      "description": "",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "websiteUrl": "https://www.cope.es/",
-      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://wecast-bl02.flumotion.com/copesedes/malaga.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "andalucia--radio-marca-sevilla",
-      "name": "Radio Marca Sevilla",
-      "tagline": "Marca deportiva sevillana",
-      "description": "",
-      "category": "Deporte",
-      "community": "Andalucía",
-      "websiteUrl": "https://www.marca.com/",
-      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_SEVILLA.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "andalucia--onda-cero-malaga",
-      "name": "Onda Cero Málaga",
-      "tagline": "Actualidad y magazine local",
-      "description": "",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "websiteUrl": "https://www.ondacero.es/",
-      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/malaga/master.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "andalucia--onda-cero-almeria",
-      "name": "Onda Cero Almería",
-      "tagline": "Actualidad y magazine local",
-      "description": "",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "websiteUrl": "https://www.ondacero.es/",
-      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/almeria/master.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "andalucia--onda-cero-granada",
-      "name": "Onda Cero Granada",
-      "tagline": "Actualidad y magazine local",
-      "description": "",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "websiteUrl": "https://www.ondacero.es/",
-      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/granada/master.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "andalucia--cope-jaen",
-      "name": "COPE Jaén",
-      "tagline": "Generalista de proximidad",
-      "description": "",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "websiteUrl": "https://www.cope.es/",
-      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://wecast-bl02.flumotion.com/copesedes/jaen.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "andalucia--ser-cadiz",
-      "name": "SER Cádiz",
-      "tagline": "Cadena SER para Información gaditana",
-      "description": "",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "websiteUrl": "https://cadenaser.com/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?height=200&width=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_CADIZ.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "andalucia--canal-sur-radio-almeria",
-      "name": "Canal Sur Radio Almería",
-      "tagline": "Señal pública de Almería",
-      "description": "",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "websiteUrl": "https://www.canalsurmas.es/",
-      "logoUrl": "https://graph.facebook.com/CanalSurRadioAndalucia/picture?height=200&width=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://rtva-live-radio.flumotion.com/rtva/csralm.mp3",
-          "format": "mp3",
+          "label": "Stream principal",
+          "url": "https://stream.zeno.fm/fkq1xae5bzzuv",
+          "format": "stream",
           "priority": 1,
           "source": "TDTChannels"
         }
@@ -387,9 +135,9 @@
       ]
     },
     {
-      "id": "andalucia--canal-sur-radio-campo-de-gibraltar",
-      "name": "Canal Sur Radio Campo de Gibraltar",
-      "tagline": "Señal pública de Campo de Gibraltar",
+      "id": "andalucia--canal-sur-radio-almeria",
+      "name": "Canal Sur Radio Almería",
+      "tagline": "Señal pública de Almería",
       "description": "",
       "category": "Noticias",
       "community": "Andalucía",
@@ -400,7 +148,7 @@
       "streams": [
         {
           "label": "MP3 principal",
-          "url": "https://rtva-live-radio.flumotion.com/rtva/csralg.mp3",
+          "url": "https://rtva-live-radio.flumotion.com/rtva/csralm.mp3",
           "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
@@ -422,6 +170,27 @@
         {
           "label": "MP3 principal",
           "url": "https://rtva-live-radio.flumotion.com/rtva/csrcad.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "andalucia--canal-sur-radio-campo-de-gibraltar",
+      "name": "Canal Sur Radio Campo de Gibraltar",
+      "tagline": "Señal pública de Campo de Gibraltar",
+      "description": "",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "https://www.canalsurmas.es/",
+      "logoUrl": "https://graph.facebook.com/CanalSurRadioAndalucia/picture?height=200&width=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://rtva-live-radio.flumotion.com/rtva/csralg.mp3",
           "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
@@ -576,6 +345,27 @@
       ]
     },
     {
+      "id": "andalucia--canal-sur-radio-sevilla",
+      "name": "Canal Sur Radio Sevilla",
+      "tagline": "Señal pública de Sevilla",
+      "description": "",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "https://www.canalsurmas.es/",
+      "logoUrl": "https://graph.facebook.com/CanalSurRadioAndalucia/picture?height=200&width=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://rtva-live-radio.flumotion.com/rtva/csrsev.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
       "id": "andalucia--candil-radio",
       "name": "Candil Radio",
       "tagline": "Local y cercanía en el poniente",
@@ -723,6 +513,27 @@
       ]
     },
     {
+      "id": "andalucia--cope-jaen",
+      "name": "COPE Jaén",
+      "tagline": "Generalista de proximidad",
+      "description": "",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "https://www.cope.es/",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/jaen.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
       "id": "andalucia--cope-jerez",
       "name": "COPE Jerez",
       "tagline": "Generalista de proximidad",
@@ -737,6 +548,27 @@
         {
           "label": "MP3 principal",
           "url": "https://wecast-bl02.flumotion.com/copesedes/jerez.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "andalucia--cope-malaga",
+      "name": "COPE Málaga",
+      "tagline": "Generalista de proximidad",
+      "description": "",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "https://www.cope.es/",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/malaga.mp3",
           "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
@@ -765,21 +597,21 @@
       ]
     },
     {
-      "id": "andalucia--decibelia-fm",
-      "name": "Decibelia FM",
-      "tagline": "Dance electrónico y club",
+      "id": "andalucia--cope-sevilla",
+      "name": "COPE Sevilla",
+      "tagline": "Generalista de proximidad",
       "description": "",
-      "category": "Música",
+      "category": "Noticias",
       "community": "Andalucía",
-      "websiteUrl": "https://decibeliafm.es/",
-      "logoUrl": "https://pbs.twimg.com/profile_images/1580311659226210310/umHvZ3-d_200x200.jpg",
+      "websiteUrl": "https://www.cope.es/",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
       "sourceSeed": "myTuner",
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "Stream principal",
-          "url": "https://streaming.shoutcast.com/decibelia",
-          "format": "stream",
+          "label": "MP3 principal",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/sevilla.mp3",
+          "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
         }
@@ -891,41 +723,20 @@
       ]
     },
     {
-      "id": "andalucia--flamenco-radio",
-      "name": "Flamenco Radio",
-      "tagline": "Canal temático de flamenco",
+      "id": "andalucia--la-fresca-fm",
+      "name": "La Fresca FM",
+      "tagline": "Radiofórmula fresca y festiva",
       "description": "",
       "category": "Música",
       "community": "Andalucía",
-      "websiteUrl": "https://www.canalsurmas.es/",
-      "logoUrl": "https://graph.facebook.com/FlamencoRadio/picture?height=200&width=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://rtva-live-radio.flumotion.com/rtva/flamenco.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "andalucia--gozadera-fm",
-      "name": "Gozadera FM",
-      "tagline": "Latino urbano y ritmo",
-      "description": "",
-      "category": "Música",
-      "community": "Andalucía",
-      "websiteUrl": "https://gozadera.es/",
-      "logoUrl": "https://graph.facebook.com/GozaderaSpain/picture?height=200&width=200",
+      "websiteUrl": "https://www.lafresca.fm/",
+      "logoUrl": "https://graph.facebook.com/lafresca.es/picture?height=200&width=200",
       "sourceSeed": "myTuner",
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "Stream principal",
-          "url": "https://azura.abcorp.es/radio/8030/live",
+          "url": "https://stream.produccionesdale.com/listen/lafresca/altacalidad",
           "format": "stream",
           "priority": 1,
           "source": "TDTChannels"
@@ -1101,6 +912,27 @@
       ]
     },
     {
+      "id": "andalucia--onda-cero-almeria",
+      "name": "Onda Cero Almería",
+      "tagline": "Actualidad y magazine local",
+      "description": "",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "https://www.ondacero.es/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/almeria/master.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
       "id": "andalucia--onda-cero-cadiz",
       "name": "Onda Cero Cádiz",
       "tagline": "Actualidad y magazine local",
@@ -1136,6 +968,27 @@
         {
           "label": "HLS principal",
           "url": "https://atres-live.ondacero.es/live/delegaciones/oc/cordoba/master.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "andalucia--onda-cero-granada",
+      "name": "Onda Cero Granada",
+      "tagline": "Actualidad y magazine local",
+      "description": "",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "https://www.ondacero.es/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/granada/master.m3u8",
           "format": "hls",
           "priority": 1,
           "source": "TDTChannels"
@@ -1206,6 +1059,27 @@
       ]
     },
     {
+      "id": "andalucia--onda-cero-malaga",
+      "name": "Onda Cero Málaga",
+      "tagline": "Actualidad y magazine local",
+      "description": "",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "https://www.ondacero.es/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/malaga/master.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
       "id": "andalucia--onda-cero-marbella",
       "name": "Onda Cero Marbella",
       "tagline": "Actualidad y magazine local",
@@ -1241,6 +1115,27 @@
         {
           "label": "HLS principal",
           "url": "https://atres-live.ondacero.es/live/delegaciones/oc/motril/master.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "andalucia--onda-cero-sevilla",
+      "name": "Onda Cero Sevilla",
+      "tagline": "Actualidad y magazine local",
+      "description": "",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "https://www.ondacero.es/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/sevilla/master.m3u8",
           "format": "hls",
           "priority": 1,
           "source": "TDTChannels"
@@ -1305,6 +1200,48 @@
           "label": "MP3 principal",
           "url": "https://streaming.indalteco.net/proxy/radiomarca?mp=%2Frmarcaalm.mp3",
           "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "andalucia--radio-marca-sevilla",
+      "name": "Radio Marca Sevilla",
+      "tagline": "Marca deportiva sevillana",
+      "description": "",
+      "category": "Deporte",
+      "community": "Andalucía",
+      "websiteUrl": "https://www.marca.com/",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_SEVILLA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "andalucia--radio-planeta",
+      "name": "Radio Planeta",
+      "tagline": "Dance y remember andaluz",
+      "description": "",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "https://www.radioplaneta.com/",
+      "logoUrl": "https://yt3.ggpht.com/ytc/AKedOLRETQgEcm3bzxRJOct7AMt2oYneaikmoSjYi_GqxQ%3Ds200-c-k-c0x00ffffff-no-rj",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://radioplaneta.emitironline.com/",
+          "format": "stream",
           "priority": 1,
           "source": "TDTChannels"
         }
@@ -1605,9 +1542,9 @@
       ]
     },
     {
-      "id": "andalucia--ser-costa-de-la-luz",
-      "name": "SER Costa de la Luz",
-      "tagline": "Cadena SER para Costa atlántica andaluza",
+      "id": "andalucia--ser-cadiz",
+      "name": "SER Cádiz",
+      "tagline": "Cadena SER para Información gaditana",
       "description": "",
       "category": "Noticias",
       "community": "Andalucía",
@@ -1618,7 +1555,7 @@
       "streams": [
         {
           "label": "MP3 principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_COSTA_LUZ.mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_CADIZ.mp3",
           "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
@@ -1640,6 +1577,27 @@
         {
           "label": "MP3 principal",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_CORDOBA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "andalucia--ser-costa-de-la-luz",
+      "name": "SER Costa de la Luz",
+      "tagline": "Cadena SER para Costa atlántica andaluza",
+      "description": "",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "https://cadenaser.com/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?height=200&width=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_COSTA_LUZ.mp3",
           "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
@@ -1836,6 +1794,27 @@
       ]
     },
     {
+      "id": "andalucia--ser-malaga",
+      "name": "SER Málaga",
+      "tagline": "Cadena SER para Málaga capital y entorno",
+      "description": "",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "https://cadenaser.com/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?height=200&width=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_MALAGA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
       "id": "andalucia--ser-marbella-costa-del-sol",
       "name": "SER Marbella Costa del Sol",
       "tagline": "Cadena SER para Costa del Sol occidental",
@@ -1892,27 +1871,6 @@
         {
           "label": "MP3 principal",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_MOTRIL.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "andalucia--ser-malaga",
-      "name": "SER Málaga",
-      "tagline": "Cadena SER para Málaga capital y entorno",
-      "description": "",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "websiteUrl": "https://cadenaser.com/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?height=200&width=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_MALAGA.mp3",
           "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
@@ -1983,6 +1941,27 @@
       ]
     },
     {
+      "id": "andalucia--ser-sevilla",
+      "name": "SER Sevilla",
+      "tagline": "Cadena SER para Radio Sevilla y provincia",
+      "description": "",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "https://cadenaser.com/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?height=200&width=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_SEVILLA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
       "id": "andalucia--ser-ubeda",
       "name": "SER Úbeda",
       "tagline": "Cadena SER para Úbeda y entorno",
@@ -2019,69 +1998,6 @@
           "label": "HLS principal",
           "url": "https://open.http.mp.streamamg.com/p/3001314/sp/300131400/playManifest/entryId/0_ye0b8tc0/format/applehttp/protocol/https/uiConfId/30026292/a.m3u8",
           "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "andalucia--cadena-100-campo-de-gibraltar",
-      "name": "Cadena 100 Campo de Gibraltar",
-      "tagline": "Pop y entretenimiento",
-      "description": "",
-      "category": "Música",
-      "community": "Andalucía",
-      "websiteUrl": "https://www.copecampodegibraltar.com/",
-      "logoUrl": "https://graph.facebook.com/CADENA100/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://stream.zeno.fm/fkq1xae5bzzuv",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "andalucia--la-fresca-fm",
-      "name": "La Fresca FM",
-      "tagline": "Radiofórmula fresca y festiva",
-      "description": "",
-      "category": "Música",
-      "community": "Andalucía",
-      "websiteUrl": "https://www.lafresca.fm/",
-      "logoUrl": "https://graph.facebook.com/lafresca.es/picture?height=200&width=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://stream.produccionesdale.com/listen/lafresca/altacalidad",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "andalucia--radio-planeta",
-      "name": "Radio Planeta",
-      "tagline": "Dance y remember andaluz",
-      "description": "",
-      "category": "Música",
-      "community": "Andalucía",
-      "websiteUrl": "https://www.radioplaneta.com/",
-      "logoUrl": "https://yt3.ggpht.com/ytc/AKedOLRETQgEcm3bzxRJOct7AMt2oYneaikmoSjYi_GqxQ%3Ds200-c-k-c0x00ffffff-no-rj",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://radioplaneta.emitironline.com/",
-          "format": "stream",
           "priority": 1,
           "source": "TDTChannels"
         }
@@ -2125,6 +2041,90 @@
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENASER_ALT1.mp3",
           "format": "mp3",
           "priority": 4,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "andalucia--decibelia-fm",
+      "name": "Decibelia FM",
+      "tagline": "Dance electrónico y club",
+      "description": "",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "https://decibeliafm.es/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1580311659226210310/umHvZ3-d_200x200.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streaming.shoutcast.com/decibelia",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "andalucia--flamenco-radio",
+      "name": "Flamenco Radio",
+      "tagline": "Canal temático de flamenco",
+      "description": "",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "https://www.canalsurmas.es/",
+      "logoUrl": "https://graph.facebook.com/FlamencoRadio/picture?height=200&width=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://rtva-live-radio.flumotion.com/rtva/flamenco.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "andalucia--gozadera-fm",
+      "name": "Gozadera FM",
+      "tagline": "Latino urbano y ritmo",
+      "description": "",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "https://gozadera.es/",
+      "logoUrl": "https://graph.facebook.com/GozaderaSpain/picture?height=200&width=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://azura.abcorp.es/radio/8030/live",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "andalucia--canal-fiesta-radio",
+      "name": "Canal Fiesta Radio",
+      "tagline": "Éxitos andaluces y pop latino",
+      "description": "",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "https://www.canalsurmas.es/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/2014607361843793920/uKfZnuel_200x200.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://rtva-live-radio.flumotion.com/rtva/cfr.mp3",
+          "format": "mp3",
+          "priority": 1,
           "source": "TDTChannels"
         }
       ]
