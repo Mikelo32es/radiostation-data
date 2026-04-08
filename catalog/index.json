@@ -157,6 +157,13 @@
       "path": "communities/navarra.json",
       "seedCount": 150,
       "playableCount": 150
+    },
+    {
+      "id": "national",
+      "name": "Nacional",
+      "path": "communities/national.json",
+      "seedCount": 50,
+      "playableCount": 50
     }
   ],
   "homePath": "catalog/home.json"
