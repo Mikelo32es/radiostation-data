@@ -1,11 +1,2337 @@
 {
-  "repoName": "radiostation-data",
-  "community": "Castilla y León",
-  "seedSource": "reset base",
-  "seedCount": 0,
-  "playableCount": 0,
-  "verifiedCount": 0,
+  "seedCount": 100,
+  "playableCount": 100,
+  "verifiedCount": 100,
   "candidateCount": 0,
   "pendingCount": 0,
-  "stations": []
+  "stations": [
+    {
+      "id": "castilla-y-leon--vive-radio",
+      "name": "Vive! Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.viveradio.es/viveBurgos",
+      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fwww.viveradio.es",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://streaming.viveradio.es/viveburgos",
+          "format": "mp3",
+          "priority": 1,
+          "source": "Web oficial"
+        }
+      ]
+    },
+    {
+      "id": "castilla-y-leon--cadena-100",
+      "name": "Cadena 100",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.cadena100.es",
+      "logoUrl": "https://graph.facebook.com/CADENA100/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://cadena100-cope.flumotion.com/chunks.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Pop"
+    },
+    {
+      "id": "castilla-y-leon--cadena-dial",
+      "name": "Cadena Dial",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://play.cadenadial.com",
+      "logoUrl": "https://graph.facebook.com/CadenaDial/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIALAAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Latina"
+    },
+    {
+      "id": "castilla-y-leon--cadena-dial-baladas",
+      "name": "Cadena Dial Baladas",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://play.cadenadial.com/emisora/dialbaladas",
+      "logoUrl": "https://recursosweb.prisaradio.com/fotos/dest/010002743853.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL_03AAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL_03.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Baladas"
+    },
+    {
+      "id": "castilla-y-leon--cadena-ser",
+      "name": "Cadena SER",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Castilla y León",
+      "websiteUrl": "https://play.cadenaser.com/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENASERAAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "AAC alternativo 1",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENASER_ALT1AAC.aac",
+          "format": "aac",
+          "priority": 2,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENASER.mp3",
+          "format": "mp3",
+          "priority": 3,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo 1",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENASER_ALT1.mp3",
+          "format": "mp3",
+          "priority": 4,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "castilla-y-leon--capital-radio",
+      "name": "Capital Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Economía",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.capitalradio.es/directo",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/671/capital-radio.3bec34e0.jpg",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://mdstrm.com/audio/67d2a8685ae4234de49e40f6/live.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "castilla-y-leon--cope",
+      "name": "COPE",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.cope.es/",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://flucast09-h-cloud.flumotion.com/cope/net1.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "AAC alternativo",
+          "url": "https://flucast31-h-cloud.flumotion.com/cope/net2.aac",
+          "format": "aac",
+          "priority": 2,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 principal",
+          "url": "https://flucast09-h-cloud.flumotion.com/cope/net1.mp3",
+          "format": "mp3",
+          "priority": 3,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://flucast31-h-cloud.flumotion.com/cope/net2.mp3",
+          "format": "mp3",
+          "priority": 4,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "castilla-y-leon--carrusel-fm",
+      "name": "Carrusel FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "http://www.carruselfm.com",
+      "logoUrl": "https://pbs.twimg.com/profile_images/520332074147123200/pzYkTYHB_200x200.jpeg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://server10.emitironline.com:8921/radio?.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Remember"
+    },
+    {
+      "id": "castilla-y-leon--conexiondance-radio",
+      "name": "Conexiondance Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://decibeliafm.es/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1580311659226210310/umHvZ3-d_200x200.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streaming.shoutcast.com/decibelia",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Dance"
+    },
+    {
+      "id": "castilla-y-leon--cooltura-fm",
+      "name": "Cooltura FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://coolturafm.com",
+      "logoUrl": "https://graph.facebook.com/coolturafm/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://server9.emitironline.com:19244/",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "castilla-y-leon--decibelia-fm",
+      "name": "Decibelia FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://decibeliafm.es/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1580311659226210310/umHvZ3-d_200x200.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streaming.shoutcast.com/decibelia",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Dance"
+    },
+    {
+      "id": "castilla-y-leon--dial-latino",
+      "name": "Dial Latino",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://play.cadenadial.com/emisora/diallatino",
+      "logoUrl": "https://recursosweb.prisaradio.com/fotos/dest/010002743851.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL_02AAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL_02.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Latina"
+    },
+    {
+      "id": "castilla-y-leon--dynamis-radio",
+      "name": "Dynamis Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Religión",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.dynamisradio.org",
+      "logoUrl": "https://graph.facebook.com/dynamisradio/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://control.streaming-pro.com:8014/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "castilla-y-leon--ecuashyri-fm",
+      "name": "ECUASHYRI FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://ecuashyri.es/",
+      "logoUrl": "https://graph.facebook.com/Ecuadorstereo/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://securestream.radioshd.info:7018/stream",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TingFM"
+        }
+      ],
+      "musicType": "Latina"
+    },
+    {
+      "id": "castilla-y-leon--el-salto-radio",
+      "name": "El Salto Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.elsaltodiario.com/el-salto-radio/",
+      "logoUrl": "https://graph.facebook.com/ElSaltoDiario/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://radio.radiobot.org/listen/salto/elsaltoradio.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "castilla-y-leon--esencia-radio",
+      "name": "Esencia Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.esenciaradio.com/endirecto/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/QxU5VtQCPm.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://stream.zeno.fm/apu4qxap0rquv",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Pop"
+    },
+    {
+      "id": "castilla-y-leon--espacio-4-fm",
+      "name": "Espacio 4 FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.espacio4fm.com/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/uxmfabbdnref.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://stream.zeno.fm/fz0bc82wn0hvv",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Electrónica"
+    },
+    {
+      "id": "castilla-y-leon--europa-fm",
+      "name": "Europa FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.europafm.com/directo/",
+      "logoUrl": "https://graph.facebook.com/tueuropafm/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://radio-atres-live.ondacero.es/api/livestream-redirect/EFMAAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Top 40"
+    },
+    {
+      "id": "castilla-y-leon--flamenco-radio",
+      "name": "Flamenco Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.canalsurmas.es/",
+      "logoUrl": "https://graph.facebook.com/FlamencoRadio/picture?height=200&width=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://rtva-live-radio.flumotion.com/rtva/flamenco.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Flamenco"
+    },
+    {
+      "id": "castilla-y-leon--free-fm-80s",
+      "name": "Free FM 80s",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://sites.google.com/view/freefmworld",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/827/free-fm-80s.16928eb8.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "http://freefm80.radioca.st/",
+          "format": "mp3",
+          "priority": 1,
+          "source": "radiobrowser index"
+        }
+      ],
+      "musicType": "80s"
+    },
+    {
+      "id": "castilla-y-leon--free-fm-chill",
+      "name": "Free FM Chill",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.locafm.com/chill-out/player.html",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_chill_out/live",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Chill"
+    },
+    {
+      "id": "castilla-y-leon--free-fm-classical",
+      "name": "Free FM Classical",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://sites.google.com/view/freefmworld",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/020/free-fm-classical.0ef23d56.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "http://stream.zeno.fm/x5jlpogsaedvv",
+          "format": "mp3",
+          "priority": 1,
+          "source": "radiobrowser index"
+        }
+      ],
+      "musicType": "Clásica"
+    },
+    {
+      "id": "castilla-y-leon--free-fm-classics",
+      "name": "Free FM Classics",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.freefmworld.com",
+      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fwww.freefmworld.com",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream directo",
+          "url": "https://xxdelgado.radioca.st",
+          "format": "auto",
+          "priority": 1,
+          "source": "Radiomap"
+        }
+      ],
+      "musicType": "Oldies"
+    },
+    {
+      "id": "castilla-y-leon--free-fm-love",
+      "name": "Free FM Love",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://sites.google.com/view/freefmworld",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/714/free-fm-love.c1ba1f4e.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://stream.zeno.fm/umsptm6rvy8uv",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TingFM listing"
+        }
+      ],
+      "musicType": "Romántica"
+    },
+    {
+      "id": "castilla-y-leon--free-fm-rock",
+      "name": "Free FM Rock",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.freefmrock.com/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/769/free-fm.aa638097.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://freefmrock.radioca.st/stream",
+          "format": "mp3",
+          "priority": 1,
+          "source": "fmstream (public listing)"
+        }
+      ],
+      "musicType": "Rock"
+    },
+    {
+      "id": "castilla-y-leon--free-fm-sports",
+      "name": "Free FM Sports",
+      "tagline": "",
+      "description": "",
+      "category": "Deporte",
+      "community": "Castilla y León",
+      "websiteUrl": "https://sites.google.com/view/freefmworld",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/BtX4kYE4dC.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://stream.zeno.fm/31nnibfpnxktv",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TingFM listing"
+        }
+      ]
+    },
+    {
+      "id": "castilla-y-leon--free-fm-top-100",
+      "name": "Free FM Top 100",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.freefmradio.net",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/814/free-fm-top-100.dc7b4dc7.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://stream.zeno.fm/a5h7vfret68uv",
+          "format": "mp3",
+          "priority": 1,
+          "source": "fmstream public listing"
+        }
+      ],
+      "musicType": "Top 100"
+    },
+    {
+      "id": "castilla-y-leon--free-fm-world",
+      "name": "Free FM World",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://sites.google.com/view/freefmworld",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/690/free-fm-spain.be1f4c93.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://rocafmadrid.radioca.st/stream",
+          "format": "mp3",
+          "priority": 1,
+          "source": "rcast/fmstream public listing"
+        }
+      ],
+      "musicType": "World"
+    },
+    {
+      "id": "castilla-y-leon--free-fm-x-mas",
+      "name": "Free FM X-Mas",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://sites.google.com/view/freefmworld",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/6uzYMVMHad.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "http://stream.zeno.fm/h60er015v68uv",
+          "format": "mp3",
+          "priority": 1,
+          "source": "radiobrowser index"
+        }
+      ],
+      "musicType": "Navidad"
+    },
+    {
+      "id": "castilla-y-leon--formula-exitos-mp",
+      "name": "Fórmula Éxitos MP",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://mdtradio.com/canales-tematicos/",
+      "logoUrl": "https://mdtradio.com/wp-content/uploads/2024/11/Logo-MDT-Radio-Pop-Stars-Fm2.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streams1.mdtradio.com:8443/PopStarsFm",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Pop"
+    },
+    {
+      "id": "castilla-y-leon--globo-fm",
+      "name": "Globo FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.globofm.es",
+      "logoUrl": "https://pbs.twimg.com/profile_images/972013004484173824/BMLZEKXs_200x200.jpg",
+      "sourceSeed": "TDTChannels",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://sonic.sistemahost.es/8200/;.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Classic Hits"
+    },
+    {
+      "id": "castilla-y-leon--gozadera-fm",
+      "name": "Gozadera FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://gozadera.es/",
+      "logoUrl": "https://graph.facebook.com/GozaderaSpain/picture?height=200&width=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://azura.abcorp.es/radio/8030/live",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Latino"
+    },
+    {
+      "id": "castilla-y-leon--hit-fm",
+      "name": "Hit FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.hitfm.es",
+      "logoUrl": "https://graph.facebook.com/hitfm.es/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://adhandler.kissfmradio.cires21.com/get_link?url=https://bbhitfm.kissfmradio.cires21.com/bbhitfm.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Hits"
+    },
+    {
+      "id": "castilla-y-leon--hitz-90s-fm",
+      "name": "Hitz 90s FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://zeno.fm/radio/hitz-90s-fm/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/590/hitz-90s-fm.350feb58.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Zeno candidato 1",
+          "url": "http://stream.zeno.fm/1q3dwmd6yf8uv",
+          "format": "mp3",
+          "priority": 1,
+          "source": "radiobrowser index"
+        },
+        {
+          "label": "Zeno candidato 2",
+          "url": "https://stream.zeno.fm/x3sxe2nv0p8uv",
+          "format": "mp3",
+          "priority": 2,
+          "source": "RCAST directory"
+        }
+      ],
+      "musicType": "90s"
+    },
+    {
+      "id": "castilla-y-leon--hitz-91-0",
+      "name": "Hitz 91.0",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/185/hitz-910.f033127e.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Zeno candidato",
+          "url": "http://stream.zeno.fm/f2qmny74gd0uv",
+          "format": "mp3",
+          "priority": 1,
+          "source": "radiobrowser index"
+        }
+      ],
+      "musicType": "Hits"
+    },
+    {
+      "id": "castilla-y-leon--hitz-91-5-fm",
+      "name": "Hitz 91.5 FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/297/hitz-915.c533c68d.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 candidato 1",
+          "url": "http://ec2.yesstreaming.net:3110/stream",
+          "format": "mp3",
+          "priority": 1,
+          "source": "RCAST directory"
+        },
+        {
+          "label": "Zeno candidato 2",
+          "url": "https://stream.zeno.fm/zskjbd7n200tv",
+          "format": "mp3",
+          "priority": 2,
+          "source": "RCAST snippet"
+        }
+      ],
+      "musicType": "Hits"
+    },
+    {
+      "id": "castilla-y-leon--hitz-91-9-radio",
+      "name": "Hitz 91.9 Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://zeno.fm/radio/hitz-919-radio-1/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/078/hitz-919.f194041d.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Zeno candidato",
+          "url": "https://node-33.zeno.fm/p9m9tuyap98uv",
+          "format": "mp3",
+          "priority": 1,
+          "source": "RCAST directory"
+        }
+      ],
+      "musicType": "Hits"
+    },
+    {
+      "id": "castilla-y-leon--hitz-africa-fm",
+      "name": "Hitz Africa FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/078/hitz-africa-fm.08c90290.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 candidato",
+          "url": "http://ec2.yesstreaming.net:2960/stream",
+          "format": "mp3",
+          "priority": 1,
+          "source": "RCAST directory"
+        }
+      ],
+      "musicType": "Afro"
+    },
+    {
+      "id": "castilla-y-leon--hitz-funky-radio",
+      "name": "Hitz Funky Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/098/hitz-funky-radio.8797717c.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Zeno candidato 1",
+          "url": "http://stream.zeno.fm/azgx0ktf4p8uv",
+          "format": "mp3",
+          "priority": 1,
+          "source": "radiobrowser index"
+        },
+        {
+          "label": "Zeno candidato 2",
+          "url": "https://stream.zeno.fm/zcpx195bt7zuv",
+          "format": "mp3",
+          "priority": 2,
+          "source": "RCAST directory"
+        }
+      ],
+      "musicType": "Funky"
+    },
+    {
+      "id": "castilla-y-leon--hitz-radio-24-7",
+      "name": "Hitz Radio 24/7",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://zeno.fm/radio/hitz-radio-24-7/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/879/hitz-radio-247.c3189df4.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 candidato",
+          "url": "http://live2.rcast.net:9122/stream",
+          "format": "mp3",
+          "priority": 1,
+          "source": "RCAST directory"
+        }
+      ],
+      "musicType": "Hits"
+    },
+    {
+      "id": "castilla-y-leon--kandela-te-prende",
+      "name": "KANDELA Te Prende",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.kandelateprende.com",
+      "logoUrl": "https://graph.facebook.com/KandelaTePrende/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream directo",
+          "url": "https://one.cloudstreaming.eu:6158",
+          "format": "auto",
+          "priority": 1,
+          "source": "Radiomap"
+        }
+      ],
+      "musicType": "Latino"
+    },
+    {
+      "id": "castilla-y-leon--kiss-fm",
+      "name": "Kiss FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.kissfm.es/player/",
+      "logoUrl": "https://graph.facebook.com/kissfm.es/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://kissfm.kissfmradio.cires21.com/kissfm.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Pop"
+    },
+    {
+      "id": "castilla-y-leon--kyoto-fm",
+      "name": "Kyoto FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.kyotofm.es",
+      "logoUrl": "https://graph.facebook.com/kyotofm/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://sonic.mediatelekom.net/8148/stream",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Dance"
+    },
+    {
+      "id": "castilla-y-leon--los40",
+      "name": "LOS40",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://play.los40.com",
+      "logoUrl": "https://graph.facebook.com/los40/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40AAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/Los40.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40.mp3",
+          "format": "mp3",
+          "priority": 3,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Top 40"
+    },
+    {
+      "id": "castilla-y-leon--los40-classic",
+      "name": "LOS40 Classic",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://play.los40.com/los40_classic",
+      "logoUrl": "https://graph.facebook.com/los40classic/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_CLASSICAAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_CLASSIC.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Classic Hits"
+    },
+    {
+      "id": "castilla-y-leon--los40-dance",
+      "name": "LOS40 Dance",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://play.los40.com/los40_dance",
+      "logoUrl": "https://graph.facebook.com/los40dance/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_DANCEAAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_DANCE.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Dance"
+    },
+    {
+      "id": "castilla-y-leon--los40-urban",
+      "name": "LOS40 Urban",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://play.los40.com/los40_urban",
+      "logoUrl": "https://graph.facebook.com/los40urban/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_URBANAAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_URBAN.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Urbano"
+    },
+    {
+      "id": "castilla-y-leon--la-condesa-fm",
+      "name": "La Condesa FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.lafresca.fm/",
+      "logoUrl": "https://graph.facebook.com/lafresca.es/picture?height=200&width=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://stream.produccionesdale.com/listen/lafresca/altacalidad",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Top 40"
+    },
+    {
+      "id": "castilla-y-leon--la-flamenca",
+      "name": "La Flamenca",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://emisorasmusicales.net/laflamenca/",
+      "logoUrl": "https://media.emisorasmusicales.net/wp-content/uploads/2020/03/11023733/LaFlamenca-200x200.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://stream.emisorasmusicales.net/radio/8070/laflamenca.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Flamenco"
+    },
+    {
+      "id": "castilla-y-leon--la-jungla-radio",
+      "name": "La Jungla Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://lajunglaradio.com",
+      "logoUrl": "https://graph.facebook.com/LaJunglaRadio/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://streaming12.elitecomunicacion.es:8626/stream?type=.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Éxitos y entretenimiento"
+    },
+    {
+      "id": "castilla-y-leon--la-suegra-fm",
+      "name": "La Suegra FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.lasuegrafmmadrid.com",
+      "logoUrl": "https://graph.facebook.com/LaSuegraFmMadrid/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream directo",
+          "url": "http://131.153.56.235:9300",
+          "format": "auto",
+          "priority": 1,
+          "source": "Radiomap"
+        }
+      ],
+      "musicType": "Latino"
+    },
+    {
+      "id": "castilla-y-leon--la-urban-radio",
+      "name": "La Urban Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.urbanrevolution.es",
+      "logoUrl": "https://graph.facebook.com/urbanrevolution.es/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://st1.urbanrevolution.es:8443/laurbanfm.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Urbana"
+    },
+    {
+      "id": "castilla-y-leon--loca-fm",
+      "name": "Loca FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.locafm.com/live/player.html",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s3.we4stream.com:2020/stream/locafm",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Dance Electrónica"
+    },
+    {
+      "id": "castilla-y-leon--loca-fm-90-s",
+      "name": "Loca FM 90's",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_90s_/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "90s"
+    },
+    {
+      "id": "castilla-y-leon--loca-fm-ambient",
+      "name": "Loca FM Ambient",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.locafm.com/ambient/player.html",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_ambient/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Ambient"
+    },
+    {
+      "id": "castilla-y-leon--loca-fm-big-room",
+      "name": "Loca FM Big Room",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_big_room/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Big Room"
+    },
+    {
+      "id": "castilla-y-leon--loca-fm-chill-out",
+      "name": "Loca FM Chill Out",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_chill_out/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Chill Out"
+    },
+    {
+      "id": "castilla-y-leon--loca-fm-dance",
+      "name": "Loca FM Dance",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_dance/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Dance Electrónica"
+    },
+    {
+      "id": "castilla-y-leon--loca-fm-deep-house",
+      "name": "Loca FM Deep House",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_deep_house/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Deep House"
+    },
+    {
+      "id": "castilla-y-leon--loca-fm-drum-bass",
+      "name": "Loca FM Drum&Bass",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.locafm.com/drum-bass/player.html",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_drum__bass/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Drum & Bass"
+    },
+    {
+      "id": "castilla-y-leon--loca-fm-hard",
+      "name": "Loca FM Hard",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.locafm.com/hard/player.html",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_hard/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Hard Dance"
+    },
+    {
+      "id": "castilla-y-leon--loca-fm-hard-techno",
+      "name": "Loca FM Hard Techno",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.locafm.com/hard-techno/player.html",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_hard_techno/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Hard Techno"
+    },
+    {
+      "id": "castilla-y-leon--loca-fm-house",
+      "name": "Loca FM House",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_house/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "House"
+    },
+    {
+      "id": "castilla-y-leon--loca-fm-industrial",
+      "name": "Loca FM Industrial",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.locafm.com/industrial/player.html",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_industrial/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Industrial"
+    },
+    {
+      "id": "castilla-y-leon--loca-fm-loca-80s",
+      "name": "Loca FM Loca 80s",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_80s/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "80s"
+    },
+    {
+      "id": "castilla-y-leon--loca-fm-melodic-house",
+      "name": "Loca FM Melodic House",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_melodic_house/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Melodic House"
+    },
+    {
+      "id": "castilla-y-leon--loca-fm-melodic-techno",
+      "name": "Loca FM Melodic Techno",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_melodic_techno/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Melodic Techno"
+    },
+    {
+      "id": "castilla-y-leon--loca-fm-remember",
+      "name": "Loca FM Remember",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_remember/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Remember"
+    },
+    {
+      "id": "castilla-y-leon--loca-fm-sessions",
+      "name": "Loca FM Sessions",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_sessions/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Sesiones DJ"
+    },
+    {
+      "id": "castilla-y-leon--loca-fm-tech-house",
+      "name": "Loca FM Tech House",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_tech_house/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Tech House"
+    },
+    {
+      "id": "castilla-y-leon--loca-fm-techno",
+      "name": "Loca FM Techno",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_techo/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Techno"
+    },
+    {
+      "id": "castilla-y-leon--loca-fm-trance",
+      "name": "Loca FM Trance",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_trance/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Trance"
+    },
+    {
+      "id": "castilla-y-leon--loca-fm-urban",
+      "name": "Loca FM Urban",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.locafm.com/loca-urban/player.html",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s1.we4stream.com:2020/stream/locaurban",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Urbana"
+    },
+    {
+      "id": "castilla-y-leon--mdt-radio-pop-stars",
+      "name": "MDT Radio Pop Stars",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://mdtradio.com/canales-tematicos/",
+      "logoUrl": "https://mdtradio.com/wp-content/uploads/2024/11/Logo-MDT-Radio-Pop-Stars-Fm2.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streams1.mdtradio.com:8443/PopStarsFm",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Pop"
+    },
+    {
+      "id": "castilla-y-leon--mdt-radio-remember",
+      "name": "MDT Radio Remember",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.mdtradio.com",
+      "logoUrl": "https://graph.facebook.com/mdtradio/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streams1.mdtradio.com:8443/mdtweb",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Remember"
+    },
+    {
+      "id": "castilla-y-leon--mariskalrock-radio",
+      "name": "MariskalRock Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://mariskalrock.com",
+      "logoUrl": "https://graph.facebook.com/mariskalrock/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://media.profesionalhosting.com:8047/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Rock"
+    },
+    {
+      "id": "castilla-y-leon--megastar-fm",
+      "name": "MegaStar FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.megastarfm.com/",
+      "logoUrl": "https://graph.facebook.com/MegaStarFM/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://megastar-cope.flumotion.com/playlist.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Top 40"
+    },
+    {
+      "id": "castilla-y-leon--melodia-fm",
+      "name": "Melodía FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.melodia-fm.com/directo/",
+      "logoUrl": "https://graph.facebook.com/tumelodiafm/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://radio-atres-live.ondacero.es/api/livestream-redirect/MELODIA_FMAAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Adult Hits"
+    },
+    {
+      "id": "castilla-y-leon--muralla-metal-rock",
+      "name": "Muralla Metal Rock",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.scannerfm.com",
+      "logoUrl": "https://graph.facebook.com/scannerFM/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://eu10.fastcast4u.com/scannerfm",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Rock"
+    },
+    {
+      "id": "castilla-y-leon--orquestas",
+      "name": "ORQUESTAS",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://verbenafm.com",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1463159511133442059/uVV15n4k_200x200.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streaming12.elitecomunicacion.es:8222/stream",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "castilla-y-leon--onda-cero",
+      "name": "Onda Cero",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.ondacero.es/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://radio-atres-live.ondacero.es/api/livestream-redirect/OCAAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "HLS alternativo",
+          "url": "https://atres-live.ondacero.es/live/ondacero/master.m3u8",
+          "format": "hls",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "castilla-y-leon--peperadio",
+      "name": "Peperadio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://peperadio.es",
+      "logoUrl": "https://peperadio.es/Content/images/logo.png",
+      "sourceSeed": "TDTChannels",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://server10.emitironline.com:8032/",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Rock"
+    },
+    {
+      "id": "castilla-y-leon--rne-radio-3",
+      "name": "RNE Radio 3",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.rtve.es/radio/radio3/",
+      "logoUrl": "https://graph.facebook.com/radio3/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r3_main.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Alternativa"
+    },
+    {
+      "id": "castilla-y-leon--rne-radio-5",
+      "name": "RNE Radio 5",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.rtve.es/radio/radio5/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/745/radio-5.9b6b99b4.png",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Radio 5 Vitoria",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/vit/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "castilla-y-leon--rne-radio-clasica",
+      "name": "RNE Radio Clásica",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.rtve.es/radio/radioclasica/",
+      "logoUrl": "https://graph.facebook.com/radioclasicartve/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r2_main.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Clásica"
+    },
+    {
+      "id": "castilla-y-leon--rne-radio-exterior",
+      "name": "RNE Radio Exterior",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.rtve.es/play/radio/radio-exterior/",
+      "logoUrl": "https://graph.facebook.com/RadioExterior/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_re_main.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "castilla-y-leon--rne-radio-nacional",
+      "name": "RNE Radio Nacional",
+      "tagline": "",
+      "description": "",
+      "category": "Nacional",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.rtve.es/radio/rne/",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/RNE_logo.svg/512px-RNE_logo.svg.png",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "RNE 1 Euskadi",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/eus/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "castilla-y-leon--radio-7",
+      "name": "Radio 7",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.radio7.com/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/4mq7yvFxtR.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://radio7.streaming-pro.com:6146/radio7.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "castilla-y-leon--radio-alegria-fm",
+      "name": "Radio Alegria FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://nostalgiafm.es/",
+      "logoUrl": "https://graph.facebook.com/NostalgiaFMSpain/picture?height=200&width=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://azura.abcorp.es/radio/8040/live",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Oldies"
+    },
+    {
+      "id": "castilla-y-leon--radio-espana-network",
+      "name": "Radio España Network",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.espananetwork.net/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/582/radio-espana-network.406b0f62.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://stream.zeno.fm/ocinyyji4rntv",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Dance"
+    },
+    {
+      "id": "castilla-y-leon--radio-inter",
+      "name": "Radio Inter",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.radiointer.es/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/gagdutEEG4.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://radioserver12.profesionalhosting.com/proxy/pkg156993/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "castilla-y-leon--radio-intercontinental",
+      "name": "Radio Intercontinental",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Castilla y León",
+      "websiteUrl": "https://radiointercontinental.com/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/646/radio-intercontinental.06c9c480.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://cast5.servcast.net/proxy/inter/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "castilla-y-leon--radio-intereconomia",
+      "name": "Radio Intereconomía",
+      "tagline": "",
+      "description": "",
+      "category": "Economía",
+      "community": "Castilla y León",
+      "websiteUrl": "https://intereconomia.com/directo/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/WAsBY8S326.jpg",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streaming.intereconomia.com/siliconorg",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "castilla-y-leon--radio-lider-espana",
+      "name": "Radio Líder España",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Castilla y León",
+      "websiteUrl": "https://radiolider.com/en-directo/",
+      "logoUrl": "https://graph.facebook.com/radiolidergalicia/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://server9.emitironline.com:8200/stream",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "castilla-y-leon--radio-marca",
+      "name": "Radio Marca",
+      "tagline": "",
+      "description": "",
+      "category": "Deporte",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.marca.com/radio.html",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONALAAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONAL.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "castilla-y-leon--radio-marca-nacional",
+      "name": "Radio Marca Nacional",
+      "tagline": "",
+      "description": "",
+      "category": "Deporte",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.marca.com/radio.html",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC oficial",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONALAAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels / WebRadioStreams"
+        },
+        {
+          "label": "MP3 oficial",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONAL.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels / WebRadioStreams"
+        }
+      ]
+    },
+    {
+      "id": "castilla-y-leon--radio-maria-espana",
+      "name": "Radio María España",
+      "tagline": "",
+      "description": "",
+      "category": "Religión",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.radiomaria.es/",
+      "logoUrl": "https://graph.facebook.com/RadioMariaSpa/picture?width=200&height=200",
+      "sourceSeed": "github-national-pilot",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://dreamsiteradiocp4.com/proxy/rmspain1?mp=%2Fstream%2F1%2F%3B.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 principal",
+          "url": "https://dreamsiteradiocp4.com/proxy/rmspain1?mp=/stream/1/;.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "castilla-y-leon--radio-peter-club",
+      "name": "Radio Peter Club",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_techo/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Techno"
+    },
+    {
+      "id": "castilla-y-leon--radio-romanul",
+      "name": "Radio Romanul",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.radioromanul.es/live/",
+      "logoUrl": "https://graph.facebook.com/RadioRomanul/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "http://streaming.radioromanul.es:55556/web",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "World"
+    },
+    {
+      "id": "castilla-y-leon--radio-tentacion",
+      "name": "Radio Tentación",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "https://www.radiotentacion.com/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/qsx7hlyfbmhr.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streaming6.locucionar.com:2020/stream/radiotentacion",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Pop latino"
+    }
+  ]
 }

@@ -1,3 +1,51 @@
 {
-  "sections": []
+  "sections": [
+    {
+      "id": "featured",
+      "label": "PRO",
+      "title": "Destacadas",
+      "source": "featured",
+      "limit": 12
+    },
+    {
+      "id": "news",
+      "label": "INFO",
+      "title": "Noticias",
+      "source": "query",
+      "query": {
+        "category": "Noticias",
+        "verifiedOnly": true
+      },
+      "limit": 12
+    },
+    {
+      "id": "music",
+      "label": "MÚSICA",
+      "title": "Música",
+      "source": "query",
+      "query": {
+        "category": "Música",
+        "verifiedOnly": true
+      },
+      "limit": 12
+    },
+    {
+      "id": "sports",
+      "label": "DEPORTE",
+      "title": "Deporte",
+      "source": "query",
+      "query": {
+        "category": "Deporte",
+        "verifiedOnly": true
+      },
+      "limit": 12
+    },
+    {
+      "id": "recent",
+      "label": "NUEVAS",
+      "title": "Últimas incorporaciones",
+      "source": "recent",
+      "limit": 12
+    }
+  ]
 }
