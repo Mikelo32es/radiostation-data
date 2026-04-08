@@ -2,9 +2,9 @@
   "repoName": "radiostation-data",
   "syncMessage": "Catálogo autonómico ampliado: Nacional rehecha con cadenas nacionales principales y 17 comunidades reforzadas a 150 emisoras por comunidad.",
   "stats": {
-    "seedCount": 2600,
-    "playableCount": 2600,
-    "verifiedCount": 2600,
+    "seedCount": 1664,
+    "playableCount": 1664,
+    "verifiedCount": 1664,
     "candidateCount": 0,
     "pendingCount": 0
   },
@@ -43,120 +43,120 @@
       "id": "andalucia",
       "name": "Andalucía",
       "path": "communities/andalucia.json",
-      "seedCount": 150,
-      "playableCount": 150
+      "seedCount": 104,
+      "playableCount": 104
     },
     {
       "id": "aragon",
       "name": "Aragón",
       "path": "communities/aragon.json",
-      "seedCount": 150,
-      "playableCount": 150
+      "seedCount": 95,
+      "playableCount": 95
     },
     {
       "id": "asturias",
       "name": "Asturias",
       "path": "communities/asturias.json",
-      "seedCount": 150,
-      "playableCount": 150
+      "seedCount": 97,
+      "playableCount": 97
     },
     {
       "id": "canarias",
       "name": "Canarias",
       "path": "communities/canarias.json",
-      "seedCount": 150,
-      "playableCount": 150
+      "seedCount": 95,
+      "playableCount": 95
     },
     {
       "id": "cantabria",
       "name": "Cantabria",
       "path": "communities/cantabria.json",
-      "seedCount": 150,
-      "playableCount": 150
+      "seedCount": 95,
+      "playableCount": 95
     },
     {
       "id": "castilla-la-mancha",
       "name": "Castilla-La Mancha",
       "path": "communities/castilla-la-mancha.json",
-      "seedCount": 150,
-      "playableCount": 150
+      "seedCount": 95,
+      "playableCount": 95
     },
     {
       "id": "castilla-y-leon",
       "name": "Castilla y León",
       "path": "communities/castilla-y-leon.json",
-      "seedCount": 150,
-      "playableCount": 150
+      "seedCount": 95,
+      "playableCount": 95
     },
     {
       "id": "catalunya",
       "name": "Catalunya",
       "path": "communities/catalunya.json",
-      "seedCount": 150,
-      "playableCount": 150
+      "seedCount": 97,
+      "playableCount": 97
     },
     {
       "id": "comunitat-valenciana",
       "name": "Comunitat Valenciana",
       "path": "communities/comunitat-valenciana.json",
-      "seedCount": 150,
-      "playableCount": 150
+      "seedCount": 95,
+      "playableCount": 95
     },
     {
       "id": "euskadi",
       "name": "Euskadi",
       "path": "communities/euskadi.json",
-      "seedCount": 150,
-      "playableCount": 150
+      "seedCount": 95,
+      "playableCount": 95
     },
     {
       "id": "extremadura",
       "name": "Extremadura",
       "path": "communities/extremadura.json",
-      "seedCount": 150,
-      "playableCount": 150
+      "seedCount": 96,
+      "playableCount": 96
     },
     {
       "id": "galicia",
       "name": "Galicia",
       "path": "communities/galicia.json",
-      "seedCount": 150,
-      "playableCount": 150
+      "seedCount": 78,
+      "playableCount": 78
     },
     {
       "id": "illes-balears",
       "name": "Illes Balears",
       "path": "communities/illes-balears.json",
-      "seedCount": 150,
-      "playableCount": 150
+      "seedCount": 95,
+      "playableCount": 95
     },
     {
       "id": "la-rioja",
       "name": "La Rioja",
       "path": "communities/la-rioja.json",
-      "seedCount": 150,
-      "playableCount": 150
+      "seedCount": 96,
+      "playableCount": 96
     },
     {
       "id": "madrid",
       "name": "Madrid",
       "path": "communities/madrid.json",
-      "seedCount": 150,
-      "playableCount": 150
+      "seedCount": 96,
+      "playableCount": 96
     },
     {
       "id": "murcia",
       "name": "Región de Murcia",
       "path": "communities/murcia.json",
-      "seedCount": 150,
-      "playableCount": 150
+      "seedCount": 95,
+      "playableCount": 95
     },
     {
       "id": "navarra",
       "name": "Navarra",
       "path": "communities/navarra.json",
-      "seedCount": 150,
-      "playableCount": 150
+      "seedCount": 95,
+      "playableCount": 95
     },
     {
       "id": "national",
