@@ -1,7 +1,7 @@
 {
   "waitingRoom": {
-    "status": "not_added_to_euskadi",
-    "reason": "La evidencia pública la sitúa como Spain/Madrid o Spain, no como Euskadi; no aparece en el snapshot actual."
+    "status": "marked_verified_manual",
+    "reason": "Marcada como verificada por petición explícita del usuario; sigue sin stream en el JSON actual."
   },
   "communities": {
     "andalucia": {
@@ -53,8 +53,8 @@
       "candidate": 0
     },
     "national": {
-      "total": 25,
-      "verified": 25,
+      "total": 26,
+      "verified": 26,
       "seeded_pending": 0,
       "candidate": 0
     }

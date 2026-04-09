@@ -2,9 +2,9 @@
   "repoName": "radiostation-data",
   "syncMessage": "Catálogo territorial depurado: candidates locales resueltas y candidatas no territoriales retiradas.",
   "stats": {
-    "seedCount": 823,
+    "seedCount": 824,
     "playableCount": 597,
-    "verifiedCount": 687,
+    "verifiedCount": 688,
     "candidateCount": 0,
     "pendingCount": 136
   },
@@ -121,7 +121,7 @@
       "id": "national",
       "name": "Nacional",
       "path": "communities/national.json",
-      "seedCount": 25,
+      "seedCount": 26,
       "playableCount": 25
     }
   ],
