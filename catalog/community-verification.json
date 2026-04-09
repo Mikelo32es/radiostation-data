@@ -239,7 +239,7 @@
     {
       "id": "euskadi",
       "name": "Euskadi",
-      "total": 95,
+      "total": 96,
       "playable": 95,
       "verified": 30,
       "candidate": 61,
@@ -254,12 +254,13 @@
         "El Salto Radio",
         "Esencia Radio"
       ],
-      "seededPending": 4,
+      "seededPending": 5,
       "sampleSeededPending": [
         "Hitz 91.0",
         "Hitz 91.5 FM",
         "Hitz Africa FM",
-        "Hitz Funky Radio"
+        "Hitz Funky Radio",
+        "Waiting Room"
       ]
     },
     {

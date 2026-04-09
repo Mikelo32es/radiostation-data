@@ -1,9 +1,12 @@
 {
-  "seedCount": 115,
+  "repoName": "radiostation-data",
+  "community": "Euskadi",
+  "seedSource": "myTuner+TDTChannels",
+  "seedCount": 96,
   "playableCount": 95,
-  "verifiedCount": 95,
-  "candidateCount": 19,
-  "pendingCount": 1,
+  "verifiedCount": 30,
+  "candidateCount": 61,
+  "pendingCount": 5,
   "stations": [
     {
       "id": "euskadi--actuality-fm",
@@ -15,7 +18,7 @@
       "websiteUrl": "https://www.actualityfm.es/p/play.html",
       "logoUrl": "https://graph.facebook.com/ActualityFM.es/picture?width=200&height=200",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Stream principal",
@@ -25,7 +28,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Dance"
+      "musicType": "Dance",
+      "seedName": "Actuality FM"
     },
     {
       "id": "euskadi--afradio",
@@ -37,7 +41,7 @@
       "websiteUrl": "https://coolturafm.com",
       "logoUrl": "https://graph.facebook.com/coolturafm/picture?width=200&height=200",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "MP3 principal",
@@ -47,7 +51,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Variedad"
+      "musicType": "Variedad",
+      "seedName": "AFradio"
     },
     {
       "id": "euskadi--antena-1-radio",
@@ -59,7 +64,7 @@
       "websiteUrl": "https://www.radioplaneta.com/",
       "logoUrl": "https://yt3.ggpht.com/ytc/AKedOLRETQgEcm3bzxRJOct7AMt2oYneaikmoSjYi_GqxQ%3Ds200-c-k-c0x00ffffff-no-rj",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Stream principal",
@@ -69,7 +74,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Dance"
+      "musicType": "Dance",
+      "seedName": "Antena 1 Radio"
     },
     {
       "id": "euskadi--arrate-irratia",
@@ -90,7 +96,9 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ]
+      ],
+      "seedName": "Arrate Irratia",
+      "musicType": ""
     },
     {
       "id": "euskadi--ataun-irratia",
@@ -111,7 +119,9 @@
           "priority": 1,
           "source": "fmstream directory"
         }
-      ]
+      ],
+      "seedName": "Ataun Irratia",
+      "musicType": ""
     },
     {
       "id": "euskadi--bilbo-hiria-irratia",
@@ -132,7 +142,9 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ]
+      ],
+      "seedName": "Bilbo Hiria Irratia",
+      "musicType": ""
     },
     {
       "id": "euskadi--bizkaia-irratia",
@@ -160,7 +172,9 @@
           "priority": 2,
           "source": "TDTChannels"
         }
-      ]
+      ],
+      "seedName": "Bizkaia Irratia",
+      "musicType": ""
     },
     {
       "id": "euskadi--carrusel-fm",
@@ -172,7 +186,7 @@
       "websiteUrl": "http://www.carruselfm.com",
       "logoUrl": "https://pbs.twimg.com/profile_images/520332074147123200/pzYkTYHB_200x200.jpeg",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "MP3 principal",
@@ -182,7 +196,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Remember"
+      "musicType": "Remember",
+      "seedName": "Carrusel FM"
     },
     {
       "id": "euskadi--conexiondance-radio",
@@ -194,7 +209,7 @@
       "websiteUrl": "https://decibeliafm.es/",
       "logoUrl": "https://pbs.twimg.com/profile_images/1580311659226210310/umHvZ3-d_200x200.jpg",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Stream principal",
@@ -204,7 +219,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Dance"
+      "musicType": "Dance",
+      "seedName": "Conexiondance Radio"
     },
     {
       "id": "euskadi--cooltura-fm",
@@ -216,7 +232,7 @@
       "websiteUrl": "https://coolturafm.com",
       "logoUrl": "https://graph.facebook.com/coolturafm/picture?width=200&height=200",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "MP3 principal",
@@ -226,7 +242,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Variedad"
+      "musicType": "Variedad",
+      "seedName": "Cooltura FM"
     },
     {
       "id": "euskadi--cope-bilbao",
@@ -247,7 +264,9 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ]
+      ],
+      "seedName": "COPE Bilbao",
+      "musicType": ""
     },
     {
       "id": "euskadi--cope-san-sebastian",
@@ -268,7 +287,9 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ]
+      ],
+      "seedName": "COPE San Sebastián",
+      "musicType": ""
     },
     {
       "id": "euskadi--cope-vitoria",
@@ -289,7 +310,9 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ]
+      ],
+      "seedName": "COPE Vitoria",
+      "musicType": ""
     },
     {
       "id": "euskadi--decibelia-fm",
@@ -301,7 +324,7 @@
       "websiteUrl": "https://decibeliafm.es/",
       "logoUrl": "https://pbs.twimg.com/profile_images/1580311659226210310/umHvZ3-d_200x200.jpg",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Stream principal",
@@ -311,7 +334,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Dance"
+      "musicType": "Dance",
+      "seedName": "Decibelia FM"
     },
     {
       "id": "euskadi--dynamis-radio",
@@ -323,7 +347,7 @@
       "websiteUrl": "https://www.dynamisradio.org",
       "logoUrl": "https://graph.facebook.com/dynamisradio/picture?width=200&height=200",
       "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Stream principal",
@@ -332,7 +356,9 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ]
+      ],
+      "seedName": "Dynamis Radio",
+      "musicType": ""
     },
     {
       "id": "euskadi--ecuashyri-fm",
@@ -344,7 +370,7 @@
       "websiteUrl": "https://ecuashyri.es/",
       "logoUrl": "https://graph.facebook.com/Ecuadorstereo/picture?width=200&height=200",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "MP3 principal",
@@ -354,7 +380,8 @@
           "source": "TingFM"
         }
       ],
-      "musicType": "Latina"
+      "musicType": "Latina",
+      "seedName": "ECUASHYRI FM"
     },
     {
       "id": "euskadi--eitb-musika",
@@ -376,7 +403,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Variedad"
+      "musicType": "Variedad",
+      "seedName": "EITB Musika"
     },
     {
       "id": "euskadi--el-salto-radio",
@@ -388,7 +416,7 @@
       "websiteUrl": "https://www.elsaltodiario.com/el-salto-radio/",
       "logoUrl": "https://graph.facebook.com/ElSaltoDiario/picture?width=200&height=200",
       "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "MP3 principal",
@@ -397,7 +425,9 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ]
+      ],
+      "seedName": "El Salto Radio",
+      "musicType": ""
     },
     {
       "id": "euskadi--esencia-radio",
@@ -409,7 +439,7 @@
       "websiteUrl": "https://www.esenciaradio.com/endirecto/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/QxU5VtQCPm.jpg",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Stream principal",
@@ -419,7 +449,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Pop"
+      "musicType": "Pop",
+      "seedName": "Esencia Radio"
     },
     {
       "id": "euskadi--espacio-4-fm",
@@ -431,7 +462,7 @@
       "websiteUrl": "https://www.espacio4fm.com/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/uxmfabbdnref.png",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Stream principal",
@@ -441,7 +472,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Electrónica"
+      "musicType": "Electrónica",
+      "seedName": "Espacio 4 FM"
     },
     {
       "id": "euskadi--euskadi-irratia",
@@ -469,7 +501,9 @@
           "priority": 2,
           "source": "EITB legacy"
         }
-      ]
+      ],
+      "seedName": "Euskadi Irratia",
+      "musicType": ""
     },
     {
       "id": "euskadi--euskadigital",
@@ -498,7 +532,8 @@
           "source": "fmstream directory"
         }
       ],
-      "musicType": "Electrónica"
+      "musicType": "Electrónica",
+      "seedName": "EuskaDigital"
     },
     {
       "id": "euskadi--flamenco-radio",
@@ -510,7 +545,7 @@
       "websiteUrl": "https://www.canalsurmas.es/",
       "logoUrl": "https://graph.facebook.com/FlamencoRadio/picture?height=200&width=200",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "MP3 principal",
@@ -520,29 +555,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Flamenco"
-    },
-    {
-      "id": "euskadi--formula-exitos-mp",
-      "name": "Fórmula Éxitos MP",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Euskadi",
-      "websiteUrl": "https://mdtradio.com/canales-tematicos/",
-      "logoUrl": "https://mdtradio.com/wp-content/uploads/2024/11/Logo-MDT-Radio-Pop-Stars-Fm2.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://streams1.mdtradio.com:8443/PopStarsFm",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Pop"
+      "musicType": "Flamenco",
+      "seedName": "Flamenco Radio"
     },
     {
       "id": "euskadi--free-fm-rock",
@@ -554,7 +568,7 @@
       "websiteUrl": "https://www.freefmrock.com/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/769/free-fm.aa638097.jpg",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Principal",
@@ -564,7 +578,8 @@
           "source": "fmstream (public listing)"
         }
       ],
-      "musicType": "Rock"
+      "musicType": "Rock",
+      "seedName": "Free FM Rock"
     },
     {
       "id": "euskadi--free-fm-sports",
@@ -576,7 +591,7 @@
       "websiteUrl": "https://sites.google.com/view/freefmworld",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/BtX4kYE4dC.jpg",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Principal",
@@ -585,7 +600,9 @@
           "priority": 1,
           "source": "TingFM listing"
         }
-      ]
+      ],
+      "seedName": "Free FM Sports",
+      "musicType": ""
     },
     {
       "id": "euskadi--free-fm-world",
@@ -597,7 +614,7 @@
       "websiteUrl": "https://sites.google.com/view/freefmworld",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/690/free-fm-spain.be1f4c93.jpg",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Principal",
@@ -607,7 +624,8 @@
           "source": "rcast/fmstream public listing"
         }
       ],
-      "musicType": "World"
+      "musicType": "World",
+      "seedName": "Free FM World"
     },
     {
       "id": "euskadi--free-fm-x-mas",
@@ -619,7 +637,7 @@
       "websiteUrl": "https://sites.google.com/view/freefmworld",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/6uzYMVMHad.jpg",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Principal",
@@ -629,7 +647,31 @@
           "source": "radiobrowser index"
         }
       ],
-      "musicType": "Navidad"
+      "musicType": "Navidad",
+      "seedName": "Free FM X-Mas"
+    },
+    {
+      "id": "euskadi--formula-exitos-mp",
+      "name": "Fórmula Éxitos MP",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Euskadi",
+      "websiteUrl": "https://mdtradio.com/canales-tematicos/",
+      "logoUrl": "https://mdtradio.com/wp-content/uploads/2024/11/Logo-MDT-Radio-Pop-Stars-Fm2.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streams1.mdtradio.com:8443/PopStarsFm",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Pop",
+      "seedName": "Fórmula Éxitos MP"
     },
     {
       "id": "euskadi--gaztea",
@@ -658,7 +700,8 @@
           "source": "EITB legacy"
         }
       ],
-      "musicType": "Pop"
+      "musicType": "Pop",
+      "seedName": "Gaztea"
     },
     {
       "id": "euskadi--globo-fm",
@@ -670,7 +713,7 @@
       "websiteUrl": "https://www.globofm.es",
       "logoUrl": "https://pbs.twimg.com/profile_images/972013004484173824/BMLZEKXs_200x200.jpg",
       "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "MP3 principal",
@@ -680,7 +723,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Classic Hits"
+      "musicType": "Classic Hits",
+      "seedName": "Globo FM"
     },
     {
       "id": "euskadi--gozadera-fm",
@@ -692,7 +736,7 @@
       "websiteUrl": "https://gozadera.es/",
       "logoUrl": "https://graph.facebook.com/GozaderaSpain/picture?height=200&width=200",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Stream principal",
@@ -702,7 +746,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Latino"
+      "musicType": "Latino",
+      "seedName": "Gozadera FM"
     },
     {
       "id": "euskadi--guateque-fm",
@@ -714,7 +759,7 @@
       "websiteUrl": "https://guatequefm.com",
       "logoUrl": "https://play-lh.googleusercontent.com/29cOsGnQ8A3a-FJ1EkqBDVrMCIMWcQBORIWcmygreM9fNjU5C3Pci0CNDYDrv1NPPPD1=w200-h200",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Stream principal",
@@ -724,7 +769,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Oldies"
+      "musicType": "Oldies",
+      "seedName": "Guateque FM"
     },
     {
       "id": "euskadi--hala-bedi-bat-107-4",
@@ -759,7 +805,9 @@
           "priority": 3,
           "source": "Hala Bedi oficial"
         }
-      ]
+      ],
+      "seedName": "Hala Bedi Bat 107.4",
+      "musicType": ""
     },
     {
       "id": "euskadi--hala-bedi-bi-88-8",
@@ -788,7 +836,8 @@
           "source": "Hala Bedi oficial"
         }
       ],
-      "musicType": "Alternativa"
+      "musicType": "Alternativa",
+      "seedName": "Hala Bedi Bi 88.8"
     },
     {
       "id": "euskadi--hitz-90s-fm",
@@ -800,7 +849,7 @@
       "websiteUrl": "https://zeno.fm/radio/hitz-90s-fm/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/590/hitz-90s-fm.350feb58.jpg",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Zeno candidato 1",
@@ -817,7 +866,8 @@
           "source": "RCAST directory"
         }
       ],
-      "musicType": "90s"
+      "musicType": "90s",
+      "seedName": "Hitz 90s FM"
     },
     {
       "id": "euskadi--hitz-91-0",
@@ -829,7 +879,7 @@
       "websiteUrl": "",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/185/hitz-910.f033127e.jpg",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "seeded_pending",
       "streams": [
         {
           "label": "Zeno candidato",
@@ -839,7 +889,8 @@
           "source": "radiobrowser index"
         }
       ],
-      "musicType": "Hits"
+      "musicType": "Hits",
+      "seedName": "Hitz 91.0"
     },
     {
       "id": "euskadi--hitz-91-5-fm",
@@ -851,7 +902,7 @@
       "websiteUrl": "",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/297/hitz-915.c533c68d.png",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "seeded_pending",
       "streams": [
         {
           "label": "MP3 candidato 1",
@@ -868,7 +919,8 @@
           "source": "RCAST snippet"
         }
       ],
-      "musicType": "Hits"
+      "musicType": "Hits",
+      "seedName": "Hitz 91.5 FM"
     },
     {
       "id": "euskadi--hitz-91-9-radio",
@@ -880,7 +932,7 @@
       "websiteUrl": "https://zeno.fm/radio/hitz-919-radio-1/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/078/hitz-919.f194041d.png",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Zeno candidato",
@@ -890,7 +942,8 @@
           "source": "RCAST directory"
         }
       ],
-      "musicType": "Hits"
+      "musicType": "Hits",
+      "seedName": "Hitz 91.9 Radio"
     },
     {
       "id": "euskadi--hitz-africa-fm",
@@ -902,7 +955,7 @@
       "websiteUrl": "",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/078/hitz-africa-fm.08c90290.png",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "seeded_pending",
       "streams": [
         {
           "label": "MP3 candidato",
@@ -912,7 +965,8 @@
           "source": "RCAST directory"
         }
       ],
-      "musicType": "Afro"
+      "musicType": "Afro",
+      "seedName": "Hitz Africa FM"
     },
     {
       "id": "euskadi--hitz-funky-radio",
@@ -924,7 +978,7 @@
       "websiteUrl": "",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/098/hitz-funky-radio.8797717c.jpg",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "seeded_pending",
       "streams": [
         {
           "label": "Zeno candidato 1",
@@ -941,7 +995,8 @@
           "source": "RCAST directory"
         }
       ],
-      "musicType": "Funky"
+      "musicType": "Funky",
+      "seedName": "Hitz Funky Radio"
     },
     {
       "id": "euskadi--hitz-radio-24-7",
@@ -953,7 +1008,7 @@
       "websiteUrl": "https://zeno.fm/radio/hitz-radio-24-7/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/879/hitz-radio-247.c3189df4.png",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "MP3 candidato",
@@ -963,7 +1018,8 @@
           "source": "RCAST directory"
         }
       ],
-      "musicType": "Hits"
+      "musicType": "Hits",
+      "seedName": "Hitz Radio 24/7"
     },
     {
       "id": "euskadi--kandela-te-prende",
@@ -975,7 +1031,7 @@
       "websiteUrl": "https://www.kandelateprende.com",
       "logoUrl": "https://graph.facebook.com/KandelaTePrende/picture?width=200&height=200",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Stream directo",
@@ -985,7 +1041,8 @@
           "source": "Radiomap"
         }
       ],
-      "musicType": "Latino"
+      "musicType": "Latino",
+      "seedName": "KANDELA Te Prende"
     },
     {
       "id": "euskadi--kyoto-fm",
@@ -997,7 +1054,7 @@
       "websiteUrl": "https://www.kyotofm.es",
       "logoUrl": "https://graph.facebook.com/kyotofm/picture?width=200&height=200",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Stream principal",
@@ -1007,7 +1064,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Dance"
+      "musicType": "Dance",
+      "seedName": "Kyoto FM"
     },
     {
       "id": "euskadi--la-condesa-fm",
@@ -1019,7 +1077,7 @@
       "websiteUrl": "https://www.lafresca.fm/",
       "logoUrl": "https://graph.facebook.com/lafresca.es/picture?height=200&width=200",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Stream principal",
@@ -1029,7 +1087,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Top 40"
+      "musicType": "Top 40",
+      "seedName": "La Condesa FM"
     },
     {
       "id": "euskadi--la-flamenca",
@@ -1041,7 +1100,7 @@
       "websiteUrl": "https://emisorasmusicales.net/laflamenca/",
       "logoUrl": "https://media.emisorasmusicales.net/wp-content/uploads/2020/03/11023733/LaFlamenca-200x200.png",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "MP3 principal",
@@ -1051,7 +1110,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Flamenco"
+      "musicType": "Flamenco",
+      "seedName": "La Flamenca"
     },
     {
       "id": "euskadi--la-suegra-fm",
@@ -1063,7 +1123,7 @@
       "websiteUrl": "https://www.lasuegrafmmadrid.com",
       "logoUrl": "https://graph.facebook.com/LaSuegraFmMadrid/picture?width=200&height=200",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Stream directo",
@@ -1073,7 +1133,8 @@
           "source": "Radiomap"
         }
       ],
-      "musicType": "Latino"
+      "musicType": "Latino",
+      "seedName": "La Suegra FM"
     },
     {
       "id": "euskadi--la-urban-radio",
@@ -1085,7 +1146,7 @@
       "websiteUrl": "https://www.urbanrevolution.es",
       "logoUrl": "https://graph.facebook.com/urbanrevolution.es/picture?width=200&height=200",
       "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "MP3 principal",
@@ -1095,7 +1156,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Urbana"
+      "musicType": "Urbana",
+      "seedName": "La Urban Radio"
     },
     {
       "id": "euskadi--loca-fm-big-room",
@@ -1107,7 +1169,7 @@
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Stream principal",
@@ -1117,7 +1179,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Big Room"
+      "musicType": "Big Room",
+      "seedName": "Loca FM Big Room"
     },
     {
       "id": "euskadi--loca-fm-deep-house",
@@ -1129,7 +1192,7 @@
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Stream principal",
@@ -1139,7 +1202,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Deep House"
+      "musicType": "Deep House",
+      "seedName": "Loca FM Deep House"
     },
     {
       "id": "euskadi--loca-fm-drum-bass",
@@ -1151,7 +1215,7 @@
       "websiteUrl": "https://www.locafm.com/drum-bass/player.html",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Stream principal",
@@ -1161,7 +1225,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Drum & Bass"
+      "musicType": "Drum & Bass",
+      "seedName": "Loca FM Drum&Bass"
     },
     {
       "id": "euskadi--loca-fm-hard",
@@ -1173,7 +1238,7 @@
       "websiteUrl": "https://www.locafm.com/hard/player.html",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Stream principal",
@@ -1183,7 +1248,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Hard Dance"
+      "musicType": "Hard Dance",
+      "seedName": "Loca FM Hard"
     },
     {
       "id": "euskadi--loca-fm-hard-techno",
@@ -1195,7 +1261,7 @@
       "websiteUrl": "https://www.locafm.com/hard-techno/player.html",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Stream principal",
@@ -1205,7 +1271,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Hard Techno"
+      "musicType": "Hard Techno",
+      "seedName": "Loca FM Hard Techno"
     },
     {
       "id": "euskadi--loca-fm-industrial",
@@ -1217,7 +1284,7 @@
       "websiteUrl": "https://www.locafm.com/industrial/player.html",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Stream principal",
@@ -1227,7 +1294,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Industrial"
+      "musicType": "Industrial",
+      "seedName": "Loca FM Industrial"
     },
     {
       "id": "euskadi--loca-fm-loca-80s",
@@ -1239,7 +1307,7 @@
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Stream principal",
@@ -1249,7 +1317,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "80s"
+      "musicType": "80s",
+      "seedName": "Loca FM Loca 80s"
     },
     {
       "id": "euskadi--loca-fm-melodic-house",
@@ -1261,7 +1330,7 @@
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Stream principal",
@@ -1271,7 +1340,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Melodic House"
+      "musicType": "Melodic House",
+      "seedName": "Loca FM Melodic House"
     },
     {
       "id": "euskadi--loca-fm-melodic-techno",
@@ -1283,7 +1353,7 @@
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Stream principal",
@@ -1293,7 +1363,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Melodic Techno"
+      "musicType": "Melodic Techno",
+      "seedName": "Loca FM Melodic Techno"
     },
     {
       "id": "euskadi--loca-fm-remember",
@@ -1305,7 +1376,7 @@
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Stream principal",
@@ -1315,7 +1386,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Remember"
+      "musicType": "Remember",
+      "seedName": "Loca FM Remember"
     },
     {
       "id": "euskadi--loca-fm-sessions",
@@ -1327,7 +1399,7 @@
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Stream principal",
@@ -1337,7 +1409,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Sesiones DJ"
+      "musicType": "Sesiones DJ",
+      "seedName": "Loca FM Sessions"
     },
     {
       "id": "euskadi--loca-fm-tech-house",
@@ -1349,7 +1422,7 @@
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Stream principal",
@@ -1359,7 +1432,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Tech House"
+      "musicType": "Tech House",
+      "seedName": "Loca FM Tech House"
     },
     {
       "id": "euskadi--loca-fm-urban",
@@ -1371,7 +1445,7 @@
       "websiteUrl": "https://www.locafm.com/loca-urban/player.html",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Stream principal",
@@ -1381,7 +1455,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Urbana"
+      "musicType": "Urbana",
+      "seedName": "Loca FM Urban"
     },
     {
       "id": "euskadi--mariskalrock-radio",
@@ -1393,7 +1468,7 @@
       "websiteUrl": "https://mariskalrock.com",
       "logoUrl": "https://graph.facebook.com/mariskalrock/picture?width=200&height=200",
       "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Stream principal",
@@ -1403,7 +1478,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Rock"
+      "musicType": "Rock",
+      "seedName": "MariskalRock Radio"
     },
     {
       "id": "euskadi--mdt-radio-pop-stars",
@@ -1415,7 +1491,7 @@
       "websiteUrl": "https://mdtradio.com/canales-tematicos/",
       "logoUrl": "https://mdtradio.com/wp-content/uploads/2024/11/Logo-MDT-Radio-Pop-Stars-Fm2.jpg",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Stream principal",
@@ -1425,7 +1501,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Pop"
+      "musicType": "Pop",
+      "seedName": "MDT Radio Pop Stars"
     },
     {
       "id": "euskadi--mdt-radio-remember",
@@ -1437,7 +1514,7 @@
       "websiteUrl": "https://www.mdtradio.com",
       "logoUrl": "https://graph.facebook.com/mdtradio/picture?width=200&height=200",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Stream principal",
@@ -1447,7 +1524,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Remember"
+      "musicType": "Remember",
+      "seedName": "MDT Radio Remember"
     },
     {
       "id": "euskadi--mozoilo-irratia",
@@ -1468,7 +1546,9 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ]
+      ],
+      "seedName": "Mozoilo Irratia",
+      "musicType": ""
     },
     {
       "id": "euskadi--muralla-metal-rock",
@@ -1480,7 +1560,7 @@
       "websiteUrl": "https://www.scannerfm.com",
       "logoUrl": "https://graph.facebook.com/scannerFM/picture?width=200&height=200",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Stream principal",
@@ -1490,7 +1570,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Rock"
+      "musicType": "Rock",
+      "seedName": "Muralla Metal Rock"
     },
     {
       "id": "euskadi--naiz-irratia",
@@ -1511,7 +1592,9 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ]
+      ],
+      "seedName": "Naiz Irratia",
+      "musicType": ""
     },
     {
       "id": "euskadi--nostalgia-fm",
@@ -1523,7 +1606,7 @@
       "websiteUrl": "https://nostalgiafm.es/",
       "logoUrl": "https://graph.facebook.com/NostalgiaFMSpain/picture?height=200&width=200",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Stream principal",
@@ -1533,7 +1616,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Oldies"
+      "musicType": "Oldies",
+      "seedName": "Nostalgia FM"
     },
     {
       "id": "euskadi--onda-cero-bilbao",
@@ -1554,7 +1638,9 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ]
+      ],
+      "seedName": "Onda Cero Bilbao",
+      "musicType": ""
     },
     {
       "id": "euskadi--onda-cero-san-sebastian",
@@ -1575,7 +1661,9 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ]
+      ],
+      "seedName": "Onda Cero San Sebastián",
+      "musicType": ""
     },
     {
       "id": "euskadi--onda-cero-vitoria",
@@ -1596,7 +1684,9 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ]
+      ],
+      "seedName": "Onda Cero Vitoria",
+      "musicType": ""
     },
     {
       "id": "euskadi--onda-ocio",
@@ -1608,7 +1698,7 @@
       "websiteUrl": "https://ondaocio.com/",
       "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fondaocio.com",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Zeno directo",
@@ -1618,7 +1708,8 @@
           "source": "Facebook / Zeno"
         }
       ],
-      "musicType": "Variedad"
+      "musicType": "Variedad",
+      "seedName": "Onda Ocio"
     },
     {
       "id": "euskadi--onda-vasca",
@@ -1646,7 +1737,9 @@
           "priority": 2,
           "source": "TDTChannels"
         }
-      ]
+      ],
+      "seedName": "Onda Vasca",
+      "musicType": ""
     },
     {
       "id": "euskadi--orquestas",
@@ -1658,7 +1751,7 @@
       "websiteUrl": "https://verbenafm.com",
       "logoUrl": "https://pbs.twimg.com/profile_images/1463159511133442059/uVV15n4k_200x200.jpg",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Stream principal",
@@ -1668,7 +1761,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Variedad"
+      "musicType": "Variedad",
+      "seedName": "ORQUESTAS"
     },
     {
       "id": "euskadi--peperadio",
@@ -1680,7 +1774,7 @@
       "websiteUrl": "https://peperadio.es",
       "logoUrl": "https://peperadio.es/Content/images/logo.png",
       "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Stream principal",
@@ -1690,7 +1784,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Rock"
+      "musicType": "Rock",
+      "seedName": "Peperadio"
     },
     {
       "id": "euskadi--radio-7",
@@ -1702,7 +1797,7 @@
       "websiteUrl": "https://www.radio7.com/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/4mq7yvFxtR.jpg",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "MP3 principal",
@@ -1711,7 +1806,9 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ]
+      ],
+      "seedName": "Radio 7",
+      "musicType": ""
     },
     {
       "id": "euskadi--radio-alegria-fm",
@@ -1723,7 +1820,7 @@
       "websiteUrl": "https://nostalgiafm.es/",
       "logoUrl": "https://graph.facebook.com/NostalgiaFMSpain/picture?height=200&width=200",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Stream principal",
@@ -1733,7 +1830,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Oldies"
+      "musicType": "Oldies",
+      "seedName": "Radio Alegria FM"
     },
     {
       "id": "euskadi--radio-bilbao",
@@ -1754,7 +1852,9 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ]
+      ],
+      "seedName": "Radio Bilbao",
+      "musicType": ""
     },
     {
       "id": "euskadi--radio-espana-network",
@@ -1766,7 +1866,7 @@
       "websiteUrl": "https://www.espananetwork.net/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/582/radio-espana-network.406b0f62.jpg",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Stream principal",
@@ -1776,7 +1876,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Dance"
+      "musicType": "Dance",
+      "seedName": "Radio España Network"
     },
     {
       "id": "euskadi--radio-euskadi",
@@ -1804,7 +1905,9 @@
           "priority": 2,
           "source": "EITB legacy"
         }
-      ]
+      ],
+      "seedName": "Radio Euskadi",
+      "musicType": ""
     },
     {
       "id": "euskadi--radio-lider-espana",
@@ -1816,7 +1919,7 @@
       "websiteUrl": "https://radiolider.com/en-directo/",
       "logoUrl": "https://graph.facebook.com/radiolidergalicia/picture?width=200&height=200",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Stream principal",
@@ -1825,7 +1928,9 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ]
+      ],
+      "seedName": "Radio Líder España",
+      "musicType": ""
     },
     {
       "id": "euskadi--radio-marca-bilbao",
@@ -1846,7 +1951,9 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ]
+      ],
+      "seedName": "Radio Marca Bilbao",
+      "musicType": ""
     },
     {
       "id": "euskadi--radio-marca-donostia",
@@ -1867,7 +1974,9 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ]
+      ],
+      "seedName": "Radio Marca Donostia",
+      "musicType": ""
     },
     {
       "id": "euskadi--radio-marca-vitoria",
@@ -1888,7 +1997,9 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ]
+      ],
+      "seedName": "Radio Marca Vitoria",
+      "musicType": ""
     },
     {
       "id": "euskadi--radio-planeta",
@@ -1900,7 +2011,7 @@
       "websiteUrl": "https://www.radioplaneta.com/",
       "logoUrl": "https://yt3.ggpht.com/ytc/AKedOLRETQgEcm3bzxRJOct7AMt2oYneaikmoSjYi_GqxQ%3Ds200-c-k-c0x00ffffff-no-rj",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Stream principal",
@@ -1910,7 +2021,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Dance"
+      "musicType": "Dance",
+      "seedName": "Radio Planeta"
     },
     {
       "id": "euskadi--radio-popular-herri-irratia",
@@ -1931,7 +2043,9 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ]
+      ],
+      "seedName": "Radio Popular - Herri Irratia",
+      "musicType": ""
     },
     {
       "id": "euskadi--radio-romanul",
@@ -1943,7 +2057,7 @@
       "websiteUrl": "https://www.radioromanul.es/live/",
       "logoUrl": "https://graph.facebook.com/RadioRomanul/picture?width=200&height=200",
       "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Stream principal",
@@ -1953,7 +2067,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "World"
+      "musicType": "World",
+      "seedName": "Radio Romanul"
     },
     {
       "id": "euskadi--radio-san-sebastian",
@@ -1974,7 +2089,9 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ]
+      ],
+      "seedName": "Radio San Sebastián",
+      "musicType": ""
     },
     {
       "id": "euskadi--radio-tentacion",
@@ -1986,7 +2103,7 @@
       "websiteUrl": "https://www.radiotentacion.com/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/qsx7hlyfbmhr.jpg",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Stream principal",
@@ -1996,7 +2113,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Pop latino"
+      "musicType": "Pop latino",
+      "seedName": "Radio Tentación"
     },
     {
       "id": "euskadi--radio-vitoria",
@@ -2024,7 +2142,9 @@
           "priority": 2,
           "source": "legacy"
         }
-      ]
+      ],
+      "seedName": "Radio Vitoria",
+      "musicType": ""
     },
     {
       "id": "euskadi--radio-zumba",
@@ -2036,7 +2156,7 @@
       "websiteUrl": "https://gozadera.es/",
       "logoUrl": "https://graph.facebook.com/GozaderaSpain/picture?height=200&width=200",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Stream principal",
@@ -2046,7 +2166,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Latino"
+      "musicType": "Latino",
+      "seedName": "Radio Zumba"
     },
     {
       "id": "euskadi--segura-irratia",
@@ -2067,7 +2188,9 @@
           "priority": 1,
           "source": "Directorio público"
         }
-      ]
+      ],
+      "seedName": "Segura Irratia",
+      "musicType": ""
     },
     {
       "id": "euskadi--ser-vitoria",
@@ -2088,7 +2211,9 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ]
+      ],
+      "seedName": "SER Vitoria",
+      "musicType": ""
     },
     {
       "id": "euskadi--stz-irratia",
@@ -2109,7 +2234,9 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ]
+      ],
+      "seedName": "STZ Irratia",
+      "musicType": ""
     },
     {
       "id": "euskadi--top-radio",
@@ -2121,7 +2248,7 @@
       "websiteUrl": "https://www.topradio.es/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/252/top-radio-spain.8a90733b.png",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "HLS principal",
@@ -2131,7 +2258,23 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Pop en español"
+      "musicType": "Pop en español",
+      "seedName": "Top Radio"
+    },
+    {
+      "id": "euskadi--waiting-room",
+      "name": "Waiting Room",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Euskadi",
+      "websiteUrl": "https://www.thewaitingroom.com/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/757/waiting-room.4f126cec.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "seedName": "Waiting Room",
+      "musicType": "Chillout"
     },
     {
       "id": "euskadi--xtrema-fm",
@@ -2143,7 +2286,7 @@
       "websiteUrl": "https://www.xtremafm.es",
       "logoUrl": "https://graph.facebook.com/xtremafm/picture?width=200&height=200",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Stream principal",
@@ -2153,460 +2296,8 @@
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Top 40"
-    },
-    {
-      "id": "euskadi--arrate-irratia-93-6-fm",
-      "seedName": "Arrate Irratia 93.6 FM",
-      "name": "Arrate Irratia 93.6 FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Euskadi",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://radio1.tecnicofm.com:8002/",
-          "format": "stream",
-          "priority": 1,
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Folk"
-    },
-    {
-      "id": "euskadi--bi-fm-radio",
-      "seedName": "bi fm Radio",
-      "name": "bi fm Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Euskadi",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://radioserver9.profesionalhosting.com:36379",
-          "format": "stream",
-          "priority": 1,
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Rock"
-    },
-    {
-      "id": "euskadi--bilbo-hiria-irratia-96-0-fm",
-      "seedName": "Bilbo Hiria Irratia 96.0 FM",
-      "name": "Bilbo Hiria Irratia 96.0 FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Euskadi",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://groove.wavestreamer.com:7429/;",
-          "format": "stream",
-          "priority": 1,
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "euskadi--bizkaia-irratia-96-7-fm",
-      "seedName": "Bizkaia Irratia 96.7 FM",
-      "name": "Bizkaia Irratia 96.7 FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Euskadi",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://188.93.73.98:8076/;",
-          "format": "stream",
-          "priority": 1,
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Folk"
-    },
-    {
-      "id": "euskadi--cadena-ser-bilbao",
-      "seedName": "Cadena SER - Bilbao",
-      "name": "Cadena SER - Bilbao",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Euskadi",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://playerservices.streamtheworld.com/pls/SER_BILBAO.pls",
-          "format": "pls",
-          "priority": 1,
-          "source": "Spain.json"
-        },
-        {
-          "label": "Alternativo 2",
-          "url": "http://provisioning.streamtheworld.com/pls/SER_BILBAO.pls",
-          "format": "pls",
-          "priority": 2,
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "euskadi--candela-bilbao",
-      "seedName": "Candela » Bilbao",
-      "name": "Candela » Bilbao",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Euskadi",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://uk1-pn.webcast-server.net:8226",
-          "format": "stream",
-          "priority": 1,
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "euskadi--cope-bilbao-97-8-fm",
-      "seedName": "COPE - Bilbao 97,8 FM",
-      "name": "COPE - Bilbao 97,8 FM",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://bilbao.copesedes.stream.flumotion.com/copesedes/bilbao.mp3.m3u",
-          "format": "m3u",
-          "priority": 1,
-          "source": "Spain.json"
-        }
-      ]
-    },
-    {
-      "id": "euskadi--cope-vitoria-101-0-fm",
-      "seedName": "COPE - Vitoria 101.0 FM",
-      "name": "COPE - Vitoria 101.0 FM",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://vitoria.copesedes.stream.flumotion.com/copesedes/vitoria.mp3.m3u",
-          "format": "m3u",
-          "priority": 1,
-          "source": "Spain.json"
-        }
-      ]
-    },
-    {
-      "id": "euskadi--eitb-euskadi-digital",
-      "seedName": "EiTB Euskadi Digital",
-      "name": "EiTB Euskadi Digital",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://radio1.tecnicofm.com:8000/",
-          "format": "stream",
-          "priority": 1,
-          "source": "Spain.json"
-        }
-      ]
-    },
-    {
-      "id": "euskadi--eitb-euskadi-irratia-95-0-fm",
-      "seedName": "EiTB Euskadi Irratia 95.0 FM",
-      "name": "EiTB Euskadi Irratia 95.0 FM",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://mp3-eitb.stream.flumotion.com/eitb/euskadiirratia.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "Spain.json"
-        }
-      ]
-    },
-    {
-      "id": "euskadi--eitb-radio-euskadi",
-      "seedName": "EiTB Radio Euskadi",
-      "name": "EiTB Radio Euskadi",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://mp3-eitb.stream.flumotion.com/eitb/radioeuskadi.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "Spain.json"
-        }
-      ]
-    },
-    {
-      "id": "euskadi--eitb-radio-vitoria-104-1-fm",
-      "seedName": "EiTB Radio Vitoria 104.1 FM",
-      "name": "EiTB Radio Vitoria 104.1 FM",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://mp3-eitb.stream.flumotion.com/eitb/radiovitoria.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "Spain.json"
-        }
-      ]
-    },
-    {
-      "id": "euskadi--europa-fm-gipuzkoa",
-      "seedName": "Europa FM Gipuzkoa",
-      "name": "Europa FM Gipuzkoa",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Euskadi",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://stream.irratia.net/1b",
-          "format": "stream",
-          "priority": 1,
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Pop"
-    },
-    {
-      "id": "euskadi--oye-radio",
-      "seedName": "Oye Radio",
-      "name": "Oye Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Euskadi",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://5.135.155.232:8009/stream",
-          "format": "stream",
-          "priority": 1,
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Top 40"
-    },
-    {
-      "id": "euskadi--planetradio-tk-100-7-fm-93-5-fm-94-8-fm",
-      "seedName": "PlanetRadio.tk 100.7 FM / 93.5 FM / 94.8 FM",
-      "name": "PlanetRadio.tk 100.7 FM / 93.5 FM / 94.8 FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Euskadi",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://78.129.224.13:6807/;",
-          "format": "stream",
-          "priority": 1,
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "euskadi--radio-nervion-88-0-fm",
-      "seedName": "Radio Nervión 88.0 FM",
-      "name": "Radio Nervión 88.0 FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Euskadi",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://radionervion.streaming-pro.com:6015/radionervion",
-          "format": "stream",
-          "priority": 1,
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "euskadi--radio-tropical-bilbao",
-      "seedName": "Radio Tropical Bilbao",
-      "name": "Radio Tropical Bilbao",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Euskadi",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://radiotropical.streaming-pro.com:8016/;",
-          "format": "stream",
-          "priority": 1,
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "euskadi--uribe-fm-107-8",
-      "seedName": "Uribe FM 107.8",
-      "name": "Uribe FM 107.8",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Euskadi",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://server8.emitironline.com:10822/radio",
-          "format": "stream",
-          "priority": 1,
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "euskadi--vinilo-fm-96-7",
-      "seedName": "Vinilo FM 96.7",
-      "name": "Vinilo FM 96.7",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Euskadi",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://streaming6.elitecomunicacion.es:8648/;",
-          "format": "stream",
-          "priority": 1,
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Rock"
-    },
-    {
-      "id": "euskadi--waiting-room",
-      "seedName": "Waiting Room",
-      "name": "Waiting Room",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Euskadi",
-      "websiteUrl": "https://mytuner-radio.com/radio/waiting-room-508757/",
-      "logoUrl": "",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": [],
-      "musicType": "Easy Listening"
+      "musicType": "Top 40",
+      "seedName": "Xtrema FM"
     }
   ]
 }
