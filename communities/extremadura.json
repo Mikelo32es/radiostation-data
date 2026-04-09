@@ -1,165 +1,444 @@
 {
-  "seedCount": 100,
-  "playableCount": 96,
-  "verifiedCount": 96,
-  "candidateCount": 4,
-  "pendingCount": 0,
+  "repoName": "radiostation-data",
+  "community": "Extremadura",
+  "seedSource": "myTuner",
+  "seedCount": 54,
+  "playableCount": 30,
+  "verifiedCount": 30,
+  "candidateCount": 0,
+  "pendingCount": 24,
+  "notes": "Extremadura añadida desde la semilla de 57 emisoras de myTuner. Se priorizan logos específicos de emisora desde páginas individuales de myTuner y streams públicos ya contrastados en TDTChannels; el resto queda en candidate o seeded_pending hasta cerrar stream/logo oficial sin tocar lo ya estable.",
   "stations": [
     {
-      "id": "extremadura--actuality-fm",
-      "name": "Actuality FM",
+      "id": "esradio",
+      "seedName": "EsRadio",
+      "name": "esRadio",
       "tagline": "",
       "description": "",
-      "category": "Música",
+      "category": "Noticias",
       "community": "Extremadura",
-      "websiteUrl": "https://www.actualityfm.es/p/play.html",
-      "logoUrl": "https://graph.facebook.com/ActualityFM.es/picture?width=200&height=200",
+      "websiteUrl": "https://esradio.libertaddigital.com/directo.html",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/592/esradio.c53d1b9e.png",
+      "language": "es",
       "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 1,
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "Stream principal",
-          "url": "https://streaming0103.sonicpanelradio.com/8248/stream",
-          "format": "auto",
+          "label": "AAC principal",
+          "url": "https://libertaddigital-radio-live1.flumotion.com/libertaddigital/ld-live1-high.aac",
+          "format": "aac",
           "priority": 1,
           "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Dance"
-    },
-    {
-      "id": "extremadura--afradio",
-      "name": "AFradio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://coolturafm.com",
-      "logoUrl": "https://graph.facebook.com/coolturafm/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
+        },
         {
-          "label": "MP3 principal",
-          "url": "https://server9.emitironline.com:19244/",
+          "label": "MP3 alternativo",
+          "url": "https://libertaddigital-radio-live1.flumotion.com/libertaddigital/ld-live1-high.mp3",
           "format": "mp3",
-          "priority": 1,
+          "priority": 2,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Variedad"
+      ]
     },
     {
-      "id": "extremadura--antena-1-radio",
-      "name": "Antena 1 Radio",
+      "id": "radio-marca-nacional",
+      "seedName": "Radio Marca Nacional",
+      "name": "Radio Marca Nacional",
+      "tagline": "",
+      "description": "",
+      "category": "Deporte",
+      "community": "Extremadura",
+      "websiteUrl": "https://www.marca.com/radio.html",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 2,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC oficial",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONALAAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels / WebRadioStreams"
+        },
+        {
+          "label": "MP3 oficial",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONAL.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels / WebRadioStreams"
+        }
+      ]
+    },
+    {
+      "id": "cadena-dial",
+      "seedName": "Cadena Dial",
+      "name": "Cadena Dial",
       "tagline": "",
       "description": "",
       "category": "Música",
       "community": "Extremadura",
-      "websiteUrl": "https://www.radioplaneta.com/",
-      "logoUrl": "https://yt3.ggpht.com/ytc/AKedOLRETQgEcm3bzxRJOct7AMt2oYneaikmoSjYi_GqxQ%3Ds200-c-k-c0x00ffffff-no-rj",
+      "musicType": "Latina",
+      "websiteUrl": "https://play.cadenadial.com",
+      "logoUrl": "https://graph.facebook.com/CadenaDial/picture?width=200&height=200",
+      "language": "es",
       "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 3,
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "Stream principal",
-          "url": "https://radioplaneta.emitironline.com/",
-          "format": "stream",
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIALAAC.aac",
+          "format": "aac",
           "priority": 1,
           "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
         }
-      ],
-      "musicType": "Dance"
+      ]
     },
     {
-      "id": "extremadura--antena-cemu-radio",
-      "name": "Antena CEMU Radio",
+      "id": "los-40-principales",
+      "seedName": "Los 40 Principales",
+      "name": "LOS40",
       "tagline": "",
       "description": "",
-      "category": "Educación",
+      "category": "Música",
       "community": "Extremadura",
-      "websiteUrl": "https://antenacemu.com/emision-online/",
-      "logoUrl": "https://graph.facebook.com/401769933317531/picture?width=200&height=200",
+      "musicType": "Pop",
+      "websiteUrl": "https://los40.com/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/3jk5k9pcxrp9.jpg",
+      "language": "es",
       "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 4,
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "Stream principal",
-          "url": "https://sonic.mediatelekom.net/9980/stream",
-          "format": "auto",
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40AAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "cadena-100",
+      "seedName": "Cadena 100",
+      "name": "Cadena 100",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Extremadura",
+      "musicType": "Pop",
+      "websiteUrl": "https://www.cadena100.es",
+      "logoUrl": "https://graph.facebook.com/CADENA100/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 5,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://cadena100-cope.flumotion.com/chunks.m3u8",
+          "format": "hls",
           "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
-      "id": "extremadura--bi-fm",
-      "name": "BI FM",
+      "id": "rne-radio-nacional",
+      "seedName": "RNE Radio Nacional",
+      "name": "RNE Radio Nacional",
       "tagline": "",
       "description": "",
-      "category": "Música",
+      "category": "Nacional",
       "community": "Extremadura",
-      "websiteUrl": "https://www.bifmradio.com/",
-      "logoUrl": "https://www.bifmradio.com/wp-content/uploads/2020/12/bifm-logo.png",
+      "websiteUrl": "https://www.rtve.es/radio/rne/",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/RNE_logo.svg/512px-RNE_logo.svg.png",
+      "language": "es",
       "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 6,
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "Candidato tercero",
-          "url": "http://94.75.234.135:8052/listen.plsmp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "liveradio.ie"
-        }
-      ],
-      "musicType": "Indie"
-    },
-    {
-      "id": "extremadura--buena-onda-musical",
-      "name": "Buena Onda Musical",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://masbuenafm.com",
-      "logoUrl": "https://graph.facebook.com/masbuenafm/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://sonic.mediatelekom.net/8156/stream",
+          "label": "RNE 1 Euskadi",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/eus/mp3/high",
           "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Latina"
+      ]
     },
     {
-      "id": "extremadura--cadena-100-vegas-altas",
-      "name": "Cadena 100 Vegas Altas",
+      "id": "los40-classic",
+      "seedName": "Los40 Classic",
+      "name": "LOS40 Classic",
       "tagline": "",
       "description": "",
       "category": "Música",
       "community": "Extremadura",
-      "websiteUrl": "https://cadena100vegasaltas.com",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/kqxn5vycybfv.jpg",
+      "musicType": "Classic Hits",
+      "websiteUrl": "https://play.los40.com/los40_classic",
+      "logoUrl": "https://graph.facebook.com/los40classic/picture?width=200&height=200",
+      "language": "es",
       "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 7,
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "Stream directo",
-          "url": "https://eu1.lhdserver.es:8017/stream",
-          "format": "auto",
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_CLASSICAAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_CLASSIC.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "rock-fm",
+      "seedName": "Rock FM",
+      "name": "Rock FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Extremadura",
+      "musicType": "Rock",
+      "websiteUrl": "https://www.rockfm.fm",
+      "logoUrl": "https://graph.facebook.com/RockFM/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 8,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://rockfm-cope.flumotion.com/playlist.m3u8",
+          "format": "hls",
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Pop"
+      ]
     },
     {
-      "id": "extremadura--cadena-cope-badajoz",
+      "id": "kiss-fm",
+      "seedName": "KISS FM",
+      "name": "KISS FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Extremadura",
+      "musicType": "Pop",
+      "websiteUrl": "https://www.kissfm.es/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/117/kiss-fm.51b9402b.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 9,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://kissfm.kissfmradio.cires21.com/kissfm.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radiole",
+      "seedName": "Radiolé",
+      "name": "Radiolé",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Extremadura",
+      "musicType": "Flamenco",
+      "websiteUrl": "https://play.radiole.com",
+      "logoUrl": "https://graph.facebook.com/radiole/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 10,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOLEAAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOLE.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "rne-radio-5",
+      "seedName": "RNE Radio 5",
+      "name": "RNE Radio 5",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Extremadura",
+      "websiteUrl": "https://www.rtve.es/radio/radio5/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/745/radio-5.9b6b99b4.png",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 11,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Radio 5 Vitoria",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/vit/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "europa-fm",
+      "seedName": "Europa FM",
+      "name": "Europa FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Extremadura",
+      "musicType": "Top 40",
+      "websiteUrl": "https://www.europafm.com/directo/",
+      "logoUrl": "https://graph.facebook.com/tueuropafm/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 12,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://radio-atres-live.ondacero.es/api/livestream-redirect/EFMAAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "rne-radio-clasica",
+      "seedName": "RNE Radio Clásica",
+      "name": "RNE Radio Clásica",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Extremadura",
+      "musicType": "Clásica",
+      "websiteUrl": "https://www.rtve.es/radio/radioclasica/",
+      "logoUrl": "https://graph.facebook.com/radioclasicartve/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 13,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r2_main.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-maria-espana",
+      "seedName": "Radio María España",
+      "name": "Radio María España",
+      "tagline": "",
+      "description": "",
+      "category": "Religión",
+      "community": "Extremadura",
+      "websiteUrl": "https://www.radiomaria.es/",
+      "logoUrl": "https://graph.facebook.com/RadioMariaSpa/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 14,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://dreamsiteradiocp4.com/proxy/rmspain1?mp=%2Fstream%2F1%2F%3B.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "rne-radio-3",
+      "seedName": "RNE Radio 3",
+      "name": "RNE Radio 3",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Extremadura",
+      "musicType": "Alternativa",
+      "websiteUrl": "https://www.rtve.es/radio/radio3/",
+      "logoUrl": "https://graph.facebook.com/radio3/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 15,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r3_main.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "cadena-cope-badajoz",
+      "seedName": "Cadena COPE Badajoz",
       "name": "Cadena COPE Badajoz",
       "tagline": "",
       "description": "",
@@ -167,7 +446,10 @@
       "community": "Extremadura",
       "websiteUrl": "https://www.cope.es/directos/badajoz",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/846/cadena-cope-badajoz.5751b83b.png",
+      "language": "es",
       "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 16,
       "verificationStatus": "verified",
       "streams": [
         {
@@ -180,7 +462,8 @@
       ]
     },
     {
-      "id": "extremadura--cadena-cope-caceres",
+      "id": "cadena-cope-caceres",
+      "seedName": "Cadena COPE Cáceres",
       "name": "Cadena COPE Cáceres",
       "tagline": "",
       "description": "",
@@ -188,7 +471,10 @@
       "community": "Extremadura",
       "websiteUrl": "https://www.cope.es/directos/caceres",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/849/cadena-cope-caceres.66c123e9.png",
+      "language": "es",
       "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 17,
       "verificationStatus": "verified",
       "streams": [
         {
@@ -201,1643 +487,8 @@
       ]
     },
     {
-      "id": "extremadura--cadena-cope-merida",
-      "name": "Cadena COPE Mérida",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.cope.es/directos/merida",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/875/cadena-cope-merida.01dc2f5c.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 directo",
-          "url": "https://wecast-bl02.flumotion.com/copesedes/merida.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--cadena-ser-caceres",
-      "name": "Cadena SER Cáceres",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Extremadura",
-      "websiteUrl": "https://cadenaser.com/ser-caceres/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/pxpfnlnwnpx9.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 directo",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_CACERES.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--cadena-ser-merida",
-      "name": "Cadena SER Mérida",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Extremadura",
-      "websiteUrl": "https://cadenaser.com/ser-merida/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/e85a4yb6dczh.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 directo",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_MERIDA.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--cadena-ser-tierra-de-barros",
-      "name": "Cadena SER Tierra de Barros",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Extremadura",
-      "websiteUrl": "https://cadenaser.com/ser-tierra-de-barros/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/qxwuhkwsjth7.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 directo",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_ALMENDRALEJO.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--can-deu-fm",
-      "name": "Can Deu FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "http://candeufm.com",
-      "logoUrl": "http://candeufm.com/e107_images/custom/2021app.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://radios.solumedia.com/6716/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "extremadura--candela-radio",
-      "name": "Candela Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://candelaradio.fm/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/m6mstp6fmuzc.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 público",
-          "url": "http://uk1-pn.webcast-server.net:8226",
-          "format": "mp3",
-          "priority": 1,
-          "source": "radio-online-json-url"
-        }
-      ],
-      "musicType": "Latina"
-    },
-    {
-      "id": "extremadura--candil-radio",
-      "name": "Candil Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Extremadura",
-      "websiteUrl": "https://candilradio.com/",
-      "logoUrl": "https://graph.facebook.com/CandilRadio/picture?height=200&width=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://candilradio.com/liveradio/candil/live.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--carrusel-fm",
-      "name": "Carrusel FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "http://www.carruselfm.com",
-      "logoUrl": "https://pbs.twimg.com/profile_images/520332074147123200/pzYkTYHB_200x200.jpeg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://server10.emitironline.com:8921/radio?.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Remember"
-    },
-    {
-      "id": "extremadura--conexiondance-radio",
-      "name": "Conexiondance Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://decibeliafm.es/",
-      "logoUrl": "https://pbs.twimg.com/profile_images/1580311659226210310/umHvZ3-d_200x200.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://streaming.shoutcast.com/decibelia",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Dance"
-    },
-    {
-      "id": "extremadura--cooltura-fm",
-      "name": "Cooltura FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://coolturafm.com",
-      "logoUrl": "https://graph.facebook.com/coolturafm/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://server9.emitironline.com:19244/",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "extremadura--decibelia-fm",
-      "name": "Decibelia FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://decibeliafm.es/",
-      "logoUrl": "https://pbs.twimg.com/profile_images/1580311659226210310/umHvZ3-d_200x200.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://streaming.shoutcast.com/decibelia",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Dance"
-    },
-    {
-      "id": "extremadura--dynamis-radio",
-      "name": "Dynamis Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Religión",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.dynamisradio.org",
-      "logoUrl": "https://graph.facebook.com/dynamisradio/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://control.streaming-pro.com:8014/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--ecuashyri-fm",
-      "name": "ECUASHYRI FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://ecuashyri.es/",
-      "logoUrl": "https://graph.facebook.com/Ecuadorstereo/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://securestream.radioshd.info:7018/stream",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TingFM"
-        }
-      ],
-      "musicType": "Latina"
-    },
-    {
-      "id": "extremadura--el-salto-radio",
-      "name": "El Salto Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.elsaltodiario.com/el-salto-radio/",
-      "logoUrl": "https://graph.facebook.com/ElSaltoDiario/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://radio.radiobot.org/listen/salto/elsaltoradio.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--esencia-radio",
-      "name": "Esencia Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.esenciaradio.com/endirecto/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/QxU5VtQCPm.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://stream.zeno.fm/apu4qxap0rquv",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Pop"
-    },
-    {
-      "id": "extremadura--espacio-4-fm",
-      "name": "Espacio 4 FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.espacio4fm.com/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/uxmfabbdnref.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://stream.zeno.fm/fz0bc82wn0hvv",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Electrónica"
-    },
-    {
-      "id": "extremadura--flamenco-radio",
-      "name": "Flamenco Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.canalsurmas.es/",
-      "logoUrl": "https://graph.facebook.com/FlamencoRadio/picture?height=200&width=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://rtva-live-radio.flumotion.com/rtva/flamenco.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Flamenco"
-    },
-    {
-      "id": "extremadura--formula-exitos-mp",
-      "name": "Fórmula Éxitos MP",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://mdtradio.com/canales-tematicos/",
-      "logoUrl": "https://mdtradio.com/wp-content/uploads/2024/11/Logo-MDT-Radio-Pop-Stars-Fm2.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://streams1.mdtradio.com:8443/PopStarsFm",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Pop"
-    },
-    {
-      "id": "extremadura--free-fm-rock",
-      "name": "Free FM Rock",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.freefmrock.com/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/769/free-fm.aa638097.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "https://freefmrock.radioca.st/stream",
-          "format": "mp3",
-          "priority": 1,
-          "source": "fmstream (public listing)"
-        }
-      ],
-      "musicType": "Rock"
-    },
-    {
-      "id": "extremadura--free-fm-sports",
-      "name": "Free FM Sports",
-      "tagline": "",
-      "description": "",
-      "category": "Deporte",
-      "community": "Extremadura",
-      "websiteUrl": "https://sites.google.com/view/freefmworld",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/BtX4kYE4dC.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "https://stream.zeno.fm/31nnibfpnxktv",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TingFM listing"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--free-fm-world",
-      "name": "Free FM World",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://sites.google.com/view/freefmworld",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/690/free-fm-spain.be1f4c93.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "https://rocafmadrid.radioca.st/stream",
-          "format": "mp3",
-          "priority": 1,
-          "source": "rcast/fmstream public listing"
-        }
-      ],
-      "musicType": "World"
-    },
-    {
-      "id": "extremadura--free-fm-x-mas",
-      "name": "Free FM X-Mas",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://sites.google.com/view/freefmworld",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/6uzYMVMHad.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "http://stream.zeno.fm/h60er015v68uv",
-          "format": "mp3",
-          "priority": 1,
-          "source": "radiobrowser index"
-        }
-      ],
-      "musicType": "Navidad"
-    },
-    {
-      "id": "extremadura--globo-fm",
-      "name": "Globo FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.globofm.es",
-      "logoUrl": "https://pbs.twimg.com/profile_images/972013004484173824/BMLZEKXs_200x200.jpg",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://sonic.sistemahost.es/8200/;.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Classic Hits"
-    },
-    {
-      "id": "extremadura--gozadera-fm",
-      "name": "Gozadera FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://gozadera.es/",
-      "logoUrl": "https://graph.facebook.com/GozaderaSpain/picture?height=200&width=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://azura.abcorp.es/radio/8030/live",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Latino"
-    },
-    {
-      "id": "extremadura--gran-via-radio",
-      "name": "Gran Via Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://granviaradiofm.es",
-      "logoUrl": "https://graph.facebook.com/1397103013646307/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://servidor14-3.brlogic.com:7066/live",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "extremadura--guateque-fm",
-      "name": "Guateque FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://guatequefm.com",
-      "logoUrl": "https://play-lh.googleusercontent.com/29cOsGnQ8A3a-FJ1EkqBDVrMCIMWcQBORIWcmygreM9fNjU5C3Pci0CNDYDrv1NPPPD1=w200-h200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://eu1.lhdserver.es:3219/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Oldies"
-    },
-    {
-      "id": "extremadura--hitz-90s-fm",
-      "name": "Hitz 90s FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://zeno.fm/radio/hitz-90s-fm/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/590/hitz-90s-fm.350feb58.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Zeno candidato 1",
-          "url": "http://stream.zeno.fm/1q3dwmd6yf8uv",
-          "format": "mp3",
-          "priority": 1,
-          "source": "radiobrowser index"
-        },
-        {
-          "label": "Zeno candidato 2",
-          "url": "https://stream.zeno.fm/x3sxe2nv0p8uv",
-          "format": "mp3",
-          "priority": 2,
-          "source": "RCAST directory"
-        }
-      ],
-      "musicType": "90s"
-    },
-    {
-      "id": "extremadura--hitz-91-0",
-      "name": "Hitz 91.0",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/185/hitz-910.f033127e.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Zeno candidato",
-          "url": "http://stream.zeno.fm/f2qmny74gd0uv",
-          "format": "mp3",
-          "priority": 1,
-          "source": "radiobrowser index"
-        }
-      ],
-      "musicType": "Hits"
-    },
-    {
-      "id": "extremadura--hitz-91-5-fm",
-      "name": "Hitz 91.5 FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/297/hitz-915.c533c68d.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 candidato 1",
-          "url": "http://ec2.yesstreaming.net:3110/stream",
-          "format": "mp3",
-          "priority": 1,
-          "source": "RCAST directory"
-        },
-        {
-          "label": "Zeno candidato 2",
-          "url": "https://stream.zeno.fm/zskjbd7n200tv",
-          "format": "mp3",
-          "priority": 2,
-          "source": "RCAST snippet"
-        }
-      ],
-      "musicType": "Hits"
-    },
-    {
-      "id": "extremadura--hitz-91-9-radio",
-      "name": "Hitz 91.9 Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://zeno.fm/radio/hitz-919-radio-1/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/078/hitz-919.f194041d.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Zeno candidato",
-          "url": "https://node-33.zeno.fm/p9m9tuyap98uv",
-          "format": "mp3",
-          "priority": 1,
-          "source": "RCAST directory"
-        }
-      ],
-      "musicType": "Hits"
-    },
-    {
-      "id": "extremadura--hitz-africa-fm",
-      "name": "Hitz Africa FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/078/hitz-africa-fm.08c90290.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 candidato",
-          "url": "http://ec2.yesstreaming.net:2960/stream",
-          "format": "mp3",
-          "priority": 1,
-          "source": "RCAST directory"
-        }
-      ],
-      "musicType": "Afro"
-    },
-    {
-      "id": "extremadura--hitz-funky-radio",
-      "name": "Hitz Funky Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/098/hitz-funky-radio.8797717c.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Zeno candidato 1",
-          "url": "http://stream.zeno.fm/azgx0ktf4p8uv",
-          "format": "mp3",
-          "priority": 1,
-          "source": "radiobrowser index"
-        },
-        {
-          "label": "Zeno candidato 2",
-          "url": "https://stream.zeno.fm/zcpx195bt7zuv",
-          "format": "mp3",
-          "priority": 2,
-          "source": "RCAST directory"
-        }
-      ],
-      "musicType": "Funky"
-    },
-    {
-      "id": "extremadura--hitz-radio-24-7",
-      "name": "Hitz Radio 24/7",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://zeno.fm/radio/hitz-radio-24-7/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/879/hitz-radio-247.c3189df4.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 candidato",
-          "url": "http://live2.rcast.net:9122/stream",
-          "format": "mp3",
-          "priority": 1,
-          "source": "RCAST directory"
-        }
-      ],
-      "musicType": "Hits"
-    },
-    {
-      "id": "extremadura--imagina-radio",
-      "name": "Imagina Ràdio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.imaginaradio.cat/directe/",
-      "logoUrl": "https://graph.facebook.com/ImaginaRadio103/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://relay.stream.enacast-cloud.com:30286/imaginaradioHD.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Hits"
-    },
-    {
-      "id": "extremadura--kandela-te-prende",
-      "name": "KANDELA Te Prende",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.kandelateprende.com",
-      "logoUrl": "https://graph.facebook.com/KandelaTePrende/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream directo",
-          "url": "https://one.cloudstreaming.eu:6158",
-          "format": "auto",
-          "priority": 1,
-          "source": "Radiomap"
-        }
-      ],
-      "musicType": "Latino"
-    },
-    {
-      "id": "extremadura--kyoto-fm",
-      "name": "Kyoto FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.kyotofm.es",
-      "logoUrl": "https://graph.facebook.com/kyotofm/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://sonic.mediatelekom.net/8148/stream",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Dance"
-    },
-    {
-      "id": "extremadura--la-bomba-radio",
-      "name": "La Bomba Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "http://www.labombaradio.es",
-      "logoUrl": "https://play-lh.googleusercontent.com/RnnCJFfcSu-Ma6MSoLJ4hDT2qz9tNrzHz3AdOyFy-h5bjRb0oakVfVOMtPOn5F7tmA=w200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://stm2.emiteonline.com:9014/labomba",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Latina"
-    },
-    {
-      "id": "extremadura--la-cheverisima-radio",
-      "name": "La Cheverisima Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://lacheverisimaradio.com",
-      "logoUrl": "https://play-lh.googleusercontent.com/paqCGWhxPmfQOzkssgQHBiAW60j3zi04Hq9K2UWM_oddr-X-ZriB6OK-K0Xr8lmP4A=w200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://samuel.i-radio.co:9000/lacheverisima",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Latina"
-    },
-    {
-      "id": "extremadura--la-condesa-fm",
-      "name": "La Condesa FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.lafresca.fm/",
-      "logoUrl": "https://graph.facebook.com/lafresca.es/picture?height=200&width=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://stream.produccionesdale.com/listen/lafresca/altacalidad",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Top 40"
-    },
-    {
-      "id": "extremadura--la-flamenca",
-      "name": "La Flamenca",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://emisorasmusicales.net/laflamenca/",
-      "logoUrl": "https://media.emisorasmusicales.net/wp-content/uploads/2020/03/11023733/LaFlamenca-200x200.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://stream.emisorasmusicales.net/radio/8070/laflamenca.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Flamenco"
-    },
-    {
-      "id": "extremadura--la-fresca-fm",
-      "name": "La Fresca FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.lafresca.fm/",
-      "logoUrl": "https://graph.facebook.com/lafresca.es/picture?height=200&width=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://stream.produccionesdale.com/listen/lafresca/altacalidad",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Top 40"
-    },
-    {
-      "id": "extremadura--la-suegra-fm",
-      "name": "La Suegra FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.lasuegrafmmadrid.com",
-      "logoUrl": "https://graph.facebook.com/LaSuegraFmMadrid/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream directo",
-          "url": "http://131.153.56.235:9300",
-          "format": "auto",
-          "priority": 1,
-          "source": "Radiomap"
-        }
-      ],
-      "musicType": "Latino"
-    },
-    {
-      "id": "extremadura--la-urban-radio",
-      "name": "La Urban Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.urbanrevolution.es",
-      "logoUrl": "https://graph.facebook.com/urbanrevolution.es/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://st1.urbanrevolution.es:8443/laurbanfm.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Urbana"
-    },
-    {
-      "id": "extremadura--loca-fm-big-room",
-      "name": "Loca FM Big Room",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.locafm.com/",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_big_room/live",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Big Room"
-    },
-    {
-      "id": "extremadura--loca-fm-deep-house",
-      "name": "Loca FM Deep House",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.locafm.com/",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_deep_house/live",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Deep House"
-    },
-    {
-      "id": "extremadura--loca-fm-drum-bass",
-      "name": "Loca FM Drum&Bass",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.locafm.com/drum-bass/player.html",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_drum__bass/live",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Drum & Bass"
-    },
-    {
-      "id": "extremadura--loca-fm-hard",
-      "name": "Loca FM Hard",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.locafm.com/hard/player.html",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_hard/live",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Hard Dance"
-    },
-    {
-      "id": "extremadura--loca-fm-hard-techno",
-      "name": "Loca FM Hard Techno",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.locafm.com/hard-techno/player.html",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_hard_techno/live",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Hard Techno"
-    },
-    {
-      "id": "extremadura--loca-fm-industrial",
-      "name": "Loca FM Industrial",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.locafm.com/industrial/player.html",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_industrial/live",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Industrial"
-    },
-    {
-      "id": "extremadura--loca-fm-loca-80s",
-      "name": "Loca FM Loca 80s",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.locafm.com/",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_80s/live",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "80s"
-    },
-    {
-      "id": "extremadura--loca-fm-melodic-house",
-      "name": "Loca FM Melodic House",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.locafm.com/",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_melodic_house/live",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Melodic House"
-    },
-    {
-      "id": "extremadura--loca-fm-melodic-techno",
-      "name": "Loca FM Melodic Techno",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.locafm.com/",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_melodic_techno/live",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Melodic Techno"
-    },
-    {
-      "id": "extremadura--loca-fm-remember",
-      "name": "Loca FM Remember",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.locafm.com/",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_remember/live",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Remember"
-    },
-    {
-      "id": "extremadura--loca-fm-sessions",
-      "name": "Loca FM Sessions",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.locafm.com/",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_sessions/live",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Sesiones DJ"
-    },
-    {
-      "id": "extremadura--loca-fm-tech-house",
-      "name": "Loca FM Tech House",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.locafm.com/",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_tech_house/live",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Tech House"
-    },
-    {
-      "id": "extremadura--loca-fm-urban",
-      "name": "Loca FM Urban",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.locafm.com/loca-urban/player.html",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://s1.we4stream.com:2020/stream/locaurban",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Urbana"
-    },
-    {
-      "id": "extremadura--lokura-radio",
-      "name": "Lokura Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://suena.live/p/5/?identificador=lokuraradio",
-      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fsuena.live",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Zeno candidato",
-          "url": "https://stream.zeno.fm/3fks04pxchvv",
-          "format": "auto",
-          "priority": 1,
-          "source": "Instagram/Zeno"
-        }
-      ],
-      "musicType": "Remember"
-    },
-    {
-      "id": "extremadura--mariskalrock-radio",
-      "name": "MariskalRock Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://mariskalrock.com",
-      "logoUrl": "https://graph.facebook.com/mariskalrock/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://media.profesionalhosting.com:8047/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Rock"
-    },
-    {
-      "id": "extremadura--mdt-radio-pop-stars",
-      "name": "MDT Radio Pop Stars",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://mdtradio.com/canales-tematicos/",
-      "logoUrl": "https://mdtradio.com/wp-content/uploads/2024/11/Logo-MDT-Radio-Pop-Stars-Fm2.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://streams1.mdtradio.com:8443/PopStarsFm",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Pop"
-    },
-    {
-      "id": "extremadura--mdt-radio-remember",
-      "name": "MDT Radio Remember",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.mdtradio.com",
-      "logoUrl": "https://graph.facebook.com/mdtradio/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://streams1.mdtradio.com:8443/mdtweb",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Remember"
-    },
-    {
-      "id": "extremadura--medea-fm",
-      "name": "Medea FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://medeafm.es",
-      "logoUrl": "https://graph.facebook.com/radiomedeafm/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://sonic.mediatelekom.net/8562/;.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "extremadura--muralla-metal-rock",
-      "name": "Muralla Metal Rock",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.scannerfm.com",
-      "logoUrl": "https://graph.facebook.com/scannerFM/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://eu10.fastcast4u.com/scannerfm",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Rock"
-    },
-    {
-      "id": "extremadura--nostalgia-fm",
-      "name": "Nostalgia FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://nostalgiafm.es/",
-      "logoUrl": "https://graph.facebook.com/NostalgiaFMSpain/picture?height=200&width=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://azura.abcorp.es/radio/8040/live",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Oldies"
-    },
-    {
-      "id": "extremadura--onda-capital",
-      "name": "Onda Capital",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Extremadura",
-      "websiteUrl": "https://ondacapital.es/",
-      "logoUrl": "https://graph.facebook.com/ondacapitalfm/picture?height=200&width=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://server1.radiocast.es/listen/onda_capital/capitalweb",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--onda-cero-badajoz",
-      "name": "Onda Cero Badajoz",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.ondacero.es/emisoras/extremadura/badajoz/directo/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/ufTJPb9HvF.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS directo",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/badajoz/master.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--onda-cero-merida",
-      "name": "Onda Cero Mérida",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.ondacero.es/emisoras/extremadura/merida/directo/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/170/onda-cero-merida.46294057.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS directo",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/merida/master.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--onda-latina",
-      "name": "Onda Latina",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "http://www.ondalatina.com.es",
-      "logoUrl": "https://graph.facebook.com/ondalatina.com.es/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://cervera.eldialdigital.com:21131/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Latina"
-    },
-    {
-      "id": "extremadura--onda-ocio",
-      "name": "Onda Ocio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://ondaocio.com/",
-      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fondaocio.com",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Zeno directo",
-          "url": "http://stream.zeno.fm/u4e4bdyuvmzuv",
-          "format": "mp3",
-          "priority": 1,
-          "source": "Facebook / Zeno"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "extremadura--orquestas",
-      "name": "ORQUESTAS",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://verbenafm.com",
-      "logoUrl": "https://pbs.twimg.com/profile_images/1463159511133442059/uVV15n4k_200x200.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://streaming12.elitecomunicacion.es:8222/stream",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "extremadura--peperadio",
-      "name": "Peperadio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://peperadio.es",
-      "logoUrl": "https://peperadio.es/Content/images/logo.png",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://server10.emitironline.com:8032/",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Rock"
-    },
-    {
-      "id": "extremadura--radio-7",
-      "name": "Radio 7",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.radio7.com/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/4mq7yvFxtR.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://radio7.streaming-pro.com:6146/radio7.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--radio-alegria-fm",
-      "name": "Radio Alegria FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://nostalgiafm.es/",
-      "logoUrl": "https://graph.facebook.com/NostalgiaFMSpain/picture?height=200&width=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://azura.abcorp.es/radio/8040/live",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Oldies"
-    },
-    {
-      "id": "extremadura--radio-azuaga-fm",
-      "name": "Radio Azuaga FM",
-      "tagline": "",
-      "description": "",
-      "category": "Comunitaria",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.ayuntamientodeazuaga.es/radioazuaga/en-directo/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/hGmyBRUmhv.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream directo",
-          "url": "https://www.ayuntamientodeazuaga.es:8443/radioazuagafm",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--radio-espana-network",
-      "name": "Radio España Network",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.espananetwork.net/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/582/radio-espana-network.406b0f62.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://stream.zeno.fm/ocinyyji4rntv",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Dance"
-    },
-    {
-      "id": "extremadura--radio-extremadura-ser",
+      "id": "radio-extremadura-ser",
+      "seedName": "Radio Extremadura SER",
       "name": "Radio Extremadura SER",
       "tagline": "",
       "description": "",
@@ -1845,7 +496,10 @@
       "community": "Extremadura",
       "websiteUrl": "https://play.cadenaser.com/emisora/radio_extremadura/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/5VA3kpJeX8.png",
+      "language": "es",
       "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 18,
       "verificationStatus": "verified",
       "streams": [
         {
@@ -1858,20 +512,24 @@
       ]
     },
     {
-      "id": "extremadura--radio-lider-espana",
-      "name": "Radio Líder España",
+      "id": "cadena-ser-caceres",
+      "seedName": "Cadena SER Cáceres",
+      "name": "Cadena SER Cáceres",
       "tagline": "",
       "description": "",
       "category": "Noticias",
       "community": "Extremadura",
-      "websiteUrl": "https://radiolider.com/en-directo/",
-      "logoUrl": "https://graph.facebook.com/radiolidergalicia/picture?width=200&height=200",
+      "websiteUrl": "https://cadenaser.com/ser-caceres/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/pxpfnlnwnpx9.jpg",
+      "language": "es",
       "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 19,
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "Stream principal",
-          "url": "https://server9.emitironline.com:8200/stream",
+          "label": "MP3 directo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_CACERES.mp3",
           "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
@@ -1879,139 +537,551 @@
       ]
     },
     {
-      "id": "extremadura--radio-planeta",
-      "name": "Radio Planeta",
+      "id": "cadena-cope-merida",
+      "seedName": "Cadena COPE Mérida",
+      "name": "Cadena COPE Mérida",
       "tagline": "",
       "description": "",
-      "category": "Música",
+      "category": "Noticias",
       "community": "Extremadura",
-      "websiteUrl": "https://www.radioplaneta.com/",
-      "logoUrl": "https://yt3.ggpht.com/ytc/AKedOLRETQgEcm3bzxRJOct7AMt2oYneaikmoSjYi_GqxQ%3Ds200-c-k-c0x00ffffff-no-rj",
+      "websiteUrl": "https://www.cope.es/directos/merida",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/875/cadena-cope-merida.01dc2f5c.png",
+      "language": "es",
       "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 20,
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "Stream principal",
-          "url": "https://radioplaneta.emitironline.com/",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Dance"
-    },
-    {
-      "id": "extremadura--radio-romanul",
-      "name": "Radio Romanul",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.radioromanul.es/live/",
-      "logoUrl": "https://graph.facebook.com/RadioRomanul/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "http://streaming.radioromanul.es:55556/web",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "World"
-    },
-    {
-      "id": "extremadura--radio-teletaxi",
-      "name": "Radio TeleTaxi",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.radioteletaxi.com/reproductor/",
-      "logoUrl": "https://graph.facebook.com/radioteletaxi/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://radiott-web.streaming-pro.com:6103/radiott.mp3",
+          "label": "MP3 directo",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/merida.mp3",
           "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Latina"
+      ]
     },
     {
-      "id": "extremadura--radio-tentacion",
-      "name": "Radio Tentación",
+      "id": "onda-cero-merida",
+      "seedName": "Onda Cero Mérida",
+      "name": "Onda Cero Mérida",
       "tagline": "",
       "description": "",
-      "category": "Música",
+      "category": "Noticias",
       "community": "Extremadura",
-      "websiteUrl": "https://www.radiotentacion.com/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/qsx7hlyfbmhr.jpg",
+      "websiteUrl": "https://www.ondacero.es/emisoras/extremadura/merida/directo/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/170/onda-cero-merida.46294057.png",
+      "language": "es",
       "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 21,
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "Stream principal",
-          "url": "https://streaming6.locucionar.com:2020/stream/radiotentacion",
-          "format": "auto",
+          "label": "HLS directo",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/merida/master.m3u8",
+          "format": "hls",
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Pop latino"
+      ]
     },
     {
-      "id": "extremadura--radio-utopia",
-      "name": "Radio Utopía",
+      "id": "free-fm-classics",
+      "seedName": "Free FM Classics",
+      "name": "Free FM Classics",
       "tagline": "",
       "description": "",
       "category": "Música",
       "community": "Extremadura",
-      "websiteUrl": "https://www.radioutopia.org.es",
-      "logoUrl": "https://graph.facebook.com/179099278878655/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
+      "musicType": "Oldies",
+      "websiteUrl": "https://www.freefmworld.com",
+      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fwww.freefmworld.com",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 22,
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "MP3 principal",
-          "url": "http://streaming.radioutopia.org.es:8000/radio-utopia.mp3",
+          "label": "Stream directo",
+          "url": "https://xxdelgado.radioca.st",
+          "format": "auto",
+          "priority": 1,
+          "source": "Radiomap"
+        }
+      ]
+    },
+    {
+      "id": "free-fm-world",
+      "seedName": "Free FM World",
+      "name": "Free FM World",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Extremadura",
+      "musicType": "World",
+      "websiteUrl": "https://sites.google.com/view/freefmworld",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/690/free-fm-spain.be1f4c93.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 24,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://rocafmadrid.radioca.st/stream",
+          "format": "mp3",
+          "priority": 1,
+          "source": "rcast/fmstream public listing"
+        }
+      ]
+    },
+    {
+      "id": "cadena-ser-merida",
+      "seedName": "Cadena SER Mérida",
+      "name": "Cadena SER Mérida",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Extremadura",
+      "websiteUrl": "https://cadenaser.com/ser-merida/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/e85a4yb6dczh.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 25,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 directo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_MERIDA.mp3",
           "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Alternativa"
+      ]
     },
     {
-      "id": "extremadura--radio-zumba",
-      "name": "Radio Zumba",
+      "id": "cope-don-benito-villanueva",
+      "seedName": "Cope Don Benito Villanueva",
+      "name": "Cope Don Benito Villanueva",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Extremadura",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/367/cope-don-benito-villanueva.8cf68098.png",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 26,
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "la-radio-latina",
+      "seedName": "La Radio Latina",
+      "name": "La Radio Latina",
       "tagline": "",
       "description": "",
       "category": "Música",
       "community": "Extremadura",
-      "websiteUrl": "https://gozadera.es/",
-      "logoUrl": "https://graph.facebook.com/GozaderaSpain/picture?height=200&width=200",
+      "musicType": "Latina",
+      "language": "es",
       "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 27,
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "moderna-fm",
+      "seedName": "Moderna FM",
+      "name": "Moderna FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Extremadura",
+      "musicType": "Pop",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 28,
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "cadena-cope-almendralejo",
+      "seedName": "Cadena Cope Almendralejo",
+      "name": "Cadena Cope Almendralejo",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Extremadura",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/938/cadena-cope-almendralejo.1959fd0d.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 30,
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "cadena-100-vegas-altas",
+      "seedName": "Cadena 100 Vegas Altas",
+      "name": "Cadena 100 Vegas Altas",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Extremadura",
+      "musicType": "Pop",
+      "websiteUrl": "https://cadena100vegasaltas.com",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/kqxn5vycybfv.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 31,
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "Stream principal",
-          "url": "https://azura.abcorp.es/radio/8030/live",
-          "format": "stream",
+          "label": "Stream directo",
+          "url": "https://eu1.lhdserver.es:8017/stream",
+          "format": "auto",
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Latino"
+      ]
     },
     {
-      "id": "extremadura--radiogolex",
+      "id": "sol-caceres",
+      "seedName": "Sol Caceres",
+      "name": "Sol Caceres",
+      "tagline": "",
+      "description": "",
+      "category": "Deporte",
+      "community": "Extremadura",
+      "websiteUrl": "https://www.arroyodelaluz.es/webradiosansuena/index.html",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/dkrv8w7muxcx.png",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 33,
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "free-fm-x-mas",
+      "seedName": "Free FM X-Mas",
+      "name": "Free FM X-Mas",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Extremadura",
+      "musicType": "Navidad",
+      "websiteUrl": "https://sites.google.com/view/freefmworld",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/6uzYMVMHad.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 34,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "http://stream.zeno.fm/h60er015v68uv",
+          "format": "mp3",
+          "priority": 1,
+          "source": "radiobrowser index"
+        }
+      ]
+    },
+    {
+      "id": "la-clasica-radio",
+      "seedName": "La Clásica Radio",
+      "name": "La Clásica Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Extremadura",
+      "musicType": "Clásica",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 35,
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "fuego-pasion",
+      "seedName": "Fuego Pasion",
+      "name": "Fuego Pasion",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Extremadura",
+      "musicType": "Latina",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 36,
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "radio-comarca-de-barros",
+      "seedName": "Radio Comarca de Barros",
+      "name": "Radio Comarca de Barros",
+      "tagline": "",
+      "description": "",
+      "category": "Comunitaria",
+      "community": "Extremadura",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/FMvvQL7xJy.png",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 37,
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "radio-azuaga-fm",
+      "seedName": "Radio Azuaga FM",
+      "name": "Radio Azuaga FM",
+      "tagline": "",
+      "description": "",
+      "category": "Comunitaria",
+      "community": "Extremadura",
+      "websiteUrl": "https://www.ayuntamientodeazuaga.es/radioazuaga/en-directo/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/hGmyBRUmhv.png",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 38,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream directo",
+          "url": "https://www.ayuntamientodeazuaga.es:8443/radioazuagafm",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "aires-regionales",
+      "seedName": "Aires Regionales",
+      "name": "Aires Regionales",
+      "tagline": "",
+      "description": "",
+      "category": "Comunitaria",
+      "community": "Extremadura",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 39,
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "electric-channel-radio",
+      "seedName": "Electric Channel Radio",
+      "name": "Electric Channel Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Extremadura",
+      "musicType": "Electronic",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 40,
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "plaza-2-radio",
+      "seedName": "Plaza 2 Radio",
+      "name": "Plaza 2 Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Comunitaria",
+      "community": "Extremadura",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/045/plaza-2-radio.74f0df21.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 41,
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "radio-allegria2",
+      "seedName": "Radio Allegria2",
+      "name": "Radio Allegria2",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Extremadura",
+      "musicType": "Variado",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 42,
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "love-bites-radio",
+      "seedName": "Love Bites Radio",
+      "name": "Love Bites Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Extremadura",
+      "musicType": "Rock",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 43,
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "beach-party-radio",
+      "seedName": "Beach Party Radio",
+      "name": "Beach Party Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Extremadura",
+      "musicType": "Dance",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 44,
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "radioedu",
+      "seedName": "RadioEdu",
+      "name": "RadioEdu",
+      "tagline": "",
+      "description": "",
+      "category": "Educación",
+      "community": "Extremadura",
+      "websiteUrl": "https://radioedu.educarex.es/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/yzhn3kywfrn5.png",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 45,
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "brutal-radio",
+      "seedName": "Brutal Radio",
+      "name": "Brutal Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Extremadura",
+      "musicType": "Rock",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 46,
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "plaza-1-radio",
+      "seedName": "Plaza 1 Radio",
+      "name": "Plaza 1 Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Comunitaria",
+      "community": "Extremadura",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/udwqbxdbnmyh.png",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 47,
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "onda-cero-badajoz",
+      "seedName": "Onda Cero Badajoz",
+      "name": "Onda Cero Badajoz",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Extremadura",
+      "websiteUrl": "https://www.ondacero.es/emisoras/extremadura/badajoz/directo/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/ufTJPb9HvF.png",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 48,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS directo",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/badajoz/master.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "badajoz-deportes",
+      "seedName": "Badajoz Deportes",
+      "name": "Badajoz Deportes",
+      "tagline": "",
+      "description": "",
+      "category": "Deporte",
+      "community": "Extremadura",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/brfJQKV9be.png",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 49,
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "cadena-ser-tierra-de-barros",
+      "seedName": "Cadena SER Tierra de Barros",
+      "name": "Cadena SER Tierra de Barros",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Extremadura",
+      "websiteUrl": "https://cadenaser.com/ser-tierra-de-barros/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/qxwuhkwsjth7.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 50,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 directo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_ALMENDRALEJO.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radiogolex",
+      "seedName": "Radiogolex",
       "name": "Radiogolex",
       "tagline": "",
       "description": "",
@@ -2019,7 +1089,10 @@
       "community": "Extremadura",
       "websiteUrl": "https://www.radiogolex.com",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/jjfvpljqgdgp.jpg",
+      "language": "es",
       "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 51,
       "verificationStatus": "verified",
       "streams": [
         {
@@ -2032,179 +1105,98 @@
       ]
     },
     {
-      "id": "extremadura--rec-radio",
-      "name": "REC Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Extremadura",
-      "websiteUrl": "https://www.recradio.es/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/398/rec-radio.dda7b9b0.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://server9.emitironline.com:19488/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--top-radio",
-      "name": "Top Radio",
+      "id": "hot-love-radio",
+      "seedName": "HOT LOVE RADIO",
+      "name": "HOT LOVE RADIO",
       "tagline": "",
       "description": "",
       "category": "Música",
       "community": "Extremadura",
-      "websiteUrl": "https://www.topradio.es/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/252/top-radio-spain.8a90733b.png",
+      "musicType": "Love Songs",
+      "language": "es",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://mdstrm.com/audio/66ec3c9fabba24a0a2e59de8/live.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Pop en español"
+      "seedPage": 1,
+      "seedRank": 52,
+      "verificationStatus": "seeded_pending",
+      "streams": []
     },
     {
-      "id": "extremadura--vinilo-fm",
-      "name": "Vinilo FM",
+      "id": "agua-y-miel-radio",
+      "seedName": "Agua Y Miel Radio",
+      "name": "Agua Y Miel Radio",
       "tagline": "",
       "description": "",
       "category": "Música",
       "community": "Extremadura",
-      "websiteUrl": "https://vinilofm.es/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/WvYVyHUvbU.jpg",
+      "musicType": "Variado",
+      "language": "es",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 Bizkaia",
-          "url": "https://radio.vinilofm.es/radio/8000/bizkaia.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Classic Hits"
+      "seedPage": 1,
+      "seedRank": 53,
+      "verificationStatus": "seeded_pending",
+      "streams": []
     },
     {
-      "id": "extremadura--xtrema-fm",
-      "name": "Xtrema FM",
+      "id": "cheers-80s-station",
+      "seedName": "Cheers 80s Station",
+      "name": "Cheers 80s Station",
       "tagline": "",
       "description": "",
       "category": "Música",
       "community": "Extremadura",
-      "websiteUrl": "https://www.xtremafm.es",
-      "logoUrl": "https://graph.facebook.com/xtremafm/picture?width=200&height=200",
+      "musicType": "80s",
+      "language": "es",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://server1.radiocast.es/listen/xtrema_fm/xtremafm",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Top 40"
+      "seedPage": 1,
+      "seedRank": 54,
+      "verificationStatus": "seeded_pending",
+      "streams": []
     },
     {
-      "id": "extremadura--cexma-canal-extremadura-radio",
-      "seedName": "CEXMA Canal Extremadura Radio",
-      "name": "CEXMA Canal Extremadura Radio",
+      "id": "radio-manuel-gomez-el-bomba",
+      "seedName": "RADIO MANUEL GOMEZ EL BOMBA",
+      "name": "RADIO MANUEL GOMEZ EL BOMBA",
       "tagline": "",
       "description": "",
-      "category": "Noticias",
+      "category": "Comunitaria",
       "community": "Extremadura",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://hlstv.canalextremadura.es/livetv/smil:multistream.smil/playlist.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "Spain.json"
-        }
-      ]
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 55,
+      "verificationStatus": "seeded_pending",
+      "streams": []
     },
     {
-      "id": "extremadura--cope-badajoz-87-6-fm",
-      "seedName": "COPE - Badajoz 87.6 FM",
-      "name": "COPE - Badajoz 87.6 FM",
+      "id": "manuel-pereira",
+      "seedName": "Manuel Pereira",
+      "name": "Manuel Pereira",
       "tagline": "",
       "description": "",
-      "category": "Noticias",
+      "category": "Comunitaria",
       "community": "Extremadura",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://badajoz.copesedes.stream.flumotion.com/copesedes/badajoz.mp3.m3u",
-          "format": "m3u",
-          "priority": 1,
-          "source": "Spain.json"
-        }
-      ]
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 56,
+      "verificationStatus": "seeded_pending",
+      "streams": []
     },
     {
-      "id": "extremadura--cope-caceres-91-6-fm",
-      "seedName": "COPE - Cáceres 91.6 FM",
-      "name": "COPE - Cáceres 91.6 FM",
+      "id": "flash-fm-espana",
+      "seedName": "Flash FM España",
+      "name": "Flash FM España",
       "tagline": "",
       "description": "",
-      "category": "Noticias",
+      "category": "Música",
       "community": "Extremadura",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://caceres.copesedes.stream.flumotion.com/copesedes/caceres.mp3.m3u",
-          "format": "m3u",
-          "priority": 1,
-          "source": "Spain.json"
-        }
-      ]
-    },
-    {
-      "id": "extremadura--cope-merida-103-6-fm",
-      "seedName": "COPE - Mérida 103.6 FM",
-      "name": "COPE - Mérida 103.6 FM",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Extremadura",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://merida.copesedes.stream.flumotion.com/copesedes/merida.mp3.m3u",
-          "format": "m3u",
-          "priority": 1,
-          "source": "Spain.json"
-        }
-      ]
+      "musicType": "Dance",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 57,
+      "verificationStatus": "seeded_pending",
+      "streams": []
     }
   ]
 }

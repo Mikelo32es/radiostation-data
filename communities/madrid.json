@@ -1,1518 +1,17 @@
 {
-  "seedCount": 116,
-  "playableCount": 96,
-  "verifiedCount": 96,
-  "candidateCount": 20,
-  "pendingCount": 0,
+  "repoName": "radiostation-data",
+  "community": "Madrid",
+  "seedSource": "myTuner",
+  "seedCount": 134,
+  "playableCount": 93,
+  "verifiedCount": 93,
+  "candidateCount": 0,
+  "pendingCount": 41,
+  "notes": "Madrid se amplía con 50 semillas nuevas tomadas solo del listado de myTuner Madrid; quedan visibles en catálogo pero pendientes de verificar stream y logo.",
   "stations": [
     {
-      "id": "madrid--actuality-fm",
-      "name": "Actuality FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://www.actualityfm.es/p/play.html",
-      "logoUrl": "https://graph.facebook.com/ActualityFM.es/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://streaming0103.sonicpanelradio.com/8248/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Dance"
-    },
-    {
-      "id": "madrid--afradio",
-      "name": "AFradio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://coolturafm.com",
-      "logoUrl": "https://graph.facebook.com/coolturafm/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://server9.emitironline.com:19244/",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "madrid--antena-1-radio",
-      "name": "Antena 1 Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://www.radioplaneta.com/",
-      "logoUrl": "https://yt3.ggpht.com/ytc/AKedOLRETQgEcm3bzxRJOct7AMt2oYneaikmoSjYi_GqxQ%3Ds200-c-k-c0x00ffffff-no-rj",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://radioplaneta.emitironline.com/",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Dance"
-    },
-    {
-      "id": "madrid--buena-onda-musical",
-      "name": "Buena Onda Musical",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://masbuenafm.com",
-      "logoUrl": "https://graph.facebook.com/masbuenafm/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://sonic.mediatelekom.net/8156/stream",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Latina"
-    },
-    {
-      "id": "madrid--cadena-cope-madrid",
-      "name": "Cadena COPE Madrid",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Madrid",
-      "websiteUrl": "https://www.cope.es/directos/madrid",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/1871/cope-madrid.15ded8f3.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://flucast09-h-cloud.flumotion.com/cope/madrid.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "madrid--candela-radio",
-      "name": "Candela Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://candelaradio.fm/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/m6mstp6fmuzc.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 público",
-          "url": "http://uk1-pn.webcast-server.net:8226",
-          "format": "mp3",
-          "priority": 1,
-          "source": "radio-online-json-url"
-        }
-      ],
-      "musicType": "Latina"
-    },
-    {
-      "id": "madrid--carrusel-fm",
-      "name": "Carrusel FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "http://www.carruselfm.com",
-      "logoUrl": "https://pbs.twimg.com/profile_images/520332074147123200/pzYkTYHB_200x200.jpeg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://server10.emitironline.com:8921/radio?.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Remember"
-    },
-    {
-      "id": "madrid--conexiondance-radio",
-      "name": "Conexiondance Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://decibeliafm.es/",
-      "logoUrl": "https://pbs.twimg.com/profile_images/1580311659226210310/umHvZ3-d_200x200.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://streaming.shoutcast.com/decibelia",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Dance"
-    },
-    {
-      "id": "madrid--cooltura-fm",
-      "name": "Cooltura FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://coolturafm.com",
-      "logoUrl": "https://graph.facebook.com/coolturafm/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://server9.emitironline.com:19244/",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "madrid--cope-mas-madrid",
-      "name": "COPE Más Madrid",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Madrid",
-      "websiteUrl": "https://www.cope.es/directos/madrid-cope-mas",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/1871/cope-madrid.15ded8f3.png",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://flucast06-o-cloud.flumotion.com/cope/net4.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "madrid--cope-villalba",
-      "name": "COPE Villalba",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Madrid",
-      "websiteUrl": "https://www.cope.es/directos/villalba",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/1871/cope-madrid.15ded8f3.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://wecast-bl02.flumotion.com/copesedes/villalba.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "madrid--decibelia-fm",
-      "name": "Decibelia FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://decibeliafm.es/",
-      "logoUrl": "https://pbs.twimg.com/profile_images/1580311659226210310/umHvZ3-d_200x200.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://streaming.shoutcast.com/decibelia",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Dance"
-    },
-    {
-      "id": "madrid--dynamis-radio",
-      "name": "Dynamis Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Religión",
-      "community": "Madrid",
-      "websiteUrl": "https://www.dynamisradio.org",
-      "logoUrl": "https://graph.facebook.com/dynamisradio/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://control.streaming-pro.com:8014/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "madrid--eco-leganes",
-      "name": "ECO Leganés",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Madrid",
-      "websiteUrl": "https://ecoleganes.org",
-      "logoUrl": "https://graph.facebook.com/ecoleganes01/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://cervera.eldialdigital.com:25191/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "madrid--ecuashyri-fm",
-      "name": "ECUASHYRI FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://ecuashyri.es/",
-      "logoUrl": "https://graph.facebook.com/Ecuadorstereo/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://securestream.radioshd.info:7018/stream",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TingFM"
-        }
-      ],
-      "musicType": "Latina"
-    },
-    {
-      "id": "madrid--el-salto-radio",
-      "name": "El Salto Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Madrid",
-      "websiteUrl": "https://www.elsaltodiario.com/el-salto-radio/",
-      "logoUrl": "https://graph.facebook.com/ElSaltoDiario/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://radio.radiobot.org/listen/salto/elsaltoradio.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "madrid--esencia-radio",
-      "name": "Esencia Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://www.esenciaradio.com/endirecto/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/QxU5VtQCPm.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://stream.zeno.fm/apu4qxap0rquv",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Pop"
-    },
-    {
-      "id": "madrid--espacio-4-fm",
-      "name": "Espacio 4 FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://www.espacio4fm.com/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/uxmfabbdnref.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://stream.zeno.fm/fz0bc82wn0hvv",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Electrónica"
-    },
-    {
-      "id": "madrid--flamenco-radio",
-      "name": "Flamenco Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://www.canalsurmas.es/",
-      "logoUrl": "https://graph.facebook.com/FlamencoRadio/picture?height=200&width=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://rtva-live-radio.flumotion.com/rtva/flamenco.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Flamenco"
-    },
-    {
-      "id": "madrid--formula-exitos-mp",
-      "name": "Fórmula Éxitos MP",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://mdtradio.com/canales-tematicos/",
-      "logoUrl": "https://mdtradio.com/wp-content/uploads/2024/11/Logo-MDT-Radio-Pop-Stars-Fm2.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://streams1.mdtradio.com:8443/PopStarsFm",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Pop"
-    },
-    {
-      "id": "madrid--free-fm-rock",
-      "name": "Free FM Rock",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://www.freefmrock.com/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/769/free-fm.aa638097.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "https://freefmrock.radioca.st/stream",
-          "format": "mp3",
-          "priority": 1,
-          "source": "fmstream (public listing)"
-        }
-      ],
-      "musicType": "Rock"
-    },
-    {
-      "id": "madrid--free-fm-sports",
-      "name": "Free FM Sports",
-      "tagline": "",
-      "description": "",
-      "category": "Deporte",
-      "community": "Madrid",
-      "websiteUrl": "https://sites.google.com/view/freefmworld",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/BtX4kYE4dC.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "https://stream.zeno.fm/31nnibfpnxktv",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TingFM listing"
-        }
-      ]
-    },
-    {
-      "id": "madrid--free-fm-world",
-      "name": "Free FM World",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://sites.google.com/view/freefmworld",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/690/free-fm-spain.be1f4c93.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "https://rocafmadrid.radioca.st/stream",
-          "format": "mp3",
-          "priority": 1,
-          "source": "rcast/fmstream public listing"
-        }
-      ],
-      "musicType": "World"
-    },
-    {
-      "id": "madrid--free-fm-x-mas",
-      "name": "Free FM X-Mas",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://sites.google.com/view/freefmworld",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/6uzYMVMHad.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "http://stream.zeno.fm/h60er015v68uv",
-          "format": "mp3",
-          "priority": 1,
-          "source": "radiobrowser index"
-        }
-      ],
-      "musicType": "Navidad"
-    },
-    {
-      "id": "madrid--globo-fm",
-      "name": "Globo FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://www.globofm.es",
-      "logoUrl": "https://pbs.twimg.com/profile_images/972013004484173824/BMLZEKXs_200x200.jpg",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://sonic.sistemahost.es/8200/;.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Classic Hits"
-    },
-    {
-      "id": "madrid--gozadera-fm",
-      "name": "Gozadera FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://gozadera.es/",
-      "logoUrl": "https://graph.facebook.com/GozaderaSpain/picture?height=200&width=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://azura.abcorp.es/radio/8030/live",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Latino"
-    },
-    {
-      "id": "madrid--gran-via-radio",
-      "name": "Gran Via Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://granviaradiofm.es",
-      "logoUrl": "https://graph.facebook.com/1397103013646307/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://servidor14-3.brlogic.com:7066/live",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "madrid--guateque-fm",
-      "name": "Guateque FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://guatequefm.com",
-      "logoUrl": "https://play-lh.googleusercontent.com/29cOsGnQ8A3a-FJ1EkqBDVrMCIMWcQBORIWcmygreM9fNjU5C3Pci0CNDYDrv1NPPPD1=w200-h200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://eu1.lhdserver.es:3219/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Oldies"
-    },
-    {
-      "id": "madrid--hitz-90s-fm",
-      "name": "Hitz 90s FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://zeno.fm/radio/hitz-90s-fm/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/590/hitz-90s-fm.350feb58.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Zeno candidato 1",
-          "url": "http://stream.zeno.fm/1q3dwmd6yf8uv",
-          "format": "mp3",
-          "priority": 1,
-          "source": "radiobrowser index"
-        },
-        {
-          "label": "Zeno candidato 2",
-          "url": "https://stream.zeno.fm/x3sxe2nv0p8uv",
-          "format": "mp3",
-          "priority": 2,
-          "source": "RCAST directory"
-        }
-      ],
-      "musicType": "90s"
-    },
-    {
-      "id": "madrid--hitz-91-0",
-      "name": "Hitz 91.0",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/185/hitz-910.f033127e.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Zeno candidato",
-          "url": "http://stream.zeno.fm/f2qmny74gd0uv",
-          "format": "mp3",
-          "priority": 1,
-          "source": "radiobrowser index"
-        }
-      ],
-      "musicType": "Hits"
-    },
-    {
-      "id": "madrid--hitz-91-5-fm",
-      "name": "Hitz 91.5 FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/297/hitz-915.c533c68d.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 candidato 1",
-          "url": "http://ec2.yesstreaming.net:3110/stream",
-          "format": "mp3",
-          "priority": 1,
-          "source": "RCAST directory"
-        },
-        {
-          "label": "Zeno candidato 2",
-          "url": "https://stream.zeno.fm/zskjbd7n200tv",
-          "format": "mp3",
-          "priority": 2,
-          "source": "RCAST snippet"
-        }
-      ],
-      "musicType": "Hits"
-    },
-    {
-      "id": "madrid--hitz-91-9-radio",
-      "name": "Hitz 91.9 Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://zeno.fm/radio/hitz-919-radio-1/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/078/hitz-919.f194041d.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Zeno candidato",
-          "url": "https://node-33.zeno.fm/p9m9tuyap98uv",
-          "format": "mp3",
-          "priority": 1,
-          "source": "RCAST directory"
-        }
-      ],
-      "musicType": "Hits"
-    },
-    {
-      "id": "madrid--hitz-africa-fm",
-      "name": "Hitz Africa FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/078/hitz-africa-fm.08c90290.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 candidato",
-          "url": "http://ec2.yesstreaming.net:2960/stream",
-          "format": "mp3",
-          "priority": 1,
-          "source": "RCAST directory"
-        }
-      ],
-      "musicType": "Afro"
-    },
-    {
-      "id": "madrid--hitz-funky-radio",
-      "name": "Hitz Funky Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/098/hitz-funky-radio.8797717c.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Zeno candidato 1",
-          "url": "http://stream.zeno.fm/azgx0ktf4p8uv",
-          "format": "mp3",
-          "priority": 1,
-          "source": "radiobrowser index"
-        },
-        {
-          "label": "Zeno candidato 2",
-          "url": "https://stream.zeno.fm/zcpx195bt7zuv",
-          "format": "mp3",
-          "priority": 2,
-          "source": "RCAST directory"
-        }
-      ],
-      "musicType": "Funky"
-    },
-    {
-      "id": "madrid--hitz-radio-24-7",
-      "name": "Hitz Radio 24/7",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://zeno.fm/radio/hitz-radio-24-7/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/879/hitz-radio-247.c3189df4.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 candidato",
-          "url": "http://live2.rcast.net:9122/stream",
-          "format": "mp3",
-          "priority": 1,
-          "source": "RCAST directory"
-        }
-      ],
-      "musicType": "Hits"
-    },
-    {
-      "id": "madrid--informa-radio-madrid",
-      "name": "Informa Radio Madrid",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Madrid",
-      "websiteUrl": "https://informaradio.edatv.news/",
-      "logoUrl": "https://graph.facebook.com/100087258914803/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "http://24x7.red:42045/informa",
-          "format": "mp3",
-          "priority": 1,
-          "source": "Radio Browser"
-        }
-      ]
-    },
-    {
-      "id": "madrid--kandela-te-prende",
-      "name": "KANDELA Te Prende",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://www.kandelateprende.com",
-      "logoUrl": "https://graph.facebook.com/KandelaTePrende/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream directo",
-          "url": "https://one.cloudstreaming.eu:6158",
-          "format": "auto",
-          "priority": 1,
-          "source": "Radiomap"
-        }
-      ],
-      "musicType": "Latino"
-    },
-    {
-      "id": "madrid--kyoto-fm",
-      "name": "Kyoto FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://www.kyotofm.es",
-      "logoUrl": "https://graph.facebook.com/kyotofm/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://sonic.mediatelekom.net/8148/stream",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Dance"
-    },
-    {
-      "id": "madrid--la-condesa-fm",
-      "name": "La Condesa FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://www.lafresca.fm/",
-      "logoUrl": "https://graph.facebook.com/lafresca.es/picture?height=200&width=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://stream.produccionesdale.com/listen/lafresca/altacalidad",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Top 40"
-    },
-    {
-      "id": "madrid--la-flamenca",
-      "name": "La Flamenca",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://emisorasmusicales.net/laflamenca/",
-      "logoUrl": "https://media.emisorasmusicales.net/wp-content/uploads/2020/03/11023733/LaFlamenca-200x200.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://stream.emisorasmusicales.net/radio/8070/laflamenca.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Flamenco"
-    },
-    {
-      "id": "madrid--la-fresca-fm",
-      "name": "La Fresca FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://www.lafresca.fm/",
-      "logoUrl": "https://graph.facebook.com/lafresca.es/picture?height=200&width=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://stream.produccionesdale.com/listen/lafresca/altacalidad",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Top 40"
-    },
-    {
-      "id": "madrid--la-suegra-fm",
-      "name": "La Suegra FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://www.lasuegrafmmadrid.com",
-      "logoUrl": "https://graph.facebook.com/LaSuegraFmMadrid/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream directo",
-          "url": "http://131.153.56.235:9300",
-          "format": "auto",
-          "priority": 1,
-          "source": "Radiomap"
-        }
-      ],
-      "musicType": "Latino"
-    },
-    {
-      "id": "madrid--la-urban-radio",
-      "name": "La Urban Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://www.urbanrevolution.es",
-      "logoUrl": "https://graph.facebook.com/urbanrevolution.es/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://st1.urbanrevolution.es:8443/laurbanfm.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Urbana"
-    },
-    {
-      "id": "madrid--loca-fm-big-room",
-      "name": "Loca FM Big Room",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://www.locafm.com/",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_big_room/live",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Big Room"
-    },
-    {
-      "id": "madrid--loca-fm-deep-house",
-      "name": "Loca FM Deep House",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://www.locafm.com/",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_deep_house/live",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Deep House"
-    },
-    {
-      "id": "madrid--loca-fm-drum-bass",
-      "name": "Loca FM Drum&Bass",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://www.locafm.com/drum-bass/player.html",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_drum__bass/live",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Drum & Bass"
-    },
-    {
-      "id": "madrid--loca-fm-hard",
-      "name": "Loca FM Hard",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://www.locafm.com/hard/player.html",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_hard/live",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Hard Dance"
-    },
-    {
-      "id": "madrid--loca-fm-hard-techno",
-      "name": "Loca FM Hard Techno",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://www.locafm.com/hard-techno/player.html",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_hard_techno/live",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Hard Techno"
-    },
-    {
-      "id": "madrid--loca-fm-industrial",
-      "name": "Loca FM Industrial",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://www.locafm.com/industrial/player.html",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_industrial/live",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Industrial"
-    },
-    {
-      "id": "madrid--loca-fm-loca-80s",
-      "name": "Loca FM Loca 80s",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://www.locafm.com/",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_80s/live",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "80s"
-    },
-    {
-      "id": "madrid--loca-fm-melodic-house",
-      "name": "Loca FM Melodic House",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://www.locafm.com/",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_melodic_house/live",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Melodic House"
-    },
-    {
-      "id": "madrid--loca-fm-melodic-techno",
-      "name": "Loca FM Melodic Techno",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://www.locafm.com/",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_melodic_techno/live",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Melodic Techno"
-    },
-    {
-      "id": "madrid--loca-fm-remember",
-      "name": "Loca FM Remember",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://www.locafm.com/",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_remember/live",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Remember"
-    },
-    {
-      "id": "madrid--loca-fm-sessions",
-      "name": "Loca FM Sessions",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://www.locafm.com/",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_sessions/live",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Sesiones DJ"
-    },
-    {
-      "id": "madrid--loca-fm-tech-house",
-      "name": "Loca FM Tech House",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://www.locafm.com/",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_tech_house/live",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Tech House"
-    },
-    {
-      "id": "madrid--loca-fm-urban",
-      "name": "Loca FM Urban",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://www.locafm.com/loca-urban/player.html",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://s1.we4stream.com:2020/stream/locaurban",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Urbana"
-    },
-    {
-      "id": "madrid--lokura-radio",
-      "name": "Lokura Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://suena.live/p/5/?identificador=lokuraradio",
-      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fsuena.live",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Zeno candidato",
-          "url": "https://stream.zeno.fm/3fks04pxchvv",
-          "format": "auto",
-          "priority": 1,
-          "source": "Instagram/Zeno"
-        }
-      ],
-      "musicType": "Remember"
-    },
-    {
-      "id": "madrid--mariskalrock-radio",
-      "name": "MariskalRock Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://mariskalrock.com",
-      "logoUrl": "https://graph.facebook.com/mariskalrock/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://media.profesionalhosting.com:8047/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Rock"
-    },
-    {
-      "id": "madrid--master-fm-madrid",
-      "name": "Master FM Madrid",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://www.lamaster.es/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/vub9xjskyr5j.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://radios.masterfm.es:8000/web24",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Top 40"
-    },
-    {
-      "id": "madrid--mdt-radio-madrid",
-      "name": "MDT Radio Madrid",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://mdtradio.com",
-      "logoUrl": "https://graph.facebook.com/mdtradiomadrid/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://streams1.mdtradio.com:8443/MdtMadrid",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Retro Dance"
-    },
-    {
-      "id": "madrid--mdt-radio-pop-stars",
-      "name": "MDT Radio Pop Stars",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://mdtradio.com/canales-tematicos/",
-      "logoUrl": "https://mdtradio.com/wp-content/uploads/2024/11/Logo-MDT-Radio-Pop-Stars-Fm2.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://streams1.mdtradio.com:8443/PopStarsFm",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Pop"
-    },
-    {
-      "id": "madrid--mdt-radio-remember",
-      "name": "MDT Radio Remember",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://www.mdtradio.com",
-      "logoUrl": "https://graph.facebook.com/mdtradio/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://streams1.mdtradio.com:8443/mdtweb",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Remember"
-    },
-    {
-      "id": "madrid--medea-fm",
-      "name": "Medea FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://medeafm.es",
-      "logoUrl": "https://graph.facebook.com/radiomedeafm/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://sonic.mediatelekom.net/8562/;.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "madrid--muralla-metal-rock",
-      "name": "Muralla Metal Rock",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://www.scannerfm.com",
-      "logoUrl": "https://graph.facebook.com/scannerFM/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://eu10.fastcast4u.com/scannerfm",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Rock"
-    },
-    {
-      "id": "madrid--nostalgia-fm",
-      "name": "Nostalgia FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://nostalgiafm.es/",
-      "logoUrl": "https://graph.facebook.com/NostalgiaFMSpain/picture?height=200&width=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://azura.abcorp.es/radio/8040/live",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Oldies"
-    },
-    {
-      "id": "madrid--onda-cero-alcala-de-henares",
-      "name": "Onda Cero Alcalá de Henares",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Madrid",
-      "websiteUrl": "https://www.ondacero.es/emisoras/comunidad-madrid/alcala-de-henares/directo/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/168/onda-cero-madrid.eb6cebfc.png",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/alcala/master.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "madrid--onda-cero-madrid-sur",
-      "name": "Onda Cero Madrid Sur",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Madrid",
-      "websiteUrl": "https://www.ondaceromadridsur.es/directo",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/168/onda-cero-madrid.eb6cebfc.png",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://radio-atres-live.ondacero.es/api/livestream-redirect/OC_MADRID_SURAAC.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "madrid--onda-fuenlabrada",
-      "name": "Onda Fuenlabrada",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Madrid",
-      "websiteUrl": "https://ondafuenlabrada.es/emision/",
-      "logoUrl": "https://yt3.ggpht.com/gE-Z3WmqCumfCBtWDXUuYM1mmpbutOff_s2Su1F6raG2kKaXQVAtqnI_DLp5KR7PA6oS9EeMxZY=s200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://radioserver12.profesionalhosting.com/proxy/pkg78581/stream.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "madrid--onda-madrid",
+      "id": "onda-madrid",
+      "seedName": "Onda Madrid",
       "name": "Onda Madrid",
       "tagline": "",
       "description": "",
@@ -1520,7 +19,10 @@
       "community": "Madrid",
       "websiteUrl": "https://www.telemadrid.es/emision-en-directo-ondamadrid/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/169/onda-madrid.365edbe5.png",
+      "language": "es",
       "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 1,
       "verificationStatus": "verified",
       "streams": [
         {
@@ -1540,180 +42,8 @@
       ]
     },
     {
-      "id": "madrid--onda-ocio",
-      "name": "Onda Ocio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://ondaocio.com/",
-      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fondaocio.com",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Zeno directo",
-          "url": "http://stream.zeno.fm/u4e4bdyuvmzuv",
-          "format": "mp3",
-          "priority": 1,
-          "source": "Facebook / Zeno"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "madrid--orquestas",
-      "name": "ORQUESTAS",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://verbenafm.com",
-      "logoUrl": "https://pbs.twimg.com/profile_images/1463159511133442059/uVV15n4k_200x200.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://streaming12.elitecomunicacion.es:8222/stream",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "madrid--peperadio",
-      "name": "Peperadio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://peperadio.es",
-      "logoUrl": "https://peperadio.es/Content/images/logo.png",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://server10.emitironline.com:8032/",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Rock"
-    },
-    {
-      "id": "madrid--radio-5-madrid",
-      "name": "Radio 5 Madrid",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Madrid",
-      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_mad-live/3894730/",
-      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://dispatcher.rndfnk.com/crtve/rne5/mad/mp3/high",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "madrid--radio-7",
-      "name": "Radio 7",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Madrid",
-      "websiteUrl": "https://www.radio7.com/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/4mq7yvFxtR.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://radio7.streaming-pro.com:6146/radio7.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "madrid--radio-alegria-fm",
-      "name": "Radio Alegria FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://nostalgiafm.es/",
-      "logoUrl": "https://graph.facebook.com/NostalgiaFMSpain/picture?height=200&width=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://azura.abcorp.es/radio/8040/live",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Oldies"
-    },
-    {
-      "id": "madrid--radio-espana-network",
-      "name": "Radio España Network",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "https://www.espananetwork.net/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/582/radio-espana-network.406b0f62.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://stream.zeno.fm/ocinyyji4rntv",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Dance"
-    },
-    {
-      "id": "madrid--radio-lider-espana",
-      "name": "Radio Líder España",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Madrid",
-      "websiteUrl": "https://radiolider.com/en-directo/",
-      "logoUrl": "https://graph.facebook.com/radiolidergalicia/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://server9.emitironline.com:8200/stream",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "madrid--radio-madrid-ser",
+      "id": "radio-madrid-ser",
+      "seedName": "Radio Madrid SER",
       "name": "Radio Madrid SER",
       "tagline": "",
       "description": "",
@@ -1721,7 +51,10 @@
       "community": "Madrid",
       "websiteUrl": "https://cadenaser.com/radio-madrid/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/vu35s4gfskmk.jpg",
+      "language": "es",
       "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 2,
       "verificationStatus": "verified",
       "streams": [
         {
@@ -1734,41 +67,24 @@
       ]
     },
     {
-      "id": "madrid--radio-madrid-sierra",
-      "name": "Radio Madrid Sierra",
+      "id": "cadena-cope-madrid",
+      "seedName": "Cadena COPE Madrid",
+      "name": "Cadena COPE Madrid",
       "tagline": "",
       "description": "",
       "category": "Noticias",
       "community": "Madrid",
-      "websiteUrl": "https://radiomadridsierra.com",
-      "logoUrl": "https://pbs.twimg.com/profile_images/1613231096644116481/fk4e53OS_200x200.jpg",
+      "websiteUrl": "https://www.cope.es/directos/madrid",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/1871/cope-madrid.15ded8f3.png",
+      "language": "es",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://streaming12.elitecomunicacion.es:8070/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "madrid--radio-nacional-madrid",
-      "name": "Radio Nacional Madrid",
-      "tagline": "",
-      "description": "",
-      "category": "Nacional",
-      "community": "Madrid",
-      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_mad-live/3893534/",
-      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
+      "seedPage": 1,
+      "seedRank": 3,
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "MP3 principal",
-          "url": "https://dispatcher.rndfnk.com/crtve/rne1/mad/mp3/high",
+          "url": "https://flucast09-h-cloud.flumotion.com/cope/madrid.mp3",
           "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
@@ -1776,59 +92,103 @@
       ]
     },
     {
-      "id": "madrid--radio-planeta",
-      "name": "Radio Planeta",
+      "id": "onda-cero-madrid",
+      "seedName": "Onda Cero Madrid",
+      "name": "Onda Cero Madrid",
       "tagline": "",
       "description": "",
-      "category": "Música",
+      "category": "Noticias",
       "community": "Madrid",
-      "websiteUrl": "https://www.radioplaneta.com/",
-      "logoUrl": "https://yt3.ggpht.com/ytc/AKedOLRETQgEcm3bzxRJOct7AMt2oYneaikmoSjYi_GqxQ%3Ds200-c-k-c0x00ffffff-no-rj",
+      "websiteUrl": "https://www.ondacero.es/emisoras/comunidad-madrid/madrid/directo/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/168/onda-cero-madrid.eb6cebfc.png",
+      "language": "es",
       "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 4,
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "Stream principal",
-          "url": "https://radioplaneta.emitironline.com/",
-          "format": "stream",
+          "label": "HLS principal",
+          "url": "https://atres-live.ondacero.es/live/ondacero/master.m3u8",
+          "format": "hls",
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Dance"
+      ]
     },
     {
-      "id": "madrid--radio-romanul",
-      "name": "Radio Romanul",
+      "id": "libertad-fm",
+      "seedName": "Libertad FM",
+      "name": "Libertad FM",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://radiolibertad.es/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/462/libertad-fm.989a605f.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 6,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://endirecto.libertadfm.es/hq-libertadfm.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "RadioCut"
+        },
+        {
+          "label": "MP3 fallback histórico",
+          "url": "http://reserva.libertadfm.es:1935/hq-libertadfm.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "Directorio público"
+        }
+      ]
+    },
+    {
+      "id": "top-radio",
+      "seedName": "Top Radio | España",
+      "name": "Top Radio",
       "tagline": "",
       "description": "",
       "category": "Música",
       "community": "Madrid",
-      "websiteUrl": "https://www.radioromanul.es/live/",
-      "logoUrl": "https://graph.facebook.com/RadioRomanul/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
+      "musicType": "Pop en español",
+      "websiteUrl": "https://www.topradio.es/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/252/top-radio-spain.8a90733b.png",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 8,
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "Stream principal",
-          "url": "http://streaming.radioromanul.es:55556/web",
-          "format": "auto",
+          "label": "HLS principal",
+          "url": "https://mdstrm.com/audio/66ec3c9fabba24a0a2e59de8/live.m3u8",
+          "format": "hls",
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "World"
+      ]
     },
     {
-      "id": "madrid--radio-tentacion",
+      "id": "radio-tentacion",
+      "seedName": "Radio Tentación",
       "name": "Radio Tentación",
       "tagline": "",
       "description": "",
       "category": "Música",
       "community": "Madrid",
+      "musicType": "Pop latino",
       "websiteUrl": "https://www.radiotentacion.com/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/qsx7hlyfbmhr.jpg",
+      "language": "es",
       "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 11,
       "verificationStatus": "verified",
       "streams": [
         {
@@ -1838,75 +198,113 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Pop latino"
-    },
-    {
-      "id": "madrid--radio-univ-alcala-henares",
-      "name": "Radio Univ. Alcalá Henares",
-      "tagline": "",
-      "description": "",
-      "category": "Educación",
-      "community": "Madrid",
-      "websiteUrl": "https://www.ruah.es/emision-online/",
-      "logoUrl": "https://graph.facebook.com/ruahradio/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://streaming2.elitecomunicacion.es:8066/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
       ]
     },
     {
-      "id": "madrid--radio-villalba",
-      "name": "Radio Villalba",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Madrid",
-      "websiteUrl": "https://www.colladovillalba.es/radio-villalba",
-      "logoUrl": "https://graph.facebook.com/radiovillalbafm/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://srv7041.dns-lcinternet.com/8042/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "madrid--radio-zumba",
-      "name": "Radio Zumba",
+      "id": "rvk-radio-vallekas",
+      "seedName": "RVK - Radio Vallekas",
+      "name": "RVK - Radio Vallekas",
       "tagline": "",
       "description": "",
       "category": "Música",
       "community": "Madrid",
-      "websiteUrl": "https://gozadera.es/",
-      "logoUrl": "https://graph.facebook.com/GozaderaSpain/picture?height=200&width=200",
+      "musicType": "Alternativa",
+      "websiteUrl": "https://www.radiovallekas.org/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/qJckRLtpwv.png",
+      "language": "es",
       "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 12,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://radio.radiobot.org/listen/rvk/rvk.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-intercontinental",
+      "seedName": "Radio Intercontinental",
+      "name": "Radio Intercontinental",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://radiointercontinental.com/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/646/radio-intercontinental.06c9c480.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 13,
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "Stream principal",
-          "url": "https://azura.abcorp.es/radio/8030/live",
-          "format": "stream",
+          "url": "https://cast5.servcast.net/proxy/inter/stream",
+          "format": "auto",
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Latino"
+      ]
     },
     {
-      "id": "madrid--ser-henares",
+      "id": "radio-inter",
+      "seedName": "Radio Inter",
+      "name": "Radio Inter",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.radiointer.es/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/gagdutEEG4.png",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 14,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://radioserver12.profesionalhosting.com/proxy/pkg156993/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "master-fm-madrid",
+      "seedName": "Master FM Madrid",
+      "name": "Master FM Madrid",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Top 40",
+      "websiteUrl": "https://www.lamaster.es/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/vub9xjskyr5j.png",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 15,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://radios.masterfm.es:8000/web24",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-henares",
+      "seedName": "SER Henares",
       "name": "SER Henares",
       "tagline": "",
       "description": "",
@@ -1914,7 +312,10 @@
       "community": "Madrid",
       "websiteUrl": "https://cadenaser.com/ser-henares/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/vu35s4gfskmk.jpg",
+      "language": "es",
       "sourceSeed": "TDTChannels",
+      "seedPage": 2,
+      "seedRank": 1,
       "verificationStatus": "verified",
       "streams": [
         {
@@ -1927,7 +328,8 @@
       ]
     },
     {
-      "id": "madrid--ser-madrid-norte",
+      "id": "ser-madrid-norte",
+      "seedName": "Cadena SER Madrid Norte",
       "name": "SER Madrid Norte",
       "tagline": "",
       "description": "",
@@ -1935,7 +337,10 @@
       "community": "Madrid",
       "websiteUrl": "https://cadenaser.com/ser-madrid-norte/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/vu35s4gfskmk.jpg",
+      "language": "es",
       "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 2,
       "verificationStatus": "verified",
       "streams": [
         {
@@ -1948,7 +353,8 @@
       ]
     },
     {
-      "id": "madrid--ser-madrid-oeste",
+      "id": "ser-madrid-oeste",
+      "seedName": "Cadena SER Madrid Oeste",
       "name": "SER Madrid Oeste",
       "tagline": "",
       "description": "",
@@ -1956,7 +362,10 @@
       "community": "Madrid",
       "websiteUrl": "https://cadenaser.com/ser-madrid-oeste/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/vu35s4gfskmk.jpg",
+      "language": "es",
       "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 3,
       "verificationStatus": "verified",
       "streams": [
         {
@@ -1969,7 +378,8 @@
       ]
     },
     {
-      "id": "madrid--ser-madrid-sierra",
+      "id": "ser-madrid-sierra",
+      "seedName": "Cadena SER Madrid Sierra",
       "name": "SER Madrid Sierra",
       "tagline": "",
       "description": "",
@@ -1977,7 +387,10 @@
       "community": "Madrid",
       "websiteUrl": "https://cadenaser.com/ser-madrid-sierra/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/vu35s4gfskmk.jpg",
+      "language": "es",
       "sourceSeed": "TDTChannels",
+      "seedPage": 2,
+      "seedRank": 4,
       "verificationStatus": "verified",
       "streams": [
         {
@@ -1990,7 +403,8 @@
       ]
     },
     {
-      "id": "madrid--ser-madrid-sur",
+      "id": "ser-madrid-sur",
+      "seedName": "Cadena SER Madrid Sur",
       "name": "SER Madrid Sur",
       "tagline": "",
       "description": "",
@@ -1998,7 +412,10 @@
       "community": "Madrid",
       "websiteUrl": "https://cadenaser.com/ser-madrid-sur/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/vu35s4gfskmk.jpg",
+      "language": "es",
       "sourceSeed": "TDTChannels",
+      "seedPage": 2,
+      "seedRank": 5,
       "verificationStatus": "verified",
       "streams": [
         {
@@ -2011,15 +428,272 @@
       ]
     },
     {
-      "id": "madrid--sol-radio-madrid",
+      "id": "cope-mas-madrid",
+      "seedName": "COPE Más Madrid",
+      "name": "COPE Más Madrid",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.cope.es/directos/madrid-cope-mas",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/1871/cope-madrid.15ded8f3.png",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 2,
+      "seedRank": 6,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://flucast06-o-cloud.flumotion.com/cope/net4.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "cope-villalba",
+      "seedName": "Cadena COPE Villalba",
+      "name": "COPE Villalba",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.cope.es/directos/villalba",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/1871/cope-madrid.15ded8f3.png",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 7,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/villalba.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-cero-alcala-de-henares",
+      "seedName": "Onda Cero Alcalá de Henares",
+      "name": "Onda Cero Alcalá de Henares",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.ondacero.es/emisoras/comunidad-madrid/alcala-de-henares/directo/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/168/onda-cero-madrid.eb6cebfc.png",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 2,
+      "seedRank": 8,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/alcala/master.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-cero-madrid-sur",
+      "seedName": "Onda Cero Madrid Sur",
+      "name": "Onda Cero Madrid Sur",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.ondaceromadridsur.es/directo",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/168/onda-cero-madrid.eb6cebfc.png",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 2,
+      "seedRank": 9,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://radio-atres-live.ondacero.es/api/livestream-redirect/OC_MADRID_SURAAC.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-cero-sierra",
+      "seedName": "Onda Cero Sierra",
+      "name": "Onda Cero Sierra",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://lavozdelasierra.es/onda-cero-sierra/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/168/onda-cero-madrid.eb6cebfc.png",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 2,
+      "seedRank": 10,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/aso_sierra/master.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "la-jungla-radio",
+      "seedName": "La Jungla Radio",
+      "name": "La Jungla Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Éxitos y entretenimiento",
+      "websiteUrl": "https://lajunglaradio.com",
+      "logoUrl": "https://graph.facebook.com/LaJunglaRadio/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 11,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://streaming12.elitecomunicacion.es:8626/stream?type=.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-enlace-107-5-fm",
+      "seedName": "Radio Enlace 107.5 FM",
+      "name": "Radio Enlace 107.5 FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Músicas del mundo",
+      "websiteUrl": "https://www.radioenlace.org",
+      "logoUrl": "https://graph.facebook.com/radioenlacemadrid/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 12,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://cervera.eldialdigital.com:25121/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-madrid-sierra",
+      "seedName": "Radio Madrid Sierra",
+      "name": "Radio Madrid Sierra",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://radiomadridsierra.com",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1613231096644116481/fk4e53OS_200x200.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 13,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streaming12.elitecomunicacion.es:8070/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-fuenlabrada",
+      "seedName": "Onda Fuenlabrada",
+      "name": "Onda Fuenlabrada",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://ondafuenlabrada.es/emision/",
+      "logoUrl": "https://yt3.ggpht.com/gE-Z3WmqCumfCBtWDXUuYM1mmpbutOff_s2Su1F6raG2kKaXQVAtqnI_DLp5KR7PA6oS9EeMxZY=s200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 2,
+      "seedRank": 14,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://radioserver12.profesionalhosting.com/proxy/pkg78581/stream.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "antena-cemu-radio",
+      "seedName": "Antena CEMU Radio",
+      "name": "Antena CEMU Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Educación",
+      "community": "Madrid",
+      "websiteUrl": "https://antenacemu.com/emision-online/",
+      "logoUrl": "https://graph.facebook.com/401769933317531/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 15,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://sonic.mediatelekom.net/9980/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "sol-radio-madrid",
+      "seedName": "Sol Radio Madrid",
       "name": "Sol Radio Madrid",
       "tagline": "",
       "description": "",
       "category": "Música",
       "community": "Madrid",
+      "musicType": "Años 60/70/80",
       "websiteUrl": "https://solradiomadrid.com",
       "logoUrl": "https://graph.facebook.com/solradio99.8/picture?width=200&height=200",
+      "language": "es",
       "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 16,
       "verificationStatus": "verified",
       "streams": [
         {
@@ -2029,19 +703,1957 @@
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Años 60/70/80"
+      ]
     },
     {
-      "id": "madrid--super-latina-madrid",
+      "id": "onda-aranjuez",
+      "seedName": "Onda Aranjuez",
+      "name": "Onda Aranjuez",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.aranjuez.es/onda/",
+      "logoUrl": "https://www.aranjuez.es/wp-content/uploads/2016/12/escucha-onda-aranjuez-300x264.png",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 2,
+      "seedRank": 17,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://server8.emitironline.com:18544/;.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "inforadio-ucm",
+      "seedName": "Inforadio UCM",
+      "name": "Inforadio UCM",
+      "tagline": "",
+      "description": "",
+      "category": "Educación",
+      "community": "Madrid",
+      "websiteUrl": "https://www.ucm.es/inforadio",
+      "logoUrl": "https://graph.facebook.com/inforadiocomplutense/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 2,
+      "seedRank": 18,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://giss.tv:666/inforadioucm.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-nacional-madrid",
+      "seedName": "Radio Nacional Madrid",
+      "name": "Radio Nacional Madrid",
+      "tagline": "",
+      "description": "",
+      "category": "Nacional",
+      "community": "Madrid",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_mad-live/3893534/",
+      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 3,
+      "seedRank": 1,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/mad/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-5-madrid",
+      "seedName": "Radio 5 Madrid",
+      "name": "Radio 5 Madrid",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_mad-live/3894730/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 3,
+      "seedRank": 2,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/mad/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "el-salto-radio",
+      "seedName": "El Salto Radio",
+      "name": "El Salto Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.elsaltodiario.com/el-salto-radio/",
+      "logoUrl": "https://graph.facebook.com/ElSaltoDiario/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 3,
+      "seedRank": 3,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://radio.radiobot.org/listen/salto/elsaltoradio.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "dynamis-radio",
+      "seedName": "Dynamis Radio",
+      "name": "Dynamis Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Religión",
+      "community": "Madrid",
+      "websiteUrl": "https://www.dynamisradio.org",
+      "logoUrl": "https://graph.facebook.com/dynamisradio/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 3,
+      "seedRank": 4,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://control.streaming-pro.com:8014/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "unika-fm",
+      "seedName": "Unika FM",
+      "name": "Unika FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Electrónica",
+      "websiteUrl": "https://unika.fm",
+      "logoUrl": "https://graph.facebook.com/unikafmmuchomasquedance/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 3,
+      "seedRank": 5,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://server1.easystreaming.pro:8443/unika",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-romanul",
+      "seedName": "Radio Romanul",
+      "name": "Radio Romanul",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "World",
+      "websiteUrl": "https://www.radioromanul.es/live/",
+      "logoUrl": "https://graph.facebook.com/RadioRomanul/picture?width=200&height=200",
+      "language": "ro",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 3,
+      "seedRank": 6,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "http://streaming.radioromanul.es:55556/web",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-ciguena",
+      "seedName": "Radio Cigüeña",
+      "name": "Radio Cigüeña",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.radiociguena.org",
+      "logoUrl": "https://graph.facebook.com/297157036138/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 3,
+      "seedRank": 7,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://cervera.eldialdigital.com:25171/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-utopia",
+      "seedName": "Radio Utopía",
+      "name": "Radio Utopía",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Alternativa",
+      "websiteUrl": "https://www.radioutopia.org.es",
+      "logoUrl": "https://graph.facebook.com/179099278878655/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 3,
+      "seedRank": 8,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "http://streaming.radioutopia.org.es:8000/radio-utopia.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "peperadio",
+      "seedName": "Peperadio",
+      "name": "Peperadio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Rock",
+      "websiteUrl": "https://peperadio.es",
+      "logoUrl": "https://peperadio.es/Content/images/logo.png",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 3,
+      "seedRank": 9,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://server10.emitironline.com:8032/",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-almenara",
+      "seedName": "Radio Almenara",
+      "name": "Radio Almenara",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://radioalmenara.net",
+      "logoUrl": "https://graph.facebook.com/RadioAlmenara/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 3,
+      "seedRank": 10,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://cervera.eldialdigital.com:25211/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-merlin-c-radio",
+      "seedName": "Onda Merlín C Radio",
+      "name": "Onda Merlín C Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Variedad",
+      "websiteUrl": "https://www.omcradio.org/escuchanos/",
+      "logoUrl": "https://graph.facebook.com/OmcRadio/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 3,
+      "seedRank": 11,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://radio.radiobot.org/listen/omc/directo.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-morata",
+      "seedName": "Radio Morata",
+      "name": "Radio Morata",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.radiomorata.com",
+      "logoUrl": "https://graph.facebook.com/radiomorata/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 3,
+      "seedRank": 12,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://cervera.eldialdigital.com:25141/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-villalba",
+      "seedName": "Radio Villalba",
+      "name": "Radio Villalba",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.colladovillalba.es/radio-villalba",
+      "logoUrl": "https://graph.facebook.com/radiovillalbafm/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 3,
+      "seedRank": 13,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://srv7041.dns-lcinternet.com/8042/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "eco-leganes",
+      "seedName": "ECO Leganés",
+      "name": "ECO Leganés",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://ecoleganes.org",
+      "logoUrl": "https://graph.facebook.com/ecoleganes01/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 3,
+      "seedRank": 14,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://cervera.eldialdigital.com:25191/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "globo-fm",
+      "seedName": "Globo FM",
+      "name": "Globo FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Classic Hits",
+      "websiteUrl": "https://www.globofm.es",
+      "logoUrl": "https://pbs.twimg.com/profile_images/972013004484173824/BMLZEKXs_200x200.jpg",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 3,
+      "seedRank": 15,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://sonic.sistemahost.es/8200/;.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-latina",
+      "seedName": "Onda Latina",
+      "name": "Onda Latina",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Latina",
+      "websiteUrl": "http://www.ondalatina.com.es",
+      "logoUrl": "https://graph.facebook.com/ondalatina.com.es/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 3,
+      "seedRank": 16,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://cervera.eldialdigital.com:21131/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-univ-alcala-henares",
+      "seedName": "Radio Univ. Alcalá Henares",
+      "name": "Radio Univ. Alcalá Henares",
+      "tagline": "",
+      "description": "",
+      "category": "Educación",
+      "community": "Madrid",
+      "websiteUrl": "https://www.ruah.es/emision-online/",
+      "logoUrl": "https://graph.facebook.com/ruahradio/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 3,
+      "seedRank": 17,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streaming2.elitecomunicacion.es:8066/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "mdt-radio-madrid",
+      "seedName": "MDT Radio Madrid",
+      "name": "MDT Radio Madrid",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Retro Dance",
+      "websiteUrl": "https://mdtradio.com",
+      "logoUrl": "https://graph.facebook.com/mdtradiomadrid/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 3,
+      "seedRank": 18,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streams1.mdtradio.com:8443/MdtMadrid",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-espana-network",
+      "seedName": "Radio España",
+      "name": "Radio España Network",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Dance",
+      "websiteUrl": "https://www.espananetwork.net/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/582/radio-espana-network.406b0f62.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 4,
+      "seedRank": 1,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://stream.zeno.fm/ocinyyji4rntv",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "espacio-4-fm",
+      "seedName": "Espacio 4 FM",
+      "name": "Espacio 4 FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Electrónica",
+      "websiteUrl": "https://www.espacio4fm.com/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/uxmfabbdnref.png",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 4,
+      "seedRank": 2,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://stream.zeno.fm/fz0bc82wn0hvv",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "esencia-radio",
+      "seedName": "Esencia Radio",
+      "name": "Esencia Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Pop",
+      "websiteUrl": "https://www.esenciaradio.com/endirecto/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/QxU5VtQCPm.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 4,
+      "seedRank": 3,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://stream.zeno.fm/apu4qxap0rquv",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "rec-radio",
+      "seedName": "REC Radio",
+      "name": "REC Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.recradio.es/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/398/rec-radio.dda7b9b0.png",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 4,
+      "seedRank": 4,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://server9.emitironline.com:19488/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "pozuelo-radio",
+      "seedName": "Pozuelo Radio",
+      "name": "Pozuelo Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://www.pozueloradio.es/",
+      "logoUrl": "https://graph.facebook.com/pozueloradio/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 4,
+      "seedRank": 5,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "http://5.135.183.124:8197/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-vallekana",
+      "seedName": "Onda Vallekana",
+      "name": "Onda Vallekana",
+      "tagline": "",
+      "description": "",
+      "category": "Comunitaria",
+      "community": "Madrid",
+      "websiteUrl": "https://www.ondavallekana.es/",
+      "logoUrl": "https://ondavallekana.es/wp-content/uploads/2023/11/ReducidoLogo2.png",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 4,
+      "seedRank": 6,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://sonic.sistemahost.es/8152/;",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "los40",
+      "seedName": "LOS40",
+      "name": "LOS40",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Top 40",
+      "websiteUrl": "https://play.los40.com",
+      "logoUrl": "https://graph.facebook.com/los40/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 4,
+      "seedRank": 58,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40AAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/Los40.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca",
+      "seedName": "Radio Marca Nacional",
+      "name": "Radio Marca",
+      "tagline": "",
+      "description": "",
+      "category": "Deportes",
+      "community": "Madrid",
+      "websiteUrl": "https://www.marca.com/radio.html",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 4,
+      "seedRank": 65,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONALAAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONAL.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm",
+      "seedName": "Loca FM",
+      "name": "Loca FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Dance Electrónica",
+      "websiteUrl": "https://www.locafm.com/live/player.html",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 4,
+      "seedRank": 67,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s3.we4stream.com:2020/stream/locafm",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "los40-urban",
+      "seedName": "LOS40 Urban",
+      "name": "LOS40 Urban",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Urbano",
+      "websiteUrl": "https://play.los40.com/los40_urban",
+      "logoUrl": "https://graph.facebook.com/los40urban/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 4,
+      "seedRank": 71,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_URBANAAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_URBAN.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-maria-espana-madrid",
+      "seedName": "Radio María España",
+      "name": "Radio María España",
+      "tagline": "",
+      "description": "",
+      "category": "Religión",
+      "community": "Madrid",
+      "websiteUrl": "https://www.radiomaria.es/",
+      "logoUrl": "https://graph.facebook.com/RadioMariaSpa/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 5,
+      "seedRank": 6,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://dreamsiteradiocp4.com/proxy/rmspain1?mp=%2Fstream%2F1%2F%3B.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-dance",
+      "seedName": "Loca FM Dance",
+      "name": "Loca FM Dance",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Dance Electrónica",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 5,
+      "seedRank": 7,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_dance/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-remember",
+      "seedName": "Loca FM Remember",
+      "name": "Loca FM Remember",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Remember",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 5,
+      "seedRank": 8,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_remember/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-house",
+      "seedName": "Loca FM House",
+      "name": "Loca FM House",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "House",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 5,
+      "seedRank": 9,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_house/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-chill-out",
+      "seedName": "Loca FM Chill Out",
+      "name": "Loca FM Chill Out",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Chill Out",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 5,
+      "seedRank": 10,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_chill_out/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-tech-house",
+      "seedName": "Loca FM Tech House",
+      "name": "Loca FM Tech House",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Tech House",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 5,
+      "seedRank": 11,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_tech_house/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-trance",
+      "seedName": "Loca FM Trance",
+      "name": "Loca FM Trance",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Trance",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 5,
+      "seedRank": 12,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_trance/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-techno",
+      "seedName": "Loca FM Techno",
+      "name": "Loca FM Techno",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Techno",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 5,
+      "seedRank": 13,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_techo/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-big-room",
+      "seedName": "Loca FM Big Room",
+      "name": "Loca FM Big Room",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Big Room",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 5,
+      "seedRank": 14,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_big_room/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-deep-house",
+      "seedName": "Loca FM Deep House",
+      "name": "Loca FM Deep House",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Deep House",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 5,
+      "seedRank": 15,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_deep_house/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-sessions",
+      "seedName": "Loca FM Sessions",
+      "name": "Loca FM Sessions",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Sesiones DJ",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 5,
+      "seedRank": 16,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_sessions/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-loca-80s",
+      "seedName": "Loca FM Loca 80s",
+      "name": "Loca FM Loca 80s",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "80s",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 5,
+      "seedRank": 17,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_80s/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-loca-90s",
+      "seedName": "Loca FM Loca 90s",
+      "name": "Loca FM Loca 90s",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "90s",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 5,
+      "seedRank": 18,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_90s_/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-melodic-house",
+      "seedName": "Loca FM Melodic House",
+      "name": "Loca FM Melodic House",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Melodic House",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 5,
+      "seedRank": 19,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_melodic_house/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-melodic-techno",
+      "seedName": "Loca FM Melodic Techno",
+      "name": "Loca FM Melodic Techno",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Melodic Techno",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 5,
+      "seedRank": 20,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_melodic_techno/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "informa-radio-madrid",
+      "seedName": "Informa Radio Madrid",
+      "name": "Informa Radio Madrid",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://informaradio.edatv.news/",
+      "logoUrl": "https://graph.facebook.com/100087258914803/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 1,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "http://24x7.red:42045/informa",
+          "format": "mp3",
+          "priority": 1,
+          "source": "Radio Browser"
+        }
+      ]
+    },
+    {
+      "id": "ecuashyri-fm",
+      "seedName": "ECUASHYRI FM",
+      "name": "ECUASHYRI FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Latina",
+      "websiteUrl": "https://ecuashyri.es/",
+      "logoUrl": "https://graph.facebook.com/Ecuadorstereo/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 2,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://securestream.radioshd.info:7018/stream",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TingFM"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-urban",
+      "seedName": "Loca FM Urban",
+      "name": "Loca FM Urban",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Urbana",
+      "websiteUrl": "https://www.locafm.com/loca-urban/player.html",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 3,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s1.we4stream.com:2020/stream/locaurban",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "canal-fiesta-radio",
+      "seedName": "Canal Fiesta Radio",
+      "name": "Canal Fiesta Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Pop",
+      "websiteUrl": "https://www.canalsurmas.es/videos/19997-canal-fiesta-radio",
+      "logoUrl": "https://pbs.twimg.com/profile_images/2014607361843793920/uKfZnuel_200x200.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 4,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://rtva-live-radio.flumotion.com/rtva/cfr.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "la-flamenca",
+      "seedName": "La Flamenca",
+      "name": "La Flamenca",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Flamenco",
+      "websiteUrl": "https://emisorasmusicales.net/laflamenca/",
+      "logoUrl": "https://media.emisorasmusicales.net/wp-content/uploads/2020/03/11023733/LaFlamenca-200x200.png",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 6,
+      "seedRank": 5,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://stream.emisorasmusicales.net/radio/8070/laflamenca.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "dial-baladas",
+      "seedName": "Dial Baladas",
+      "name": "Dial Baladas",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Baladas",
+      "websiteUrl": "https://play.cadenadial.com/emisora/dialbaladas",
+      "logoUrl": "https://recursosweb.prisaradio.com/fotos/dest/010002743853.jpg",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 6,
+      "seedRank": 6,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL_03AAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL_03.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "dial-latino",
+      "seedName": "Dial Latino",
+      "name": "Dial Latino",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Latina",
+      "websiteUrl": "https://play.cadenadial.com/emisora/diallatino",
+      "logoUrl": "https://recursosweb.prisaradio.com/fotos/dest/010002743851.jpg",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 6,
+      "seedRank": 7,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL_02AAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL_02.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-hard",
+      "seedName": "Loca FM Hard",
+      "name": "Loca FM Hard",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Hard Dance",
+      "websiteUrl": "https://www.locafm.com/hard/player.html",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 6,
+      "seedRank": 8,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_hard/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-ambient",
+      "seedName": "Loca FM Ambient",
+      "name": "Loca FM Ambient",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Ambient",
+      "websiteUrl": "https://www.locafm.com/ambient/player.html",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 6,
+      "seedRank": 9,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_ambient/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-hard-techno",
+      "seedName": "Loca FM Hard Techno",
+      "name": "Loca FM Hard Techno",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Hard Techno",
+      "websiteUrl": "https://www.locafm.com/hard-techno/player.html",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 6,
+      "seedRank": 10,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_hard_techno/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-industrial",
+      "seedName": "Loca FM Industrial",
+      "name": "Loca FM Industrial",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Industrial",
+      "websiteUrl": "https://www.locafm.com/industrial/player.html",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 6,
+      "seedRank": 11,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_industrial/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-drum-bass",
+      "seedName": "Loca FM Drum&Bass",
+      "name": "Loca FM Drum&Bass",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Drum & Bass",
+      "websiteUrl": "https://www.locafm.com/drum-bass/player.html",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 6,
+      "seedRank": 12,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_drum__bass/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "la-urban-radio",
+      "seedName": "La Urban Radio",
+      "name": "La Urban Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Urbana",
+      "websiteUrl": "https://www.urbanrevolution.es",
+      "logoUrl": "https://graph.facebook.com/urbanrevolution.es/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 6,
+      "seedRank": 13,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://st1.urbanrevolution.es:8443/laurbanfm.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "mariskalrock-radio",
+      "seedName": "MariskalRock Radio",
+      "name": "MariskalRock Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Rock",
+      "websiteUrl": "https://mariskalrock.com",
+      "logoUrl": "https://graph.facebook.com/mariskalrock/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 6,
+      "seedRank": 14,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://media.profesionalhosting.com:8047/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "tiempo-de-juego-cope-directo-2",
+      "seedName": "TIEMPO DE JUEGO Cope Directo 2",
+      "name": "TIEMPO DE JUEGO Cope Directo 2",
+      "tagline": "",
+      "description": "",
+      "category": "Deportes",
+      "community": "Madrid",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 37,
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "locos-por-el-remember-dance",
+      "seedName": "Locos por el Remember Dance",
+      "name": "Locos por el Remember Dance",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 42,
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "musicType": "Dance"
+    },
+    {
+      "id": "maxima-fm",
+      "seedName": "MAXIMA FM",
+      "name": "MAXIMA FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 46,
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "cadena-nostalgia",
+      "seedName": "Cadena Nostalgia",
+      "name": "Cadena Nostalgia",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 47,
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "musicType": "Oldies"
+    },
+    {
+      "seedName": "Loca FM 90's",
+      "name": "Loca FM 90's",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "90s",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 48,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_90s_/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "id": "loca-fm-90-s"
+    },
+    {
+      "id": "80s-super-dance-floor",
+      "seedName": "80S SUPER DANCE FLOOR",
+      "name": "80S SUPER DANCE FLOOR",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 57,
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "musicType": "Dance"
+    },
+    {
+      "id": "la-suegra-fm",
+      "seedName": "La Suegra FM",
+      "name": "La Suegra FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 58,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream directo",
+          "url": "http://131.153.56.235:9300",
+          "format": "auto",
+          "priority": 1,
+          "source": "Radiomap"
+        }
+      ],
+      "musicType": "Latino",
+      "websiteUrl": "https://www.lasuegrafmmadrid.com",
+      "logoUrl": "https://graph.facebook.com/LaSuegraFmMadrid/picture?width=200&height=200"
+    },
+    {
+      "id": "remember-vip-techno",
+      "seedName": "Remember Vip Techno",
+      "name": "Remember Vip Techno",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 60,
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "musicType": "Dance"
+    },
+    {
+      "seedName": "Cadena Dial Baladas",
+      "name": "Cadena Dial Baladas",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Baladas",
+      "websiteUrl": "https://play.cadenadial.com/emisora/dialbaladas",
+      "logoUrl": "https://recursosweb.prisaradio.com/fotos/dest/010002743853.jpg",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 63,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL_03AAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL_03.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ],
+      "id": "cadena-dial-baladas"
+    },
+    {
+      "id": "narco-rock-metal",
+      "seedName": "Narco Rock Metal",
+      "name": "Narco Rock Metal",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 64,
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "musicType": "Rock"
+    },
+    {
+      "id": "free-fm-classics",
+      "seedName": "Free FM Classics",
+      "name": "Free FM Classics",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 65,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream directo",
+          "url": "https://xxdelgado.radioca.st",
+          "format": "auto",
+          "priority": 1,
+          "source": "Radiomap"
+        }
+      ],
+      "musicType": "Oldies",
+      "websiteUrl": "https://www.freefmworld.com"
+    },
+    {
+      "id": "80s-90s-absolute-hits",
+      "seedName": "80s 90s Absolute Hits",
+      "name": "80s 90s Absolute Hits",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 67,
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "musicType": "Oldies"
+    },
+    {
+      "id": "radio-ochentas-espana",
+      "seedName": "Radio Ochentas España",
+      "name": "Radio Ochentas España",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 68,
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "free-fm-80s",
+      "seedName": "Free FM 80s",
+      "name": "Free FM 80s",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 69,
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "musicType": "Oldies"
+    },
+    {
+      "id": "jazz-radio-spain",
+      "seedName": "Jazz Radio Spain",
+      "name": "Jazz Radio Spain",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 72,
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "musicType": "Jazz"
+    },
+    {
+      "id": "cadena-dance-spain",
+      "seedName": "Cadena Dance Spain",
+      "name": "Cadena Dance Spain",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 13,
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "musicType": "Dance"
+    },
+    {
+      "id": "radio-rock-en-espanol",
+      "seedName": "Radio Rock en Español",
+      "name": "Radio Rock en Español",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 16,
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "musicType": "Rock"
+    },
+    {
+      "id": "vuelve-el-remember-radio-online",
+      "seedName": "Vuelve el Remember - Radio Online",
+      "name": "Vuelve el Remember - Radio Online",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 17,
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "musicType": "Dance"
+    },
+    {
+      "id": "rne-radio-exterior",
+      "seedName": "RNE Radio Exterior",
+      "name": "RNE Radio Exterior",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Madrid",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 19,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_re_main.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "websiteUrl": "https://www.rtve.es/play/radio/radio-exterior/",
+      "logoUrl": "https://graph.facebook.com/RadioExterior/picture?width=200&height=200"
+    },
+    {
+      "id": "radio-romantica-espana",
+      "seedName": "Radio Romántica España",
+      "name": "Radio Romántica España",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 25,
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "free-fm-world",
+      "seedName": "Free FM World",
+      "name": "Free FM World",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 26,
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "super-latina-madrid",
+      "seedName": "SUPER LATINA MADRID",
       "name": "SUPER LATINA MADRID",
       "tagline": "",
       "description": "",
       "category": "Música",
       "community": "Madrid",
-      "websiteUrl": "https://superlatina.es",
-      "logoUrl": "",
+      "language": "es",
       "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 27,
       "verificationStatus": "verified",
       "streams": [
         {
@@ -2052,578 +2664,413 @@
           "source": "Radiomap"
         }
       ],
-      "musicType": "Latino"
+      "musicType": "Latino",
+      "websiteUrl": "https://superlatina.es"
     },
     {
-      "id": "madrid--top-radio",
-      "name": "Top Radio",
+      "id": "melodia-60",
+      "seedName": "Melodia 60",
+      "name": "Melodia 60",
       "tagline": "",
       "description": "",
       "category": "Música",
       "community": "Madrid",
-      "websiteUrl": "https://www.topradio.es/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/252/top-radio-spain.8a90733b.png",
+      "language": "es",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://mdstrm.com/audio/66ec3c9fabba24a0a2e59de8/live.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Pop en español"
+      "seedPage": 2,
+      "seedRank": 29,
+      "verificationStatus": "seeded_pending",
+      "streams": []
     },
     {
-      "id": "madrid--vinilo-fm",
-      "name": "Vinilo FM",
+      "id": "80s-90s-2000s-super-hits",
+      "seedName": "80s 90s 2000s Super Hits",
+      "name": "80s 90s 2000s Super Hits",
       "tagline": "",
       "description": "",
       "category": "Música",
       "community": "Madrid",
-      "websiteUrl": "https://vinilofm.es/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/WvYVyHUvbU.jpg",
+      "language": "es",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 Bizkaia",
-          "url": "https://radio.vinilofm.es/radio/8000/bizkaia.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Classic Hits"
+      "seedPage": 2,
+      "seedRank": 30,
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "musicType": "Oldies"
     },
     {
-      "id": "madrid--xtrema-fm",
-      "name": "Xtrema FM",
+      "id": "1000-hits-80s",
+      "seedName": "1000 HITS 80s",
+      "name": "1000 HITS 80s",
       "tagline": "",
       "description": "",
       "category": "Música",
       "community": "Madrid",
-      "websiteUrl": "https://www.xtremafm.es",
-      "logoUrl": "https://graph.facebook.com/xtremafm/picture?width=200&height=200",
+      "language": "es",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://server1.radiocast.es/listen/xtrema_fm/xtremafm",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Top 40"
+      "seedPage": 2,
+      "seedRank": 31,
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "musicType": "Oldies"
     },
     {
-      "id": "madrid--adagio-radio",
-      "seedName": "Adagio Radio",
-      "name": "Adagio Radio",
+      "id": "remember-4-u",
+      "seedName": "Remember 4 U",
+      "name": "Remember 4 U",
       "tagline": "",
       "description": "",
       "category": "Música",
       "community": "Madrid",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://streaming.radionomy.com/AdagioRadio?lang=en-US&appName=iTunes.m3u",
-          "format": "m3u",
-          "priority": 1,
-          "source": "Spain.json"
-        },
-        {
-          "label": "Alternativo 2",
-          "url": "http://listen.radionomy.com/adagioradio",
-          "format": "stream",
-          "priority": 2,
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Clásica"
-    },
-    {
-      "id": "madrid--china-fm-97-4",
-      "seedName": "China Fm 97.4",
-      "name": "China Fm 97.4",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://ns3.mycloud-apps.es:8000/live",
-          "format": "stream",
-          "priority": 1,
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "madrid--cope-madrid-106-3-fm",
-      "seedName": "COPE - Madrid 106.3 FM",
-      "name": "COPE - Madrid 106.3 FM",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Madrid",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://cope.cope.stream.flumotion.com/copesedes/madrid.mp3.m3u",
-          "format": "m3u",
-          "priority": 1,
-          "source": "Spain.json"
-        }
-      ]
-    },
-    {
-      "id": "madrid--do-fa-radio",
-      "seedName": "Do Fa Radio",
-      "name": "Do Fa Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://streaming.radionomy.com/DoFaRadio?lang=en-US&appName=iTunes.m3u",
-          "format": "m3u",
-          "priority": 1,
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "madrid--esradio-espana",
-      "seedName": "esRadio España",
-      "name": "esRadio España",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Madrid",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://livestreaming.esradio.fm/stream64.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "Spain.json"
-        },
-        {
-          "label": "Alternativo 2",
-          "url": "mms://streaming.esradio.fm/EsRadio",
-          "format": "stream",
-          "priority": 2,
-          "source": "Spain.json"
-        }
-      ]
-    },
-    {
-      "id": "madrid--gestiona-radio-national",
-      "seedName": "Gestiona Radio National",
-      "name": "Gestiona Radio National",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Madrid",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://radioserver10.profesionalhosting.com:33351/;",
-          "format": "stream",
-          "priority": 1,
-          "source": "Spain.json"
-        }
-      ]
-    },
-    {
-      "id": "madrid--holiday-gym-radio-98-6-fm",
-      "seedName": "Holiday Gym Radio 98.6 FM",
-      "name": "Holiday Gym Radio 98.6 FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://holidaygym.emitironline.com",
-          "format": "stream",
-          "priority": 1,
-          "source": "Spain.json"
-        }
-      ],
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 32,
+      "verificationStatus": "seeded_pending",
+      "streams": [],
       "musicType": "Dance"
     },
     {
-      "id": "madrid--inforadio",
-      "seedName": "Inforadio",
-      "name": "Inforadio",
+      "id": "moderna-fm",
+      "seedName": "Moderna FM",
+      "name": "Moderna FM",
       "tagline": "",
       "description": "",
       "category": "Música",
       "community": "Madrid",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://stream00.inforadio.ccinf.es:8000/inforadio01.ogg",
-          "format": "ogg",
-          "priority": 1,
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Variedad"
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 35,
+      "verificationStatus": "seeded_pending",
+      "streams": []
     },
     {
-      "id": "madrid--la-mejor-musica-en-redesmadrid",
-      "seedName": "La mejor musica en RedesMadrid",
-      "name": "La mejor musica en RedesMadrid",
+      "id": "free-fm-love",
+      "seedName": "Free FM Love",
+      "name": "Free FM Love",
       "tagline": "",
       "description": "",
       "category": "Música",
       "community": "Madrid",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://stream.redesmadrid.com:8000/redesmadrid.m3u",
-          "format": "m3u",
-          "priority": 1,
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Variedad"
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 36,
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "musicType": "Romántica"
     },
     {
-      "id": "madrid--onda-latina-la-radio-diferente-madrid-87-6-fm",
-      "seedName": "Onda Latina La radio diferente Madrid 87.6 FM",
-      "name": "Onda Latina La radio diferente Madrid 87.6 FM",
+      "id": "cinema-radio",
+      "seedName": "Cinema Radio",
+      "name": "Cinema Radio",
       "tagline": "",
       "description": "",
       "category": "Música",
       "community": "Madrid",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://cervera.eldialdigital.com:8112",
-          "format": "stream",
-          "priority": 1,
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Indie"
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 39,
+      "verificationStatus": "seeded_pending",
+      "streams": []
     },
     {
-      "id": "madrid--prisa-los-40-principales-madrid",
-      "seedName": "Prisa - Los 40 Principales » Madrid",
-      "name": "Prisa - Los 40 Principales » Madrid",
+      "id": "retro-rock-revival",
+      "seedName": "Retro Rock Revival",
+      "name": "Retro Rock Revival",
       "tagline": "",
       "description": "",
       "category": "Música",
       "community": "Madrid",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://provisioning.streamtheworld.com/pls/LOS40AAC.pls",
-          "format": "pls",
-          "priority": 1,
-          "source": "Spain.json"
-        },
-        {
-          "label": "Alternativo 2",
-          "url": "http://provisioning.streamtheworld.com/asx/LOS40AAC.asx",
-          "format": "asx",
-          "priority": 2,
-          "source": "Spain.json"
-        },
-        {
-          "label": "Alternativo 3",
-          "url": "http://provisioning.streamtheworld.com/pls/LOS40.pls",
-          "format": "pls",
-          "priority": 3,
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Top 40"
-    },
-    {
-      "id": "madrid--radio-adventista",
-      "seedName": "Radio Adventista",
-      "name": "Radio Adventista",
-      "tagline": "",
-      "description": "",
-      "category": "Religión",
-      "community": "Madrid",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://stream.radiojar.com/aesy2chkb.mp3?1494518402",
-          "format": "mp3",
-          "priority": 1,
-          "source": "Spain.json"
-        }
-      ]
-    },
-    {
-      "id": "madrid--radio-carcoma-madrid",
-      "seedName": "Radio Carcoma Madrid",
-      "name": "Radio Carcoma Madrid",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://www.radiocarcoma.com:8080/",
-          "format": "stream",
-          "priority": 1,
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "madrid--radio-libertad-107-0",
-      "seedName": "Radio Libertad 107.0",
-      "name": "Radio Libertad 107.0",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://directo.libertadfm.es:8000/hq-libertadfm.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "madrid--radio-morata-107-6-fm",
-      "seedName": "Radio Morata 107.6 FM",
-      "name": "Radio Morata 107.6 FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://cervera.eldialdigital.com:8132/codec=mp3",
-          "format": "stream",
-          "priority": 1,
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "madrid--radio-tentacion-91-4-fm",
-      "seedName": "Radio Tentación 91.4 FM",
-      "name": "Radio Tentación 91.4 FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://88.26.228.190:8020/",
-          "format": "stream",
-          "priority": 1,
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "madrid--radio-utopia-107-3-fm",
-      "seedName": "Radio Utopía 107.3 FM",
-      "name": "Radio Utopía 107.3 FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://streaming.radioutopia.org.es:8000/radio-utopia.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "madrid--rocksatelite-madridone",
-      "seedName": "rockSatelite-MadridONE",
-      "name": "rockSatelite-MadridONE",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Madrid",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://streaming.radionomy.com/rockSateliteMadridONE?lang=en-US&appName=iTunes.m3u",
-          "format": "m3u",
-          "priority": 1,
-          "source": "Spain.json"
-        },
-        {
-          "label": "Alternativo 2",
-          "url": "http://listen.radionomy.com/rocksatelitemadridone.m3u",
-          "format": "m3u",
-          "priority": 2,
-          "source": "Spain.json"
-        },
-        {
-          "label": "Alternativo 3",
-          "url": "http://listen.radionomy.com/rocksatelitemadridone",
-          "format": "stream",
-          "priority": 3,
-          "source": "Spain.json"
-        }
-      ],
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 42,
+      "verificationStatus": "seeded_pending",
+      "streams": [],
       "musicType": "Rock"
     },
     {
-      "id": "madrid--top-radio-97-2-fm-madrid-spain",
-      "seedName": "Top Radio 97.2 FM Madrid, Spain",
-      "name": "Top Radio 97.2 FM Madrid, Spain",
+      "id": "los-megaexitos",
+      "seedName": "Los Megaexitos",
+      "name": "Los Megaexitos",
       "tagline": "",
       "description": "",
       "category": "Música",
       "community": "Madrid",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://playerservices.streamtheworld.com/pls/TOPRADIOAAC.pls",
-          "format": "pls",
-          "priority": 1,
-          "source": "Spain.json"
-        },
-        {
-          "label": "Alternativo 2",
-          "url": "http://playerservices.streamtheworld.com/pls/TOPRADIO.pls",
-          "format": "pls",
-          "priority": 2,
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Latino"
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 43,
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "musicType": "Oldies"
     },
     {
-      "id": "madrid--torrefm",
-      "seedName": "TorreFM",
-      "name": "TorreFM",
+      "id": "radio-cumbia-espana",
+      "seedName": "Radio Cumbia España",
+      "name": "Radio Cumbia España",
       "tagline": "",
       "description": "",
       "category": "Música",
       "community": "Madrid",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 46,
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "musicType": "Latina"
+    },
+    {
+      "id": "java-radio",
+      "seedName": "Java Radio",
+      "name": "Java Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 47,
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "free-fm-top-100",
+      "seedName": "Free FM Top 100",
+      "name": "Free FM Top 100",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 49,
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "misterio-fm",
+      "seedName": "Misterio FM",
+      "name": "Misterio FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 50,
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "mix80radio",
+      "seedName": "Mix80Radio",
+      "name": "Mix80Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 51,
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "musicType": "Oldies"
+    },
+    {
+      "id": "kandela-te-prende",
+      "seedName": "KANDELA Te Prende",
+      "name": "KANDELA Te Prende",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 52,
+      "verificationStatus": "verified",
       "streams": [
         {
-          "label": "Candidato",
-          "url": "http://2.139.144.101:8011/;",
-          "format": "stream",
+          "label": "Stream directo",
+          "url": "https://one.cloudstreaming.eu:6158",
+          "format": "auto",
           "priority": 1,
-          "source": "Spain.json"
+          "source": "Radiomap"
         }
       ],
-      "musicType": "Variedad"
+      "musicType": "Latino",
+      "websiteUrl": "https://www.kandelateprende.com",
+      "logoUrl": "https://graph.facebook.com/KandelaTePrende/picture?width=200&height=200"
+    },
+    {
+      "id": "free-fm-classical",
+      "seedName": "Free FM Classical",
+      "name": "Free FM Classical",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 53,
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "free-fm-chill",
+      "seedName": "Free FM Chill",
+      "name": "Free FM Chill",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 56,
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "musicType": "Chillout"
+    },
+    {
+      "id": "free-fm-x-mas",
+      "seedName": "Free FM X-Mas",
+      "name": "Free FM X-Mas",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 57,
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "remember-top-radio",
+      "seedName": "Remember Top Radio",
+      "name": "Remember Top Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 58,
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "musicType": "Dance"
+    },
+    {
+      "id": "la-musica-nos-unio",
+      "seedName": "La Musica nos Unio",
+      "name": "La Musica nos Unio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Madrid",
+      "language": "es",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 60,
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "madrid-fm-local",
+      "seedName": "Madrid FM",
+      "name": "Madrid FM",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Electrónica",
+      "websiteUrl": "https://mytuner-radio.com/es/emisora/madrid-fm-473539/",
+      "logoUrl": "",
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "tagline": "",
+      "description": ""
+    },
+    {
+      "id": "radio-premium-madrid",
+      "seedName": "Radio Premium Madrid",
+      "name": "Radio Premium Madrid",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Años 90",
+      "websiteUrl": "https://mytuner-radio.com/es/emisora/radio-premium-madrid-480124/",
+      "logoUrl": "",
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "tagline": "",
+      "description": ""
+    },
+    {
+      "id": "la-879-madrid",
+      "seedName": "La 87.9 Madrid",
+      "name": "La 87.9 Madrid",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Latino",
+      "websiteUrl": "https://mytuner-radio.com/es/emisora/la-879-madrid-438740/",
+      "logoUrl": "",
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "tagline": "",
+      "description": ""
+    },
+    {
+      "id": "onda-ciudad-de-henares-madrid",
+      "seedName": "ONDA CIUDAD DE Henares Madrid",
+      "name": "ONDA CIUDAD DE Henares Madrid",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Años 90",
+      "websiteUrl": "https://mytuner-radio.com/es/emisora/formula-online-radio-cartagena-485412/",
+      "logoUrl": "",
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "tagline": "",
+      "description": ""
+    },
+    {
+      "id": "hits-fm-madrid",
+      "seedName": "Hits FM - Madrid",
+      "name": "Hits FM - Madrid",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Top 40",
+      "websiteUrl": "https://mytuner-radio.com/es/emisora/hits-fm-madrid-452085/",
+      "logoUrl": "",
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "tagline": "",
+      "description": ""
+    },
+    {
+      "id": "radio-callao-madrid",
+      "seedName": "Radio Callao Madrid",
+      "name": "Radio Callao Madrid",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Jazz",
+      "websiteUrl": "https://mytuner-radio.com/es/emisora/radio-callao-madrid-500384/",
+      "logoUrl": "",
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "tagline": "",
+      "description": ""
     }
   ]
 }

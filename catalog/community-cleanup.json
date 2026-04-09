@@ -1,0 +1,62 @@
+{
+  "waitingRoom": {
+    "status": "not_added_to_euskadi",
+    "reason": "La evidencia pública la sitúa como Spain/Madrid o Spain, no como Euskadi; no aparece en el snapshot actual."
+  },
+  "communities": {
+    "andalucia": {
+      "total": 99,
+      "verified": 98,
+      "seeded_pending": 1,
+      "candidate": 0
+    },
+    "asturias": {
+      "total": 44,
+      "verified": 44,
+      "seeded_pending": 0,
+      "candidate": 0
+    },
+    "catalunya": {
+      "total": 271,
+      "verified": 271,
+      "seeded_pending": 0,
+      "candidate": 0
+    },
+    "euskadi": {
+      "total": 102,
+      "verified": 44,
+      "seeded_pending": 58,
+      "candidate": 0
+    },
+    "extremadura": {
+      "total": 54,
+      "verified": 30,
+      "seeded_pending": 24,
+      "candidate": 0
+    },
+    "galicia": {
+      "total": 80,
+      "verified": 69,
+      "seeded_pending": 11,
+      "candidate": 0
+    },
+    "la-rioja": {
+      "total": 14,
+      "verified": 13,
+      "seeded_pending": 1,
+      "candidate": 0
+    },
+    "madrid": {
+      "total": 134,
+      "verified": 93,
+      "seeded_pending": 41,
+      "candidate": 0
+    },
+    "national": {
+      "total": 25,
+      "verified": 25,
+      "seeded_pending": 0,
+      "candidate": 0
+    }
+  }
+}
