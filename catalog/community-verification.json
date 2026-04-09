@@ -1,0 +1,469 @@
+{
+  "generatedFrom": "radiostation-data-main.zip",
+  "criteria": {
+    "verified": "Tiene stream, logo y web, y su stream no aparece repetido en otra comunidad territorial.",
+    "candidate": "Tiene stream pero comparte stream exacto con otra comunidad territorial; necesita revisión territorial.",
+    "pending": "Le falta web o logo, o le faltan streams.",
+    "seeded_pending": "Le falta web o logo, o le faltan streams."
+  },
+  "communities": [
+    {
+      "id": "andalucia",
+      "name": "Andalucía",
+      "total": 104,
+      "playable": 104,
+      "verified": 90,
+      "candidate": 14,
+      "sharedStreamCount": 14,
+      "sampleCandidates": [
+        "Antena 1 Radio",
+        "Candil Radio",
+        "La Fresca FM",
+        "Nostalgia FM",
+        "Radio Planeta",
+        "Free FM World",
+        "Free FM Rock",
+        "Free FM Sports"
+      ],
+      "seededPending": 0,
+      "sampleSeededPending": []
+    },
+    {
+      "id": "aragon",
+      "name": "Aragón",
+      "total": 95,
+      "playable": 95,
+      "verified": 0,
+      "candidate": 91,
+      "sharedStreamCount": 91,
+      "sampleCandidates": [
+        "Carrusel FM",
+        "Conexiondance Radio",
+        "Cooltura FM",
+        "Decibelia FM",
+        "Dynamis Radio",
+        "ECUASHYRI FM",
+        "El Salto Radio",
+        "Esencia Radio"
+      ],
+      "seededPending": 4,
+      "sampleSeededPending": [
+        "Hitz 91.0",
+        "Hitz 91.5 FM",
+        "Hitz Africa FM",
+        "Hitz Funky Radio"
+      ]
+    },
+    {
+      "id": "asturias",
+      "name": "Asturias",
+      "total": 97,
+      "playable": 97,
+      "verified": 26,
+      "candidate": 67,
+      "sharedStreamCount": 67,
+      "sampleCandidates": [
+        "Guateque FM",
+        "La Bomba Radio",
+        "La Cheverisima Radio",
+        "Xtrema FM",
+        "Carrusel FM",
+        "Conexiondance Radio",
+        "Cooltura FM",
+        "Decibelia FM"
+      ],
+      "seededPending": 4,
+      "sampleSeededPending": [
+        "Hitz 91.0",
+        "Hitz 91.5 FM",
+        "Hitz Africa FM",
+        "Hitz Funky Radio"
+      ]
+    },
+    {
+      "id": "canarias",
+      "name": "Canarias",
+      "total": 95,
+      "playable": 95,
+      "verified": 0,
+      "candidate": 91,
+      "sharedStreamCount": 91,
+      "sampleCandidates": [
+        "Carrusel FM",
+        "Conexiondance Radio",
+        "Cooltura FM",
+        "Decibelia FM",
+        "Dynamis Radio",
+        "ECUASHYRI FM",
+        "El Salto Radio",
+        "Esencia Radio"
+      ],
+      "seededPending": 4,
+      "sampleSeededPending": [
+        "Hitz 91.0",
+        "Hitz 91.5 FM",
+        "Hitz Africa FM",
+        "Hitz Funky Radio"
+      ]
+    },
+    {
+      "id": "cantabria",
+      "name": "Cantabria",
+      "total": 95,
+      "playable": 95,
+      "verified": 0,
+      "candidate": 91,
+      "sharedStreamCount": 91,
+      "sampleCandidates": [
+        "Carrusel FM",
+        "Conexiondance Radio",
+        "Cooltura FM",
+        "Decibelia FM",
+        "Dynamis Radio",
+        "ECUASHYRI FM",
+        "El Salto Radio",
+        "Esencia Radio"
+      ],
+      "seededPending": 4,
+      "sampleSeededPending": [
+        "Hitz 91.0",
+        "Hitz 91.5 FM",
+        "Hitz Africa FM",
+        "Hitz Funky Radio"
+      ]
+    },
+    {
+      "id": "castilla-la-mancha",
+      "name": "Castilla-La Mancha",
+      "total": 95,
+      "playable": 95,
+      "verified": 0,
+      "candidate": 91,
+      "sharedStreamCount": 91,
+      "sampleCandidates": [
+        "Carrusel FM",
+        "Conexiondance Radio",
+        "Cooltura FM",
+        "Decibelia FM",
+        "Dynamis Radio",
+        "ECUASHYRI FM",
+        "El Salto Radio",
+        "Esencia Radio"
+      ],
+      "seededPending": 4,
+      "sampleSeededPending": [
+        "Hitz 91.0",
+        "Hitz 91.5 FM",
+        "Hitz Africa FM",
+        "Hitz Funky Radio"
+      ]
+    },
+    {
+      "id": "castilla-y-leon",
+      "name": "Castilla y León",
+      "total": 95,
+      "playable": 95,
+      "verified": 1,
+      "candidate": 90,
+      "sharedStreamCount": 90,
+      "sampleCandidates": [
+        "Carrusel FM",
+        "Conexiondance Radio",
+        "Cooltura FM",
+        "Decibelia FM",
+        "Dynamis Radio",
+        "ECUASHYRI FM",
+        "El Salto Radio",
+        "Esencia Radio"
+      ],
+      "seededPending": 4,
+      "sampleSeededPending": [
+        "Hitz 91.0",
+        "Hitz 91.5 FM",
+        "Hitz Africa FM",
+        "Hitz Funky Radio"
+      ]
+    },
+    {
+      "id": "catalunya",
+      "name": "Catalunya",
+      "total": 97,
+      "playable": 97,
+      "verified": 50,
+      "candidate": 43,
+      "sharedStreamCount": 43,
+      "sampleCandidates": [
+        "Carrusel FM",
+        "Conexiondance Radio",
+        "Cooltura FM",
+        "Decibelia FM",
+        "Dynamis Radio",
+        "ECUASHYRI FM",
+        "El Salto Radio",
+        "Esencia Radio"
+      ],
+      "seededPending": 4,
+      "sampleSeededPending": [
+        "Hitz 91.0",
+        "Hitz 91.5 FM",
+        "Hitz Africa FM",
+        "Hitz Funky Radio"
+      ]
+    },
+    {
+      "id": "comunitat-valenciana",
+      "name": "Comunitat Valenciana",
+      "total": 95,
+      "playable": 95,
+      "verified": 0,
+      "candidate": 91,
+      "sharedStreamCount": 91,
+      "sampleCandidates": [
+        "Carrusel FM",
+        "Conexiondance Radio",
+        "Cooltura FM",
+        "Decibelia FM",
+        "Dynamis Radio",
+        "ECUASHYRI FM",
+        "El Salto Radio",
+        "Esencia Radio"
+      ],
+      "seededPending": 4,
+      "sampleSeededPending": [
+        "Hitz 91.0",
+        "Hitz 91.5 FM",
+        "Hitz Africa FM",
+        "Hitz Funky Radio"
+      ]
+    },
+    {
+      "id": "euskadi",
+      "name": "Euskadi",
+      "total": 95,
+      "playable": 95,
+      "verified": 30,
+      "candidate": 61,
+      "sharedStreamCount": 61,
+      "sampleCandidates": [
+        "Carrusel FM",
+        "Conexiondance Radio",
+        "Cooltura FM",
+        "Decibelia FM",
+        "Dynamis Radio",
+        "ECUASHYRI FM",
+        "El Salto Radio",
+        "Esencia Radio"
+      ],
+      "seededPending": 4,
+      "sampleSeededPending": [
+        "Hitz 91.0",
+        "Hitz 91.5 FM",
+        "Hitz Africa FM",
+        "Hitz Funky Radio"
+      ]
+    },
+    {
+      "id": "extremadura",
+      "name": "Extremadura",
+      "total": 96,
+      "playable": 96,
+      "verified": 11,
+      "candidate": 81,
+      "sharedStreamCount": 81,
+      "sampleCandidates": [
+        "Carrusel FM",
+        "Conexiondance Radio",
+        "Cooltura FM",
+        "Decibelia FM",
+        "Dynamis Radio",
+        "ECUASHYRI FM",
+        "El Salto Radio",
+        "Esencia Radio"
+      ],
+      "seededPending": 4,
+      "sampleSeededPending": [
+        "Hitz 91.0",
+        "Hitz 91.5 FM",
+        "Hitz Africa FM",
+        "Hitz Funky Radio"
+      ]
+    },
+    {
+      "id": "galicia",
+      "name": "Galicia",
+      "total": 78,
+      "playable": 78,
+      "verified": 22,
+      "candidate": 52,
+      "sharedStreamCount": 52,
+      "sampleCandidates": [
+        "Carrusel FM",
+        "Conexiondance Radio",
+        "Cooltura FM",
+        "Decibelia FM",
+        "Dynamis Radio",
+        "ECUASHYRI FM",
+        "El Salto Radio",
+        "Esencia Radio"
+      ],
+      "seededPending": 4,
+      "sampleSeededPending": [
+        "Hitz 91.0",
+        "Hitz 91.5 FM",
+        "Hitz Africa FM",
+        "Hitz Funky Radio"
+      ]
+    },
+    {
+      "id": "illes-balears",
+      "name": "Illes Balears",
+      "total": 95,
+      "playable": 95,
+      "verified": 0,
+      "candidate": 91,
+      "sharedStreamCount": 91,
+      "sampleCandidates": [
+        "Carrusel FM",
+        "Conexiondance Radio",
+        "Cooltura FM",
+        "Decibelia FM",
+        "Dynamis Radio",
+        "ECUASHYRI FM",
+        "El Salto Radio",
+        "Esencia Radio"
+      ],
+      "seededPending": 4,
+      "sampleSeededPending": [
+        "Hitz 91.0",
+        "Hitz 91.5 FM",
+        "Hitz Africa FM",
+        "Hitz Funky Radio"
+      ]
+    },
+    {
+      "id": "la-rioja",
+      "name": "La Rioja",
+      "total": 96,
+      "playable": 96,
+      "verified": 6,
+      "candidate": 85,
+      "sharedStreamCount": 85,
+      "sampleCandidates": [
+        "Onda Ocio",
+        "Carrusel FM",
+        "Conexiondance Radio",
+        "Cooltura FM",
+        "Decibelia FM",
+        "Dynamis Radio",
+        "ECUASHYRI FM",
+        "El Salto Radio"
+      ],
+      "seededPending": 5,
+      "sampleSeededPending": [
+        "Maxima FM Rioja 107.1 FM",
+        "Hitz 91.0",
+        "Hitz 91.5 FM",
+        "Hitz Africa FM",
+        "Hitz Funky Radio"
+      ]
+    },
+    {
+      "id": "madrid",
+      "name": "Madrid",
+      "total": 96,
+      "playable": 96,
+      "verified": 23,
+      "candidate": 68,
+      "sharedStreamCount": 68,
+      "sampleCandidates": [
+        "La Suegra FM",
+        "Carrusel FM",
+        "Conexiondance Radio",
+        "Cooltura FM",
+        "Decibelia FM",
+        "Dynamis Radio",
+        "ECUASHYRI FM",
+        "El Salto Radio"
+      ],
+      "seededPending": 5,
+      "sampleSeededPending": [
+        "SUPER LATINA MADRID",
+        "Hitz 91.0",
+        "Hitz 91.5 FM",
+        "Hitz Africa FM",
+        "Hitz Funky Radio"
+      ]
+    },
+    {
+      "id": "murcia",
+      "name": "Región de Murcia",
+      "total": 95,
+      "playable": 95,
+      "verified": 0,
+      "candidate": 91,
+      "sharedStreamCount": 91,
+      "sampleCandidates": [
+        "Carrusel FM",
+        "Conexiondance Radio",
+        "Cooltura FM",
+        "Decibelia FM",
+        "Dynamis Radio",
+        "ECUASHYRI FM",
+        "El Salto Radio",
+        "Esencia Radio"
+      ],
+      "seededPending": 4,
+      "sampleSeededPending": [
+        "Hitz 91.0",
+        "Hitz 91.5 FM",
+        "Hitz Africa FM",
+        "Hitz Funky Radio"
+      ]
+    },
+    {
+      "id": "national",
+      "name": "Nacional",
+      "total": 50,
+      "playable": 50,
+      "verified": 50,
+      "candidate": 0,
+      "sharedStreamCount": 0,
+      "sampleCandidates": [],
+      "seededPending": 0,
+      "sampleSeededPending": []
+    },
+    {
+      "id": "navarra",
+      "name": "Navarra",
+      "total": 95,
+      "playable": 95,
+      "verified": 0,
+      "candidate": 91,
+      "sharedStreamCount": 91,
+      "sampleCandidates": [
+        "Carrusel FM",
+        "Conexiondance Radio",
+        "Cooltura FM",
+        "Decibelia FM",
+        "Dynamis Radio",
+        "ECUASHYRI FM",
+        "El Salto Radio",
+        "Esencia Radio"
+      ],
+      "seededPending": 4,
+      "sampleSeededPending": [
+        "Hitz 91.0",
+        "Hitz 91.5 FM",
+        "Hitz Africa FM",
+        "Hitz Funky Radio"
+      ]
+    }
+  ],
+  "totals": {
+    "seedCount": 1664,
+    "playableCount": 1664,
+    "verifiedCount": 309,
+    "candidateCount": 1289,
+    "seededPending": 66
+  }
+}
