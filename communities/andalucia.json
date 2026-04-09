@@ -1,8 +1,8 @@
 {
-  "seedCount": 104,
+  "seedCount": 147,
   "playableCount": 104,
   "verifiedCount": 104,
-  "candidateCount": 0,
+  "candidateCount": 43,
   "pendingCount": 0,
   "stations": [
     {
@@ -749,6 +749,93 @@
       "musicType": "Pop Rock"
     },
     {
+      "id": "andalucia--free-fm-rock",
+      "name": "Free FM Rock",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "https://www.freefmrock.com/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/769/free-fm.aa638097.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://freefmrock.radioca.st/stream",
+          "format": "mp3",
+          "priority": 1,
+          "source": "fmstream (public listing)"
+        }
+      ],
+      "musicType": "Rock"
+    },
+    {
+      "id": "andalucia--free-fm-sports",
+      "name": "Free FM Sports",
+      "tagline": "",
+      "description": "",
+      "category": "Deporte",
+      "community": "Andalucía",
+      "websiteUrl": "https://sites.google.com/view/freefmworld",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/BtX4kYE4dC.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://stream.zeno.fm/31nnibfpnxktv",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TingFM listing"
+        }
+      ]
+    },
+    {
+      "id": "andalucia--free-fm-world",
+      "name": "Free FM World",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "https://sites.google.com/view/freefmworld",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/690/free-fm-spain.be1f4c93.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://rocafmadrid.radioca.st/stream",
+          "format": "mp3",
+          "priority": 1,
+          "source": "rcast/fmstream public listing"
+        }
+      ],
+      "musicType": "World"
+    },
+    {
+      "id": "andalucia--free-fm-x-mas",
+      "name": "Free FM X-Mas",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "https://sites.google.com/view/freefmworld",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/6uzYMVMHad.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "http://stream.zeno.fm/h60er015v68uv",
+          "format": "mp3",
+          "priority": 1,
+          "source": "radiobrowser index"
+        }
+      ],
+      "musicType": "Navidad"
+    },
+    {
       "id": "andalucia--la-fresca-fm",
       "name": "La Fresca FM",
       "tagline": "",
@@ -769,6 +856,116 @@
         }
       ],
       "musicType": "Top 40"
+    },
+    {
+      "id": "andalucia--loca-fm-big-room",
+      "name": "Loca FM Big Room",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_big_room/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Big Room"
+    },
+    {
+      "id": "andalucia--loca-fm-deep-house",
+      "name": "Loca FM Deep House",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "https://www.locafm.com/",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_deep_house/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Deep House"
+    },
+    {
+      "id": "andalucia--loca-fm-drum-bass",
+      "name": "Loca FM Drum&Bass",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "https://www.locafm.com/drum-bass/player.html",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_drum__bass/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Drum & Bass"
+    },
+    {
+      "id": "andalucia--loca-fm-hard",
+      "name": "Loca FM Hard",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "https://www.locafm.com/hard/player.html",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_hard/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Hard Dance"
+    },
+    {
+      "id": "andalucia--loca-fm-hard-techno",
+      "name": "Loca FM Hard Techno",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "https://www.locafm.com/hard-techno/player.html",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_hard_techno/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Hard Techno"
     },
     {
       "id": "andalucia--los40-almeria",
@@ -2019,201 +2216,1037 @@
       ]
     },
     {
-      "id": "andalucia--free-fm-world",
-      "name": "Free FM World",
+      "id": "andalucia--almeria-fm",
+      "seedName": "Almería FM",
+      "name": "Almería FM",
       "tagline": "",
       "description": "",
       "category": "Música",
       "community": "Andalucía",
-      "websiteUrl": "https://sites.google.com/view/freefmworld",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/690/free-fm-spain.be1f4c93.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
       "streams": [
         {
-          "label": "Principal",
-          "url": "https://rocafmadrid.radioca.st/stream",
-          "format": "mp3",
+          "label": "Candidato",
+          "url": "http://217.126.166.194:8010/almeriafm",
+          "format": "stream",
           "priority": 1,
-          "source": "rcast/fmstream public listing"
+          "source": "Spain.json"
         }
       ],
-      "musicType": "World"
+      "musicType": "Folk"
     },
     {
-      "id": "andalucia--free-fm-rock",
-      "name": "Free FM Rock",
+      "id": "andalucia--cadena-dial-andalucia-este-91-8-fm",
+      "seedName": "Cadena Dial Andalucía Este 91.8 FM",
+      "name": "Cadena Dial Andalucía Este 91.8 FM",
       "tagline": "",
       "description": "",
       "category": "Música",
       "community": "Andalucía",
-      "websiteUrl": "https://www.freefmrock.com/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/769/free-fm.aa638097.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
       "streams": [
         {
-          "label": "Principal",
-          "url": "https://freefmrock.radioca.st/stream",
+          "label": "Candidato",
+          "url": "http://streaming8.elitecomunicacion.es:8226/;",
+          "format": "stream",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "andalucia--cadena-digital",
+      "seedName": "Cadena Digital",
+      "name": "Cadena Digital",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://185.23.192.118:8006",
+          "format": "stream",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Pop"
+    },
+    {
+      "id": "andalucia--cadena-ser-cadiz",
+      "seedName": "Cadena SER - Cádiz",
+      "name": "Cadena SER - Cádiz",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://playerservices.streamtheworld.com/pls/SER_CADIZ.pls",
+          "format": "pls",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "andalucia--cadena-ser-granada",
+      "seedName": "Cadena SER - Granada",
+      "name": "Cadena SER - Granada",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://escuchar.radiogranada.es:8028/granada",
+          "format": "stream",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "andalucia--cadena-ser-sevilla",
+      "seedName": "Cadena SER - Sevilla",
+      "name": "Cadena SER - Sevilla",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://playerservices.streamtheworld.com/pls/SER_SEVILLA.pls",
+          "format": "pls",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "andalucia--candil-radio-107-3-fm",
+      "seedName": "Candil Radio 107.3 Fm",
+      "name": "Candil Radio 107.3 Fm",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://s6.viastreaming.net:7100/listen.pls",
+          "format": "pls",
+          "priority": 1,
+          "source": "Spain.json"
+        },
+        {
+          "label": "Alternativo 2",
+          "url": "http://s6.viastreaming.net/7100/listen.asx",
+          "format": "asx",
+          "priority": 2,
+          "source": "Spain.json"
+        },
+        {
+          "label": "Alternativo 3",
+          "url": "http://s6.viastreaming.net/7100/listen.m3u",
+          "format": "m3u",
+          "priority": 3,
+          "source": "Spain.json"
+        }
+      ]
+    },
+    {
+      "id": "andalucia--cope-almeria-97-1-fm",
+      "seedName": "COPE - Almería 97.1 FM",
+      "name": "COPE - Almería 97.1 FM",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://almeria.copesedes.stream.flumotion.com/copesedes/almeria.mp3.m3u",
+          "format": "m3u",
+          "priority": 1,
+          "source": "Spain.json"
+        },
+        {
+          "label": "Alternativo 2",
+          "url": "http://195.10.10.201/copesedes/almeria.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "Spain.json"
+        }
+      ]
+    },
+    {
+      "id": "andalucia--cope-cadiz-102-0-fm",
+      "seedName": "COPE - Cádiz 102.0 FM",
+      "name": "COPE - Cádiz 102.0 FM",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://cadiz.copesedes.stream.flumotion.com/copesedes/cadiz.mp3.m3u",
+          "format": "m3u",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ]
+    },
+    {
+      "id": "andalucia--cope-cordoba-87-6-fm",
+      "seedName": "COPE - Córdoba 87.6 FM",
+      "name": "COPE - Córdoba 87.6 FM",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://cordoba.copesedes.stream.flumotion.com/copesedes/cordoba.mp3.m3u",
+          "format": "m3u",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ]
+    },
+    {
+      "id": "andalucia--cope-granada-900-am",
+      "seedName": "COPE - Granada 900 AM",
+      "name": "COPE - Granada 900 AM",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://granada.copesedes.stream.flumotion.com/copesedes/granada.mp3.m3u",
+          "format": "m3u",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ]
+    },
+    {
+      "id": "andalucia--cope-huelva-1224-am",
+      "seedName": "COPE - Huelva 1224 AM",
+      "name": "COPE - Huelva 1224 AM",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://huelva.copesedes.stream.flumotion.com/copesedes/huelva.mp3.m3u",
+          "format": "m3u",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ]
+    },
+    {
+      "id": "andalucia--cope-jerez-92-4-fm",
+      "seedName": "COPE - Jerez 92.4 FM",
+      "name": "COPE - Jerez 92.4 FM",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://jerez.copesedes.stream.flumotion.com/copesedes/jerez.mp3.m3u",
+          "format": "m3u",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ]
+    },
+    {
+      "id": "andalucia--cope-sevilla-99-6-fm",
+      "seedName": "COPE - Sevilla 99.6 FM",
+      "name": "COPE - Sevilla 99.6 FM",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://sevilla.copesedes.stream.flumotion.com/copesedes/sevilla.mp3.m3u",
+          "format": "m3u",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ]
+    },
+    {
+      "id": "andalucia--hispanidad-radio-101-8-fm",
+      "seedName": "Hispanidad Radio 101.8 FM",
+      "name": "Hispanidad Radio 101.8 FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://37.187.18.26:8002/hr",
+          "format": "stream",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "andalucia--moguer-radio",
+      "seedName": "Moguer Radio",
+      "name": "Moguer Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://srv0490.lcinternet.com:9702/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "andalucia--ngradio-malaga",
+      "seedName": "NGRADIO Málaga",
+      "name": "NGRADIO Málaga",
+      "tagline": "",
+      "description": "",
+      "category": "Religión",
+      "community": "Andalucía",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://eu2.ngradio.es:5148/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ]
+    },
+    {
+      "id": "andalucia--onda-cadiz-radio",
+      "seedName": "Onda Cádiz Radio",
+      "name": "Onda Cádiz Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://audio-lh.akamaihd.net/i/auhls/cadiz_1@673844/index_1_a-p.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "andalucia--play-fm-97-4",
+      "seedName": "Play FM 97.4",
+      "name": "Play FM 97.4",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://5.79.66.113:8006/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Dance"
+    },
+    {
+      "id": "andalucia--prisa-maxima-fm",
+      "seedName": "Prisa - Máxima FM",
+      "name": "Prisa - Máxima FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://provisioning.streamtheworld.com/pls/MAXIMAFMAAC.pls",
+          "format": "pls",
+          "priority": 1,
+          "source": "Spain.json"
+        },
+        {
+          "label": "Alternativo 2",
+          "url": "http://provisioning.streamtheworld.com/asx/MAXIMAFMAAC.asx",
+          "format": "asx",
+          "priority": 2,
+          "source": "Spain.json"
+        },
+        {
+          "label": "Alternativo 3",
+          "url": "http://provisioning.streamtheworld.com/pls/MAXIMAFM.pls",
+          "format": "pls",
+          "priority": 3,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Dance"
+    },
+    {
+      "id": "andalucia--radio-ejido-107-0-fm",
+      "seedName": "Radio Ejido 107.0 FM",
+      "name": "Radio Ejido 107.0 FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "mms://directo.radioejido.com/Directo",
+          "format": "stream",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "andalucia--radio-oro-malaga",
+      "seedName": "Radio Oro Malaga",
+      "name": "Radio Oro Malaga",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://185.23.192.118:8002/;",
+          "format": "stream",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "80s"
+    },
+    {
+      "id": "andalucia--radio-oro-marbella",
+      "seedName": "Radio Oro Marbella",
+      "name": "Radio Oro Marbella",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://185.23.192.118:8004",
+          "format": "stream",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "80s"
+    },
+    {
+      "id": "andalucia--radio-padul-fm-107-8",
+      "seedName": "Radio Padul FM 107.8",
+      "name": "Radio Padul FM 107.8",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://192.99.44.11:2429/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "andalucia--radio-poniente-94-5-fm",
+      "seedName": "Radio Poniente 94.5 FM",
+      "name": "Radio Poniente 94.5 FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://94.23.85.189:7855/",
+          "format": "stream",
+          "priority": 1,
+          "source": "Spain.json"
+        },
+        {
+          "label": "Alternativo 2",
+          "url": "http://94.23.85.189:7855/listen.pls",
+          "format": "pls",
+          "priority": 2,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "andalucia--radio-radio-network-rrn",
+      "seedName": "Radio Radio Network (RRN)",
+      "name": "Radio Radio Network (RRN)",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://94.23.85.189:8000/listen.mp3",
           "format": "mp3",
           "priority": 1,
-          "source": "fmstream (public listing)"
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Jazz"
+    },
+    {
+      "id": "andalucia--radio-sevillanas",
+      "seedName": "Radio Sevillanas",
+      "name": "Radio Sevillanas",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://radio.wesped.com:8000/;stream.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "Spain.json"
+        },
+        {
+          "label": "Alternativo 2",
+          "url": "http://centova.cyberneticos.com:8192/;",
+          "format": "stream",
+          "priority": 2,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "andalucia--rtva-canal-fiesta-radio",
+      "seedName": "RTVA Canal Fiesta Radio",
+      "name": "RTVA Canal Fiesta Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://rtva.stream.flumotion.com/rtva/canalfiestaradio_master.mp3.m3u",
+          "format": "m3u",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "andalucia--rtva-canal-sur-radio",
+      "seedName": "RTVA Canal Sur Radio",
+      "name": "RTVA Canal Sur Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://canalsurradio.rtva.stream.flumotion.com/rtva/canalsurradio_master.mp3.m3u",
+          "format": "m3u",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ]
+    },
+    {
+      "id": "andalucia--rtva-canal-sur-radio-almeria",
+      "seedName": "RTVA Canal Sur Radio Almeria",
+      "name": "RTVA Canal Sur Radio Almeria",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://195.10.10.213/rtva/canalsurradioalmeria.mp3?",
+          "format": "mp3",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "andalucia--rtva-canal-sur-radio-cadiz",
+      "seedName": "RTVA Canal Sur Radio Cadiz",
+      "name": "RTVA Canal Sur Radio Cadiz",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://195.55.74.207/rtva/canalsurradiocadiz.mp3?",
+          "format": "mp3",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "andalucia--rtva-canal-sur-radio-cordoba",
+      "seedName": "RTVA Canal Sur Radio Cordoba",
+      "name": "RTVA Canal Sur Radio Cordoba",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://canalsurradiocordoba.rtva.stream.flumotion.com/rtva/canalsurradiocordoba.mp3.m3u",
+          "format": "m3u",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "andalucia--rtva-canal-sur-radio-granada",
+      "seedName": "RTVA Canal Sur Radio Granada",
+      "name": "RTVA Canal Sur Radio Granada",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://195.55.74.210/rtva/canalsurradiogranada.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "andalucia--rtva-canal-sur-radio-huelva",
+      "seedName": "RTVA Canal Sur Radio Huelva",
+      "name": "RTVA Canal Sur Radio Huelva",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://195.10.10.206/rtva/canalsurradiohuelva.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "andalucia--rtva-canal-sur-radio-jaen",
+      "seedName": "RTVA Canal Sur Radio Jaen",
+      "name": "RTVA Canal Sur Radio Jaen",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://195.10.10.201/rtva/canalsurradiojaen.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "andalucia--rtva-canal-sur-radio-jerez",
+      "seedName": "RTVA Canal Sur Radio Jerez",
+      "name": "RTVA Canal Sur Radio Jerez",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://195.55.74.211/rtva/canalsurradiojerez.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "andalucia--rtva-canal-sur-radio-malaga",
+      "seedName": "RTVA Canal Sur Radio Malaga",
+      "name": "RTVA Canal Sur Radio Malaga",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://195.10.10.206/rtva/canalsurradiomalaga.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "andalucia--rtva-radio-andalucia-informacion",
+      "seedName": "RTVA Radio Andalucía Infórmacion",
+      "name": "RTVA Radio Andalucía Infórmacion",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://195.55.74.210/rtva/radioandalucia.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ]
+    },
+    {
+      "id": "andalucia--rusradiomarbella",
+      "seedName": "RusRadioMarbella",
+      "name": "RusRadioMarbella",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://streaming.enacast.com:8000/rusradiomarbellaHD.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Pop"
+    },
+    {
+      "id": "andalucia--sevilla-web-radio",
+      "seedName": "Sevilla Web Radio",
+      "name": "Sevilla Web Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Andalucía",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://87.98.229.193:9114/",
+          "format": "stream",
+          "priority": 1,
+          "source": "Spain.json"
         }
       ],
       "musicType": "Rock"
     },
     {
-      "id": "andalucia--free-fm-sports",
-      "name": "Free FM Sports",
+      "id": "andalucia--smile-fm-malaga-101-3-fm-and-marbella-98-8-fm",
+      "seedName": "Smile FM - Malaga 101.3 FM and Marbella 98.8 FM",
+      "name": "Smile FM - Malaga 101.3 FM and Marbella 98.8 FM",
       "tagline": "",
       "description": "",
-      "category": "Deporte",
+      "category": "Música",
       "community": "Andalucía",
-      "websiteUrl": "https://sites.google.com/view/freefmworld",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/BtX4kYE4dC.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
       "streams": [
         {
-          "label": "Principal",
-          "url": "https://stream.zeno.fm/31nnibfpnxktv",
+          "label": "Candidato",
+          "url": "http://94.23.85.189:8650/;stream.mp3",
           "format": "mp3",
           "priority": 1,
-          "source": "TingFM listing"
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Pop"
+    },
+    {
+      "id": "andalucia--talk-radio-europe",
+      "seedName": "Talk Radio Europe",
+      "name": "Talk Radio Europe",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://s3.yesstreaming.net:7014/;stream/",
+          "format": "stream",
+          "priority": 1,
+          "source": "Spain.json"
+        },
+        {
+          "label": "Alternativo 2",
+          "url": "http://46.28.53.118:7014",
+          "format": "stream",
+          "priority": 2,
+          "source": "Spain.json"
         }
       ]
     },
     {
-      "id": "andalucia--free-fm-x-mas",
-      "name": "Free FM X-Mas",
+      "id": "andalucia--uniradio-jaen",
+      "seedName": "Uniradio Jaén",
+      "name": "Uniradio Jaén",
       "tagline": "",
       "description": "",
       "category": "Música",
       "community": "Andalucía",
-      "websiteUrl": "https://sites.google.com/view/freefmworld",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/6uzYMVMHad.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
       "streams": [
         {
-          "label": "Principal",
-          "url": "http://stream.zeno.fm/h60er015v68uv",
-          "format": "mp3",
+          "label": "Candidato",
+          "url": "http://150.214.174.129:8000/;",
+          "format": "stream",
           "priority": 1,
-          "source": "radiobrowser index"
+          "source": "Spain.json"
         }
       ],
-      "musicType": "Navidad"
-    },
-    {
-      "id": "andalucia--loca-fm-big-room",
-      "name": "Loca FM Big Room",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Andalucía",
-      "websiteUrl": "https://www.locafm.com/",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_big_room/live",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Big Room"
-    },
-    {
-      "id": "andalucia--loca-fm-deep-house",
-      "name": "Loca FM Deep House",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Andalucía",
-      "websiteUrl": "https://www.locafm.com/",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_deep_house/live",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Deep House"
-    },
-    {
-      "id": "andalucia--loca-fm-drum-bass",
-      "name": "Loca FM Drum&Bass",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Andalucía",
-      "websiteUrl": "https://www.locafm.com/drum-bass/player.html",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_drum__bass/live",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Drum & Bass"
-    },
-    {
-      "id": "andalucia--loca-fm-hard",
-      "name": "Loca FM Hard",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Andalucía",
-      "websiteUrl": "https://www.locafm.com/hard/player.html",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_hard/live",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Hard Dance"
-    },
-    {
-      "id": "andalucia--loca-fm-hard-techno",
-      "name": "Loca FM Hard Techno",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Andalucía",
-      "websiteUrl": "https://www.locafm.com/hard-techno/player.html",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_hard_techno/live",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Hard Techno"
+      "musicType": "Variedad"
     }
   ]
 }

@@ -1,12 +1,12 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Catálogo autonómico ampliado: Nacional rehecha con cadenas nacionales principales y 17 comunidades reforzadas a 150 emisoras por comunidad.",
+  "syncMessage": "Catálogo autonómico reforzado y resumen de progreso actualizado.",
   "stats": {
-    "seedCount": 1664,
+    "seedCount": 1932,
     "playableCount": 1664,
     "verifiedCount": 1664,
-    "candidateCount": 0,
-    "pendingCount": 0
+    "candidateCount": 267,
+    "pendingCount": 1
   },
   "featuredIds": [
     "cadena-ser-nacional",
@@ -43,119 +43,119 @@
       "id": "andalucia",
       "name": "Andalucía",
       "path": "communities/andalucia.json",
-      "seedCount": 104,
+      "seedCount": 147,
       "playableCount": 104
     },
     {
       "id": "aragon",
       "name": "Aragón",
       "path": "communities/aragon.json",
-      "seedCount": 95,
+      "seedCount": 106,
       "playableCount": 95
     },
     {
       "id": "asturias",
       "name": "Asturias",
       "path": "communities/asturias.json",
-      "seedCount": 97,
+      "seedCount": 99,
       "playableCount": 97
     },
     {
       "id": "canarias",
       "name": "Canarias",
       "path": "communities/canarias.json",
-      "seedCount": 95,
+      "seedCount": 131,
       "playableCount": 95
     },
     {
       "id": "cantabria",
       "name": "Cantabria",
       "path": "communities/cantabria.json",
-      "seedCount": 95,
+      "seedCount": 100,
       "playableCount": 95
     },
     {
       "id": "castilla-la-mancha",
       "name": "Castilla-La Mancha",
       "path": "communities/castilla-la-mancha.json",
-      "seedCount": 95,
+      "seedCount": 107,
       "playableCount": 95
     },
     {
       "id": "castilla-y-leon",
       "name": "Castilla y León",
       "path": "communities/castilla-y-leon.json",
-      "seedCount": 95,
+      "seedCount": 110,
       "playableCount": 95
     },
     {
       "id": "catalunya",
       "name": "Catalunya",
       "path": "communities/catalunya.json",
-      "seedCount": 97,
+      "seedCount": 122,
       "playableCount": 97
     },
     {
       "id": "comunitat-valenciana",
       "name": "Comunitat Valenciana",
       "path": "communities/comunitat-valenciana.json",
-      "seedCount": 95,
+      "seedCount": 120,
       "playableCount": 95
     },
     {
       "id": "euskadi",
       "name": "Euskadi",
       "path": "communities/euskadi.json",
-      "seedCount": 95,
+      "seedCount": 115,
       "playableCount": 95
     },
     {
       "id": "extremadura",
       "name": "Extremadura",
       "path": "communities/extremadura.json",
-      "seedCount": 96,
+      "seedCount": 100,
       "playableCount": 96
     },
     {
       "id": "galicia",
       "name": "Galicia",
       "path": "communities/galicia.json",
-      "seedCount": 78,
+      "seedCount": 90,
       "playableCount": 78
     },
     {
       "id": "illes-balears",
       "name": "Illes Balears",
       "path": "communities/illes-balears.json",
-      "seedCount": 95,
+      "seedCount": 122,
       "playableCount": 95
     },
     {
       "id": "la-rioja",
       "name": "La Rioja",
       "path": "communities/la-rioja.json",
-      "seedCount": 96,
+      "seedCount": 97,
       "playableCount": 96
     },
     {
       "id": "madrid",
       "name": "Madrid",
       "path": "communities/madrid.json",
-      "seedCount": 96,
+      "seedCount": 116,
       "playableCount": 96
     },
     {
       "id": "murcia",
       "name": "Región de Murcia",
       "path": "communities/murcia.json",
-      "seedCount": 95,
+      "seedCount": 101,
       "playableCount": 95
     },
     {
       "id": "navarra",
       "name": "Navarra",
       "path": "communities/navarra.json",
-      "seedCount": 95,
+      "seedCount": 99,
       "playableCount": 95
     },
     {

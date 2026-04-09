@@ -1,10 +1,206 @@
 {
-  "seedCount": 95,
+  "seedCount": 122,
   "playableCount": 95,
   "verifiedCount": 95,
-  "candidateCount": 0,
+  "candidateCount": 27,
   "pendingCount": 0,
   "stations": [
+    {
+      "id": "illes-balears--actuality-fm",
+      "name": "Actuality FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "https://www.actualityfm.es/p/play.html",
+      "logoUrl": "https://graph.facebook.com/ActualityFM.es/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streaming0103.sonicpanelradio.com/8248/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Dance"
+    },
+    {
+      "id": "illes-balears--afradio",
+      "name": "AFradio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "https://coolturafm.com",
+      "logoUrl": "https://graph.facebook.com/coolturafm/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://server9.emitironline.com:19244/",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "illes-balears--antena-1-radio",
+      "name": "Antena 1 Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "https://www.radioplaneta.com/",
+      "logoUrl": "https://yt3.ggpht.com/ytc/AKedOLRETQgEcm3bzxRJOct7AMt2oYneaikmoSjYi_GqxQ%3Ds200-c-k-c0x00ffffff-no-rj",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://radioplaneta.emitironline.com/",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Dance"
+    },
+    {
+      "id": "illes-balears--antena-cemu-radio",
+      "name": "Antena CEMU Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Educación",
+      "community": "Illes Balears",
+      "websiteUrl": "https://antenacemu.com/emision-online/",
+      "logoUrl": "https://graph.facebook.com/401769933317531/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://sonic.mediatelekom.net/9980/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "illes-balears--bi-fm",
+      "name": "BI FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "https://www.bifmradio.com/",
+      "logoUrl": "https://www.bifmradio.com/wp-content/uploads/2020/12/bifm-logo.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Candidato tercero",
+          "url": "http://94.75.234.135:8052/listen.plsmp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "liveradio.ie"
+        }
+      ],
+      "musicType": "Indie"
+    },
+    {
+      "id": "illes-balears--buena-onda-musical",
+      "name": "Buena Onda Musical",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "https://masbuenafm.com",
+      "logoUrl": "https://graph.facebook.com/masbuenafm/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://sonic.mediatelekom.net/8156/stream",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Latina"
+    },
+    {
+      "id": "illes-balears--can-deu-fm",
+      "name": "Can Deu FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "http://candeufm.com",
+      "logoUrl": "http://candeufm.com/e107_images/custom/2021app.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://radios.solumedia.com/6716/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "illes-balears--candela-radio",
+      "name": "Candela Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "https://candelaradio.fm/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/m6mstp6fmuzc.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 público",
+          "url": "http://uk1-pn.webcast-server.net:8226",
+          "format": "mp3",
+          "priority": 1,
+          "source": "radio-online-json-url"
+        }
+      ],
+      "musicType": "Latina"
+    },
+    {
+      "id": "illes-balears--candil-radio",
+      "name": "Candil Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Illes Balears",
+      "websiteUrl": "https://candilradio.com/",
+      "logoUrl": "https://graph.facebook.com/CandilRadio/picture?height=200&width=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://candilradio.com/liveradio/candil/live.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
     {
       "id": "illes-balears--carrusel-fm",
       "name": "Carrusel FM",
@@ -224,6 +420,28 @@
       "musicType": "Flamenco"
     },
     {
+      "id": "illes-balears--formula-exitos-mp",
+      "name": "Fórmula Éxitos MP",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "https://mdtradio.com/canales-tematicos/",
+      "logoUrl": "https://mdtradio.com/wp-content/uploads/2024/11/Logo-MDT-Radio-Pop-Stars-Fm2.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streams1.mdtradio.com:8443/PopStarsFm",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Pop"
+    },
+    {
       "id": "illes-balears--free-fm-rock",
       "name": "Free FM Rock",
       "tagline": "",
@@ -311,28 +529,6 @@
       "musicType": "Navidad"
     },
     {
-      "id": "illes-balears--formula-exitos-mp",
-      "name": "Fórmula Éxitos MP",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Illes Balears",
-      "websiteUrl": "https://mdtradio.com/canales-tematicos/",
-      "logoUrl": "https://mdtradio.com/wp-content/uploads/2024/11/Logo-MDT-Radio-Pop-Stars-Fm2.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://streams1.mdtradio.com:8443/PopStarsFm",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Pop"
-    },
-    {
       "id": "illes-balears--globo-fm",
       "name": "Globo FM",
       "tagline": "",
@@ -375,6 +571,50 @@
         }
       ],
       "musicType": "Latino"
+    },
+    {
+      "id": "illes-balears--gran-via-radio",
+      "name": "Gran Via Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "https://granviaradiofm.es",
+      "logoUrl": "https://graph.facebook.com/1397103013646307/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://servidor14-3.brlogic.com:7066/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "illes-balears--guateque-fm",
+      "name": "Guateque FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "https://guatequefm.com",
+      "logoUrl": "https://play-lh.googleusercontent.com/29cOsGnQ8A3a-FJ1EkqBDVrMCIMWcQBORIWcmygreM9fNjU5C3Pci0CNDYDrv1NPPPD1=w200-h200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://eu1.lhdserver.es:3219/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Oldies"
     },
     {
       "id": "illes-balears--hitz-90s-fm",
@@ -552,6 +792,28 @@
       "musicType": "Hits"
     },
     {
+      "id": "illes-balears--imagina-radio",
+      "name": "Imagina Ràdio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "https://www.imaginaradio.cat/directe/",
+      "logoUrl": "https://graph.facebook.com/ImaginaRadio103/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://relay.stream.enacast-cloud.com:30286/imaginaradioHD.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Hits"
+    },
+    {
       "id": "illes-balears--kandela-te-prende",
       "name": "KANDELA Te Prende",
       "tagline": "",
@@ -596,6 +858,50 @@
       "musicType": "Dance"
     },
     {
+      "id": "illes-balears--la-bomba-radio",
+      "name": "La Bomba Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "http://www.labombaradio.es",
+      "logoUrl": "https://play-lh.googleusercontent.com/RnnCJFfcSu-Ma6MSoLJ4hDT2qz9tNrzHz3AdOyFy-h5bjRb0oakVfVOMtPOn5F7tmA=w200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://stm2.emiteonline.com:9014/labomba",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Latina"
+    },
+    {
+      "id": "illes-balears--la-cheverisima-radio",
+      "name": "La Cheverisima Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "https://lacheverisimaradio.com",
+      "logoUrl": "https://play-lh.googleusercontent.com/paqCGWhxPmfQOzkssgQHBiAW60j3zi04Hq9K2UWM_oddr-X-ZriB6OK-K0Xr8lmP4A=w200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://samuel.i-radio.co:9000/lacheverisima",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Latina"
+    },
+    {
       "id": "illes-balears--la-condesa-fm",
       "name": "La Condesa FM",
       "tagline": "",
@@ -638,6 +944,49 @@
         }
       ],
       "musicType": "Flamenco"
+    },
+    {
+      "id": "illes-balears--la-fresca-fm",
+      "name": "La Fresca FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "https://www.lafresca.fm/",
+      "logoUrl": "https://graph.facebook.com/lafresca.es/picture?height=200&width=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://stream.produccionesdale.com/listen/lafresca/altacalidad",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Top 40"
+    },
+    {
+      "id": "illes-balears--la-marina-fm",
+      "name": "La Marina FM",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Illes Balears",
+      "websiteUrl": "https://lamarina.cat/endirecte/",
+      "logoUrl": "https://graph.facebook.com/lamarinacat/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streaming2.elitecomunicacion.es:8248/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "illes-balears--la-suegra-fm",
@@ -970,6 +1319,50 @@
       "musicType": "Urbana"
     },
     {
+      "id": "illes-balears--lokura-radio",
+      "name": "Lokura Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "https://suena.live/p/5/?identificador=lokuraradio",
+      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fsuena.live",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Zeno candidato",
+          "url": "https://stream.zeno.fm/3fks04pxchvv",
+          "format": "auto",
+          "priority": 1,
+          "source": "Instagram/Zeno"
+        }
+      ],
+      "musicType": "Remember"
+    },
+    {
+      "id": "illes-balears--mariskalrock-radio",
+      "name": "MariskalRock Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "https://mariskalrock.com",
+      "logoUrl": "https://graph.facebook.com/mariskalrock/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://media.profesionalhosting.com:8047/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Rock"
+    },
+    {
       "id": "illes-balears--mdt-radio-pop-stars",
       "name": "MDT Radio Pop Stars",
       "tagline": "",
@@ -1014,26 +1407,26 @@
       "musicType": "Remember"
     },
     {
-      "id": "illes-balears--mariskalrock-radio",
-      "name": "MariskalRock Radio",
+      "id": "illes-balears--medea-fm",
+      "name": "Medea FM",
       "tagline": "",
       "description": "",
       "category": "Música",
       "community": "Illes Balears",
-      "websiteUrl": "https://mariskalrock.com",
-      "logoUrl": "https://graph.facebook.com/mariskalrock/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
+      "websiteUrl": "https://medeafm.es",
+      "logoUrl": "https://graph.facebook.com/radiomedeafm/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "Stream principal",
-          "url": "https://media.profesionalhosting.com:8047/stream",
-          "format": "auto",
+          "url": "https://sonic.mediatelekom.net/8562/;.mp3",
+          "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Rock"
+      "musicType": "Variedad"
     },
     {
       "id": "illes-balears--muralla-metal-rock",
@@ -1056,6 +1449,157 @@
         }
       ],
       "musicType": "Rock"
+    },
+    {
+      "id": "illes-balears--nostalgia-fm",
+      "name": "Nostalgia FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "https://nostalgiafm.es/",
+      "logoUrl": "https://graph.facebook.com/NostalgiaFMSpain/picture?height=200&width=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://azura.abcorp.es/radio/8040/live",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Oldies"
+    },
+    {
+      "id": "illes-balears--ona-la-torre",
+      "name": "Ona La Torre",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Illes Balears",
+      "websiteUrl": "https://www.ona-latorre.cat",
+      "logoUrl": "https://graph.facebook.com/ona.latorre/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://streaming.enacast.com/onalatorreSD.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "illes-balears--onda-capital",
+      "name": "Onda Capital",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Illes Balears",
+      "websiteUrl": "https://ondacapital.es/",
+      "logoUrl": "https://graph.facebook.com/ondacapitalfm/picture?height=200&width=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://server1.radiocast.es/listen/onda_capital/capitalweb",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "illes-balears--onda-latina",
+      "name": "Onda Latina",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "http://www.ondalatina.com.es",
+      "logoUrl": "https://graph.facebook.com/ondalatina.com.es/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://cervera.eldialdigital.com:21131/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Latina"
+    },
+    {
+      "id": "illes-balears--onda-merlin-c-radio",
+      "name": "Onda Merlín C Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "https://www.omcradio.org/escuchanos/",
+      "logoUrl": "https://graph.facebook.com/OmcRadio/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://radio.radiobot.org/listen/omc/directo.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "illes-balears--onda-ocio",
+      "name": "Onda Ocio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "https://ondaocio.com/",
+      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fondaocio.com",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Zeno directo",
+          "url": "http://stream.zeno.fm/u4e4bdyuvmzuv",
+          "format": "mp3",
+          "priority": 1,
+          "source": "Facebook / Zeno"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "illes-balears--onda-vallekana",
+      "name": "Onda Vallekana",
+      "tagline": "",
+      "description": "",
+      "category": "Comunitaria",
+      "community": "Illes Balears",
+      "websiteUrl": "https://www.ondavallekana.es/",
+      "logoUrl": "https://ondavallekana.es/wp-content/uploads/2023/11/ReducidoLogo2.png",
+      "sourceSeed": "TDTChannels",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://sonic.sistemahost.es/8152/;",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "illes-balears--orquestas",
@@ -1102,6 +1646,28 @@
       "musicType": "Rock"
     },
     {
+      "id": "illes-balears--proxima-fm",
+      "name": "Pròxima FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "http://proximafm.cat",
+      "logoUrl": "https://graph.facebook.com/proximafm/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://mars.streamerr.co/8058/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Dance"
+    },
+    {
       "id": "illes-balears--radio-7",
       "name": "Radio 7",
       "tagline": "",
@@ -1143,748 +1709,6 @@
         }
       ],
       "musicType": "Oldies"
-    },
-    {
-      "id": "illes-balears--radio-espana-network",
-      "name": "Radio España Network",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Illes Balears",
-      "websiteUrl": "https://www.espananetwork.net/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/582/radio-espana-network.406b0f62.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://stream.zeno.fm/ocinyyji4rntv",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Dance"
-    },
-    {
-      "id": "illes-balears--radio-lider-espana",
-      "name": "Radio Líder España",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Illes Balears",
-      "websiteUrl": "https://radiolider.com/en-directo/",
-      "logoUrl": "https://graph.facebook.com/radiolidergalicia/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://server9.emitironline.com:8200/stream",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "illes-balears--radio-romanul",
-      "name": "Radio Romanul",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Illes Balears",
-      "websiteUrl": "https://www.radioromanul.es/live/",
-      "logoUrl": "https://graph.facebook.com/RadioRomanul/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "http://streaming.radioromanul.es:55556/web",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "World"
-    },
-    {
-      "id": "illes-balears--radio-tentacion",
-      "name": "Radio Tentación",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Illes Balears",
-      "websiteUrl": "https://www.radiotentacion.com/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/qsx7hlyfbmhr.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://streaming6.locucionar.com:2020/stream/radiotentacion",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Pop latino"
-    },
-    {
-      "id": "illes-balears--radio-zumba",
-      "name": "Radio Zumba",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Illes Balears",
-      "websiteUrl": "https://gozadera.es/",
-      "logoUrl": "https://graph.facebook.com/GozaderaSpain/picture?height=200&width=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://azura.abcorp.es/radio/8030/live",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Latino"
-    },
-    {
-      "id": "illes-balears--top-radio",
-      "name": "Top Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Illes Balears",
-      "websiteUrl": "https://www.topradio.es/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/252/top-radio-spain.8a90733b.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://mdstrm.com/audio/66ec3c9fabba24a0a2e59de8/live.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Pop en español"
-    },
-    {
-      "id": "illes-balears--nostalgia-fm",
-      "name": "Nostalgia FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Illes Balears",
-      "websiteUrl": "https://nostalgiafm.es/",
-      "logoUrl": "https://graph.facebook.com/NostalgiaFMSpain/picture?height=200&width=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://azura.abcorp.es/radio/8040/live",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Oldies"
-    },
-    {
-      "id": "illes-balears--radio-planeta",
-      "name": "Radio Planeta",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Illes Balears",
-      "websiteUrl": "https://www.radioplaneta.com/",
-      "logoUrl": "https://yt3.ggpht.com/ytc/AKedOLRETQgEcm3bzxRJOct7AMt2oYneaikmoSjYi_GqxQ%3Ds200-c-k-c0x00ffffff-no-rj",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://radioplaneta.emitironline.com/",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Dance"
-    },
-    {
-      "id": "illes-balears--antena-1-radio",
-      "name": "Antena 1 Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Illes Balears",
-      "websiteUrl": "https://www.radioplaneta.com/",
-      "logoUrl": "https://yt3.ggpht.com/ytc/AKedOLRETQgEcm3bzxRJOct7AMt2oYneaikmoSjYi_GqxQ%3Ds200-c-k-c0x00ffffff-no-rj",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://radioplaneta.emitironline.com/",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Dance"
-    },
-    {
-      "id": "illes-balears--xtrema-fm",
-      "name": "Xtrema FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Illes Balears",
-      "websiteUrl": "https://www.xtremafm.es",
-      "logoUrl": "https://graph.facebook.com/xtremafm/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://server1.radiocast.es/listen/xtrema_fm/xtremafm",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Top 40"
-    },
-    {
-      "id": "illes-balears--guateque-fm",
-      "name": "Guateque FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Illes Balears",
-      "websiteUrl": "https://guatequefm.com",
-      "logoUrl": "https://play-lh.googleusercontent.com/29cOsGnQ8A3a-FJ1EkqBDVrMCIMWcQBORIWcmygreM9fNjU5C3Pci0CNDYDrv1NPPPD1=w200-h200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://eu1.lhdserver.es:3219/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Oldies"
-    },
-    {
-      "id": "illes-balears--onda-ocio",
-      "name": "Onda Ocio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Illes Balears",
-      "websiteUrl": "https://ondaocio.com/",
-      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fondaocio.com",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Zeno directo",
-          "url": "http://stream.zeno.fm/u4e4bdyuvmzuv",
-          "format": "mp3",
-          "priority": 1,
-          "source": "Facebook / Zeno"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "illes-balears--afradio",
-      "name": "AFradio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Illes Balears",
-      "websiteUrl": "https://coolturafm.com",
-      "logoUrl": "https://graph.facebook.com/coolturafm/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://server9.emitironline.com:19244/",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "illes-balears--actuality-fm",
-      "name": "Actuality FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Illes Balears",
-      "websiteUrl": "https://www.actualityfm.es/p/play.html",
-      "logoUrl": "https://graph.facebook.com/ActualityFM.es/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://streaming0103.sonicpanelradio.com/8248/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Dance"
-    },
-    {
-      "id": "illes-balears--vinilo-fm",
-      "name": "Vinilo FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Illes Balears",
-      "websiteUrl": "https://vinilofm.es/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/WvYVyHUvbU.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 Bizkaia",
-          "url": "https://radio.vinilofm.es/radio/8000/bizkaia.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Classic Hits"
-    },
-    {
-      "id": "illes-balears--buena-onda-musical",
-      "name": "Buena Onda Musical",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Illes Balears",
-      "websiteUrl": "https://masbuenafm.com",
-      "logoUrl": "https://graph.facebook.com/masbuenafm/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://sonic.mediatelekom.net/8156/stream",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Latina"
-    },
-    {
-      "id": "illes-balears--candela-radio",
-      "name": "Candela Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Illes Balears",
-      "websiteUrl": "https://candelaradio.fm/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/m6mstp6fmuzc.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 público",
-          "url": "http://uk1-pn.webcast-server.net:8226",
-          "format": "mp3",
-          "priority": 1,
-          "source": "radio-online-json-url"
-        }
-      ],
-      "musicType": "Latina"
-    },
-    {
-      "id": "illes-balears--gran-via-radio",
-      "name": "Gran Via Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Illes Balears",
-      "websiteUrl": "https://granviaradiofm.es",
-      "logoUrl": "https://graph.facebook.com/1397103013646307/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://servidor14-3.brlogic.com:7066/live",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "illes-balears--lokura-radio",
-      "name": "Lokura Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Illes Balears",
-      "websiteUrl": "https://suena.live/p/5/?identificador=lokuraradio",
-      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fsuena.live",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Zeno candidato",
-          "url": "https://stream.zeno.fm/3fks04pxchvv",
-          "format": "auto",
-          "priority": 1,
-          "source": "Instagram/Zeno"
-        }
-      ],
-      "musicType": "Remember"
-    },
-    {
-      "id": "illes-balears--medea-fm",
-      "name": "Medea FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Illes Balears",
-      "websiteUrl": "https://medeafm.es",
-      "logoUrl": "https://graph.facebook.com/radiomedeafm/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://sonic.mediatelekom.net/8562/;.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "illes-balears--la-fresca-fm",
-      "name": "La Fresca FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Illes Balears",
-      "websiteUrl": "https://www.lafresca.fm/",
-      "logoUrl": "https://graph.facebook.com/lafresca.es/picture?height=200&width=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://stream.produccionesdale.com/listen/lafresca/altacalidad",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Top 40"
-    },
-    {
-      "id": "illes-balears--la-bomba-radio",
-      "name": "La Bomba Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Illes Balears",
-      "websiteUrl": "http://www.labombaradio.es",
-      "logoUrl": "https://play-lh.googleusercontent.com/RnnCJFfcSu-Ma6MSoLJ4hDT2qz9tNrzHz3AdOyFy-h5bjRb0oakVfVOMtPOn5F7tmA=w200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://stm2.emiteonline.com:9014/labomba",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Latina"
-    },
-    {
-      "id": "illes-balears--la-cheverisima-radio",
-      "name": "La Cheverisima Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Illes Balears",
-      "websiteUrl": "https://lacheverisimaradio.com",
-      "logoUrl": "https://play-lh.googleusercontent.com/paqCGWhxPmfQOzkssgQHBiAW60j3zi04Hq9K2UWM_oddr-X-ZriB6OK-K0Xr8lmP4A=w200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://samuel.i-radio.co:9000/lacheverisima",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Latina"
-    },
-    {
-      "id": "illes-balears--onda-latina",
-      "name": "Onda Latina",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Illes Balears",
-      "websiteUrl": "http://www.ondalatina.com.es",
-      "logoUrl": "https://graph.facebook.com/ondalatina.com.es/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://cervera.eldialdigital.com:21131/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Latina"
-    },
-    {
-      "id": "illes-balears--radiogolex",
-      "name": "Radiogolex",
-      "tagline": "",
-      "description": "",
-      "category": "Deporte",
-      "community": "Illes Balears",
-      "websiteUrl": "https://www.radiogolex.com",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/jjfvpljqgdgp.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream directo",
-          "url": "https://streaming12.elitecomunicacion.es:8218/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "illes-balears--radio-teletaxi",
-      "name": "Radio TeleTaxi",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Illes Balears",
-      "websiteUrl": "https://www.radioteletaxi.com/reproductor/",
-      "logoUrl": "https://graph.facebook.com/radioteletaxi/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://radiott-web.streaming-pro.com:6103/radiott.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Latina"
-    },
-    {
-      "id": "illes-balears--antena-cemu-radio",
-      "name": "Antena CEMU Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Educación",
-      "community": "Illes Balears",
-      "websiteUrl": "https://antenacemu.com/emision-online/",
-      "logoUrl": "https://graph.facebook.com/401769933317531/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://sonic.mediatelekom.net/9980/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "illes-balears--rec-radio",
-      "name": "REC Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Illes Balears",
-      "websiteUrl": "https://www.recradio.es/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/398/rec-radio.dda7b9b0.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://server9.emitironline.com:19488/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "illes-balears--bi-fm",
-      "name": "BI FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Illes Balears",
-      "websiteUrl": "https://www.bifmradio.com/",
-      "logoUrl": "https://www.bifmradio.com/wp-content/uploads/2020/12/bifm-logo.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Candidato tercero",
-          "url": "http://94.75.234.135:8052/listen.plsmp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "liveradio.ie"
-        }
-      ],
-      "musicType": "Indie"
-    },
-    {
-      "id": "illes-balears--candil-radio",
-      "name": "Candil Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Illes Balears",
-      "websiteUrl": "https://candilradio.com/",
-      "logoUrl": "https://graph.facebook.com/CandilRadio/picture?height=200&width=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://candilradio.com/liveradio/candil/live.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "illes-balears--can-deu-fm",
-      "name": "Can Deu FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Illes Balears",
-      "websiteUrl": "http://candeufm.com",
-      "logoUrl": "http://candeufm.com/e107_images/custom/2021app.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://radios.solumedia.com/6716/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "illes-balears--imagina-radio",
-      "name": "Imagina Ràdio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Illes Balears",
-      "websiteUrl": "https://www.imaginaradio.cat/directe/",
-      "logoUrl": "https://graph.facebook.com/ImaginaRadio103/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://relay.stream.enacast-cloud.com:30286/imaginaradioHD.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Hits"
-    },
-    {
-      "id": "illes-balears--onda-capital",
-      "name": "Onda Capital",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Illes Balears",
-      "websiteUrl": "https://ondacapital.es/",
-      "logoUrl": "https://graph.facebook.com/ondacapitalfm/picture?height=200&width=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://server1.radiocast.es/listen/onda_capital/capitalweb",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "illes-balears--radio-utopia",
-      "name": "Radio Utopía",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Illes Balears",
-      "websiteUrl": "https://www.radioutopia.org.es",
-      "logoUrl": "https://graph.facebook.com/179099278878655/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "http://streaming.radioutopia.org.es:8000/radio-utopia.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Alternativa"
     },
     {
       "id": "illes-balears--radio-almenara",
@@ -1929,6 +1753,93 @@
       ]
     },
     {
+      "id": "illes-balears--radio-espana-network",
+      "name": "Radio España Network",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "https://www.espananetwork.net/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/582/radio-espana-network.406b0f62.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://stream.zeno.fm/ocinyyji4rntv",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Dance"
+    },
+    {
+      "id": "illes-balears--radio-la-mina",
+      "name": "Radio La Mina",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "https://radiolamina.blogspot.com",
+      "logoUrl": "https://graph.facebook.com/RadiolaMina/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "http://cervera.eldialdigital.com:11121/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Urbana"
+    },
+    {
+      "id": "illes-balears--radio-lider-espana",
+      "name": "Radio Líder España",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Illes Balears",
+      "websiteUrl": "https://radiolider.com/en-directo/",
+      "logoUrl": "https://graph.facebook.com/radiolidergalicia/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://server9.emitironline.com:8200/stream",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "illes-balears--radio-planeta",
+      "name": "Radio Planeta",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "https://www.radioplaneta.com/",
+      "logoUrl": "https://yt3.ggpht.com/ytc/AKedOLRETQgEcm3bzxRJOct7AMt2oYneaikmoSjYi_GqxQ%3Ds200-c-k-c0x00ffffff-no-rj",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://radioplaneta.emitironline.com/",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Dance"
+    },
+    {
       "id": "illes-balears--radio-qk",
       "name": "Radio QK",
       "tagline": "",
@@ -1950,64 +1861,131 @@
       ]
     },
     {
-      "id": "illes-balears--proxima-fm",
-      "name": "Pròxima FM",
+      "id": "illes-balears--radio-romanul",
+      "name": "Radio Romanul",
       "tagline": "",
       "description": "",
       "category": "Música",
       "community": "Illes Balears",
-      "websiteUrl": "http://proximafm.cat",
-      "logoUrl": "https://graph.facebook.com/proximafm/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
+      "websiteUrl": "https://www.radioromanul.es/live/",
+      "logoUrl": "https://graph.facebook.com/RadioRomanul/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels",
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "Stream principal",
-          "url": "https://mars.streamerr.co/8058/stream",
+          "url": "http://streaming.radioromanul.es:55556/web",
           "format": "auto",
           "priority": 1,
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Dance"
+      "musicType": "World"
     },
     {
-      "id": "illes-balears--la-marina-fm",
-      "name": "La Marina FM",
+      "id": "illes-balears--radio-teletaxi",
+      "name": "Radio TeleTaxi",
       "tagline": "",
       "description": "",
-      "category": "Noticias",
+      "category": "Música",
       "community": "Illes Balears",
-      "websiteUrl": "https://lamarina.cat/endirecte/",
-      "logoUrl": "https://graph.facebook.com/lamarinacat/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://streaming2.elitecomunicacion.es:8248/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "illes-balears--ona-la-torre",
-      "name": "Ona La Torre",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Illes Balears",
-      "websiteUrl": "https://www.ona-latorre.cat",
-      "logoUrl": "https://graph.facebook.com/ona.latorre/picture?width=200&height=200",
+      "websiteUrl": "https://www.radioteletaxi.com/reproductor/",
+      "logoUrl": "https://graph.facebook.com/radioteletaxi/picture?width=200&height=200",
       "sourceSeed": "myTuner",
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "MP3 principal",
-          "url": "https://streaming.enacast.com/onalatorreSD.mp3",
+          "url": "https://radiott-web.streaming-pro.com:6103/radiott.mp3",
           "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Latina"
+    },
+    {
+      "id": "illes-balears--radio-tentacion",
+      "name": "Radio Tentación",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "https://www.radiotentacion.com/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/qsx7hlyfbmhr.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streaming6.locucionar.com:2020/stream/radiotentacion",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Pop latino"
+    },
+    {
+      "id": "illes-balears--radio-utopia",
+      "name": "Radio Utopía",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "https://www.radioutopia.org.es",
+      "logoUrl": "https://graph.facebook.com/179099278878655/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "http://streaming.radioutopia.org.es:8000/radio-utopia.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Alternativa"
+    },
+    {
+      "id": "illes-balears--radio-zumba",
+      "name": "Radio Zumba",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "https://gozadera.es/",
+      "logoUrl": "https://graph.facebook.com/GozaderaSpain/picture?height=200&width=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://azura.abcorp.es/radio/8030/live",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Latino"
+    },
+    {
+      "id": "illes-balears--radiogolex",
+      "name": "Radiogolex",
+      "tagline": "",
+      "description": "",
+      "category": "Deporte",
+      "community": "Illes Balears",
+      "websiteUrl": "https://www.radiogolex.com",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/jjfvpljqgdgp.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream directo",
+          "url": "https://streaming12.elitecomunicacion.es:8218/stream",
+          "format": "auto",
           "priority": 1,
           "source": "TDTChannels"
         }
@@ -2035,69 +2013,798 @@
       ]
     },
     {
-      "id": "illes-balears--radio-la-mina",
-      "name": "Radio La Mina",
+      "id": "illes-balears--rec-radio",
+      "name": "REC Radio",
       "tagline": "",
       "description": "",
-      "category": "Música",
+      "category": "Noticias",
       "community": "Illes Balears",
-      "websiteUrl": "https://radiolamina.blogspot.com",
-      "logoUrl": "https://graph.facebook.com/RadiolaMina/picture?width=200&height=200",
+      "websiteUrl": "https://www.recradio.es/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/398/rec-radio.dda7b9b0.png",
       "sourceSeed": "myTuner",
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "Stream principal",
-          "url": "http://cervera.eldialdigital.com:11121/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Urbana"
-    },
-    {
-      "id": "illes-balears--onda-merlin-c-radio",
-      "name": "Onda Merlín C Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Illes Balears",
-      "websiteUrl": "https://www.omcradio.org/escuchanos/",
-      "logoUrl": "https://graph.facebook.com/OmcRadio/picture?width=200&height=200",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://radio.radiobot.org/listen/omc/directo.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "illes-balears--onda-vallekana",
-      "name": "Onda Vallekana",
-      "tagline": "",
-      "description": "",
-      "category": "Comunitaria",
-      "community": "Illes Balears",
-      "websiteUrl": "https://www.ondavallekana.es/",
-      "logoUrl": "https://ondavallekana.es/wp-content/uploads/2023/11/ReducidoLogo2.png",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://sonic.sistemahost.es/8152/;",
+          "url": "https://server9.emitironline.com:19488/stream",
           "format": "auto",
           "priority": 1,
           "source": "TDTChannels"
         }
       ]
+    },
+    {
+      "id": "illes-balears--top-radio",
+      "name": "Top Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "https://www.topradio.es/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/252/top-radio-spain.8a90733b.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://mdstrm.com/audio/66ec3c9fabba24a0a2e59de8/live.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Pop en español"
+    },
+    {
+      "id": "illes-balears--vinilo-fm",
+      "name": "Vinilo FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "https://vinilofm.es/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/WvYVyHUvbU.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 Bizkaia",
+          "url": "https://radio.vinilofm.es/radio/8000/bizkaia.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Classic Hits"
+    },
+    {
+      "id": "illes-balears--xtrema-fm",
+      "name": "Xtrema FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "https://www.xtremafm.es",
+      "logoUrl": "https://graph.facebook.com/xtremafm/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://server1.radiocast.es/listen/xtrema_fm/xtremafm",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Top 40"
+    },
+    {
+      "id": "illes-balears--06am-ibiza-underground",
+      "seedName": "06AM Ibiza Underground",
+      "name": "06AM Ibiza Underground",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://streams.radio.co/sd1bcd1376/listen",
+          "format": "stream",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Electrónica"
+    },
+    {
+      "id": "illes-balears--blue-marlin-ibiza",
+      "seedName": "Blue Marlin Ibiza",
+      "name": "Blue Marlin Ibiza",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://s3.sonicabroadcast.com:8635",
+          "format": "stream",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Electrónica"
+    },
+    {
+      "id": "illes-balears--cadena-ser-ibiza",
+      "seedName": "Cadena SER - Ibiza",
+      "name": "Cadena SER - Ibiza",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://playerservices.streamtheworld.com/pls/SER_ASO_IBIZAAAC.pls",
+          "format": "pls",
+          "priority": 1,
+          "source": "Spain.json"
+        },
+        {
+          "label": "Alternativo 2",
+          "url": "http://playerservices.streamtheworld.com/pls/SER_ASO_IBIZA.pls",
+          "format": "pls",
+          "priority": 2,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "illes-balears--cadena-ser-mallorca",
+      "seedName": "Cadena SER - Mallorca",
+      "name": "Cadena SER - Mallorca",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://playerservices.streamtheworld.com/pls/SER_MALLORCA.pls",
+          "format": "pls",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "illes-balears--cafe-cody",
+      "seedName": "Cafe Cody",
+      "name": "Cafe Cody",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://ice31.securenetsystems.net/CAFECODY",
+          "format": "stream",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "illes-balears--cope-mallorca-90-9-fm",
+      "seedName": "COPE - Mallorca 90.9 FM",
+      "name": "COPE - Mallorca 90.9 FM",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Illes Balears",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://mallorca.copesedes.stream.flumotion.com/copesedes/mallorca.mp3.m3u",
+          "format": "m3u",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ]
+    },
+    {
+      "id": "illes-balears--cope-menorca-89-6-fm",
+      "seedName": "COPE - Menorca 89.6 FM",
+      "name": "COPE - Menorca 89.6 FM",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Illes Balears",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://menorca.copesedes.stream.flumotion.com/copesedes/menorca.mp3.m3u",
+          "format": "m3u",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ]
+    },
+    {
+      "id": "illes-balears--costa-del-mar-chillout",
+      "seedName": "Costa Del Mar - Chillout",
+      "name": "Costa Del Mar - Chillout",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://www.cdm-radio.com/cdm-chillout.m3u",
+          "format": "m3u",
+          "priority": 1,
+          "source": "Spain.json"
+        },
+        {
+          "label": "Alternativo 2",
+          "url": "http://www.cdm-radio.com/cdm-chillout-mp3.m3u",
+          "format": "m3u",
+          "priority": 2,
+          "source": "Spain.json"
+        },
+        {
+          "label": "Alternativo 3",
+          "url": "http://stream.cdm-chillout.com:8020/stream-AAC-Chill",
+          "format": "stream",
+          "priority": 3,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Electrónica"
+    },
+    {
+      "id": "illes-balears--costa-del-mar-dance",
+      "seedName": "Costa Del Mar - Dance",
+      "name": "Costa Del Mar - Dance",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://www.cdm-radio.com/cdm-dance.m3u",
+          "format": "m3u",
+          "priority": 1,
+          "source": "Spain.json"
+        },
+        {
+          "label": "Alternativo 2",
+          "url": "http://stream.cdm-dancemusic.com:8000/stream-AAC-Dance",
+          "format": "stream",
+          "priority": 2,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Dance"
+    },
+    {
+      "id": "illes-balears--costa-del-mar-deep-house",
+      "seedName": "Costa Del Mar - Deep House",
+      "name": "Costa Del Mar - Deep House",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://www.cdm-radio.com/Deep-House.m3u",
+          "format": "m3u",
+          "priority": 1,
+          "source": "Spain.json"
+        },
+        {
+          "label": "Alternativo 2",
+          "url": "http://stream.cdm-deephouse.com:8012/stream-AAC-Deep",
+          "format": "stream",
+          "priority": 2,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Dance"
+    },
+    {
+      "id": "illes-balears--costa-del-mar-funky",
+      "seedName": "Costa Del Mar - Funky",
+      "name": "Costa Del Mar - Funky",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://www.cdm-radio.com/cdm-funky.m3u",
+          "format": "m3u",
+          "priority": 1,
+          "source": "Spain.json"
+        },
+        {
+          "label": "Alternativo 2",
+          "url": "http://www.cdm-radio.com/cdm-funky-mp3.m3u",
+          "format": "m3u",
+          "priority": 2,
+          "source": "Spain.json"
+        },
+        {
+          "label": "Alternativo 3",
+          "url": "http://stream.cdm-funky.com:8008/stream-AAC-Funk",
+          "format": "stream",
+          "priority": 3,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "illes-balears--costa-del-mar-smooth-sax",
+      "seedName": "Costa Del Mar - Smooth Sax",
+      "name": "Costa Del Mar - Smooth Sax",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://www.cdm-radio.com/cdm-smoothsax-mp3.m3u",
+          "format": "m3u",
+          "priority": 1,
+          "source": "Spain.json"
+        },
+        {
+          "label": "Alternativo 2",
+          "url": "http://stream.cdm-smoothsax.com:8024/stream-mp3-Smooth",
+          "format": "stream",
+          "priority": 2,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Jazz"
+    },
+    {
+      "id": "illes-balears--costa-del-mar-zen",
+      "seedName": "Costa Del Mar - Zen",
+      "name": "Costa Del Mar - Zen",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://www.cdm-radio.com/cdm-zen.m3u",
+          "format": "m3u",
+          "priority": 1,
+          "source": "Spain.json"
+        },
+        {
+          "label": "Alternativo 2",
+          "url": "http://www.cdm-radio.com/cdm-zen-mp3.m3u",
+          "format": "m3u",
+          "priority": 2,
+          "source": "Spain.json"
+        },
+        {
+          "label": "Alternativo 3",
+          "url": "http://stream.cdm-zen.com:8004/stream-AAC-Zen",
+          "format": "stream",
+          "priority": 3,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "illes-balears--das-inselradio-mallorca",
+      "seedName": "Das Inselradio Mallorca",
+      "name": "Das Inselradio Mallorca",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://stream.inselradio.com/high.inselradio.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "Spain.json"
+        },
+        {
+          "label": "Alternativo 2",
+          "url": "http://stream.inselradio.com/high.inselradio.mp4",
+          "format": "stream",
+          "priority": 2,
+          "source": "Spain.json"
+        },
+        {
+          "label": "Alternativo 3",
+          "url": "https://stream.inselradio.com/low.inselradio.mp3",
+          "format": "mp3",
+          "priority": 3,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "illes-balears--fiesta-fm-mallorca",
+      "seedName": "Fiesta FM :: Mallorca",
+      "name": "Fiesta FM :: Mallorca",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://5.135.183.124:9510/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "illes-balears--ib3-radio-mallorca",
+      "seedName": "IB3 Ràdio - Mallorca",
+      "name": "IB3 Ràdio - Mallorca",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Illes Balears",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://streaming01.ib3radio.com:8000/ib3radio.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ]
+    },
+    {
+      "id": "illes-balears--ib3-radio-menorca",
+      "seedName": "IB3 Ràdio - Menorca",
+      "name": "IB3 Ràdio - Menorca",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Illes Balears",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://streaming01.ib3radio.com:8000/ib3radio_menorca",
+          "format": "stream",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ]
+    },
+    {
+      "id": "illes-balears--ib3-radio-pitiuses",
+      "seedName": "IB3 Ràdio -  Pitiüses",
+      "name": "IB3 Ràdio -  Pitiüses",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Illes Balears",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://streaming01.ib3radio.com:8000/ib3radio_pitiuses",
+          "format": "stream",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ]
+    },
+    {
+      "id": "illes-balears--ibiza-global-radio-97-6-fm",
+      "seedName": "Ibiza Global Radio 97.6 FM",
+      "name": "Ibiza Global Radio 97.6 FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://ibizaglobalradio.streaming-pro.com:8024",
+          "format": "stream",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Electrónica"
+    },
+    {
+      "id": "illes-balears--ibiza-live-radio",
+      "seedName": "Ibiza Live Radio",
+      "name": "Ibiza Live Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://198.105.214.140:6571/Live",
+          "format": "stream",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Electrónica"
+    },
+    {
+      "id": "illes-balears--ibiza-radios-funky",
+      "seedName": "Ibiza Radios - Funky",
+      "name": "Ibiza Radios - Funky",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://54.38.43.201:8030/stream-128kmp3-IbizaFunky",
+          "format": "stream",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "illes-balears--ibiza-radios-hits",
+      "seedName": "Ibiza Radios - Hits",
+      "name": "Ibiza Radios - Hits",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://54.38.43.201:8024/stream-128kmp3-IbizaHits",
+          "format": "stream",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Rock"
+    },
+    {
+      "id": "illes-balears--ibiza-sonica-92-4-fm",
+      "seedName": "Ibiza Sonica 92.4 FM",
+      "name": "Ibiza Sonica 92.4 FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://stream3.ibizasonica.com:8136/;",
+          "format": "stream",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Dance"
+    },
+    {
+      "id": "illes-balears--mallorca-sunshine-radio",
+      "seedName": "Mallorca Sunshine Radio",
+      "name": "Mallorca Sunshine Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://stream.inselradio.com/high.sunshine.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "Spain.json"
+        },
+        {
+          "label": "Alternativo 2",
+          "url": "http://stream.inselradio.com/low.sunshine.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "illes-balears--palmenstrand-radio",
+      "seedName": "Palmenstrand Radio",
+      "name": "Palmenstrand Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://188.138.16.171:8000",
+          "format": "stream",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "illes-balears--radio-aleman-mallorca",
+      "seedName": "Radio Aleman Mallorca",
+      "name": "Radio Aleman Mallorca",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://streaming.radio.co/s9705e33e1/listen",
+          "format": "stream",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "illes-balears--radio-now-94-5-fm",
+      "seedName": "Radio Now 94.5 FM",
+      "name": "Radio Now 94.5 FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Illes Balears",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://69.30.218.190:29360/;",
+          "format": "stream",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Dance"
     }
   ]
 }

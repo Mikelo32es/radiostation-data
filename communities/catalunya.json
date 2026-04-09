@@ -1,8 +1,8 @@
 {
-  "seedCount": 97,
+  "seedCount": 122,
   "playableCount": 97,
   "verifiedCount": 97,
-  "candidateCount": 0,
+  "candidateCount": 25,
   "pendingCount": 0,
   "stations": [
     {
@@ -106,6 +106,28 @@
       ]
     },
     {
+      "id": "catalunya--carrusel-fm",
+      "name": "Carrusel FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Catalunya",
+      "websiteUrl": "http://www.carruselfm.com",
+      "logoUrl": "https://pbs.twimg.com/profile_images/520332074147123200/pzYkTYHB_200x200.jpeg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://server10.emitironline.com:8921/radio?.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Remember"
+    },
+    {
       "id": "catalunya--catalunya-informacio",
       "name": "Catalunya Informació",
       "tagline": "",
@@ -168,6 +190,50 @@
           "source": "TDTChannels"
         }
       ]
+    },
+    {
+      "id": "catalunya--conexiondance-radio",
+      "name": "Conexiondance Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Catalunya",
+      "websiteUrl": "https://decibeliafm.es/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1580311659226210310/umHvZ3-d_200x200.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streaming.shoutcast.com/decibelia",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Dance"
+    },
+    {
+      "id": "catalunya--cooltura-fm",
+      "name": "Cooltura FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Catalunya",
+      "websiteUrl": "https://coolturafm.com",
+      "logoUrl": "https://graph.facebook.com/coolturafm/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://server9.emitironline.com:19244/",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Variedad"
     },
     {
       "id": "catalunya--cope-barcelona-miramar",
@@ -252,991 +318,6 @@
           "source": "TDTChannels"
         }
       ]
-    },
-    {
-      "id": "catalunya--flaix-fm",
-      "name": "Flaix FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Catalunya",
-      "websiteUrl": "https://flaixfm.cat",
-      "logoUrl": "https://pbs.twimg.com/profile_images/1051761197127745541/whMnn4_K_200x200.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://stream.flaixfm.cat/icecast",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Dance"
-    },
-    {
-      "id": "catalunya--flaixbac",
-      "name": "Flaixbac",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Catalunya",
-      "websiteUrl": "https://www.flaixbac.cat",
-      "logoUrl": "https://pbs.twimg.com/profile_images/1164926188307001344/PtDeZDOO_200x200.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://stream.flaixbac.cat/icecast",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Pop"
-    },
-    {
-      "id": "catalunya--icat",
-      "name": "iCat",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Catalunya",
-      "websiteUrl": "https://www.3cat.cat/3cat/directes/icat/",
-      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/ICat.cat.svg/250px-ICat.cat.svg.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://directes-radio-int.3catdirectes.cat/live-content/icat-hls/master.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Alternativa"
-    },
-    {
-      "id": "catalunya--jazz-radio-bcn",
-      "name": "Jazz Radio BCN",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Catalunya",
-      "websiteUrl": "https://www.jazzradiobcn.com",
-      "logoUrl": "https://6e34eb1495.cbaul-cdnwnd.com/a7658da9cd3120f642cd6802a66d23d4/200000000-46869477e1/JAZZ.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream 1",
-          "url": "https://node-04.zeno.fm/tvt6bya8hg8uv",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "Stream 2",
-          "url": "https://stream.zeno.fm/u40kkya8hg8uv",
-          "format": "auto",
-          "priority": 2,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Jazz"
-    },
-    {
-      "id": "catalunya--los40-catalunya",
-      "name": "LOS40 Catalunya",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Catalunya",
-      "websiteUrl": "https://play.los40.com/emisora/los40_catalunya/",
-      "logoUrl": "https://graph.facebook.com/els40/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_CAT.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Top 40"
-    },
-    {
-      "id": "catalunya--mataro-radio",
-      "name": "Mataró Ràdio",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Catalunya",
-      "websiteUrl": "https://mataroaudiovisual.cat/radio",
-      "logoUrl": "https://pbs.twimg.com/profile_images/1666805471519592456/zkZjIwF7_200x200.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://relay.stream.enacast-cloud.com:30049/mataroradioHD.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "catalunya--onda-cero-barcelona",
-      "name": "Onda Cero Barcelona",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Catalunya",
-      "websiteUrl": "https://www.ondacero.es/emisoras/catalunya/barcelona/directo/",
-      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/barcelona/master.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "catalunya--onda-cero-lleida",
-      "name": "Onda Cero Lleida",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Catalunya",
-      "websiteUrl": "https://www.ondacero.es/emisoras/catalunya/lleida/directo/",
-      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/lleida/master.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "catalunya--onda-cero-tarragona",
-      "name": "Onda Cero Tarragona",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Catalunya",
-      "websiteUrl": "https://www.ondacero.es/emisoras/catalunya/tarragona/directo/",
-      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/tarragona/master.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "catalunya--onda-cero-vilanova",
-      "name": "Onda Cero Vilanova",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Catalunya",
-      "websiteUrl": "https://www.ondacero.es/emisoras/catalunya/vilanova/directo/",
-      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/vilanova/master.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "catalunya--rac1",
-      "name": "RAC1",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Catalunya",
-      "websiteUrl": "https://www.rac1.cat",
-      "logoUrl": "https://graph.facebook.com/rac1oficial/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RAC_1.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "MP3 alternativo",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RAC_MES_1.mp3",
-          "format": "mp3",
-          "priority": 2,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "catalunya--rac105",
-      "name": "RAC105",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Catalunya",
-      "websiteUrl": "https://www.rac105.cat",
-      "logoUrl": "https://graph.facebook.com/rac105/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "AAC principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RAC105AAC.aac",
-          "format": "aac",
-          "priority": 1,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "MP3 alternativo",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RAC105.mp3",
-          "format": "mp3",
-          "priority": 2,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Hits"
-    },
-    {
-      "id": "catalunya--radio-5-catalunya",
-      "name": "Radio 5 Catalunya",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Catalunya",
-      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_cat/3894724/",
-      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://dispatcher.rndfnk.com/crtve/rne5/bcn/mp3/high",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "catalunya--radio-america-barcelona",
-      "name": "Ràdio Amèrica Barcelona",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Catalunya",
-      "websiteUrl": "https://www.rab.cat",
-      "logoUrl": "https://pbs.twimg.com/profile_images/1931284389243072512/jCj4V37N_200x200.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://s3.radio.co/sf09831a0e/listen",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "catalunya--radio-caldes",
-      "name": "Ràdio Caldes",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Catalunya",
-      "websiteUrl": "https://www.radiocaldes.cat",
-      "logoUrl": "https://graph.facebook.com/RadioCaldes107.8fm/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HD principal",
-          "url": "https://enacast.com/radiocaldes/streams/HD",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "MP3 fallback",
-          "url": "https://relay.stream.enacast-cloud.com:40062/radiocaldes128.mp3",
-          "format": "mp3",
-          "priority": 2,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "catalunya--radio-ciutat-de-badalona",
-      "name": "Ràdio Ciutat de Badalona",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Catalunya",
-      "websiteUrl": "https://radio.bdncom.cat",
-      "logoUrl": "https://pbs.twimg.com/profile_images/1993636082642976768/7YX0mFB8_200x200.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HD principal",
-          "url": "https://enacast.com/radiob/streams/HD",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "MP3 fallback",
-          "url": "https://relay.stream.enacast-cloud.com:40039/radiob128.mp3",
-          "format": "mp3",
-          "priority": 2,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "catalunya--radio-cubelles",
-      "name": "Ràdio Cubelles",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Catalunya",
-      "websiteUrl": "https://www.radiocubelles.cat",
-      "logoUrl": "https://graph.facebook.com/radiocubelles/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HD principal",
-          "url": "https://enacast.com/radiocubelles/streams/HD",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "MP3 fallback",
-          "url": "https://streaming.enacast.com/cubelles128.mp3",
-          "format": "mp3",
-          "priority": 2,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "catalunya--radio-despi",
-      "name": "Ràdio Despí",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Catalunya",
-      "websiteUrl": "https://radiodespi.net/directo/",
-      "logoUrl": "https://graph.facebook.com/radiodespi/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://streaming12.elitecomunicacion.es:8228/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "MP3 fallback",
-          "url": "https://streaming12.elitecomunicacion.es:8228/stream?type=.mp3",
-          "format": "mp3",
-          "priority": 2,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "catalunya--radio-desvern",
-      "name": "Ràdio Desvern",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Catalunya",
-      "websiteUrl": "https://www.radiodesvern.com",
-      "logoUrl": "https://graph.facebook.com/radiodesvernoficial/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://relay.stream.enacast-cloud.com:40001/radiodesvern128.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "HD alternativo",
-          "url": "https://enacast.com/radiodesvern/streams/HD",
-          "format": "auto",
-          "priority": 2,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "catalunya--radio-el-vendrell",
-      "name": "Ràdio El Vendrell",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Catalunya",
-      "websiteUrl": "https://www.rtvelvendrell.cat/directes/radio/",
-      "logoUrl": "https://graph.facebook.com/rtvelvendrell/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HD principal",
-          "url": "https://enacast.com/rtvelvendrell/streams/HD",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "MP3 fallback",
-          "url": "https://streaming.enacast.com/rtvelvendrell128.mp3",
-          "format": "mp3",
-          "priority": 2,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "catalunya--radio-igualada",
-      "name": "Ràdio Igualada",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Catalunya",
-      "websiteUrl": "http://www.lcinternet.es/player/v3299500_igualada/player.html",
-      "logoUrl": "https://graph.facebook.com/radioigualada/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://srv7031.dns-lcinternet.com/8024/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "catalunya--radio-marca-barcelona",
-      "name": "Radio Marca Barcelona",
-      "tagline": "",
-      "description": "",
-      "category": "Deporte",
-      "community": "Catalunya",
-      "websiteUrl": "https://www.marca.com/radio.html",
-      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://radiomarcabcnmedia.dns-lcinternet.com:9000/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "catalunya--radio-mollet",
-      "name": "Ràdio Mollet",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Catalunya",
-      "websiteUrl": "https://www.radiomollet.com",
-      "logoUrl": "https://graph.facebook.com/radiomollet963/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HD principal",
-          "url": "https://enacast.com/radiomollet/streams/HD",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "MP3 fallback",
-          "url": "https://streaming.enacast.com/radiomollet128.mp3",
-          "format": "mp3",
-          "priority": 2,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "catalunya--radio-nacional-catalunya",
-      "name": "Radio Nacional Catalunya",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Catalunya",
-      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_cat-live/3893527/",
-      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://dispatcher.rndfnk.com/crtve/rne1/cat/mp3/high",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "catalunya--radio-olot",
-      "name": "Ràdio Olot",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Catalunya",
-      "websiteUrl": "https://www.radiolot.cat",
-      "logoUrl": "https://graph.facebook.com/Radiolot/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://chrome2021.frilab.com:8443/olot",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "catalunya--radio-sabadell",
-      "name": "Ràdio Sabadell",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Catalunya",
-      "websiteUrl": "https://radiosabadell.fm",
-      "logoUrl": "https://graph.facebook.com/RadioSabadell/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://streamer.radio.co/s39e9c768a/listen",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "catalunya--radio-silenci",
-      "name": "Ràdio Silenci",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Catalunya",
-      "websiteUrl": "https://www.radiosilenci.cat",
-      "logoUrl": "https://graph.facebook.com/rsilenci/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HD principal",
-          "url": "https://enacast.com/radiosilenci/streams/HD",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "MP3 fallback",
-          "url": "https://streaming.enacast.com/radiosilenci128.mp3",
-          "format": "mp3",
-          "priority": 2,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "catalunya--radio-terrassa",
-      "name": "Ràdio Terrassa",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Catalunya",
-      "websiteUrl": "https://terrassadigital.cat/radio/",
-      "logoUrl": "https://graph.facebook.com/canalterrassa/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://control.streaming-pro.com:8002/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "catalunya--rap107",
-      "name": "RAP107",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Catalunya",
-      "websiteUrl": "https://enacast.com/rap107/",
-      "logoUrl": "https://graph.facebook.com/rap107/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HD principal",
-          "url": "https://enacast.com/rap107/streams/HD",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "MP3 fallback",
-          "url": "https://relay.stream.enacast-cloud.com:40048/rapradio128.mp3",
-          "format": "mp3",
-          "priority": 2,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "catalunya--rock-fm-barcelona",
-      "name": "Rock FM Barcelona",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Catalunya",
-      "websiteUrl": "https://www.rockfm.fm/emisoras/catalunya/barcelona-provincia/barcelona",
-      "logoUrl": "https://graph.facebook.com/RockFM/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://rockfm-barcelona.flumotion.com/playlist.m3u8",
-          "format": "hls",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Rock"
-    },
-    {
-      "id": "catalunya--ser-barcelona",
-      "name": "SER Barcelona",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Catalunya",
-      "websiteUrl": "https://cadenaser.com/radio-barcelona/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_BARCELONA.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "catalunya--ser-catalunya",
-      "name": "SER Catalunya",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Catalunya",
-      "websiteUrl": "https://play.cadenaser.com/emisora/sercat/",
-      "logoUrl": "https://graph.facebook.com/SERCatalunya/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_CAT.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "catalunya--ser-girona",
-      "name": "SER Girona",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Catalunya",
-      "websiteUrl": "https://cadenaser.com/radio-girona/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_GIRONA.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "catalunya--ser-lleida",
-      "name": "SER Lleida",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Catalunya",
-      "websiteUrl": "https://cadenaser.com/radio-lleida/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_LLEIDA.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "catalunya--ser-manresa",
-      "name": "SER Manresa",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Catalunya",
-      "websiteUrl": "https://www.radiomanresa.cat",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://streaming.enacast.com:8000/taronjadigital-bages56.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "catalunya--ser-reus",
-      "name": "SER Reus",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Catalunya",
-      "websiteUrl": "https://cadenaser.com/radio-reus/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_REUS.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "catalunya--ser-tarragona",
-      "name": "SER Tarragona",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Catalunya",
-      "websiteUrl": "https://cadenaser.com/ser-tarragona/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_TARRAGONA.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "catalunya--styl-manresa",
-      "name": "Styl Manresa",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Catalunya",
-      "websiteUrl": "https://www.stylfm.com",
-      "logoUrl": "https://graph.facebook.com/stylfm/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://ssl.nexuscast.com:8077/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "catalunya--tarragona-radio",
-      "name": "Tarragona Ràdio",
-      "tagline": "",
-      "description": "",
-      "category": "Noticias",
-      "community": "Catalunya",
-      "websiteUrl": "https://www.tarragonaradio.cat",
-      "logoUrl": "https://graph.facebook.com/tarragonaradio/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HD principal",
-          "url": "https://enacast.com/tarragonaradio/streams/HD",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "MP3 fallback",
-          "url": "https://relay.stream.enacast-cloud.com:40007/tarragona128.mp3",
-          "format": "mp3",
-          "priority": 2,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "catalunya--carrusel-fm",
-      "name": "Carrusel FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Catalunya",
-      "websiteUrl": "http://www.carruselfm.com",
-      "logoUrl": "https://pbs.twimg.com/profile_images/520332074147123200/pzYkTYHB_200x200.jpeg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://server10.emitironline.com:8921/radio?.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Remember"
-    },
-    {
-      "id": "catalunya--conexiondance-radio",
-      "name": "Conexiondance Radio",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Catalunya",
-      "websiteUrl": "https://decibeliafm.es/",
-      "logoUrl": "https://pbs.twimg.com/profile_images/1580311659226210310/umHvZ3-d_200x200.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://streaming.shoutcast.com/decibelia",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Dance"
-    },
-    {
-      "id": "catalunya--cooltura-fm",
-      "name": "Cooltura FM",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Catalunya",
-      "websiteUrl": "https://coolturafm.com",
-      "logoUrl": "https://graph.facebook.com/coolturafm/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://server9.emitironline.com:19244/",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Variedad"
     },
     {
       "id": "catalunya--decibelia-fm",
@@ -1369,6 +450,50 @@
       "musicType": "Electrónica"
     },
     {
+      "id": "catalunya--flaix-fm",
+      "name": "Flaix FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Catalunya",
+      "websiteUrl": "https://flaixfm.cat",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1051761197127745541/whMnn4_K_200x200.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://stream.flaixfm.cat/icecast",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Dance"
+    },
+    {
+      "id": "catalunya--flaixbac",
+      "name": "Flaixbac",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Catalunya",
+      "websiteUrl": "https://www.flaixbac.cat",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1164926188307001344/PtDeZDOO_200x200.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://stream.flaixbac.cat/icecast",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Pop"
+    },
+    {
       "id": "catalunya--flamenco-radio",
       "name": "Flamenco Radio",
       "tagline": "",
@@ -1389,6 +514,28 @@
         }
       ],
       "musicType": "Flamenco"
+    },
+    {
+      "id": "catalunya--formula-exitos-mp",
+      "name": "Fórmula Éxitos MP",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Catalunya",
+      "websiteUrl": "https://mdtradio.com/canales-tematicos/",
+      "logoUrl": "https://mdtradio.com/wp-content/uploads/2024/11/Logo-MDT-Radio-Pop-Stars-Fm2.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streams1.mdtradio.com:8443/PopStarsFm",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Pop"
     },
     {
       "id": "catalunya--free-fm-rock",
@@ -1476,28 +623,6 @@
         }
       ],
       "musicType": "Navidad"
-    },
-    {
-      "id": "catalunya--formula-exitos-mp",
-      "name": "Fórmula Éxitos MP",
-      "tagline": "",
-      "description": "",
-      "category": "Música",
-      "community": "Catalunya",
-      "websiteUrl": "https://mdtradio.com/canales-tematicos/",
-      "logoUrl": "https://mdtradio.com/wp-content/uploads/2024/11/Logo-MDT-Radio-Pop-Stars-Fm2.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://streams1.mdtradio.com:8443/PopStarsFm",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Pop"
     },
     {
       "id": "catalunya--globo-fm",
@@ -1717,6 +842,57 @@
         }
       ],
       "musicType": "Hits"
+    },
+    {
+      "id": "catalunya--icat",
+      "name": "iCat",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Catalunya",
+      "websiteUrl": "https://www.3cat.cat/3cat/directes/icat/",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/ICat.cat.svg/250px-ICat.cat.svg.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://directes-radio-int.3catdirectes.cat/live-content/icat-hls/master.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Alternativa"
+    },
+    {
+      "id": "catalunya--jazz-radio-bcn",
+      "name": "Jazz Radio BCN",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Catalunya",
+      "websiteUrl": "https://www.jazzradiobcn.com",
+      "logoUrl": "https://6e34eb1495.cbaul-cdnwnd.com/a7658da9cd3120f642cd6802a66d23d4/200000000-46869477e1/JAZZ.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream 1",
+          "url": "https://node-04.zeno.fm/tvt6bya8hg8uv",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "Stream 2",
+          "url": "https://stream.zeno.fm/u40kkya8hg8uv",
+          "format": "auto",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Jazz"
     },
     {
       "id": "catalunya--kandela-te-prende",
@@ -2115,26 +1291,153 @@
       "musicType": "Urbana"
     },
     {
-      "id": "catalunya--radio-espana-network",
-      "name": "Radio España Network",
+      "id": "catalunya--los40-catalunya",
+      "name": "LOS40 Catalunya",
       "tagline": "",
       "description": "",
       "category": "Música",
       "community": "Catalunya",
-      "websiteUrl": "https://www.espananetwork.net/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/582/radio-espana-network.406b0f62.jpg",
+      "websiteUrl": "https://play.los40.com/emisora/los40_catalunya/",
+      "logoUrl": "https://graph.facebook.com/els40/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_CAT.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Top 40"
+    },
+    {
+      "id": "catalunya--mataro-radio",
+      "name": "Mataró Ràdio",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Catalunya",
+      "websiteUrl": "https://mataroaudiovisual.cat/radio",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1666805471519592456/zkZjIwF7_200x200.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://relay.stream.enacast-cloud.com:30049/mataroradioHD.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "catalunya--nostalgia-fm",
+      "name": "Nostalgia FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Catalunya",
+      "websiteUrl": "https://nostalgiafm.es/",
+      "logoUrl": "https://graph.facebook.com/NostalgiaFMSpain/picture?height=200&width=200",
       "sourceSeed": "myTuner",
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "Stream principal",
-          "url": "https://stream.zeno.fm/ocinyyji4rntv",
-          "format": "auto",
+          "url": "https://azura.abcorp.es/radio/8040/live",
+          "format": "stream",
           "priority": 1,
           "source": "TDTChannels"
         }
       ],
-      "musicType": "Dance"
+      "musicType": "Oldies"
+    },
+    {
+      "id": "catalunya--onda-cero-barcelona",
+      "name": "Onda Cero Barcelona",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Catalunya",
+      "websiteUrl": "https://www.ondacero.es/emisoras/catalunya/barcelona/directo/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/barcelona/master.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "catalunya--onda-cero-lleida",
+      "name": "Onda Cero Lleida",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Catalunya",
+      "websiteUrl": "https://www.ondacero.es/emisoras/catalunya/lleida/directo/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/lleida/master.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "catalunya--onda-cero-tarragona",
+      "name": "Onda Cero Tarragona",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Catalunya",
+      "websiteUrl": "https://www.ondacero.es/emisoras/catalunya/tarragona/directo/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/tarragona/master.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "catalunya--onda-cero-vilanova",
+      "name": "Onda Cero Vilanova",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Catalunya",
+      "websiteUrl": "https://www.ondacero.es/emisoras/catalunya/vilanova/directo/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/vilanova/master.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "catalunya--peperadio",
@@ -2159,6 +1462,456 @@
       "musicType": "Rock"
     },
     {
+      "id": "catalunya--rac1",
+      "name": "RAC1",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Catalunya",
+      "websiteUrl": "https://www.rac1.cat",
+      "logoUrl": "https://graph.facebook.com/rac1oficial/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RAC_1.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RAC_MES_1.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "catalunya--rac105",
+      "name": "RAC105",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Catalunya",
+      "websiteUrl": "https://www.rac105.cat",
+      "logoUrl": "https://graph.facebook.com/rac105/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "AAC principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RAC105AAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RAC105.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Hits"
+    },
+    {
+      "id": "catalunya--radio-5-catalunya",
+      "name": "Radio 5 Catalunya",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Catalunya",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_cat/3894724/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/bcn/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "catalunya--radio-america-barcelona",
+      "name": "Ràdio Amèrica Barcelona",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Catalunya",
+      "websiteUrl": "https://www.rab.cat",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1931284389243072512/jCj4V37N_200x200.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s3.radio.co/sf09831a0e/listen",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "catalunya--radio-caldes",
+      "name": "Ràdio Caldes",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Catalunya",
+      "websiteUrl": "https://www.radiocaldes.cat",
+      "logoUrl": "https://graph.facebook.com/RadioCaldes107.8fm/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HD principal",
+          "url": "https://enacast.com/radiocaldes/streams/HD",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 fallback",
+          "url": "https://relay.stream.enacast-cloud.com:40062/radiocaldes128.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "catalunya--radio-ciutat-de-badalona",
+      "name": "Ràdio Ciutat de Badalona",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Catalunya",
+      "websiteUrl": "https://radio.bdncom.cat",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1993636082642976768/7YX0mFB8_200x200.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HD principal",
+          "url": "https://enacast.com/radiob/streams/HD",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 fallback",
+          "url": "https://relay.stream.enacast-cloud.com:40039/radiob128.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "catalunya--radio-cubelles",
+      "name": "Ràdio Cubelles",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Catalunya",
+      "websiteUrl": "https://www.radiocubelles.cat",
+      "logoUrl": "https://graph.facebook.com/radiocubelles/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HD principal",
+          "url": "https://enacast.com/radiocubelles/streams/HD",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 fallback",
+          "url": "https://streaming.enacast.com/cubelles128.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "catalunya--radio-despi",
+      "name": "Ràdio Despí",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Catalunya",
+      "websiteUrl": "https://radiodespi.net/directo/",
+      "logoUrl": "https://graph.facebook.com/radiodespi/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streaming12.elitecomunicacion.es:8228/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 fallback",
+          "url": "https://streaming12.elitecomunicacion.es:8228/stream?type=.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "catalunya--radio-desvern",
+      "name": "Ràdio Desvern",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Catalunya",
+      "websiteUrl": "https://www.radiodesvern.com",
+      "logoUrl": "https://graph.facebook.com/radiodesvernoficial/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://relay.stream.enacast-cloud.com:40001/radiodesvern128.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "HD alternativo",
+          "url": "https://enacast.com/radiodesvern/streams/HD",
+          "format": "auto",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "catalunya--radio-el-vendrell",
+      "name": "Ràdio El Vendrell",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Catalunya",
+      "websiteUrl": "https://www.rtvelvendrell.cat/directes/radio/",
+      "logoUrl": "https://graph.facebook.com/rtvelvendrell/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HD principal",
+          "url": "https://enacast.com/rtvelvendrell/streams/HD",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 fallback",
+          "url": "https://streaming.enacast.com/rtvelvendrell128.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "catalunya--radio-espana-network",
+      "name": "Radio España Network",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Catalunya",
+      "websiteUrl": "https://www.espananetwork.net/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/582/radio-espana-network.406b0f62.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://stream.zeno.fm/ocinyyji4rntv",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Dance"
+    },
+    {
+      "id": "catalunya--radio-igualada",
+      "name": "Ràdio Igualada",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Catalunya",
+      "websiteUrl": "http://www.lcinternet.es/player/v3299500_igualada/player.html",
+      "logoUrl": "https://graph.facebook.com/radioigualada/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://srv7031.dns-lcinternet.com/8024/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "catalunya--radio-marca-barcelona",
+      "name": "Radio Marca Barcelona",
+      "tagline": "",
+      "description": "",
+      "category": "Deporte",
+      "community": "Catalunya",
+      "websiteUrl": "https://www.marca.com/radio.html",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://radiomarcabcnmedia.dns-lcinternet.com:9000/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "catalunya--radio-mollet",
+      "name": "Ràdio Mollet",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Catalunya",
+      "websiteUrl": "https://www.radiomollet.com",
+      "logoUrl": "https://graph.facebook.com/radiomollet963/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HD principal",
+          "url": "https://enacast.com/radiomollet/streams/HD",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 fallback",
+          "url": "https://streaming.enacast.com/radiomollet128.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "catalunya--radio-nacional-catalunya",
+      "name": "Radio Nacional Catalunya",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Catalunya",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_cat-live/3893527/",
+      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/cat/mp3/high",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "catalunya--radio-olot",
+      "name": "Ràdio Olot",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Catalunya",
+      "websiteUrl": "https://www.radiolot.cat",
+      "logoUrl": "https://graph.facebook.com/Radiolot/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://chrome2021.frilab.com:8443/olot",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "catalunya--radio-sabadell",
+      "name": "Ràdio Sabadell",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Catalunya",
+      "websiteUrl": "https://radiosabadell.fm",
+      "logoUrl": "https://graph.facebook.com/RadioSabadell/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streamer.radio.co/s39e9c768a/listen",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "catalunya--radio-silenci",
+      "name": "Ràdio Silenci",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Catalunya",
+      "websiteUrl": "https://www.radiosilenci.cat",
+      "logoUrl": "https://graph.facebook.com/rsilenci/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HD principal",
+          "url": "https://enacast.com/radiosilenci/streams/HD",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 fallback",
+          "url": "https://streaming.enacast.com/radiosilenci128.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
       "id": "catalunya--radio-tentacion",
       "name": "Radio Tentación",
       "tagline": "",
@@ -2179,6 +1932,275 @@
         }
       ],
       "musicType": "Pop latino"
+    },
+    {
+      "id": "catalunya--radio-terrassa",
+      "name": "Ràdio Terrassa",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Catalunya",
+      "websiteUrl": "https://terrassadigital.cat/radio/",
+      "logoUrl": "https://graph.facebook.com/canalterrassa/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://control.streaming-pro.com:8002/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "catalunya--rap107",
+      "name": "RAP107",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Catalunya",
+      "websiteUrl": "https://enacast.com/rap107/",
+      "logoUrl": "https://graph.facebook.com/rap107/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HD principal",
+          "url": "https://enacast.com/rap107/streams/HD",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 fallback",
+          "url": "https://relay.stream.enacast-cloud.com:40048/rapradio128.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "catalunya--rock-fm-barcelona",
+      "name": "Rock FM Barcelona",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Catalunya",
+      "websiteUrl": "https://www.rockfm.fm/emisoras/catalunya/barcelona-provincia/barcelona",
+      "logoUrl": "https://graph.facebook.com/RockFM/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://rockfm-barcelona.flumotion.com/playlist.m3u8",
+          "format": "hls",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Rock"
+    },
+    {
+      "id": "catalunya--ser-barcelona",
+      "name": "SER Barcelona",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Catalunya",
+      "websiteUrl": "https://cadenaser.com/radio-barcelona/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_BARCELONA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "catalunya--ser-catalunya",
+      "name": "SER Catalunya",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Catalunya",
+      "websiteUrl": "https://play.cadenaser.com/emisora/sercat/",
+      "logoUrl": "https://graph.facebook.com/SERCatalunya/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_CAT.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "catalunya--ser-girona",
+      "name": "SER Girona",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Catalunya",
+      "websiteUrl": "https://cadenaser.com/radio-girona/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_GIRONA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "catalunya--ser-lleida",
+      "name": "SER Lleida",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Catalunya",
+      "websiteUrl": "https://cadenaser.com/radio-lleida/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_LLEIDA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "catalunya--ser-manresa",
+      "name": "SER Manresa",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Catalunya",
+      "websiteUrl": "https://www.radiomanresa.cat",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://streaming.enacast.com:8000/taronjadigital-bages56.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "catalunya--ser-reus",
+      "name": "SER Reus",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Catalunya",
+      "websiteUrl": "https://cadenaser.com/radio-reus/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_REUS.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "catalunya--ser-tarragona",
+      "name": "SER Tarragona",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Catalunya",
+      "websiteUrl": "https://cadenaser.com/ser-tarragona/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_TARRAGONA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "catalunya--styl-manresa",
+      "name": "Styl Manresa",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Catalunya",
+      "websiteUrl": "https://www.stylfm.com",
+      "logoUrl": "https://graph.facebook.com/stylfm/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://ssl.nexuscast.com:8077/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "catalunya--tarragona-radio",
+      "name": "Tarragona Ràdio",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Catalunya",
+      "websiteUrl": "https://www.tarragonaradio.cat",
+      "logoUrl": "https://graph.facebook.com/tarragonaradio/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HD principal",
+          "url": "https://enacast.com/tarragonaradio/streams/HD",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 fallback",
+          "url": "https://relay.stream.enacast-cloud.com:40007/tarragona128.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "catalunya--top-radio",
@@ -2203,26 +2225,599 @@
       "musicType": "Pop en español"
     },
     {
-      "id": "catalunya--nostalgia-fm",
-      "name": "Nostalgia FM",
+      "id": "catalunya--alpicat-radio-107-9-fm",
+      "seedName": "Alpicat Radio 107.9 FM",
+      "name": "Alpicat Radio 107.9 FM",
       "tagline": "",
       "description": "",
       "category": "Música",
       "community": "Catalunya",
-      "websiteUrl": "https://nostalgiafm.es/",
-      "logoUrl": "https://graph.facebook.com/NostalgiaFMSpain/picture?height=200&width=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
       "streams": [
         {
-          "label": "Stream principal",
-          "url": "https://azura.abcorp.es/radio/8040/live",
+          "label": "Candidato",
+          "url": "http://enacast.com/alpicatradio/streams/SD",
           "format": "stream",
           "priority": 1,
-          "source": "TDTChannels"
+          "source": "Spain.json"
         }
       ],
-      "musicType": "Oldies"
+      "musicType": "Variedad"
+    },
+    {
+      "id": "catalunya--amposta-radio-87-8-fm",
+      "seedName": "Amposta Ràdio 87.8 FM",
+      "name": "Amposta Ràdio 87.8 FM",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Catalunya",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://endirecte.amposta.cat:8000/radio",
+          "format": "stream",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ]
+    },
+    {
+      "id": "catalunya--antena-caro-96-0-fm",
+      "seedName": "Antena Caro 96.0 FM",
+      "name": "Antena Caro 96.0 FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Catalunya",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://streaming.enantena.com:8000/antenacaro128.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Pop"
+    },
+    {
+      "id": "catalunya--barcelona-jazz-radio",
+      "seedName": "Barcelona Jazz Radio",
+      "name": "Barcelona Jazz Radio",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Catalunya",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://listen.abacus.fm/smoothjazz.m3u",
+          "format": "m3u",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Jazz"
+    },
+    {
+      "id": "catalunya--boca-radio-90-1-fm",
+      "seedName": "BOCA Ràdio 90.1 FM",
+      "name": "BOCA Ràdio 90.1 FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Catalunya",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://bocanord.qui.guifi.net:8000/bocaradio.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "catalunya--cadena-ser-barcelona",
+      "seedName": "Cadena SER - Barcelona",
+      "name": "Cadena SER - Barcelona",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Catalunya",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://provisioning.streamtheworld.com/pls/SER_BARCELONA.pls",
+          "format": "pls",
+          "priority": 1,
+          "source": "Spain.json"
+        },
+        {
+          "label": "Alternativo 2",
+          "url": "http://provisioning.streamtheworld.com/asx/SER_BARCELONA.asx",
+          "format": "asx",
+          "priority": 2,
+          "source": "Spain.json"
+        },
+        {
+          "label": "Alternativo 3",
+          "url": "http://playerservices.streamtheworld.com/pls/SER_BARCELONA.pls",
+          "format": "pls",
+          "priority": 3,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "catalunya--calafell-radio-107-9-fm",
+      "seedName": "Calafell Ràdio 107.9 FM",
+      "name": "Calafell Ràdio 107.9 FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Catalunya",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://streaming.enantena.com:8000/calafellradio128.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "catalunya--ccma-catalunya-classica",
+      "seedName": "CCMA Catalunya Clàssica",
+      "name": "CCMA Catalunya Clàssica",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Catalunya",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://catclassica.ccma.audioemotion.stream.flumotion.com/ccma/catclassica.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Clásica"
+    },
+    {
+      "id": "catalunya--ccma-catalunya-informacio",
+      "seedName": "CCMA Catalunya Informació",
+      "name": "CCMA Catalunya Informació",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Catalunya",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://www.catradio.cat/directes/catinfo_http.m3u",
+          "format": "m3u",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ]
+    },
+    {
+      "id": "catalunya--ccma-catalunya-musica",
+      "seedName": "CCMA Catalunya Música",
+      "name": "CCMA Catalunya Música",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Catalunya",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://catmusica.ccma.audioemotion.stream.flumotion.com/ccma/catmusica.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Clásica"
+    },
+    {
+      "id": "catalunya--ccma-catalunya-radio",
+      "seedName": "CCMA Catalunya Ràdio",
+      "name": "CCMA Catalunya Ràdio",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Catalunya",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://www.catradio.cat/directes/catradio_http.m3u",
+          "format": "m3u",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ]
+    },
+    {
+      "id": "catalunya--cope-barcelona-102-0-fm",
+      "seedName": "COPE - Barcelona 102.0 FM",
+      "name": "COPE - Barcelona 102.0 FM",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Catalunya",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://barcelona.copesedes.stream.flumotion.com/copesedes/barcelona.mp3.m3u",
+          "format": "m3u",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ]
+    },
+    {
+      "id": "catalunya--cope-girona-89-9-fm",
+      "seedName": "COPE - Girona 89.9 FM",
+      "name": "COPE - Girona 89.9 FM",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Catalunya",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://gerona.copesedes.stream.flumotion.com/copesedes/gerona.mp3.m3u",
+          "format": "m3u",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ]
+    },
+    {
+      "id": "catalunya--cope-tarragona-reus-93-5-fm",
+      "seedName": "COPE - Tarragona / Reus 93.5 FM",
+      "name": "COPE - Tarragona / Reus 93.5 FM",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Catalunya",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://tarragona.copesedes.stream.flumotion.com/copesedes/tarragona.mp3.m3u",
+          "format": "m3u",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ]
+    },
+    {
+      "id": "catalunya--la-plana-radio-100-6-fm",
+      "seedName": "La Plana Ràdio 100.6 FM",
+      "name": "La Plana Ràdio 100.6 FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Catalunya",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://streaming.enantena.com:8000/laplanaradio128.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "catalunya--la-veu-de-sant-joan",
+      "seedName": "La Veu de Sant Joan",
+      "name": "La Veu de Sant Joan",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Catalunya",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://streaming.enantena.com:8000/laveu128.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "Spain.json"
+        },
+        {
+          "label": "Alternativo 2",
+          "url": "http://streaming.enantena.com:8000/laveu56.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Indie"
+    },
+    {
+      "id": "catalunya--mataro-radio-89-3-fm",
+      "seedName": "Mataró Ràdio 89.3 FM",
+      "name": "Mataró Ràdio 89.3 FM",
+      "tagline": "",
+      "description": "",
+      "category": "Noticias",
+      "community": "Catalunya",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://streaming.enantena.com:8000/mataroradio128.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ]
+    },
+    {
+      "id": "catalunya--radio-barcelona-city-fm-107-3",
+      "seedName": "Radio Barcelona City FM 107.3",
+      "name": "Radio Barcelona City FM 107.3",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Catalunya",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://89.163.231.60:8118/live",
+          "format": "stream",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "catalunya--radio-estel",
+      "seedName": "Radio Estel",
+      "name": "Radio Estel",
+      "tagline": "",
+      "description": "",
+      "category": "Religión",
+      "community": "Catalunya",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://srv3021.lcinternet.com:8019/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ]
+    },
+    {
+      "id": "catalunya--radio-pica",
+      "seedName": "Ràdio Pica",
+      "name": "Ràdio Pica",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Catalunya",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://srv0625.lcinternet.com:8016/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "Spain.json"
+        },
+        {
+          "label": "Alternativo 2",
+          "url": "http://62.210.30.186:8016/stream",
+          "format": "stream",
+          "priority": 2,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "catalunya--radio-rubi-99-7-fm",
+      "seedName": "Ràdio Rubí 99.7 FM",
+      "name": "Ràdio Rubí 99.7 FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Catalunya",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://streaming.enantena.com:8000/radiorubi56.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "catalunya--radio-teletaxi",
+      "seedName": "Ràdio TeleTaxi",
+      "name": "Ràdio TeleTaxi",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Catalunya",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://live.radioteletaxi.stream.flumotion.com:8009/gtt/radioteletaxi.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "catalunya--scannerfm",
+      "seedName": "scannerFM",
+      "name": "scannerFM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Catalunya",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://streaming.radio.co/s1843fc3d4/listen",
+          "format": "stream",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Rock"
+    },
+    {
+      "id": "catalunya--smile-fm-barcelona-91-8-fm",
+      "seedName": "Smile FM - Barcelona 91.8 FM",
+      "name": "Smile FM - Barcelona 91.8 FM",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Catalunya",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://skycast.su:2007/5327",
+          "format": "stream",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Pop"
+    },
+    {
+      "id": "catalunya--tarragona-radio-96-7",
+      "seedName": "Tarragona Ràdio 96.7",
+      "name": "Tarragona Ràdio 96.7",
+      "tagline": "",
+      "description": "",
+      "category": "Música",
+      "community": "Catalunya",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://streaming.enantena.com:8000/tarragona56.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
     }
   ]
 }
