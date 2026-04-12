@@ -1142,7 +1142,16 @@
         {
           "label": "Stream principal",
           "url": "https://media.profesionalhosting.com:8047/stream",
+          "format": "mp3",
+          "priority": 1,
           "source": "TDTChannels"
+        },
+        {
+          "label": "Fallback HTTP",
+          "url": "http://media.profesionalhosting.com:8047/stream",
+          "format": "mp3",
+          "priority": 2,
+          "source": "Radio Browser"
         }
       ],
       "musicType": "Rock"

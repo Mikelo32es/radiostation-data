@@ -78,7 +78,7 @@
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.3cat.cat/3cat/directes/icat/",
-      "logoUrl": "https://statics.3cat.cat/recursos/ccma/premsa/arxius/logotip_icat.jpg",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/ICat.cat.svg/250px-ICat.cat.svg.png",
       "language": "ca",
       "sourceSeed": "myTuner",
       "seedPage": 1,
@@ -2857,7 +2857,16 @@
         {
           "label": "Stream principal",
           "url": "https://media.profesionalhosting.com:8047/stream",
+          "format": "mp3",
+          "priority": 1,
           "source": "TDTChannels"
+        },
+        {
+          "label": "Fallback HTTP",
+          "url": "http://media.profesionalhosting.com:8047/stream",
+          "format": "mp3",
+          "priority": 2,
+          "source": "Radio Browser"
         }
       ],
       "musicType": "Rock"

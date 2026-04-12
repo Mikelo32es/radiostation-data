@@ -10,11 +10,10 @@
   "notes": [
     "Semilla principal tomada de myTuner Andalucía para priorizar nombres y jerarquía regional.",
     "Verificación principal de streams apoyada en TDTChannels y en endpoints públicos de cada cadena o emisora.",
-    "Se han mantenido las variantes territoriales claras de Canal Sur, SER, COPE, Onda Cero, Cadena Dial, LOS40, Europa FM y Radiolé.",
+    "Limpieza aplicada para evitar contaminación con el catálogo nacional: se retiraron de Andalucía las entradas de Canal Sur Radio, Radio Andalucía Información, SER, COPE, Onda Cero y esRadio.",
     "Cuando la fuente pública expone una única URL estable, se conserva esa señal como principal sin inventar alternativas.",
     "Las entradas con retorno dudoso o error puntual en la comprobación web se dejan como candidate, no como verified.",
-    "Se priorizan logos oficiales o de marca pública estable: Facebook Graph, X/Twitter, myradioonline o activos ya usados en la app.",
-    "No se han tocado Euskadi ni Madrid; esta pasada solo añade Andalucía y actualiza el índice global."
+    "Se priorizan logos oficiales o de marca pública estable: Facebook Graph, X/Twitter, myradioonline o activos ya usados en la app."
   ],
   "stations": [
     {
