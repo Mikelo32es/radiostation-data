@@ -2,7 +2,7 @@
   "repoName": "radiostation-data",
   "title": "National radio families banned from community catalogs",
   "updatedAt": "2026-04-12",
-  "rule": "Las cadenas nacionales y sus desconexiones/locales no se meten dentro de comunidades. Van fuera del catálogo comunitario.",
+  "rule": "Las cadenas nacionales y sus desconexiones/locales no se meten dentro de comunidades. Se centralizan en communities/national.json y quedan vetadas del catálogo autonómico.",
   "patterns": [
     {
       "id": "prisa-musical",
@@ -110,5 +110,6 @@
         "Tropicana España"
       ]
     }
-  ]
+  ],
+  "targetPath": "communities/national.json"
 }

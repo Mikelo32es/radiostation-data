@@ -1,12 +1,12 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Catálogo comunitario de Euskadi rematado en modo calidad: fuera nacionales, duplicados y clones dudosos.",
+  "syncMessage": "Euskadi pulida en modo fino fino y familias nacionales movidas a Nacional para no contaminar comunidades.",
   "stats": {
-    "seedCount": 77,
-    "playableCount": 37,
-    "verifiedCount": 30,
+    "seedCount": 102,
+    "playableCount": 64,
+    "verifiedCount": 57,
     "candidateCount": 7,
-    "pendingCount": 40
+    "pendingCount": 38
   },
   "featuredIds": [
     "eitb-radio-euskadi",
@@ -37,18 +37,18 @@
     "ataun-irratia"
   ],
   "recentIds": [
-    "eitb-euskal-kantak",
-    "irola-irratia",
-    "txapa-irratia",
-    "arraio-irratia",
-    "euskadi-digital",
-    "radio-galdakao",
-    "radio-llodio",
-    "uribe-fm",
-    "segura-irratia",
-    "ataun-irratia",
-    "bi-fm",
-    "formula-hit"
+    "97fm-irratia",
+    "donostia-kultura-irratia",
+    "durango-irratia",
+    "zintzilik-irratia",
+    "cadena-100",
+    "los-40-principales",
+    "rock-fm",
+    "onda-cero-nacional",
+    "muybuena",
+    "tropicana-espana",
+    "olimpica-stereo-espana",
+    "la-flamenca"
   ],
   "communities": [
     {
@@ -118,8 +118,8 @@
       "id": "euskadi",
       "name": "Euskadi",
       "path": "communities/euskadi.json",
-      "seedCount": 200,
-      "playableCount": 54
+      "seedCount": 72,
+      "playableCount": 38
     },
     {
       "id": "extremadura",
@@ -167,8 +167,8 @@
       "id": "national",
       "name": "Nacional",
       "path": "communities/national.json",
-      "seedCount": 0,
-      "playableCount": 0
+      "seedCount": 30,
+      "playableCount": 26
     },
     {
       "id": "navarra",

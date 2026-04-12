@@ -1,6 +1,6 @@
 {
-  "requestedAction": "Reset total del catálogo comunitario y reinicio por comunidades.",
-  "seedPolicy": "No mezclar cadenas nacionales dentro de comunidades. Euskadi es la primera fase. Seeds sin stream quedan como seeded_pending y no deben promocionarse sin revisión.",
+  "requestedAction": "Euskadi fino fino y cadenas nacionales centralizadas en communities/national.json.",
+  "seedPolicy": "Nada de cadenas nacionales dentro de comunidades. Euskadi se mantiene solo con radios vascas/locales; las familias vetadas pasan a Nacional. Seeds sin stream quedan como seeded_pending.",
   "communities": [
     {
       "id": "andalucia",
@@ -69,8 +69,8 @@
       "id": "euskadi",
       "name": "Euskadi",
       "path": "communities/euskadi.json",
-      "seedCount": 77,
-      "playableCount": 37
+      "seedCount": 72,
+      "playableCount": 38
     },
     {
       "id": "extremadura",
@@ -118,8 +118,8 @@
       "id": "national",
       "name": "Nacional",
       "path": "communities/national.json",
-      "seedCount": 0,
-      "playableCount": 0
+      "seedCount": 30,
+      "playableCount": 26
     },
     {
       "id": "navarra",
