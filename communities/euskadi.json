@@ -1140,15 +1140,15 @@
       "category": "Música",
       "community": "Euskadi",
       "musicType": "Chillout",
-      "sourceSeed": "Petición usuario + TuneIn (ID s337727) + Radionomy/Waiting Room + Radio España/País Vasco",
+      "sourceSeed": "Petición usuario + TuneIn (ID s337727) + Radio España/País Vasco",
       "verificationStatus": "candidate",
       "streams": [
         {
-          "label": "Direct stream",
+          "label": "Directo AAC",
           "url": "https://streaming.coolmusicradio.com:8070/radio/;",
           "format": "aac",
           "priority": 1,
-          "source": "Radionomy listing for Waiting Room"
+          "source": "Radionomy share snippet / CoolMusicRadio host"
         },
         {
           "label": "TuneIn resolver",
@@ -1160,7 +1160,7 @@
       ],
       "websiteUrl": "https://www.waitingroomradio.com",
       "logoUrl": "https://static.mytuner.mobi/media/tvos_radios/757/waiting-room.4f126cec.png",
-      "notes": "Usuario confirma escucha previa. Se añade stream directo recuperado de un directorio público asociado a Waiting Room y se conserva TuneIn como fallback; la emisora sigue listada en TuneIn aunque algunos directorios reportan cortes intermitentes."
+      "notes": "Usuario confirma escucha previa. Se deja stream AAC directo reportado por directorios públicos y TuneIn como fallback; la app ahora evita el placeholder notcompatible de TuneIn."
     }
   ]
 }
