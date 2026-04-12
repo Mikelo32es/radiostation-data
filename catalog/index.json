@@ -1,12 +1,12 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Waiting Room se conserva en Euskadi por petición del usuario, pero queda desactivada como seeded_pending hasta validar un stream directo reproducible.",
+  "syncMessage": "Catalunya se refuerza con emisoras de Barcelona y su provincia, manteniendo fuera las cadenas nacionales y sus desconexiones locales.",
   "stats": {
-    "seedCount": 106,
-    "playableCount": 64,
-    "verifiedCount": 62,
-    "candidateCount": 2,
-    "pendingCount": 42
+    "seedCount": 190,
+    "playableCount": 149,
+    "verifiedCount": 141,
+    "candidateCount": 8,
+    "pendingCount": 41
   },
   "featuredIds": [
     "eitb-radio-euskadi",
@@ -37,18 +37,16 @@
     "ataun-irratia"
   ],
   "recentIds": [
-    "waiting-room",
-    "97fm-irratia",
-    "donostia-kultura-irratia",
-    "durango-irratia",
-    "zintzilik-irratia",
-    "cadena-100",
-    "los-40-principales",
-    "rock-fm",
-    "onda-cero-nacional",
-    "muybuena",
-    "tropicana-espana",
-    "olimpica-stereo-espana"
+    "radio-martorell",
+    "radio-vilamajor",
+    "radio-caldes",
+    "radio-cubelles",
+    "radio-maricel",
+    "radio-la-mina",
+    "radio-america-barcelona",
+    "radio-gracia",
+    "una-cosa-radio",
+    "gran-via-radio"
   ],
   "communities": [
     {
@@ -104,8 +102,8 @@
       "id": "catalunya",
       "name": "Catalunya",
       "path": "communities/catalunya.json",
-      "seedCount": 35,
-      "playableCount": 35
+      "seedCount": 45,
+      "playableCount": 45
     },
     {
       "id": "comunitat-valenciana",
@@ -119,7 +117,7 @@
       "name": "Euskadi",
       "path": "communities/euskadi.json",
       "seedCount": 76,
-      "playableCount": 38
+      "playableCount": 39
     },
     {
       "id": "extremadura",
@@ -153,8 +151,8 @@
       "id": "madrid",
       "name": "Madrid",
       "path": "communities/madrid.json",
-      "seedCount": 0,
-      "playableCount": 0
+      "seedCount": 39,
+      "playableCount": 39
     },
     {
       "id": "murcia",
@@ -181,10 +179,10 @@
   "homePath": "catalog/home.json",
   "requestedAction": "Conservar Waiting Room en Euskadi sin tocar el resto del catálogo, dejándola como seeded_pending y sin stream activo hasta validar una URL directa.",
   "totals": {
-    "seedCount": 106,
-    "playableCount": 64,
-    "verifiedCount": 62,
-    "candidateCount": 2,
-    "pendingCount": 42
+    "seedCount": 190,
+    "playableCount": 149,
+    "verifiedCount": 141,
+    "candidateCount": 8,
+    "pendingCount": 41
   }
 }
