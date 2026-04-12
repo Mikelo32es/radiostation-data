@@ -1,167 +1,82 @@
 {
-  "seedCount": 11,
-  "playableCount": 11,
-  "verifiedCount": 9,
-  "candidateCount": 2,
-  "pendingCount": 0,
+  "seedCount": 7,
+  "playableCount": 5,
+  "verifiedCount": 2,
+  "candidateCount": 3,
+  "pendingCount": 2,
   "stations": [
     {
-      "id": "castilla-y-leon--afradio",
-      "name": "AFradio",
-      "category": "Música",
-      "community": "Castilla y León",
-      "websiteUrl": "https://coolturafm.com",
-      "logoUrl": "https://graph.facebook.com/coolturafm/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
+      "id": "radio-marca-leon",
+      "name": "Radio Marca León",
+      "category": "Deporte",
+      "websiteUrl": "http://www.radiomarcaleon.com/",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "sourceSeed": "official-web",
+      "seedPage": 1,
+      "seedRank": 208,
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "community": null
+    },
+    {
+      "id": "radio-marca-valladolid",
+      "name": "Radio Marca Valladolid",
+      "category": "Deporte",
+      "websiteUrl": "https://radiomarcavalladolid.com",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 1,
+      "seedRank": 207,
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "MP3 principal",
-          "url": "https://server9.emitironline.com:19244/",
+          "url": "https://radiomarcavalladolid.streaming-pro.com:6106/radiomarca.mp3",
           "format": "mp3",
           "source": "TDTChannels"
+        }
+      ],
+      "community": null
+    },
+    {
+      "id": "radio-marca-avila",
+      "name": "Radio Marca Ávila",
+      "category": "Deporte",
+      "websiteUrl": "https://www.facebook.com/RadioMarcaAvila/",
+      "logoUrl": "https://graph.facebook.com/RadioMarcaAvila/picture?width=200&height=200",
+      "sourceSeed": "official-web",
+      "seedPage": 1,
+      "seedRank": 209,
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "community": null
+    },
+    {
+      "id": "castilla-y-leon--radio-oasis-salamanca-106-4-fm",
+      "name": "Radio Oasis Salamanca 106.4 FM",
+      "category": "Música",
+      "community": "Castilla y León",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://cervera.eldialdigital.com:8116/;",
+          "format": "stream",
+          "source": "Spain.json"
         }
       ],
       "musicType": "Variedad"
-    },
-    {
-      "id": "castilla-y-leon--bi-fm",
-      "name": "BI FM",
-      "category": "Música",
-      "community": "Castilla y León",
-      "websiteUrl": "https://www.bifmradio.com/",
-      "logoUrl": "https://www.bifmradio.com/wp-content/uploads/2020/12/bifm-logo.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Candidato tercero",
-          "url": "http://94.75.234.135:8052/listen.plsmp3",
-          "format": "mp3",
-          "source": "liveradio.ie"
-        }
-      ],
-      "musicType": "Indie"
-    },
-    {
-      "id": "castilla-y-leon--candela-radio",
-      "name": "Candela Radio",
-      "category": "Música",
-      "community": "Castilla y León",
-      "websiteUrl": "https://candelaradio.fm/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/m6mstp6fmuzc.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 público",
-          "url": "http://uk1-pn.webcast-server.net:8226",
-          "format": "mp3",
-          "source": "radio-online-json-url"
-        }
-      ],
-      "musicType": "Latina"
-    },
-    {
-      "id": "castilla-y-leon--candil-radio",
-      "name": "Candil Radio",
-      "category": "Noticias",
-      "community": "Castilla y León",
-      "websiteUrl": "https://candilradio.com/",
-      "logoUrl": "https://graph.facebook.com/CandilRadio/picture?height=200&width=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://candilradio.com/liveradio/candil/live.mp3",
-          "format": "mp3",
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "castilla-y-leon--cooltura-fm",
-      "name": "Cooltura FM",
-      "category": "Música",
-      "community": "Castilla y León",
-      "websiteUrl": "https://coolturafm.com",
-      "logoUrl": "https://graph.facebook.com/coolturafm/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://server9.emitironline.com:19244/",
-          "format": "mp3",
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "castilla-y-leon--decibelia-fm",
-      "name": "Decibelia FM",
-      "category": "Música",
-      "community": "Castilla y León",
-      "websiteUrl": "https://decibeliafm.es/",
-      "logoUrl": "https://pbs.twimg.com/profile_images/1580311659226210310/umHvZ3-d_200x200.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://streaming.shoutcast.com/decibelia",
-          "format": "stream",
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Dance"
-    },
-    {
-      "id": "castilla-y-leon--espacio-4-fm",
-      "name": "Espacio 4 FM",
-      "category": "Música",
-      "community": "Castilla y León",
-      "websiteUrl": "https://www.espacio4fm.com/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/uxmfabbdnref.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://stream.zeno.fm/fz0bc82wn0hvv",
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Electrónica"
-    },
-    {
-      "id": "castilla-y-leon--gozadera-fm",
-      "name": "Gozadera FM",
-      "category": "Música",
-      "community": "Castilla y León",
-      "websiteUrl": "https://gozadera.es/",
-      "logoUrl": "https://graph.facebook.com/GozaderaSpain/picture?height=200&width=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://azura.abcorp.es/radio/8030/live",
-          "format": "stream",
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Latino"
     },
     {
       "id": "castilla-y-leon--radio-universitaria-de-leon-106-6-fm",
       "name": "Radio universitaria de León 106.6 fm",
       "category": "Música",
       "community": "Castilla y León",
-      "websiteUrl": "https://servicios.unileon.es/radio-universitaria/",
-      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fservicios.unileon.es%2Fradio-universitaria%2F",
+      "websiteUrl": "",
+      "logoUrl": "",
       "sourceSeed": "Spain.json",
       "verificationStatus": "candidate",
       "streams": [
@@ -191,8 +106,8 @@
       "name": "Radio USAL",
       "category": "Música",
       "community": "Castilla y León",
-      "websiteUrl": "https://radio.usal.es/",
-      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fradio.usal.es%2F",
+      "websiteUrl": "",
+      "logoUrl": "",
       "sourceSeed": "Spain.json",
       "verificationStatus": "candidate",
       "streams": [

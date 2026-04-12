@@ -1,55 +1,49 @@
 {
-  "seedCount": 9,
-  "playableCount": 9,
-  "verifiedCount": 8,
-  "candidateCount": 1,
-  "pendingCount": 0,
+  "seedCount": 3,
+  "playableCount": 2,
+  "verifiedCount": 0,
+  "candidateCount": 2,
+  "pendingCount": 1,
   "stations": [
     {
-      "id": "navarra--afradio",
-      "name": "AFradio",
+      "id": "radio-marca-navarra",
+      "name": "Radio Marca Navarra",
+      "category": "Deporte",
+      "websiteUrl": "https://radiomarcanavarra.com/",
+      "logoUrl": "https://radiomarcanavarra.com/radiomarca.jpg",
+      "sourceSeed": "official-web",
+      "seedPage": 1,
+      "seedRank": 221,
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "community": null
+    },
+    {
+      "id": "navarra--98-3-radio",
+      "name": "98.3 Radio",
       "category": "Música",
       "community": "Navarra",
-      "websiteUrl": "https://coolturafm.com",
-      "logoUrl": "https://graph.facebook.com/coolturafm/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
       "streams": [
         {
-          "label": "MP3 principal",
-          "url": "https://server9.emitironline.com:19244/",
+          "label": "Candidato",
+          "url": "http://s37.myradiostream.com/8638/listen.mp3",
           "format": "mp3",
-          "source": "TDTChannels"
+          "source": "Spain.json"
         }
       ],
       "musicType": "Variedad"
-    },
-    {
-      "id": "navarra--bi-fm",
-      "name": "BI FM",
-      "category": "Música",
-      "community": "Navarra",
-      "websiteUrl": "https://www.bifmradio.com/",
-      "logoUrl": "https://www.bifmradio.com/wp-content/uploads/2020/12/bifm-logo.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Candidato tercero",
-          "url": "http://94.75.234.135:8052/listen.plsmp3",
-          "format": "mp3",
-          "source": "liveradio.ie"
-        }
-      ],
-      "musicType": "Indie"
     },
     {
       "id": "navarra--bit-fm-pamplona-88-7",
       "name": "Bit FM Pamplona 88.7",
       "category": "Música",
       "community": "Navarra",
-      "websiteUrl": "https://bitfm.es/",
-      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fbitfm.es%2F",
+      "websiteUrl": "",
+      "logoUrl": "",
       "sourceSeed": "Spain.json",
       "verificationStatus": "candidate",
       "streams": [
@@ -61,118 +55,6 @@
         }
       ],
       "musicType": "Top 40"
-    },
-    {
-      "id": "navarra--candela-radio",
-      "name": "Candela Radio",
-      "category": "Música",
-      "community": "Navarra",
-      "websiteUrl": "https://candelaradio.fm/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/m6mstp6fmuzc.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 público",
-          "url": "http://uk1-pn.webcast-server.net:8226",
-          "format": "mp3",
-          "source": "radio-online-json-url"
-        }
-      ],
-      "musicType": "Latina"
-    },
-    {
-      "id": "navarra--candil-radio",
-      "name": "Candil Radio",
-      "category": "Noticias",
-      "community": "Navarra",
-      "websiteUrl": "https://candilradio.com/",
-      "logoUrl": "https://graph.facebook.com/CandilRadio/picture?height=200&width=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://candilradio.com/liveradio/candil/live.mp3",
-          "format": "mp3",
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "navarra--cooltura-fm",
-      "name": "Cooltura FM",
-      "category": "Música",
-      "community": "Navarra",
-      "websiteUrl": "https://coolturafm.com",
-      "logoUrl": "https://graph.facebook.com/coolturafm/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://server9.emitironline.com:19244/",
-          "format": "mp3",
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "navarra--decibelia-fm",
-      "name": "Decibelia FM",
-      "category": "Música",
-      "community": "Navarra",
-      "websiteUrl": "https://decibeliafm.es/",
-      "logoUrl": "https://pbs.twimg.com/profile_images/1580311659226210310/umHvZ3-d_200x200.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://streaming.shoutcast.com/decibelia",
-          "format": "stream",
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Dance"
-    },
-    {
-      "id": "navarra--espacio-4-fm",
-      "name": "Espacio 4 FM",
-      "category": "Música",
-      "community": "Navarra",
-      "websiteUrl": "https://www.espacio4fm.com/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/uxmfabbdnref.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://stream.zeno.fm/fz0bc82wn0hvv",
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Electrónica"
-    },
-    {
-      "id": "navarra--gozadera-fm",
-      "name": "Gozadera FM",
-      "category": "Música",
-      "community": "Navarra",
-      "websiteUrl": "https://gozadera.es/",
-      "logoUrl": "https://graph.facebook.com/GozaderaSpain/picture?height=200&width=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://azura.abcorp.es/radio/8030/live",
-          "format": "stream",
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Latino"
     }
   ]
 }

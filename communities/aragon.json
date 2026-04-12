@@ -1,36 +1,75 @@
 {
-  "seedCount": 11,
-  "playableCount": 11,
-  "verifiedCount": 8,
-  "candidateCount": 3,
+  "seedCount": 7,
+  "playableCount": 7,
+  "verifiedCount": 1,
+  "candidateCount": 6,
   "pendingCount": 0,
   "stations": [
     {
-      "id": "aragon--afradio",
-      "name": "AFradio",
-      "category": "Música",
-      "community": "Aragón",
-      "websiteUrl": "https://coolturafm.com",
-      "logoUrl": "https://graph.facebook.com/coolturafm/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
+      "id": "radio-marca-zaragoza",
+      "name": "Radio Marca Zaragoza",
+      "category": "Deporte",
+      "websiteUrl": "https://www.marca.com/radio.html",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels",
+      "seedPage": 1,
+      "seedRank": 201,
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "MP3 principal",
-          "url": "https://server9.emitironline.com:19244/",
+          "label": "Stream principal",
+          "url": "https://c6.auracast.net/radio/8020/rmzgz",
           "format": "mp3",
           "source": "TDTChannels"
         }
       ],
+      "community": null
+    },
+    {
+      "id": "aragon--hit-huesca-107-1-fm",
+      "name": "Hit Huesca 107.1 fm",
+      "category": "Música",
+      "community": "Aragón",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://stm1.emiteonline.com:8003/hitradio",
+          "format": "stream",
+          "source": "Spain.json"
+        }
+      ],
       "musicType": "Variedad"
+    },
+    {
+      "id": "aragon--olimpica-stereo-espana-zaragoza",
+      "name": "Olimpica Stereo España - Zaragoza",
+      "category": "Música",
+      "community": "Aragón",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://srv0410.lcinternet.com:8033/stream",
+          "format": "stream",
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Latino"
     },
     {
       "id": "aragon--aragon-radio-huesca",
       "name": "Aragón Radio Huesca",
       "category": "Noticias",
       "community": "Aragón",
-      "websiteUrl": "https://www.cartv.es/aragonradio",
-      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fwww.cartv.es%2Faragonradio",
+      "websiteUrl": "",
+      "logoUrl": "",
       "sourceSeed": "Spain.json",
       "verificationStatus": "candidate",
       "streams": [
@@ -47,8 +86,8 @@
       "name": "Aragón Radio Teruel",
       "category": "Noticias",
       "community": "Aragón",
-      "websiteUrl": "https://www.cartv.es/aragonradio",
-      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fwww.cartv.es%2Faragonradio",
+      "websiteUrl": "",
+      "logoUrl": "",
       "sourceSeed": "Spain.json",
       "verificationStatus": "candidate",
       "streams": [
@@ -65,8 +104,8 @@
       "name": "Aragón Radio Zaragoza",
       "category": "Noticias",
       "community": "Aragón",
-      "websiteUrl": "https://www.cartv.es/aragonradio",
-      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fwww.cartv.es%2Faragonradio",
+      "websiteUrl": "",
+      "logoUrl": "",
       "sourceSeed": "Spain.json",
       "verificationStatus": "candidate",
       "streams": [
@@ -79,135 +118,22 @@
       ]
     },
     {
-      "id": "aragon--bi-fm",
-      "name": "BI FM",
-      "category": "Música",
+      "id": "aragon--radio-solidaria-zaragoza",
+      "name": "Radio Solidaria Zaragoza",
+      "category": "Religión",
       "community": "Aragón",
-      "websiteUrl": "https://www.bifmradio.com/",
-      "logoUrl": "https://www.bifmradio.com/wp-content/uploads/2020/12/bifm-logo.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
       "streams": [
         {
-          "label": "Candidato tercero",
-          "url": "http://94.75.234.135:8052/listen.plsmp3",
-          "format": "mp3",
-          "source": "liveradio.ie"
-        }
-      ],
-      "musicType": "Indie"
-    },
-    {
-      "id": "aragon--candela-radio",
-      "name": "Candela Radio",
-      "category": "Música",
-      "community": "Aragón",
-      "websiteUrl": "https://candelaradio.fm/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/m6mstp6fmuzc.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 público",
-          "url": "http://uk1-pn.webcast-server.net:8226",
-          "format": "mp3",
-          "source": "radio-online-json-url"
-        }
-      ],
-      "musicType": "Latina"
-    },
-    {
-      "id": "aragon--candil-radio",
-      "name": "Candil Radio",
-      "category": "Noticias",
-      "community": "Aragón",
-      "websiteUrl": "https://candilradio.com/",
-      "logoUrl": "https://graph.facebook.com/CandilRadio/picture?height=200&width=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://candilradio.com/liveradio/candil/live.mp3",
-          "format": "mp3",
-          "source": "TDTChannels"
+          "label": "Candidato",
+          "url": "http://www.rkmradio.com:8000",
+          "format": "stream",
+          "source": "Spain.json"
         }
       ]
-    },
-    {
-      "id": "aragon--cooltura-fm",
-      "name": "Cooltura FM",
-      "category": "Música",
-      "community": "Aragón",
-      "websiteUrl": "https://coolturafm.com",
-      "logoUrl": "https://graph.facebook.com/coolturafm/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://server9.emitironline.com:19244/",
-          "format": "mp3",
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "aragon--decibelia-fm",
-      "name": "Decibelia FM",
-      "category": "Música",
-      "community": "Aragón",
-      "websiteUrl": "https://decibeliafm.es/",
-      "logoUrl": "https://pbs.twimg.com/profile_images/1580311659226210310/umHvZ3-d_200x200.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://streaming.shoutcast.com/decibelia",
-          "format": "stream",
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Dance"
-    },
-    {
-      "id": "aragon--espacio-4-fm",
-      "name": "Espacio 4 FM",
-      "category": "Música",
-      "community": "Aragón",
-      "websiteUrl": "https://www.espacio4fm.com/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/uxmfabbdnref.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://stream.zeno.fm/fz0bc82wn0hvv",
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Electrónica"
-    },
-    {
-      "id": "aragon--gozadera-fm",
-      "name": "Gozadera FM",
-      "category": "Música",
-      "community": "Aragón",
-      "websiteUrl": "https://gozadera.es/",
-      "logoUrl": "https://graph.facebook.com/GozaderaSpain/picture?height=200&width=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://azura.abcorp.es/radio/8030/live",
-          "format": "stream",
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Latino"
     }
   ]
 }

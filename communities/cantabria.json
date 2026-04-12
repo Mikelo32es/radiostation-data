@@ -1,138 +1,50 @@
 {
-  "seedCount": 11,
-  "playableCount": 11,
-  "verifiedCount": 9,
-  "candidateCount": 2,
-  "pendingCount": 0,
+  "seedCount": 5,
+  "playableCount": 4,
+  "verifiedCount": 0,
+  "candidateCount": 4,
+  "pendingCount": 1,
   "stations": [
     {
-      "id": "cantabria--afradio",
-      "name": "AFradio",
+      "id": "radio-marca-cantabria",
+      "name": "Radio Marca Cantabria",
+      "category": "Deporte",
+      "websiteUrl": "https://radiomarcacantabria.com/",
+      "logoUrl": "https://radiomarcacantabria.com/wp-content/uploads/2018/09/Logo-Nuevo-Cantabria.jpg",
+      "sourceSeed": "official-web",
+      "seedPage": 1,
+      "seedRank": 205,
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "community": null
+    },
+    {
+      "id": "cantabria--cadena-mix",
+      "name": "Cadena mix",
       "category": "Música",
       "community": "Cantabria",
-      "websiteUrl": "https://coolturafm.com",
-      "logoUrl": "https://graph.facebook.com/coolturafm/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
       "streams": [
         {
-          "label": "MP3 principal",
-          "url": "https://server9.emitironline.com:19244/",
-          "format": "mp3",
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "arco-fm-cantabria",
-      "name": "Arco FM",
-      "category": "Noticias",
-      "community": "Cantabria",
-      "websiteUrl": "https://arcofm.com/escuchar-arco/",
-      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Farcofm.com%2Fescuchar-arco%2F",
-      "sourceSeed": "Web oficial",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 directo",
-          "url": "https://hisparadio.duckdns.org/stream/1/stream.mp3",
-          "format": "mp3",
-          "source": "Web oficial"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "cantabria--bi-fm",
-      "name": "BI FM",
-      "category": "Música",
-      "community": "Cantabria",
-      "websiteUrl": "https://www.bifmradio.com/",
-      "logoUrl": "https://www.bifmradio.com/wp-content/uploads/2020/12/bifm-logo.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Candidato tercero",
-          "url": "http://94.75.234.135:8052/listen.plsmp3",
-          "format": "mp3",
-          "source": "liveradio.ie"
-        }
-      ],
-      "musicType": "Indie"
-    },
-    {
-      "id": "cantabria--candela-radio",
-      "name": "Candela Radio",
-      "category": "Música",
-      "community": "Cantabria",
-      "websiteUrl": "https://candelaradio.fm/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/m6mstp6fmuzc.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 público",
-          "url": "http://uk1-pn.webcast-server.net:8226",
-          "format": "mp3",
-          "source": "radio-online-json-url"
-        }
-      ],
-      "musicType": "Latina"
-    },
-    {
-      "id": "cantabria--candil-radio",
-      "name": "Candil Radio",
-      "category": "Noticias",
-      "community": "Cantabria",
-      "websiteUrl": "https://candilradio.com/",
-      "logoUrl": "https://graph.facebook.com/CandilRadio/picture?height=200&width=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://candilradio.com/liveradio/candil/live.mp3",
-          "format": "mp3",
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cantabria--cooltura-fm",
-      "name": "Cooltura FM",
-      "category": "Música",
-      "community": "Cantabria",
-      "websiteUrl": "https://coolturafm.com",
-      "logoUrl": "https://graph.facebook.com/coolturafm/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://server9.emitironline.com:19244/",
-          "format": "mp3",
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "cantabria--decibelia-fm",
-      "name": "Decibelia FM",
-      "category": "Música",
-      "community": "Cantabria",
-      "websiteUrl": "https://decibeliafm.es/",
-      "logoUrl": "https://pbs.twimg.com/profile_images/1580311659226210310/umHvZ3-d_200x200.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://streaming.shoutcast.com/decibelia",
+          "label": "Candidato",
+          "url": "http://ns6.emisionlocal.com:8000/",
           "format": "stream",
-          "source": "TDTChannels"
+          "source": "Spain.json"
+        },
+        {
+          "label": "Alternativo 2",
+          "url": "http://91.121.77.67:8000/listen.pls",
+          "format": "pls",
+          "source": "Spain.json"
+        },
+        {
+          "label": "Alternativo 3",
+          "url": "http://ns5.emisionlocal.com/cast/tunein.php/radiomix/playlist.asx",
+          "format": "asx",
+          "source": "Spain.json"
         }
       ],
       "musicType": "Dance"
@@ -142,8 +54,8 @@
       "name": "Escuchando OID Cantabria",
       "category": "Música",
       "community": "Cantabria",
-      "websiteUrl": "https://oidradio.es/",
-      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Foidradio.es%2F",
+      "websiteUrl": "",
+      "logoUrl": "",
       "sourceSeed": "Spain.json",
       "verificationStatus": "candidate",
       "streams": [
@@ -157,55 +69,37 @@
       "musicType": "Variedad"
     },
     {
-      "id": "cantabria--espacio-4-fm",
-      "name": "Espacio 4 FM",
-      "category": "Música",
-      "community": "Cantabria",
-      "websiteUrl": "https://www.espacio4fm.com/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/uxmfabbdnref.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://stream.zeno.fm/fz0bc82wn0hvv",
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Electrónica"
-    },
-    {
-      "id": "cantabria--gozadera-fm",
-      "name": "Gozadera FM",
-      "category": "Música",
-      "community": "Cantabria",
-      "websiteUrl": "https://gozadera.es/",
-      "logoUrl": "https://graph.facebook.com/GozaderaSpain/picture?height=200&width=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://azura.abcorp.es/radio/8030/live",
-          "format": "stream",
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Latino"
-    },
-    {
       "id": "cantabria--oid-radio-cantabria-87-7-fm",
       "name": "OID Radio Cantabria 87.7 FM",
       "category": "Música",
       "community": "Cantabria",
-      "websiteUrl": "https://oidradio.es/",
-      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Foidradio.es%2F",
+      "websiteUrl": "",
+      "logoUrl": "",
       "sourceSeed": "Spain.json",
       "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Candidato",
           "url": "http://ns100.emisionlocal.com:9428/live",
+          "format": "stream",
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "cantabria--radio-laredo-spain",
+      "name": "Radio Laredo (Spain)",
+      "category": "Música",
+      "community": "Cantabria",
+      "websiteUrl": "",
+      "logoUrl": "",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://212.83.172.164:9960/;",
           "format": "stream",
           "source": "Spain.json"
         }

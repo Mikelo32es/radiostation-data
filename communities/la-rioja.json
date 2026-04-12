@@ -2,11 +2,11 @@
   "repoName": "radiostation-data",
   "community": "La Rioja",
   "seedSource": "myTuner",
-  "seedCount": 13,
-  "playableCount": 12,
-  "verifiedCount": 12,
+  "seedCount": 15,
+  "playableCount": 13,
+  "verifiedCount": 13,
   "candidateCount": 0,
-  "pendingCount": 1,
+  "pendingCount": 2,
   "notes": [
     "La Rioja fusionada correctamente: se conservan las 28 emisoras cargadas previamente.",
     "Radio Haro SER cerrada con stream MP3 público.",
@@ -15,44 +15,17 @@
   ],
   "stations": [
     {
-      "id": "cadena-cope-logrono",
-      "name": "Cadena COPE Logroño",
-      "category": "Noticias",
-      "community": "La Rioja",
-      "websiteUrl": "https://www.cope.es/directos/logrono",
-      "logoUrl": "https://graph.facebook.com/coperioja/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
+      "id": "la-rioja-en-la-onda-deportes",
+      "name": "La Rioja en la Onda Deportes",
+      "category": "Deporte",
+      "websiteUrl": "https://www.ondacero.es/podcast/emisoras/logrono/rioja-onda-deportes/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
+      "sourceSeed": "official-web",
       "seedPage": 1,
-      "seedRank": 14,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 directo",
-          "url": "https://wecast-bl02.flumotion.com/copesedes/logrono.mp3",
-          "format": "mp3",
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "canal-ebro-radio",
-      "name": "Canal Ebro Radio",
-      "category": "Noticias",
-      "community": "La Rioja",
-      "websiteUrl": "https://www.canalebro.com/radioonline/",
-      "logoUrl": "https://graph.facebook.com/canalebro/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 17,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 directo",
-          "url": "http://streaming.capsulaimposible.com:8000/stream/2/canalebro.mp3",
-          "format": "mp3",
-          "source": "TDTChannels"
-        }
-      ]
+      "seedRank": 217,
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "community": "La Rioja"
     },
     {
       "id": "radio-formula-hit-castellon-98-3-fm",
@@ -137,22 +110,21 @@
       ]
     },
     {
-      "id": "onda-cero-logrono",
-      "name": "Onda Cero Logroño",
-      "category": "Noticias",
+      "id": "maxima-fm-rioja-107-1-fm",
+      "name": "Maxima FM Rioja 107.1 FM",
+      "category": "Música",
       "community": "La Rioja",
-      "websiteUrl": "https://www.ondacero.es/emisoras/rioja/rioja/directo/",
-      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
+      "musicType": "Electrónica",
+      "websiteUrl": "https://zeno.fm/radio/maxima-fm-rioja-107-1-fm-loca-activa-radio/",
       "sourceSeed": "myTuner",
       "seedPage": 1,
-      "seedRank": 13,
+      "seedRank": 18,
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "HLS directo",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/logrono/master.m3u8",
-          "format": "hls",
-          "source": "TDTChannels"
+          "label": "Zeno candidato",
+          "url": "https://stream.zeno.fm/uzs9ke2puy8uv",
+          "source": "Instagram/Zeno"
         }
       ]
     },
@@ -190,6 +162,66 @@
       "verificationStatus": "seeded_pending",
       "streams": [],
       "musicType": "80s / 90s"
+    },
+    {
+      "id": "cadena-cope-logrono",
+      "name": "Cadena COPE Logroño",
+      "category": "Noticias",
+      "community": "La Rioja",
+      "websiteUrl": "https://www.cope.es/directos/logrono",
+      "logoUrl": "https://graph.facebook.com/coperioja/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 14,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 directo",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/logrono.mp3",
+          "format": "mp3",
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "canal-ebro-radio",
+      "name": "Canal Ebro Radio",
+      "category": "Noticias",
+      "community": "La Rioja",
+      "websiteUrl": "https://www.canalebro.com/radioonline/",
+      "logoUrl": "https://graph.facebook.com/canalebro/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 17,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 directo",
+          "url": "http://streaming.capsulaimposible.com:8000/stream/2/canalebro.mp3",
+          "format": "mp3",
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-cero-logrono",
+      "name": "Onda Cero Logroño",
+      "category": "Noticias",
+      "community": "La Rioja",
+      "websiteUrl": "https://www.ondacero.es/emisoras/rioja/rioja/directo/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 13,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS directo",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/logrono/master.m3u8",
+          "format": "hls",
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "radio-haro-ser",
