@@ -2,11 +2,11 @@
   "repoName": "radiostation-data",
   "syncMessage": "Euskadi pulida en modo fino fino y familias nacionales movidas a Nacional para no contaminar comunidades.",
   "stats": {
-    "seedCount": 102,
+    "seedCount": 104,
     "playableCount": 64,
     "verifiedCount": 57,
     "candidateCount": 7,
-    "pendingCount": 38
+    "pendingCount": 40
   },
   "featuredIds": [
     "eitb-radio-euskadi",
@@ -118,7 +118,7 @@
       "id": "euskadi",
       "name": "Euskadi",
       "path": "communities/euskadi.json",
-      "seedCount": 80,
+      "seedCount": 82,
       "playableCount": 38
     },
     {
@@ -181,10 +181,10 @@
   "homePath": "catalog/home.json",
   "requestedAction": "Reforzar Euskadi por categorías, meter Oye Athletic en Deportes y mantener las cadenas nacionales fuera de comunidades.",
   "totals": {
-    "seedCount": 111,
+    "seedCount": 113,
     "playableCount": 64,
     "verifiedCount": 57,
     "candidateCount": 7,
-    "pendingCount": 47
+    "pendingCount": 49
   }
 }

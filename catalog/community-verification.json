@@ -73,7 +73,7 @@
       "id": "euskadi",
       "name": "Euskadi",
       "path": "communities/euskadi.json",
-      "seedCount": 80,
+      "seedCount": 82,
       "playableCount": 38
     },
     {
@@ -134,10 +134,10 @@
     }
   ],
   "totals": {
-    "seedCount": 111,
+    "seedCount": 113,
     "playableCount": 64,
     "verifiedCount": 57,
     "candidateCount": 7,
-    "pendingCount": 47
+    "pendingCount": 49
   }
 }

@@ -2,11 +2,11 @@
   "repoName": "radiostation-data",
   "community": "Euskadi",
   "seedSource": "myTuner + TDTChannels + webs oficiales + Arrosa/UPV/EHU/centros educativos",
-  "seedCount": 80,
+  "seedCount": 82,
   "playableCount": 38,
   "verifiedCount": 31,
   "candidateCount": 7,
-  "pendingCount": 42,
+  "pendingCount": 44,
   "notes": "Euskadi reforzado por categorías sin meter cadenas nacionales: más peso para deportes, economía, religión, cultura y educación. Se añaden radios locales, escolares, comunitarias y culturales como seeds; solo quedan en verified/candidate las que mantienen stream público razonablemente claro.",
   "stations": [
     {
@@ -403,7 +403,7 @@
     {
       "id": "onda-vasca",
       "name": "Onda Vasca",
-      "category": "Deportes",
+      "category": "Deporte",
       "community": "Euskadi",
       "websiteUrl": "https://www.ondavasca.com/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/ECxKcK4qzJ.png",
@@ -1003,7 +1003,7 @@
     {
       "id": "oye-athletic-fm",
       "name": "Oye Athletic FM",
-      "category": "Deportes",
+      "category": "Deporte",
       "community": "Euskadi",
       "sourceSeed": "Petición usuario + iVoox/Facebook/Guía de la Radio",
       "verificationStatus": "seeded_pending",
@@ -1177,6 +1177,28 @@
       "streams": [],
       "websiteUrl": "https://www.zintzilik.net/",
       "logoUrl": "https://www.zintzilik.net/files/2025/10/cropped-zintzilik_burua_2025_2026.jpg"
+    },
+    {
+      "id": "atxipi-irratia",
+      "name": "Atxipi Irratia",
+      "category": "Educación",
+      "community": "Euskadi",
+      "sourceSeed": "Murumendi LHI + Guía de la Radio",
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "websiteUrl": "https://murumendilhi.hezkuntza.net/es/atxipi-irratia",
+      "logoUrl": null
+    },
+    {
+      "id": "adarra-irratia",
+      "name": "Adarra Irratia",
+      "category": "Educación",
+      "community": "Euskadi",
+      "sourceSeed": "Egape Ikastola + Guía de la Radio",
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "websiteUrl": "https://egape.eus/es/adarra-irratia-1",
+      "logoUrl": null
     }
   ]
 }
