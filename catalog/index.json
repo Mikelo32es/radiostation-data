@@ -2,11 +2,11 @@
   "repoName": "radiostation-data",
   "syncMessage": "Catálogo sincronizado desde GitHub.",
   "stats": {
-    "seedCount": 758,
-    "playableCount": 531,
-    "verifiedCount": 520,
-    "candidateCount": 0,
-    "pendingCount": 238
+    "seedCount": 1592,
+    "playableCount": 1555,
+    "verifiedCount": 1414,
+    "candidateCount": 141,
+    "pendingCount": 37
   },
   "featuredIds": [
     "mariskalrock-radio",
@@ -19,7 +19,6 @@
     "onda-cero-nacional",
     "radio-3-rne",
     "radio-clasica-rne",
-    "los40",
     "cadena-100",
     "rock-fm",
     "kiss-fm",
@@ -37,7 +36,6 @@
     "cadena-ser-nacional",
     "cope-nacional",
     "onda-cero-nacional",
-    "los40",
     "rock-fm",
     "cadena-100",
     "kiss-fm",
@@ -80,28 +78,28 @@
       "name": "Catalunya",
       "path": "communities/catalunya.json",
       "seedCount": 271,
-      "playableCount": 170
+      "playableCount": 271
     },
     {
       "id": "euskadi",
       "name": "Euskadi",
       "path": "communities/euskadi.json",
-      "seedCount": 102,
-      "playableCount": 44
+      "seedCount": 41,
+      "playableCount": 32
     },
     {
       "id": "extremadura",
       "name": "Extremadura",
       "path": "communities/extremadura.json",
-      "seedCount": 54,
-      "playableCount": 30
+      "seedCount": 11,
+      "playableCount": 2
     },
     {
       "id": "galicia",
       "name": "Galicia",
       "path": "communities/galicia.json",
       "seedCount": 80,
-      "playableCount": 80
+      "playableCount": 69
     },
     {
       "id": "la-rioja",
@@ -114,8 +112,8 @@
       "id": "madrid",
       "name": "Madrid",
       "path": "communities/madrid.json",
-      "seedCount": 135,
-      "playableCount": 93
+      "seedCount": 77,
+      "playableCount": 71
     },
     {
       "id": "national",
