@@ -3,11 +3,11 @@
   "community": "Euskadi",
   "seedSource": "myTuner + TDTChannels + webs oficiales + Arrosa/UPV/EHU/centros educativos",
   "seedCount": 76,
-  "playableCount": 43,
-  "verifiedCount": 38,
-  "candidateCount": 5,
-  "pendingCount": 33,
-  "notes": "Euskadi depurado sin cadenas nacionales. Waiting Room queda en Bilbao/Bizkaia por instrucción del usuario, pero sigue pending hasta cerrar stream sólido. Se suben a jugables varias radios vascas con stream público localizado.",
+  "playableCount": 38,
+  "verifiedCount": 36,
+  "candidateCount": 2,
+  "pendingCount": 38,
+  "notes": "Euskadi reforzado por categorías sin meter cadenas nacionales: más peso para deportes, economía, religión, cultura y educación. Se añaden radios locales, escolares, comunitarias y culturales como seeds; solo quedan en verified/candidate las que mantienen stream público razonablemente claro.",
   "stations": [
     {
       "id": "97fm-irratia",
@@ -810,15 +810,8 @@
       "category": "Cultura",
       "community": "Euskadi",
       "sourceSeed": "Sitio oficial + Arrosa",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "MP3 candidato",
-          "url": "http://server8.emitironline.com:18444/stream",
-          "format": "mp3",
-          "source": "FMSTREAM + web oficial Ataria"
-        }
-      ],
+      "verificationStatus": "seeded_pending",
+      "streams": [],
       "websiteUrl": "https://ataria.eus/irratia/"
     },
     {
@@ -945,15 +938,8 @@
       "category": "Comunidad",
       "community": "Euskadi",
       "sourceSeed": "Sitio oficial + Arrosa",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "MP3 candidato",
-          "url": "http://halabedi.eus:8000/oiartzun.mp3",
-          "format": "mp3",
-          "source": "FMSTREAM + Arrosa"
-        }
-      ],
+      "verificationStatus": "seeded_pending",
+      "streams": [],
       "websiteUrl": "https://oiartzunirratia.eus/",
       "logoUrl": null
     },
@@ -1003,16 +989,9 @@
       "community": "Euskadi",
       "musicType": "Punk",
       "sourceSeed": "Sitio oficial o directorio vasco",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 oficial",
-          "url": "https://punkirratia.net:8443/punk",
-          "format": "mp3",
-          "source": "FMSTREAM sobre dominio oficial punkirratia.net"
-        }
-      ],
-      "websiteUrl": "https://punkirratia.net/"
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "websiteUrl": "http://punkirratia.net/"
     },
     {
       "id": "radio-eurolatina-98-4-fm",
@@ -1061,16 +1040,9 @@
       "category": "Comunidad",
       "community": "Euskadi",
       "sourceSeed": "Sitio oficial + Arrosa",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 oficial",
-          "url": "https://radixu.info/zuzenean/radixu-live-64.mp3",
-          "format": "mp3",
-          "source": "FMSTREAM sobre dominio oficial radixu.info"
-        }
-      ],
-      "websiteUrl": "https://www.radixu.info/",
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "websiteUrl": "https://www.radixu.info/irratsaioak",
       "logoUrl": null
     },
     {
@@ -1131,15 +1103,8 @@
       "category": "Comunidad",
       "community": "Euskadi",
       "sourceSeed": "Sitio oficial + Arrosa",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "MP3 candidato",
-          "url": "https://radio.sindominio.net/zintzilik",
-          "format": "mp3",
-          "source": "RCAST/dRadio + Arrosa"
-        }
-      ],
+      "verificationStatus": "seeded_pending",
+      "streams": [],
       "websiteUrl": "https://www.zintzilik.net/",
       "logoUrl": "https://www.zintzilik.net/files/2025/10/cropped-zintzilik_burua_2025_2026.jpg"
     },
@@ -1171,11 +1136,12 @@
       "category": "Música",
       "community": "Euskadi",
       "musicType": "Chillout",
-      "sourceSeed": "Petición usuario (Bilbao/Bizkaia) + directorios públicos",
+      "sourceSeed": "Petición usuario + confirmación usuario en directo + Radios Españolas/myTuner",
       "verificationStatus": "seeded_pending",
       "streams": [],
       "websiteUrl": "https://mytuner-radio.com/radio/waiting-room-508757/",
-      "logoUrl": null
+      "logoUrl": null,
+      "notes": "Usuario confirma que está emitiendo ahora; se fija como Bilbao/Bizkaia. Pendiente capturar stream directo público antes de subirla a jugable en app."
     }
   ]
 }
