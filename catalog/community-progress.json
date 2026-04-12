@@ -55,8 +55,8 @@
       "id": "catalunya",
       "name": "Catalunya",
       "path": "communities/catalunya.json",
-      "seedCount": 0,
-      "playableCount": 0
+      "seedCount": 35,
+      "playableCount": 35
     },
     {
       "id": "comunitat-valenciana",
