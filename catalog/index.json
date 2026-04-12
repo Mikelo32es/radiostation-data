@@ -2,11 +2,11 @@
   "repoName": "radiostation-data",
   "syncMessage": "Catálogo sincronizado desde GitHub.",
   "stats": {
-    "seedCount": 1291,
-    "playableCount": 1130,
-    "verifiedCount": 1130,
-    "candidateCount": 124,
-    "pendingCount": 37
+    "seedCount": 621,
+    "playableCount": 494,
+    "verifiedCount": 460,
+    "candidateCount": 23,
+    "pendingCount": 138
   },
   "featuredIds": [
     "mariskalrock-radio",
@@ -67,11 +67,39 @@
       "playableCount": 32
     },
     {
+      "id": "aragon",
+      "name": "Aragón",
+      "path": "communities/aragon.json",
+      "seedCount": 6,
+      "playableCount": 6
+    },
+    {
       "id": "asturias",
       "name": "Asturias",
       "path": "communities/asturias.json",
       "seedCount": 44,
       "playableCount": 44
+    },
+    {
+      "id": "cantabria",
+      "name": "Cantabria",
+      "path": "communities/cantabria.json",
+      "seedCount": 4,
+      "playableCount": 4
+    },
+    {
+      "id": "castilla-la-mancha",
+      "name": "Castilla-La Mancha",
+      "path": "communities/castilla-la-mancha.json",
+      "seedCount": 5,
+      "playableCount": 5
+    },
+    {
+      "id": "castilla-y-leon",
+      "name": "Castilla y León",
+      "path": "communities/castilla-y-leon.json",
+      "seedCount": 4,
+      "playableCount": 4
     },
     {
       "id": "catalunya",
@@ -116,6 +144,13 @@
       "playableCount": 71
     },
     {
+      "id": "murcia",
+      "name": "Región de Murcia",
+      "path": "communities/murcia.json",
+      "seedCount": 3,
+      "playableCount": 3
+    },
+    {
       "id": "national",
       "name": "Nacional",
       "path": "communities/national.json",
@@ -123,25 +158,11 @@
       "playableCount": 26
     },
     {
-      "id": "canarias",
-      "name": "Canarias",
-      "path": "communities/canarias.json",
-      "seedCount": 30,
-      "playableCount": 0
-    },
-    {
-      "id": "illes-balears",
-      "name": "Illes Balears",
-      "path": "communities/illes-balears.json",
-      "seedCount": 23,
-      "playableCount": 0
-    },
-    {
-      "id": "comunitat-valenciana",
-      "name": "Comunitat Valenciana",
-      "path": "communities/comunitat-valenciana.json",
-      "seedCount": 18,
-      "playableCount": 0
+      "id": "navarra",
+      "name": "Navarra",
+      "path": "communities/navarra.json",
+      "seedCount": 2,
+      "playableCount": 2
     }
   ],
   "homePath": "catalog/home.json"
