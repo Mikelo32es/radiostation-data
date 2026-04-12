@@ -1,6 +1,6 @@
 {
-  "requestedAction": "Ajustar Waiting Room en Bilbao/Bizkaia por petición del usuario y subir a jugables varias emisoras vascas con stream público localizado.",
-  "seedPolicy": "Nada de cadenas nacionales dentro de comunidades. Waiting Room se mantiene en Euskadi por petición expresa del usuario; se deja pending hasta cerrar stream claro y estable.",
+  "requestedAction": "Añadir Waiting Room en Euskadi por petición del usuario sin tocar el resto del catálogo.",
+  "seedPolicy": "Nada de cadenas nacionales dentro de comunidades. Waiting Room se mantiene en Euskadi como seeded_pending por petición expresa del usuario, pendiente de validación fina.",
   "communities": [
     {
       "id": "andalucia",
@@ -70,7 +70,7 @@
       "name": "Euskadi",
       "path": "communities/euskadi.json",
       "seedCount": 76,
-      "playableCount": 43
+      "playableCount": 39
     },
     {
       "id": "extremadura",

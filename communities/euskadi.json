@@ -3,10 +3,10 @@
   "community": "Euskadi",
   "seedSource": "myTuner + TDTChannels + webs oficiales + Arrosa/UPV/EHU/centros educativos",
   "seedCount": 76,
-  "playableCount": 38,
+  "playableCount": 39,
   "verifiedCount": 36,
-  "candidateCount": 2,
-  "pendingCount": 38,
+  "candidateCount": 3,
+  "pendingCount": 37,
   "notes": "Euskadi reforzado por categorías sin meter cadenas nacionales: más peso para deportes, economía, religión, cultura y educación. Se añaden radios locales, escolares, comunitarias y culturales como seeds; solo quedan en verified/candidate las que mantienen stream público razonablemente claro.",
   "stations": [
     {
@@ -1136,12 +1136,20 @@
       "category": "Música",
       "community": "Euskadi",
       "musicType": "Chillout",
-      "sourceSeed": "Petición usuario + confirmación usuario en directo + Radios Españolas/myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": [],
-      "websiteUrl": "https://mytuner-radio.com/radio/waiting-room-508757/",
+      "sourceSeed": "Petición usuario + TuneIn (ID s337727) + Radio España/País Vasco",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "TuneIn resolver",
+          "url": "https://opml.radiotime.com/Tune.ashx?id=s337727",
+          "format": "m3u",
+          "priority": 1,
+          "source": "TuneIn station id s337727"
+        }
+      ],
+      "websiteUrl": "https://www.waitingroomradio.com",
       "logoUrl": null,
-      "notes": "Usuario confirma que está emitiendo ahora; se fija como Bilbao/Bizkaia. Pendiente capturar stream directo público antes de subirla a jugable en app."
+      "notes": "Usuario confirma escucha en directo. TuneIn la expone como estación reproducible y Radio España la lista también dentro de País Vasco."
     }
   ]
 }
