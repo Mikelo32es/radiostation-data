@@ -1,5 +1,5 @@
 {
-  "generatedFrom": "Ajuste manual Euskadi 2026-04-12",
+  "generatedFrom": "Ajuste manual Euskadi 2026-04-12 (Waiting Room Bilbao/Bizkaia + jugables activadas)",
   "criteria": {
     "verified": "Emisora vasca activa con stream público localizado y señal suficiente de vigencia en fuente oficial, Arrosa, TDTChannels o directorio público contrastable.",
     "candidate": "Emisora vasca real con stream localizado pero todavía pendiente de una última validación fina o con encaje más débil.",
@@ -74,7 +74,7 @@
       "name": "Euskadi",
       "path": "communities/euskadi.json",
       "seedCount": 76,
-      "playableCount": 38
+      "playableCount": 43
     },
     {
       "id": "extremadura",
@@ -135,9 +135,9 @@
   ],
   "totals": {
     "seedCount": 106,
-    "playableCount": 64,
-    "verifiedCount": 62,
-    "candidateCount": 2,
-    "pendingCount": 42
+    "playableCount": 69,
+    "verifiedCount": 64,
+    "candidateCount": 5,
+    "pendingCount": 37
   }
 }

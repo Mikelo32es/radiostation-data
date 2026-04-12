@@ -1,12 +1,12 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Euskadi reforzada con Waiting Room añadida por petición del usuario y mantenida como pending hasta validar mejor su encaje y stream.",
+  "syncMessage": "Euskadi reforzada: Waiting Room se mantiene en Bilbao/Bizkaia por petición del usuario y se activan más jugables vascas con stream público localizado.",
   "stats": {
     "seedCount": 106,
-    "playableCount": 64,
-    "verifiedCount": 62,
-    "candidateCount": 2,
-    "pendingCount": 42
+    "playableCount": 69,
+    "verifiedCount": 64,
+    "candidateCount": 5,
+    "pendingCount": 37
   },
   "featuredIds": [
     "eitb-radio-euskadi",
@@ -38,17 +38,17 @@
   ],
   "recentIds": [
     "waiting-room",
+    "ataria-irratia",
+    "punk-irratia",
+    "oiartzun-irratia",
+    "radixu-irratia",
+    "zintzilik-irratia",
     "97fm-irratia",
     "donostia-kultura-irratia",
     "durango-irratia",
-    "zintzilik-irratia",
     "cadena-100",
     "los-40-principales",
-    "rock-fm",
-    "onda-cero-nacional",
-    "muybuena",
-    "tropicana-espana",
-    "olimpica-stereo-espana"
+    "rock-fm"
   ],
   "communities": [
     {
@@ -119,7 +119,7 @@
       "name": "Euskadi",
       "path": "communities/euskadi.json",
       "seedCount": 76,
-      "playableCount": 38
+      "playableCount": 43
     },
     {
       "id": "extremadura",
@@ -179,12 +179,12 @@
     }
   ],
   "homePath": "catalog/home.json",
-  "requestedAction": "Añadir Waiting Room en Euskadi sin tocar el resto del catálogo, manteniéndola como pending hasta validar mejor stream y encaje.",
+  "requestedAction": "Mantener Waiting Room en Euskadi por petición del usuario y echar a andar más jugables vascas con stream público.",
   "totals": {
     "seedCount": 106,
-    "playableCount": 64,
-    "verifiedCount": 62,
-    "candidateCount": 2,
-    "pendingCount": 42
+    "playableCount": 69,
+    "verifiedCount": 64,
+    "candidateCount": 5,
+    "pendingCount": 37
   }
 }

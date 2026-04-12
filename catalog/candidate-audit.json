@@ -2,8 +2,8 @@
   "blacklistPath": "catalog/national-blacklist.json",
   "candidateSummary": {
     "euskadi": {
-      "candidateCount": 2,
-      "playableCandidateCount": 2
+      "candidateCount": 5,
+      "playableCandidateCount": 5
     }
   },
   "candidateDetails": {
@@ -25,6 +25,33 @@
         ],
         "sourceSeed": "Sitio oficial + directorios públicos",
         "websiteUrl": "https://uribefm.com/"
+      },
+      {
+        "id": "ataria-irratia",
+        "name": "Ataria Irratia",
+        "streams": [
+          "http://server8.emitironline.com:18444/stream"
+        ],
+        "sourceSeed": "Sitio oficial + Arrosa",
+        "websiteUrl": "https://ataria.eus/irratia/"
+      },
+      {
+        "id": "oiartzun-irratia",
+        "name": "Oiartzun Irratia",
+        "streams": [
+          "http://halabedi.eus:8000/oiartzun.mp3"
+        ],
+        "sourceSeed": "Sitio oficial + Arrosa",
+        "websiteUrl": "https://oiartzunirratia.eus/"
+      },
+      {
+        "id": "zintzilik-irratia",
+        "name": "Zintzilik Irratia",
+        "streams": [
+          "https://radio.sindominio.net/zintzilik"
+        ],
+        "sourceSeed": "Sitio oficial + Arrosa",
+        "websiteUrl": "https://www.zintzilik.net/"
       }
     ]
   }
