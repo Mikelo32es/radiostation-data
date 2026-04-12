@@ -2,11 +2,11 @@
   "repoName": "radiostation-data",
   "syncMessage": "Catálogo sincronizado desde GitHub.",
   "stats": {
-    "seedCount": 824,
-    "playableCount": 597,
-    "verifiedCount": 688,
+    "seedCount": 758,
+    "playableCount": 531,
+    "verifiedCount": 520,
     "candidateCount": 0,
-    "pendingCount": 136
+    "pendingCount": 238
   },
   "featuredIds": [
     "mariskalrock-radio",
@@ -65,8 +65,8 @@
       "id": "andalucia",
       "name": "Andalucía",
       "path": "communities/andalucia.json",
-      "seedCount": 99,
-      "playableCount": 98
+      "seedCount": 33,
+      "playableCount": 32
     },
     {
       "id": "asturias",
@@ -114,14 +114,14 @@
       "id": "madrid",
       "name": "Madrid",
       "path": "communities/madrid.json",
-      "seedCount": 134,
+      "seedCount": 135,
       "playableCount": 93
     },
     {
       "id": "national",
       "name": "Nacional",
       "path": "communities/national.json",
-      "seedCount": 26,
+      "seedCount": 25,
       "playableCount": 25
     }
   ],

@@ -628,25 +628,11 @@
           "source": "TDTChannels"
         }
       ]
-    },
-    {
-      "id": "waiting-room-nacional",
-      "name": "Waiting Room",
-      "category": "Música",
-      "community": "Nacional",
-      "musicType": "Chillout",
-      "websiteUrl": "https://www.thewaitingroom.com/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/757/waiting-room.4f126cec.png",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 999,
-      "verificationStatus": "verified",
-      "streams": []
     }
   ],
-  "seedCount": 26,
+  "seedCount": 25,
   "playableCount": 25,
   "verifiedCount": 25,
   "candidateCount": 0,
-  "pendingCount": 1
+  "pendingCount": 0
 }

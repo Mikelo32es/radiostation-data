@@ -2,11 +2,11 @@
   "repoName": "radiostation-data",
   "community": "Madrid",
   "seedSource": "myTuner",
-  "seedCount": 134,
+  "seedCount": 135,
   "playableCount": 93,
   "verifiedCount": 93,
   "candidateCount": 0,
-  "pendingCount": 41,
+  "pendingCount": 42,
   "notes": "Madrid se amplía con 50 semillas nuevas tomadas solo del listado de myTuner Madrid; quedan visibles en catálogo pero pendientes de verificar stream y logo.",
   "stations": [
     {
@@ -1480,14 +1480,20 @@
       "category": "Noticias",
       "community": "Madrid",
       "websiteUrl": "https://informaradio.edatv.news/",
-      "logoUrl": "https://graph.facebook.com/100087258914803/picture?width=200&height=200",
+      "logoUrl": "https://informaradio.edatv.news/logo_INFORMA_RADIO.png",
       "sourceSeed": "myTuner",
       "seedPage": 6,
       "seedRank": 1,
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "MP3 principal",
+          "label": "HTTPS principal",
+          "url": "https://24x7.red:42045/informa",
+          "format": "mp3",
+          "source": "Directorio externo / EDATV"
+        },
+        {
+          "label": "HTTP fallback",
           "url": "http://24x7.red:42045/informa",
           "format": "mp3",
           "source": "Radio Browser"
@@ -2386,6 +2392,20 @@
       "musicType": "Jazz",
       "websiteUrl": "https://mytuner-radio.com/es/emisora/radio-callao-madrid-500384/",
       "logoUrl": "",
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "waiting-room",
+      "name": "Waiting Room",
+      "category": "Música",
+      "community": "Madrid",
+      "musicType": "Chillout",
+      "websiteUrl": "https://www.radio-espana.es/waiting-room",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/757/waiting-room.4f126cec.png",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 999,
       "verificationStatus": "seeded_pending",
       "streams": []
     }
