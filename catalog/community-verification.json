@@ -74,10 +74,10 @@
       "name": "Euskadi",
       "path": "communities/euskadi.json",
       "seedCount": 76,
-      "playableCount": 39,
-      "verifiedCount": 36,
-      "candidateCount": 3,
-      "pendingCount": 37
+      "playableCount": 42,
+      "verifiedCount": 38,
+      "candidateCount": 4,
+      "pendingCount": 34
     },
     {
       "id": "extremadura",
@@ -138,9 +138,9 @@
   ],
   "totals": {
     "seedCount": 106,
-    "playableCount": 65,
-    "verifiedCount": 62,
-    "candidateCount": 3,
-    "pendingCount": 41
+    "playableCount": 68,
+    "verifiedCount": 64,
+    "candidateCount": 4,
+    "pendingCount": 38
   }
 }

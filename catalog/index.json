@@ -119,7 +119,7 @@
       "name": "Euskadi",
       "path": "communities/euskadi.json",
       "seedCount": 76,
-      "playableCount": 38
+      "playableCount": 42
     },
     {
       "id": "extremadura",
@@ -182,9 +182,9 @@
   "requestedAction": "Añadir Waiting Room en Euskadi sin tocar el resto del catálogo, manteniéndola como pending hasta validar mejor stream y encaje.",
   "totals": {
     "seedCount": 106,
-    "playableCount": 64,
-    "verifiedCount": 62,
-    "candidateCount": 2,
-    "pendingCount": 42
+    "playableCount": 68,
+    "verifiedCount": 64,
+    "candidateCount": 4,
+    "pendingCount": 38
   }
 }
