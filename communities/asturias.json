@@ -11,15 +11,11 @@
   "stations": [
     {
       "id": "rpa-asturias",
-      "seedName": "RTPA - RadioTelevisión del Principado de Asturias",
       "name": "RPA",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Asturias",
       "websiteUrl": "https://rtpa.es/radio",
       "logoUrl": "https://graph.facebook.com/RTPAoficial/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 1,
@@ -29,22 +25,17 @@
           "label": "HLS principal",
           "url": "https://cdn-rtpa.watchity.net/wct-3545e416-1a16-44b5-b0db-481136ecacc9/continuous/7be5c015-1da2-4927-a49b-8d232faa69be/radio/index.m3u8",
           "format": "hls",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radio-nacional-asturias",
-      "seedName": "RNE Radio Nacional Asturias",
       "name": "Radio Nacional Asturias",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Asturias",
       "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_ast-live/3893526/",
       "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 2,
@@ -53,23 +44,17 @@
         {
           "label": "Stream principal",
           "url": "https://dispatcher.rndfnk.com/crtve/rne1/ast/mp3/high",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radio-5-asturias",
-      "seedName": "RNE Radio 5 Asturias",
       "name": "Radio 5 Asturias",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Asturias",
       "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_ast/3894742/",
       "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 3,
@@ -78,23 +63,17 @@
         {
           "label": "Stream principal",
           "url": "https://dispatcher.rndfnk.com/crtve/rne5/ast/mp3/high",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radio-marca-asturias",
-      "seedName": "Radio Marca Asturias",
       "name": "Radio Marca Asturias",
-      "tagline": "",
-      "description": "",
       "category": "Deporte",
       "community": "Asturias",
       "websiteUrl": "https://www.marca.com/radio.html",
       "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 4,
@@ -104,22 +83,17 @@
           "label": "MP3 principal",
           "url": "https://streaming.enacast.com/radiomarcaasturiasHD.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "ser-asturias",
-      "seedName": "Radio Asturias SER",
       "name": "Radio Asturias SER",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Asturias",
       "websiteUrl": "https://cadenaser.com/radio-asturias/",
       "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 5,
@@ -129,22 +103,17 @@
           "label": "MP3 principal",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_ASTURIAS.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "ser-aviles",
-      "seedName": "Cadena SER Avilés",
       "name": "Cadena SER Avilés",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Asturias",
       "websiteUrl": "https://cadenaser.com/ser-aviles/",
       "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 6,
@@ -154,22 +123,17 @@
           "label": "MP3 principal",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_AVILES.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "ser-gijon",
-      "seedName": "Cadena SER Gijón",
       "name": "Cadena SER Gijón",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Asturias",
       "websiteUrl": "https://cadenaser.com/ser-gijon/",
       "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 7,
@@ -179,22 +143,17 @@
           "label": "MP3 principal",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_GIJON.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "cope-asturias",
-      "seedName": "Cadena COPE Asturias",
       "name": "Cadena COPE Asturias",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Asturias",
       "websiteUrl": "https://www.cope.es/directos/asturias",
       "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 8,
@@ -204,22 +163,17 @@
           "label": "MP3 principal",
           "url": "https://wecast-bl02.flumotion.com/copesedes/asturias.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "cope-aviles",
-      "seedName": "Cadena COPE Avilés",
       "name": "Cadena COPE Avilés",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Asturias",
       "websiteUrl": "https://www.cope.es/directos/aviles",
       "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 9,
@@ -229,22 +183,17 @@
           "label": "MP3 principal",
           "url": "https://wecast-bl02.flumotion.com/copesedes/aviles.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "cope-gijon",
-      "seedName": "Cadena COPE Gijón",
       "name": "Cadena COPE Gijón",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Asturias",
       "websiteUrl": "https://www.cope.es/directos/gijon",
       "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 10,
@@ -254,22 +203,17 @@
           "label": "MP3 principal",
           "url": "https://wecast-bl02.flumotion.com/copesedes/gijon.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "cope-oviedo",
-      "seedName": "Cadena COPE Oviedo",
       "name": "Cadena COPE Oviedo",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Asturias",
       "websiteUrl": "https://www.cope.es/directos/oviedo",
       "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 11,
@@ -279,22 +223,17 @@
           "label": "MP3 principal",
           "url": "https://wecast-bl02.flumotion.com/copesedes/asturias.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "onda-cero-cangas-del-narcea",
-      "seedName": "Onda Cero Cangas del Narcea",
       "name": "Onda Cero Cangas del Narcea",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Asturias",
       "websiteUrl": "https://www.ondacero.es/emisoras/asturias/cangasnarcea/directo/",
       "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 12,
@@ -304,22 +243,17 @@
           "label": "HLS principal",
           "url": "https://atres-live.ondacero.es/live/delegaciones/oc/cangasdenarcea/master.m3u8",
           "format": "hls",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "onda-cero-gijon",
-      "seedName": "Onda Cero Gijón",
       "name": "Onda Cero Gijón",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Asturias",
       "websiteUrl": "https://www.ondacero.es/emisoras/asturias/gijon/directo/",
       "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 13,
@@ -329,22 +263,17 @@
           "label": "HLS principal",
           "url": "https://atres-live.ondacero.es/live/delegaciones/oc/gijon/master.m3u8",
           "format": "hls",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "onda-cero-infiesto",
-      "seedName": "Onda Cero Infiesto",
       "name": "Onda Cero Infiesto",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Asturias",
       "websiteUrl": "https://www.ondacero.es/emisoras/asturias/infiesto/directo/",
       "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 14,
@@ -354,22 +283,17 @@
           "label": "HLS principal",
           "url": "https://atres-live.ondacero.es/live/delegaciones/oc/infiesto/master.m3u8",
           "format": "hls",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "onda-cero-luarca",
-      "seedName": "Onda Cero Luarca",
       "name": "Onda Cero Luarca",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Asturias",
       "websiteUrl": "https://www.ondacero.es/emisoras/asturias/luarca/directo/",
       "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 15,
@@ -379,22 +303,17 @@
           "label": "HLS principal",
           "url": "https://atres-live.ondacero.es/live/delegaciones/oc/luarca/master.m3u8",
           "format": "hls",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "onda-cero-oviedo",
-      "seedName": "Onda Cero Oviedo",
       "name": "Onda Cero Oviedo",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Asturias",
       "websiteUrl": "https://www.ondacero.es/emisoras/asturias/oviedo/directo/",
       "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 16,
@@ -404,22 +323,17 @@
           "label": "HLS principal",
           "url": "https://atres-live.ondacero.es/live/delegaciones/oc/oviedo/master.m3u8",
           "format": "hls",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "esradio-asturias",
-      "seedName": "EsRadio Asturias",
       "name": "EsRadio Asturias",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Asturias",
       "websiteUrl": "https://www.esradioasturias.fm",
       "logoUrl": "https://graph.facebook.com/esradio/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 17,
@@ -428,24 +342,18 @@
         {
           "label": "Stream principal",
           "url": "https://server9.emitironline.com:8822/radio",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "europa-fm-asturias",
-      "seedName": "Europa FM Asturias",
       "name": "Europa FM Asturias",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Asturias",
       "musicType": "Top 40",
       "websiteUrl": "https://www.europafm.com/frecuencias/asturias/",
       "logoUrl": "https://graph.facebook.com/tueuropafm/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 18,
@@ -455,23 +363,18 @@
           "label": "HLS principal",
           "url": "https://atres-live.europafm.com/live/delegaciones/efm/gijon/master.m3u8",
           "format": "hls",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "loca-fm-asturias",
-      "seedName": "Loca FM Asturias",
       "name": "Loca FM Asturias",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Asturias",
       "musicType": "Dance Electrónica",
       "websiteUrl": "https://locafmasturias.com",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 19,
@@ -480,24 +383,18 @@
         {
           "label": "Stream principal",
           "url": "https://server1.easystreaming.pro:8443/locafmasturias",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "carrusel-fm",
-      "seedName": "Carrusel FM",
       "name": "Carrusel FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Asturias",
       "musicType": "Remember",
       "websiteUrl": "http://www.carruselfm.com",
       "logoUrl": "https://pbs.twimg.com/profile_images/520332074147123200/pzYkTYHB_200x200.jpeg",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 20,
@@ -507,23 +404,18 @@
           "label": "MP3 principal",
           "url": "https://server10.emitironline.com:8921/radio?.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "master-fm-asturias",
-      "seedName": "Master FM Asturias",
       "name": "Master FM Asturias",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Asturias",
       "musicType": "Hits",
       "websiteUrl": "https://masterfm.es/radiochannel/asturias/",
       "logoUrl": "https://graph.facebook.com/masterfm.es/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 21,
@@ -532,23 +424,17 @@
         {
           "label": "Stream principal",
           "url": "https://radios.masterfm.es:8000/asturias",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "onda-penes",
-      "seedName": "Onda Peñes",
       "name": "Onda Peñes",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Asturias",
       "websiteUrl": "http://www.gaxarte.com",
       "logoUrl": "https://graph.facebook.com/onda.penes/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 22,
@@ -558,23 +444,18 @@
           "label": "MP3 principal",
           "url": "https://eu1.lhdserver.es:2999/stream?type=.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "la-bomba-radio",
-      "seedName": "La Bomba Radio",
       "name": "La Bomba Radio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Asturias",
       "musicType": "Latina",
       "websiteUrl": "http://www.labombaradio.es",
       "logoUrl": "https://play-lh.googleusercontent.com/RnnCJFfcSu-Ma6MSoLJ4hDT2qz9tNrzHz3AdOyFy-h5bjRb0oakVfVOMtPOn5F7tmA=w200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 23,
@@ -583,23 +464,17 @@
         {
           "label": "Stream principal",
           "url": "https://stm2.emiteonline.com:9014/labomba",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radio-ujo",
-      "seedName": "Radio Ujo",
       "name": "Radio Ujo",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Asturias",
       "websiteUrl": "https://www.radioujo.com",
       "logoUrl": "https://pbs.twimg.com/profile_images/822520464836849664/C124fpj__200x200.jpg",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 24,
@@ -608,23 +483,17 @@
         {
           "label": "Stream principal",
           "url": "https://51551a56-d200-46f7-91c8-36c07a837e44.clouding.host:8000/radio",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radio-qk",
-      "seedName": "Radio QK",
       "name": "Radio QK",
-      "tagline": "",
-      "description": "",
       "category": "Comunitaria",
       "community": "Asturias",
       "websiteUrl": "https://www.radioqk.org",
       "logoUrl": "https://graph.facebook.com/radioqkRadioLibre/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 25,
@@ -634,23 +503,18 @@
           "label": "MP3 principal",
           "url": "http://212.231.231.169:8000/radioqk_master.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "medea-fm",
-      "seedName": "Medea FM",
       "name": "Medea FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Asturias",
       "musicType": "Variedad",
       "websiteUrl": "https://medeafm.es",
       "logoUrl": "https://graph.facebook.com/radiomedeafm/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 26,
@@ -660,23 +524,18 @@
           "label": "Stream principal",
           "url": "https://sonic.mediatelekom.net/8562/;.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "xtrema-fm",
-      "seedName": "Xtrema FM",
       "name": "Xtrema FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Asturias",
       "musicType": "Top 40",
       "websiteUrl": "https://www.xtremafm.es",
       "logoUrl": "https://graph.facebook.com/xtremafm/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 27,
@@ -685,24 +544,18 @@
         {
           "label": "Stream principal",
           "url": "https://server1.radiocast.es/listen/xtrema_fm/xtremafm",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "apq-radio",
-      "seedName": "APQ Radio",
       "name": "APQ Radio",
-      "tagline": "",
-      "description": "",
       "category": "Deporte",
       "community": "Asturias",
       "musicType": "Deportiva / Generalista",
       "websiteUrl": "https://www.apqradio.es",
       "logoUrl": "https://graph.facebook.com/APQRadio.es/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 28,
@@ -711,31 +564,23 @@
         {
           "label": "Stream principal",
           "url": "https://stm2.emiteonline.com:9012/apqradio",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "Stream alternativo",
           "url": "https://stm2.emiteonline.com:9013/apqradio2",
-          "format": "auto",
-          "priority": 2,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "la-mega-fm-asturias",
-      "seedName": "La Mega FM",
       "name": "La Mega FM Asturias",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Asturias",
       "musicType": "Latina",
       "websiteUrl": "https://www.lamegafmasturias.com",
       "logoUrl": "https://play-lh.googleusercontent.com/c_sl-yRJP4jzCPQjkLe0xFWuGj6Xe6JaoShibnsuV98KnDkM7Ao54DsLD_1orN2eyDbC=w200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 29,
@@ -745,23 +590,18 @@
           "label": "MP3 principal",
           "url": "https://broadcast.radioponiente.org:8032/;.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "guateque-fm",
-      "seedName": "Guateque FM",
       "name": "Guateque FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Asturias",
       "musicType": "Oldies",
       "websiteUrl": "https://guatequefm.com",
       "logoUrl": "https://play-lh.googleusercontent.com/29cOsGnQ8A3a-FJ1EkqBDVrMCIMWcQBORIWcmygreM9fNjU5C3Pci0CNDYDrv1NPPPD1=w200-h200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 30,
@@ -770,24 +610,18 @@
         {
           "label": "Stream principal",
           "url": "https://eu1.lhdserver.es:3219/stream",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radio-lider-asturias",
-      "seedName": "Radio Líder Asturias",
       "name": "Radio Líder Asturias",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Asturias",
       "musicType": "Variedad",
       "websiteUrl": "https://radiolider.com/en-directo/",
       "logoUrl": "https://graph.facebook.com/radiolidergalicia/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 31,
@@ -796,24 +630,18 @@
         {
           "label": "Stream principal",
           "url": "https://server8.emitironline.com:18462/stream",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "la-cheverisima-radio",
-      "seedName": "La Cheverisima Radio",
       "name": "La Cheverisima Radio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Asturias",
       "musicType": "Latina",
       "websiteUrl": "https://lacheverisimaradio.com",
       "logoUrl": "https://play-lh.googleusercontent.com/paqCGWhxPmfQOzkssgQHBiAW60j3zi04Hq9K2UWM_oddr-X-ZriB6OK-K0Xr8lmP4A=w200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 32,
@@ -822,23 +650,17 @@
         {
           "label": "Stream principal",
           "url": "https://samuel.i-radio.co:9000/lacheverisima",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "ser-occidente",
-      "seedName": "SER Occidente",
       "name": "SER Occidente",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Asturias",
       "websiteUrl": "https://cadenaser.com/ser-occidente/",
       "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 50,
@@ -848,22 +670,17 @@
           "label": "MP3 principal",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_OCCIDENTE.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TuneIn/FMStream (nomenclatura pública)"
         }
       ]
     },
     {
       "id": "ser-oriente",
-      "seedName": "SER Oriente",
       "name": "SER Oriente",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Asturias",
       "websiteUrl": "https://cadenaser.com/ser-oriente/",
       "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 51,
@@ -873,22 +690,17 @@
           "label": "MP3 principal",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_ORIENTE.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TuneIn/FMStream (nomenclatura pública)"
         }
       ]
     },
     {
       "id": "la-jungla-radio",
-      "seedName": "La Jungla Radio",
       "name": "La Jungla Radio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Asturias",
       "websiteUrl": "https://lajunglaradio.com",
       "logoUrl": "https://graph.facebook.com/LaJunglaRadio/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 54,
@@ -898,7 +710,6 @@
           "label": "MP3 principal",
           "url": "https://streaming12.elitecomunicacion.es:8626/stream?type=.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -906,15 +717,11 @@
     },
     {
       "id": "free-fm-rock",
-      "seedName": "Free FM Rock",
       "name": "Free FM Rock",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Asturias",
       "websiteUrl": "https://www.freefmrock.com/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/769/free-fm.aa638097.jpg",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 55,
@@ -924,7 +731,6 @@
           "label": "Principal",
           "url": "https://freefmrock.radioca.st/stream",
           "format": "mp3",
-          "priority": 1,
           "source": "fmstream (public listing)"
         }
       ],
@@ -932,15 +738,11 @@
     },
     {
       "id": "free-fm-classics",
-      "seedName": "Free FM Classics",
       "name": "Free FM Classics",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Asturias",
       "websiteUrl": "https://www.freefmworld.com",
       "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fwww.freefmworld.com",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 56,
@@ -949,8 +751,6 @@
         {
           "label": "Stream directo",
           "url": "https://xxdelgado.radioca.st",
-          "format": "auto",
-          "priority": 1,
           "source": "Radiomap"
         }
       ],
@@ -958,15 +758,11 @@
     },
     {
       "id": "free-fm-80s",
-      "seedName": "Free FM 80s",
       "name": "Free FM 80s",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Asturias",
       "websiteUrl": "https://sites.google.com/view/freefmworld",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/827/free-fm-80s.16928eb8.png",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 57,
@@ -976,7 +772,6 @@
           "label": "Principal",
           "url": "http://freefm80.radioca.st/",
           "format": "mp3",
-          "priority": 1,
           "source": "radiobrowser index"
         }
       ],
@@ -984,14 +779,10 @@
     },
     {
       "id": "free-fm-world",
-      "seedName": "Free FM World",
       "name": "Free FM World",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Asturias",
       "musicType": "World",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 58,
@@ -1001,7 +792,6 @@
           "label": "Principal",
           "url": "https://rocafmadrid.radioca.st/stream",
           "format": "mp3",
-          "priority": 1,
           "source": "rcast/fmstream public listing"
         }
       ],
@@ -1010,15 +800,11 @@
     },
     {
       "id": "free-fm-love",
-      "seedName": "Free FM Love",
       "name": "Free FM Love",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Asturias",
       "websiteUrl": "https://sites.google.com/view/freefmworld",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/714/free-fm-love.c1ba1f4e.jpg",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 59,
@@ -1028,7 +814,6 @@
           "label": "Principal",
           "url": "https://stream.zeno.fm/umsptm6rvy8uv",
           "format": "mp3",
-          "priority": 1,
           "source": "TingFM listing"
         }
       ],
@@ -1036,14 +821,10 @@
     },
     {
       "id": "free-fm-top-100",
-      "seedName": "Free FM Top 100",
       "name": "Free FM Top 100",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Asturias",
       "musicType": "Top 100",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 60,
@@ -1053,7 +834,6 @@
           "label": "Principal",
           "url": "https://stream.zeno.fm/a5h7vfret68uv",
           "format": "mp3",
-          "priority": 1,
           "source": "fmstream public listing"
         }
       ],
@@ -1062,15 +842,11 @@
     },
     {
       "id": "free-fm-classical",
-      "seedName": "Free FM Classical",
       "name": "Free FM Classical",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Asturias",
       "websiteUrl": "https://sites.google.com/view/freefmworld",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/020/free-fm-classical.0ef23d56.jpg",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 61,
@@ -1080,7 +856,6 @@
           "label": "Principal",
           "url": "http://stream.zeno.fm/x5jlpogsaedvv",
           "format": "mp3",
-          "priority": 1,
           "source": "radiobrowser index"
         }
       ],
@@ -1088,15 +863,11 @@
     },
     {
       "id": "free-fm-chill",
-      "seedName": "Free FM Chill",
       "name": "Free FM Chill",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Asturias",
       "websiteUrl": "https://www.locafm.com/chill-out/player.html",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 62,
@@ -1106,22 +877,17 @@
           "label": "Stream principal",
           "url": "https://s2.we4stream.com/listen/loca_chill_out/live",
           "format": "stream",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "free-fm-sports",
-      "seedName": "Free FM Sports",
       "name": "Free FM Sports",
-      "tagline": "",
-      "description": "",
       "category": "Deporte",
       "community": "Asturias",
       "websiteUrl": "https://sites.google.com/view/freefmworld",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/BtX4kYE4dC.jpg",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 63,
@@ -1131,7 +897,6 @@
           "label": "Principal",
           "url": "https://stream.zeno.fm/31nnibfpnxktv",
           "format": "mp3",
-          "priority": 1,
           "source": "TingFM listing"
         }
       ]

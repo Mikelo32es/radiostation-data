@@ -1,6 +1,6 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Catálogo territorial depurado: candidates locales resueltas y candidatas no territoriales retiradas.",
+  "syncMessage": "Catálogo sincronizado desde GitHub.",
   "stats": {
     "seedCount": 824,
     "playableCount": 597,

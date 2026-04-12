@@ -8,8 +8,6 @@
     {
       "id": "murcia--actuality-fm",
       "name": "Actuality FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.actualityfm.es/p/play.html",
@@ -20,8 +18,6 @@
         {
           "label": "Stream principal",
           "url": "https://streaming0103.sonicpanelradio.com/8248/stream",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -30,8 +26,6 @@
     {
       "id": "murcia--afradio",
       "name": "AFradio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://coolturafm.com",
@@ -43,7 +37,6 @@
           "label": "MP3 principal",
           "url": "https://server9.emitironline.com:19244/",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -52,8 +45,6 @@
     {
       "id": "murcia--antena-1-radio",
       "name": "Antena 1 Radio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.radioplaneta.com/",
@@ -65,7 +56,6 @@
           "label": "Stream principal",
           "url": "https://radioplaneta.emitironline.com/",
           "format": "stream",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -74,8 +64,6 @@
     {
       "id": "murcia--antena-cemu-radio",
       "name": "Antena CEMU Radio",
-      "tagline": "",
-      "description": "",
       "category": "Educación",
       "community": "Región de Murcia",
       "websiteUrl": "https://antenacemu.com/emision-online/",
@@ -86,8 +74,6 @@
         {
           "label": "Stream principal",
           "url": "https://sonic.mediatelekom.net/9980/stream",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
@@ -95,8 +81,6 @@
     {
       "id": "murcia--bi-fm",
       "name": "BI FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.bifmradio.com/",
@@ -108,7 +92,6 @@
           "label": "Candidato tercero",
           "url": "http://94.75.234.135:8052/listen.plsmp3",
           "format": "mp3",
-          "priority": 1,
           "source": "liveradio.ie"
         }
       ],
@@ -117,8 +100,6 @@
     {
       "id": "murcia--buena-onda-musical",
       "name": "Buena Onda Musical",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://masbuenafm.com",
@@ -130,7 +111,6 @@
           "label": "Stream principal",
           "url": "https://sonic.mediatelekom.net/8156/stream",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -139,8 +119,6 @@
     {
       "id": "murcia--can-deu-fm",
       "name": "Can Deu FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "http://candeufm.com",
@@ -151,8 +129,6 @@
         {
           "label": "Stream principal",
           "url": "https://radios.solumedia.com/6716/stream",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -161,8 +137,6 @@
     {
       "id": "murcia--candela-radio",
       "name": "Candela Radio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://candelaradio.fm/",
@@ -174,7 +148,6 @@
           "label": "MP3 público",
           "url": "http://uk1-pn.webcast-server.net:8226",
           "format": "mp3",
-          "priority": 1,
           "source": "radio-online-json-url"
         }
       ],
@@ -183,8 +156,6 @@
     {
       "id": "murcia--candil-radio",
       "name": "Candil Radio",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Región de Murcia",
       "websiteUrl": "https://candilradio.com/",
@@ -196,7 +167,6 @@
           "label": "MP3 principal",
           "url": "https://candilradio.com/liveradio/candil/live.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
@@ -204,8 +174,6 @@
     {
       "id": "murcia--carrusel-fm",
       "name": "Carrusel FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "http://www.carruselfm.com",
@@ -217,7 +185,6 @@
           "label": "MP3 principal",
           "url": "https://server10.emitironline.com:8921/radio?.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -226,8 +193,6 @@
     {
       "id": "murcia--conexiondance-radio",
       "name": "Conexiondance Radio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://decibeliafm.es/",
@@ -239,7 +204,6 @@
           "label": "Stream principal",
           "url": "https://streaming.shoutcast.com/decibelia",
           "format": "stream",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -248,8 +212,6 @@
     {
       "id": "murcia--cooltura-fm",
       "name": "Cooltura FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://coolturafm.com",
@@ -261,7 +223,6 @@
           "label": "MP3 principal",
           "url": "https://server9.emitironline.com:19244/",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -270,8 +231,6 @@
     {
       "id": "murcia--decibelia-fm",
       "name": "Decibelia FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://decibeliafm.es/",
@@ -283,7 +242,6 @@
           "label": "Stream principal",
           "url": "https://streaming.shoutcast.com/decibelia",
           "format": "stream",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -292,8 +250,6 @@
     {
       "id": "murcia--dynamis-radio",
       "name": "Dynamis Radio",
-      "tagline": "",
-      "description": "",
       "category": "Religión",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.dynamisradio.org",
@@ -304,8 +260,6 @@
         {
           "label": "Stream principal",
           "url": "https://control.streaming-pro.com:8014/stream",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
@@ -313,8 +267,6 @@
     {
       "id": "murcia--ecuashyri-fm",
       "name": "ECUASHYRI FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://ecuashyri.es/",
@@ -326,7 +278,6 @@
           "label": "MP3 principal",
           "url": "https://securestream.radioshd.info:7018/stream",
           "format": "mp3",
-          "priority": 1,
           "source": "TingFM"
         }
       ],
@@ -335,8 +286,6 @@
     {
       "id": "murcia--el-salto-radio",
       "name": "El Salto Radio",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.elsaltodiario.com/el-salto-radio/",
@@ -348,7 +297,6 @@
           "label": "MP3 principal",
           "url": "https://radio.radiobot.org/listen/salto/elsaltoradio.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
@@ -356,8 +304,6 @@
     {
       "id": "murcia--esencia-radio",
       "name": "Esencia Radio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.esenciaradio.com/endirecto/",
@@ -368,8 +314,6 @@
         {
           "label": "Stream principal",
           "url": "https://stream.zeno.fm/apu4qxap0rquv",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -378,8 +322,6 @@
     {
       "id": "murcia--espacio-4-fm",
       "name": "Espacio 4 FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.espacio4fm.com/",
@@ -390,8 +332,6 @@
         {
           "label": "Stream principal",
           "url": "https://stream.zeno.fm/fz0bc82wn0hvv",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -400,8 +340,6 @@
     {
       "id": "murcia--flamenco-radio",
       "name": "Flamenco Radio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.canalsurmas.es/",
@@ -413,7 +351,6 @@
           "label": "MP3 principal",
           "url": "https://rtva-live-radio.flumotion.com/rtva/flamenco.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -422,8 +359,6 @@
     {
       "id": "murcia--formula-exitos-mp",
       "name": "Fórmula Éxitos MP",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://mdtradio.com/canales-tematicos/",
@@ -434,8 +369,6 @@
         {
           "label": "Stream principal",
           "url": "https://streams1.mdtradio.com:8443/PopStarsFm",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -444,8 +377,6 @@
     {
       "id": "murcia--free-fm-rock",
       "name": "Free FM Rock",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.freefmrock.com/",
@@ -457,7 +388,6 @@
           "label": "Principal",
           "url": "https://freefmrock.radioca.st/stream",
           "format": "mp3",
-          "priority": 1,
           "source": "fmstream (public listing)"
         }
       ],
@@ -466,8 +396,6 @@
     {
       "id": "murcia--free-fm-sports",
       "name": "Free FM Sports",
-      "tagline": "",
-      "description": "",
       "category": "Deporte",
       "community": "Región de Murcia",
       "websiteUrl": "https://sites.google.com/view/freefmworld",
@@ -479,7 +407,6 @@
           "label": "Principal",
           "url": "https://stream.zeno.fm/31nnibfpnxktv",
           "format": "mp3",
-          "priority": 1,
           "source": "TingFM listing"
         }
       ]
@@ -487,8 +414,6 @@
     {
       "id": "murcia--free-fm-world",
       "name": "Free FM World",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://sites.google.com/view/freefmworld",
@@ -500,7 +425,6 @@
           "label": "Principal",
           "url": "https://rocafmadrid.radioca.st/stream",
           "format": "mp3",
-          "priority": 1,
           "source": "rcast/fmstream public listing"
         }
       ],
@@ -509,8 +433,6 @@
     {
       "id": "murcia--free-fm-x-mas",
       "name": "Free FM X-Mas",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://sites.google.com/view/freefmworld",
@@ -522,7 +444,6 @@
           "label": "Principal",
           "url": "http://stream.zeno.fm/h60er015v68uv",
           "format": "mp3",
-          "priority": 1,
           "source": "radiobrowser index"
         }
       ],
@@ -531,8 +452,6 @@
     {
       "id": "murcia--globo-fm",
       "name": "Globo FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.globofm.es",
@@ -544,7 +463,6 @@
           "label": "MP3 principal",
           "url": "https://sonic.sistemahost.es/8200/;.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -553,8 +471,6 @@
     {
       "id": "murcia--gozadera-fm",
       "name": "Gozadera FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://gozadera.es/",
@@ -566,7 +482,6 @@
           "label": "Stream principal",
           "url": "https://azura.abcorp.es/radio/8030/live",
           "format": "stream",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -575,8 +490,6 @@
     {
       "id": "murcia--gran-via-radio",
       "name": "Gran Via Radio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://granviaradiofm.es",
@@ -587,8 +500,6 @@
         {
           "label": "Stream principal",
           "url": "https://servidor14-3.brlogic.com:7066/live",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -597,8 +508,6 @@
     {
       "id": "murcia--guateque-fm",
       "name": "Guateque FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://guatequefm.com",
@@ -609,8 +518,6 @@
         {
           "label": "Stream principal",
           "url": "https://eu1.lhdserver.es:3219/stream",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -619,8 +526,6 @@
     {
       "id": "murcia--hitz-90s-fm",
       "name": "Hitz 90s FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://zeno.fm/radio/hitz-90s-fm/",
@@ -632,14 +537,12 @@
           "label": "Zeno candidato 1",
           "url": "http://stream.zeno.fm/1q3dwmd6yf8uv",
           "format": "mp3",
-          "priority": 1,
           "source": "radiobrowser index"
         },
         {
           "label": "Zeno candidato 2",
           "url": "https://stream.zeno.fm/x3sxe2nv0p8uv",
           "format": "mp3",
-          "priority": 2,
           "source": "RCAST directory"
         }
       ],
@@ -648,8 +551,6 @@
     {
       "id": "murcia--hitz-91-0",
       "name": "Hitz 91.0",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "",
@@ -661,7 +562,6 @@
           "label": "Zeno candidato",
           "url": "http://stream.zeno.fm/f2qmny74gd0uv",
           "format": "mp3",
-          "priority": 1,
           "source": "radiobrowser index"
         }
       ],
@@ -670,8 +570,6 @@
     {
       "id": "murcia--hitz-91-5-fm",
       "name": "Hitz 91.5 FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "",
@@ -683,14 +581,12 @@
           "label": "MP3 candidato 1",
           "url": "http://ec2.yesstreaming.net:3110/stream",
           "format": "mp3",
-          "priority": 1,
           "source": "RCAST directory"
         },
         {
           "label": "Zeno candidato 2",
           "url": "https://stream.zeno.fm/zskjbd7n200tv",
           "format": "mp3",
-          "priority": 2,
           "source": "RCAST snippet"
         }
       ],
@@ -699,8 +595,6 @@
     {
       "id": "murcia--hitz-91-9-radio",
       "name": "Hitz 91.9 Radio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://zeno.fm/radio/hitz-919-radio-1/",
@@ -712,7 +606,6 @@
           "label": "Zeno candidato",
           "url": "https://node-33.zeno.fm/p9m9tuyap98uv",
           "format": "mp3",
-          "priority": 1,
           "source": "RCAST directory"
         }
       ],
@@ -721,8 +614,6 @@
     {
       "id": "murcia--hitz-africa-fm",
       "name": "Hitz Africa FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "",
@@ -734,7 +625,6 @@
           "label": "MP3 candidato",
           "url": "http://ec2.yesstreaming.net:2960/stream",
           "format": "mp3",
-          "priority": 1,
           "source": "RCAST directory"
         }
       ],
@@ -743,8 +633,6 @@
     {
       "id": "murcia--hitz-funky-radio",
       "name": "Hitz Funky Radio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "",
@@ -756,14 +644,12 @@
           "label": "Zeno candidato 1",
           "url": "http://stream.zeno.fm/azgx0ktf4p8uv",
           "format": "mp3",
-          "priority": 1,
           "source": "radiobrowser index"
         },
         {
           "label": "Zeno candidato 2",
           "url": "https://stream.zeno.fm/zcpx195bt7zuv",
           "format": "mp3",
-          "priority": 2,
           "source": "RCAST directory"
         }
       ],
@@ -772,8 +658,6 @@
     {
       "id": "murcia--hitz-radio-24-7",
       "name": "Hitz Radio 24/7",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://zeno.fm/radio/hitz-radio-24-7/",
@@ -785,7 +669,6 @@
           "label": "MP3 candidato",
           "url": "http://live2.rcast.net:9122/stream",
           "format": "mp3",
-          "priority": 1,
           "source": "RCAST directory"
         }
       ],
@@ -794,8 +677,6 @@
     {
       "id": "murcia--imagina-radio",
       "name": "Imagina Ràdio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.imaginaradio.cat/directe/",
@@ -807,7 +688,6 @@
           "label": "MP3 principal",
           "url": "https://relay.stream.enacast-cloud.com:30286/imaginaradioHD.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -816,8 +696,6 @@
     {
       "id": "murcia--kandela-te-prende",
       "name": "KANDELA Te Prende",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.kandelateprende.com",
@@ -828,8 +706,6 @@
         {
           "label": "Stream directo",
           "url": "https://one.cloudstreaming.eu:6158",
-          "format": "auto",
-          "priority": 1,
           "source": "Radiomap"
         }
       ],
@@ -838,8 +714,6 @@
     {
       "id": "murcia--kyoto-fm",
       "name": "Kyoto FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.kyotofm.es",
@@ -851,7 +725,6 @@
           "label": "Stream principal",
           "url": "https://sonic.mediatelekom.net/8148/stream",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -860,8 +733,6 @@
     {
       "id": "murcia--la-bomba-radio",
       "name": "La Bomba Radio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "http://www.labombaradio.es",
@@ -872,8 +743,6 @@
         {
           "label": "Stream principal",
           "url": "https://stm2.emiteonline.com:9014/labomba",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -882,8 +751,6 @@
     {
       "id": "murcia--la-cheverisima-radio",
       "name": "La Cheverisima Radio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://lacheverisimaradio.com",
@@ -894,8 +761,6 @@
         {
           "label": "Stream principal",
           "url": "https://samuel.i-radio.co:9000/lacheverisima",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -904,8 +769,6 @@
     {
       "id": "murcia--la-condesa-fm",
       "name": "La Condesa FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.lafresca.fm/",
@@ -917,7 +780,6 @@
           "label": "Stream principal",
           "url": "https://stream.produccionesdale.com/listen/lafresca/altacalidad",
           "format": "stream",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -926,8 +788,6 @@
     {
       "id": "murcia--la-flamenca",
       "name": "La Flamenca",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://emisorasmusicales.net/laflamenca/",
@@ -939,7 +799,6 @@
           "label": "MP3 principal",
           "url": "https://stream.emisorasmusicales.net/radio/8070/laflamenca.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -948,8 +807,6 @@
     {
       "id": "murcia--la-fresca-fm",
       "name": "La Fresca FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.lafresca.fm/",
@@ -961,7 +818,6 @@
           "label": "Stream principal",
           "url": "https://stream.produccionesdale.com/listen/lafresca/altacalidad",
           "format": "stream",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -970,8 +826,6 @@
     {
       "id": "murcia--la-marina-fm",
       "name": "La Marina FM",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Región de Murcia",
       "websiteUrl": "https://lamarina.cat/endirecte/",
@@ -982,8 +836,6 @@
         {
           "label": "Stream principal",
           "url": "https://streaming2.elitecomunicacion.es:8248/stream",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
@@ -991,8 +843,6 @@
     {
       "id": "murcia--la-suegra-fm",
       "name": "La Suegra FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.lasuegrafmmadrid.com",
@@ -1003,8 +853,6 @@
         {
           "label": "Stream directo",
           "url": "http://131.153.56.235:9300",
-          "format": "auto",
-          "priority": 1,
           "source": "Radiomap"
         }
       ],
@@ -1013,8 +861,6 @@
     {
       "id": "murcia--la-urban-radio",
       "name": "La Urban Radio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.urbanrevolution.es",
@@ -1026,7 +872,6 @@
           "label": "MP3 principal",
           "url": "https://st1.urbanrevolution.es:8443/laurbanfm.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -1035,8 +880,6 @@
     {
       "id": "murcia--loca-fm-big-room",
       "name": "Loca FM Big Room",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.locafm.com/",
@@ -1047,8 +890,6 @@
         {
           "label": "Stream principal",
           "url": "https://s2.we4stream.com/listen/loca_big_room/live",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -1057,8 +898,6 @@
     {
       "id": "murcia--loca-fm-deep-house",
       "name": "Loca FM Deep House",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.locafm.com/",
@@ -1069,8 +908,6 @@
         {
           "label": "Stream principal",
           "url": "https://s2.we4stream.com/listen/loca_deep_house/live",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -1079,8 +916,6 @@
     {
       "id": "murcia--loca-fm-drum-bass",
       "name": "Loca FM Drum&Bass",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.locafm.com/drum-bass/player.html",
@@ -1091,8 +926,6 @@
         {
           "label": "Stream principal",
           "url": "https://s2.we4stream.com/listen/loca_drum__bass/live",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -1101,8 +934,6 @@
     {
       "id": "murcia--loca-fm-hard",
       "name": "Loca FM Hard",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.locafm.com/hard/player.html",
@@ -1113,8 +944,6 @@
         {
           "label": "Stream principal",
           "url": "https://s2.we4stream.com/listen/loca_hard/live",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -1123,8 +952,6 @@
     {
       "id": "murcia--loca-fm-hard-techno",
       "name": "Loca FM Hard Techno",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.locafm.com/hard-techno/player.html",
@@ -1135,8 +962,6 @@
         {
           "label": "Stream principal",
           "url": "https://s2.we4stream.com/listen/loca_hard_techno/live",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -1145,8 +970,6 @@
     {
       "id": "murcia--loca-fm-industrial",
       "name": "Loca FM Industrial",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.locafm.com/industrial/player.html",
@@ -1157,8 +980,6 @@
         {
           "label": "Stream principal",
           "url": "https://s2.we4stream.com/listen/loca_industrial/live",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -1167,8 +988,6 @@
     {
       "id": "murcia--loca-fm-loca-80s",
       "name": "Loca FM Loca 80s",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.locafm.com/",
@@ -1179,8 +998,6 @@
         {
           "label": "Stream principal",
           "url": "https://s2.we4stream.com/listen/loca_80s/live",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -1189,8 +1006,6 @@
     {
       "id": "murcia--loca-fm-melodic-house",
       "name": "Loca FM Melodic House",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.locafm.com/",
@@ -1201,8 +1016,6 @@
         {
           "label": "Stream principal",
           "url": "https://s2.we4stream.com/listen/loca_melodic_house/live",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -1211,8 +1024,6 @@
     {
       "id": "murcia--loca-fm-melodic-techno",
       "name": "Loca FM Melodic Techno",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.locafm.com/",
@@ -1223,8 +1034,6 @@
         {
           "label": "Stream principal",
           "url": "https://s2.we4stream.com/listen/loca_melodic_techno/live",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -1233,8 +1042,6 @@
     {
       "id": "murcia--loca-fm-remember",
       "name": "Loca FM Remember",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.locafm.com/",
@@ -1245,8 +1052,6 @@
         {
           "label": "Stream principal",
           "url": "https://s2.we4stream.com/listen/loca_remember/live",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -1255,8 +1060,6 @@
     {
       "id": "murcia--loca-fm-sessions",
       "name": "Loca FM Sessions",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.locafm.com/",
@@ -1267,8 +1070,6 @@
         {
           "label": "Stream principal",
           "url": "https://s2.we4stream.com/listen/loca_sessions/live",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -1277,8 +1078,6 @@
     {
       "id": "murcia--loca-fm-tech-house",
       "name": "Loca FM Tech House",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.locafm.com/",
@@ -1289,8 +1088,6 @@
         {
           "label": "Stream principal",
           "url": "https://s2.we4stream.com/listen/loca_tech_house/live",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -1299,8 +1096,6 @@
     {
       "id": "murcia--loca-fm-urban",
       "name": "Loca FM Urban",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.locafm.com/loca-urban/player.html",
@@ -1311,8 +1106,6 @@
         {
           "label": "Stream principal",
           "url": "https://s1.we4stream.com:2020/stream/locaurban",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -1321,8 +1114,6 @@
     {
       "id": "murcia--lokura-radio",
       "name": "Lokura Radio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://suena.live/p/5/?identificador=lokuraradio",
@@ -1333,8 +1124,6 @@
         {
           "label": "Zeno candidato",
           "url": "https://stream.zeno.fm/3fks04pxchvv",
-          "format": "auto",
-          "priority": 1,
           "source": "Instagram/Zeno"
         }
       ],
@@ -1343,8 +1132,6 @@
     {
       "id": "murcia--mariskalrock-radio",
       "name": "MariskalRock Radio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://mariskalrock.com",
@@ -1355,8 +1142,6 @@
         {
           "label": "Stream principal",
           "url": "https://media.profesionalhosting.com:8047/stream",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -1365,8 +1150,6 @@
     {
       "id": "murcia--mdt-radio-pop-stars",
       "name": "MDT Radio Pop Stars",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://mdtradio.com/canales-tematicos/",
@@ -1377,8 +1160,6 @@
         {
           "label": "Stream principal",
           "url": "https://streams1.mdtradio.com:8443/PopStarsFm",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -1387,8 +1168,6 @@
     {
       "id": "murcia--mdt-radio-remember",
       "name": "MDT Radio Remember",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.mdtradio.com",
@@ -1399,8 +1178,6 @@
         {
           "label": "Stream principal",
           "url": "https://streams1.mdtradio.com:8443/mdtweb",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -1409,8 +1186,6 @@
     {
       "id": "murcia--medea-fm",
       "name": "Medea FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://medeafm.es",
@@ -1422,7 +1197,6 @@
           "label": "Stream principal",
           "url": "https://sonic.mediatelekom.net/8562/;.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -1431,8 +1205,6 @@
     {
       "id": "murcia--muralla-metal-rock",
       "name": "Muralla Metal Rock",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.scannerfm.com",
@@ -1443,8 +1215,6 @@
         {
           "label": "Stream principal",
           "url": "https://eu10.fastcast4u.com/scannerfm",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -1453,8 +1223,6 @@
     {
       "id": "murcia--nostalgia-fm",
       "name": "Nostalgia FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://nostalgiafm.es/",
@@ -1466,7 +1234,6 @@
           "label": "Stream principal",
           "url": "https://azura.abcorp.es/radio/8040/live",
           "format": "stream",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -1475,8 +1242,6 @@
     {
       "id": "murcia--ona-la-torre",
       "name": "Ona La Torre",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.ona-latorre.cat",
@@ -1488,7 +1253,6 @@
           "label": "MP3 principal",
           "url": "https://streaming.enacast.com/onalatorreSD.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
@@ -1496,8 +1260,6 @@
     {
       "id": "murcia--onda-capital",
       "name": "Onda Capital",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Región de Murcia",
       "websiteUrl": "https://ondacapital.es/",
@@ -1509,7 +1271,6 @@
           "label": "Stream principal",
           "url": "https://server1.radiocast.es/listen/onda_capital/capitalweb",
           "format": "stream",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
@@ -1517,8 +1278,6 @@
     {
       "id": "murcia--onda-latina",
       "name": "Onda Latina",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "http://www.ondalatina.com.es",
@@ -1529,8 +1288,6 @@
         {
           "label": "Stream principal",
           "url": "https://cervera.eldialdigital.com:21131/stream",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -1539,8 +1296,6 @@
     {
       "id": "murcia--onda-merlin-c-radio",
       "name": "Onda Merlín C Radio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.omcradio.org/escuchanos/",
@@ -1552,7 +1307,6 @@
           "label": "MP3 principal",
           "url": "https://radio.radiobot.org/listen/omc/directo.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -1561,8 +1315,6 @@
     {
       "id": "murcia--onda-ocio",
       "name": "Onda Ocio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://ondaocio.com/",
@@ -1574,7 +1326,6 @@
           "label": "Zeno directo",
           "url": "http://stream.zeno.fm/u4e4bdyuvmzuv",
           "format": "mp3",
-          "priority": 1,
           "source": "Facebook / Zeno"
         }
       ],
@@ -1583,8 +1334,6 @@
     {
       "id": "murcia--onda-vallekana",
       "name": "Onda Vallekana",
-      "tagline": "",
-      "description": "",
       "category": "Comunitaria",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.ondavallekana.es/",
@@ -1595,8 +1344,6 @@
         {
           "label": "Stream principal",
           "url": "https://sonic.sistemahost.es/8152/;",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
@@ -1604,8 +1351,6 @@
     {
       "id": "murcia--orquestas",
       "name": "ORQUESTAS",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://verbenafm.com",
@@ -1617,7 +1362,6 @@
           "label": "Stream principal",
           "url": "https://streaming12.elitecomunicacion.es:8222/stream",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -1626,8 +1370,6 @@
     {
       "id": "murcia--peperadio",
       "name": "Peperadio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://peperadio.es",
@@ -1638,8 +1380,6 @@
         {
           "label": "Stream principal",
           "url": "https://server10.emitironline.com:8032/",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -1648,8 +1388,6 @@
     {
       "id": "murcia--proxima-fm",
       "name": "Pròxima FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "http://proximafm.cat",
@@ -1660,8 +1398,6 @@
         {
           "label": "Stream principal",
           "url": "https://mars.streamerr.co/8058/stream",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -1670,8 +1406,6 @@
     {
       "id": "murcia--radio-7",
       "name": "Radio 7",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.radio7.com/",
@@ -1683,7 +1417,6 @@
           "label": "MP3 principal",
           "url": "https://radio7.streaming-pro.com:6146/radio7.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
@@ -1691,8 +1424,6 @@
     {
       "id": "murcia--radio-alegria-fm",
       "name": "Radio Alegria FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://nostalgiafm.es/",
@@ -1704,7 +1435,6 @@
           "label": "Stream principal",
           "url": "https://azura.abcorp.es/radio/8040/live",
           "format": "stream",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -1713,8 +1443,6 @@
     {
       "id": "murcia--radio-almenara",
       "name": "Radio Almenara",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Región de Murcia",
       "websiteUrl": "https://radioalmenara.net",
@@ -1725,8 +1453,6 @@
         {
           "label": "Stream principal",
           "url": "https://cervera.eldialdigital.com:25211/stream",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
@@ -1734,8 +1460,6 @@
     {
       "id": "murcia--radio-ciguena",
       "name": "Radio Cigüeña",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.radiociguena.org",
@@ -1746,8 +1470,6 @@
         {
           "label": "Stream principal",
           "url": "https://cervera.eldialdigital.com:25171/stream",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
@@ -1755,8 +1477,6 @@
     {
       "id": "murcia--radio-espana-network",
       "name": "Radio España Network",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.espananetwork.net/",
@@ -1767,8 +1487,6 @@
         {
           "label": "Stream principal",
           "url": "https://stream.zeno.fm/ocinyyji4rntv",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -1777,8 +1495,6 @@
     {
       "id": "murcia--radio-la-mina",
       "name": "Radio La Mina",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://radiolamina.blogspot.com",
@@ -1789,8 +1505,6 @@
         {
           "label": "Stream principal",
           "url": "http://cervera.eldialdigital.com:11121/stream",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -1799,8 +1513,6 @@
     {
       "id": "murcia--radio-lider-espana",
       "name": "Radio Líder España",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Región de Murcia",
       "websiteUrl": "https://radiolider.com/en-directo/",
@@ -1812,7 +1524,6 @@
           "label": "Stream principal",
           "url": "https://server9.emitironline.com:8200/stream",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
@@ -1820,8 +1531,6 @@
     {
       "id": "murcia--radio-planeta",
       "name": "Radio Planeta",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.radioplaneta.com/",
@@ -1833,7 +1542,6 @@
           "label": "Stream principal",
           "url": "https://radioplaneta.emitironline.com/",
           "format": "stream",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -1842,8 +1550,6 @@
     {
       "id": "murcia--radio-qk",
       "name": "Radio QK",
-      "tagline": "",
-      "description": "",
       "category": "Comunitaria",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.radioqk.org",
@@ -1855,7 +1561,6 @@
           "label": "MP3 principal",
           "url": "http://212.231.231.169:8000/radioqk_master.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
@@ -1863,8 +1568,6 @@
     {
       "id": "murcia--radio-romanul",
       "name": "Radio Romanul",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.radioromanul.es/live/",
@@ -1875,8 +1578,6 @@
         {
           "label": "Stream principal",
           "url": "http://streaming.radioromanul.es:55556/web",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -1885,8 +1586,6 @@
     {
       "id": "murcia--radio-teletaxi",
       "name": "Radio TeleTaxi",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.radioteletaxi.com/reproductor/",
@@ -1898,7 +1597,6 @@
           "label": "MP3 principal",
           "url": "https://radiott-web.streaming-pro.com:6103/radiott.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -1907,8 +1605,6 @@
     {
       "id": "murcia--radio-tentacion",
       "name": "Radio Tentación",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.radiotentacion.com/",
@@ -1919,8 +1615,6 @@
         {
           "label": "Stream principal",
           "url": "https://streaming6.locucionar.com:2020/stream/radiotentacion",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -1929,8 +1623,6 @@
     {
       "id": "murcia--radio-utopia",
       "name": "Radio Utopía",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.radioutopia.org.es",
@@ -1942,7 +1634,6 @@
           "label": "MP3 principal",
           "url": "http://streaming.radioutopia.org.es:8000/radio-utopia.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -1951,8 +1642,6 @@
     {
       "id": "murcia--radio-zumba",
       "name": "Radio Zumba",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://gozadera.es/",
@@ -1964,7 +1653,6 @@
           "label": "Stream principal",
           "url": "https://azura.abcorp.es/radio/8030/live",
           "format": "stream",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -1973,8 +1661,6 @@
     {
       "id": "murcia--radiogolex",
       "name": "Radiogolex",
-      "tagline": "",
-      "description": "",
       "category": "Deporte",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.radiogolex.com",
@@ -1985,8 +1671,6 @@
         {
           "label": "Stream directo",
           "url": "https://streaming12.elitecomunicacion.es:8218/stream",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
@@ -1994,8 +1678,6 @@
     {
       "id": "murcia--rce-cultura-i-esport",
       "name": "RCE Cultura i Esport",
-      "tagline": "",
-      "description": "",
       "category": "Deporte",
       "community": "Región de Murcia",
       "websiteUrl": "https://rce.cat",
@@ -2007,7 +1689,6 @@
           "label": "MP3 principal",
           "url": "https://c688s1.kapitalproductions.net/listen/rce/radio.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
@@ -2015,8 +1696,6 @@
     {
       "id": "murcia--rec-radio",
       "name": "REC Radio",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.recradio.es/",
@@ -2027,8 +1706,6 @@
         {
           "label": "Stream principal",
           "url": "https://server9.emitironline.com:19488/stream",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
@@ -2036,8 +1713,6 @@
     {
       "id": "murcia--top-radio",
       "name": "Top Radio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.topradio.es/",
@@ -2049,7 +1724,6 @@
           "label": "HLS principal",
           "url": "https://mdstrm.com/audio/66ec3c9fabba24a0a2e59de8/live.m3u8",
           "format": "hls",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -2058,8 +1732,6 @@
     {
       "id": "murcia--vinilo-fm",
       "name": "Vinilo FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://vinilofm.es/",
@@ -2071,7 +1743,6 @@
           "label": "MP3 Bizkaia",
           "url": "https://radio.vinilofm.es/radio/8000/bizkaia.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -2080,8 +1751,6 @@
     {
       "id": "murcia--xtrema-fm",
       "name": "Xtrema FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "https://www.xtremafm.es",
@@ -2092,8 +1761,6 @@
         {
           "label": "Stream principal",
           "url": "https://server1.radiocast.es/listen/xtrema_fm/xtremafm",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -2101,10 +1768,7 @@
     },
     {
       "id": "murcia--cadena-ser-murcia",
-      "seedName": "Cadena SER - Murcia",
       "name": "Cadena SER - Murcia",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "",
@@ -2116,7 +1780,6 @@
           "label": "Candidato",
           "url": "http://playerservices.streamtheworld.com/pls/SER_MURCIA.pls",
           "format": "pls",
-          "priority": 1,
           "source": "Spain.json"
         }
       ],
@@ -2124,10 +1787,7 @@
     },
     {
       "id": "murcia--cope-cartagena-89-4-fm",
-      "seedName": "COPE - Cartagena 89.4 FM",
       "name": "COPE - Cartagena 89.4 FM",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Región de Murcia",
       "websiteUrl": "",
@@ -2139,17 +1799,13 @@
           "label": "Candidato",
           "url": "http://cartagena.copesedes.stream.flumotion.com/copesedes/cartagena.mp3.m3u",
           "format": "m3u",
-          "priority": 1,
           "source": "Spain.json"
         }
       ]
     },
     {
       "id": "murcia--cope-murcia-san-javier-100-6-fm",
-      "seedName": "COPE - Murcia / San Javier 100.6 FM",
       "name": "COPE - Murcia / San Javier 100.6 FM",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Región de Murcia",
       "websiteUrl": "",
@@ -2161,17 +1817,13 @@
           "label": "Candidato",
           "url": "http://murcia.copesedes.stream.flumotion.com/copesedes/murcia.mp3.m3u",
           "format": "m3u",
-          "priority": 1,
           "source": "Spain.json"
         }
       ]
     },
     {
       "id": "murcia--mas-fm-begastri-107",
-      "seedName": "más FM Begastri 107",
       "name": "más FM Begastri 107",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Región de Murcia",
       "websiteUrl": "",
@@ -2183,7 +1835,6 @@
           "label": "Candidato",
           "url": "http://46.29.48.40:8000/masfmbegastri.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "Spain.json"
         }
       ],
@@ -2191,10 +1842,7 @@
     },
     {
       "id": "murcia--rtrm-onda-regional-de-murcia",
-      "seedName": "RTRM Onda Regional de Murcia",
       "name": "RTRM Onda Regional de Murcia",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Región de Murcia",
       "websiteUrl": "",
@@ -2206,17 +1854,13 @@
           "label": "Candidato",
           "url": "http://80.73.144.90:1935/live/orm/orm/playlist.m3u8",
           "format": "hls",
-          "priority": 1,
           "source": "Spain.json"
         }
       ]
     },
     {
       "id": "murcia--rtrm-onda-regional-de-murcia-musica",
-      "seedName": "RTRM Onda Regional de Murcia Música",
       "name": "RTRM Onda Regional de Murcia Música",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Región de Murcia",
       "websiteUrl": "",
@@ -2228,7 +1872,6 @@
           "label": "Candidato",
           "url": "http://80.73.144.90:1935/live/ormmusical/ormmusical/chunklist_w462583734.m3u8",
           "format": "hls",
-          "priority": 1,
           "source": "Spain.json"
         }
       ]

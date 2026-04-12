@@ -10,10 +10,7 @@
   "stations": [
     {
       "id": "catalunya-radio",
-      "seedName": "Catalunya Ràdio",
       "name": "Catalunya Ràdio",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.3cat.cat/3cat/directes/catalunya-radio/",
@@ -28,17 +25,13 @@
           "label": "HLS principal",
           "url": "https://directes-radio-int.3catdirectes.cat/live-content/catalunya-radio-hls/master.m3u8",
           "format": "hls",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "catalunya-informacio",
-      "seedName": "Catalunya Informació",
       "name": "Catalunya Informació",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.3cat.cat/3cat/directes/3catinfo-radio/",
@@ -53,17 +46,13 @@
           "label": "HLS principal",
           "url": "https://directes-radio-int.3catdirectes.cat/live-content/catalunya-informacio-hls/master.m3u8",
           "format": "hls",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "catalunya-musica",
-      "seedName": "Catalunya Música",
       "name": "Catalunya Música",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.3cat.cat/3cat/directes/catalunya-musica/",
@@ -78,7 +67,6 @@
           "label": "HLS principal",
           "url": "https://directes-radio-int.3catdirectes.cat/live-content/catalunya-musica-hls/master.m3u8",
           "format": "hls",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -86,10 +74,7 @@
     },
     {
       "id": "icat",
-      "seedName": "iCat",
       "name": "iCat",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.3cat.cat/3cat/directes/icat/",
@@ -104,7 +89,6 @@
           "label": "HLS principal",
           "url": "https://directes-radio-int.3catdirectes.cat/live-content/icat-hls/master.m3u8",
           "format": "hls",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -112,10 +96,7 @@
     },
     {
       "id": "rac-1",
-      "seedName": "RAC 1",
       "name": "RAC1",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.rac1.cat",
@@ -130,24 +111,19 @@
           "label": "MP3 principal",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RAC_1.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "MP3 alternativo",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RAC_MES_1.mp3",
           "format": "mp3",
-          "priority": 2,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radio-nacional-catalunya",
-      "seedName": "Radio Nacional Catalunya",
       "name": "Radio Nacional Catalunya",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_cat-live/3893527/",
@@ -162,17 +138,13 @@
           "label": "MP3 principal",
           "url": "https://dispatcher.rndfnk.com/crtve/rne1/cat/mp3/high",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radio-4-rne",
-      "seedName": "Ràdio 4 RNE",
       "name": "Ràdio 4 RNE",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.rtve.es/play/radio/radio-4/",
@@ -187,17 +159,13 @@
           "label": "HLS principal",
           "url": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r4_main.m3u8",
           "format": "hls",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radio-5-catalunya",
-      "seedName": "Radio 5 Catalunya",
       "name": "Radio 5 Catalunya",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_cat/3894724/",
@@ -212,17 +180,13 @@
           "label": "MP3 principal",
           "url": "https://dispatcher.rndfnk.com/crtve/rne5/bcn/mp3/high",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "ser-catalunya",
-      "seedName": "SER Catalunya",
       "name": "SER Catalunya",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://play.cadenaser.com/emisora/sercat/",
@@ -237,17 +201,13 @@
           "label": "MP3 principal",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_CAT.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "los40-catalunya",
-      "seedName": "LOS40 Catalunya",
       "name": "LOS40 Catalunya",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://play.los40.com/emisora/los40_catalunya/",
@@ -262,7 +222,6 @@
           "label": "MP3 principal",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_CAT.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -270,10 +229,7 @@
     },
     {
       "id": "flaix-fm",
-      "seedName": "Flaix FM",
       "name": "Flaix FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://flaixfm.cat",
@@ -287,8 +243,6 @@
         {
           "label": "Stream principal",
           "url": "https://stream.flaixfm.cat/icecast",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -296,10 +250,7 @@
     },
     {
       "id": "flaixbac",
-      "seedName": "Ràdio Flaixbac",
       "name": "Flaixbac",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.flaixbac.cat",
@@ -313,8 +264,6 @@
         {
           "label": "Stream principal",
           "url": "https://stream.flaixbac.cat/icecast",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -322,10 +271,7 @@
     },
     {
       "id": "rac-105",
-      "seedName": "RAC 105",
       "name": "RAC105",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.rac105.cat",
@@ -340,14 +286,12 @@
           "label": "AAC principal",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RAC105AAC.aac",
           "format": "aac",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "MP3 alternativo",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RAC105.mp3",
           "format": "mp3",
-          "priority": 2,
           "source": "TDTChannels"
         }
       ],
@@ -355,15 +299,11 @@
     },
     {
       "id": "radio-teletaxi",
-      "seedName": "Radio TeleTaxi",
       "name": "Radio TeleTaxi",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.radioteletaxi.com/reproductor/",
       "logoUrl": "https://graph.facebook.com/radioteletaxi/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 14,
@@ -373,7 +313,6 @@
           "label": "MP3 principal",
           "url": "https://radiott-web.streaming-pro.com:6103/radiott.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -381,15 +320,11 @@
     },
     {
       "id": "radio-marca-barcelona",
-      "seedName": "Radio Marca Barcelona",
       "name": "Radio Marca Barcelona",
-      "tagline": "",
-      "description": "",
       "category": "Deporte",
       "community": "Catalunya",
       "websiteUrl": "https://www.marca.com/radio.html",
       "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 15,
@@ -398,23 +333,17 @@
         {
           "label": "Stream principal",
           "url": "https://radiomarcabcnmedia.dns-lcinternet.com:9000/stream",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "ser-barcelona",
-      "seedName": "Ràdio Barcelona SER",
       "name": "SER Barcelona",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://cadenaser.com/radio-barcelona/",
       "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 16,
@@ -424,17 +353,13 @@
           "label": "MP3 principal",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_BARCELONA.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "ser-ebre",
-      "seedName": "SER Ebre",
       "name": "SER Ebre",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://cadenaser.com/ser-ebre/",
@@ -448,18 +373,13 @@
         {
           "label": "Stream principal",
           "url": "https://cadenaserebre.streaming-pro.com:6021/stream",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "ser-girona",
-      "seedName": "SER Girona",
       "name": "SER Girona",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://cadenaser.com/radio-girona/",
@@ -474,17 +394,13 @@
           "label": "MP3 principal",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_GIRONA.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "ser-lleida",
-      "seedName": "SER Lleida",
       "name": "SER Lleida",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://cadenaser.com/radio-lleida/",
@@ -499,17 +415,13 @@
           "label": "MP3 principal",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_LLEIDA.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "ser-manresa",
-      "seedName": "SER Manresa",
       "name": "SER Manresa",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiomanresa.cat",
@@ -524,17 +436,13 @@
           "label": "MP3 principal",
           "url": "https://streaming.enacast.com:8000/taronjadigital-bages56.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "ser-penedes-garraf",
-      "seedName": "SER Penedès-Garraf",
       "name": "SER Penedès-Garraf",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://cadenaser.com/ser-penedesgarraf/",
@@ -549,17 +457,13 @@
           "label": "MP3 principal",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_PENEDES_GARRAF.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "ser-reus",
-      "seedName": "SER Reus",
       "name": "SER Reus",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://cadenaser.com/radio-reus/",
@@ -574,17 +478,13 @@
           "label": "MP3 principal",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_REUS.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "ser-tarragona",
-      "seedName": "SER Tarragona",
       "name": "SER Tarragona",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://cadenaser.com/ser-tarragona/",
@@ -599,22 +499,17 @@
           "label": "MP3 principal",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_TARRAGONA.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "cope-barcelona-miramar",
-      "seedName": "COPE Barcelona Miramar",
       "name": "COPE Barcelona Miramar",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.cope.es/directos/barcelona",
       "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 24,
@@ -624,22 +519,17 @@
           "label": "MP3 principal",
           "url": "https://wecast-bl02.flumotion.com/copesedes/barcelona.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "cope-girona",
-      "seedName": "COPE Girona",
       "name": "COPE Girona",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.cope.es/directos/girona",
       "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 25,
@@ -649,22 +539,17 @@
           "label": "MP3 principal",
           "url": "https://wecast-bl02.flumotion.com/copesedes/gerona.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "cope-lleida",
-      "seedName": "COPE Lleida",
       "name": "COPE Lleida",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.cope.es/directos/lleida",
       "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 26,
@@ -674,22 +559,17 @@
           "label": "MP3 principal",
           "url": "https://wecast-bl02.flumotion.com/copesedes/lleida.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "cope-tarragona",
-      "seedName": "COPE Tarragona",
       "name": "COPE Tarragona",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.cope.es/directos/tarragona",
       "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 27,
@@ -699,22 +579,17 @@
           "label": "MP3 principal",
           "url": "https://wecast-bl02.flumotion.com/copesedes/tarragona.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "onda-cero-barcelona",
-      "seedName": "Onda Cero Barcelona",
       "name": "Onda Cero Barcelona",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.ondacero.es/emisoras/catalunya/barcelona/directo/",
       "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 28,
@@ -724,22 +599,17 @@
           "label": "HLS principal",
           "url": "https://atres-live.ondacero.es/live/delegaciones/oc/barcelona/master.m3u8",
           "format": "hls",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "onda-cero-girona",
-      "seedName": "Onda Cero Girona",
       "name": "Onda Cero Girona",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.ondacero.es/emisoras/catalunya/girona/directo/",
       "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 29,
@@ -749,22 +619,17 @@
           "label": "HLS principal",
           "url": "https://atres-live.ondacero.es/live/delegaciones/oc/barcelona/master.m3u8",
           "format": "hls",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "onda-cero-lleida",
-      "seedName": "Onda Cero Lleida",
       "name": "Onda Cero Lleida",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.ondacero.es/emisoras/catalunya/lleida/directo/",
       "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 30,
@@ -774,22 +639,17 @@
           "label": "HLS principal",
           "url": "https://atres-live.ondacero.es/live/delegaciones/oc/lleida/master.m3u8",
           "format": "hls",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "onda-cero-tarragona",
-      "seedName": "Onda Cero Tarragona",
       "name": "Onda Cero Tarragona",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.ondacero.es/emisoras/catalunya/tarragona/directo/",
       "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 31,
@@ -799,22 +659,17 @@
           "label": "HLS principal",
           "url": "https://atres-live.ondacero.es/live/delegaciones/oc/tarragona/master.m3u8",
           "format": "hls",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "onda-cero-vilanova",
-      "seedName": "Onda Cero Vilanova",
       "name": "Onda Cero Vilanova",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.ondacero.es/emisoras/catalunya/vilanova/directo/",
       "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 32,
@@ -824,22 +679,17 @@
           "label": "HLS principal",
           "url": "https://atres-live.ondacero.es/live/delegaciones/oc/vilanova/master.m3u8",
           "format": "hls",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "cadena-100-barcelona",
-      "seedName": "Cadena 100 Barcelona",
       "name": "Cadena 100 Barcelona",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.cadena100.es/emisoras/barcelona",
       "logoUrl": "https://graph.facebook.com/CADENA100/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 33,
@@ -849,7 +699,6 @@
           "label": "HLS principal",
           "url": "https://cadena100bcn-cope.flumotion.com/playlist.m3u8",
           "format": "hls",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -857,15 +706,11 @@
     },
     {
       "id": "rock-fm-barcelona",
-      "seedName": "Rock FM Barcelona",
       "name": "Rock FM Barcelona",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.rockfm.fm/emisoras/catalunya/barcelona-provincia/barcelona",
       "logoUrl": "https://graph.facebook.com/RockFM/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 34,
@@ -875,7 +720,6 @@
           "label": "HLS principal",
           "url": "https://rockfm-barcelona.flumotion.com/playlist.m3u8",
           "format": "hls",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -883,10 +727,7 @@
     },
     {
       "id": "beteve-radio",
-      "seedName": "betevé ràdio",
       "name": "betevé ràdio",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://beteve.cat/en-directe/radio/",
@@ -901,17 +742,13 @@
           "label": "HLS principal",
           "url": "https://cdnapisec.kaltura.com/p/2346171/sp/234617100/playManifest/entryId/0_qzjz9cja/format/applehttp/.m3u8?referrer=aHR0cHM6Ly9iZXRldmUuY2F0",
           "format": "hls",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "barcelona-city-fm",
-      "seedName": "Barcelona City FM",
       "name": "Barcelona City FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.barcelonacityfm.com",
@@ -925,8 +762,6 @@
         {
           "label": "Stream principal",
           "url": "https://s2.radio.co/sd9da54aa0/listen",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -934,10 +769,7 @@
     },
     {
       "id": "tarragona-radio",
-      "seedName": "Tarragona Ràdio",
       "name": "Tarragona Ràdio",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.tarragonaradio.cat",
@@ -951,25 +783,19 @@
         {
           "label": "HD principal",
           "url": "https://enacast.com/tarragonaradio/streams/HD",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "MP3 fallback",
           "url": "https://relay.stream.enacast-cloud.com:40007/tarragona128.mp3",
           "format": "mp3",
-          "priority": 2,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radio-terrassa",
-      "seedName": "Ràdio Terrassa",
       "name": "Ràdio Terrassa",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://terrassadigital.cat/radio/",
@@ -983,18 +809,13 @@
         {
           "label": "Stream principal",
           "url": "https://control.streaming-pro.com:8002/stream",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radio-ciutat-de-badalona",
-      "seedName": "Ràdio Ciutat de Badalona",
       "name": "Ràdio Ciutat de Badalona",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://radio.bdncom.cat",
@@ -1008,30 +829,23 @@
         {
           "label": "HD principal",
           "url": "https://enacast.com/radiob/streams/HD",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "MP3 fallback",
           "url": "https://relay.stream.enacast-cloud.com:40039/radiob128.mp3",
           "format": "mp3",
-          "priority": 2,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "scanner-fm",
-      "seedName": "ScannerFM",
       "name": "ScannerFM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.scannerfm.com",
       "logoUrl": "https://graph.facebook.com/scannerFM/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 40,
@@ -1040,8 +854,6 @@
         {
           "label": "Stream principal",
           "url": "https://eu10.fastcast4u.com/scannerfm",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -1049,10 +861,7 @@
     },
     {
       "id": "jazz-radio-bcn",
-      "seedName": "Jazz Radio BCN",
       "name": "Jazz Radio BCN",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.jazzradiobcn.com",
@@ -1066,15 +875,11 @@
         {
           "label": "Stream 1",
           "url": "https://node-04.zeno.fm/tvt6bya8hg8uv",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "Stream 2",
           "url": "https://stream.zeno.fm/u40kkya8hg8uv",
-          "format": "auto",
-          "priority": 2,
           "source": "TDTChannels"
         }
       ],
@@ -1082,10 +887,7 @@
     },
     {
       "id": "radio-olot",
-      "seedName": "Ràdio Olot",
       "name": "Ràdio Olot",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiolot.cat",
@@ -1099,18 +901,13 @@
         {
           "label": "Stream principal",
           "url": "https://chrome2021.frilab.com:8443/olot",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "imagina-radio",
-      "seedName": "Imagina Ràdio",
       "name": "Imagina Ràdio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.imaginaradio.cat/directe/",
@@ -1125,7 +922,6 @@
           "label": "MP3 principal",
           "url": "https://relay.stream.enacast-cloud.com:30286/imaginaradioHD.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -1133,10 +929,7 @@
     },
     {
       "id": "radio-sabadell",
-      "seedName": "Radio Sabadell 94.6 FM",
       "name": "Ràdio Sabadell",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://radiosabadell.fm",
@@ -1150,18 +943,13 @@
         {
           "label": "Stream principal",
           "url": "https://streamer.radio.co/s39e9c768a/listen",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "rce-cultura-i-esport",
-      "seedName": "RCE Cultura i Esport",
       "name": "RCE Cultura i Esport",
-      "tagline": "",
-      "description": "",
       "category": "Deporte",
       "community": "Catalunya",
       "websiteUrl": "https://rce.cat",
@@ -1176,17 +964,13 @@
           "label": "MP3 principal",
           "url": "https://c688s1.kapitalproductions.net/listen/rce/radio.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "canal-blau-radio",
-      "seedName": "Canal Blau Ràdio",
       "name": "Canal Blau Ràdio",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://podcast.canalblau.cat",
@@ -1200,25 +984,19 @@
         {
           "label": "HD principal",
           "url": "https://enacast.com/canalblau/streams/HD",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "MP3 fallback",
           "url": "https://streaming.enacast.com/canalblau128.mp3",
           "format": "mp3",
-          "priority": 2,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radio-el-vendrell",
-      "seedName": "Radio El Vendrell 107.1",
       "name": "Ràdio El Vendrell",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.rtvelvendrell.cat/directes/radio/",
@@ -1232,25 +1010,19 @@
         {
           "label": "HD principal",
           "url": "https://enacast.com/rtvelvendrell/streams/HD",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "MP3 fallback",
           "url": "https://streaming.enacast.com/rtvelvendrell128.mp3",
           "format": "mp3",
-          "priority": 2,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radio-capital",
-      "seedName": "Ràdio Capital",
       "name": "Ràdio Capital",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiocapital.cat/endirecte/",
@@ -1264,18 +1036,13 @@
         {
           "label": "Stream principal",
           "url": "https://radio.martiproduccions.com/capitalhd",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "altafulla-radio",
-      "seedName": "Altafulla Ràdio",
       "name": "Altafulla Ràdio",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://altafullaradio.cat",
@@ -1289,25 +1056,19 @@
         {
           "label": "HD principal",
           "url": "https://enacast.com/altafullaradio/streams/HD",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "MP3 fallback",
           "url": "https://streaming.enacast.com/altafulla128.mp3",
           "format": "mp3",
-          "priority": 2,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "la-marina-fm",
-      "seedName": "La Marina FM",
       "name": "La Marina FM",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://lamarina.cat/endirecte/",
@@ -1321,18 +1082,13 @@
         {
           "label": "Stream principal",
           "url": "https://streaming2.elitecomunicacion.es:8248/stream",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "cerdanyola-radio",
-      "seedName": "Cerdanyola Radio",
       "name": "Cerdanyola Radio",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.cerdanyola.info/cerdanyola-radio/live",
@@ -1347,17 +1103,13 @@
           "label": "MP3 principal",
           "url": "https://comcast01-h-cloud.flumotion.com/ajcerdanyola/live.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "mataro-radio",
-      "seedName": "Mataró Ràdio",
       "name": "Mataró Ràdio",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://mataroaudiovisual.cat/radio",
@@ -1372,22 +1124,17 @@
           "label": "MP3 principal",
           "url": "https://relay.stream.enacast-cloud.com:30049/mataroradioHD.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "cooltura-fm",
-      "seedName": "Cooltura FM",
       "name": "Cooltura FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://coolturafm.com",
       "logoUrl": "https://graph.facebook.com/coolturafm/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 53,
@@ -1397,7 +1144,6 @@
           "label": "MP3 principal",
           "url": "https://server9.emitironline.com:19244/",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -1405,10 +1151,7 @@
     },
     {
       "id": "radio-silenci",
-      "seedName": "Ràdio Silenci",
       "name": "Ràdio Silenci",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiosilenci.cat",
@@ -1422,25 +1165,19 @@
         {
           "label": "HD principal",
           "url": "https://enacast.com/radiosilenci/streams/HD",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "MP3 fallback",
           "url": "https://streaming.enacast.com/radiosilenci128.mp3",
           "format": "mp3",
-          "priority": 2,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radio-vilafranca",
-      "seedName": "Ràdio Vilafranca",
       "name": "Ràdio Vilafranca",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.rtvvilafranca.cat/radio-vilafranca/radio-en-directe/",
@@ -1455,17 +1192,13 @@
           "label": "MP3 principal",
           "url": "https://radio.rtvvilafranca.cat/rtvvilafranca.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "ona-la-torre",
-      "seedName": "Ona La Torre",
       "name": "Ona La Torre",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.ona-latorre.cat",
@@ -1480,17 +1213,13 @@
           "label": "MP3 principal",
           "url": "https://streaming.enacast.com/onalatorreSD.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radio-estel",
-      "seedName": "Ràdio Estel",
       "name": "Ràdio Estel",
-      "tagline": "",
-      "description": "",
       "category": "Religión",
       "community": "Catalunya",
       "websiteUrl": "https://www.radioestel.cat/en-directe/",
@@ -1504,18 +1233,13 @@
         {
           "label": "Stream principal",
           "url": "https://srv6021.dns-lcinternet.com:10244/stream",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "gum-fm-vielha",
-      "seedName": "Gum FM Vielha",
       "name": "Gum FM Vielha",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.gumfm.com",
@@ -1529,8 +1253,6 @@
         {
           "label": "Stream principal",
           "url": "https://s4.radio.co/sc1cb45a9f/listen",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -1538,10 +1260,7 @@
     },
     {
       "id": "radio-igualada",
-      "seedName": "Ràdio Igualada",
       "name": "Ràdio Igualada",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.lcinternet.es/player/v3299500_igualada/player.html",
@@ -1555,18 +1274,13 @@
         {
           "label": "Stream principal",
           "url": "https://srv7031.dns-lcinternet.com/8024/stream",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "rap107",
-      "seedName": "RAP107",
       "name": "RAP107",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://enacast.com/rap107/",
@@ -1580,15 +1294,12 @@
         {
           "label": "HD principal",
           "url": "https://enacast.com/rap107/streams/HD",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "MP3 fallback",
           "url": "https://relay.stream.enacast-cloud.com:40048/rapradio128.mp3",
           "format": "mp3",
-          "priority": 2,
           "source": "TDTChannels"
         }
       ],
@@ -1596,10 +1307,7 @@
     },
     {
       "id": "radio-caldes",
-      "seedName": "Ràdio Caldes",
       "name": "Ràdio Caldes",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiocaldes.cat",
@@ -1613,25 +1321,19 @@
         {
           "label": "HD principal",
           "url": "https://enacast.com/radiocaldes/streams/HD",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "MP3 fallback",
           "url": "https://relay.stream.enacast-cloud.com:40062/radiocaldes128.mp3",
           "format": "mp3",
-          "priority": 2,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radio-molins-de-rei",
-      "seedName": "Ràdio Molins de Rei",
       "name": "Ràdio Molins de Rei",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiomolinsderei.cat",
@@ -1646,17 +1348,13 @@
           "label": "MP3 principal",
           "url": "https://streaming.enacast.com/radiomolins.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radio-cubelles",
-      "seedName": "Ràdio Cubelles",
       "name": "Ràdio Cubelles",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiocubelles.cat",
@@ -1670,25 +1368,19 @@
         {
           "label": "HD principal",
           "url": "https://enacast.com/radiocubelles/streams/HD",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "MP3 fallback",
           "url": "https://streaming.enacast.com/cubelles128.mp3",
           "format": "mp3",
-          "priority": 2,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radio-granollers",
-      "seedName": "Ràdio Granollers",
       "name": "Ràdio Granollers",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiogranollers.cat",
@@ -1703,17 +1395,13 @@
           "label": "MP3 principal",
           "url": "https://relay.stream.enacast-cloud.com:30324/radiogranollersHD.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radio-maricel",
-      "seedName": "Ràdio Maricel",
       "name": "Ràdio Maricel",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiomaricel.cat",
@@ -1728,17 +1416,13 @@
           "label": "MP3 principal",
           "url": "https://radioserver.radiomaricel.cat/proxy/radio_maricel?mp=/stream.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "styl-manresa",
-      "seedName": "Styl Manresa",
       "name": "Styl Manresa",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.stylfm.com",
@@ -1752,8 +1436,6 @@
         {
           "label": "Stream principal",
           "url": "https://ssl.nexuscast.com:8077/stream",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -1761,10 +1443,7 @@
     },
     {
       "id": "constanti-radio",
-      "seedName": "Constantí Ràdio",
       "name": "Constantí Ràdio",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.constantiradio.cat",
@@ -1779,17 +1458,13 @@
           "label": "MP3 principal",
           "url": "https://streaming.enacast.com/radioconstantiSD.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radio-cunit",
-      "seedName": "Ràdio Cunit",
       "name": "Ràdio Cunit",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://radiocunit.cat",
@@ -1804,17 +1479,13 @@
           "label": "MP3 principal",
           "url": "https://streaming.enacast.com/radiocunitHD.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "ripollet-radio",
-      "seedName": "Ripollet Radio",
       "name": "Ripollet Ràdio",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://ripolletradio.cat/en-directe/",
@@ -1829,17 +1500,13 @@
           "label": "MP3 principal",
           "url": "https://directe.ripolletradio.cat/live?mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radio-vilamajor",
-      "seedName": "Ràdio Vilamajor",
       "name": "Ràdio Vilamajor",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiovilamajor.cat",
@@ -1853,18 +1520,13 @@
         {
           "label": "Stream principal",
           "url": "https://stream980.servemp3.com/radio",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radio-mollet",
-      "seedName": "Ràdio Mollet",
       "name": "Ràdio Mollet",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiomollet.com",
@@ -1878,25 +1540,19 @@
         {
           "label": "HD principal",
           "url": "https://enacast.com/radiomollet/streams/HD",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "MP3 fallback",
           "url": "https://streaming.enacast.com/radiomollet128.mp3",
           "format": "mp3",
-          "priority": 2,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "uab-radio",
-      "seedName": "UAB Ràdio",
       "name": "UAB Ràdio",
-      "tagline": "",
-      "description": "",
       "category": "Educación",
       "community": "Catalunya",
       "websiteUrl": "https://uab.media/uabradio",
@@ -1911,17 +1567,13 @@
           "label": "HLS principal",
           "url": "https://videosdigitals.uab.cat/live/uabradio/playlist.m3u8",
           "format": "hls",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radio-montblanc",
-      "seedName": "Ràdio Montblanc",
       "name": "Ràdio Montblanc",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiomontblanc.cat",
@@ -1936,17 +1588,13 @@
           "label": "MP3 principal",
           "url": "https://relay.stream.enacast-cloud.com:40045/radiomontblanc128.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radio-voltrega",
-      "seedName": "Ràdio Voltregà",
       "name": "Ràdio Voltregà",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiovoltrega.com",
@@ -1960,18 +1608,13 @@
         {
           "label": "Stream principal",
           "url": "https://streaming.radiovoltrega.com/directe",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radio-despi",
-      "seedName": "Ràdio Despí",
       "name": "Ràdio Despí",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://radiodespi.net/directo/",
@@ -1985,25 +1628,19 @@
         {
           "label": "Stream principal",
           "url": "https://streaming12.elitecomunicacion.es:8228/stream",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "MP3 fallback",
           "url": "https://streaming12.elitecomunicacion.es:8228/stream?type=.mp3",
           "format": "mp3",
-          "priority": 2,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radio-desvern",
-      "seedName": "Ràdio Desvern",
       "name": "Ràdio Desvern",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiodesvern.com",
@@ -2018,24 +1655,18 @@
           "label": "MP3 principal",
           "url": "https://relay.stream.enacast-cloud.com:40001/radiodesvern128.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "HD alternativo",
           "url": "https://enacast.com/radiodesvern/streams/HD",
-          "format": "auto",
-          "priority": 2,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radio-sitges",
-      "seedName": "Ràdio Sitges",
       "name": "Ràdio Sitges",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiositges.com",
@@ -2049,18 +1680,13 @@
         {
           "label": "Stream principal",
           "url": "https://s2.radio.co/s8e5dffe5e/listen",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radio-montornes",
-      "seedName": "Ràdio Montornès",
       "name": "Ràdio Montornès",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://radio.montornes.cat/radios/directe",
@@ -2074,18 +1700,13 @@
         {
           "label": "Stream principal",
           "url": "https://cast4.my-control-panel.com/proxy/rmonto/stream",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radio-ripoll",
-      "seedName": "Ràdio Ripoll",
       "name": "Ràdio Ripoll",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.corisacat.cat/radio-ripoll-3/",
@@ -2099,18 +1720,13 @@
         {
           "label": "Stream principal",
           "url": "https://eu1.lhdserver.es:3065/stream",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radio-america-barcelona",
-      "seedName": "Ràdio Amèrica Barcelona",
       "name": "Ràdio Amèrica Barcelona",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.rab.cat",
@@ -2124,18 +1740,13 @@
         {
           "label": "Stream principal",
           "url": "https://s3.radio.co/sf09831a0e/listen",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radio-gracia",
-      "seedName": "Ràdio Gràcia",
       "name": "Ràdio Gràcia",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://radiogracia.net/",
@@ -2150,22 +1761,17 @@
           "label": "MP3 principal",
           "url": "https://usa20.fastcast4u.com:3590/;.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "mdt-radio-remember",
-      "seedName": "MDT Radio Remember",
       "name": "MDT Radio Remember",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.mdtradio.com",
       "logoUrl": "https://graph.facebook.com/mdtradio/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 82,
@@ -2174,8 +1780,6 @@
         {
           "label": "Stream principal",
           "url": "https://streams1.mdtradio.com:8443/mdtweb",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -2183,15 +1787,11 @@
     },
     {
       "id": "mdt-radio-pop-stars",
-      "seedName": "MDT Radio Pop Stars",
       "name": "MDT Radio Pop Stars",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://mdtradio.com/canales-tematicos/",
       "logoUrl": "https://mdtradio.com/wp-content/uploads/2024/11/Logo-MDT-Radio-Pop-Stars-Fm2.jpg",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 83,
@@ -2200,8 +1800,6 @@
         {
           "label": "Stream principal",
           "url": "https://streams1.mdtradio.com:8443/PopStarsFm",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -2209,10 +1807,7 @@
     },
     {
       "id": "3cat-exclusiu-digital",
-      "seedName": "3Cat (Exclusiu digital)",
       "name": "3Cat (Exclusiu digital)",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.3cat.cat/3cat/directes/ocr1/",
@@ -2227,7 +1822,6 @@
           "label": "M3U8 principal",
           "url": "https://directes-radio-int.3catdirectes.cat/live-content/radio-oca-hls/master.m3u8",
           "format": "hls",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -2235,15 +1829,11 @@
     },
     {
       "id": "radio-la-mina",
-      "seedName": "Radio La Mina",
       "name": "Radio La Mina",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://radiolamina.blogspot.com",
       "logoUrl": "https://graph.facebook.com/RadiolaMina/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 85,
@@ -2252,8 +1842,6 @@
         {
           "label": "Stream principal",
           "url": "http://cervera.eldialdigital.com:11121/stream",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -2261,15 +1849,11 @@
     },
     {
       "id": "can-deu-fm",
-      "seedName": "Can Deu FM",
       "name": "Can Deu FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "http://candeufm.com",
       "logoUrl": "http://candeufm.com/e107_images/custom/2021app.jpg",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 86,
@@ -2278,8 +1862,6 @@
         {
           "label": "Stream principal",
           "url": "https://radios.solumedia.com/6716/stream",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -2287,15 +1869,11 @@
     },
     {
       "id": "actuality-fm",
-      "seedName": "Actuality FM",
       "name": "Actuality FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.actualityfm.es/p/play.html",
       "logoUrl": "https://graph.facebook.com/ActualityFM.es/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 87,
@@ -2304,8 +1882,6 @@
         {
           "label": "Stream principal",
           "url": "https://streaming0103.sonicpanelradio.com/8248/stream",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -2313,15 +1889,11 @@
     },
     {
       "id": "ona-de-sants-fm",
-      "seedName": "Ona de Sants FM",
       "name": "Ona de Sants FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://onadesants.cat",
       "logoUrl": "https://graph.facebook.com/Radioonadesants/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 88,
@@ -2330,8 +1902,6 @@
         {
           "label": "Stream principal",
           "url": "https://edge.mixlr.com/channel/dlyio",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -2339,15 +1909,11 @@
     },
     {
       "id": "proxima-fm",
-      "seedName": "Pròxima FM",
       "name": "Pròxima FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "http://proximafm.cat",
       "logoUrl": "https://graph.facebook.com/proximafm/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 89,
@@ -2356,8 +1922,6 @@
         {
           "label": "Stream principal",
           "url": "https://mars.streamerr.co/8058/stream",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -2365,10 +1929,7 @@
     },
     {
       "id": "radio-sant-pere-i-sant-pau",
-      "seedName": "Ràdio Sant Pere i Sant Pau",
       "name": "Ràdio Sant Pere i Sant Pau",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiospsp.com",
@@ -2383,17 +1944,13 @@
           "label": "Mp3 principal",
           "url": "http://212.83.151.18:36686/;stream/1?1552499879263.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "una-cosa-radio",
-      "seedName": "Una Cosa Ràdio",
       "name": "Una Cosa Ràdio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.unacosa.cat/radio-en-directe/",
@@ -2407,8 +1964,6 @@
         {
           "label": "Stream principal",
           "url": "https://node-23.zeno.fm/v27tywkbwp8uv",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -2416,15 +1971,11 @@
     },
     {
       "id": "gran-via-radio",
-      "seedName": "Gran Via Radio",
       "name": "Gran Via Radio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://granviaradiofm.es",
       "logoUrl": "https://graph.facebook.com/1397103013646307/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 92,
@@ -2433,8 +1984,6 @@
         {
           "label": "Stream principal",
           "url": "https://servidor14-3.brlogic.com:7066/live",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -2442,10 +1991,7 @@
     },
     {
       "id": "radio-llanca",
-      "seedName": "Ràdio Llançà",
       "name": "Ràdio Llançà",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://radiollanca.cat",
@@ -2459,18 +2005,13 @@
         {
           "label": "Stream principal",
           "url": "https://relay.stream.enacast-cloud.com:40323/radiollancaHD.mp3",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "colera-radio",
-      "seedName": "Colera Ràdio",
       "name": "Colera Ràdio",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://coleraradio.com",
@@ -2484,18 +2025,13 @@
         {
           "label": "Stream principal",
           "url": "https://servidor24-5.brlogic.com:7494/live",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radio-santpedor",
-      "seedName": "Ràdio Santpedor",
       "name": "Ràdio Santpedor",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://santpedor.net/radio/",
@@ -2509,18 +2045,13 @@
         {
           "label": "Stream principal",
           "url": "https://radiosantpedor.radioca.st/stream",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "u-radio",
-      "seedName": "U Ràdio",
       "name": "U Ràdio",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.uradio.cat",
@@ -2535,17 +2066,13 @@
           "label": "Mp3 principal",
           "url": "https://streaming.enacast.com/radioulldecona128.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "21-radio",
-      "seedName": "21 Ràdio",
       "name": "21 Ràdio",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.21radio.cat/en-directe/",
@@ -2560,17 +2087,13 @@
           "label": "Mp3 principal",
           "url": "https://control.streaming-pro.com:8018/stream.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "amb2fm",
-      "seedName": "amb2FM",
       "name": "amb2FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.amb2fm.cat",
@@ -2584,8 +2107,6 @@
         {
           "label": "Stream principal",
           "url": "https://frilab.wlan.cat/amb2fm",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -2593,10 +2114,7 @@
     },
     {
       "id": "taronja-radio",
-      "seedName": "Taronja ràdio",
       "name": "Taronja ràdio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiocapital.cat/taronja",
@@ -2610,8 +2128,6 @@
         {
           "label": "Stream principal",
           "url": "https://radio.martiproduccions.com/taronjagirona",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -2619,15 +2135,11 @@
     },
     {
       "id": "mdt-radio-barcelona",
-      "seedName": "MDT Radio Barcelona",
       "name": "MDT Radio Barcelona",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://mdtradio.com",
       "logoUrl": "https://graph.facebook.com/MDTradioBarcelona/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 100,
@@ -2636,8 +2148,6 @@
         {
           "label": "Stream principal",
           "url": "https://streams1.mdtradio.com:8443/MdtBarcelonaEstudio",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -2645,15 +2155,11 @@
     },
     {
       "id": "loca-fm",
-      "seedName": "Loca FM",
       "name": "Loca FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.locafm.com/live/player.html",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 3,
       "seedRank": 109,
@@ -2662,8 +2168,6 @@
         {
           "label": "Stream principal",
           "url": "https://s3.we4stream.com:2020/stream/locafm",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -2671,15 +2175,11 @@
     },
     {
       "id": "loca-fm-dance",
-      "seedName": "Loca FM Dance",
       "name": "Loca FM Dance",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 126,
@@ -2688,8 +2188,6 @@
         {
           "label": "Stream principal",
           "url": "https://s2.we4stream.com/listen/loca_dance/live",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -2697,15 +2195,11 @@
     },
     {
       "id": "loca-fm-remember",
-      "seedName": "Loca FM Remember",
       "name": "Loca FM Remember",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 127,
@@ -2714,8 +2208,6 @@
         {
           "label": "Stream principal",
           "url": "https://s2.we4stream.com/listen/loca_remember/live",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -2723,15 +2215,11 @@
     },
     {
       "id": "loca-fm-house",
-      "seedName": "Loca FM House",
       "name": "Loca FM House",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 128,
@@ -2740,8 +2228,6 @@
         {
           "label": "Stream principal",
           "url": "https://s2.we4stream.com/listen/loca_house/live",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -2749,15 +2235,11 @@
     },
     {
       "id": "loca-fm-chill-out",
-      "seedName": "Loca FM Chill Out",
       "name": "Loca FM Chill Out",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 129,
@@ -2766,8 +2248,6 @@
         {
           "label": "Stream principal",
           "url": "https://s2.we4stream.com/listen/loca_chill_out/live",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -2775,15 +2255,11 @@
     },
     {
       "id": "loca-fm-tech-house",
-      "seedName": "Loca FM Tech House",
       "name": "Loca FM Tech House",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 130,
@@ -2792,8 +2268,6 @@
         {
           "label": "Stream principal",
           "url": "https://s2.we4stream.com/listen/loca_tech_house/live",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -2801,15 +2275,11 @@
     },
     {
       "id": "loca-fm-trance",
-      "seedName": "Loca FM Trance",
       "name": "Loca FM Trance",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 131,
@@ -2818,8 +2288,6 @@
         {
           "label": "Stream principal",
           "url": "https://s2.we4stream.com/listen/loca_trance/live",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -2827,15 +2295,11 @@
     },
     {
       "id": "loca-fm-techno",
-      "seedName": "Loca FM Techno",
       "name": "Loca FM Techno",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 132,
@@ -2844,8 +2308,6 @@
         {
           "label": "Stream principal",
           "url": "https://s2.we4stream.com/listen/loca_techo/live",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -2853,15 +2315,11 @@
     },
     {
       "id": "loca-fm-big-room",
-      "seedName": "Loca FM Big Room",
       "name": "Loca FM Big Room",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 133,
@@ -2870,8 +2328,6 @@
         {
           "label": "Stream principal",
           "url": "https://s2.we4stream.com/listen/loca_big_room/live",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -2879,15 +2335,11 @@
     },
     {
       "id": "loca-fm-deep-house",
-      "seedName": "Loca FM Deep House",
       "name": "Loca FM Deep House",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 134,
@@ -2896,8 +2348,6 @@
         {
           "label": "Stream principal",
           "url": "https://s2.we4stream.com/listen/loca_deep_house/live",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -2905,15 +2355,11 @@
     },
     {
       "id": "loca-fm-sessions",
-      "seedName": "Loca FM Sessions",
       "name": "Loca FM Sessions",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 135,
@@ -2922,8 +2368,6 @@
         {
           "label": "Stream principal",
           "url": "https://s2.we4stream.com/listen/loca_sessions/live",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -2931,15 +2375,11 @@
     },
     {
       "id": "loca-fm-ambient",
-      "seedName": "Loca FM Ambient",
       "name": "Loca FM Ambient",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.locafm.com/ambient/player.html",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 136,
@@ -2948,8 +2388,6 @@
         {
           "label": "Stream principal",
           "url": "https://s2.we4stream.com/listen/loca_ambient/live",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -2957,15 +2395,11 @@
     },
     {
       "id": "loca-fm-hard",
-      "seedName": "Loca FM Hard",
       "name": "Loca FM Hard",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.locafm.com/hard/player.html",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 137,
@@ -2974,8 +2408,6 @@
         {
           "label": "Stream principal",
           "url": "https://s2.we4stream.com/listen/loca_hard/live",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -2983,15 +2415,11 @@
     },
     {
       "id": "loca-fm-hard-techno",
-      "seedName": "Loca FM Hard Techno",
       "name": "Loca FM Hard Techno",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.locafm.com/hard-techno/player.html",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 138,
@@ -3000,8 +2428,6 @@
         {
           "label": "Stream principal",
           "url": "https://s2.we4stream.com/listen/loca_hard_techno/live",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -3009,15 +2435,11 @@
     },
     {
       "id": "loca-fm-drum-bass",
-      "seedName": "Loca FM Drum&Bass",
       "name": "Loca FM Drum&Bass",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.locafm.com/drum-bass/player.html",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 139,
@@ -3026,8 +2448,6 @@
         {
           "label": "Stream principal",
           "url": "https://s2.we4stream.com/listen/loca_drum__bass/live",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -3035,15 +2455,11 @@
     },
     {
       "id": "loca-fm-urban",
-      "seedName": "Loca FM Urban",
       "name": "Loca FM Urban",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.locafm.com/loca-urban/player.html",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 140,
@@ -3052,8 +2468,6 @@
         {
           "label": "Stream principal",
           "url": "https://s1.we4stream.com:2020/stream/locaurban",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -3061,15 +2475,11 @@
     },
     {
       "id": "loca-fm-90-s",
-      "seedName": "Loca FM 90's",
       "name": "Loca FM 90's",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 141,
@@ -3078,8 +2488,6 @@
         {
           "label": "Stream principal",
           "url": "https://s2.we4stream.com/listen/loca_90s_/live",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -3087,15 +2495,11 @@
     },
     {
       "id": "loca-fm-industrial",
-      "seedName": "Loca FM Industrial",
       "name": "Loca FM Industrial",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.locafm.com/industrial/player.html",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 142,
@@ -3104,8 +2508,6 @@
         {
           "label": "Stream principal",
           "url": "https://s2.we4stream.com/listen/loca_industrial/live",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -3113,15 +2515,11 @@
     },
     {
       "id": "loca-fm-loca-80s",
-      "seedName": "Loca FM Loca 80s",
       "name": "Loca FM Loca 80s",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 143,
@@ -3130,8 +2528,6 @@
         {
           "label": "Stream principal",
           "url": "https://s2.we4stream.com/listen/loca_80s/live",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -3139,15 +2535,11 @@
     },
     {
       "id": "loca-fm-loca-90s",
-      "seedName": "Loca FM Loca 90s",
       "name": "Loca FM Loca 90s",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 144,
@@ -3156,8 +2548,6 @@
         {
           "label": "Stream principal",
           "url": "https://s2.we4stream.com/listen/loca_90s_/live",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -3165,15 +2555,11 @@
     },
     {
       "id": "loca-fm-melodic-house",
-      "seedName": "Loca FM Melodic House",
       "name": "Loca FM Melodic House",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 145,
@@ -3182,8 +2568,6 @@
         {
           "label": "Stream principal",
           "url": "https://s2.we4stream.com/listen/loca_melodic_house/live",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -3191,15 +2575,11 @@
     },
     {
       "id": "loca-fm-melodic-techno",
-      "seedName": "Loca FM Melodic Techno",
       "name": "Loca FM Melodic Techno",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 146,
@@ -3208,8 +2588,6 @@
         {
           "label": "Stream principal",
           "url": "https://s2.we4stream.com/listen/loca_melodic_techno/live",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -3217,15 +2595,11 @@
     },
     {
       "id": "free-fm-rock",
-      "seedName": "Free FM Rock",
       "name": "Free FM Rock",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.freefmrock.com/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/769/free-fm.aa638097.jpg",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 147,
@@ -3235,7 +2609,6 @@
           "label": "Principal",
           "url": "https://freefmrock.radioca.st/stream",
           "format": "mp3",
-          "priority": 1,
           "source": "fmstream (public listing)"
         }
       ],
@@ -3243,15 +2616,11 @@
     },
     {
       "id": "free-fm-classics",
-      "seedName": "Free FM Classics",
       "name": "Free FM Classics",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.freefmworld.com",
       "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fwww.freefmworld.com",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 148,
@@ -3260,8 +2629,6 @@
         {
           "label": "Stream directo",
           "url": "https://xxdelgado.radioca.st",
-          "format": "auto",
-          "priority": 1,
           "source": "Radiomap"
         }
       ],
@@ -3269,15 +2636,11 @@
     },
     {
       "id": "free-fm-80s",
-      "seedName": "Free FM 80s",
       "name": "Free FM 80s",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://sites.google.com/view/freefmworld",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/827/free-fm-80s.16928eb8.png",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 149,
@@ -3287,7 +2650,6 @@
           "label": "Principal",
           "url": "http://freefm80.radioca.st/",
           "format": "mp3",
-          "priority": 1,
           "source": "radiobrowser index"
         }
       ],
@@ -3295,15 +2657,11 @@
     },
     {
       "id": "free-fm-love",
-      "seedName": "Free FM Love",
       "name": "Free FM Love",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://sites.google.com/view/freefmworld",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/714/free-fm-love.c1ba1f4e.jpg",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 150,
@@ -3313,7 +2671,6 @@
           "label": "Principal",
           "url": "https://stream.zeno.fm/umsptm6rvy8uv",
           "format": "mp3",
-          "priority": 1,
           "source": "TingFM listing"
         }
       ],
@@ -3321,15 +2678,11 @@
     },
     {
       "id": "free-fm-classical",
-      "seedName": "Free FM Classical",
       "name": "Free FM Classical",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://sites.google.com/view/freefmworld",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/020/free-fm-classical.0ef23d56.jpg",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 151,
@@ -3339,7 +2692,6 @@
           "label": "Principal",
           "url": "http://stream.zeno.fm/x5jlpogsaedvv",
           "format": "mp3",
-          "priority": 1,
           "source": "radiobrowser index"
         }
       ],
@@ -3347,15 +2699,11 @@
     },
     {
       "id": "free-fm-chill",
-      "seedName": "Free FM Chill",
       "name": "Free FM Chill",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.locafm.com/chill-out/player.html",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 152,
@@ -3365,22 +2713,17 @@
           "label": "Stream principal",
           "url": "https://s2.we4stream.com/listen/loca_chill_out/live",
           "format": "stream",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "free-fm-sports",
-      "seedName": "Free FM Sports",
       "name": "Free FM Sports",
-      "tagline": "",
-      "description": "",
       "category": "Deporte",
       "community": "Catalunya",
       "websiteUrl": "https://sites.google.com/view/freefmworld",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/BtX4kYE4dC.jpg",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 153,
@@ -3390,22 +2733,17 @@
           "label": "Principal",
           "url": "https://stream.zeno.fm/31nnibfpnxktv",
           "format": "mp3",
-          "priority": 1,
           "source": "TingFM listing"
         }
       ]
     },
     {
       "id": "free-fm-x-mas",
-      "seedName": "Free FM X-Mas",
       "name": "Free FM X-Mas",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://sites.google.com/view/freefmworld",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/6uzYMVMHad.jpg",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 154,
@@ -3415,7 +2753,6 @@
           "label": "Principal",
           "url": "http://stream.zeno.fm/h60er015v68uv",
           "format": "mp3",
-          "priority": 1,
           "source": "radiobrowser index"
         }
       ],
@@ -3423,15 +2760,11 @@
     },
     {
       "id": "la-flamenca",
-      "seedName": "La Flamenca",
       "name": "La Flamenca",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://emisorasmusicales.net/laflamenca/",
       "logoUrl": "https://media.emisorasmusicales.net/wp-content/uploads/2020/03/11023733/LaFlamenca-200x200.png",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 155,
@@ -3441,7 +2774,6 @@
           "label": "MP3 principal",
           "url": "https://stream.emisorasmusicales.net/radio/8070/laflamenca.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -3449,15 +2781,11 @@
     },
     {
       "id": "canal-fiesta-radio",
-      "seedName": "Canal Fiesta Radio",
       "name": "Canal Fiesta Radio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.canalsurmas.es/",
       "logoUrl": "https://pbs.twimg.com/profile_images/2014607361843793920/uKfZnuel_200x200.jpg",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 156,
@@ -3467,7 +2795,6 @@
           "label": "MP3 principal",
           "url": "https://rtva-live-radio.flumotion.com/rtva/cfr.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -3475,15 +2802,11 @@
     },
     {
       "id": "flamenco-radio",
-      "seedName": "Flamenco Radio",
       "name": "Flamenco Radio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.canalsurmas.es/",
       "logoUrl": "https://graph.facebook.com/FlamencoRadio/picture?height=200&width=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 157,
@@ -3493,7 +2816,6 @@
           "label": "MP3 principal",
           "url": "https://rtva-live-radio.flumotion.com/rtva/flamenco.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -3501,15 +2823,11 @@
     },
     {
       "id": "la-urban-radio",
-      "seedName": "La Urban Radio",
       "name": "La Urban Radio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.urbanrevolution.es",
       "logoUrl": "https://graph.facebook.com/urbanrevolution.es/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 158,
@@ -3519,7 +2837,6 @@
           "label": "MP3 principal",
           "url": "https://st1.urbanrevolution.es:8443/laurbanfm.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -3527,15 +2844,11 @@
     },
     {
       "id": "mariskalrock-radio",
-      "seedName": "MariskalRock Radio",
       "name": "MariskalRock Radio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://mariskalrock.com",
       "logoUrl": "https://graph.facebook.com/mariskalrock/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 159,
@@ -3544,8 +2857,6 @@
         {
           "label": "Stream principal",
           "url": "https://media.profesionalhosting.com:8047/stream",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -3553,15 +2864,11 @@
     },
     {
       "id": "vinilo-fm",
-      "seedName": "Vinilo FM",
       "name": "Vinilo FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://vinilofm.es/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/WvYVyHUvbU.jpg",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 4,
       "seedRank": 160,
@@ -3571,7 +2878,6 @@
           "label": "MP3 Bizkaia",
           "url": "https://radio.vinilofm.es/radio/8000/bizkaia.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -3579,15 +2885,11 @@
     },
     {
       "id": "ecuashyri-fm",
-      "seedName": "ECUASHYRI FM",
       "name": "ECUASHYRI FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://ecuashyri.es/",
       "logoUrl": "https://graph.facebook.com/Ecuadorstereo/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 161,
@@ -3597,7 +2899,6 @@
           "label": "MP3 principal",
           "url": "https://securestream.radioshd.info:7018/stream",
           "format": "mp3",
-          "priority": 1,
           "source": "TingFM"
         }
       ],
@@ -3605,15 +2906,11 @@
     },
     {
       "id": "unika-fm",
-      "seedName": "Unika FM",
       "name": "Unika FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://unika.fm",
       "logoUrl": "https://graph.facebook.com/unikafmmuchomasquedance/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 162,
@@ -3622,8 +2919,6 @@
         {
           "label": "Stream principal",
           "url": "https://server1.easystreaming.pro:8443/unika",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -3631,15 +2926,11 @@
     },
     {
       "id": "la-jungla-radio",
-      "seedName": "La Jungla Radio",
       "name": "La Jungla Radio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://lajunglaradio.com",
       "logoUrl": "https://graph.facebook.com/LaJunglaRadio/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 163,
@@ -3649,7 +2940,6 @@
           "label": "MP3 principal",
           "url": "https://streaming12.elitecomunicacion.es:8626/stream?type=.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -3657,15 +2947,11 @@
     },
     {
       "id": "radio-espana-network",
-      "seedName": "Radio España",
       "name": "Radio España Network",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.espananetwork.net/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/582/radio-espana-network.406b0f62.jpg",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 164,
@@ -3674,8 +2960,6 @@
         {
           "label": "Stream principal",
           "url": "https://stream.zeno.fm/ocinyyji4rntv",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -3683,15 +2967,11 @@
     },
     {
       "id": "babyradio",
-      "seedName": "Babyradio",
       "name": "Babyradio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://babyradio.es/#radio-player",
       "logoUrl": "https://yt3.googleusercontent.com/ytc/AIdro_k2PqG2pKYF9_qLh_ut69Z0MtU-jXsRvezCZQtbjivJsX8=s200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 165,
@@ -3701,7 +2981,6 @@
           "label": "Stream principal",
           "url": "https://srv6022.dns-lcinternet.com:8033/stream",
           "format": "stream",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -3709,15 +2988,11 @@
     },
     {
       "id": "gozadera-fm",
-      "seedName": "Gozadera FM",
       "name": "Gozadera FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://gozadera.es/",
       "logoUrl": "https://graph.facebook.com/GozaderaSpain/picture?height=200&width=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 166,
@@ -3727,7 +3002,6 @@
           "label": "Stream principal",
           "url": "https://azura.abcorp.es/radio/8030/live",
           "format": "stream",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -3735,15 +3009,11 @@
     },
     {
       "id": "dial-baladas",
-      "seedName": "Dial Baladas",
       "name": "Dial Baladas",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://play.cadenadial.com/emisora/dialbaladas",
       "logoUrl": "https://recursosweb.prisaradio.com/fotos/dest/010002743853.jpg",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 167,
@@ -3753,14 +3023,12 @@
           "label": "AAC principal",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL_03AAC.aac",
           "format": "aac",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "MP3 alternativo",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL_03.mp3",
           "format": "mp3",
-          "priority": 2,
           "source": "TDTChannels"
         }
       ],
@@ -3768,15 +3036,11 @@
     },
     {
       "id": "dial-latino",
-      "seedName": "Dial Latino",
       "name": "Dial Latino",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://play.cadenadial.com/emisora/diallatino",
       "logoUrl": "https://recursosweb.prisaradio.com/fotos/dest/010002743851.jpg",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 168,
@@ -3786,14 +3050,12 @@
           "label": "AAC principal",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL_02AAC.aac",
           "format": "aac",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "MP3 alternativo",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL_02.mp3",
           "format": "mp3",
-          "priority": 2,
           "source": "TDTChannels"
         }
       ],
@@ -3801,15 +3063,11 @@
     },
     {
       "id": "soft-radio",
-      "seedName": "Soft Radio",
       "name": "Soft Radio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.soft-radio.com",
       "logoUrl": "https://www.soft-radio.com/wp-content/uploads/2024/02/Color-softradio-webp600px.webp",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 170,
@@ -3819,7 +3077,6 @@
           "label": "MP3 principal",
           "url": "https://listen.openstream.co/6263/audio",
           "format": "mp3",
-          "priority": 1,
           "source": "Soft Radio official / openstream"
         }
       ],
@@ -3827,15 +3084,11 @@
     },
     {
       "id": "globo-fm",
-      "seedName": "Globo FM",
       "name": "Globo FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.globofm.es",
       "logoUrl": "https://pbs.twimg.com/profile_images/972013004484173824/BMLZEKXs_200x200.jpg",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 171,
@@ -3845,7 +3098,6 @@
           "label": "MP3 principal",
           "url": "https://sonic.sistemahost.es/8200/;.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -3853,15 +3105,11 @@
     },
     {
       "id": "decibelia-fm",
-      "seedName": "Decibelia FM",
       "name": "Decibelia FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://decibeliafm.es/",
       "logoUrl": "https://pbs.twimg.com/profile_images/1580311659226210310/umHvZ3-d_200x200.jpg",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 172,
@@ -3871,7 +3119,6 @@
           "label": "Stream principal",
           "url": "https://streaming.shoutcast.com/decibelia",
           "format": "stream",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -3879,15 +3126,11 @@
     },
     {
       "id": "fiebre-latina-radio",
-      "seedName": "Fiebre Latina Radio",
       "name": "Fiebre Latina Radio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://fiebrelatinaradio.com",
       "logoUrl": "https://graph.facebook.com/fiebrelatinaradio/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 173,
@@ -3897,7 +3140,6 @@
           "label": "stream",
           "url": "https://eu1.lhdserver.es:9035/stream",
           "format": "stream",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -3905,15 +3147,11 @@
     },
     {
       "id": "peperadio",
-      "seedName": "Peperadio",
       "name": "Peperadio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://peperadio.es",
       "logoUrl": "https://peperadio.es/Content/images/logo.png",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 174,
@@ -3922,8 +3160,6 @@
         {
           "label": "Stream principal",
           "url": "https://server10.emitironline.com:8032/",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -3931,15 +3167,11 @@
     },
     {
       "id": "radio-tentacion",
-      "seedName": "Radio Tentación",
       "name": "Radio Tentación",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiotentacion.com/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/qsx7hlyfbmhr.jpg",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 175,
@@ -3948,8 +3180,6 @@
         {
           "label": "Stream principal",
           "url": "https://streaming6.locucionar.com:2020/stream/radiotentacion",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -3957,15 +3187,11 @@
     },
     {
       "id": "top-radio",
-      "seedName": "Top Radio | España",
       "name": "Top Radio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.topradio.es/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/252/top-radio-spain.8a90733b.png",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 176,
@@ -3975,7 +3201,6 @@
           "label": "HLS principal",
           "url": "https://mdstrm.com/audio/66ec3c9fabba24a0a2e59de8/live.m3u8",
           "format": "hls",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -3983,15 +3208,11 @@
     },
     {
       "id": "dynamis-radio",
-      "seedName": "Dynamis Radio",
       "name": "Dynamis Radio",
-      "tagline": "",
-      "description": "",
       "category": "Religión",
       "community": "Catalunya",
       "websiteUrl": "https://www.dynamisradio.org",
       "logoUrl": "https://graph.facebook.com/dynamisradio/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 178,
@@ -4000,23 +3221,17 @@
         {
           "label": "Stream principal",
           "url": "https://control.streaming-pro.com:8014/stream",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "libertad-fm",
-      "seedName": "Libertad FM",
       "name": "Libertad FM",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://radiolibertad.es/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/462/libertad-fm.989a605f.jpg",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 179,
@@ -4026,29 +3241,23 @@
           "label": "MP3 principal",
           "url": "https://endirecto.libertadfm.es/hq-libertadfm.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "RadioCut"
         },
         {
           "label": "MP3 fallback histórico",
           "url": "http://reserva.libertadfm.es:1935/hq-libertadfm.mp3",
           "format": "mp3",
-          "priority": 2,
           "source": "Directorio público"
         }
       ]
     },
     {
       "id": "candela-radio",
-      "seedName": "Candela Radio",
       "name": "Candela Radio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://candelaradio.fm/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/m6mstp6fmuzc.png",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 180,
@@ -4058,7 +3267,6 @@
           "label": "MP3 público",
           "url": "http://uk1-pn.webcast-server.net:8226",
           "format": "mp3",
-          "priority": 1,
           "source": "radio-online-json-url"
         }
       ],
@@ -4066,15 +3274,11 @@
     },
     {
       "id": "radio-formula-hit-castellon-98-3-fm",
-      "seedName": "Radio Formula Hit Castellón 98.3 FM",
       "name": "Formula Hit",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.formulahit.com/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/RgdbbKgcvW.png",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 181,
@@ -4084,7 +3288,6 @@
           "label": "MP3 principal",
           "url": "https://sonic.sistemahost.es/8176/stream;.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -4092,10 +3295,7 @@
     },
     {
       "id": "beachgrooves",
-      "seedName": "Beachgrooves",
       "name": "Beachgrooves",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://beachgrooves.com",
@@ -4110,22 +3310,17 @@
           "label": "stream",
           "url": "https://stream.beachgrooves.com:9000/stream",
           "format": "stream",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "chocolate-fm",
-      "seedName": "Chocolate FM",
       "name": "Chocolate FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.chocolatefm.com",
       "logoUrl": "https://graph.facebook.com/ydimequetegusta/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 5,
       "seedRank": 183,
@@ -4135,17 +3330,13 @@
           "label": "mp3",
           "url": "https://streaming2.elitecomunicacion.es:8082/live.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radio-cornella",
-      "seedName": "Ràdio Cornellà",
       "name": "Ràdio Cornellà",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiocornella.cat/",
@@ -4160,17 +3351,13 @@
           "label": "Stream candidato",
           "url": "https://enacast.com/radiocornella/streams/HD",
           "format": "hls",
-          "priority": 1,
           "source": "official/EnaCast (candidate)"
         }
       ]
     },
     {
       "id": "radio-tarrega",
-      "seedName": "Ràdio Tàrrega",
       "name": "Ràdio Tàrrega",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiotarrega.cat/",
@@ -4185,17 +3372,13 @@
           "label": "Stream candidato",
           "url": "https://enacast.com/radiotarrega/streams/HD",
           "format": "hls",
-          "priority": 1,
           "source": "official/EnaCast (candidate)"
         }
       ]
     },
     {
       "id": "vilassar-radio",
-      "seedName": "Vilassar Ràdio",
       "name": "Vilassar Ràdio",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://vilassarradio.cat/",
@@ -4209,10 +3392,7 @@
     },
     {
       "id": "radio-premia-de-mar",
-      "seedName": "Ràdio Premià de Mar",
       "name": "Ràdio Premià de Mar",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://premiamedia.cat/",
@@ -4227,17 +3407,13 @@
           "label": "Stream candidato",
           "url": "https://enacast.com/radiopremiademar/streams/HD",
           "format": "hls",
-          "priority": 1,
           "source": "official/EnaCast (candidate)"
         }
       ]
     },
     {
       "id": "radio-arenys",
-      "seedName": "Ràdio Arenys",
       "name": "Ràdio Arenys",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radioarenys.cat",
@@ -4251,10 +3427,7 @@
     },
     {
       "id": "radio-arenys-de-munt",
-      "seedName": "Ràdio Arenys de Munt",
       "name": "Ràdio Arenys de Munt",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radioarenysmunt.cat",
@@ -4268,10 +3441,7 @@
     },
     {
       "id": "radio-calella",
-      "seedName": "Ràdio Calella",
       "name": "Ràdio Calella",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiocalella.cat",
@@ -4285,10 +3455,7 @@
     },
     {
       "id": "radio-canet",
-      "seedName": "Ràdio Canet",
       "name": "Ràdio Canet",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiocanet.cat",
@@ -4303,17 +3470,13 @@
           "label": "Stream candidato",
           "url": "https://www.enacast.com/radiocanetdemar/streams/HD",
           "format": "hls",
-          "priority": 1,
           "source": "official/EnaCast (candidate)"
         }
       ]
     },
     {
       "id": "ona-malgrat",
-      "seedName": "Ona Malgrat",
       "name": "Ona Malgrat",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.onamalgrat.cat/",
@@ -4327,10 +3490,7 @@
     },
     {
       "id": "radio-palafolls",
-      "seedName": "Ràdio Palafolls",
       "name": "Ràdio Palafolls",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiopalafolls.cat",
@@ -4344,10 +3504,7 @@
     },
     {
       "id": "radio-pineda",
-      "seedName": "Ràdio Pineda",
       "name": "Ràdio Pineda",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiopineda.cat",
@@ -4361,10 +3518,7 @@
     },
     {
       "id": "premia-de-dalt-radio",
-      "seedName": "Premià de Dalt Ràdio",
       "name": "Premià de Dalt Ràdio",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.premiadedaltmedia.cat/",
@@ -4378,10 +3532,7 @@
     },
     {
       "id": "radio-llavaneres",
-      "seedName": "Ràdio Llavaneres",
       "name": "Ràdio Llavaneres",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiollavaneres.cat",
@@ -4395,10 +3546,7 @@
     },
     {
       "id": "radio-sant-cebria",
-      "seedName": "Ràdio Sant Cebrià",
       "name": "Ràdio Sant Cebrià",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiosantcebria.cat/",
@@ -4412,10 +3560,7 @@
     },
     {
       "id": "radio-vallalta",
-      "seedName": "Ràdio Vallalta",
       "name": "Ràdio Vallalta",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.santiscle.cat/el-nostre-poble/guia-del-municipi/equipaments/radio-vallalta-1075.html",
@@ -4429,10 +3574,7 @@
     },
     {
       "id": "radio-sant-pol",
-      "seedName": "Ràdio Sant Pol",
       "name": "Ràdio Sant Pol",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.santpol.cat/radio",
@@ -4446,10 +3588,7 @@
     },
     {
       "id": "radio-sant-vicenc-de-montalt",
-      "seedName": "Ràdio Sant Vicenç de Montalt",
       "name": "Ràdio Sant Vicenç de Montalt",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiosantvi.cat",
@@ -4463,10 +3602,7 @@
     },
     {
       "id": "radio-argentona",
-      "seedName": "Ràdio Argentona",
       "name": "Ràdio Argentona",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://argentona.cat/radioargentona",
@@ -4480,10 +3616,7 @@
     },
     {
       "id": "radio-cabrera",
-      "seedName": "Ràdio Cabrera",
       "name": "Ràdio Cabrera",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://audiovisualcabrera.net/",
@@ -4497,10 +3630,7 @@
     },
     {
       "id": "radio-vilassar-de-dalt",
-      "seedName": "Ràdio Vilassar de Dalt",
       "name": "Ràdio Vilassar de Dalt",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiovilassardedalt.cat/",
@@ -4514,10 +3644,7 @@
     },
     {
       "id": "radio-tordera",
-      "seedName": "Ràdio Tordera",
       "name": "Ràdio Tordera",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://radiotordera.cat/radio/",
@@ -4531,10 +3658,7 @@
     },
     {
       "id": "radio-santa-susanna",
-      "seedName": "Ràdio Santa Susanna",
       "name": "Ràdio Santa Susanna",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://sites.google.com/site/radiosantasusanna917fm/",
@@ -4549,17 +3673,13 @@
           "label": "MP3 directo oficial",
           "url": "https://uk14freenew.listen2myradio.com/live.mp3?typeportmount=s1_28229_stream_153247773",
           "format": "mp3",
-          "priority": 1,
           "source": "Official site"
         }
       ]
     },
     {
       "id": "radio-abrera",
-      "seedName": "Ràdio Abrera",
       "name": "Ràdio Abrera",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radioabrera.cat",
@@ -4573,10 +3693,7 @@
     },
     {
       "id": "radio-esparreguera",
-      "seedName": "Ràdio Esparreguera",
       "name": "Ràdio Esparreguera",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radioesparreguera.cat/",
@@ -4590,10 +3707,7 @@
     },
     {
       "id": "olesa-radio",
-      "seedName": "Olesa Ràdio",
       "name": "Olesa Ràdio",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.olesaradio.cat/",
@@ -4607,10 +3721,7 @@
     },
     {
       "id": "radio-castelldefels",
-      "seedName": "Ràdio Castelldefels",
       "name": "Ràdio Castelldefels",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiocastelldefels.org",
@@ -4624,10 +3735,7 @@
     },
     {
       "id": "radio-cervello",
-      "seedName": "Ràdio Cervelló",
       "name": "Ràdio Cervelló",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.cervello.cat/actualitat/radio-cervello/",
@@ -4641,10 +3749,7 @@
     },
     {
       "id": "radio-gava",
-      "seedName": "Ràdio Gavà",
       "name": "Ràdio Gavà",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiogava.cat",
@@ -4658,10 +3763,7 @@
     },
     {
       "id": "radio-martorell",
-      "seedName": "Ràdio Martorell",
       "name": "Ràdio Martorell",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://martorelldigital.cat/escolta-en-directe-radio-martorell/",
@@ -4676,17 +3778,13 @@
           "label": "MP3 directo oficial",
           "url": "https://radiomartorell.streaming-pro.com:8061/directe.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "Official site"
         }
       ]
     },
     {
       "id": "radio-sant-andreu",
-      "seedName": "Ràdio Sant Andreu",
       "name": "Ràdio Sant Andreu",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiosantandreu.com/",
@@ -4700,10 +3798,7 @@
     },
     {
       "id": "radio-sant-boi",
-      "seedName": "Ràdio Sant Boi",
       "name": "Ràdio Sant Boi",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiosantboi.cat",
@@ -4717,10 +3812,7 @@
     },
     {
       "id": "radio-sant-esteve",
-      "seedName": "Ràdio Sant Esteve",
       "name": "Ràdio Sant Esteve",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.rtv10.cat/",
@@ -4734,10 +3826,7 @@
     },
     {
       "id": "radio-sant-feliu",
-      "seedName": "Ràdio Sant Feliu",
       "name": "Ràdio Sant Feliu",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiosantfeliu.cat/contact",
@@ -4751,10 +3840,7 @@
     },
     {
       "id": "el-prat-radio",
-      "seedName": "El Prat Ràdio",
       "name": "El Prat Ràdio",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.elprat.radio/",
@@ -4768,10 +3854,7 @@
     },
     {
       "id": "boca-radio",
-      "seedName": "Boca Ràdio",
       "name": "Boca Ràdio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.instagram.com/bocaradiobcn/",
@@ -4786,10 +3869,7 @@
     },
     {
       "id": "sants-3-radio",
-      "seedName": "Sants 3 Ràdio",
       "name": "Sants 3 Ràdio",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.sants3radio.cat",
@@ -4803,10 +3883,7 @@
     },
     {
       "id": "radio-hostafrancs",
-      "seedName": "Ràdio Hostafrancs",
       "name": "Ràdio Hostafrancs",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiohostafrancs.cat",
@@ -4820,10 +3897,7 @@
     },
     {
       "id": "radio-barbera",
-      "seedName": "Ràdio Barberà",
       "name": "Ràdio Barberà",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiobarbera.cat/",
@@ -4837,10 +3911,7 @@
     },
     {
       "id": "radio-vila-sacra",
-      "seedName": "Ràdio Vila-Sacra",
       "name": "Ràdio Vila-Sacra",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiovila-sacra.cat/",
@@ -4854,10 +3925,7 @@
     },
     {
       "id": "radio-castellar",
-      "seedName": "Ràdio Castellar",
       "name": "Ràdio Castellar",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiocastellar.cat",
@@ -4871,10 +3939,7 @@
     },
     {
       "id": "matadepera-radio",
-      "seedName": "Matadepera Ràdio",
       "name": "Matadepera Ràdio",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.matadeperaradio.cat/",
@@ -4888,10 +3953,7 @@
     },
     {
       "id": "radio-palau",
-      "seedName": "Ràdio Palau",
       "name": "Ràdio Palau",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiopalau.cat/",
@@ -4905,10 +3967,7 @@
     },
     {
       "id": "radio-rubi",
-      "seedName": "Ràdio Rubí",
       "name": "Ràdio Rubí",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiorubi.cat/",
@@ -4923,17 +3982,13 @@
           "label": "Stream candidato",
           "url": "https://enacast.com/radiorubi/streams/HD",
           "format": "hls",
-          "priority": 1,
           "source": "official/EnaCast (candidate)"
         }
       ]
     },
     {
       "id": "cugat-radio",
-      "seedName": "Cugat Ràdio",
       "name": "Cugat Ràdio",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.cugat.cat/radio",
@@ -4947,10 +4002,7 @@
     },
     {
       "id": "radio-sant-quirze",
-      "seedName": "Ràdio Sant Quirze",
       "name": "Ràdio Sant Quirze",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiosantquirze.cat/",
@@ -4964,10 +4016,7 @@
     },
     {
       "id": "radio-santa-perpetua",
-      "seedName": "Ràdio Santa Perpètua",
       "name": "Ràdio Santa Perpètua",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.staperpetua.org/radio/index.php",
@@ -4981,10 +4030,7 @@
     },
     {
       "id": "noucinc-2-radio",
-      "seedName": "noucinc.2 ràdio",
       "name": "noucinc.2 ràdio",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.terrassadigital.cat/radio",
@@ -4998,10 +4044,7 @@
     },
     {
       "id": "vacarisses-radio",
-      "seedName": "Vacarisses Ràdio",
       "name": "Vacarisses Ràdio",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://vacarissesradio.wordpress.com/",
@@ -5015,10 +4058,7 @@
     },
     {
       "id": "radio-vila",
-      "seedName": "Ràdio Vila",
       "name": "Ràdio Vila",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiovila.cat",
@@ -5032,10 +4072,7 @@
     },
     {
       "id": "punt-7-radio-sant-celoni",
-      "seedName": "Punt 7 Ràdio Sant Celoni",
       "name": "Punt 7 Ràdio Sant Celoni",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiosantceloni.cat/",
@@ -5049,10 +4086,7 @@
     },
     {
       "id": "ona-codinenca",
-      "seedName": "Ona Codinenca",
       "name": "Ona Codinenca",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.onacodinenca.cat",
@@ -5066,10 +4100,7 @@
     },
     {
       "id": "girona-fm",
-      "seedName": "Girona FM",
       "name": "Girona FM",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.gironafm.cat/",
@@ -5084,17 +4115,13 @@
           "label": "Stream candidato",
           "url": "https://www.enacast.com/gironafm/streams/HD",
           "format": "hls",
-          "priority": 1,
           "source": "official/EnaCast (candidate)"
         }
       ]
     },
     {
       "id": "radio-banyoles",
-      "seedName": "Ràdio Banyoles",
       "name": "Ràdio Banyoles",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiobanyoles.cat",
@@ -5108,10 +4135,7 @@
     },
     {
       "id": "radio-cassa",
-      "seedName": "Ràdio Cassà",
       "name": "Ràdio Cassà",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiocassa.cat",
@@ -5125,10 +4149,7 @@
     },
     {
       "id": "radio-celra",
-      "seedName": "Ràdio Celrà",
       "name": "Ràdio Celrà",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://radio.celra.cat/",
@@ -5142,10 +4163,7 @@
     },
     {
       "id": "llagostera-radio",
-      "seedName": "Llagostera Ràdio",
       "name": "Llagostera Ràdio",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.llagosteraradio.cat",
@@ -5159,10 +4177,7 @@
     },
     {
       "id": "radio-la-llagosta",
-      "seedName": "Radio La Llagosta",
       "name": "Radio La Llagosta",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiolallagosta.cat/",
@@ -5176,10 +4191,7 @@
     },
     {
       "id": "radio-salt",
-      "seedName": "Ràdio Salt",
       "name": "Ràdio Salt",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.infosalt.cat/radio-salt/",
@@ -5193,10 +4205,7 @@
     },
     {
       "id": "radio-sant-gregori",
-      "seedName": "Ràdio Sant Gregori",
       "name": "Ràdio Sant Gregori",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://radio.santgregori.cat/",
@@ -5210,10 +4219,7 @@
     },
     {
       "id": "radio-vilablareix",
-      "seedName": "Ràdio Vilablareix",
       "name": "Ràdio Vilablareix",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiovilablareix.cat",
@@ -5227,10 +4233,7 @@
     },
     {
       "id": "radio-begur",
-      "seedName": "Ràdio Begur",
       "name": "Ràdio Begur",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiobegur.cat/",
@@ -5244,10 +4247,7 @@
     },
     {
       "id": "radio-palafrugell",
-      "seedName": "Ràdio Palafrugell",
       "name": "Ràdio Palafrugell",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiopalafrugell.cat",
@@ -5261,10 +4261,7 @@
     },
     {
       "id": "radio-palamos",
-      "seedName": "Ràdio Palamós",
       "name": "Ràdio Palamós",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.palamoscomunicacio.cat/",
@@ -5278,10 +4275,7 @@
     },
     {
       "id": "radio-sant-feliu-de-guixols",
-      "seedName": "Ràdio Sant Feliu de Guíxols",
       "name": "Ràdio Sant Feliu de Guíxols",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.rsf.cat/",
@@ -5295,10 +4289,7 @@
     },
     {
       "id": "radio-platja-d-aro",
-      "seedName": "Ràdio Platja d'Aro",
       "name": "Ràdio Platja d'Aro",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.rpa.cat/",
@@ -5312,10 +4303,7 @@
     },
     {
       "id": "radio-montgri",
-      "seedName": "Ràdio Montgrí",
       "name": "Ràdio Montgrí",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.torroella-estartit.cat/ca/radio-montgri.html",
@@ -5329,10 +4317,7 @@
     },
     {
       "id": "radio-l-escala",
-      "seedName": "Ràdio l'Escala",
       "name": "Ràdio l'Escala",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiolescala.cat/",
@@ -5346,10 +4331,7 @@
     },
     {
       "id": "radio-cap-de-creus",
-      "seedName": "Ràdio Cap de Creus",
       "name": "Ràdio Cap de Creus",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://cadaques.cat/ca/radio-cap-de-creus.html",
@@ -5363,10 +4345,7 @@
     },
     {
       "id": "radio-cabanes",
-      "seedName": "Ràdio Cabanes",
       "name": "Ràdio Cabanes",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiocabanes.cat",
@@ -5380,10 +4359,7 @@
     },
     {
       "id": "radio-vilafant",
-      "seedName": "Ràdio Vilafant",
       "name": "Ràdio Vilafant",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiovilafant.cat",
@@ -5397,10 +4373,7 @@
     },
     {
       "id": "ona-vilamalla",
-      "seedName": "Ona Vilamalla",
       "name": "Ona Vilamalla",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://onavilamalla.es.tl/",
@@ -5414,10 +4387,7 @@
     },
     {
       "id": "radio-campdevanol",
-      "seedName": "Ràdio Campdevànol",
       "name": "Ràdio Campdevànol",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiocampdevanol.cat/",
@@ -5431,10 +4401,7 @@
     },
     {
       "id": "radio-marina",
-      "seedName": "Ràdio Marina",
       "name": "Ràdio Marina",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://marina360.cat/",
@@ -5449,10 +4416,7 @@
     },
     {
       "id": "radio-tossa",
-      "seedName": "Ràdio Tossa",
       "name": "Ràdio Tossa",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://enacast.com/radiotossa/",
@@ -5467,17 +4431,13 @@
           "label": "Stream candidato",
           "url": "https://enacast.com/radiotossa/streams/HD",
           "format": "hls",
-          "priority": 1,
           "source": "official/EnaCast (candidate)"
         }
       ]
     },
     {
       "id": "radio-bonmati",
-      "seedName": "Ràdio Bonmatí",
       "name": "Ràdio Bonmatí",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiobonmati.cat/",
@@ -5491,10 +4451,7 @@
     },
     {
       "id": "radio-sant-hilari",
-      "seedName": "Ràdio Sant Hilari",
       "name": "Ràdio Sant Hilari",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiosanthilari.com/",
@@ -5508,10 +4465,7 @@
     },
     {
       "id": "nova-radio-lloret",
-      "seedName": "Nova Ràdio Lloret",
       "name": "Nova Ràdio Lloret",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.novaradiolloret.org/",
@@ -5525,10 +4479,7 @@
     },
     {
       "id": "radio-pista",
-      "seedName": "Ràdio Pista",
       "name": "Ràdio Pista",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiopista.cat",
@@ -5543,17 +4494,13 @@
           "label": "Stream candidato",
           "url": "https://enacast.com/radiopista/streams/HD",
           "format": "hls",
-          "priority": 1,
           "source": "official/EnaCast (candidate)"
         }
       ]
     },
     {
       "id": "radio-vic",
-      "seedName": "Ràdio Vic",
       "name": "Ràdio Vic",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiovic.cat/",
@@ -5567,10 +4514,7 @@
     },
     {
       "id": "radio-manlleu",
-      "seedName": "Ràdio Manlleu",
       "name": "Ràdio Manlleu",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiomanlleu.cat",
@@ -5584,10 +4528,7 @@
     },
     {
       "id": "radio-roda",
-      "seedName": "Ràdio Roda",
       "name": "Ràdio Roda",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radioroda.cat/",
@@ -5601,10 +4542,7 @@
     },
     {
       "id": "radio-taradell",
-      "seedName": "Ràdio Taradell",
       "name": "Ràdio Taradell",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.taradell.cat/radio-taradell-107-7.html",
@@ -5618,10 +4556,7 @@
     },
     {
       "id": "el-9-fm",
-      "seedName": "El 9 FM",
       "name": "El 9 FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "http://el9nou.cat/el9fm",
@@ -5636,10 +4571,7 @@
     },
     {
       "id": "radio-rapita",
-      "seedName": "Ràdio Ràpita",
       "name": "Ràdio Ràpita",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiorapita.cat",
@@ -5654,17 +4586,13 @@
           "label": "Stream candidato",
           "url": "https://enacast.com/radiorapita/streams/HD",
           "format": "hls",
-          "priority": 1,
           "source": "official/EnaCast (candidate)"
         }
       ]
     },
     {
       "id": "radio-tortosa",
-      "seedName": "Ràdio Tortosa",
       "name": "Ràdio Tortosa",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiotortosa.cat",
@@ -5678,10 +4606,7 @@
     },
     {
       "id": "antena-caro",
-      "seedName": "Antena Caro",
       "name": "Antena Caro",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.antenacaro.cat",
@@ -5695,10 +4620,7 @@
     },
     {
       "id": "la-cala-radio",
-      "seedName": "La Cala Ràdio",
       "name": "La Cala Ràdio",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.ametllamar.cat/lacalartv/",
@@ -5712,10 +4634,7 @@
     },
     {
       "id": "radio-flix",
-      "seedName": "Ràdio Flix",
       "name": "Ràdio Flix",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radioflix.cat",
@@ -5729,10 +4648,7 @@
     },
     {
       "id": "amposta-radio",
-      "seedName": "Amposta Ràdio",
       "name": "Amposta Ràdio",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://radio.amposta.cat/",
@@ -5746,10 +4662,7 @@
     },
     {
       "id": "radio-cambrils",
-      "seedName": "Ràdio Cambrils",
       "name": "Ràdio Cambrils",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiocambrils.cat/",
@@ -5763,10 +4676,7 @@
     },
     {
       "id": "efmr-radio",
-      "seedName": "EFMR Ràdio",
       "name": "EFMR Ràdio",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.esplugafmradio.cat",
@@ -5780,10 +4690,7 @@
     },
     {
       "id": "hit-103",
-      "seedName": "Hit 103",
       "name": "Hit 103",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "http://hit103.cat/",
@@ -5798,10 +4705,7 @@
     },
     {
       "id": "radio-falset",
-      "seedName": "Ràdio Falset",
       "name": "Ràdio Falset",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiofalset.cat/",
@@ -5815,10 +4719,7 @@
     },
     {
       "id": "calafell-radio",
-      "seedName": "Calafell Ràdio",
       "name": "Calafell Ràdio",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://calafell.tv/",
@@ -5832,10 +4733,7 @@
     },
     {
       "id": "radio-ulldecona",
-      "seedName": "Ràdio Ulldecona",
       "name": "Ràdio Ulldecona",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radioulldecona.net",
@@ -5849,10 +4747,7 @@
     },
     {
       "id": "ua1",
-      "seedName": "UA1",
       "name": "UA1",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.ua1.cat/",
@@ -5866,10 +4761,7 @@
     },
     {
       "id": "radio-sio",
-      "seedName": "Ràdio Sió",
       "name": "Ràdio Sió",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiosio.cat",
@@ -5883,10 +4775,7 @@
     },
     {
       "id": "radio-sant-sadurni",
-      "seedName": "Ràdio Sant Sadurní",
       "name": "Ràdio Sant Sadurní",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://santsadurni.cat/radio",
@@ -5900,10 +4789,7 @@
     },
     {
       "id": "radio-mediona",
-      "seedName": "Ràdio Mediona",
       "name": "Ràdio Mediona",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiomediona.cat/",
@@ -5917,10 +4803,7 @@
     },
     {
       "id": "radio-piera",
-      "seedName": "Ràdio Piera",
       "name": "Ràdio Piera",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://radiopiera.online/",
@@ -5934,10 +4817,7 @@
     },
     {
       "id": "esplugues-fm",
-      "seedName": "Esplugues FM",
       "name": "Esplugues FM",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://espluguesfm.cat/",
@@ -5951,10 +4831,7 @@
     },
     {
       "id": "radio-delta-107-6-fm",
-      "seedName": "Ràdio Delta 107.6 FM",
       "name": "Ràdio Delta 107.6 FM",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://deltacat.cat/radio/",
@@ -5968,15 +4845,11 @@
     },
     {
       "id": "radio-artesa-de-segre",
-      "seedName": "Ràdio Artesa de Segre",
       "name": "Ràdio Artesa de Segre",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.artesadesegre.cat/la-ciutat/ens-municipals/radio-artesa-de-segre",
       "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fwww.artesadesegre.cat%2Fla-ciutat%2Fens-municipals%2Fradio-artesa-de-segre",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 6,
       "seedRank": 349,
@@ -5986,17 +4859,13 @@
           "label": "MP3 directo oficial",
           "url": "https://uk2freenew.listen2myradio.com/live.mp3?typeportmount=s2_9066_stream_644011989",
           "format": "mp3",
-          "priority": 1,
           "source": "Official site"
         }
       ]
     },
     {
       "id": "radio-calella-televisio",
-      "seedName": "Ràdio Calella Televisió",
       "name": "Ràdio Calella Televisió",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiocalellatv.cat/directe/",
@@ -6010,10 +4879,7 @@
     },
     {
       "id": "contrabanda-914-fm",
-      "seedName": "Contrabanda 91.4 FM",
       "name": "Contrabanda 91.4 FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.contrabanda.org/",
@@ -6028,22 +4894,17 @@
           "label": "Stream oficial",
           "url": "https://radiobot.radioslibres.info/public/contrabanda_fm",
           "format": "mp3",
-          "priority": 1,
           "source": "Contrabanda"
         }
       ]
     },
     {
       "id": "radio-kanal-barcelona-1069-fm",
-      "seedName": "Radio Kanal Barcelona 106.9 FM",
       "name": "Radio Kanal Barcelona 106.9 FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "http://www.radiokanalbarcelona.com",
       "logoUrl": "https://www.google.com/s2/favicons?domain=radiokanalbarcelona.com&sz=256",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 6,
       "seedRank": 365,
@@ -6052,15 +4913,11 @@
     },
     {
       "id": "maresme-fm",
-      "seedName": "Maresme FM",
       "name": "Maresme FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.maresmefm.com",
       "logoUrl": "https://www.google.com/s2/favicons?domain=maresmefm.com&sz=256",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 6,
       "seedRank": 366,
@@ -6069,15 +4926,11 @@
     },
     {
       "id": "radio-aran",
-      "seedName": "Radio Aran",
       "name": "Radio Aran",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.baqueira.es/es/radio-aran-baqueira",
       "logoUrl": "https://www.google.com/s2/favicons?domain=baqueira.es&sz=256",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 6,
       "seedRank": 367,
@@ -6086,15 +4939,11 @@
     },
     {
       "id": "radio-union-catalunya",
-      "seedName": "Radio Unión Catalunya",
       "name": "Radio Unión Catalunya",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.radiounioncatalunya.com/",
       "logoUrl": "https://www.google.com/s2/favicons?domain=radiounioncatalunya.com&sz=256",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 6,
       "seedRank": 368,
@@ -6103,10 +4952,7 @@
     },
     {
       "id": "montcada-radio-1046",
-      "seedName": "Montcada Radio 104.6",
       "name": "Montcada Radio 104.6",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://www.montcadaradio.com",
@@ -6120,10 +4966,7 @@
     },
     {
       "id": "radio-mussol",
-      "seedName": "Ràdio Mussol",
       "name": "Ràdio Mussol",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://radiomussol.wixsite.com/radiomussol",
@@ -6137,10 +4980,7 @@
     },
     {
       "id": "fem-girona-radio",
-      "seedName": "FeM Girona Radio",
       "name": "FeM Girona Radio",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://femgirona.cat/",
@@ -6154,15 +4994,11 @@
     },
     {
       "id": "ona-mar-fm-880",
-      "seedName": "Ona Mar FM 88.0",
       "name": "Ona Mar FM 88.0",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Catalunya",
       "websiteUrl": "https://www.onamar.net/",
       "logoUrl": "https://www.google.com/s2/favicons?domain=onamar.net&sz=256",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 6,
       "seedRank": 372,
@@ -6171,10 +5007,7 @@
     },
     {
       "id": "radio-sarria-876-fm",
-      "seedName": "Ràdio Sarrià",
       "name": "Ràdio Sarrià",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Catalunya",
       "websiteUrl": "https://radio.sarriadeter.cat/",

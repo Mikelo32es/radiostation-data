@@ -16,15 +16,11 @@
   "stations": [
     {
       "id": "onda-cero-logrono",
-      "seedName": "Onda Cero Logroño",
       "name": "Onda Cero Logroño",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "La Rioja",
       "websiteUrl": "https://www.ondacero.es/emisoras/rioja/rioja/directo/",
       "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 13,
@@ -34,22 +30,17 @@
           "label": "HLS directo",
           "url": "https://atres-live.ondacero.es/live/delegaciones/oc/logrono/master.m3u8",
           "format": "hls",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "cadena-cope-logrono",
-      "seedName": "Cadena COPE Logroño",
       "name": "Cadena COPE Logroño",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "La Rioja",
       "websiteUrl": "https://www.cope.es/directos/logrono",
       "logoUrl": "https://graph.facebook.com/coperioja/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 14,
@@ -59,22 +50,17 @@
           "label": "MP3 directo",
           "url": "https://wecast-bl02.flumotion.com/copesedes/logrono.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radio-rioja-ser",
-      "seedName": "Radio Rioja SER",
       "name": "Radio Rioja SER",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "La Rioja",
       "websiteUrl": "https://cadenaser.com/radio-rioja/",
       "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 15,
@@ -84,22 +70,17 @@
           "label": "MP3 principal",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_RIOJA.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "free-fm-classics",
-      "seedName": "Free FM Classics",
       "name": "Free FM Classics",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "La Rioja",
       "websiteUrl": "https://www.freefmworld.com",
       "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fwww.freefmworld.com",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 16,
@@ -108,8 +89,6 @@
         {
           "label": "Stream directo",
           "url": "https://xxdelgado.radioca.st",
-          "format": "auto",
-          "priority": 1,
           "source": "Radiomap"
         }
       ],
@@ -117,15 +96,11 @@
     },
     {
       "id": "canal-ebro-radio",
-      "seedName": "Canal Ebro Radio",
       "name": "Canal Ebro Radio",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "La Rioja",
       "websiteUrl": "https://www.canalebro.com/radioonline/",
       "logoUrl": "https://graph.facebook.com/canalebro/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 17,
@@ -135,22 +110,17 @@
           "label": "MP3 directo",
           "url": "http://streaming.capsulaimposible.com:8000/stream/2/canalebro.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "maxima-fm-rioja-107-1-fm",
-      "seedName": "Maxima FM Rioja 107.1 FM",
       "name": "Maxima FM Rioja 107.1 FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "La Rioja",
       "musicType": "Electrónica",
       "websiteUrl": "https://zeno.fm/radio/maxima-fm-rioja-107-1-fm-loca-activa-radio/",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 18,
@@ -159,23 +129,17 @@
         {
           "label": "Zeno candidato",
           "url": "https://stream.zeno.fm/uzs9ke2puy8uv",
-          "format": "auto",
-          "priority": 1,
           "source": "Instagram/Zeno"
         }
       ]
     },
     {
       "id": "free-fm-x-mas",
-      "seedName": "Free FM X-Mas",
       "name": "Free FM X-Mas",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "La Rioja",
       "websiteUrl": "https://sites.google.com/view/freefmworld",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/6uzYMVMHad.jpg",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 19,
@@ -185,7 +149,6 @@
           "label": "Principal",
           "url": "http://stream.zeno.fm/h60er015v68uv",
           "format": "mp3",
-          "priority": 1,
           "source": "radiobrowser index"
         }
       ],
@@ -193,15 +156,11 @@
     },
     {
       "id": "radio-logrono",
-      "seedName": "Radio Logroño",
       "name": "Radio Logroño",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "La Rioja",
       "websiteUrl": "https://radiologrono.es/",
       "logoUrl": "https://graph.facebook.com/radiologrono/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 20,
@@ -211,22 +170,17 @@
           "label": "Zeno principal",
           "url": "https://stream.zeno.fm/19buxw48djlvv",
           "format": "mp3",
-          "priority": 1,
           "source": "Web oficial"
         }
       ]
     },
     {
       "id": "radio-formula-hit-castellon-98-3-fm",
-      "seedName": "Radio Formula Hit Castellón 98.3 FM",
       "name": "Formula Hit",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "La Rioja",
       "websiteUrl": "https://www.formulahit.com/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/RgdbbKgcvW.png",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 21,
@@ -236,7 +190,6 @@
           "label": "MP3 principal",
           "url": "https://sonic.sistemahost.es/8176/stream;.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -244,16 +197,12 @@
     },
     {
       "id": "lokura-radio",
-      "seedName": "Lokura Radio",
       "name": "Lokura Radio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "La Rioja",
       "musicType": "Remember",
       "websiteUrl": "https://suena.live/p/5/?identificador=lokuraradio",
       "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fsuena.live",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 22,
@@ -262,23 +211,17 @@
         {
           "label": "Zeno candidato",
           "url": "https://stream.zeno.fm/3fks04pxchvv",
-          "format": "auto",
-          "priority": 1,
           "source": "Instagram/Zeno"
         }
       ]
     },
     {
       "id": "radio-3-pasitos",
-      "seedName": "Radio 3 Pasitos",
       "name": "Radio 3 Pasitos",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "La Rioja",
       "websiteUrl": "https://zeno.fm/radio/radio-3-pasitos-en-directo/",
       "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fzeno.fm",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 23,
@@ -288,16 +231,12 @@
     },
     {
       "id": "onda-ocio",
-      "seedName": "Onda Ocio",
       "name": "Onda Ocio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "La Rioja",
       "musicType": "Variedad",
       "websiteUrl": "https://ondaocio.com/",
       "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fondaocio.com",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 24,
@@ -307,22 +246,17 @@
           "label": "Zeno directo",
           "url": "http://stream.zeno.fm/u4e4bdyuvmzuv",
           "format": "mp3",
-          "priority": 1,
           "source": "Facebook / Zeno"
         }
       ]
     },
     {
       "id": "vive-radio",
-      "seedName": "Vive! Radio",
       "name": "Vive! Radio",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "La Rioja",
       "websiteUrl": "https://www.viveradio.es/viveBurgos",
       "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fwww.viveradio.es",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 25,
@@ -332,22 +266,17 @@
           "label": "MP3 principal",
           "url": "https://streaming.viveradio.es/viveburgos",
           "format": "mp3",
-          "priority": 1,
           "source": "Web oficial"
         }
       ]
     },
     {
       "id": "radio-haro-ser",
-      "seedName": "Radio Haro SER",
       "name": "Radio Haro SER",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "La Rioja",
       "websiteUrl": "https://www.radioharo.com/",
       "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 26,
@@ -357,7 +286,6 @@
           "label": "MP3 principal",
           "url": "http://streaming.capsulaimposible.com:8000/radioharo.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "Radio Browser index"
         }
       ]

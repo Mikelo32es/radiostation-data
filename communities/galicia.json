@@ -11,15 +11,11 @@
   "stations": [
     {
       "id": "loca-fm",
-      "seedName": "Loca FM",
       "name": "Loca FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Galicia",
       "websiteUrl": "https://www.locafm.com/live/player.html",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 10,
@@ -28,8 +24,6 @@
         {
           "label": "Stream principal",
           "url": "https://s3.we4stream.com:2020/stream/locafm",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -37,10 +31,7 @@
     },
     {
       "id": "rg-radio-galega",
-      "seedName": "RG - Radio Galega",
       "name": "RG - Radio Galega",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.agalegaaudio.gal/videos/120144-radio-galega",
@@ -55,29 +46,23 @@
           "label": "HLS principal",
           "url": "https://crtvg-radiogalega-hls.flumotion.cloud/playlist.m3u8",
           "format": "m3u8",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "MP3 alternativo",
           "url": "https://wecast-b03-04.flumotion.com/radiogalega/live.mp3",
           "format": "mp3",
-          "priority": 2,
           "source": "Radiomap"
         }
       ]
     },
     {
       "id": "free-fm-rock",
-      "seedName": "Free FM Rock",
       "name": "Free FM Rock",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Galicia",
       "websiteUrl": "https://www.freefmrock.com/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/769/free-fm.aa638097.jpg",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 21,
@@ -87,7 +72,6 @@
           "label": "Principal",
           "url": "https://freefmrock.radioca.st/stream",
           "format": "mp3",
-          "priority": 1,
           "source": "fmstream (public listing)"
         }
       ],
@@ -95,16 +79,12 @@
     },
     {
       "id": "kyoto-fm",
-      "seedName": "Kyoto FM",
       "name": "Kyoto FM",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Galicia",
       "musicType": "Dance",
       "websiteUrl": "https://www.kyotofm.es",
       "logoUrl": "https://graph.facebook.com/kyotofm/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 22,
@@ -114,22 +94,17 @@
           "label": "Stream principal",
           "url": "https://sonic.mediatelekom.net/8148/stream",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "onda-cero-a-coruna",
-      "seedName": "Onda Cero A Coruña",
       "name": "Onda Cero A Coruña",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.ondacero.es/emisoras/galicia/coruna/directo/",
       "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 23,
@@ -139,29 +114,23 @@
           "label": "HLS A Coruña",
           "url": "https://atres-live.ondacero.es/live/delegaciones/oc/acoruna/master.m3u8",
           "format": "m3u8",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "HLS Onda Cero fallback",
           "url": "https://atres-live.ondacero.es/live/ondacero/master.m3u8",
           "format": "m3u8",
-          "priority": 2,
           "source": "Onda Cero"
         }
       ]
     },
     {
       "id": "free-fm-classics",
-      "seedName": "Free FM Classics",
       "name": "Free FM Classics",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Galicia",
       "websiteUrl": "https://www.freefmworld.com",
       "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fwww.freefmworld.com",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 24,
@@ -170,8 +139,6 @@
         {
           "label": "Stream directo",
           "url": "https://xxdelgado.radioca.st",
-          "format": "auto",
-          "priority": 1,
           "source": "Radiomap"
         }
       ],
@@ -179,16 +146,12 @@
     },
     {
       "id": "orquestas",
-      "seedName": "ORQUESTAS",
       "name": "ORQUESTAS",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Galicia",
       "musicType": "Variedad",
       "websiteUrl": "https://verbenafm.com",
       "logoUrl": "https://pbs.twimg.com/profile_images/1463159511133442059/uVV15n4k_200x200.jpg",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 25,
@@ -198,17 +161,13 @@
           "label": "Stream principal",
           "url": "https://streaming12.elitecomunicacion.es:8222/stream",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "rgm-radio-galega-musica",
-      "seedName": "RGM - Radio Galega Música",
       "name": "RGM - Radio Galega Música",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Galicia",
       "musicType": "Variedad",
@@ -224,29 +183,23 @@
           "label": "HLS principal",
           "url": "https://crtvg-radiogalega-musica-hls.flumotion.cloud/playlist.m3u8",
           "format": "m3u8",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "MP3 alternativo",
           "url": "https://wecast-b02-02.flumotion.com/radiogalega-musica/live.mp3",
           "format": "mp3",
-          "priority": 2,
           "source": "Radiomap"
         }
       ]
     },
     {
       "id": "free-fm-80s",
-      "seedName": "Free FM 80s",
       "name": "Free FM 80s",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Galicia",
       "websiteUrl": "https://sites.google.com/view/freefmworld",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/827/free-fm-80s.16928eb8.png",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 27,
@@ -256,7 +209,6 @@
           "label": "Principal",
           "url": "http://freefm80.radioca.st/",
           "format": "mp3",
-          "priority": 1,
           "source": "radiobrowser index"
         }
       ],
@@ -264,15 +216,11 @@
     },
     {
       "id": "radio-coruna-ser",
-      "seedName": "Radio Coruña SER",
       "name": "Radio Coruña SER",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://cadenaser.com/radio-coruna/",
       "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 28,
@@ -282,29 +230,23 @@
           "label": "MP3 A Coruña",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_CORUNA.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "MP3 Galicia fallback",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_GALICIA.mp3",
           "format": "mp3",
-          "priority": 2,
           "source": "Cadena SER"
         }
       ]
     },
     {
       "id": "radio-vigo-ser",
-      "seedName": "Radio Vigo SER",
       "name": "Radio Vigo SER",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://cadenaser.com/radio-vigo/",
       "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 29,
@@ -314,29 +256,23 @@
           "label": "MP3 Vigo",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_VIGO.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "MP3 Galicia fallback",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_GALICIA.mp3",
           "format": "mp3",
-          "priority": 2,
           "source": "Cadena SER"
         }
       ]
     },
     {
       "id": "cadena-cope-coruna",
-      "seedName": "Cadena COPE Coruña",
       "name": "Cadena COPE Coruña",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.cope.es/directos/a-coruna",
       "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 30,
@@ -346,29 +282,23 @@
           "label": "MP3 A Coruña",
           "url": "https://wecast-bl02.flumotion.com/copesedes/lacoruna.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "AAC COPE fallback",
           "url": "https://flucast09-h-cloud.flumotion.com/cope/net1.aac",
           "format": "aac",
-          "priority": 2,
           "source": "COPE"
         }
       ]
     },
     {
       "id": "cadena-cope-vigo",
-      "seedName": "Cadena COPE Vigo",
       "name": "Cadena COPE Vigo",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.cope.es/directos/vigo",
       "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 32,
@@ -378,29 +308,23 @@
           "label": "MP3 Vigo",
           "url": "https://wecast-bl02.flumotion.com/copesedes/vigo.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "AAC COPE fallback",
           "url": "https://flucast09-h-cloud.flumotion.com/cope/net1.aac",
           "format": "aac",
-          "priority": 2,
           "source": "COPE"
         }
       ]
     },
     {
       "id": "radio-marca-coruna",
-      "seedName": "Radio Marca Coruña",
       "name": "Radio Marca Coruña",
-      "tagline": "",
-      "description": "",
       "category": "Deporte",
       "community": "Galicia",
       "websiteUrl": "https://www.marca.com/radio.html",
       "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 33,
@@ -410,29 +334,23 @@
           "label": "MP3 A Coruña",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_CORUNA.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "AAC Radio Marca fallback",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONALAAC.aac",
           "format": "aac",
-          "priority": 2,
           "source": "Radio Marca"
         }
       ]
     },
     {
       "id": "radio-voz-coruna",
-      "seedName": "Radio Voz Coruña",
       "name": "Radio Voz Coruña",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.radiovoz.com",
       "logoUrl": "https://graph.facebook.com/radiovoz/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 34,
@@ -442,22 +360,17 @@
           "label": "MP3 A Coruña",
           "url": "https://live.radiovoz.es/mp3/stream_coruna.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "Radiomap"
         }
       ]
     },
     {
       "id": "onda-cero-vigo",
-      "seedName": "Onda Cero Vigo",
       "name": "Onda Cero Vigo",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.ondacero.es/emisoras/galicia/vigo/directo/",
       "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 35,
@@ -467,29 +380,23 @@
           "label": "HLS Vigo",
           "url": "https://atres-live.ondacero.es/live/delegaciones/oc/vigo/master.m3u8",
           "format": "m3u8",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "HLS Onda Cero fallback",
           "url": "https://atres-live.ondacero.es/live/ondacero/master.m3u8",
           "format": "m3u8",
-          "priority": 2,
           "source": "Onda Cero"
         }
       ]
     },
     {
       "id": "radio-galicia-ser",
-      "seedName": "Radio Galicia SER",
       "name": "Radio Galicia SER",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://cadenaser.com/radio-galicia/",
       "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 36,
@@ -499,28 +406,22 @@
           "label": "MP3 Galicia",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_GALICIA.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "MP3 Cadena SER fallback",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENASER_ALT1.mp3",
           "format": "mp3",
-          "priority": 2,
           "source": "Cadena SER"
         }
       ]
     },
     {
       "id": "free-fm-world",
-      "seedName": "Free FM World",
       "name": "Free FM World",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Galicia",
       "musicType": "World",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 37,
@@ -530,7 +431,6 @@
           "label": "Principal",
           "url": "https://rocafmadrid.radioca.st/stream",
           "format": "mp3",
-          "priority": 1,
           "source": "rcast/fmstream public listing"
         }
       ],
@@ -539,15 +439,11 @@
     },
     {
       "id": "esradio-galicia",
-      "seedName": "EsRadio Galicia",
       "name": "EsRadio Galicia",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.esradiogalicia.com",
       "logoUrl": "https://graph.facebook.com/esradio/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 38,
@@ -557,29 +453,23 @@
           "label": "AAC principal",
           "url": "https://libertaddigital-radio-live1.flumotion.com/libertaddigital/ld-live1-high.aac",
           "format": "aac",
-          "priority": 1,
           "source": "esRadio"
         },
         {
           "label": "MP3 fallback",
           "url": "https://libertaddigital-radio-live1.flumotion.com/libertaddigital/ld-live1-high.mp3",
           "format": "mp3",
-          "priority": 2,
           "source": "esRadio"
         }
       ]
     },
     {
       "id": "free-fm-love",
-      "seedName": "Free FM Love",
       "name": "Free FM Love",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Galicia",
       "websiteUrl": "https://sites.google.com/view/freefmworld",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/714/free-fm-love.c1ba1f4e.jpg",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 40,
@@ -589,7 +479,6 @@
           "label": "Principal",
           "url": "https://stream.zeno.fm/umsptm6rvy8uv",
           "format": "mp3",
-          "priority": 1,
           "source": "TingFM listing"
         }
       ],
@@ -597,15 +486,11 @@
     },
     {
       "id": "radio-ourense-ser",
-      "seedName": "Radio Ourense Ser",
       "name": "Radio Ourense Ser",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://cadenaser.com/radio-ourense/",
       "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 41,
@@ -615,29 +500,23 @@
           "label": "MP3 Ourense",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_OURENSE.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "MP3 Galicia fallback",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_GALICIA.mp3",
           "format": "mp3",
-          "priority": 2,
           "source": "Cadena SER"
         }
       ]
     },
     {
       "id": "cadena-cope-santiago",
-      "seedName": "Cadena COPE Santiago",
       "name": "Cadena COPE Santiago",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.cope.es/directos/santiago",
       "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 42,
@@ -647,29 +526,23 @@
           "label": "MP3 Santiago",
           "url": "https://wecast-bl02.flumotion.com/copesedes/santiago.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "AAC COPE fallback",
           "url": "https://flucast09-h-cloud.flumotion.com/cope/net1.aac",
           "format": "aac",
-          "priority": 2,
           "source": "COPE"
         }
       ]
     },
     {
       "id": "radio-pontevedra-ser",
-      "seedName": "Radio Pontevedra SER",
       "name": "Radio Pontevedra SER",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://cadenaser.com/radio-pontevedra/",
       "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 43,
@@ -679,28 +552,22 @@
           "label": "MP3 Pontevedra",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_PONTEVEDRA.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "MP3 Galicia fallback",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_GALICIA.mp3",
           "format": "mp3",
-          "priority": 2,
           "source": "Cadena SER"
         }
       ]
     },
     {
       "id": "free-fm-top-100",
-      "seedName": "Free FM Top 100",
       "name": "Free FM Top 100",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Galicia",
       "musicType": "Top 100",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 44,
@@ -710,7 +577,6 @@
           "label": "Principal",
           "url": "https://stream.zeno.fm/a5h7vfret68uv",
           "format": "mp3",
-          "priority": 1,
           "source": "fmstream public listing"
         }
       ],
@@ -719,16 +585,12 @@
     },
     {
       "id": "radio-verbena",
-      "seedName": "Radio Verbena",
       "name": "Radio Verbena",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Galicia",
       "musicType": "Variedad",
       "websiteUrl": "https://verbenafm.com",
       "logoUrl": "https://pbs.twimg.com/profile_images/1463159511133442059/uVV15n4k_200x200.jpg",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 45,
@@ -738,22 +600,17 @@
           "label": "Stream principal",
           "url": "https://streaming12.elitecomunicacion.es:8222/stream",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "onda-cero-pontevedra",
-      "seedName": "Onda Cero Pontevedra",
       "name": "Onda Cero Pontevedra",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.ondacero.es/emisoras/galicia/pontevedra/directo/",
       "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 46,
@@ -763,29 +620,23 @@
           "label": "HLS Pontevedra",
           "url": "https://atres-live.ondacero.es/live/delegaciones/oc/pontevedra/master.m3u8",
           "format": "m3u8",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "HLS Onda Cero fallback",
           "url": "https://atres-live.ondacero.es/live/ondacero/master.m3u8",
           "format": "m3u8",
-          "priority": 2,
           "source": "Onda Cero"
         }
       ]
     },
     {
       "id": "onda-cero-santiago",
-      "seedName": "Onda Cero Santiago",
       "name": "Onda Cero Santiago",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.ondacero.es/emisoras/galicia/santiago/directo/",
       "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 47,
@@ -795,29 +646,23 @@
           "label": "HLS Santiago",
           "url": "https://atres-live.ondacero.es/live/delegaciones/oc/santiago/master.m3u8",
           "format": "m3u8",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "HLS Onda Cero fallback",
           "url": "https://atres-live.ondacero.es/live/ondacero/master.m3u8",
           "format": "m3u8",
-          "priority": 2,
           "source": "Onda Cero"
         }
       ]
     },
     {
       "id": "cadena-cope-pontevedra",
-      "seedName": "Cadena COPE Pontevedra",
       "name": "Cadena COPE Pontevedra",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.cope.es/directos/pontevedra",
       "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 48,
@@ -827,29 +672,23 @@
           "label": "MP3 Pontevedra",
           "url": "https://wecast-bl02.flumotion.com/copesedes/pontevedra.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "AAC COPE fallback",
           "url": "https://flucast09-h-cloud.flumotion.com/cope/net1.aac",
           "format": "aac",
-          "priority": 2,
           "source": "COPE"
         }
       ]
     },
     {
       "id": "free-fm-classical",
-      "seedName": "Free FM Classical",
       "name": "Free FM Classical",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Galicia",
       "websiteUrl": "https://sites.google.com/view/freefmworld",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/020/free-fm-classical.0ef23d56.jpg",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 49,
@@ -859,7 +698,6 @@
           "label": "Principal",
           "url": "http://stream.zeno.fm/x5jlpogsaedvv",
           "format": "mp3",
-          "priority": 1,
           "source": "radiobrowser index"
         }
       ],
@@ -867,15 +705,11 @@
     },
     {
       "id": "radio-marca-vigo",
-      "seedName": "Radio Marca Vigo",
       "name": "Radio Marca Vigo",
-      "tagline": "",
-      "description": "",
       "category": "Deporte",
       "community": "Galicia",
       "websiteUrl": "https://www.marca.com/radio.html",
       "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 50,
@@ -885,29 +719,23 @@
           "label": "MP3 Vigo",
           "url": "https://streaming.enacast.com/radiomarcavigoHD.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "AAC Radio Marca fallback",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONALAAC.aac",
           "format": "aac",
-          "priority": 2,
           "source": "Radio Marca"
         }
       ]
     },
     {
       "id": "cadena-cope-mas-coruna",
-      "seedName": "Cadena COPE Más Coruña",
       "name": "Cadena COPE Más Coruña",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.cope.es/directos/a-coruna",
       "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 51,
@@ -917,29 +745,23 @@
           "label": "MP3 A Coruña",
           "url": "https://wecast-bl02.flumotion.com/copesedes/lacoruna.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "AAC COPE fallback",
           "url": "https://flucast09-h-cloud.flumotion.com/cope/net1.aac",
           "format": "aac",
-          "priority": 2,
           "source": "COPE"
         }
       ]
     },
     {
       "id": "radio-lider-espana",
-      "seedName": "Radio Líder España",
       "name": "Radio Líder España",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://radiolider.com/en-directo/",
       "logoUrl": "https://graph.facebook.com/radiolidergalicia/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 52,
@@ -949,23 +771,18 @@
           "label": "Stream principal",
           "url": "https://server9.emitironline.com:8200/stream",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "formula-fun-galicia",
-      "seedName": "Formula Fun Galicia",
       "name": "Formula Fun Galicia",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Galicia",
       "musicType": "Hits",
       "websiteUrl": "https://www.formulafungalicia.es",
       "logoUrl": "https://graph.facebook.com/FormulaFunGalicia/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 53,
@@ -975,22 +792,17 @@
           "label": "MP3 principal",
           "url": "https://s30.myradiostream.com/:30464/listen.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "free-fm-chill",
-      "seedName": "Free FM Chill",
       "name": "Free FM Chill",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Galicia",
       "websiteUrl": "https://www.locafm.com/chill-out/player.html",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 54,
@@ -1000,22 +812,17 @@
           "label": "Stream principal",
           "url": "https://s2.we4stream.com/listen/loca_chill_out/live",
           "format": "stream",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "onda-cero-ourense",
-      "seedName": "Onda Cero Ourense",
       "name": "Onda Cero Ourense",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.ondacero.es/emisoras/galicia/ourense/directo/",
       "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 55,
@@ -1025,29 +832,23 @@
           "label": "HLS Ourense",
           "url": "https://atres-live.ondacero.es/live/delegaciones/oc/ourense/master.m3u8",
           "format": "m3u8",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "HLS Onda Cero fallback",
           "url": "https://atres-live.ondacero.es/live/ondacero/master.m3u8",
           "format": "m3u8",
-          "priority": 2,
           "source": "Onda Cero"
         }
       ]
     },
     {
       "id": "free-fm-x-mas",
-      "seedName": "Free FM X-Mas",
       "name": "Free FM X-Mas",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Galicia",
       "websiteUrl": "https://sites.google.com/view/freefmworld",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/6uzYMVMHad.jpg",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 56,
@@ -1057,7 +858,6 @@
           "label": "Principal",
           "url": "http://stream.zeno.fm/h60er015v68uv",
           "format": "mp3",
-          "priority": 1,
           "source": "radiobrowser index"
         }
       ],
@@ -1065,15 +865,11 @@
     },
     {
       "id": "cadena-cope-ourense",
-      "seedName": "Cadena COPE Ourense",
       "name": "Cadena COPE Ourense",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.cope.es/directos/ourense",
       "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 57,
@@ -1083,29 +879,23 @@
           "label": "MP3 Ourense",
           "url": "https://wecast-bl02.flumotion.com/copesedes/orense.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "AAC COPE fallback",
           "url": "https://flucast09-h-cloud.flumotion.com/cope/net1.aac",
           "format": "aac",
-          "priority": 2,
           "source": "COPE"
         }
       ]
     },
     {
       "id": "free-fm-sports",
-      "seedName": "Free FM Sports",
       "name": "Free FM Sports",
-      "tagline": "",
-      "description": "",
       "category": "Deporte",
       "community": "Galicia",
       "websiteUrl": "https://sites.google.com/view/freefmworld",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/BtX4kYE4dC.jpg",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 58,
@@ -1115,22 +905,17 @@
           "label": "Principal",
           "url": "https://stream.zeno.fm/31nnibfpnxktv",
           "format": "mp3",
-          "priority": 1,
           "source": "TingFM listing"
         }
       ]
     },
     {
       "id": "onda-cero-lugo",
-      "seedName": "Onda Cero Lugo",
       "name": "Onda Cero Lugo",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.ondacero.es/emisoras/galicia/lugo/directo/",
       "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 59,
@@ -1140,24 +925,19 @@
           "label": "HLS Lugo",
           "url": "https://atres-live.ondacero.es/live/delegaciones/oc/lugo/master.m3u8",
           "format": "m3u8",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "HLS Onda Cero fallback",
           "url": "https://atres-live.ondacero.es/live/ondacero/master.m3u8",
           "format": "m3u8",
-          "priority": 2,
           "source": "Onda Cero"
         }
       ]
     },
     {
       "id": "son-galicia-radio",
-      "seedName": "Son Galicia Radio",
       "name": "Son Galicia Radio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Galicia",
       "musicType": "Folk",
@@ -1173,22 +953,17 @@
           "label": "HLS principal",
           "url": "https://crtvg-songalicia-hls.flumotion.cloud/playlist.m3u8",
           "format": "m3u8",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radiovoz-vigo",
-      "seedName": "RadioVoz Vigo",
       "name": "RadioVoz Vigo",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.radiovoz.com",
       "logoUrl": "https://graph.facebook.com/radiovoz/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 61,
@@ -1198,22 +973,17 @@
           "label": "MP3 Vigo",
           "url": "https://live.radiovoz.es/mp3/stream_vigo.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "Radiomap"
         }
       ]
     },
     {
       "id": "radio-arosa-ser",
-      "seedName": "Radio Arosa SER",
       "name": "Radio Arosa SER",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://cadenaser.com/radio-arosa/",
       "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 1,
       "seedRank": 62,
@@ -1223,29 +993,23 @@
           "label": "MP3 Arosa",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_AROSA.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "MP3 Galicia fallback",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_GALICIA.mp3",
           "format": "mp3",
-          "priority": 2,
           "source": "Cadena SER"
         }
       ]
     },
     {
       "id": "cadena-cope-lugo",
-      "seedName": "Cadena COPE Lugo",
       "name": "Cadena COPE Lugo",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.cope.es/directos/lugo",
       "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 64,
@@ -1255,30 +1019,24 @@
           "label": "MP3 Lugo",
           "url": "https://wecast-bl02.flumotion.com/copesedes/lugo.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "AAC COPE fallback",
           "url": "https://flucast09-h-cloud.flumotion.com/cope/net1.aac",
           "format": "aac",
-          "priority": 2,
           "source": "COPE"
         }
       ]
     },
     {
       "id": "siradio-comunidade-galega",
-      "seedName": "SiRadio - Comunidade Galega",
       "name": "SiRadio - Comunidade Galega",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Galicia",
       "musicType": "Variedad",
       "websiteUrl": "https://www.siradio.gal/",
       "logoUrl": "https://www.netgaliciaradio.es/wp-content/uploads/2022/09/logo.png",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 65,
@@ -1288,22 +1046,17 @@
           "label": "Stream principal",
           "url": "https://sonicpanel.streaming10.net/8140/stream",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radio-voz-santiago",
-      "seedName": "Radio Voz Santiago",
       "name": "Radio Voz Santiago",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.radiovoz.com",
       "logoUrl": "https://graph.facebook.com/radiovoz/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 66,
@@ -1313,22 +1066,17 @@
           "label": "MP3 Santiago",
           "url": "https://live.radiovoz.es/mp3/stream_santiago.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "cadena-cope-ferrol",
-      "seedName": "Cadena COPE Ferrol",
       "name": "Cadena COPE Ferrol",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.cope.es/directos/ferrol",
       "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 67,
@@ -1338,29 +1086,23 @@
           "label": "MP3 Ferrol",
           "url": "https://wecast-bl02.flumotion.com/copesedes/ferrol.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "AAC COPE fallback",
           "url": "https://flucast09-h-cloud.flumotion.com/cope/net1.aac",
           "format": "aac",
-          "priority": 2,
           "source": "COPE"
         }
       ]
     },
     {
       "id": "radiovoz-ferrol",
-      "seedName": "RadioVoz Ferrol",
       "name": "RadioVoz Ferrol",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.radiovoz.es/",
       "logoUrl": "https://graph.facebook.com/radiovoz/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 69,
@@ -1370,17 +1112,13 @@
           "label": "MP3 local",
           "url": "https://live.radiovoz.es/mp3/stream_ferrol.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "RadioVoz"
         }
       ]
     },
     {
       "id": "radio-valga",
-      "seedName": "Radio Valga",
       "name": "Radio Valga",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://radiovalga.es/",
@@ -1395,22 +1133,17 @@
           "label": "Stream principal",
           "url": "https://srv7031.dns-lcinternet.com/8032/stream",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "cadena-cope-ribadeo",
-      "seedName": "Cadena COPE Ribadeo",
       "name": "Cadena COPE Ribadeo",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.cope.es/directos/ribadeo",
       "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 71,
@@ -1420,29 +1153,23 @@
           "label": "MP3 Ribadeo",
           "url": "https://wecast-bl02.flumotion.com/copesedes/ribadeo.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "AAC COPE fallback",
           "url": "https://flucast09-h-cloud.flumotion.com/cope/net1.aac",
           "format": "aac",
-          "priority": 2,
           "source": "COPE"
         }
       ]
     },
     {
       "id": "onda-cero-monforte-de-lemos",
-      "seedName": "Onda Cero Monforte de Lemos",
       "name": "Onda Cero Monforte de Lemos",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.ondacero.es/emisoras/galicia/monforte-lemos/directo/",
       "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 72,
@@ -1452,29 +1179,23 @@
           "label": "HLS Monforte",
           "url": "https://atres-live.ondacero.es/live/delegaciones/oc/monforte/master.m3u8",
           "format": "m3u8",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "HLS Onda Cero fallback",
           "url": "https://atres-live.ondacero.es/live/ondacero/master.m3u8",
           "format": "m3u8",
-          "priority": 2,
           "source": "Onda Cero"
         }
       ]
     },
     {
       "id": "radio-principal-monforte-ser",
-      "seedName": "Radio Principal Monforte SER",
       "name": "Radio Principal Monforte SER",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "http://www.radioytele.es",
       "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 73,
@@ -1484,29 +1205,23 @@
           "label": "Stream principal",
           "url": "http://srv0510.lcinternet.com:8007/stream",
           "format": "mp3",
-          "priority": 1,
           "source": "Radio y Tele"
         },
         {
           "label": "MP3 Galicia fallback",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_GALICIA.mp3",
           "format": "mp3",
-          "priority": 2,
           "source": "Cadena SER"
         }
       ]
     },
     {
       "id": "radio-lider",
-      "seedName": "Radio Líder",
       "name": "Radio Líder",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://radiolider.com/en-directo/",
       "logoUrl": "https://graph.facebook.com/radiolidergalicia/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 75,
@@ -1516,22 +1231,17 @@
           "label": "Stream principal",
           "url": "https://server9.emitironline.com:8200/stream",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "siradio-vigo",
-      "seedName": "SiRadio - Vigo",
       "name": "SiRadio - Vigo",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.siradio.org",
       "logoUrl": "https://graph.facebook.com/radiovoz/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 76,
@@ -1541,22 +1251,17 @@
           "label": "MP3 Vigo",
           "url": "https://live.radiovoz.es/mp3/stream_vigo.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "Radiomap"
         }
       ]
     },
     {
       "id": "radio-8-vigo-88-1-fm",
-      "seedName": "Radio 8 Vigo 88.1 FM",
       "name": "Radio 8 Vigo 88.1 FM",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.radiovoz.com",
       "logoUrl": "https://graph.facebook.com/radiovoz/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 77,
@@ -1566,22 +1271,17 @@
           "label": "MP3 Vigo",
           "url": "https://live.radiovoz.es/mp3/stream_vigo.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "Radiomap"
         }
       ]
     },
     {
       "id": "radio-nordes-ser",
-      "seedName": "Radio Nordés SER",
       "name": "Radio Nordés SER",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://cadenaser.com/radio-nordes/",
       "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 78,
@@ -1591,24 +1291,19 @@
           "label": "MP3 Nordés",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_CEE.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "Cadena SER"
         },
         {
           "label": "MP3 Galicia fallback",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_GALICIA.mp3",
           "format": "mp3",
-          "priority": 2,
           "source": "Cadena SER"
         }
       ]
     },
     {
       "id": "radio-municipal-de-tui",
-      "seedName": "Radio Municipal de Tui",
       "name": "Radio Municipal de Tui",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.tui.gal/gl/servizos/radio-municipal-tui",
@@ -1623,22 +1318,17 @@
           "label": "Stream principal",
           "url": "https://srv7021.dns-lcinternet.com/8070/stream",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radio-lider-santiago",
-      "seedName": "Radio Líder Santiago",
       "name": "Radio Líder Santiago",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.radiovoz.com",
       "logoUrl": "https://graph.facebook.com/radiovoz/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 81,
@@ -1648,22 +1338,17 @@
           "label": "MP3 Santiago",
           "url": "https://live.radiovoz.es/mp3/stream_santiago.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radio-peter-club",
-      "seedName": "Radio Peter Club",
       "name": "Radio Peter Club",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Galicia",
       "websiteUrl": "https://www.locafm.com/",
       "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 82,
@@ -1672,8 +1357,6 @@
         {
           "label": "Stream principal",
           "url": "https://s2.we4stream.com/listen/loca_techo/live",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -1681,10 +1364,7 @@
     },
     {
       "id": "radio-xallas-107-5-fm",
-      "seedName": "Radio Xallas 107.5 FM",
       "name": "Radio Xallas 107.5 FM",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://concellodenegreira.gal",
@@ -1699,22 +1379,17 @@
           "label": "Stream principal",
           "url": "https://srv7031.dns-lcinternet.com/8030/stream",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "ourense-si-radio",
-      "seedName": "OURENSE SI RADIO",
       "name": "OURENSE SI RADIO",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.siradio.gal/",
       "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 87,
@@ -1724,24 +1399,19 @@
           "label": "HLS Ourense",
           "url": "https://atres-live.ondacero.es/live/delegaciones/oc/ourense/master.m3u8",
           "format": "m3u8",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "HLS Onda Cero fallback",
           "url": "https://atres-live.ondacero.es/live/ondacero/master.m3u8",
           "format": "m3u8",
-          "priority": 2,
           "source": "Onda Cero"
         }
       ]
     },
     {
       "id": "cuac-103-4-fm",
-      "seedName": "CUAC 103.4 FM",
       "name": "CUAC 103.4 FM",
-      "tagline": "",
-      "description": "",
       "category": "Comunitaria",
       "community": "Galicia",
       "websiteUrl": "https://cuacfm.org/directo/",
@@ -1756,22 +1426,17 @@
           "label": "MP3 principal",
           "url": "https://streaming.cuacfm.org/cuacfm-128k.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radiovoz-bergantinos",
-      "seedName": "RadioVoz Bergantiños",
       "name": "RadioVoz Bergantiños",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.radiovoz.es/",
       "logoUrl": "https://graph.facebook.com/radiovoz/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 89,
@@ -1781,22 +1446,17 @@
           "label": "MP3 local",
           "url": "https://live.radiovoz.es/mp3/stream_bergantinos.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "RadioVoz"
         }
       ]
     },
     {
       "id": "siradio-ourense",
-      "seedName": "SiRadio - Ourense",
       "name": "SiRadio - Ourense",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.rtve.es/play/radio/",
       "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 90,
@@ -1806,22 +1466,17 @@
           "label": "MP3 territorial",
           "url": "https://dispatcher.rndfnk.com/crtve/rne5/ore/mp3/high",
           "format": "mp3",
-          "priority": 1,
           "source": "Radiomap"
         }
       ]
     },
     {
       "id": "radio-betanzos",
-      "seedName": "RADIO BETANZOS",
       "name": "RADIO BETANZOS",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://radiobetanzos.com/",
       "logoUrl": "https://graph.facebook.com/Radiofene/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 91,
@@ -1831,22 +1486,17 @@
           "label": "Stream principal",
           "url": "https://srv7031.dns-lcinternet.com/8086/stream",
           "format": "mp3",
-          "priority": 1,
           "source": "Radio Betanzos"
         }
       ]
     },
     {
       "id": "radiovoz-orense",
-      "seedName": "RadioVoz Orense",
       "name": "RadioVoz Orense",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.radiovoz.com",
       "logoUrl": "https://graph.facebook.com/radiovoz/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 92,
@@ -1856,23 +1506,18 @@
           "label": "MP3 Ourense",
           "url": "http://live.radiovoz.es/mp3/stream_orense.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "Radiomap"
         }
       ]
     },
     {
       "id": "antena-1-radio",
-      "seedName": "Antena 1 Radio",
       "name": "Antena 1 Radio",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Galicia",
       "musicType": "Dance",
       "websiteUrl": "https://www.radioplaneta.com/",
       "logoUrl": "https://yt3.ggpht.com/ytc/AKedOLRETQgEcm3bzxRJOct7AMt2oYneaikmoSjYi_GqxQ%3Ds200-c-k-c0x00ffffff-no-rj",
-      "language": "es",
       "sourceSeed": "myTuner",
       "verificationStatus": "seeded_pending",
       "streams": [
@@ -1880,7 +1525,6 @@
           "label": "Stream principal",
           "url": "https://radioplaneta.emitironline.com/",
           "format": "stream",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ],
@@ -1889,10 +1533,7 @@
     },
     {
       "id": "radio-picarina",
-      "seedName": "Radio Picariña",
       "name": "Radio Picariña",
-      "tagline": "",
-      "description": "",
       "category": "Educación",
       "community": "Galicia",
       "musicType": "Infantil",
@@ -1908,22 +1549,17 @@
           "label": "HLS principal",
           "url": "https://crtvg-picarina-schlive.flumotion.cloud/crtvglive/smil:channel11PRG.smil/playlist.m3u8",
           "format": "m3u8",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radiovoz-ribeira-sacra",
-      "seedName": "RadioVoz Ribeira Sacra",
       "name": "RadioVoz Ribeira Sacra",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.radiovoz.es/",
       "logoUrl": "https://graph.facebook.com/radiovoz/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 97,
@@ -1933,17 +1569,13 @@
           "label": "MP3 local",
           "url": "https://live.radiovoz.es/mp3/stream_ribeirasacra.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "RadioVoz"
         }
       ]
     },
     {
       "id": "radio-estrada",
-      "seedName": "Radio Estrada",
       "name": "Radio Estrada",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.radiofusion.eu",
@@ -1958,22 +1590,17 @@
           "label": "Stream principal",
           "url": "https://srv7031.dns-lcinternet.com/8032/stream",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "cadena-ser-baixo-mino",
-      "seedName": "Cadena SER Baixo Miño",
       "name": "Cadena SER Baixo Miño",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://cadenaser.com/ser-baixo-mino/",
       "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 100,
@@ -1983,29 +1610,23 @@
           "label": "MP3 Baixo Miño",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_BAIXOMINO.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "MP3 Galicia fallback",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_GALICIA.mp3",
           "format": "mp3",
-          "priority": 2,
           "source": "Cadena SER"
         }
       ]
     },
     {
       "id": "camino-fm-santiago-spain",
-      "seedName": "Camino FM - Santiago, Spain",
       "name": "Camino FM - Santiago, Spain",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.caminofm.com/",
       "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 101,
@@ -2015,17 +1636,13 @@
           "label": "MP3 territorial",
           "url": "https://dispatcher.rndfnk.com/crtve/rne1/stg/mp3/high",
           "format": "mp3",
-          "priority": 1,
           "source": "Radiomap"
         }
       ]
     },
     {
       "id": "solfami",
-      "seedName": "SOLFAMI",
       "name": "SOLFAMI",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Galicia",
       "musicType": "Folk",
@@ -2041,22 +1658,17 @@
           "label": "HLS principal",
           "url": "https://crtvg-songalicia-hls.flumotion.cloud/playlist.m3u8",
           "format": "m3u8",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radio-inter",
-      "seedName": "Radio Inter",
       "name": "Radio Inter",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.radiointer.es/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/gagdutEEG4.png",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 106,
@@ -2065,23 +1677,17 @@
         {
           "label": "Stream principal",
           "url": "https://radioserver12.profesionalhosting.com/proxy/pkg156993/stream",
-          "format": "auto",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "pontevedra-viva",
-      "seedName": "Pontevedra Viva",
       "name": "Pontevedra Viva",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://pontevedraviva.com/radio/",
       "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 108,
@@ -2091,29 +1697,23 @@
           "label": "HLS Pontevedra",
           "url": "https://atres-live.ondacero.es/live/delegaciones/oc/pontevedra/master.m3u8",
           "format": "m3u8",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "HLS Onda Cero fallback",
           "url": "https://atres-live.ondacero.es/live/ondacero/master.m3u8",
           "format": "m3u8",
-          "priority": 2,
           "source": "Onda Cero"
         }
       ]
     },
     {
       "id": "radio-obradoiro",
-      "seedName": "Radio Obradoiro",
       "name": "Radio Obradoiro",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://radioobradoirogalicia.es.tl/",
       "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 109,
@@ -2123,22 +1723,17 @@
           "label": "MP3 territorial",
           "url": "https://dispatcher.rndfnk.com/crtve/rne1/stg/mp3/high",
           "format": "mp3",
-          "priority": 1,
           "source": "Radiomap"
         }
       ]
     },
     {
       "id": "radio-lugo-ser",
-      "seedName": "Radio Lugo SER",
       "name": "Radio Lugo SER",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://cadenaser.com/radio-lugo/",
       "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 110,
@@ -2148,30 +1743,24 @@
           "label": "AAC Lugo",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_LUGOAAC.aac",
           "format": "aac",
-          "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "MP3 Galicia fallback",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_GALICIA.mp3",
           "format": "mp3",
-          "priority": 2,
           "source": "Cadena SER"
         }
       ]
     },
     {
       "id": "via-radio-galicia",
-      "seedName": "Via Radio Galicia",
       "name": "Via Radio Galicia",
-      "tagline": "",
-      "description": "",
       "category": "Música",
       "community": "Galicia",
       "musicType": "Variedad",
       "websiteUrl": "https://www.netgaliciaradio.es",
       "logoUrl": "https://www.netgaliciaradio.es/wp-content/uploads/2022/09/logo.png",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 112,
@@ -2181,17 +1770,13 @@
           "label": "Stream principal",
           "url": "https://sonicpanel.streaming10.net/8140/stream",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radio-neria",
-      "seedName": "Radio Neria",
       "name": "Radio Neria",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://concellodenegreira.gal",
@@ -2206,22 +1791,17 @@
           "label": "Stream principal",
           "url": "https://srv7031.dns-lcinternet.com/8030/stream",
           "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
       "id": "radiovoz-barbanza",
-      "seedName": "RadioVoz Barbanza",
       "name": "RadioVoz Barbanza",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.radiovoz.es/",
       "logoUrl": "https://graph.facebook.com/radiovoz/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 116,
@@ -2231,22 +1811,17 @@
           "label": "MP3 local",
           "url": "https://live.radiovoz.es/mp3/stream_barbanza.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "RadioVoz"
         }
       ]
     },
     {
       "id": "radiovoz-ribadeo",
-      "seedName": "RadioVoz Ribadeo",
       "name": "RadioVoz Ribadeo",
-      "tagline": "",
-      "description": "",
       "category": "Noticias",
       "community": "Galicia",
       "websiteUrl": "https://www.radiovoz.es/",
       "logoUrl": "https://graph.facebook.com/radiovoz/picture?width=200&height=200",
-      "language": "es",
       "sourceSeed": "myTuner",
       "seedPage": 2,
       "seedRank": 117,
@@ -2256,7 +1831,6 @@
           "label": "MP3 local",
           "url": "https://live.radiovoz.es/mp3/stream_ribadeo.mp3",
           "format": "mp3",
-          "priority": 1,
           "source": "RadioVoz"
         }
       ]

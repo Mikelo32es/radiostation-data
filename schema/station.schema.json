@@ -39,7 +39,6 @@
         "type": "object",
         "required": [
           "id",
-          "seedName",
           "name",
           "category",
           "community",
@@ -50,16 +49,7 @@
           "id": {
             "type": "string"
           },
-          "seedName": {
-            "type": "string"
-          },
           "name": {
-            "type": "string"
-          },
-          "tagline": {
-            "type": "string"
-          },
-          "description": {
             "type": "string"
           },
           "category": {
