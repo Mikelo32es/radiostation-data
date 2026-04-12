@@ -1,12 +1,12 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Euskadi rematada con poda de seeds flojas, rescate de radios activas y nacionales separadas fuera de comunidades.",
+  "syncMessage": "Euskadi reforzada con Waiting Room añadida por petición del usuario y mantenida como pending hasta validar mejor su encaje y stream.",
   "stats": {
-    "seedCount": 105,
+    "seedCount": 106,
     "playableCount": 64,
     "verifiedCount": 62,
     "candidateCount": 2,
-    "pendingCount": 41
+    "pendingCount": 42
   },
   "featuredIds": [
     "eitb-radio-euskadi",
@@ -37,6 +37,7 @@
     "ataun-irratia"
   ],
   "recentIds": [
+    "waiting-room",
     "97fm-irratia",
     "donostia-kultura-irratia",
     "durango-irratia",
@@ -47,8 +48,7 @@
     "onda-cero-nacional",
     "muybuena",
     "tropicana-espana",
-    "olimpica-stereo-espana",
-    "la-flamenca"
+    "olimpica-stereo-espana"
   ],
   "communities": [
     {
@@ -118,7 +118,7 @@
       "id": "euskadi",
       "name": "Euskadi",
       "path": "communities/euskadi.json",
-      "seedCount": 75,
+      "seedCount": 76,
       "playableCount": 38
     },
     {
@@ -179,12 +179,12 @@
     }
   ],
   "homePath": "catalog/home.json",
-  "requestedAction": "Rematar Euskadi con más criterio: subir radios activas con stream, podar seeds flojas y mantener las cadenas nacionales fuera de comunidades.",
+  "requestedAction": "Añadir Waiting Room en Euskadi sin tocar el resto del catálogo, manteniéndola como pending hasta validar mejor stream y encaje.",
   "totals": {
-    "seedCount": 105,
+    "seedCount": 106,
     "playableCount": 64,
     "verifiedCount": 62,
     "candidateCount": 2,
-    "pendingCount": 41
+    "pendingCount": 42
   }
 }

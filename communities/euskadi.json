@@ -2,11 +2,11 @@
   "repoName": "radiostation-data",
   "community": "Euskadi",
   "seedSource": "myTuner + TDTChannels + webs oficiales + Arrosa/UPV/EHU/centros educativos",
-  "seedCount": 75,
+  "seedCount": 76,
   "playableCount": 38,
   "verifiedCount": 36,
   "candidateCount": 2,
-  "pendingCount": 37,
+  "pendingCount": 38,
   "notes": "Euskadi reforzado por categorías sin meter cadenas nacionales: más peso para deportes, economía, religión, cultura y educación. Se añaden radios locales, escolares, comunitarias y culturales como seeds; solo quedan en verified/candidate las que mantienen stream público razonablemente claro.",
   "stations": [
     {
@@ -1128,6 +1128,18 @@
       "verificationStatus": "seeded_pending",
       "streams": [],
       "websiteUrl": "https://egape.eus/es/adarra-irratia-1",
+      "logoUrl": null
+    },
+    {
+      "id": "waiting-room",
+      "name": "Waiting Room",
+      "category": "Música",
+      "community": "Euskadi",
+      "musicType": "Chillout",
+      "sourceSeed": "Petición usuario + myTuner + Online Radio Box",
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "websiteUrl": "https://mytuner-radio.com/radio/waiting-room-508757/",
       "logoUrl": null
     }
   ]

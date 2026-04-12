@@ -1,6 +1,6 @@
 {
-  "requestedAction": "Rematar Euskadi con radios vascas activas, depurar seeds flojas y dejar fuera cualquier cadena nacional o clon dudoso.",
-  "seedPolicy": "Nada de cadenas nacionales dentro de comunidades. Euskadi se queda con radios vascas/locales, escolares, comunitarias, culturales o temáticas con encaje claro; lo flojo o genérico se poda.",
+  "requestedAction": "Añadir Waiting Room en Euskadi por petición del usuario sin tocar el resto del catálogo.",
+  "seedPolicy": "Nada de cadenas nacionales dentro de comunidades. Waiting Room se mantiene en Euskadi como seeded_pending por petición expresa del usuario, pendiente de validación fina.",
   "communities": [
     {
       "id": "andalucia",
@@ -69,7 +69,7 @@
       "id": "euskadi",
       "name": "Euskadi",
       "path": "communities/euskadi.json",
-      "seedCount": 75,
+      "seedCount": 76,
       "playableCount": 38
     },
     {

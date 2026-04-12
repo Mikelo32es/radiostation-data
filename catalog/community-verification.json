@@ -1,5 +1,5 @@
 {
-  "generatedFrom": "Remate manual Euskadi 2026-04-12",
+  "generatedFrom": "Ajuste manual Euskadi 2026-04-12",
   "criteria": {
     "verified": "Emisora vasca activa con stream público localizado y señal suficiente de vigencia en fuente oficial, Arrosa, TDTChannels o directorio público contrastable.",
     "candidate": "Emisora vasca real con stream localizado pero todavía pendiente de una última validación fina o con encaje más débil.",
@@ -73,7 +73,7 @@
       "id": "euskadi",
       "name": "Euskadi",
       "path": "communities/euskadi.json",
-      "seedCount": 75,
+      "seedCount": 76,
       "playableCount": 38
     },
     {
@@ -134,10 +134,10 @@
     }
   ],
   "totals": {
-    "seedCount": 105,
+    "seedCount": 106,
     "playableCount": 64,
     "verifiedCount": 62,
     "candidateCount": 2,
-    "pendingCount": 41
+    "pendingCount": 42
   }
 }
