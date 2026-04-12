@@ -2,12 +2,12 @@
   "repoName": "radiostation-data",
   "community": "Madrid",
   "seedSource": "myTuner + TDTChannels + webs oficiales",
-  "seedCount": 24,
-  "playableCount": 24,
-  "verifiedCount": 22,
-  "candidateCount": 2,
+  "seedCount": 34,
+  "playableCount": 34,
+  "verifiedCount": 31,
+  "candidateCount": 3,
   "pendingCount": 0,
-  "notes": "Madrid rehecho desde base limpia. Se dejan fuera las cadenas nacionales y sus desconexiones/locales (SER, COPE, Onda Cero, RNE y similares), que deben vivir en communities/national.json. Se priorizan emisoras autonómicas, municipales, comunitarias, universitarias y locales reales de la Comunidad de Madrid. Economía queda deliberadamente conservadora: solo Radio Inter entra como candidate y Deporte queda pendiente de remate fino sin meter familias nacionales.",
+  "notes": "Madrid reforzado con una tanda prudente para cubrir mejor categorías sin tocar otras comunidades. Se mantienen fuera las cadenas nacionales y sus desconexiones/locales (SER, COPE, Onda Cero, RNE y similares), que deben vivir en communities/national.json. Se priorizan emisoras autonómicas, municipales, comunitarias, universitarias y locales reales de la Comunidad de Madrid. Deporte queda cubierto de forma conservadora con una candidate claramente madrileña pendiente de validación fina del stream; Economía sigue deliberadamente prudente para evitar mezclar marcas de alcance supracomunitario.",
   "stations": [
     {
       "id": "antena-cemu-radio",
@@ -83,6 +83,42 @@
       ]
     },
     {
+      "id": "espacio-4-fm",
+      "name": "Espacio 4 FM",
+      "category": "Música",
+      "community": "Madrid",
+      "websiteUrl": "https://www.espacio4fm.com/",
+      "logoUrl": "https://graph.facebook.com/Espacio4Fm/picture?width=200&height=200",
+      "sourceSeed": "myTuner + TDTChannels + sitio oficial",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://stream.zeno.fm/fz0bc82wn0hvv",
+          "format": "aac",
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "globo-fm",
+      "name": "Globo FM",
+      "category": "Música",
+      "community": "Madrid",
+      "websiteUrl": "https://www.globofm.es/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/972013004484173824/BMLZEKXs_200x200.jpg",
+      "sourceSeed": "myTuner + TDTChannels + sitio oficial",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://sonic.sistemahost.es/8200/;.mp3",
+          "format": "mp3",
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
       "id": "inforadio-ucm",
       "name": "Inforadio UCM",
       "category": "Educación",
@@ -99,6 +135,25 @@
           "source": "TDTChannels"
         }
       ]
+    },
+    {
+      "id": "la-jugada-de-torrejon-de-ardoz",
+      "name": "La Jugada de Torrejón de Ardoz",
+      "category": "Deporte",
+      "community": "Madrid",
+      "websiteUrl": "https://lajugada.es/radio/",
+      "logoUrl": "https://graph.facebook.com/LaJugadaDeTorrejon/picture?width=200&height=200",
+      "sourceSeed": "sitio oficial + directorios públicos",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "http://88.198.58.81:8011/stream",
+          "format": "mp3",
+          "source": "directorio público"
+        }
+      ],
+      "notes": "Proyecto deportivo claramente madrileño, centrado en Torrejón de Ardoz. Entra como candidate para cubrir Deporte sin meter cadenas nacionales; el stream queda pendiente de validación fina directa."
     },
     {
       "id": "m21-radio",
@@ -118,6 +173,60 @@
       ],
       "aliasIds": [
         "m21"
+      ]
+    },
+    {
+      "id": "master-fm-madrid",
+      "name": "Master FM Madrid",
+      "category": "Música",
+      "community": "Madrid",
+      "websiteUrl": "https://masterfm.es/",
+      "logoUrl": "https://graph.facebook.com/masterfm.es/picture?width=200&height=200",
+      "sourceSeed": "myTuner + TDTChannels + sitio oficial",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://radios.masterfm.es:8000/web24",
+          "format": "mp3",
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "mdt-radio-madrid",
+      "name": "MDT Radio Madrid",
+      "category": "Música",
+      "community": "Madrid",
+      "websiteUrl": "https://mdtradio.com/",
+      "logoUrl": "https://graph.facebook.com/mdtradiomadrid/picture?width=200&height=200",
+      "sourceSeed": "myTuner + TDTChannels + sitio oficial",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streams1.mdtradio.com:8443/MdtMadrid",
+          "format": "aac",
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-aranjuez",
+      "name": "Onda Aranjuez",
+      "category": "Local",
+      "community": "Madrid",
+      "websiteUrl": "https://www.aranjuez.es/onda/",
+      "logoUrl": "https://www.aranjuez.es/wp-content/uploads/2016/12/escucha-onda-aranjuez-300x264.png",
+      "sourceSeed": "TDTChannels + sitio oficial",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://server8.emitironline.com:18544/;.mp3",
+          "format": "mp3",
+          "source": "TDTChannels"
+        }
       ]
     },
     {
@@ -201,6 +310,24 @@
       "aliasIds": [
         "omc-radio",
         "onda-merlin-c-radio"
+      ]
+    },
+    {
+      "id": "onda-vallekana",
+      "name": "Onda Vallekana",
+      "category": "Comunidad",
+      "community": "Madrid",
+      "websiteUrl": "https://www.ondavallekana.es/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1447528417654710279/IlV_01hC_200x200.jpg",
+      "sourceSeed": "TDTChannels + sitio oficial",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://sonic.sistemahost.es/8152/;",
+          "format": "mp3",
+          "source": "TDTChannels"
+        }
       ]
     },
     {
@@ -293,6 +420,24 @@
         }
       ],
       "notes": "Se mantiene como candidate por prudencia: emisora madrileña actual (93.5 FM / 918 AM) con perfil económico e inmobiliario, pero con revisión fina pendiente de alcance editorial."
+    },
+    {
+      "id": "radio-madrid-sierra",
+      "name": "Radio Madrid Sierra",
+      "category": "Noticias",
+      "community": "Madrid",
+      "websiteUrl": "https://radiomadridsierra.com/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1613231096644116481/fk4e53OS_200x200.jpg",
+      "sourceSeed": "myTuner + TDTChannels + sitio oficial",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://streaming12.elitecomunicacion.es:8070/stream",
+          "format": "mp3",
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "radio-morata",
@@ -425,6 +570,24 @@
       ]
     },
     {
+      "id": "sol-radio-madrid",
+      "name": "Sol Radio Madrid",
+      "category": "Música",
+      "community": "Madrid",
+      "websiteUrl": "https://solradiomadrid.com/",
+      "logoUrl": "https://graph.facebook.com/solradio99.8/picture?width=200&height=200",
+      "sourceSeed": "myTuner + TDTChannels + sitio oficial",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://azura.abcorp.es/radio/8220/solradio",
+          "format": "aac",
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
       "id": "top-radio",
       "name": "Top Radio",
       "category": "Música",
@@ -439,6 +602,24 @@
           "label": "HLS principal",
           "url": "https://mdstrm.com/audio/66ec3c9fabba24a0a2e59de8/live.m3u8",
           "format": "hls",
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "unika-fm",
+      "name": "Unika FM",
+      "category": "Música",
+      "community": "Madrid",
+      "websiteUrl": "https://unika.fm/",
+      "logoUrl": "https://graph.facebook.com/unikafmmuchomasquedance/picture?width=200&height=200",
+      "sourceSeed": "myTuner + TDTChannels + sitio oficial",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://server1.easystreaming.pro:8443/unika",
+          "format": "aac",
           "source": "TDTChannels"
         }
       ]
