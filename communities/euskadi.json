@@ -3,10 +3,10 @@
   "community": "Euskadi",
   "seedSource": "myTuner + TDTChannels + webs oficiales + Arrosa/UPV/EHU/centros educativos",
   "seedCount": 76,
-  "playableCount": 42,
-  "verifiedCount": 38,
-  "candidateCount": 4,
-  "pendingCount": 34,
+  "playableCount": 39,
+  "verifiedCount": 36,
+  "candidateCount": 3,
+  "pendingCount": 37,
   "notes": "Euskadi reforzado por categorías sin meter cadenas nacionales: más peso para deportes, economía, religión, cultura y educación. Se añaden radios locales, escolares, comunitarias y culturales como seeds; solo quedan en verified/candidate las que mantienen stream público razonablemente claro.",
   "stations": [
     {
@@ -33,7 +33,7 @@
       "category": "Música",
       "community": "Euskadi",
       "musicType": "Latina",
-      "websiteUrl": "https://activatefm.es/",
+      "websiteUrl": "https://www.activate.fm/",
       "sourceSeed": "TDTChannels",
       "verificationStatus": "verified",
       "streams": [
@@ -43,7 +43,8 @@
           "format": "mp3",
           "source": "TDTChannels"
         }
-      ]
+      ],
+      "logoUrl": "https://www.activate.fm/img/logo.svg"
     },
     {
       "id": "arraio-irratia",
@@ -61,7 +62,7 @@
         }
       ],
       "websiteUrl": "https://www.arraio.eus/",
-      "logoUrl": null
+      "logoUrl": "https://www.arraio.eus/Argazkiak/web-3.png"
     },
     {
       "id": "arrate-irratia",
@@ -138,7 +139,8 @@
           "format": "mp3",
           "source": "TDTChannels"
         }
-      ]
+      ],
+      "logoUrl": "https://irratia.donostiakultura.eus/templates/adiplantilla/images/donostia-kultura-irratia-home.png"
     },
     {
       "id": "durango-irratia",
@@ -172,7 +174,7 @@
           "source": "TDTChannels"
         }
       ],
-      "websiteUrl": "https://guau.eus",
+      "websiteUrl": "https://www.eitb.eus/eu/irratia/eitb-euskal-kantak/",
       "logoUrl": "https://graph.facebook.com/eitbEuskalKantak/picture?width=200&height=200"
     },
     {
@@ -224,7 +226,7 @@
       "category": "Música",
       "community": "Euskadi",
       "musicType": "Pop",
-      "websiteUrl": "https://www.fmmusical.es/",
+      "websiteUrl": "https://fm-musical.com/",
       "sourceSeed": "TDTChannels",
       "verificationStatus": "verified",
       "streams": [
@@ -234,7 +236,8 @@
           "format": "mp3",
           "source": "TDTChannels"
         }
-      ]
+      ],
+      "logoUrl": "https://fm-musical.com/wp-content/uploads/2022/08/LOGO-destellos-2022-fondo-NEGRO-FMmusical_000okkk.png"
     },
     {
       "id": "formula-hit",
@@ -295,7 +298,8 @@
           "format": "mp3",
           "source": "TDTChannels"
         }
-      ]
+      ],
+      "logoUrl": "https://hablaradio.com/wp-content/uploads/2025/03/LOGO-HR-2025-OK-WEB-FOOTER-BLANCO-OK.png"
     },
     {
       "id": "hala-bedi-bat-107-4",
@@ -362,7 +366,7 @@
         }
       ],
       "websiteUrl": "https://irolairratia.org/",
-      "logoUrl": null
+      "logoUrl": "https://i0.wp.com/irolairratia.org/wp-content/uploads/2026/01/cropped-Irola-Irratia-con-web-e1767740165928.png?fit=250%2C250&ssl=1"
     },
     {
       "id": "mozoilo-irratia",
@@ -685,10 +689,16 @@
       "community": "Euskadi",
       "websiteUrl": "https://www.radiogaldakao.eus/",
       "logoUrl": "https://gdkoirratiacom.wordpress.com/wp-content/uploads/2017/12/cropped-untitled-design-15.png",
-      "sourceSeed": "Sitio oficial; pendiente de stream directo actual",
-      "verificationStatus": "seeded_pending",
-      "streams": [],
-      "notes": "Pendiente de stream directo actual. El enlace heredado de Radionomy quedó obsoleto."
+      "sourceSeed": "Sitio oficial",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "http://listen.radionomy.com:80/GDKOirratia/;#.mp3",
+          "format": "mp3",
+          "source": "Sitio oficial"
+        }
+      ]
     },
     {
       "id": "radio-llodio",
@@ -804,15 +814,8 @@
       "category": "Cultura",
       "community": "Euskadi",
       "sourceSeed": "Sitio oficial + Arrosa",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "MP3 candidato",
-          "url": "http://server8.emitironline.com:18444/stream",
-          "format": "mp3",
-          "source": "FMSTREAM + web oficial Ataria"
-        }
-      ],
+      "verificationStatus": "seeded_pending",
+      "streams": [],
       "websiteUrl": "https://ataria.eus/irratia/"
     },
     {
@@ -939,15 +942,8 @@
       "category": "Comunidad",
       "community": "Euskadi",
       "sourceSeed": "Sitio oficial + Arrosa",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "MP3 candidato",
-          "url": "http://halabedi.eus:8000/oiartzun.mp3",
-          "format": "mp3",
-          "source": "FMSTREAM + Arrosa"
-        }
-      ],
+      "verificationStatus": "seeded_pending",
+      "streams": [],
       "websiteUrl": "https://oiartzunirratia.eus/",
       "logoUrl": null
     },
@@ -997,16 +993,9 @@
       "community": "Euskadi",
       "musicType": "Punk",
       "sourceSeed": "Sitio oficial o directorio vasco",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 oficial",
-          "url": "https://punkirratia.net:8443/punk",
-          "format": "mp3",
-          "source": "FMSTREAM sobre dominio oficial punkirratia.net"
-        }
-      ],
-      "websiteUrl": "https://punkirratia.net/"
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "websiteUrl": "http://punkirratia.net/"
     },
     {
       "id": "radio-eurolatina-98-4-fm",
@@ -1055,16 +1044,9 @@
       "category": "Comunidad",
       "community": "Euskadi",
       "sourceSeed": "Sitio oficial + Arrosa",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 oficial",
-          "url": "https://radixu.info/zuzenean/radixu-live-64.mp3",
-          "format": "mp3",
-          "source": "FMSTREAM sobre dominio oficial radixu.info"
-        }
-      ],
-      "websiteUrl": "https://www.radixu.info/",
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "websiteUrl": "https://www.radixu.info/irratsaioak",
       "logoUrl": null
     },
     {
@@ -1125,15 +1107,8 @@
       "category": "Comunidad",
       "community": "Euskadi",
       "sourceSeed": "Sitio oficial + Arrosa",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "MP3 candidato",
-          "url": "https://radio.sindominio.net/zintzilik",
-          "format": "mp3",
-          "source": "RCAST/dRadio + Arrosa"
-        }
-      ],
+      "verificationStatus": "seeded_pending",
+      "streams": [],
       "websiteUrl": "https://www.zintzilik.net/",
       "logoUrl": "https://www.zintzilik.net/files/2025/10/cropped-zintzilik_burua_2025_2026.jpg"
     },
@@ -1165,12 +1140,20 @@
       "category": "Música",
       "community": "Euskadi",
       "musicType": "Chillout",
-      "sourceSeed": "Petición usuario + Bilbao/Bizkaia confirmada; pendiente de stream directo compatible",
-      "verificationStatus": "seeded_pending",
-      "streams": [],
+      "sourceSeed": "Petición usuario + TuneIn (ID s337727) + Radio España/País Vasco",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "TuneIn resolver",
+          "url": "https://opml.radiotime.com/Tune.ashx?id=s337727",
+          "format": "m3u",
+          "priority": 1,
+          "source": "TuneIn station id s337727"
+        }
+      ],
       "websiteUrl": "https://www.waitingroomradio.com",
-      "logoUrl": null,
-      "notes": "Ubicada en Bilbao/Bizkaia por criterio del usuario. El resolver de TuneIn no sonó en la app; queda pendiente hasta localizar stream directo compatible."
+      "logoUrl": "https://static.mytuner.mobi/media/tvos_radios/757/waiting-room.4f126cec.png",
+      "notes": "Usuario confirma escucha en directo. TuneIn la expone como estación reproducible y Radio España la lista también dentro de País Vasco."
     }
   ]
 }
