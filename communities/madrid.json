@@ -2,10 +2,10 @@
   "repoName": "radiostation-data",
   "community": "Madrid",
   "seedSource": "myTuner + TDTChannels + webs oficiales",
-  "seedCount": 36,
-  "playableCount": 36,
-  "verifiedCount": 35,
-  "candidateCount": 1,
+  "seedCount": 40,
+  "playableCount": 40,
+  "verifiedCount": 36,
+  "candidateCount": 4,
   "pendingCount": 0,
   "notes": "Madrid reforzado por categorías con emisoras claramente madrileñas y sin meter cadenas nacionales ni sus desconexiones locales. Se priorizan radios locales, comunitarias, educativas y musicales de la comunidad; Deporte queda cubierto con una candidata de seed madrileño para seguir vigilando estabilidad de stream.",
   "stations": [
@@ -188,6 +188,23 @@
       ],
       "websiteUrl": "https://www.ondavallekana.es",
       "logoUrl": "https://pbs.twimg.com/profile_images/1447528417654710279/IlV_01hC_200x200.jpg"
+    },
+    {
+      "id": "radio-carcoma",
+      "name": "Radio Carcoma",
+      "category": "Cultura",
+      "community": "Madrid",
+      "sourceSeed": "myTuner + oficial",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Stream listado",
+          "url": "http://www.radiocarcoma.com:8080/",
+          "format": "mp3",
+          "source": "listado web"
+        }
+      ],
+      "websiteUrl": "https://www.radiocarcoma.com/index.html"
     },
     {
       "id": "free-fm-sports",
@@ -423,6 +440,22 @@
       "logoUrl": "https://graph.facebook.com/radiovillalbafm/picture?width=200&height=200"
     },
     {
+      "id": "radio-21-sierra-oeste",
+      "name": "Radio 21 Sierra Oeste",
+      "category": "Local",
+      "community": "Madrid",
+      "sourceSeed": "myTuner + Frecuencia Nueva",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Stream listado",
+          "url": "http://robledoemisor.ddns.net:8000/live",
+          "format": "mp3",
+          "source": "Frecuencia Nueva"
+        }
+      ]
+    },
+    {
       "id": "esencia-radio",
       "name": "Esencia Radio",
       "category": "Música",
@@ -594,6 +627,24 @@
       "logoUrl": "https://graph.facebook.com/unikafmmuchomasquedance/picture?width=200&height=200"
     },
     {
+      "id": "master-fm",
+      "name": "Master FM",
+      "category": "Música",
+      "community": "Madrid",
+      "sourceSeed": "TDTChannels + myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://radios.masterfm.es:8000/web24",
+          "format": "mp3",
+          "source": "TDTChannels"
+        }
+      ],
+      "websiteUrl": "https://masterfm.es",
+      "logoUrl": "https://graph.facebook.com/masterfm.es/picture?width=200&height=200"
+    },
+    {
       "id": "onda-madrid",
       "name": "Onda Madrid",
       "category": "Noticias",
@@ -652,6 +703,23 @@
       ],
       "websiteUrl": "https://radiolibertad.es/en-directo/",
       "logoUrl": "https://pbs.twimg.com/profile_images/1862403237363556352/R_cCFfhV_200x200.jpg"
+    },
+    {
+      "id": "madrid-24-horas",
+      "name": "Madrid 24 Horas",
+      "category": "Noticias",
+      "community": "Madrid",
+      "sourceSeed": "myTuner + oficial",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Player listado",
+          "url": "http://cast.direcnode.com:7000",
+          "format": "mp3",
+          "source": "sitio oficial"
+        }
+      ],
+      "websiteUrl": "https://www.madrid24horas.com/seccion/radio/"
     },
     {
       "id": "dynamis-radio",
