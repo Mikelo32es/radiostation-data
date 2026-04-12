@@ -1,60 +1,12 @@
 {
-  "seedCount": 3,
-  "playableCount": 2,
+  "repoName": "radiostation-data",
+  "community": "Navarra",
+  "seedSource": "reset",
+  "seedCount": 0,
+  "playableCount": 0,
   "verifiedCount": 0,
-  "candidateCount": 2,
-  "pendingCount": 1,
-  "stations": [
-    {
-      "id": "radio-marca-navarra",
-      "name": "Radio Marca Navarra",
-      "category": "Deporte",
-      "websiteUrl": "https://radiomarcanavarra.com/",
-      "logoUrl": "https://radiomarcanavarra.com/radiomarca.jpg",
-      "sourceSeed": "official-web",
-      "seedPage": 1,
-      "seedRank": 221,
-      "verificationStatus": "seeded_pending",
-      "streams": [],
-      "community": null
-    },
-    {
-      "id": "navarra--98-3-radio",
-      "name": "98.3 Radio",
-      "category": "Música",
-      "community": "Navarra",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://s37.myradiostream.com/8638/listen.mp3",
-          "format": "mp3",
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "navarra--bit-fm-pamplona-88-7",
-      "name": "Bit FM Pamplona 88.7",
-      "category": "Música",
-      "community": "Navarra",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://server1.emitironline.com:8900",
-          "format": "stream",
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Top 40"
-    }
-  ]
+  "candidateCount": 0,
+  "pendingCount": 0,
+  "notes": "Reset 2026-04-12. Comunidad vaciada a propósito para rehacer el catálogo desde cero, comunidad por comunidad.",
+  "stations": []
 }

@@ -1,91 +1,126 @@
 {
-  "waitingRoom": {
-    "foundInCurrentUploadedData": false,
-    "foundInCurrentUploadedAppTar": false,
-    "note": "No Waiting Room station found in the current uploaded radiostation-data-main.zip or RadioStation.tar snapshots. It only appears in the later assistant-generated fix ZIPs."
-  },
+  "blacklistPath": "catalog/national-blacklist.json",
   "candidateSummary": {
-    "andalucia": 3,
-    "asturias": 0,
-    "catalunya": 0,
-    "euskadi": 16,
-    "extremadura": 11,
-    "galicia": 42,
-    "la-rioja": 2,
-    "madrid": 6,
-    "national": 0
+    "euskadi": {
+      "candidateCount": 21,
+      "playableCandidateCount": 21
+    }
   },
   "candidateDetails": {
-    "andalucia": [
-      {
-        "id": "cadena-100-campo-de-gibraltar",
-        "name": "Cadena 100 Campo de Gibraltar",
-        "streams": [
-          "https://stream.zeno.fm/fkq1xae5bzzuv"
-        ],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "radio-planeta",
-        "name": "Radio Planeta",
-        "streams": [
-          "https://radioplaneta.emitironline.com/"
-        ],
-        "duplicate_stream_in": [
-          "galicia"
-        ],
-        "same_name_in": []
-      },
-      {
-        "id": "la-fresca-fm",
-        "name": "La Fresca FM",
-        "streams": [
-          "https://stream.produccionesdale.com/listen/lafresca/altacalidad"
-        ],
-        "duplicate_stream_in": [
-          "galicia"
-        ],
-        "same_name_in": []
-      }
-    ],
-    "asturias": [],
-    "catalunya": [],
     "euskadi": [
       {
-        "id": "segura-irratia",
-        "name": "Segura Irratia",
+        "id": "radio-formula-hit-castellon-98-3-fm",
+        "name": "Formula Hit",
         "streams": [
-          "https://soporte.ikernet.net:6443/listen/segura_irratia/radio.mp3"
+          "https://sonic.sistemahost.es/8176/stream;.mp3"
         ],
         "duplicate_stream_in": [],
         "same_name_in": []
       },
       {
-        "id": "hitz-funky-radio",
-        "name": "Hitz Funky Radio",
+        "id": "soft-radio",
+        "name": "Soft Radio",
         "streams": [
-          "http://stream.zeno.fm/azgx0ktf4p8uv",
-          "https://stream.zeno.fm/zcpx195bt7zuv"
+          "https://listen.openstream.co/6263/audio"
         ],
         "duplicate_stream_in": [],
         "same_name_in": []
       },
       {
-        "id": "euskadigital",
-        "name": "EuskaDigital",
+        "id": "candela-radio",
+        "name": "Candela Radio",
         "streams": [
-          "http://stream.euskonet.eus:8000/euskadigital",
-          "https://stream.euskonet.eus/euskadigital"
+          "http://uk1-pn.webcast-server.net:8226"
         ],
         "duplicate_stream_in": [],
         "same_name_in": []
       },
       {
-        "id": "ataun-irratia",
-        "name": "Ataun Irratia",
+        "id": "free-fm-80s",
+        "name": "Free FM 80s",
         "streams": [
-          "http://server8.emitironline.com:18572/stream"
+          "http://freefm80.radioca.st/"
+        ],
+        "duplicate_stream_in": [],
+        "same_name_in": []
+      },
+      {
+        "id": "free-fm-world",
+        "name": "Free FM World",
+        "streams": [
+          "https://rocafmadrid.radioca.st/stream"
+        ],
+        "duplicate_stream_in": [],
+        "same_name_in": []
+      },
+      {
+        "id": "free-fm-love",
+        "name": "Free FM Love",
+        "streams": [
+          "https://stream.zeno.fm/umsptm6rvy8uv"
+        ],
+        "duplicate_stream_in": [],
+        "same_name_in": []
+      },
+      {
+        "id": "free-fm-top-100",
+        "name": "Free FM Top 100",
+        "streams": [
+          "https://stream.zeno.fm/a5h7vfret68uv"
+        ],
+        "duplicate_stream_in": [],
+        "same_name_in": []
+      },
+      {
+        "id": "free-fm-classical",
+        "name": "Free FM Classical",
+        "streams": [
+          "http://stream.zeno.fm/x5jlpogsaedvv"
+        ],
+        "duplicate_stream_in": [],
+        "same_name_in": []
+      },
+      {
+        "id": "free-fm-chill",
+        "name": "Free FM Chill",
+        "streams": [
+          "https://s2.we4stream.com/listen/loca_chill_out/live"
+        ],
+        "duplicate_stream_in": [],
+        "same_name_in": []
+      },
+      {
+        "id": "free-fm-x-mas",
+        "name": "Free FM X-Mas",
+        "streams": [
+          "http://stream.zeno.fm/h60er015v68uv"
+        ],
+        "duplicate_stream_in": [],
+        "same_name_in": []
+      },
+      {
+        "id": "free-fm-rock",
+        "name": "Free FM Rock",
+        "streams": [
+          "https://freefmrock.radioca.st/stream"
+        ],
+        "duplicate_stream_in": [],
+        "same_name_in": []
+      },
+      {
+        "id": "free-fm-classics",
+        "name": "Free FM Classics",
+        "streams": [
+          "https://xxdelgado.radioca.st"
+        ],
+        "duplicate_stream_in": [],
+        "same_name_in": []
+      },
+      {
+        "id": "free-fm-sports",
+        "name": "Free FM Sports",
+        "streams": [
+          "https://stream.zeno.fm/31nnibfpnxktv"
         ],
         "duplicate_stream_in": [],
         "same_name_in": []
@@ -101,52 +136,10 @@
         "same_name_in": []
       },
       {
-        "id": "radio-formula-hit-castellon-98-3-fm",
-        "name": "Formula Hit",
-        "streams": [
-          "https://sonic.sistemahost.es/8176/stream;.mp3"
-        ],
-        "duplicate_stream_in": [
-          "catalunya",
-          "la-rioja"
-        ],
-        "same_name_in": [
-          "catalunya",
-          "la-rioja"
-        ]
-      },
-      {
-        "id": "radio-llodio",
-        "name": "Radio Llodio",
-        "streams": [
-          "http://v2.ayser.net:8000/stream.ogg"
-        ],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
         "id": "hitz-91-0",
         "name": "Hitz 91.0",
         "streams": [
           "http://stream.zeno.fm/f2qmny74gd0uv"
-        ],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "hitz-africa-fm",
-        "name": "Hitz Africa FM",
-        "streams": [
-          "http://ec2.yesstreaming.net:2960/stream"
-        ],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "hitz-91-9-radio",
-        "name": "Hitz 91.9 Radio",
-        "streams": [
-          "https://node-33.zeno.fm/p9m9tuyap98uv"
         ],
         "duplicate_stream_in": [],
         "same_name_in": []
@@ -162,34 +155,30 @@
         "same_name_in": []
       },
       {
-        "id": "radio-tejina",
-        "name": "Radio Tejina",
-        "streams": [],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "uribe-fm",
-        "name": "Uribe FM",
+        "id": "hitz-91-9-radio",
+        "name": "Hitz 91.9 Radio",
         "streams": [
-          "http://server8.emitironline.com:10822/radio"
+          "https://node-33.zeno.fm/p9m9tuyap98uv"
         ],
         "duplicate_stream_in": [],
         "same_name_in": []
       },
       {
-        "id": "bi-fm",
-        "name": "BI FM",
+        "id": "hitz-funky-radio",
+        "name": "Hitz Funky Radio",
         "streams": [
-          "http://94.75.234.135:8052/listen.plsmp3"
+          "http://stream.zeno.fm/azgx0ktf4p8uv",
+          "https://stream.zeno.fm/zcpx195bt7zuv"
         ],
         "duplicate_stream_in": [],
         "same_name_in": []
       },
       {
-        "id": "samaniego-estereo-104-1-fm",
-        "name": "Samaniego Estereo 104.1 FM",
-        "streams": [],
+        "id": "hitz-africa-fm",
+        "name": "Hitz Africa FM",
+        "streams": [
+          "http://ec2.yesstreaming.net:2960/stream"
+        ],
         "duplicate_stream_in": [],
         "same_name_in": []
       },
@@ -201,630 +190,16 @@
         ],
         "duplicate_stream_in": [],
         "same_name_in": []
-      }
-    ],
-    "extremadura": [
-      {
-        "id": "radio-egb-com",
-        "name": "RadioEGB.com",
-        "streams": [],
-        "duplicate_stream_in": [],
-        "same_name_in": [
-          "madrid"
-        ]
       },
       {
-        "id": "cope-don-benito-villanueva",
-        "name": "Cope Don Benito Villanueva",
-        "streams": [],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "cadena-dance-spain",
-        "name": "Cadena Dance Spain",
-        "streams": [],
-        "duplicate_stream_in": [],
-        "same_name_in": [
-          "euskadi",
-          "galicia",
-          "madrid"
-        ]
-      },
-      {
-        "id": "cadena-cope-almendralejo",
-        "name": "Cadena Cope Almendralejo",
-        "streams": [],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "radio-baston",
-        "name": "Radio Bastón",
-        "streams": [],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "sol-caceres",
-        "name": "Sol Caceres",
-        "streams": [],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "radio-comarca-de-barros",
-        "name": "Radio Comarca de Barros",
-        "streams": [],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "plaza-2-radio",
-        "name": "Plaza 2 Radio",
-        "streams": [],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "radioedu",
-        "name": "RadioEdu",
-        "streams": [],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "plaza-1-radio",
-        "name": "Plaza 1 Radio",
-        "streams": [],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "badajoz-deportes",
-        "name": "Badajoz Deportes",
-        "streams": [],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      }
-    ],
-    "galicia": [
-      {
-        "id": "cadena-dance-spain",
-        "name": "Cadena Dance Spain",
+        "id": "formula-hit",
+        "name": "Fórmula Hit",
         "streams": [
-          "https://s3.we4stream.com:2020/stream/locafm"
-        ],
-        "duplicate_stream_in": [
-          "catalunya",
-          "madrid"
-        ],
-        "same_name_in": [
-          "euskadi",
-          "extremadura",
-          "madrid"
-        ]
-      },
-      {
-        "id": "muralla-metal-rock",
-        "name": "Muralla Metal Rock",
-        "streams": [
-          "https://eu10.fastcast4u.com/scannerfm"
-        ],
-        "duplicate_stream_in": [
-          "catalunya"
-        ],
-        "same_name_in": []
-      },
-      {
-        "id": "cadena-cope-mas-coruna",
-        "name": "Cadena COPE Más Coruña",
-        "streams": [
-          "https://flucast09-h-cloud.flumotion.com/cope/net1.aac",
-          "https://wecast-bl02.flumotion.com/copesedes/lacoruna.mp3"
-        ],
-        "duplicate_stream_in": [
-          "national"
-        ],
-        "same_name_in": []
-      },
-      {
-        "id": "orbita-dance",
-        "name": "Órbita Dance",
-        "streams": [
-          "https://s2.we4stream.com/listen/loca_dance/live"
-        ],
-        "duplicate_stream_in": [
-          "catalunya",
-          "madrid"
-        ],
-        "same_name_in": []
-      },
-      {
-        "id": "siradio-comunidade-galega",
-        "name": "SiRadio - Comunidade Galega",
-        "streams": [
-          "https://sonicpanel.streaming10.net/8140/stream"
-        ],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "formula-exitos-mp",
-        "name": "Fórmula Éxitos MP",
-        "streams": [
-          "https://streams1.mdtradio.com:8443/PopStarsFm"
-        ],
-        "duplicate_stream_in": [
-          "catalunya"
-        ],
-        "same_name_in": []
-      },
-      {
-        "id": "eme-radio-fm",
-        "name": "Eme Radio FM",
-        "streams": [
-          "https://live.radiovoz.es/mp3/stream_vigo.mp3"
-        ],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "siradio-vigo",
-        "name": "SiRadio - Vigo",
-        "streams": [
-          "https://live.radiovoz.es/mp3/stream_vigo.mp3"
-        ],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "radio-8-vigo-88-1-fm",
-        "name": "Radio 8 Vigo 88.1 FM",
-        "streams": [
-          "https://live.radiovoz.es/mp3/stream_vigo.mp3"
-        ],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "radio-zumba",
-        "name": "Radio Zumba",
-        "streams": [
-          "https://azura.abcorp.es/radio/8030/live"
-        ],
-        "duplicate_stream_in": [
-          "andalucia",
-          "catalunya"
-        ],
-        "same_name_in": []
-      },
-      {
-        "id": "radio-lider-santiago",
-        "name": "Radio Líder Santiago",
-        "streams": [
-          "https://live.radiovoz.es/mp3/stream_santiago.mp3"
-        ],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "radio-peter-club",
-        "name": "Radio Peter Club",
-        "streams": [
-          "https://s2.we4stream.com/listen/loca_techo/live"
-        ],
-        "duplicate_stream_in": [
-          "catalunya",
-          "madrid"
-        ],
-        "same_name_in": []
-      },
-      {
-        "id": "buena-onda-musical",
-        "name": "Buena Onda Musical",
-        "streams": [
-          "https://sonic.mediatelekom.net/8156/stream"
-        ],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "radio-pentecostal-la-armadura-de-dios",
-        "name": "Radio Pentecostal La Armadura de Dios",
-        "streams": [
-          "https://dreamsiteradiocp4.com/proxy/rmspain1?mp=%2Fstream%2F1%2F%3B.mp3"
-        ],
-        "duplicate_stream_in": [
-          "extremadura",
-          "madrid",
-          "national"
-        ],
-        "same_name_in": []
-      },
-      {
-        "id": "voz-del-cielo",
-        "name": "Voz del Cielo",
-        "streams": [
-          "https://dreamsiteradiocp4.com/proxy/rmspain1?mp=%2Fstream%2F1%2F%3B.mp3"
-        ],
-        "duplicate_stream_in": [
-          "extremadura",
-          "madrid",
-          "national"
-        ],
-        "same_name_in": []
-      },
-      {
-        "id": "ourense-si-radio",
-        "name": "OURENSE SI RADIO",
-        "streams": [
-          "https://atres-live.ondacero.es/live/delegaciones/oc/ourense/master.m3u8",
-          "https://atres-live.ondacero.es/live/ondacero/master.m3u8"
-        ],
-        "duplicate_stream_in": [
-          "madrid",
-          "national"
-        ],
-        "same_name_in": []
-      },
-      {
-        "id": "siradio-ourense",
-        "name": "SiRadio - Ourense",
-        "streams": [
-          "https://dispatcher.rndfnk.com/crtve/rne5/ore/mp3/high"
-        ],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "jg-radio-online",
-        "name": "JG Radio Online",
-        "streams": [
-          "https://eu10.fastcast4u.com/scannerfm"
-        ],
-        "duplicate_stream_in": [
-          "catalunya"
-        ],
-        "same_name_in": []
-      },
-      {
-        "id": "afradio",
-        "name": "AFradio",
-        "streams": [
-          "https://server9.emitironline.com:19244/"
-        ],
-        "duplicate_stream_in": [
-          "catalunya"
-        ],
-        "same_name_in": []
-      },
-      {
-        "id": "antena-1-radio",
-        "name": "Antena 1 Radio",
-        "streams": [
-          "https://radioplaneta.emitironline.com/"
-        ],
-        "duplicate_stream_in": [
-          "andalucia"
-        ],
-        "same_name_in": []
-      },
-      {
-        "id": "radio-estrada",
-        "name": "Radio Estrada",
-        "streams": [
-          "https://srv7031.dns-lcinternet.com/8032/stream"
-        ],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "radio-alegria-fm",
-        "name": "Radio Alegria FM",
-        "streams": [
-          "https://azura.abcorp.es/radio/8040/live"
-        ],
-        "duplicate_stream_in": [
-          "andalucia"
-        ],
-        "same_name_in": []
-      },
-      {
-        "id": "camino-fm-santiago-spain",
-        "name": "Camino FM - Santiago, Spain",
-        "streams": [
-          "https://dispatcher.rndfnk.com/crtve/rne1/stg/mp3/high"
-        ],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "radio-armadura-de-deus",
-        "name": "Radio Armadura de Deus",
-        "streams": [
-          "https://dreamsiteradiocp4.com/proxy/rmspain1?mp=%2Fstream%2F1%2F%3B.mp3"
-        ],
-        "duplicate_stream_in": [
-          "extremadura",
-          "madrid",
-          "national"
-        ],
-        "same_name_in": []
-      },
-      {
-        "id": "hits-soung-radio",
-        "name": "Hits Soung Radio",
-        "streams": [
-          "https://radioplaneta.emitironline.com/"
-        ],
-        "duplicate_stream_in": [
-          "andalucia"
-        ],
-        "same_name_in": []
-      },
-      {
-        "id": "solfami",
-        "name": "SOLFAMI",
-        "streams": [
-          "https://crtvg-songalicia-hls.flumotion.cloud/playlist.m3u8"
-        ],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "radio-amistad",
-        "name": "Radio Amistad",
-        "streams": [
-          "https://dreamsiteradiocp4.com/proxy/rmspain1?mp=%2Fstream%2F1%2F%3B.mp3"
-        ],
-        "duplicate_stream_in": [
-          "extremadura",
-          "madrid",
-          "national"
-        ],
-        "same_name_in": []
-      },
-      {
-        "id": "religiao-de-deus",
-        "name": "Religiao de Deus",
-        "streams": [
-          "https://dreamsiteradiocp4.com/proxy/rmspain1?mp=%2Fstream%2F1%2F%3B.mp3"
-        ],
-        "duplicate_stream_in": [
-          "extremadura",
-          "madrid",
-          "national"
-        ],
-        "same_name_in": []
-      },
-      {
-        "id": "pontevedra-viva",
-        "name": "Pontevedra Viva",
-        "streams": [
-          "https://atres-live.ondacero.es/live/delegaciones/oc/pontevedra/master.m3u8",
-          "https://atres-live.ondacero.es/live/ondacero/master.m3u8"
-        ],
-        "duplicate_stream_in": [
-          "madrid",
-          "national"
-        ],
-        "same_name_in": []
-      },
-      {
-        "id": "radio-obradoiro",
-        "name": "Radio Obradoiro",
-        "streams": [
-          "https://dispatcher.rndfnk.com/crtve/rne1/stg/mp3/high"
-        ],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "conexiondance-radio",
-        "name": "Conexiondance Radio",
-        "streams": [
-          "https://streaming.shoutcast.com/decibelia"
-        ],
-        "duplicate_stream_in": [
-          "andalucia",
-          "catalunya"
-        ],
-        "same_name_in": []
-      },
-      {
-        "id": "via-radio-galicia",
-        "name": "Via Radio Galicia",
-        "streams": [
-          "https://sonicpanel.streaming10.net/8140/stream"
-        ],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "radio-neria",
-        "name": "Radio Neria",
-        "streams": [
-          "https://srv7031.dns-lcinternet.com/8030/stream"
-        ],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "party-fm",
-        "name": "Party FM",
-        "streams": [
-          "https://s2.we4stream.com/listen/loca_dance/live"
-        ],
-        "duplicate_stream_in": [
-          "catalunya",
-          "madrid"
-        ],
-        "same_name_in": []
-      },
-      {
-        "id": "ocionews-radio",
-        "name": "OcioNews Radio",
-        "streams": [
-          "https://server9.emitironline.com:19244/"
-        ],
-        "duplicate_stream_in": [
-          "catalunya"
-        ],
-        "same_name_in": []
-      },
-      {
-        "id": "el-rincon-de-gady",
-        "name": "El Rincón de Gady",
-        "streams": [
-          "https://azura.abcorp.es/radio/8040/live"
-        ],
-        "duplicate_stream_in": [
-          "andalucia"
-        ],
-        "same_name_in": []
-      },
-      {
-        "id": "la-condesa-fm",
-        "name": "La Condesa FM",
-        "streams": [
-          "https://stream.produccionesdale.com/listen/lafresca/altacalidad"
-        ],
-        "duplicate_stream_in": [
-          "andalucia"
-        ],
-        "same_name_in": []
-      },
-      {
-        "id": "radio-mamv",
-        "name": "radio MAMV",
-        "streams": [
-          "https://radioplaneta.emitironline.com/"
-        ],
-        "duplicate_stream_in": [
-          "andalucia"
-        ],
-        "same_name_in": []
-      },
-      {
-        "id": "sonido-del-mar",
-        "name": "Sonido del mar",
-        "streams": [
-          "https://s2.we4stream.com/listen/loca_ambient/live"
-        ],
-        "duplicate_stream_in": [
-          "catalunya",
-          "madrid"
-        ],
-        "same_name_in": []
-      },
-      {
-        "id": "f-restauracion-radio",
-        "name": "F Restauracion Radio",
-        "streams": [
-          "https://dreamsiteradiocp4.com/proxy/rmspain1?mp=%2Fstream%2F1%2F%3B.mp3"
-        ],
-        "duplicate_stream_in": [
-          "extremadura",
-          "madrid",
-          "national"
-        ],
-        "same_name_in": []
-      },
-      {
-        "id": "radio-tramuntana",
-        "name": "Radio Tramuntana",
-        "streams": [
-          "https://eu10.fastcast4u.com/scannerfm"
-        ],
-        "duplicate_stream_in": [
-          "catalunya"
-        ],
-        "same_name_in": []
-      },
-      {
-        "id": "radio-nove",
-        "name": "Radio Nove",
-        "streams": [
-          "https://server9.emitironline.com:19244/"
-        ],
-        "duplicate_stream_in": [
-          "catalunya"
-        ],
-        "same_name_in": []
-      }
-    ],
-    "la-rioja": [
-      {
-        "id": "maxima-fm-rioja-107-1-fm",
-        "name": "Maxima FM Rioja 107.1 FM",
-        "streams": [
-          "https://stream.zeno.fm/uzs9ke2puy8uv"
-        ],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "lokura-radio",
-        "name": "Lokura Radio",
-        "streams": [
-          "https://stream.zeno.fm/3fks04pxchvv"
+          "https://sonic.sistemahost.es/8176/stream;.mp3"
         ],
         "duplicate_stream_in": [],
         "same_name_in": []
       }
-    ],
-    "madrid": [
-      {
-        "id": "remember-last-radio",
-        "name": "Remember Last Radio",
-        "streams": [],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "free-fm-rock",
-        "name": "Free FM Rock",
-        "streams": [],
-        "duplicate_stream_in": [],
-        "same_name_in": [
-          "asturias",
-          "catalunya",
-          "euskadi",
-          "galicia"
-        ]
-      },
-      {
-        "id": "chillout-ibiza-fm",
-        "name": "Chillout Ibiza FM",
-        "streams": [],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "radioegb-com",
-        "name": "RadioEGB.com",
-        "streams": [],
-        "duplicate_stream_in": [],
-        "same_name_in": [
-          "extremadura"
-        ]
-      },
-      {
-        "id": "adagioradio",
-        "name": "AdagioRadio",
-        "streams": [],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "todo-noticias-latinas",
-        "name": "Todo Noticias Latinas",
-        "streams": [],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      }
-    ],
-    "national": []
+    ]
   }
 }

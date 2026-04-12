@@ -1,90 +1,12 @@
 {
-  "seedCount": 4,
-  "playableCount": 4,
-  "verifiedCount": 1,
-  "candidateCount": 3,
+  "repoName": "radiostation-data",
+  "community": "Murcia",
+  "seedSource": "reset",
+  "seedCount": 0,
+  "playableCount": 0,
+  "verifiedCount": 0,
+  "candidateCount": 0,
   "pendingCount": 0,
-  "stations": [
-    {
-      "id": "radio-marca-region-de-murcia",
-      "name": "Radio Marca Región de Murcia",
-      "category": "Deporte",
-      "websiteUrl": "https://www.radiomarcamurcia.com/",
-      "logoUrl": "https://graph.facebook.com/RadioMarcaMurcia/picture?width=200&height=200",
-      "sourceSeed": "official-web",
-      "seedPage": 1,
-      "seedRank": 220,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Murcia online",
-          "url": "https://sonic.mediatelekom.net/8528/stream",
-          "format": "mp3",
-          "source": "official-web"
-        },
-        {
-          "label": "Cartagena online",
-          "url": "https://sonic.mediatelekom.net/8536/stream",
-          "format": "mp3",
-          "source": "official-web"
-        }
-      ],
-      "community": null
-    },
-    {
-      "id": "murcia--mas-fm-begastri-107",
-      "name": "más FM Begastri 107",
-      "category": "Música",
-      "community": "Región de Murcia",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://46.29.48.40:8000/masfmbegastri.mp3",
-          "format": "mp3",
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "murcia--rtrm-onda-regional-de-murcia",
-      "name": "RTRM Onda Regional de Murcia",
-      "category": "Noticias",
-      "community": "Región de Murcia",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://80.73.144.90:1935/live/orm/orm/playlist.m3u8",
-          "format": "hls",
-          "source": "Spain.json"
-        }
-      ]
-    },
-    {
-      "id": "murcia--rtrm-onda-regional-de-murcia-musica",
-      "name": "RTRM Onda Regional de Murcia Música",
-      "category": "Noticias",
-      "community": "Región de Murcia",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://80.73.144.90:1935/live/ormmusical/ormmusical/chunklist_w462583734.m3u8",
-          "format": "hls",
-          "source": "Spain.json"
-        }
-      ]
-    }
-  ]
+  "notes": "Reset 2026-04-12. Comunidad vaciada a propósito para rehacer el catálogo desde cero, comunidad por comunidad.",
+  "stations": []
 }

@@ -1,117 +1,12 @@
 {
-  "seedCount": 6,
-  "playableCount": 5,
+  "repoName": "radiostation-data",
+  "community": "Castilla La Mancha",
+  "seedSource": "reset",
+  "seedCount": 0,
+  "playableCount": 0,
   "verifiedCount": 0,
-  "candidateCount": 5,
-  "pendingCount": 1,
-  "stations": [
-    {
-      "id": "radio-marca-albacete",
-      "name": "Radio Marca Albacete",
-      "category": "Deporte",
-      "websiteUrl": "https://radiomarcaab.com/radio-marca-albacete/",
-      "logoUrl": "https://graph.facebook.com/radiomarcaalbaceteclm/picture?width=200&height=200",
-      "sourceSeed": "official-web",
-      "seedPage": 1,
-      "seedRank": 206,
-      "verificationStatus": "seeded_pending",
-      "streams": [],
-      "community": null
-    },
-    {
-      "id": "castilla-la-mancha--cmm-radio-castilla-la-mancha",
-      "name": "CMM Radio Castilla-La Mancha",
-      "category": "Música",
-      "community": "Castilla-La Mancha",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://vtuner.com/setupapp/guide/asp/func/dynampls.asp?link=1&id=15960",
-          "format": "stream",
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "castilla-la-mancha--locactiva-radio",
-      "name": "Locactiva Radio",
-      "category": "Música",
-      "community": "Castilla-La Mancha",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://91.121.77.67:8106/listen.pls",
-          "format": "pls",
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "castilla-la-mancha--nova-onda-101-9-fm",
-      "name": "Nova Onda 101.9 fm",
-      "category": "Música",
-      "community": "Castilla-La Mancha",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://212.129.60.86:8047/",
-          "format": "stream",
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Pop"
-    },
-    {
-      "id": "castilla-la-mancha--onda-borox",
-      "name": "Onda Borox",
-      "category": "Música",
-      "community": "Castilla-La Mancha",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://85.48.163.31:8000/",
-          "format": "stream",
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Dance"
-    },
-    {
-      "id": "castilla-la-mancha--radio-montealegre-la-comarcal",
-      "name": "Radio Montealegre - La Comarcal",
-      "category": "Música",
-      "community": "Castilla-La Mancha",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://directo.radiomontealegre.es:8010/;stream.mp3",
-          "format": "mp3",
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Variedad"
-    }
-  ]
+  "candidateCount": 0,
+  "pendingCount": 0,
+  "notes": "Reset 2026-04-12. Comunidad vaciada a propósito para rehacer el catálogo desde cero, comunidad por comunidad.",
+  "stations": []
 }

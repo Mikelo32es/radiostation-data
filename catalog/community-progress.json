@@ -1,222 +1,132 @@
 {
-  "requestedAction": "Añadir hasta 50 emisoras más por comunidad sobre la base actual",
-  "seedPolicy": "Base existente sembrada desde myTuner; refuerzo local importado desde Spain.json cuando había coincidencia territorial clara; Waiting Room añadida en Euskadi como seeded_pending.",
+  "requestedAction": "Reset total del catálogo comunitario y reinicio por comunidades.",
+  "seedPolicy": "No mezclar cadenas nacionales dentro de comunidades. Euskadi es la primera fase. Seeds sin stream quedan como seeded_pending y no deben promocionarse sin revisión.",
   "communities": [
     {
       "id": "andalucia",
-      "community": "Andalucía",
-      "baseVerifiedBefore": 104,
-      "targetAfterExtra50": 154,
-      "totalNow": 33,
-      "verified": 32,
-      "candidate": 0,
-      "seededPending": 1,
-      "addedNow": 0,
-      "remainingToRequestedExtra50": 121
+      "name": "Andalucia",
+      "path": "communities/andalucia.json",
+      "seedCount": 0,
+      "playableCount": 0
     },
     {
       "id": "aragon",
-      "community": "Aragón",
-      "baseVerifiedBefore": 95,
-      "targetAfterExtra50": 145,
-      "totalNow": 106,
-      "verified": 95,
-      "candidate": 11,
-      "seededPending": 0,
-      "addedNow": 11,
-      "remainingToRequestedExtra50": 39
+      "name": "Aragon",
+      "path": "communities/aragon.json",
+      "seedCount": 0,
+      "playableCount": 0
     },
     {
       "id": "asturias",
-      "community": "Asturias",
-      "baseVerifiedBefore": 97,
-      "targetAfterExtra50": 147,
-      "totalNow": 44,
-      "verified": 44,
-      "candidate": 0,
-      "seededPending": 0,
-      "addedNow": 0,
-      "remainingToRequestedExtra50": 103
+      "name": "Asturias",
+      "path": "communities/asturias.json",
+      "seedCount": 0,
+      "playableCount": 0
     },
     {
       "id": "canarias",
-      "community": "Canarias",
-      "baseVerifiedBefore": 95,
-      "targetAfterExtra50": 145,
-      "totalNow": 30,
-      "verified": 0,
-      "candidate": 30,
-      "seededPending": 0,
-      "addedNow": 0,
-      "remainingToRequestedExtra50": 115
+      "name": "Canarias",
+      "path": "communities/canarias.json",
+      "seedCount": 0,
+      "playableCount": 0
     },
     {
       "id": "cantabria",
-      "community": "Cantabria",
-      "baseVerifiedBefore": 95,
-      "targetAfterExtra50": 145,
-      "totalNow": 100,
-      "verified": 95,
-      "candidate": 5,
-      "seededPending": 0,
-      "addedNow": 5,
-      "remainingToRequestedExtra50": 45
+      "name": "Cantabria",
+      "path": "communities/cantabria.json",
+      "seedCount": 0,
+      "playableCount": 0
     },
     {
       "id": "castilla-la-mancha",
-      "community": "Castilla-La Mancha",
-      "baseVerifiedBefore": 95,
-      "targetAfterExtra50": 145,
-      "totalNow": 107,
-      "verified": 95,
-      "candidate": 12,
-      "seededPending": 0,
-      "addedNow": 12,
-      "remainingToRequestedExtra50": 38
+      "name": "Castilla La Mancha",
+      "path": "communities/castilla-la-mancha.json",
+      "seedCount": 0,
+      "playableCount": 0
     },
     {
       "id": "castilla-y-leon",
-      "community": "Castilla y León",
-      "baseVerifiedBefore": 95,
-      "targetAfterExtra50": 145,
-      "totalNow": 110,
-      "verified": 95,
-      "candidate": 15,
-      "seededPending": 0,
-      "addedNow": 15,
-      "remainingToRequestedExtra50": 35
+      "name": "Castilla Y Leon",
+      "path": "communities/castilla-y-leon.json",
+      "seedCount": 0,
+      "playableCount": 0
     },
     {
       "id": "catalunya",
-      "community": "Catalunya",
-      "baseVerifiedBefore": 97,
-      "targetAfterExtra50": 147,
-      "totalNow": 271,
-      "verified": 271,
-      "candidate": 0,
-      "seededPending": 0,
-      "addedNow": 174,
-      "remainingToRequestedExtra50": 0
+      "name": "Catalunya",
+      "path": "communities/catalunya.json",
+      "seedCount": 0,
+      "playableCount": 0
     },
     {
       "id": "comunitat-valenciana",
-      "community": "Comunitat Valenciana",
-      "baseVerifiedBefore": 95,
-      "targetAfterExtra50": 145,
-      "totalNow": 18,
-      "verified": 0,
-      "candidate": 18,
-      "seededPending": 0,
-      "addedNow": 0,
-      "remainingToRequestedExtra50": 127
+      "name": "Comunitat Valenciana",
+      "path": "communities/comunitat-valenciana.json",
+      "seedCount": 0,
+      "playableCount": 0
     },
     {
       "id": "euskadi",
-      "community": "Euskadi",
-      "baseVerifiedBefore": 95,
-      "targetAfterExtra50": 145,
-      "totalNow": 41,
-      "verified": 32,
-      "candidate": 0,
-      "seededPending": 9,
-      "addedNow": 0,
-      "remainingToRequestedExtra50": 104
+      "name": "Euskadi",
+      "path": "communities/euskadi.json",
+      "seedCount": 200,
+      "playableCount": 54
     },
     {
       "id": "extremadura",
-      "community": "Extremadura",
-      "baseVerifiedBefore": 96,
-      "targetAfterExtra50": 146,
-      "totalNow": 11,
-      "verified": 2,
-      "candidate": 0,
-      "seededPending": 9,
-      "addedNow": 0,
-      "remainingToRequestedExtra50": 135
+      "name": "Extremadura",
+      "path": "communities/extremadura.json",
+      "seedCount": 0,
+      "playableCount": 0
     },
     {
       "id": "galicia",
-      "community": "Galicia",
-      "baseVerifiedBefore": 78,
-      "targetAfterExtra50": 128,
-      "totalNow": 80,
-      "verified": 69,
-      "candidate": 0,
-      "seededPending": 11,
-      "addedNow": 2,
-      "remainingToRequestedExtra50": 48
+      "name": "Galicia",
+      "path": "communities/galicia.json",
+      "seedCount": 0,
+      "playableCount": 0
     },
     {
       "id": "illes-balears",
-      "community": "Illes Balears",
-      "baseVerifiedBefore": 95,
-      "targetAfterExtra50": 145,
-      "totalNow": 23,
-      "verified": 0,
-      "candidate": 23,
-      "seededPending": 0,
-      "addedNow": 0,
-      "remainingToRequestedExtra50": 122
+      "name": "Illes Balears",
+      "path": "communities/illes-balears.json",
+      "seedCount": 0,
+      "playableCount": 0
     },
     {
       "id": "la-rioja",
-      "community": "La Rioja",
-      "baseVerifiedBefore": 96,
-      "targetAfterExtra50": 146,
-      "totalNow": 14,
-      "verified": 13,
-      "candidate": 0,
-      "seededPending": 1,
-      "addedNow": 0,
-      "remainingToRequestedExtra50": 132
+      "name": "La Rioja",
+      "path": "communities/la-rioja.json",
+      "seedCount": 0,
+      "playableCount": 0
     },
     {
       "id": "madrid",
-      "community": "Madrid",
-      "baseVerifiedBefore": 96,
-      "targetAfterExtra50": 146,
-      "totalNow": 77,
-      "verified": 71,
-      "candidate": 0,
-      "seededPending": 6,
-      "addedNow": 0,
-      "remainingToRequestedExtra50": 69
+      "name": "Madrid",
+      "path": "communities/madrid.json",
+      "seedCount": 0,
+      "playableCount": 0
     },
     {
       "id": "murcia",
-      "community": "Región de Murcia",
-      "baseVerifiedBefore": 95,
-      "targetAfterExtra50": 145,
-      "totalNow": 101,
-      "verified": 95,
-      "candidate": 6,
-      "seededPending": 0,
-      "addedNow": 6,
-      "remainingToRequestedExtra50": 44
-    },
-    {
-      "id": "navarra",
-      "community": "Navarra",
-      "baseVerifiedBefore": 95,
-      "targetAfterExtra50": 145,
-      "totalNow": 99,
-      "verified": 95,
-      "candidate": 4,
-      "seededPending": 0,
-      "addedNow": 4,
-      "remainingToRequestedExtra50": 46
+      "name": "Murcia",
+      "path": "communities/murcia.json",
+      "seedCount": 0,
+      "playableCount": 0
     },
     {
       "id": "national",
-      "community": "Nacional",
-      "baseVerifiedBefore": 50,
-      "targetAfterExtra50": 50,
-      "totalNow": 26,
-      "verified": 26,
-      "candidate": 0,
-      "seededPending": 0,
-      "addedNow": 0,
-      "remainingToRequestedExtra50": 24
+      "name": "Nacional",
+      "path": "communities/national.json",
+      "seedCount": 0,
+      "playableCount": 0
+    },
+    {
+      "id": "navarra",
+      "name": "Navarra",
+      "path": "communities/navarra.json",
+      "seedCount": 0,
+      "playableCount": 0
     }
   ]
 }

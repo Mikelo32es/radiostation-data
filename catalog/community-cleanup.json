@@ -1,80 +1,96 @@
 {
-  "waitingRoom": {
-    "status": "marked_verified_manual",
-    "reason": "Marcada como verificada por petición explícita del usuario; sigue sin stream en el JSON actual."
-  },
-  "communities": {
-    "andalucia": {
-      "total": 33,
-      "verified": 32,
-      "seeded_pending": 1,
-      "candidate": 0
+  "blacklistPath": "catalog/national-blacklist.json",
+  "rule": "Toda emisora nacional o desconexión local de cadena nacional queda fuera de communities/*.json.",
+  "communities": [
+    {
+      "id": "andalucia",
+      "seedCount": 0,
+      "playableCount": 0
     },
-    "asturias": {
-      "total": 44,
-      "verified": 44,
-      "seeded_pending": 0,
-      "candidate": 0
+    {
+      "id": "aragon",
+      "seedCount": 0,
+      "playableCount": 0
     },
-    "catalunya": {
-      "total": 271,
-      "verified": 271,
-      "seeded_pending": 0,
-      "candidate": 0
+    {
+      "id": "asturias",
+      "seedCount": 0,
+      "playableCount": 0
     },
-    "euskadi": {
-      "total": 41,
-      "verified": 32,
-      "seeded_pending": 9,
-      "candidate": 0
+    {
+      "id": "canarias",
+      "seedCount": 0,
+      "playableCount": 0
     },
-    "extremadura": {
-      "total": 11,
-      "verified": 2,
-      "seeded_pending": 9,
-      "candidate": 0
+    {
+      "id": "cantabria",
+      "seedCount": 0,
+      "playableCount": 0
     },
-    "galicia": {
-      "total": 80,
-      "verified": 69,
-      "seeded_pending": 11,
-      "candidate": 0
+    {
+      "id": "castilla-la-mancha",
+      "seedCount": 0,
+      "playableCount": 0
     },
-    "la-rioja": {
-      "total": 14,
-      "verified": 13,
-      "seeded_pending": 1,
-      "candidate": 0
+    {
+      "id": "castilla-y-leon",
+      "seedCount": 0,
+      "playableCount": 0
     },
-    "madrid": {
-      "total": 77,
-      "verified": 71,
-      "seeded_pending": 6,
-      "candidate": 0
+    {
+      "id": "catalunya",
+      "seedCount": 0,
+      "playableCount": 0
     },
-    "national": {
-      "total": 26,
-      "verified": 26,
-      "seeded_pending": 0,
-      "candidate": 0
+    {
+      "id": "comunitat-valenciana",
+      "seedCount": 0,
+      "playableCount": 0
     },
-    "canarias": {
-      "total": 30,
-      "verified": 0,
-      "seeded_pending": 0,
-      "candidate": 30
+    {
+      "id": "euskadi",
+      "seedCount": 200,
+      "playableCount": 54
     },
-    "illes-balears": {
-      "total": 23,
-      "verified": 0,
-      "seeded_pending": 0,
-      "candidate": 23
+    {
+      "id": "extremadura",
+      "seedCount": 0,
+      "playableCount": 0
     },
-    "comunitat-valenciana": {
-      "total": 18,
-      "verified": 0,
-      "seeded_pending": 0,
-      "candidate": 18
+    {
+      "id": "galicia",
+      "seedCount": 0,
+      "playableCount": 0
+    },
+    {
+      "id": "illes-balears",
+      "seedCount": 0,
+      "playableCount": 0
+    },
+    {
+      "id": "la-rioja",
+      "seedCount": 0,
+      "playableCount": 0
+    },
+    {
+      "id": "madrid",
+      "seedCount": 0,
+      "playableCount": 0
+    },
+    {
+      "id": "murcia",
+      "seedCount": 0,
+      "playableCount": 0
+    },
+    {
+      "id": "national",
+      "seedCount": 0,
+      "playableCount": 0
+    },
+    {
+      "id": "navarra",
+      "seedCount": 0,
+      "playableCount": 0
     }
-  }
+  ]
 }

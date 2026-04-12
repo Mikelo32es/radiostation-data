@@ -1,190 +1,179 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Catálogo sincronizado desde GitHub.",
+  "syncMessage": "Catálogo comunitario reiniciado. Euskadi es la única comunidad poblada en esta fase.",
   "stats": {
-    "seedCount": 713,
-    "playableCount": 575,
-    "verifiedCount": 571,
-    "candidateCount": 94,
-    "pendingCount": 48
+    "seedCount": 200,
+    "playableCount": 54,
+    "verifiedCount": 33,
+    "candidateCount": 21,
+    "pendingCount": 146
   },
   "featuredIds": [
-    "mariskalrock-radio",
-    "la-flamenca",
-    "canal-fiesta-radio",
-    "loca-fm-urban",
-    "informa-radio-madrid",
-    "cadena-ser-nacional",
-    "cope-nacional",
-    "onda-cero-nacional",
-    "radio-3-rne",
-    "radio-clasica-rne",
-    "cadena-100",
-    "rock-fm",
-    "kiss-fm",
-    "europa-fm",
-    "cadena-dial"
+    "eitb-radio-euskadi",
+    "eitb-euskadi-irratia",
+    "eitb-radio-vitoria",
+    "eitb-gaztea",
+    "eitb-musika",
+    "arrate-irratia",
+    "bilbo-hiria-irratia",
+    "bizkaia-irratia",
+    "naiz-irratia",
+    "onda-vasca",
+    "radio-gorbea",
+    "radio-nervion"
   ],
   "trendingIds": [
-    "radio-marca-valencia",
-    "radio-marca-zaragoza",
-    "radio-marca-tenerife",
-    "radio-marca-bilbao",
-    "radio-marca-valladolid",
-    "loca-fm-industrial",
-    "loca-fm-hard",
-    "la-flamenca",
-    "canal-fiesta-radio",
-    "loca-fm-urban",
-    "ecuashyri-fm",
-    "informa-radio-madrid",
-    "cadena-ser-nacional",
-    "cope-nacional",
-    "onda-cero-nacional"
+    "euskadigital",
+    "hala-bedi-bat-107-4",
+    "hala-bedi-bi-88-8",
+    "radio-7",
+    "radio-donosti",
+    "herri-irratia-radio-popular",
+    "segura-irratia",
+    "stz-irratia",
+    "vinilo-fm",
+    "activate-fm",
+    "soft-radio",
+    "free-fm-rock"
   ],
   "recentIds": [
-    "radio-marca-region-de-murcia",
-    "radio-marca-zaragoza",
-    "radio-marca-tenerife",
-    "radio-marca-valencia",
-    "radio-marca-bilbao",
-    "informa-radio-madrid",
-    "ecuashyri-fm",
-    "loca-fm-urban",
-    "canal-fiesta-radio",
-    "la-flamenca",
-    "dial-baladas",
-    "dial-latino",
-    "loca-fm-hard",
-    "loca-fm-ambient",
-    "loca-fm-hard-techno"
+    "durango-irratia",
+    "donostia-kultura-irratia",
+    "fm-musical",
+    "habla-radio",
+    "radio-formula-hit-castellon-98-3-fm",
+    "candela-radio",
+    "free-fm-80s",
+    "free-fm-world",
+    "hitz-90s-fm",
+    "hitz-funky-radio"
   ],
   "communities": [
     {
       "id": "andalucia",
-      "name": "Andalucía",
+      "name": "Andalucia",
       "path": "communities/andalucia.json",
-      "seedCount": 33,
-      "playableCount": 32
+      "seedCount": 0,
+      "playableCount": 0
     },
     {
       "id": "aragon",
-      "name": "aragon",
+      "name": "Aragon",
       "path": "communities/aragon.json",
-      "seedCount": 7,
-      "playableCount": 7
+      "seedCount": 0,
+      "playableCount": 0
     },
     {
       "id": "asturias",
       "name": "Asturias",
       "path": "communities/asturias.json",
-      "seedCount": 44,
-      "playableCount": 44
+      "seedCount": 0,
+      "playableCount": 0
     },
     {
       "id": "canarias",
-      "name": "canarias",
+      "name": "Canarias",
       "path": "communities/canarias.json",
-      "seedCount": 33,
-      "playableCount": 32
+      "seedCount": 0,
+      "playableCount": 0
     },
     {
       "id": "cantabria",
-      "name": "cantabria",
+      "name": "Cantabria",
       "path": "communities/cantabria.json",
-      "seedCount": 5,
-      "playableCount": 4
+      "seedCount": 0,
+      "playableCount": 0
     },
     {
       "id": "castilla-la-mancha",
-      "name": "castilla-la-mancha",
+      "name": "Castilla La Mancha",
       "path": "communities/castilla-la-mancha.json",
-      "seedCount": 6,
-      "playableCount": 5
+      "seedCount": 0,
+      "playableCount": 0
     },
     {
       "id": "castilla-y-leon",
-      "name": "castilla-y-leon",
+      "name": "Castilla Y Leon",
       "path": "communities/castilla-y-leon.json",
-      "seedCount": 7,
-      "playableCount": 5
+      "seedCount": 0,
+      "playableCount": 0
     },
     {
       "id": "catalunya",
       "name": "Catalunya",
       "path": "communities/catalunya.json",
-      "seedCount": 271,
-      "playableCount": 170
+      "seedCount": 0,
+      "playableCount": 0
     },
     {
       "id": "comunitat-valenciana",
-      "name": "comunitat-valenciana",
+      "name": "Comunitat Valenciana",
       "path": "communities/comunitat-valenciana.json",
-      "seedCount": 21,
-      "playableCount": 20
+      "seedCount": 0,
+      "playableCount": 0
     },
     {
       "id": "euskadi",
       "name": "Euskadi",
       "path": "communities/euskadi.json",
-      "seedCount": 44,
-      "playableCount": 35
+      "seedCount": 200,
+      "playableCount": 54
     },
     {
       "id": "extremadura",
       "name": "Extremadura",
       "path": "communities/extremadura.json",
-      "seedCount": 11,
-      "playableCount": 2
+      "seedCount": 0,
+      "playableCount": 0
     },
     {
       "id": "galicia",
       "name": "Galicia",
       "path": "communities/galicia.json",
-      "seedCount": 80,
-      "playableCount": 80
+      "seedCount": 0,
+      "playableCount": 0
     },
     {
       "id": "illes-balears",
-      "name": "illes-balears",
+      "name": "Illes Balears",
       "path": "communities/illes-balears.json",
-      "seedCount": 24,
-      "playableCount": 23
+      "seedCount": 0,
+      "playableCount": 0
     },
     {
       "id": "la-rioja",
       "name": "La Rioja",
       "path": "communities/la-rioja.json",
-      "seedCount": 15,
-      "playableCount": 13
+      "seedCount": 0,
+      "playableCount": 0
     },
     {
       "id": "madrid",
       "name": "Madrid",
       "path": "communities/madrid.json",
-      "seedCount": 79,
-      "playableCount": 71
+      "seedCount": 0,
+      "playableCount": 0
     },
     {
       "id": "murcia",
-      "name": "murcia",
+      "name": "Murcia",
       "path": "communities/murcia.json",
-      "seedCount": 4,
-      "playableCount": 4
-    },
-    {
-      "id": "navarra",
-      "name": "navarra",
-      "path": "communities/navarra.json",
-      "seedCount": 3,
-      "playableCount": 2
+      "seedCount": 0,
+      "playableCount": 0
     },
     {
       "id": "national",
       "name": "Nacional",
       "path": "communities/national.json",
-      "seedCount": 26,
-      "playableCount": 26
+      "seedCount": 0,
+      "playableCount": 0
+    },
+    {
+      "id": "navarra",
+      "name": "Navarra",
+      "path": "communities/navarra.json",
+      "seedCount": 0,
+      "playableCount": 0
     }
   ],
   "homePath": "catalog/home.json"

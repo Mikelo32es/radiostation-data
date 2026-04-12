@@ -1,110 +1,12 @@
 {
-  "seedCount": 5,
-  "playableCount": 4,
+  "repoName": "radiostation-data",
+  "community": "Cantabria",
+  "seedSource": "reset",
+  "seedCount": 0,
+  "playableCount": 0,
   "verifiedCount": 0,
-  "candidateCount": 4,
-  "pendingCount": 1,
-  "stations": [
-    {
-      "id": "radio-marca-cantabria",
-      "name": "Radio Marca Cantabria",
-      "category": "Deporte",
-      "websiteUrl": "https://radiomarcacantabria.com/",
-      "logoUrl": "https://radiomarcacantabria.com/wp-content/uploads/2018/09/Logo-Nuevo-Cantabria.jpg",
-      "sourceSeed": "official-web",
-      "seedPage": 1,
-      "seedRank": 205,
-      "verificationStatus": "seeded_pending",
-      "streams": [],
-      "community": null
-    },
-    {
-      "id": "cantabria--cadena-mix",
-      "name": "Cadena mix",
-      "category": "Música",
-      "community": "Cantabria",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://ns6.emisionlocal.com:8000/",
-          "format": "stream",
-          "source": "Spain.json"
-        },
-        {
-          "label": "Alternativo 2",
-          "url": "http://91.121.77.67:8000/listen.pls",
-          "format": "pls",
-          "source": "Spain.json"
-        },
-        {
-          "label": "Alternativo 3",
-          "url": "http://ns5.emisionlocal.com/cast/tunein.php/radiomix/playlist.asx",
-          "format": "asx",
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Dance"
-    },
-    {
-      "id": "cantabria--escuchando-oid-cantabria",
-      "name": "Escuchando OID Cantabria",
-      "category": "Música",
-      "community": "Cantabria",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://ns100.emisionlocal.com:9428/live",
-          "format": "stream",
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "cantabria--oid-radio-cantabria-87-7-fm",
-      "name": "OID Radio Cantabria 87.7 FM",
-      "category": "Música",
-      "community": "Cantabria",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://ns100.emisionlocal.com:9428/live",
-          "format": "stream",
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "cantabria--radio-laredo-spain",
-      "name": "Radio Laredo (Spain)",
-      "category": "Música",
-      "community": "Cantabria",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://212.83.172.164:9960/;",
-          "format": "stream",
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Variedad"
-    }
-  ]
+  "candidateCount": 0,
+  "pendingCount": 0,
+  "notes": "Reset 2026-04-12. Comunidad vaciada a propósito para rehacer el catálogo desde cero, comunidad por comunidad.",
+  "stations": []
 }
