@@ -3,10 +3,10 @@
   "community": "Euskadi",
   "seedSource": "myTuner + TDTChannels + webs oficiales + Arrosa/UPV/EHU/centros educativos",
   "seedCount": 76,
-  "playableCount": 39,
+  "playableCount": 38,
   "verifiedCount": 36,
-  "candidateCount": 3,
-  "pendingCount": 37,
+  "candidateCount": 2,
+  "pendingCount": 38,
   "notes": "Euskadi reforzado por categorías sin meter cadenas nacionales: más peso para deportes, economía, religión, cultura y educación. Se añaden radios locales, escolares, comunitarias y culturales como seeds; solo quedan en verified/candidate las que mantienen stream público razonablemente claro.",
   "stations": [
     {
@@ -1141,19 +1141,11 @@
       "community": "Euskadi",
       "musicType": "Chillout",
       "sourceSeed": "Petición usuario + TuneIn (ID s337727) + Radio España/País Vasco",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "TuneIn resolver",
-          "url": "https://opml.radiotime.com/Tune.ashx?id=s337727",
-          "format": "m3u",
-          "priority": 1,
-          "source": "TuneIn station id s337727"
-        }
-      ],
+      "verificationStatus": "seeded_pending",
+      "streams": [],
       "websiteUrl": "https://www.waitingroomradio.com",
       "logoUrl": "https://static.mytuner.mobi/media/tvos_radios/757/waiting-room.4f126cec.png",
-      "notes": "Usuario confirma escucha en directo. TuneIn la expone como estación reproducible y Radio España la lista también dentro de País Vasco."
+      "notes": "Se desactiva temporalmente la reproducción porque no hay stream directo validado en abril de 2026. TuneIn sigue listando la emisora, pero el resolver guardado no aporta una URL final utilizable y agregadores como Online Radio Box la muestran como fuera de emisión. Mantener como seeded_pending hasta localizar un stream directo verificable."
     }
   ]
 }

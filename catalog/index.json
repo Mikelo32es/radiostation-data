@@ -1,12 +1,12 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Euskadi reforzada con Waiting Room añadida por petición del usuario y mantenida como pending hasta validar mejor su encaje y stream.",
+  "syncMessage": "Waiting Room se conserva en Euskadi por petición del usuario, pero queda desactivada como seeded_pending hasta validar un stream directo reproducible.",
   "stats": {
     "seedCount": 106,
-    "playableCount": 65,
+    "playableCount": 64,
     "verifiedCount": 62,
-    "candidateCount": 3,
-    "pendingCount": 41
+    "candidateCount": 2,
+    "pendingCount": 42
   },
   "featuredIds": [
     "eitb-radio-euskadi",
@@ -119,7 +119,7 @@
       "name": "Euskadi",
       "path": "communities/euskadi.json",
       "seedCount": 76,
-      "playableCount": 42
+      "playableCount": 38
     },
     {
       "id": "extremadura",
@@ -179,12 +179,12 @@
     }
   ],
   "homePath": "catalog/home.json",
-  "requestedAction": "Añadir Waiting Room en Euskadi sin tocar el resto del catálogo, manteniéndola como pending hasta validar mejor stream y encaje.",
+  "requestedAction": "Conservar Waiting Room en Euskadi sin tocar el resto del catálogo, dejándola como seeded_pending y sin stream activo hasta validar una URL directa.",
   "totals": {
     "seedCount": 106,
-    "playableCount": 68,
-    "verifiedCount": 64,
-    "candidateCount": 4,
-    "pendingCount": 38
+    "playableCount": 64,
+    "verifiedCount": 62,
+    "candidateCount": 2,
+    "pendingCount": 42
   }
 }
