@@ -1,6 +1,6 @@
 {
   "blacklistPath": "catalog/national-blacklist.json",
-  "rule": "Toda emisora nacional, desconexión local de cadena nacional, programa, clon dudoso o alias duplicado queda fuera de communities autonómicas y se centraliza en communities/national.json cuando corresponde.",
+  "rule": "Toda emisora nacional, desconexión local de cadena nacional, programa, clon dudoso o alias duplicado queda fuera de communities autonómicas y se centraliza en communities/national.json cuando corresponde. Euskadi puede reforzarse solo con radios vascas/locales, escolares, comunitarias o temáticas de encaje claro.",
   "communities": [
     {
       "id": "andalucia",
@@ -49,7 +49,7 @@
     },
     {
       "id": "euskadi",
-      "seedCount": 72,
+      "seedCount": 80,
       "playableCount": 38
     },
     {

@@ -1,6 +1,6 @@
 {
-  "requestedAction": "Euskadi fino fino y cadenas nacionales centralizadas en communities/national.json.",
-  "seedPolicy": "Nada de cadenas nacionales dentro de comunidades. Euskadi se mantiene solo con radios vascas/locales; las familias vetadas pasan a Nacional. Seeds sin stream quedan como seeded_pending.",
+  "requestedAction": "Reforzar Euskadi por categorías (deportes, economía, religión, cultura y educación), meter Oye Athletic en Deportes y seguir dejando fuera las cadenas nacionales.",
+  "seedPolicy": "Nada de cadenas nacionales dentro de comunidades. Euskadi se refuerza con radios vascas/locales, escolares, comunitarias y culturales; lo que no tenga stream fino sigue como seeded_pending.",
   "communities": [
     {
       "id": "andalucia",
@@ -69,7 +69,7 @@
       "id": "euskadi",
       "name": "Euskadi",
       "path": "communities/euskadi.json",
-      "seedCount": 72,
+      "seedCount": 80,
       "playableCount": 38
     },
     {

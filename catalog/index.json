@@ -118,7 +118,7 @@
       "id": "euskadi",
       "name": "Euskadi",
       "path": "communities/euskadi.json",
-      "seedCount": 72,
+      "seedCount": 80,
       "playableCount": 38
     },
     {
@@ -178,5 +178,13 @@
       "playableCount": 0
     }
   ],
-  "homePath": "catalog/home.json"
+  "homePath": "catalog/home.json",
+  "requestedAction": "Reforzar Euskadi por categorías, meter Oye Athletic en Deportes y mantener las cadenas nacionales fuera de comunidades.",
+  "totals": {
+    "seedCount": 111,
+    "playableCount": 64,
+    "verifiedCount": 57,
+    "candidateCount": 7,
+    "pendingCount": 47
+  }
 }
