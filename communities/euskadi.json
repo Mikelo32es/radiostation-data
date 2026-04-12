@@ -1144,9 +1144,9 @@
       "verificationStatus": "candidate",
       "streams": [
         {
-          "label": "Directo AAC",
+          "label": "Directo",
           "url": "https://streaming.coolmusicradio.com:8070/radio/;",
-          "format": "aac",
+          "format": "auto",
           "priority": 1,
           "source": "Radionomy share snippet / CoolMusicRadio host"
         },
@@ -1160,7 +1160,7 @@
       ],
       "websiteUrl": "https://www.waitingroomradio.com",
       "logoUrl": "https://static.mytuner.mobi/media/tvos_radios/757/waiting-room.4f126cec.png",
-      "notes": "Usuario confirma escucha previa. Se deja stream AAC directo reportado por directorios públicos y TuneIn como fallback; la app ahora evita el placeholder notcompatible de TuneIn."
+      "notes": "Usuario confirma escucha previa. Se deja stream directo reportado por directorios públicos y TuneIn como fallback; la app resuelve mejor TuneIn, evita placeholders inválidos y no fuerza el códec del directo."
     }
   ]
 }
