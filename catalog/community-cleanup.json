@@ -5,8 +5,8 @@
   },
   "communities": {
     "andalucia": {
-      "total": 99,
-      "verified": 98,
+      "total": 33,
+      "verified": 32,
       "seeded_pending": 1,
       "candidate": 0
     },
@@ -23,15 +23,15 @@
       "candidate": 0
     },
     "euskadi": {
-      "total": 102,
-      "verified": 44,
-      "seeded_pending": 58,
+      "total": 41,
+      "verified": 32,
+      "seeded_pending": 9,
       "candidate": 0
     },
     "extremadura": {
-      "total": 54,
-      "verified": 30,
-      "seeded_pending": 24,
+      "total": 11,
+      "verified": 2,
+      "seeded_pending": 9,
       "candidate": 0
     },
     "galicia": {
@@ -47,9 +47,9 @@
       "candidate": 0
     },
     "madrid": {
-      "total": 134,
-      "verified": 93,
-      "seeded_pending": 41,
+      "total": 77,
+      "verified": 71,
+      "seeded_pending": 6,
       "candidate": 0
     },
     "national": {
@@ -57,6 +57,24 @@
       "verified": 26,
       "seeded_pending": 0,
       "candidate": 0
+    },
+    "canarias": {
+      "total": 30,
+      "verified": 0,
+      "seeded_pending": 0,
+      "candidate": 30
+    },
+    "illes-balears": {
+      "total": 23,
+      "verified": 0,
+      "seeded_pending": 0,
+      "candidate": 23
+    },
+    "comunitat-valenciana": {
+      "total": 18,
+      "verified": 0,
+      "seeded_pending": 0,
+      "candidate": 18
     }
   }
 }

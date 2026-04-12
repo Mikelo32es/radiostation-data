@@ -2,10 +2,10 @@
   "repoName": "radiostation-data",
   "syncMessage": "Catálogo sincronizado desde GitHub.",
   "stats": {
-    "seedCount": 1592,
-    "playableCount": 1555,
-    "verifiedCount": 1414,
-    "candidateCount": 141,
+    "seedCount": 1291,
+    "playableCount": 1130,
+    "verifiedCount": 1130,
+    "candidateCount": 124,
     "pendingCount": 37
   },
   "featuredIds": [
@@ -119,8 +119,29 @@
       "id": "national",
       "name": "Nacional",
       "path": "communities/national.json",
-      "seedCount": 25,
-      "playableCount": 25
+      "seedCount": 26,
+      "playableCount": 26
+    },
+    {
+      "id": "canarias",
+      "name": "Canarias",
+      "path": "communities/canarias.json",
+      "seedCount": 30,
+      "playableCount": 0
+    },
+    {
+      "id": "illes-balears",
+      "name": "Illes Balears",
+      "path": "communities/illes-balears.json",
+      "seedCount": 23,
+      "playableCount": 0
+    },
+    {
+      "id": "comunitat-valenciana",
+      "name": "Comunitat Valenciana",
+      "path": "communities/comunitat-valenciana.json",
+      "seedCount": 18,
+      "playableCount": 0
     }
   ],
   "homePath": "catalog/home.json"

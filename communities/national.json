@@ -628,11 +628,38 @@
           "source": "TDTChannels"
         }
       ]
+    },
+    {
+      "id": "mariskalrock-radio",
+      "name": "MariskalRock Radio",
+      "category": "Música",
+      "community": "Nacional",
+      "websiteUrl": "https://mariskalrock.com",
+      "logoUrl": "https://graph.facebook.com/mariskalrock/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://media.profesionalhosting.com:8047/stream",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "Fallback HTTP",
+          "url": "http://media.profesionalhosting.com:8047/stream",
+          "format": "mp3",
+          "priority": 2,
+          "source": "Radio Browser"
+        }
+      ],
+      "musicType": "Rock"
     }
   ],
-  "seedCount": 25,
-  "playableCount": 25,
-  "verifiedCount": 25,
+  "seedCount": 26,
+  "playableCount": 26,
+  "verifiedCount": 26,
   "candidateCount": 0,
   "pendingCount": 0
 }

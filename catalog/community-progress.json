@@ -7,12 +7,12 @@
       "community": "Andalucía",
       "baseVerifiedBefore": 104,
       "targetAfterExtra50": 154,
-      "totalNow": 147,
-      "verified": 104,
-      "candidate": 43,
-      "seededPending": 0,
-      "addedNow": 43,
-      "remainingToRequestedExtra50": 7
+      "totalNow": 33,
+      "verified": 32,
+      "candidate": 0,
+      "seededPending": 1,
+      "addedNow": 0,
+      "remainingToRequestedExtra50": 121
     },
     {
       "id": "aragon",
@@ -31,24 +31,24 @@
       "community": "Asturias",
       "baseVerifiedBefore": 97,
       "targetAfterExtra50": 147,
-      "totalNow": 99,
-      "verified": 97,
-      "candidate": 2,
+      "totalNow": 44,
+      "verified": 44,
+      "candidate": 0,
       "seededPending": 0,
-      "addedNow": 2,
-      "remainingToRequestedExtra50": 48
+      "addedNow": 0,
+      "remainingToRequestedExtra50": 103
     },
     {
       "id": "canarias",
       "community": "Canarias",
       "baseVerifiedBefore": 95,
       "targetAfterExtra50": 145,
-      "totalNow": 131,
-      "verified": 95,
-      "candidate": 36,
+      "totalNow": 30,
+      "verified": 0,
+      "candidate": 30,
       "seededPending": 0,
-      "addedNow": 36,
-      "remainingToRequestedExtra50": 14
+      "addedNow": 0,
+      "remainingToRequestedExtra50": 115
     },
     {
       "id": "cantabria",
@@ -91,96 +91,96 @@
       "community": "Catalunya",
       "baseVerifiedBefore": 97,
       "targetAfterExtra50": 147,
-      "totalNow": 122,
-      "verified": 97,
-      "candidate": 25,
+      "totalNow": 271,
+      "verified": 271,
+      "candidate": 0,
       "seededPending": 0,
-      "addedNow": 25,
-      "remainingToRequestedExtra50": 25
+      "addedNow": 174,
+      "remainingToRequestedExtra50": 0
     },
     {
       "id": "comunitat-valenciana",
       "community": "Comunitat Valenciana",
       "baseVerifiedBefore": 95,
       "targetAfterExtra50": 145,
-      "totalNow": 120,
-      "verified": 95,
-      "candidate": 25,
+      "totalNow": 18,
+      "verified": 0,
+      "candidate": 18,
       "seededPending": 0,
-      "addedNow": 25,
-      "remainingToRequestedExtra50": 25
+      "addedNow": 0,
+      "remainingToRequestedExtra50": 127
     },
     {
       "id": "euskadi",
       "community": "Euskadi",
       "baseVerifiedBefore": 95,
       "targetAfterExtra50": 145,
-      "totalNow": 115,
-      "verified": 95,
-      "candidate": 19,
-      "seededPending": 1,
-      "addedNow": 20,
-      "remainingToRequestedExtra50": 30
+      "totalNow": 41,
+      "verified": 32,
+      "candidate": 0,
+      "seededPending": 9,
+      "addedNow": 0,
+      "remainingToRequestedExtra50": 104
     },
     {
       "id": "extremadura",
       "community": "Extremadura",
       "baseVerifiedBefore": 96,
       "targetAfterExtra50": 146,
-      "totalNow": 100,
-      "verified": 96,
-      "candidate": 4,
-      "seededPending": 0,
-      "addedNow": 4,
-      "remainingToRequestedExtra50": 46
+      "totalNow": 11,
+      "verified": 2,
+      "candidate": 0,
+      "seededPending": 9,
+      "addedNow": 0,
+      "remainingToRequestedExtra50": 135
     },
     {
       "id": "galicia",
       "community": "Galicia",
       "baseVerifiedBefore": 78,
       "targetAfterExtra50": 128,
-      "totalNow": 90,
-      "verified": 78,
-      "candidate": 12,
-      "seededPending": 0,
-      "addedNow": 12,
-      "remainingToRequestedExtra50": 38
+      "totalNow": 80,
+      "verified": 69,
+      "candidate": 0,
+      "seededPending": 11,
+      "addedNow": 2,
+      "remainingToRequestedExtra50": 48
     },
     {
       "id": "illes-balears",
       "community": "Illes Balears",
       "baseVerifiedBefore": 95,
       "targetAfterExtra50": 145,
-      "totalNow": 122,
-      "verified": 95,
-      "candidate": 27,
+      "totalNow": 23,
+      "verified": 0,
+      "candidate": 23,
       "seededPending": 0,
-      "addedNow": 27,
-      "remainingToRequestedExtra50": 23
+      "addedNow": 0,
+      "remainingToRequestedExtra50": 122
     },
     {
       "id": "la-rioja",
       "community": "La Rioja",
       "baseVerifiedBefore": 96,
       "targetAfterExtra50": 146,
-      "totalNow": 97,
-      "verified": 96,
-      "candidate": 1,
-      "seededPending": 0,
-      "addedNow": 1,
-      "remainingToRequestedExtra50": 49
+      "totalNow": 14,
+      "verified": 13,
+      "candidate": 0,
+      "seededPending": 1,
+      "addedNow": 0,
+      "remainingToRequestedExtra50": 132
     },
     {
       "id": "madrid",
       "community": "Madrid",
       "baseVerifiedBefore": 96,
       "targetAfterExtra50": 146,
-      "totalNow": 116,
-      "verified": 96,
-      "candidate": 20,
-      "seededPending": 0,
-      "addedNow": 20,
-      "remainingToRequestedExtra50": 30
+      "totalNow": 77,
+      "verified": 71,
+      "candidate": 0,
+      "seededPending": 6,
+      "addedNow": 0,
+      "remainingToRequestedExtra50": 69
     },
     {
       "id": "murcia",
@@ -211,12 +211,12 @@
       "community": "Nacional",
       "baseVerifiedBefore": 50,
       "targetAfterExtra50": 50,
-      "totalNow": 50,
-      "verified": 50,
+      "totalNow": 26,
+      "verified": 26,
       "candidate": 0,
       "seededPending": 0,
       "addedNow": 0,
-      "remainingToRequestedExtra50": 0
+      "remainingToRequestedExtra50": 24
     }
   ]
 }
