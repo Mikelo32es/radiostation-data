@@ -1,12 +1,12 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Catálogo comunitario reiniciado. Euskadi es la única comunidad poblada en esta fase.",
+  "syncMessage": "Catálogo comunitario de Euskadi rematado en modo calidad: fuera nacionales, duplicados y clones dudosos.",
   "stats": {
-    "seedCount": 200,
-    "playableCount": 54,
-    "verifiedCount": 33,
-    "candidateCount": 21,
-    "pendingCount": 146
+    "seedCount": 77,
+    "playableCount": 37,
+    "verifiedCount": 30,
+    "candidateCount": 7,
+    "pendingCount": 40
   },
   "featuredIds": [
     "eitb-radio-euskadi",
@@ -14,39 +14,41 @@
     "eitb-radio-vitoria",
     "eitb-gaztea",
     "eitb-musika",
-    "arrate-irratia",
-    "bilbo-hiria-irratia",
-    "bizkaia-irratia",
-    "naiz-irratia",
-    "onda-vasca",
-    "radio-gorbea",
-    "radio-nervion"
-  ],
-  "trendingIds": [
-    "euskadigital",
+    "eitb-euskal-kantak",
     "hala-bedi-bat-107-4",
     "hala-bedi-bi-88-8",
-    "radio-7",
-    "radio-donosti",
-    "herri-irratia-radio-popular",
-    "segura-irratia",
+    "bizkaia-irratia",
+    "bilbo-hiria-irratia",
+    "radio-nervion",
+    "onda-vasca"
+  ],
+  "trendingIds": [
+    "irola-irratia",
+    "txapa-irratia",
+    "arraio-irratia",
+    "naiz-irratia",
     "stz-irratia",
-    "vinilo-fm",
-    "activate-fm",
-    "soft-radio",
-    "free-fm-rock"
+    "radio-donosti",
+    "radio-gorbea",
+    "formula-hit",
+    "euskadi-digital",
+    "segura-irratia",
+    "bi-fm",
+    "ataun-irratia"
   ],
   "recentIds": [
-    "durango-irratia",
-    "donostia-kultura-irratia",
-    "fm-musical",
-    "habla-radio",
-    "radio-formula-hit-castellon-98-3-fm",
-    "candela-radio",
-    "free-fm-80s",
-    "free-fm-world",
-    "hitz-90s-fm",
-    "hitz-funky-radio"
+    "eitb-euskal-kantak",
+    "irola-irratia",
+    "txapa-irratia",
+    "arraio-irratia",
+    "euskadi-digital",
+    "radio-galdakao",
+    "radio-llodio",
+    "uribe-fm",
+    "segura-irratia",
+    "ataun-irratia",
+    "bi-fm",
+    "formula-hit"
   ],
   "communities": [
     {

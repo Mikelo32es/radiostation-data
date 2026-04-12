@@ -2,132 +2,16 @@
   "repoName": "radiostation-data",
   "community": "Euskadi",
   "seedSource": "myTuner + TDTChannels + radio.es + RadioESP",
-  "seedCount": 200,
-  "playableCount": 54,
-  "verifiedCount": 33,
-  "candidateCount": 21,
-  "pendingCount": 146,
-  "notes": "Reset completo del catálogo comunitario. Euskadi arranca desde cero con 200 seeds; las jugables ya llevan stream y el resto quedan como seeded_pending para validación manual posterior. Blacklist nacional separada para evitar que cadenas estatales entren en comunidades.",
+  "seedCount": 77,
+  "playableCount": 37,
+  "verifiedCount": 30,
+  "candidateCount": 7,
+  "pendingCount": 40,
+  "notes": "Catálogo de Euskadi depurado: fuera cadenas nacionales y clones débiles. Se priorizan radios vascas reales, con streams verificados desde TDTChannels o snippets oficiales; el resto queda como seeded_pending hasta localizar stream fiable y logo moderno.",
   "stations": [
     {
-      "id": "eitb-radio-euskadi",
-      "name": "Radio Euskadi",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "websiteUrl": "https://www.eitb.eus/es/radio/radio-euskadi/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/SbBRr4a3Xm.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://multimedia.eitb.eus/live-content/radioeuskadi-hls/master.m3u8",
-          "format": "hls",
-          "source": "TDTChannels"
-        },
-        {
-          "label": "MP3 alternativo",
-          "url": "http://mp3-eitb.stream.flumotion.com/eitb/radioeuskadi.mp3",
-          "format": "mp3",
-          "source": "EITB legacy"
-        }
-      ]
-    },
-    {
-      "id": "eitb-euskadi-irratia",
-      "name": "Euskadi Irratia",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "websiteUrl": "https://www.eitb.eus/eu/irratia/euskadi-irratia/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/vrdXYJVBaZ_jfDA33i.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://multimedia.eitb.eus/live-content/euskadirratia-hls/master.m3u8",
-          "format": "hls",
-          "source": "TDTChannels"
-        },
-        {
-          "label": "MP3 alternativo",
-          "url": "http://mp3-eitb.stream.flumotion.com/eitb/euskadiirratia.mp3",
-          "format": "mp3",
-          "source": "EITB legacy"
-        }
-      ]
-    },
-    {
-      "id": "eitb-radio-vitoria",
-      "name": "Radio Vitoria",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "websiteUrl": "https://www.eitb.eus/es/radio/radio-vitoria/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/ZksDJFpn4L.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://multimedia.eitb.eus/live-content/radiovitoria-hls/master.m3u8",
-          "format": "hls",
-          "source": "TDTChannels"
-        },
-        {
-          "label": "MP3 alternativo",
-          "url": "http://195.55.74.215/eitb/radiovitoria.mp3?GKID",
-          "format": "mp3",
-          "source": "legacy"
-        }
-      ]
-    },
-    {
-      "id": "eitb-gaztea",
-      "name": "Gaztea",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Pop",
-      "websiteUrl": "https://www.eitb.eus/eu/gaztea/",
-      "logoUrl": "https://www.eitb.eus/multimedia/images/2022/11/17/3077932/20221117163842_eitb-gaztea_logo_960x540.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://multimedia.eitb.eus/live-content/gaztea-hls/master.m3u8",
-          "format": "hls",
-          "source": "TDTChannels"
-        },
-        {
-          "label": "MP3 alternativo",
-          "url": "http://mp3-eitb.stream.flumotion.com/eitb/gaztea.mp3",
-          "format": "mp3",
-          "source": "EITB legacy"
-        }
-      ]
-    },
-    {
-      "id": "eitb-musika",
-      "name": "EITB Musika",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Variedad",
-      "websiteUrl": "https://www.eitb.eus/es/radio/eitb-musika/",
-      "logoUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/EITB%20Musika.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://multimedia.eitb.eus/live-content/eitbmusika-hls/master.m3u8",
-          "format": "hls",
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "eitb-irratia",
-      "name": "EiTB Irratia",
+      "id": "97fm-irratia",
+      "name": "97FM Irratia",
       "category": "Local",
       "community": "Euskadi",
       "sourceSeed": "radio.es",
@@ -135,22 +19,60 @@
       "streams": []
     },
     {
-      "id": "eitb-euskal-kantak",
-      "name": "EiTB Euskal Kantak",
+      "id": "activate-fm",
+      "name": "Activate FM",
       "category": "Música",
       "community": "Euskadi",
-      "sourceSeed": "radio.es",
+      "musicType": "Latina",
+      "websiteUrl": "https://activatefm.es/",
+      "sourceSeed": "TDTChannels",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://streaming12.elitecomunicacion.es:8085/stream",
+          "format": "mp3",
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "antxeta-irratia",
+      "name": "Antxeta Irratia",
+      "category": "Comunidad",
+      "community": "Euskadi",
+      "sourceSeed": "Sitio oficial",
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "websiteUrl": "https://antxetamedia.eus/irratia/",
+      "logoUrl": null
+    },
+    {
+      "id": "aralar-irratia",
+      "name": "Aralar Irratia",
+      "category": "Local",
+      "community": "Euskadi",
+      "sourceSeed": "Sitio oficial o directorio vasco",
       "verificationStatus": "seeded_pending",
       "streams": []
     },
     {
-      "id": "eitb-victoria",
-      "name": "EiTB Victoria",
-      "category": "Música",
+      "id": "arraio-irratia",
+      "name": "Arraio Irratia",
+      "category": "Comunidad",
       "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "sourceSeed": "Sitio oficial",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "OGG oficial",
+          "url": "http://irratia.arraio.eus:9001/irratia.ogg",
+          "format": "ogg",
+          "source": "Arraio oficial"
+        }
+      ],
+      "websiteUrl": "https://www.arraio.eus/",
+      "logoUrl": null
     },
     {
       "id": "arrate-irratia",
@@ -171,14 +93,23 @@
       ]
     },
     {
+      "id": "ataria-irratia",
+      "name": "Ataria Irratia",
+      "category": "Comunidad",
+      "community": "Euskadi",
+      "sourceSeed": "radio.es/RadioESP",
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
       "id": "ataun-irratia",
       "name": "Ataun Irratia",
-      "category": "Noticias",
+      "category": "Local",
       "community": "Euskadi",
-      "websiteUrl": "https://www.ataun.eus/ataun-irratia",
+      "websiteUrl": "https://www.ataunirratia.eus/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/910/ataun-irratia.cfa99ffb.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "sourceSeed": "Sitio oficial + directorios públicos",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "MP3 candidato",
@@ -189,15 +120,24 @@
       ]
     },
     {
+      "id": "bergara-irratia",
+      "name": "Bergara Irratia",
+      "category": "Local",
+      "community": "Euskadi",
+      "sourceSeed": "radio.es/RadioESP",
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
       "id": "bi-fm",
       "name": "BI FM",
       "category": "Música",
       "community": "Euskadi",
       "musicType": "Indie",
-      "websiteUrl": "https://www.bifmradio.com/",
+      "websiteUrl": "https://bifmradio.com/play/",
       "logoUrl": "https://www.bifmradio.com/wp-content/uploads/2020/12/bifm-logo.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "sourceSeed": "Sitio oficial + stream público",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Candidato tercero",
@@ -206,6 +146,15 @@
           "source": "liveradio.ie"
         }
       ]
+    },
+    {
+      "id": "bidea-irratia",
+      "name": "Bidea Irratia",
+      "category": "Local",
+      "community": "Euskadi",
+      "sourceSeed": "radio.es",
+      "verificationStatus": "seeded_pending",
+      "streams": []
     },
     {
       "id": "bilbo-hiria-irratia",
@@ -250,21 +199,34 @@
       ]
     },
     {
-      "id": "durango-irratia",
-      "name": "Durango Irratia",
+      "id": "bom-radio",
+      "name": "BOM Radio",
       "category": "Local",
       "community": "Euskadi",
-      "websiteUrl": "https://durangoirratia.eus/",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://durangoirratia.streaming-pro.com:6006/durangoirratia.mp3",
-          "format": "mp3",
-          "source": "TDTChannels"
-        }
-      ]
+      "sourceSeed": "radio.es",
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "candela-radio",
+      "name": "Candela Radio",
+      "category": "Música",
+      "community": "Euskadi",
+      "musicType": "Latina",
+      "websiteUrl": "https://candelaradio.fm/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/m6mstp6fmuzc.png",
+      "sourceSeed": "Directorio público",
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "casares-irratia",
+      "name": "Casares Irratia",
+      "category": "Local",
+      "community": "Euskadi",
+      "sourceSeed": "radio.es",
+      "verificationStatus": "seeded_pending",
+      "streams": []
     },
     {
       "id": "donostia-kultura-irratia",
@@ -284,15 +246,107 @@
       ]
     },
     {
-      "id": "euskadigital",
-      "name": "EuskaDigital",
+      "id": "durango-irratia",
+      "name": "Durango Irratia",
+      "category": "Local",
+      "community": "Euskadi",
+      "websiteUrl": "https://durangoirratia.eus/",
+      "sourceSeed": "TDTChannels",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://durangoirratia.streaming-pro.com:6006/durangoirratia.mp3",
+          "format": "mp3",
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "eguzki-irratia",
+      "name": "Eguzki Irratia",
+      "category": "Local",
+      "community": "Euskadi",
+      "sourceSeed": "radio.es/RadioESP",
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "eibarko-la-salle-irratia",
+      "name": "Eibarko La Salle Irratia",
+      "category": "Local",
+      "community": "Euskadi",
+      "sourceSeed": "radio.es",
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "eitb-euskal-kantak",
+      "name": "EITB Euskal Kantak",
       "category": "Música",
+      "community": "Euskadi",
+      "sourceSeed": "TDTChannels + EITB",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://multimedia.eitb.eus/live-content/eitbeuskalkantak-hls/master.m3u8",
+          "format": "hls",
+          "source": "TDTChannels"
+        }
+      ],
+      "websiteUrl": "https://guau.eus",
+      "logoUrl": "https://graph.facebook.com/eitbEuskalKantak/picture?width=200&height=200"
+    },
+    {
+      "id": "eitb-musika",
+      "name": "EITB Musika",
+      "category": "Música",
+      "community": "Euskadi",
+      "musicType": "Variedad",
+      "websiteUrl": "https://www.eitb.eus/es/radio/eitb-musika/",
+      "logoUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/EITB%20Musika.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://multimedia.eitb.eus/live-content/eitbmusika-hls/master.m3u8",
+          "format": "hls",
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "enkarterri-irratia-la-voz-del-cadagua",
+      "name": "Enkarterri Irratia",
+      "category": "Noticias",
+      "community": "Euskadi",
+      "websiteUrl": "https://mytuner-radio.com/es/emisora/enkarterri-irratia-la-voz-del-cadagua-471593/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/2j6mkk7gt89p.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "erlo-irratia",
+      "name": "Erlo Irratia",
+      "category": "Local",
+      "community": "Euskadi",
+      "sourceSeed": "radio.es",
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "euskadi-digital",
+      "name": "Euskadi Digital",
+      "category": "Tecnología",
       "community": "Euskadi",
       "musicType": "Electrónica",
       "websiteUrl": "https://www.euskadigital.eus/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/PFwA88buez.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "sourceSeed": "Sitio oficial + directorios públicos",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Icecast mount candidato",
@@ -309,13 +363,28 @@
       ]
     },
     {
-      "id": "euskadi-digital",
-      "name": "Euskadi Digital",
-      "category": "Local",
+      "id": "eitb-euskadi-irratia",
+      "name": "Euskadi Irratia",
+      "category": "Noticias",
       "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "websiteUrl": "https://www.eitb.eus/eu/irratia/euskadi-irratia/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/vrdXYJVBaZ_jfDA33i.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://multimedia.eitb.eus/live-content/euskadirratia-hls/master.m3u8",
+          "format": "hls",
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "http://mp3-eitb.stream.flumotion.com/eitb/euskadiirratia.mp3",
+          "format": "mp3",
+          "source": "EITB legacy"
+        }
+      ]
     },
     {
       "id": "fm-musical",
@@ -330,6 +399,94 @@
         {
           "label": "MP3 principal",
           "url": "https://sonic.mediatelekom.net/8476/stream",
+          "format": "mp3",
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "formula-hit",
+      "name": "Formula Hit",
+      "category": "Música",
+      "community": "Euskadi",
+      "musicType": "Pop",
+      "websiteUrl": "https://www.formulahit.com/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/RgdbbKgcvW.png",
+      "sourceSeed": "TDTChannels",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://sonic.sistemahost.es/8176/stream;.mp3",
+          "format": "mp3",
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "eitb-gaztea",
+      "name": "Gaztea",
+      "category": "Música",
+      "community": "Euskadi",
+      "musicType": "Pop",
+      "websiteUrl": "https://www.eitb.eus/eu/gaztea/",
+      "logoUrl": "https://www.eitb.eus/multimedia/images/2022/11/17/3077932/20221117163842_eitb-gaztea_logo_960x540.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://multimedia.eitb.eus/live-content/gaztea-hls/master.m3u8",
+          "format": "hls",
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "http://mp3-eitb.stream.flumotion.com/eitb/gaztea.mp3",
+          "format": "mp3",
+          "source": "EITB legacy"
+        }
+      ]
+    },
+    {
+      "id": "radio-galdakao",
+      "name": "GDKO Irratia",
+      "category": "Local",
+      "community": "Euskadi",
+      "websiteUrl": "https://gdkoirratiacom.wordpress.com/play/",
+      "logoUrl": "https://gdkoirratiacom.wordpress.com/wp-content/uploads/2017/12/cropped-untitled-design-15.png",
+      "sourceSeed": "Sitio oficial",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "http://listen.radionomy.com:80/GDKOirratia/;#.mp3",
+          "format": "mp3",
+          "source": "Sitio oficial"
+        }
+      ]
+    },
+    {
+      "id": "gure-bazterrak-irratia",
+      "name": "Gure Bazterrak Irratia",
+      "category": "Local",
+      "community": "Euskadi",
+      "sourceSeed": "radio.es",
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "habla-radio",
+      "name": "Habla Radio",
+      "category": "Noticias",
+      "community": "Euskadi",
+      "websiteUrl": "https://hablaradio.com/",
+      "sourceSeed": "TDTChannels",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://s33.myradiostream.com/15294/;stream.mp3",
           "format": "mp3",
           "source": "TDTChannels"
         }
@@ -385,30 +542,105 @@
       ]
     },
     {
-      "id": "hala-bedi-irratia-101-9-fm",
-      "name": "Hala Bedi Irratia 101.9 FM",
+      "id": "hard-rock-animals",
+      "name": "Hard Rock Animals",
+      "category": "Música",
+      "community": "Euskadi",
+      "musicType": "Rock",
+      "sourceSeed": "Sitio oficial o directorio vasco",
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "heavy-metal-souls-radio",
+      "name": "Heavy Metal Souls Radio",
+      "category": "Música",
+      "community": "Euskadi",
+      "musicType": "Metal",
+      "sourceSeed": "radio.es",
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "info7-bilbao",
+      "name": "Info7 Bilbao",
+      "category": "Música",
+      "community": "Euskadi",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "info7-donostia",
+      "name": "Info7 Donostia",
+      "category": "Música",
+      "community": "Euskadi",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "info7-vitoria",
+      "name": "Info7 Vitoria",
+      "category": "Local",
+      "community": "Euskadi",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "irola-irratia",
+      "name": "Irola Irratia",
       "category": "Comunidad",
+      "community": "Euskadi",
+      "sourceSeed": "Sitio oficial",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 oficial",
+          "url": "https://s.streampunk.cc/_stream/irola_irratia.mp3",
+          "format": "mp3",
+          "source": "Irola oficial (snippet)"
+        }
+      ],
+      "websiteUrl": "https://irolairratia.org/",
+      "logoUrl": null
+    },
+    {
+      "id": "irratia-97-fm",
+      "name": "Irratia 97 FM",
+      "category": "Local",
       "community": "Euskadi",
       "sourceSeed": "radio.es",
       "verificationStatus": "seeded_pending",
       "streams": []
     },
     {
-      "id": "habla-radio",
-      "name": "Habla Radio",
-      "category": "Noticias",
+      "id": "itsuki-irratia",
+      "name": "Itsuki Irratia",
+      "category": "Local",
       "community": "Euskadi",
-      "websiteUrl": "https://hablaradio.com/",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://s33.myradiostream.com/15294/;stream.mp3",
-          "format": "mp3",
-          "source": "TDTChannels"
-        }
-      ]
+      "sourceSeed": "radio.es",
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "kiroleros",
+      "name": "Kiroleros",
+      "category": "Deporte",
+      "community": "Euskadi",
+      "sourceSeed": "radio.es",
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "miare-irratia",
+      "name": "Miare Irratia",
+      "category": "Comunidad",
+      "community": "Euskadi",
+      "sourceSeed": "Sitio oficial o directorio vasco",
+      "verificationStatus": "seeded_pending",
+      "streams": []
     },
     {
       "id": "mozoilo-irratia",
@@ -447,6 +679,36 @@
       ]
     },
     {
+      "id": "norte-radio",
+      "name": "Norte Radio",
+      "category": "Local",
+      "community": "Euskadi",
+      "sourceSeed": "Sitio oficial o directorio vasco",
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "websiteUrl": "https://norteradio.com/"
+    },
+    {
+      "id": "oiartzun-irratia",
+      "name": "Oiartzun Irratia",
+      "category": "Comunidad",
+      "community": "Euskadi",
+      "sourceSeed": "Sitio oficial",
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "websiteUrl": "https://oiartzunirratia.eus/",
+      "logoUrl": null
+    },
+    {
+      "id": "onda-alavesa",
+      "name": "Onda Alavesa",
+      "category": "Música",
+      "community": "Euskadi",
+      "sourceSeed": "radio.es",
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
       "id": "onda-vasca",
       "name": "Onda Vasca",
       "category": "Noticias",
@@ -471,31 +733,42 @@
       ]
     },
     {
-      "id": "onda-vasca-bizkaia",
-      "name": "Onda Vasca Bizkaia",
-      "category": "Local",
+      "id": "oye-athletic-fm",
+      "name": "Oye Athletic FM",
+      "category": "Deporte",
       "community": "Euskadi",
-      "sourceSeed": "myTuner",
+      "sourceSeed": "radio.es",
       "verificationStatus": "seeded_pending",
       "streams": []
     },
     {
-      "id": "onda-vasca-gipuzkoa",
-      "name": "Onda Vasca Gipuzkoa",
-      "category": "Local",
+      "id": "pasaia-irratia",
+      "name": "Pasaia Irratia",
+      "category": "Comunidad",
       "community": "Euskadi",
-      "sourceSeed": "myTuner",
+      "sourceSeed": "Sitio oficial o directorio vasco",
       "verificationStatus": "seeded_pending",
       "streams": []
     },
     {
-      "id": "onda-vasca-alava",
-      "name": "Onda Vasca Álava",
+      "id": "portu-radio",
+      "name": "Portu Radio",
       "category": "Local",
       "community": "Euskadi",
-      "sourceSeed": "myTuner",
+      "sourceSeed": "radio.es",
       "verificationStatus": "seeded_pending",
       "streams": []
+    },
+    {
+      "id": "punk-irratia",
+      "name": "PUNK Irratia",
+      "category": "Música",
+      "community": "Euskadi",
+      "musicType": "Punk",
+      "sourceSeed": "Sitio oficial o directorio vasco",
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "websiteUrl": "http://punkirratia.net/"
     },
     {
       "id": "radio-7",
@@ -516,15 +789,6 @@
       ]
     },
     {
-      "id": "radio-7-bizkaia",
-      "name": "Radio 7 Bizkaia",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
       "id": "radio-donosti",
       "name": "Radio Donosti",
       "category": "Noticias",
@@ -543,38 +807,38 @@
       ]
     },
     {
-      "id": "radio-eibar-ser",
-      "name": "Radio Eibar",
-      "category": "Noticias",
+      "id": "radio-eurolatina-98-4-fm",
+      "name": "Radio Eurolatina 98.4 FM",
+      "category": "Música",
       "community": "Euskadi",
-      "websiteUrl": "https://cadenaser.com/radio-eibar/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/pfmuhnrhynkf.jpg",
+      "musicType": "Latina",
+      "websiteUrl": "https://www.radioeurolatina.com",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/040/radio-eurolatina.5e7880cd.png",
       "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_EIBAR.mp3",
-          "format": "mp3",
-          "source": "TDTChannels"
-        }
-      ]
+      "verificationStatus": "seeded_pending",
+      "streams": []
     },
     {
-      "id": "radio-galdakao",
-      "name": "Radio Galdakao",
+      "id": "eitb-radio-euskadi",
+      "name": "Radio Euskadi",
       "category": "Noticias",
       "community": "Euskadi",
-      "websiteUrl": "https://www.radiogaldakao.eus/",
-      "logoUrl": "https://gdkoirratiacom.wordpress.com/wp-content/uploads/2017/12/cropped-untitled-design-15.png",
+      "websiteUrl": "https://www.eitb.eus/es/radio/radio-euskadi/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/SbBRr4a3Xm.png",
       "sourceSeed": "myTuner",
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "MP3 principal",
-          "url": "http://listen.radionomy.com:80/GDKOirratia/;#.mp3",
+          "label": "HLS principal",
+          "url": "https://multimedia.eitb.eus/live-content/radioeuskadi-hls/master.m3u8",
+          "format": "hls",
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "http://mp3-eitb.stream.flumotion.com/eitb/radioeuskadi.mp3",
           "format": "mp3",
-          "source": "Sitio oficial"
+          "source": "EITB legacy"
         }
       ]
     },
@@ -599,12 +863,12 @@
     {
       "id": "radio-llodio",
       "name": "Radio Llodio",
-      "category": "Noticias",
+      "category": "Local",
       "community": "Euskadi",
       "websiteUrl": "https://radiollodio.com/",
       "logoUrl": "https://radiollodio.com/wp-content/uploads/2020/02/LOGO-RADIO-LLODIO-LOGOTIPO-1.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "sourceSeed": "Sitio oficial + directorios públicos",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "OGG candidato",
@@ -651,8 +915,8 @@
       ]
     },
     {
-      "id": "herri-irratia-radio-popular-2",
-      "name": "Herri Irratia - Radio Popular",
+      "id": "radio-siberia",
+      "name": "Radio Siberia",
       "category": "Local",
       "community": "Euskadi",
       "sourceSeed": "radio.es",
@@ -660,10 +924,44 @@
       "streams": []
     },
     {
-      "id": "radio-popular",
-      "name": "Radio Popular",
+      "id": "radio-tular-irratia",
+      "name": "Radio Tular Irratia",
       "category": "Local",
       "community": "Euskadi",
+      "sourceSeed": "Sitio oficial o directorio vasco",
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "eitb-radio-vitoria",
+      "name": "Radio Vitoria",
+      "category": "Noticias",
+      "community": "Euskadi",
+      "websiteUrl": "https://www.eitb.eus/es/radio/radio-vitoria/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/ZksDJFpn4L.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://multimedia.eitb.eus/live-content/radiovitoria-hls/master.m3u8",
+          "format": "hls",
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "http://195.55.74.215/eitb/radiovitoria.mp3?GKID",
+          "format": "mp3",
+          "source": "legacy"
+        }
+      ]
+    },
+    {
+      "id": "reggae-fm-1",
+      "name": "Reggae FM 1",
+      "category": "Música",
+      "community": "Euskadi",
+      "musicType": "Reggae",
       "sourceSeed": "radio.es",
       "verificationStatus": "seeded_pending",
       "streams": []
@@ -671,12 +969,12 @@
     {
       "id": "segura-irratia",
       "name": "Segura Irratia",
-      "category": "Noticias",
+      "category": "Local",
       "community": "Euskadi",
       "websiteUrl": "https://segurairratia.eus/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/653/segura-irratia.cf94d527.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "sourceSeed": "Sitio oficial + directorios públicos",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "MP3 principal",
@@ -685,6 +983,28 @@
           "source": "Directorio público"
         }
       ]
+    },
+    {
+      "id": "soft-radio",
+      "name": "Soft Radio",
+      "category": "Música",
+      "community": "Euskadi",
+      "musicType": "Soft",
+      "websiteUrl": "https://www.soft-radio.com",
+      "logoUrl": "https://www.soft-radio.com/wp-content/uploads/2024/02/Color-softradio-webp600px.webp",
+      "sourceSeed": "Directorio público",
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "sorgintxu-irratia",
+      "name": "Sorgintxu Irratia",
+      "category": "Noticias",
+      "community": "Euskadi",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/vnsktqrftva9.jpeg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "seeded_pending",
+      "streams": []
     },
     {
       "id": "stz-irratia",
@@ -705,14 +1025,63 @@
       ]
     },
     {
+      "id": "ttan-ttakun-irratia",
+      "name": "Ttan Ttakun Irratia",
+      "category": "Comunidad",
+      "community": "Euskadi",
+      "sourceSeed": "Sitio oficial o directorio vasco",
+      "verificationStatus": "seeded_pending",
+      "streams": []
+    },
+    {
+      "id": "txapa-irratia",
+      "name": "Txapa Irratia",
+      "category": "Comunidad",
+      "community": "Euskadi",
+      "sourceSeed": "Sitio oficial",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 oficial",
+          "url": "http://stream.halabedi.eus/txapa.mp3",
+          "format": "mp3",
+          "source": "Txapa oficial"
+        }
+      ],
+      "websiteUrl": "https://www.txapairratia.org/",
+      "logoUrl": null
+    },
+    {
+      "id": "txolarre-irratia",
+      "name": "Txolarre Irratia",
+      "category": "Comunidad",
+      "community": "Euskadi",
+      "sourceSeed": "Sitio oficial o directorio vasco",
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "websiteUrl": "http://www.txolarre.org/"
+    },
+    {
+      "id": "urban-fm",
+      "name": "Urban FM",
+      "category": "Música",
+      "community": "Euskadi",
+      "musicType": "Urban",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/390/bilbao-fm.70b57e50.png",
+      "sourceSeed": "Sitio oficial o directorio vasco",
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "websiteUrl": "https://urbanfm.net/"
+    },
+    {
       "id": "uribe-fm",
       "name": "Uribe FM",
-      "category": "Noticias",
+      "category": "Local",
       "community": "Euskadi",
       "musicType": "Variedad",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/t52kemvyftjz.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "verified",
+      "sourceSeed": "Sitio oficial + directorios públicos",
+      "verificationStatus": "candidate",
       "streams": [
         {
           "label": "MP3 candidato",
@@ -720,16 +1089,8 @@
           "format": "mp3",
           "source": "Spain.json directory"
         }
-      ]
-    },
-    {
-      "id": "uribe-radio-fm",
-      "name": "Uribe Radio FM",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      ],
+      "websiteUrl": "https://uribefm.com/"
     },
     {
       "id": "vinilo-fm",
@@ -751,1649 +1112,15 @@
       ]
     },
     {
-      "id": "activate-fm",
-      "name": "Activate FM",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Latina",
-      "websiteUrl": "https://activatefm.es/",
-      "sourceSeed": "TDTChannels",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://streaming12.elitecomunicacion.es:8085/stream",
-          "format": "mp3",
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "punk-irratia",
-      "name": "PUNK Irratia",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Punk",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "antxeta-irratia",
-      "name": "Antxeta Irratia",
-      "category": "Comunidad",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es/RadioESP",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "ataria-irratia",
-      "name": "Ataria Irratia",
-      "category": "Comunidad",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es/RadioESP",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "bidea-irratia",
-      "name": "Bidea Irratia",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "bilbo-hiria",
-      "name": "Bilbo Hiria",
-      "category": "Comunidad",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "bom-radio",
-      "name": "BOM Radio",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "casares-irratia",
-      "name": "Casares Irratia",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "eguzki-irratia",
-      "name": "Eguzki Irratia",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es/RadioESP",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "eibarko-la-salle-irratia",
-      "name": "Eibarko La Salle Irratia",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "enkarterri-irratia-la-voz-del-cadagua",
-      "name": "Enkarterri Irratia",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "websiteUrl": "https://mytuner-radio.com/es/emisora/enkarterri-irratia-la-voz-del-cadagua-471593/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/2j6mkk7gt89p.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "erlo-irratia",
-      "name": "Erlo Irratia",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "radio-formula-hit-castellon-98-3-fm",
-      "name": "Formula Hit",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Pop",
-      "websiteUrl": "https://www.formulahit.com/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/RgdbbKgcvW.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://sonic.sistemahost.es/8176/stream;.mp3",
-          "format": "mp3",
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "frontiersradio",
-      "name": "Frontiersradio",
-      "category": "Religión",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "heavy-metal-souls-radio",
-      "name": "Heavy Metal Souls Radio",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Metal",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "hits-1-san-sebastian",
-      "name": "Hits 1 San Sebastián",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "CHR",
-      "websiteUrl": "https://www.hits1radio.com",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/085/hits-1-san-sebastian.c32c4eec.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "home-and-abroad-fm",
-      "name": "Home And Abroad FM",
-      "category": "Música",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "hitz-home-abroad-fm",
-      "name": "Hitz Home & Abroad FM",
-      "category": "Música",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "irola-irratia",
-      "name": "Irola Irratia",
-      "category": "Comunidad",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es/RadioESP",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "irratia-97-fm",
-      "name": "Irratia 97 FM",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "itsuki-irratia",
-      "name": "Itsuki Irratia",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "kiroleros",
-      "name": "Kiroleros",
-      "category": "Deporte",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "la-flamenca-san-sebastian",
-      "name": "La Flamenca San Sebastián",
-      "category": "Música",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "mega-maxima",
-      "name": "Mega Máxima",
-      "category": "Música",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "mozoilo",
-      "name": "Mozoilo",
-      "category": "Música",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "motiva-fm-bilbao",
-      "name": "Motiva FM Bilbao",
-      "category": "Música",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "motiva-fm-donostia",
-      "name": "Motiva FM Donostia",
-      "category": "Música",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "muybuena-san-sebastian",
-      "name": "MuyBuena San Sebastián",
-      "category": "Música",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "norte-radio",
-      "name": "Norte Radio",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "oiartzun-irratia",
-      "name": "Oiartzun Irratia",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es/RadioESP",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "okunslive",
-      "name": "Okunslive",
-      "category": "Música",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "olimpica-pais-vasco",
-      "name": "Olímpica País Vasco",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Latina",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/KJtNvWjhxV.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "oye-athletic-fm",
-      "name": "Oye Athletic FM",
-      "category": "Deporte",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "pais-vasco-radio",
-      "name": "País Vasco Radio",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "play-fm-94-1",
-      "name": "Play FM 94.1",
-      "category": "Música",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "portu-radio",
-      "name": "Portu Radio",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "radio-eurolatina-98-4-fm",
-      "name": "Radio Eurolatina 98.4 FM",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Latina",
-      "websiteUrl": "https://www.radioeurolatina.com",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/040/radio-eurolatina.5e7880cd.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "radio-la-mega",
-      "name": "Radio La Mega",
-      "category": "Música",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "radio-lider-euskadi",
-      "name": "Radio Líder Euskadi",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "websiteUrl": "https://www.radiolider.com",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/909/radio-lider-euskadi.26bb0e16.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "radio-lider-pais-vasco",
-      "name": "Radio Líder País Vasco",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "radio-siberia",
-      "name": "Radio Siberia",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "radio-sur-20",
-      "name": "Radio Sur 20",
-      "category": "Música",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "radio-tropical",
-      "name": "Radio Tropical",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Latina",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "radio-tular-irratia",
-      "name": "Radio Tular Irratia",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "radio-tx",
-      "name": "Radio Tx",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Variedad",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/799/radio-tx.a91a49fd.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "radiolakuabizkarra-ibaiondo",
-      "name": "radiolakuabizkarra-ibaiondo",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "rock-hitz-fm",
-      "name": "Rock Hitz FM",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Rock",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/490/rock-hitz-fm.285d143d.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "soft-music-radio",
-      "name": "Soft Music Radio",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "soft-radio",
-      "name": "Soft Radio",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Soft",
-      "websiteUrl": "https://www.soft-radio.com",
-      "logoUrl": "https://www.soft-radio.com/wp-content/uploads/2024/02/Color-softradio-webp600px.webp",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://listen.openstream.co/6263/audio",
-          "format": "mp3",
-          "source": "Soft Radio official / openstream"
-        }
-      ]
-    },
-    {
-      "id": "sorgintxu-irratia",
-      "name": "Sorgintxu Irratia",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/vnsktqrftva9.jpeg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "sur-20-radio",
-      "name": "SUR 20 Radio",
-      "category": "Música",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "tropicana-espana",
-      "name": "Tropicana España",
-      "category": "Música",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "txapa-irratia",
-      "name": "Txapa Irratia",
-      "category": "Comunidad",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es/RadioESP",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "urban-fm",
-      "name": "Urban FM",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Urban",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/390/bilbao-fm.70b57e50.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "28-kanala",
-      "name": "28 KANALA",
-      "category": "Música",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "97fm-irratia",
-      "name": "97FM Irratia",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "bi-music-radio",
-      "name": "Bi Music Radio",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "bikini-fm-san-sebastian",
-      "name": "Bikini FM San Sebastián",
-      "category": "Música",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "candela-radio",
-      "name": "Candela Radio",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Latina",
-      "websiteUrl": "https://candelaradio.fm/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/m6mstp6fmuzc.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "MP3 público",
-          "url": "http://uk1-pn.webcast-server.net:8226",
-          "format": "mp3",
-          "source": "radio-online-json-url"
-        }
-      ]
-    },
-    {
-      "id": "city-classic-fm",
-      "name": "City Classic FM",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Classic Hits",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "funky-party",
-      "name": "Funky Party",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Funk",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "groove-time-fm",
-      "name": "Groove Time FM",
-      "category": "Música",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "hard-rock-animals",
-      "name": "Hard Rock Animals",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Rock",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "jupiter-fm",
-      "name": "Jupiter FM",
-      "category": "Música",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "kiss-music-fm-bilbao",
-      "name": "Kiss Music FM Bilbao",
-      "category": "Música",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "norte-radio-vitoria-gasteiz",
-      "name": "Norte Radio Vitoria-Gasteiz",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "radio-yayico-2020",
-      "name": "Radio Yayico 2020",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "reggae-fm-1",
-      "name": "Reggae FM 1",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Reggae",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "siberia-fm",
-      "name": "Siberia FM",
-      "category": "Música",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "soft-radio-bilbao",
-      "name": "Soft Radio Bilbao",
-      "category": "Música",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "radio-lakuabizkarra-ibaiondo",
-      "name": "Radio Lakuabizkarra-Ibaiondo",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "radio-stz-irratia",
-      "name": "Radio STZ Irratia",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "free-fm-80s",
-      "name": "Free FM 80s",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "80s",
-      "websiteUrl": "https://sites.google.com/view/freefmworld",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/827/free-fm-80s.16928eb8.png",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "http://freefm80.radioca.st/",
-          "format": "mp3",
-          "source": "radiobrowser index"
-        }
-      ]
-    },
-    {
-      "id": "free-fm-world",
-      "name": "Free FM World",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "World",
-      "websiteUrl": "https://sites.google.com/view/freefmworld",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/690/free-fm-spain.be1f4c93.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "https://rocafmadrid.radioca.st/stream",
-          "format": "mp3",
-          "source": "rcast/fmstream public listing"
-        }
-      ]
-    },
-    {
-      "id": "free-fm-love",
-      "name": "Free FM Love",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Romántica",
-      "websiteUrl": "https://sites.google.com/view/freefmworld",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/714/free-fm-love.c1ba1f4e.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "https://stream.zeno.fm/umsptm6rvy8uv",
-          "format": "mp3",
-          "source": "TingFM listing"
-        }
-      ]
-    },
-    {
-      "id": "free-fm-top-100",
-      "name": "Free FM Top 100",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Top 100",
-      "websiteUrl": "https://www.freefmradio.net",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/814/free-fm-top-100.dc7b4dc7.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "https://stream.zeno.fm/a5h7vfret68uv",
-          "format": "mp3",
-          "source": "fmstream public listing"
-        }
-      ]
-    },
-    {
-      "id": "free-fm-classical",
-      "name": "Free FM Classical",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Clásica",
-      "websiteUrl": "https://sites.google.com/view/freefmworld",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/020/free-fm-classical.0ef23d56.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "http://stream.zeno.fm/x5jlpogsaedvv",
-          "format": "mp3",
-          "source": "radiobrowser index"
-        }
-      ]
-    },
-    {
-      "id": "free-fm-chill",
-      "name": "Free FM Chill",
-      "category": "Música",
-      "community": "Euskadi",
-      "websiteUrl": "https://www.locafm.com/chill-out/player.html",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_chill_out/live",
-          "format": "stream",
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "free-fm-x-mas",
-      "name": "Free FM X-Mas",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Navidad",
-      "websiteUrl": "https://sites.google.com/view/freefmworld",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/6uzYMVMHad.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "http://stream.zeno.fm/h60er015v68uv",
-          "format": "mp3",
-          "source": "radiobrowser index"
-        }
-      ]
-    },
-    {
-      "id": "free-fm-rock",
-      "name": "Free FM Rock",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Rock",
-      "websiteUrl": "https://www.freefmrock.com/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/769/free-fm.aa638097.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "https://freefmrock.radioca.st/stream",
-          "format": "mp3",
-          "source": "fmstream (public listing)"
-        }
-      ]
-    },
-    {
-      "id": "free-fm-classics",
-      "name": "Free FM Classics",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Oldies",
-      "websiteUrl": "https://www.freefmworld.com",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Stream directo",
-          "url": "https://xxdelgado.radioca.st",
-          "source": "Radiomap"
-        }
-      ]
-    },
-    {
-      "id": "free-fm-sports",
-      "name": "Free FM Sports",
-      "category": "Deporte",
-      "community": "Euskadi",
-      "websiteUrl": "https://sites.google.com/view/freefmworld",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/BtX4kYE4dC.jpg",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "https://stream.zeno.fm/31nnibfpnxktv",
-          "format": "mp3",
-          "source": "TingFM listing"
-        }
-      ]
-    },
-    {
-      "id": "hitz-90s-fm",
-      "name": "Hitz 90s FM",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "90s",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Stream 1",
-          "url": "http://stream.zeno.fm/1q3dwmd6yf8uv",
-          "format": "mp3",
-          "source": "candidate-audit"
-        },
-        {
-          "label": "Stream 2",
-          "url": "https://stream.zeno.fm/x3sxe2nv0p8uv",
-          "format": "mp3",
-          "source": "candidate-audit"
-        }
-      ]
-    },
-    {
-      "id": "hitz-91-0",
-      "name": "Hitz 91.0",
-      "category": "Música",
-      "community": "Euskadi",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Stream 1",
-          "url": "http://stream.zeno.fm/f2qmny74gd0uv",
-          "format": "mp3",
-          "source": "candidate-audit"
-        }
-      ]
-    },
-    {
-      "id": "hitz-91-5-fm",
-      "name": "Hitz 91.5 FM",
-      "category": "Música",
-      "community": "Euskadi",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Stream 1",
-          "url": "http://ec2.yesstreaming.net:3110/stream",
-          "format": "mp3",
-          "source": "candidate-audit"
-        },
-        {
-          "label": "Stream 2",
-          "url": "https://stream.zeno.fm/zskjbd7n200tv",
-          "format": "mp3",
-          "source": "candidate-audit"
-        }
-      ]
-    },
-    {
-      "id": "hitz-91-9-radio",
-      "name": "Hitz 91.9 Radio",
-      "category": "Música",
-      "community": "Euskadi",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Stream 1",
-          "url": "https://node-33.zeno.fm/p9m9tuyap98uv",
-          "format": "mp3",
-          "source": "candidate-audit"
-        }
-      ]
-    },
-    {
-      "id": "hitz-funky-radio",
-      "name": "Hitz Funky Radio",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Funk",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Stream 1",
-          "url": "http://stream.zeno.fm/azgx0ktf4p8uv",
-          "format": "mp3",
-          "source": "candidate-audit"
-        },
-        {
-          "label": "Stream 2",
-          "url": "https://stream.zeno.fm/zcpx195bt7zuv",
-          "format": "mp3",
-          "source": "candidate-audit"
-        }
-      ]
-    },
-    {
-      "id": "hitz-africa-fm",
-      "name": "Hitz Africa FM",
-      "category": "Música",
-      "community": "Euskadi",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Stream 1",
-          "url": "http://ec2.yesstreaming.net:2960/stream",
-          "format": "mp3",
-          "source": "candidate-audit"
-        }
-      ]
-    },
-    {
-      "id": "hitz-radio-24-7",
-      "name": "Hitz Radio 24/7",
-      "category": "Música",
-      "community": "Euskadi",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Stream 1",
-          "url": "http://live2.rcast.net:9122/stream",
-          "format": "mp3",
-          "source": "candidate-audit"
-        }
-      ]
-    },
-    {
-      "id": "rock-hitz",
-      "name": "Rock Hitz",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Rock",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "hitz-home-abroad",
-      "name": "Hitz Home & Abroad",
-      "category": "Música",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "deluxe-radio-flamenco-flow",
-      "name": "Deluxe Radio - Flamenco Flow",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Flamenco",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "deluxe-radio-de-rumbas",
-      "name": "Deluxe Radio - De Rumbas",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Rumba",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "deluxe-radio-pop-con-n",
-      "name": "Deluxe Radio - Pop Con Ñ",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Pop español",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "deluxe-radio-sbk",
-      "name": "Deluxe Radio - SBK",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Latina",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "deluxe-radio-retro-dance",
-      "name": "Deluxe Radio - Retro Dance",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Dance",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "deluxe-radio-mainstage",
-      "name": "Deluxe Radio - Mainstage",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "EDM",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "deluxe-radio-de-fiesta",
-      "name": "Deluxe Radio - De Fiesta",
-      "category": "Música",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "deluxe-radio-perreo",
-      "name": "Deluxe Radio - Perreo",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Urbana",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "afrobeat-now-fm",
-      "name": "Afrobeat Now FM",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "World",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "candela-radio-bilbao",
-      "name": "Candela Radio Bilbao",
-      "category": "Música",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "formula-hit",
-      "name": "Fórmula Hit",
-      "category": "Música",
-      "community": "Euskadi",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Stream 1",
-          "url": "https://sonic.sistemahost.es/8176/stream;.mp3",
-          "format": "mp3",
-          "source": "candidate-audit"
-        }
-      ]
-    },
-    {
-      "id": "groove-time-fm-bilbao",
-      "name": "Groove Time FM Bilbao",
-      "category": "Música",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "home-and-abroad-fm-bilbao",
-      "name": "Home And Abroad FM Bilbao",
-      "category": "Música",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "hitz-home-abroad-fm-bilbao",
-      "name": "Hitz Home & Abroad FM Bilbao",
-      "category": "Música",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "okunslive-bilbao",
-      "name": "Okunslive Bilbao",
-      "category": "Música",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "radio-lider-euskadi-94-3-fm",
-      "name": "Radio Líder Euskadi 94.3 FM",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "urban-fm-bilbao",
-      "name": "Urban FM Bilbao",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Urbana",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "ataria-irratia-donostia",
-      "name": "Ataria Irratia Donostia",
-      "category": "Comunidad",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "bidea-irratia-bilbao",
-      "name": "Bidea Irratia Bilbao",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "irola-irratia-bilbao",
-      "name": "Irola Irratia Bilbao",
-      "category": "Comunidad",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "onda-alavesa",
-      "name": "Onda Alavesa",
-      "category": "Música",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "portu-radio-portugalete",
-      "name": "Portu Radio Portugalete",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "radio-tular-irratia-bizkaia",
-      "name": "Radio Tular Irratia Bizkaia",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "soft-music-radio-bilbao",
-      "name": "Soft Music Radio Bilbao",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "txapa-irratia-bergara",
-      "name": "Txapa Irratia Bergara",
-      "category": "Comunidad",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es/RadioESP",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "antxeta-irratia-irun",
-      "name": "Antxeta Irratia Irun",
-      "category": "Comunidad",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es/RadioESP",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "frontiers-radio-donostia",
-      "name": "Frontiers Radio Donostia",
-      "category": "Religión",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "onda-alavesa-vitoria",
-      "name": "Onda Alavesa Vitoria",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "radio-siberia-vitoria",
-      "name": "Radio Siberia Vitoria",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "kiroleros-vitoria",
-      "name": "Kiroleros Vitoria",
-      "category": "Deporte",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "radio-llodio-laudio",
-      "name": "Radio Llodio Laudio",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "oiartzun-irratia-oiartzun",
-      "name": "Oiartzun Irratia Oiartzun",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es/RadioESP",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "ataria-irratia-tolosa",
-      "name": "Ataria Irratia Tolosa",
-      "category": "Comunidad",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es/RadioESP",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "bergara-irratia",
-      "name": "Bergara Irratia",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es/RadioESP",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "galdakaoko-albistegia-irratia",
-      "name": "Galdakaoko Albistegia Irratia",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "irratia-97-fm-bilbao",
-      "name": "Irratia 97 FM Bilbao",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "bilbo-hiria-irratia-96-0-fm",
-      "name": "Bilbo Hiria Irratia 96.0 FM",
-      "category": "Comunidad",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "bizkaia-irratia-96-7-fm",
-      "name": "Bizkaia Irratia 96.7 FM",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "arrate-irratia-93-6-fm",
-      "name": "Arrate Irratia 93.6 FM",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "pasaia-irratia",
-      "name": "Pasaia Irratia",
-      "category": "Comunidad",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es/RadioESP",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
       "id": "zintzilik-irratia",
       "name": "Zintzilik Irratia",
       "category": "Comunidad",
       "community": "Euskadi",
-      "sourceSeed": "radio.es/RadioESP",
+      "sourceSeed": "Sitio oficial",
       "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "herri-irratia-donostia",
-      "name": "Herri Irratia Donostia",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "herri-irratia-bilbao",
-      "name": "Herri Irratia Bilbao",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "donostiako-kultur-irratia",
-      "name": "Donostiako Kultur Irratia",
-      "category": "Cultura",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "txolarre-irratia",
-      "name": "Txolarre Irratia",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "miare-irratia",
-      "name": "Miare Irratia",
-      "category": "Comunidad",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "ttan-ttakun-irratia",
-      "name": "Ttan Ttakun Irratia",
-      "category": "Comunidad",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "aralar-irratia",
-      "name": "Aralar Irratia",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es/RadioESP",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "info7-donostia",
-      "name": "Info7 Donostia",
-      "category": "Música",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "info7-bilbao",
-      "name": "Info7 Bilbao",
-      "category": "Música",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "info7-vitoria",
-      "name": "Info7 Vitoria",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "arraio-irratia",
-      "name": "Arraio Irratia",
-      "category": "Comunidad",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es/RadioESP",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "gure-bazterrak-irratia",
-      "name": "Gure Bazterrak Irratia",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "hala-bedi-irratia-vitoria",
-      "name": "Hala Bedi Irratia Vitoria",
-      "category": "Comunidad",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "radio-llodio-fm",
-      "name": "Radio Llodio FM",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "uribe-fm-gorliz",
-      "name": "Uribe FM Gorliz",
-      "category": "Música",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "motiva-fm-euskadi",
-      "name": "Motiva FM Euskadi",
-      "category": "Música",
-      "community": "Euskadi",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "play-fm-donostia",
-      "name": "Play FM Donostia",
-      "category": "Música",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "radio-sur-20-bilbao-fm",
-      "name": "Radio Sur 20 Bilbao FM",
-      "category": "Música",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "euskadi-digital-bilbao",
-      "name": "Euskadi Digital Bilbao",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "euskadigital-bilbao",
-      "name": "EuskaDigital Bilbao",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "bilbao-fm-urban",
-      "name": "Bilbao FM Urban",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Urbana",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "bilbao-fm-latina",
-      "name": "Bilbao FM Latina",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Latina",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "bilbao-fm-pop",
-      "name": "Bilbao FM Pop",
-      "category": "Música",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "bilbao-fm-hits",
-      "name": "Bilbao FM Hits",
-      "category": "Música",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
+      "streams": [],
+      "websiteUrl": "https://www.zintzilik.net/",
+      "logoUrl": null
     }
   ]
 }

@@ -2,203 +2,75 @@
   "blacklistPath": "catalog/national-blacklist.json",
   "candidateSummary": {
     "euskadi": {
-      "candidateCount": 21,
-      "playableCandidateCount": 21
+      "candidateCount": 7,
+      "playableCandidateCount": 7
     }
   },
   "candidateDetails": {
     "euskadi": [
       {
-        "id": "radio-formula-hit-castellon-98-3-fm",
-        "name": "Formula Hit",
+        "id": "ataun-irratia",
+        "name": "Ataun Irratia",
         "streams": [
-          "https://sonic.sistemahost.es/8176/stream;.mp3"
+          "http://server8.emitironline.com:18572/stream"
         ],
-        "duplicate_stream_in": [],
-        "same_name_in": []
+        "sourceSeed": "Sitio oficial + directorios públicos",
+        "websiteUrl": "https://www.ataunirratia.eus/"
       },
       {
-        "id": "soft-radio",
-        "name": "Soft Radio",
+        "id": "bi-fm",
+        "name": "BI FM",
         "streams": [
-          "https://listen.openstream.co/6263/audio"
+          "http://94.75.234.135:8052/listen.plsmp3"
         ],
-        "duplicate_stream_in": [],
-        "same_name_in": []
+        "sourceSeed": "Sitio oficial + stream público",
+        "websiteUrl": "https://bifmradio.com/play/"
       },
       {
-        "id": "candela-radio",
-        "name": "Candela Radio",
+        "id": "euskadi-digital",
+        "name": "Euskadi Digital",
         "streams": [
-          "http://uk1-pn.webcast-server.net:8226"
+          "https://stream.euskonet.eus/euskadigital",
+          "http://stream.euskonet.eus:8000/euskadigital"
         ],
-        "duplicate_stream_in": [],
-        "same_name_in": []
+        "sourceSeed": "Sitio oficial + directorios públicos",
+        "websiteUrl": "https://www.euskadigital.eus/"
       },
       {
-        "id": "free-fm-80s",
-        "name": "Free FM 80s",
+        "id": "radio-galdakao",
+        "name": "GDKO Irratia",
         "streams": [
-          "http://freefm80.radioca.st/"
+          "http://listen.radionomy.com:80/GDKOirratia/;#.mp3"
         ],
-        "duplicate_stream_in": [],
-        "same_name_in": []
+        "sourceSeed": "Sitio oficial",
+        "websiteUrl": "https://gdkoirratiacom.wordpress.com/play/"
       },
       {
-        "id": "free-fm-world",
-        "name": "Free FM World",
+        "id": "radio-llodio",
+        "name": "Radio Llodio",
         "streams": [
-          "https://rocafmadrid.radioca.st/stream"
+          "http://v2.ayser.net:8000/stream.ogg"
         ],
-        "duplicate_stream_in": [],
-        "same_name_in": []
+        "sourceSeed": "Sitio oficial + directorios públicos",
+        "websiteUrl": "https://radiollodio.com/"
       },
       {
-        "id": "free-fm-love",
-        "name": "Free FM Love",
+        "id": "segura-irratia",
+        "name": "Segura Irratia",
         "streams": [
-          "https://stream.zeno.fm/umsptm6rvy8uv"
+          "https://soporte.ikernet.net:6443/listen/segura_irratia/radio.mp3"
         ],
-        "duplicate_stream_in": [],
-        "same_name_in": []
+        "sourceSeed": "Sitio oficial + directorios públicos",
+        "websiteUrl": "https://segurairratia.eus/"
       },
       {
-        "id": "free-fm-top-100",
-        "name": "Free FM Top 100",
+        "id": "uribe-fm",
+        "name": "Uribe FM",
         "streams": [
-          "https://stream.zeno.fm/a5h7vfret68uv"
+          "http://server8.emitironline.com:10822/radio"
         ],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "free-fm-classical",
-        "name": "Free FM Classical",
-        "streams": [
-          "http://stream.zeno.fm/x5jlpogsaedvv"
-        ],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "free-fm-chill",
-        "name": "Free FM Chill",
-        "streams": [
-          "https://s2.we4stream.com/listen/loca_chill_out/live"
-        ],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "free-fm-x-mas",
-        "name": "Free FM X-Mas",
-        "streams": [
-          "http://stream.zeno.fm/h60er015v68uv"
-        ],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "free-fm-rock",
-        "name": "Free FM Rock",
-        "streams": [
-          "https://freefmrock.radioca.st/stream"
-        ],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "free-fm-classics",
-        "name": "Free FM Classics",
-        "streams": [
-          "https://xxdelgado.radioca.st"
-        ],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "free-fm-sports",
-        "name": "Free FM Sports",
-        "streams": [
-          "https://stream.zeno.fm/31nnibfpnxktv"
-        ],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "hitz-90s-fm",
-        "name": "Hitz 90s FM",
-        "streams": [
-          "http://stream.zeno.fm/1q3dwmd6yf8uv",
-          "https://stream.zeno.fm/x3sxe2nv0p8uv"
-        ],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "hitz-91-0",
-        "name": "Hitz 91.0",
-        "streams": [
-          "http://stream.zeno.fm/f2qmny74gd0uv"
-        ],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "hitz-91-5-fm",
-        "name": "Hitz 91.5 FM",
-        "streams": [
-          "http://ec2.yesstreaming.net:3110/stream",
-          "https://stream.zeno.fm/zskjbd7n200tv"
-        ],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "hitz-91-9-radio",
-        "name": "Hitz 91.9 Radio",
-        "streams": [
-          "https://node-33.zeno.fm/p9m9tuyap98uv"
-        ],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "hitz-funky-radio",
-        "name": "Hitz Funky Radio",
-        "streams": [
-          "http://stream.zeno.fm/azgx0ktf4p8uv",
-          "https://stream.zeno.fm/zcpx195bt7zuv"
-        ],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "hitz-africa-fm",
-        "name": "Hitz Africa FM",
-        "streams": [
-          "http://ec2.yesstreaming.net:2960/stream"
-        ],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "hitz-radio-24-7",
-        "name": "Hitz Radio 24/7",
-        "streams": [
-          "http://live2.rcast.net:9122/stream"
-        ],
-        "duplicate_stream_in": [],
-        "same_name_in": []
-      },
-      {
-        "id": "formula-hit",
-        "name": "Fórmula Hit",
-        "streams": [
-          "https://sonic.sistemahost.es/8176/stream;.mp3"
-        ],
-        "duplicate_stream_in": [],
-        "same_name_in": []
+        "sourceSeed": "Sitio oficial + directorios públicos",
+        "websiteUrl": "https://uribefm.com/"
       }
     ]
   }

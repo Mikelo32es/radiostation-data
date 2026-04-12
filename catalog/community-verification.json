@@ -1,9 +1,9 @@
 {
-  "generatedFrom": "Reset manual 2026-04-12",
+  "generatedFrom": "Remate manual 2026-04-12",
   "criteria": {
-    "verified": "Stream reutilizado desde TDTChannels, web oficial o catálogo previo estable.",
-    "candidate": "Stream encontrado en auditoría/catálogos públicos, pendiente de validación final.",
-    "seeded_pending": "Nombre semilla válido para Euskadi sin stream promocionable todavía."
+    "verified": "Stream presente en TDTChannels o publicado en snippet/página oficial de la emisora.",
+    "candidate": "Emisora vasca real con stream público localizado en directorios o fuentes menos sólidas; requiere validación final manual.",
+    "seeded_pending": "Emisora vasca real o semilla plausible del ecosistema local sin stream fiable todavía."
   },
   "communities": [
     {
@@ -73,8 +73,8 @@
       "id": "euskadi",
       "name": "Euskadi",
       "path": "communities/euskadi.json",
-      "seedCount": 200,
-      "playableCount": 54
+      "seedCount": 77,
+      "playableCount": 37
     },
     {
       "id": "extremadura",
@@ -134,10 +134,10 @@
     }
   ],
   "totals": {
-    "seedCount": 200,
-    "playableCount": 54,
-    "verifiedCount": 33,
-    "candidateCount": 21,
-    "pendingCount": 146
+    "seedCount": 77,
+    "playableCount": 37,
+    "verifiedCount": 30,
+    "candidateCount": 7,
+    "pendingCount": 40
   }
 }

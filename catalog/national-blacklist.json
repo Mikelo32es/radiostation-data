@@ -94,12 +94,20 @@
         "esRadio",
         "Intereconomía",
         "Capital Radio",
-        "Radio María"
+        "Radio María",
+        "Kiss FM",
+        "MuyBuena",
+        "Tropicana",
+        "Olímpica",
+        "La Flamenca"
       ],
       "examples": [
         "KISS FM España",
         "HIT FM",
-        "Capital Radio"
+        "Capital Radio",
+        "Kiss Music FM Bilbao",
+        "MuyBuena San Sebastián",
+        "Tropicana España"
       ]
     }
   ]

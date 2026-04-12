@@ -1,6 +1,6 @@
 {
   "blacklistPath": "catalog/national-blacklist.json",
-  "rule": "Toda emisora nacional o desconexión local de cadena nacional queda fuera de communities/*.json.",
+  "rule": "Toda emisora nacional, desconexión local de cadena nacional, clon dudoso o alias duplicado queda fuera de communities/*.json.",
   "communities": [
     {
       "id": "andalucia",
@@ -49,8 +49,8 @@
     },
     {
       "id": "euskadi",
-      "seedCount": 200,
-      "playableCount": 54
+      "seedCount": 77,
+      "playableCount": 37
     },
     {
       "id": "extremadura",
