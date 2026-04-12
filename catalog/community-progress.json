@@ -1,6 +1,6 @@
 {
-  "requestedAction": "Reforzar Euskadi por categorías (deportes, economía, religión, cultura y educación), meter Oye Athletic en Deportes y seguir dejando fuera las cadenas nacionales.",
-  "seedPolicy": "Nada de cadenas nacionales dentro de comunidades. Euskadi se refuerza con radios vascas/locales, escolares, comunitarias y culturales; lo que no tenga stream fino sigue como seeded_pending.",
+  "requestedAction": "Rematar Euskadi con radios vascas activas, depurar seeds flojas y dejar fuera cualquier cadena nacional o clon dudoso.",
+  "seedPolicy": "Nada de cadenas nacionales dentro de comunidades. Euskadi se queda con radios vascas/locales, escolares, comunitarias, culturales o temáticas con encaje claro; lo flojo o genérico se poda.",
   "communities": [
     {
       "id": "andalucia",
@@ -69,7 +69,7 @@
       "id": "euskadi",
       "name": "Euskadi",
       "path": "communities/euskadi.json",
-      "seedCount": 82,
+      "seedCount": 75,
       "playableCount": 38
     },
     {

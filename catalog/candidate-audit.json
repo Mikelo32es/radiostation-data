@@ -2,40 +2,12 @@
   "blacklistPath": "catalog/national-blacklist.json",
   "candidateSummary": {
     "euskadi": {
-      "candidateCount": 7,
-      "playableCandidateCount": 7
+      "candidateCount": 2,
+      "playableCandidateCount": 2
     }
   },
   "candidateDetails": {
     "euskadi": [
-      {
-        "id": "ataun-irratia",
-        "name": "Ataun Irratia",
-        "streams": [
-          "http://server8.emitironline.com:18572/stream"
-        ],
-        "sourceSeed": "Sitio oficial + directorios públicos",
-        "websiteUrl": "https://www.ataunirratia.eus/"
-      },
-      {
-        "id": "bi-fm",
-        "name": "BI FM",
-        "streams": [
-          "http://94.75.234.135:8052/listen.plsmp3"
-        ],
-        "sourceSeed": "Sitio oficial + stream público",
-        "websiteUrl": "https://bifmradio.com/play/"
-      },
-      {
-        "id": "euskadi-digital",
-        "name": "Euskadi Digital",
-        "streams": [
-          "https://stream.euskonet.eus/euskadigital",
-          "http://stream.euskonet.eus:8000/euskadigital"
-        ],
-        "sourceSeed": "Sitio oficial + directorios públicos",
-        "websiteUrl": "https://www.euskadigital.eus/"
-      },
       {
         "id": "radio-galdakao",
         "name": "GDKO Irratia",
@@ -44,24 +16,6 @@
         ],
         "sourceSeed": "Sitio oficial",
         "websiteUrl": "https://www.radiogaldakao.eus/"
-      },
-      {
-        "id": "radio-llodio",
-        "name": "Radio Llodio",
-        "streams": [
-          "http://v2.ayser.net:8000/stream.ogg"
-        ],
-        "sourceSeed": "Sitio oficial + directorios públicos",
-        "websiteUrl": "https://radiollodio.com/"
-      },
-      {
-        "id": "segura-irratia",
-        "name": "Segura Irratia",
-        "streams": [
-          "https://soporte.ikernet.net:6443/listen/segura_irratia/radio.mp3"
-        ],
-        "sourceSeed": "Sitio oficial + directorios públicos",
-        "websiteUrl": "https://segurairratia.eus/"
       },
       {
         "id": "uribe-fm",

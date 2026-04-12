@@ -2,11 +2,11 @@
   "repoName": "radiostation-data",
   "community": "Euskadi",
   "seedSource": "myTuner + TDTChannels + webs oficiales + Arrosa/UPV/EHU/centros educativos",
-  "seedCount": 82,
+  "seedCount": 75,
   "playableCount": 38,
-  "verifiedCount": 31,
-  "candidateCount": 7,
-  "pendingCount": 44,
+  "verifiedCount": 36,
+  "candidateCount": 2,
+  "pendingCount": 37,
   "notes": "Euskadi reforzado por categorías sin meter cadenas nacionales: más peso para deportes, economía, religión, cultura y educación. Se añaden radios locales, escolares, comunitarias y culturales como seeds; solo quedan en verified/candidate las que mantienen stream público razonablemente claro.",
   "stations": [
     {
@@ -625,7 +625,7 @@
       "websiteUrl": "https://www.ataunirratia.eus/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/910/ataun-irratia.cfa99ffb.png",
       "sourceSeed": "Sitio oficial + directorios públicos",
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": [
         {
           "label": "MP3 candidato",
@@ -644,7 +644,7 @@
       "websiteUrl": "https://bifmradio.com/play/",
       "logoUrl": "https://www.bifmradio.com/wp-content/uploads/2020/12/bifm-logo.png",
       "sourceSeed": "Sitio oficial + stream público",
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": [
         {
           "label": "Candidato tercero",
@@ -657,13 +657,12 @@
     {
       "id": "euskadi-digital",
       "name": "Euskadi Digital",
-      "category": "Economía",
+      "category": "Educación",
       "community": "Euskadi",
-      "musicType": "Electrónica",
       "websiteUrl": "https://www.euskadigital.eus/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/PFwA88buez.jpg",
       "sourceSeed": "Sitio oficial + directorios públicos",
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": [
         {
           "label": "Icecast mount candidato",
@@ -705,7 +704,7 @@
       "websiteUrl": "https://radiollodio.com/",
       "logoUrl": "https://radiollodio.com/wp-content/uploads/2020/02/LOGO-RADIO-LLODIO-LOGOTIPO-1.png",
       "sourceSeed": "Sitio oficial + directorios públicos",
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": [
         {
           "label": "OGG candidato",
@@ -723,7 +722,7 @@
       "websiteUrl": "https://segurairratia.eus/",
       "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/653/segura-irratia.cf94d527.jpg",
       "sourceSeed": "Sitio oficial + directorios públicos",
-      "verificationStatus": "candidate",
+      "verificationStatus": "verified",
       "streams": [
         {
           "label": "MP3 principal",
@@ -768,7 +767,7 @@
       "name": "Antxeta Irratia",
       "category": "Comunidad",
       "community": "Euskadi",
-      "sourceSeed": "Sitio oficial",
+      "sourceSeed": "Sitio oficial + Arrosa",
       "verificationStatus": "seeded_pending",
       "streams": [],
       "websiteUrl": "https://antxetamedia.eus/",
@@ -810,7 +809,7 @@
       "name": "Ataria Irratia",
       "category": "Cultura",
       "community": "Euskadi",
-      "sourceSeed": "radio.es/RadioESP",
+      "sourceSeed": "Sitio oficial + Arrosa",
       "verificationStatus": "seeded_pending",
       "streams": [],
       "websiteUrl": "https://ataria.eus/irratia/"
@@ -894,53 +893,6 @@
       "streams": []
     },
     {
-      "id": "hard-rock-animals",
-      "name": "Hard Rock Animals",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Rock",
-      "sourceSeed": "Sitio oficial o directorio vasco",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "heavy-metal-souls-radio",
-      "name": "Heavy Metal Souls Radio",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Metal",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "info7-bilbao",
-      "name": "Info7 Bilbao",
-      "category": "Música",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "info7-donostia",
-      "name": "Info7 Donostia",
-      "category": "Música",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "info7-vitoria",
-      "name": "Info7 Vitoria",
-      "category": "Local",
-      "community": "Euskadi",
-      "sourceSeed": "myTuner",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
       "id": "itsuki-irratia",
       "name": "Itsuki Irratia",
       "category": "Local",
@@ -985,7 +937,7 @@
       "name": "Oiartzun Irratia",
       "category": "Comunidad",
       "community": "Euskadi",
-      "sourceSeed": "Sitio oficial",
+      "sourceSeed": "Sitio oficial + Arrosa",
       "verificationStatus": "seeded_pending",
       "streams": [],
       "websiteUrl": "https://oiartzunirratia.eus/",
@@ -1087,33 +1039,11 @@
       "name": "Radixu Irratia",
       "category": "Comunidad",
       "community": "Euskadi",
-      "sourceSeed": "Sitio oficial",
+      "sourceSeed": "Sitio oficial + Arrosa",
       "verificationStatus": "seeded_pending",
       "streams": [],
       "websiteUrl": "https://www.radixu.info/irratsaioak",
       "logoUrl": null
-    },
-    {
-      "id": "reggae-fm-1",
-      "name": "Reggae FM 1",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Reggae",
-      "sourceSeed": "radio.es",
-      "verificationStatus": "seeded_pending",
-      "streams": []
-    },
-    {
-      "id": "soft-radio",
-      "name": "Soft Radio",
-      "category": "Música",
-      "community": "Euskadi",
-      "musicType": "Soft",
-      "websiteUrl": "https://www.soft-radio.com",
-      "logoUrl": "https://www.soft-radio.com/wp-content/uploads/2024/02/Color-softradio-webp600px.webp",
-      "sourceSeed": "Directorio público",
-      "verificationStatus": "seeded_pending",
-      "streams": []
     },
     {
       "id": "sorgintxu-irratia",
@@ -1172,7 +1102,7 @@
       "name": "Zintzilik Irratia",
       "category": "Comunidad",
       "community": "Euskadi",
-      "sourceSeed": "Sitio oficial",
+      "sourceSeed": "Sitio oficial + Arrosa",
       "verificationStatus": "seeded_pending",
       "streams": [],
       "websiteUrl": "https://www.zintzilik.net/",

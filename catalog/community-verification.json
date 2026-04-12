@@ -1,9 +1,9 @@
 {
-  "generatedFrom": "Refuerzo manual Euskadi 2026-04-12",
+  "generatedFrom": "Remate manual Euskadi 2026-04-12",
   "criteria": {
-    "verified": "Stream presente en TDTChannels o publicado en snippet/página oficial de la emisora, con encaje territorial claro.",
-    "candidate": "Emisora vasca real con stream público localizado pero todavía pendiente de una última validación fina.",
-    "seeded_pending": "Emisora real plausible sin stream fiable todavía, o familia nacional centralizada pendiente de remate."
+    "verified": "Emisora vasca activa con stream público localizado y señal suficiente de vigencia en fuente oficial, Arrosa, TDTChannels o directorio público contrastable.",
+    "candidate": "Emisora vasca real con stream localizado pero todavía pendiente de una última validación fina o con encaje más débil.",
+    "seeded_pending": "Emisora real plausible sin stream fiable todavía; las seeds genéricas o de encaje flojo se eliminan."
   },
   "communities": [
     {
@@ -73,7 +73,7 @@
       "id": "euskadi",
       "name": "Euskadi",
       "path": "communities/euskadi.json",
-      "seedCount": 82,
+      "seedCount": 75,
       "playableCount": 38
     },
     {
@@ -134,10 +134,10 @@
     }
   ],
   "totals": {
-    "seedCount": 113,
+    "seedCount": 105,
     "playableCount": 64,
-    "verifiedCount": 57,
-    "candidateCount": 7,
-    "pendingCount": 49
+    "verifiedCount": 62,
+    "candidateCount": 2,
+    "pendingCount": 41
   }
 }
