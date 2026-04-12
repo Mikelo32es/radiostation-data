@@ -2,9 +2,9 @@
   "repoName": "radiostation-data",
   "community": "La Rioja",
   "seedSource": "myTuner",
-  "seedCount": 14,
-  "playableCount": 13,
-  "verifiedCount": 13,
+  "seedCount": 13,
+  "playableCount": 12,
+  "verifiedCount": 12,
   "candidateCount": 0,
   "pendingCount": 1,
   "notes": [
@@ -14,26 +14,6 @@
     "Radio 3 Pasitos sigue seeded_pending hasta localizar endpoint directo verificable completo."
   ],
   "stations": [
-    {
-      "id": "onda-cero-logrono",
-      "name": "Onda Cero Logroño",
-      "category": "Noticias",
-      "community": "La Rioja",
-      "websiteUrl": "https://www.ondacero.es/emisoras/rioja/rioja/directo/",
-      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 13,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS directo",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/logrono/master.m3u8",
-          "format": "hls",
-          "source": "TDTChannels"
-        }
-      ]
-    },
     {
       "id": "cadena-cope-logrono",
       "name": "Cadena COPE Logroño",
@@ -55,46 +35,6 @@
       ]
     },
     {
-      "id": "radio-rioja-ser",
-      "name": "Radio Rioja SER",
-      "category": "Noticias",
-      "community": "La Rioja",
-      "websiteUrl": "https://cadenaser.com/radio-rioja/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 15,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_RIOJA.mp3",
-          "format": "mp3",
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "free-fm-classics",
-      "name": "Free FM Classics",
-      "category": "Música",
-      "community": "La Rioja",
-      "websiteUrl": "https://www.freefmworld.com",
-      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fwww.freefmworld.com",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 16,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream directo",
-          "url": "https://xxdelgado.radioca.st",
-          "source": "Radiomap"
-        }
-      ],
-      "musicType": "Oldies"
-    },
-    {
       "id": "canal-ebro-radio",
       "name": "Canal Ebro Radio",
       "category": "Noticias",
@@ -111,66 +51,6 @@
           "url": "http://streaming.capsulaimposible.com:8000/stream/2/canalebro.mp3",
           "format": "mp3",
           "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "maxima-fm-rioja-107-1-fm",
-      "name": "Maxima FM Rioja 107.1 FM",
-      "category": "Música",
-      "community": "La Rioja",
-      "musicType": "Electrónica",
-      "websiteUrl": "https://zeno.fm/radio/maxima-fm-rioja-107-1-fm-loca-activa-radio/",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 18,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Zeno candidato",
-          "url": "https://stream.zeno.fm/uzs9ke2puy8uv",
-          "source": "Instagram/Zeno"
-        }
-      ]
-    },
-    {
-      "id": "free-fm-x-mas",
-      "name": "Free FM X-Mas",
-      "category": "Música",
-      "community": "La Rioja",
-      "websiteUrl": "https://sites.google.com/view/freefmworld",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/6uzYMVMHad.jpg",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 19,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "http://stream.zeno.fm/h60er015v68uv",
-          "format": "mp3",
-          "source": "radiobrowser index"
-        }
-      ],
-      "musicType": "Navidad"
-    },
-    {
-      "id": "radio-logrono",
-      "name": "Radio Logroño",
-      "category": "Noticias",
-      "community": "La Rioja",
-      "websiteUrl": "https://radiologrono.es/",
-      "logoUrl": "https://graph.facebook.com/radiologrono/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 20,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Zeno principal",
-          "url": "https://stream.zeno.fm/19buxw48djlvv",
-          "format": "mp3",
-          "source": "Web oficial"
         }
       ]
     },
@@ -196,6 +76,47 @@
       "musicType": "Pop"
     },
     {
+      "id": "free-fm-classics",
+      "name": "Free FM Classics",
+      "category": "Música",
+      "community": "La Rioja",
+      "websiteUrl": "https://www.freefmworld.com",
+      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fwww.freefmworld.com",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 16,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream directo",
+          "url": "https://xxdelgado.radioca.st",
+          "source": "Radiomap"
+        }
+      ],
+      "musicType": "Oldies"
+    },
+    {
+      "id": "free-fm-x-mas",
+      "name": "Free FM X-Mas",
+      "category": "Música",
+      "community": "La Rioja",
+      "websiteUrl": "https://sites.google.com/view/freefmworld",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/6uzYMVMHad.jpg",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 19,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "http://stream.zeno.fm/h60er015v68uv",
+          "format": "mp3",
+          "source": "radiobrowser index"
+        }
+      ],
+      "musicType": "Navidad"
+    },
+    {
       "id": "lokura-radio",
       "name": "Lokura Radio",
       "category": "Música",
@@ -216,18 +137,24 @@
       ]
     },
     {
-      "id": "radio-3-pasitos",
-      "name": "Radio 3 Pasitos",
-      "category": "Música",
+      "id": "onda-cero-logrono",
+      "name": "Onda Cero Logroño",
+      "category": "Noticias",
       "community": "La Rioja",
-      "websiteUrl": "https://zeno.fm/radio/radio-3-pasitos-en-directo/",
-      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fzeno.fm",
+      "websiteUrl": "https://www.ondacero.es/emisoras/rioja/rioja/directo/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
       "sourceSeed": "myTuner",
       "seedPage": 1,
-      "seedRank": 23,
-      "verificationStatus": "seeded_pending",
-      "streams": [],
-      "musicType": "80s / 90s"
+      "seedRank": 13,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS directo",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/logrono/master.m3u8",
+          "format": "hls",
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "onda-ocio",
@@ -251,24 +178,18 @@
       ]
     },
     {
-      "id": "vive-radio",
-      "name": "Vive! Radio",
-      "category": "Noticias",
+      "id": "radio-3-pasitos",
+      "name": "Radio 3 Pasitos",
+      "category": "Música",
       "community": "La Rioja",
-      "websiteUrl": "https://www.viveradio.es/viveBurgos",
-      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fwww.viveradio.es",
+      "websiteUrl": "https://zeno.fm/radio/radio-3-pasitos-en-directo/",
+      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fzeno.fm",
       "sourceSeed": "myTuner",
       "seedPage": 1,
-      "seedRank": 25,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://streaming.viveradio.es/viveburgos",
-          "format": "mp3",
-          "source": "Web oficial"
-        }
-      ]
+      "seedRank": 23,
+      "verificationStatus": "seeded_pending",
+      "streams": [],
+      "musicType": "80s / 90s"
     },
     {
       "id": "radio-haro-ser",
@@ -287,6 +208,66 @@
           "url": "http://streaming.capsulaimposible.com:8000/radioharo.mp3",
           "format": "mp3",
           "source": "Radio Browser index"
+        }
+      ]
+    },
+    {
+      "id": "radio-logrono",
+      "name": "Radio Logroño",
+      "category": "Noticias",
+      "community": "La Rioja",
+      "websiteUrl": "https://radiologrono.es/",
+      "logoUrl": "https://graph.facebook.com/radiologrono/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 20,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Zeno principal",
+          "url": "https://stream.zeno.fm/19buxw48djlvv",
+          "format": "mp3",
+          "source": "Web oficial"
+        }
+      ]
+    },
+    {
+      "id": "radio-rioja-ser",
+      "name": "Radio Rioja SER",
+      "category": "Noticias",
+      "community": "La Rioja",
+      "websiteUrl": "https://cadenaser.com/radio-rioja/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 15,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_RIOJA.mp3",
+          "format": "mp3",
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "vive-radio",
+      "name": "Vive! Radio",
+      "category": "Noticias",
+      "community": "La Rioja",
+      "websiteUrl": "https://www.viveradio.es/viveBurgos",
+      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fwww.viveradio.es",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 25,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://streaming.viveradio.es/viveburgos",
+          "format": "mp3",
+          "source": "Web oficial"
         }
       ]
     }

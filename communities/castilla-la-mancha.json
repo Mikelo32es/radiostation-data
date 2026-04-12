@@ -1,17 +1,92 @@
 {
-  "seedCount": 5,
-  "playableCount": 5,
-  "verifiedCount": 0,
-  "candidateCount": 5,
+  "seedCount": 9,
+  "playableCount": 9,
+  "verifiedCount": 8,
+  "candidateCount": 1,
   "pendingCount": 0,
   "stations": [
+    {
+      "id": "castilla-la-mancha--afradio",
+      "name": "AFradio",
+      "category": "Música",
+      "community": "Castilla-La Mancha",
+      "websiteUrl": "https://coolturafm.com",
+      "logoUrl": "https://graph.facebook.com/coolturafm/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://server9.emitironline.com:19244/",
+          "format": "mp3",
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "castilla-la-mancha--bi-fm",
+      "name": "BI FM",
+      "category": "Música",
+      "community": "Castilla-La Mancha",
+      "websiteUrl": "https://www.bifmradio.com/",
+      "logoUrl": "https://www.bifmradio.com/wp-content/uploads/2020/12/bifm-logo.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Candidato tercero",
+          "url": "http://94.75.234.135:8052/listen.plsmp3",
+          "format": "mp3",
+          "source": "liveradio.ie"
+        }
+      ],
+      "musicType": "Indie"
+    },
+    {
+      "id": "castilla-la-mancha--candela-radio",
+      "name": "Candela Radio",
+      "category": "Música",
+      "community": "Castilla-La Mancha",
+      "websiteUrl": "https://candelaradio.fm/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/m6mstp6fmuzc.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 público",
+          "url": "http://uk1-pn.webcast-server.net:8226",
+          "format": "mp3",
+          "source": "radio-online-json-url"
+        }
+      ],
+      "musicType": "Latina"
+    },
+    {
+      "id": "castilla-la-mancha--candil-radio",
+      "name": "Candil Radio",
+      "category": "Noticias",
+      "community": "Castilla-La Mancha",
+      "websiteUrl": "https://candilradio.com/",
+      "logoUrl": "https://graph.facebook.com/CandilRadio/picture?height=200&width=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://candilradio.com/liveradio/candil/live.mp3",
+          "format": "mp3",
+          "source": "TDTChannels"
+        }
+      ]
+    },
     {
       "id": "castilla-la-mancha--cmm-radio-castilla-la-mancha",
       "name": "CMM Radio Castilla-La Mancha",
       "category": "Música",
       "community": "Castilla-La Mancha",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://www.cmmedia.es/radio/",
+      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fwww.cmmedia.es%2Fradio%2F",
       "sourceSeed": "Spain.json",
       "verificationStatus": "candidate",
       "streams": [
@@ -25,80 +100,79 @@
       "musicType": "Variedad"
     },
     {
-      "id": "castilla-la-mancha--locactiva-radio",
-      "name": "Locactiva Radio",
+      "id": "castilla-la-mancha--cooltura-fm",
+      "name": "Cooltura FM",
       "category": "Música",
       "community": "Castilla-La Mancha",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
+      "websiteUrl": "https://coolturafm.com",
+      "logoUrl": "https://graph.facebook.com/coolturafm/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
       "streams": [
         {
-          "label": "Candidato",
-          "url": "http://91.121.77.67:8106/listen.pls",
-          "format": "pls",
-          "source": "Spain.json"
+          "label": "MP3 principal",
+          "url": "https://server9.emitironline.com:19244/",
+          "format": "mp3",
+          "source": "TDTChannels"
         }
       ],
       "musicType": "Variedad"
     },
     {
-      "id": "castilla-la-mancha--nova-onda-101-9-fm",
-      "name": "Nova Onda 101.9 fm",
+      "id": "castilla-la-mancha--decibelia-fm",
+      "name": "Decibelia FM",
       "category": "Música",
       "community": "Castilla-La Mancha",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
+      "websiteUrl": "https://decibeliafm.es/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1580311659226210310/umHvZ3-d_200x200.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
       "streams": [
         {
-          "label": "Candidato",
-          "url": "http://212.129.60.86:8047/",
+          "label": "Stream principal",
+          "url": "https://streaming.shoutcast.com/decibelia",
           "format": "stream",
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Pop"
-    },
-    {
-      "id": "castilla-la-mancha--onda-borox",
-      "name": "Onda Borox",
-      "category": "Música",
-      "community": "Castilla-La Mancha",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://85.48.163.31:8000/",
-          "format": "stream",
-          "source": "Spain.json"
+          "source": "TDTChannels"
         }
       ],
       "musicType": "Dance"
     },
     {
-      "id": "castilla-la-mancha--radio-montealegre-la-comarcal",
-      "name": "Radio Montealegre - La Comarcal",
+      "id": "castilla-la-mancha--espacio-4-fm",
+      "name": "Espacio 4 FM",
       "category": "Música",
       "community": "Castilla-La Mancha",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
+      "websiteUrl": "https://www.espacio4fm.com/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/uxmfabbdnref.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
       "streams": [
         {
-          "label": "Candidato",
-          "url": "http://directo.radiomontealegre.es:8010/;stream.mp3",
-          "format": "mp3",
-          "source": "Spain.json"
+          "label": "Stream principal",
+          "url": "https://stream.zeno.fm/fz0bc82wn0hvv",
+          "source": "TDTChannels"
         }
       ],
-      "musicType": "Variedad"
+      "musicType": "Electrónica"
+    },
+    {
+      "id": "castilla-la-mancha--gozadera-fm",
+      "name": "Gozadera FM",
+      "category": "Música",
+      "community": "Castilla-La Mancha",
+      "websiteUrl": "https://gozadera.es/",
+      "logoUrl": "https://graph.facebook.com/GozaderaSpain/picture?height=200&width=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://azura.abcorp.es/radio/8030/live",
+          "format": "stream",
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Latino"
     }
   ]
 }

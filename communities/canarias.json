@@ -1,61 +1,36 @@
 {
-  "seedCount": 30,
-  "playableCount": 0,
-  "verifiedCount": 0,
-  "candidateCount": 30,
+  "seedCount": 23,
+  "playableCount": 23,
+  "verifiedCount": 8,
+  "candidateCount": 15,
   "pendingCount": 0,
   "stations": [
     {
-      "id": "canarias--7-7-radio",
-      "name": "7.7 radio",
+      "id": "canarias--afradio",
+      "name": "AFradio",
       "category": "Música",
       "community": "Canarias",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
+      "websiteUrl": "https://coolturafm.com",
+      "logoUrl": "https://graph.facebook.com/coolturafm/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
       "streams": [
         {
-          "label": "Candidato",
-          "url": "http://195.154.33.95:8078/stream",
-          "format": "stream",
-          "source": "Spain.json"
+          "label": "MP3 principal",
+          "url": "https://server9.emitironline.com:19244/",
+          "format": "mp3",
+          "source": "TDTChannels"
         }
       ],
-      "musicType": "80s"
-    },
-    {
-      "id": "canarias--atlantis-fm-101-7",
-      "name": "Atlantis.fm 101.7",
-      "category": "Música",
-      "community": "Canarias",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://radionetz.de:8000/atlantisfm.mp3.m3u",
-          "format": "m3u",
-          "source": "Spain.json"
-        },
-        {
-          "label": "Alternativo 2",
-          "url": "http://radionetz.de:8000/atlantisfm.aac.m3u",
-          "format": "m3u",
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Top 40"
+      "musicType": "Variedad"
     },
     {
       "id": "canarias--atlantis-fm-98-2-tenerife",
       "name": "Atlantis FM 98.2 - Tenerife",
       "category": "Música",
       "community": "Canarias",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://atlantisfmlanzarote.com/en/",
+      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fatlantisfmlanzarote.com%2Fen%2F",
       "sourceSeed": "Spain.json",
       "verificationStatus": "candidate",
       "streams": [
@@ -81,75 +56,168 @@
       "musicType": "80s"
     },
     {
-      "id": "canarias--bomba-fm-radio-tenerife",
-      "name": "Bomba FM Radio « Tenerife",
+      "id": "canarias--atlantis-fm-101-7",
+      "name": "Atlantis.fm 101.7",
       "category": "Música",
       "community": "Canarias",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://atlantisfmlanzarote.com/en/",
+      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fatlantisfmlanzarote.com%2Fen%2F",
       "sourceSeed": "Spain.json",
       "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Candidato",
-          "url": "http://totalstreaming.net:10624/;",
-          "format": "stream",
+          "url": "http://radionetz.de:8000/atlantisfm.mp3.m3u",
+          "format": "m3u",
           "source": "Spain.json"
         },
         {
           "label": "Alternativo 2",
-          "url": "http://46.4.33.73:10624/;",
-          "format": "stream",
+          "url": "http://radionetz.de:8000/atlantisfm.aac.m3u",
+          "format": "m3u",
           "source": "Spain.json"
         }
       ],
-      "musicType": "Latino"
+      "musicType": "Top 40"
     },
     {
-      "id": "canarias--coast-fm-102-5-and-102-8",
-      "name": "Coast FM 102.5 & 102.8",
+      "id": "canarias--bi-fm",
+      "name": "BI FM",
       "category": "Música",
       "community": "Canarias",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
+      "websiteUrl": "https://www.bifmradio.com/",
+      "logoUrl": "https://www.bifmradio.com/wp-content/uploads/2020/12/bifm-logo.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
       "streams": [
         {
-          "label": "Candidato",
-          "url": "http://uk2-pn.mixstream.net:8192/",
-          "format": "stream",
-          "source": "Spain.json"
+          "label": "Candidato tercero",
+          "url": "http://94.75.234.135:8052/listen.plsmp3",
+          "format": "mp3",
+          "source": "liveradio.ie"
+        }
+      ],
+      "musicType": "Indie"
+    },
+    {
+      "id": "canarias--candela-radio",
+      "name": "Candela Radio",
+      "category": "Música",
+      "community": "Canarias",
+      "websiteUrl": "https://candelaradio.fm/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/m6mstp6fmuzc.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 público",
+          "url": "http://uk1-pn.webcast-server.net:8226",
+          "format": "mp3",
+          "source": "radio-online-json-url"
+        }
+      ],
+      "musicType": "Latina"
+    },
+    {
+      "id": "canarias--candil-radio",
+      "name": "Candil Radio",
+      "category": "Noticias",
+      "community": "Canarias",
+      "websiteUrl": "https://candilradio.com/",
+      "logoUrl": "https://graph.facebook.com/CandilRadio/picture?height=200&width=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://candilradio.com/liveradio/candil/live.mp3",
+          "format": "mp3",
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "canarias--cooltura-fm",
+      "name": "Cooltura FM",
+      "category": "Música",
+      "community": "Canarias",
+      "websiteUrl": "https://coolturafm.com",
+      "logoUrl": "https://graph.facebook.com/coolturafm/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://server9.emitironline.com:19244/",
+          "format": "mp3",
+          "source": "TDTChannels"
         }
       ],
       "musicType": "Variedad"
     },
     {
-      "id": "canarias--gold-103-8-fm",
-      "name": "Gold 103.8 fm",
+      "id": "canarias--decibelia-fm",
+      "name": "Decibelia FM",
       "category": "Música",
       "community": "Canarias",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
+      "websiteUrl": "https://decibeliafm.es/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1580311659226210310/umHvZ3-d_200x200.jpg",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
       "streams": [
         {
-          "label": "Candidato",
-          "url": "http://178.19.116.3:60009/gold",
+          "label": "Stream principal",
+          "url": "https://streaming.shoutcast.com/decibelia",
           "format": "stream",
-          "source": "Spain.json"
+          "source": "TDTChannels"
         }
       ],
-      "musicType": "Pop"
+      "musicType": "Dance"
+    },
+    {
+      "id": "canarias--espacio-4-fm",
+      "name": "Espacio 4 FM",
+      "category": "Música",
+      "community": "Canarias",
+      "websiteUrl": "https://www.espacio4fm.com/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/uxmfabbdnref.png",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://stream.zeno.fm/fz0bc82wn0hvv",
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Electrónica"
+    },
+    {
+      "id": "canarias--gozadera-fm",
+      "name": "Gozadera FM",
+      "category": "Música",
+      "community": "Canarias",
+      "websiteUrl": "https://gozadera.es/",
+      "logoUrl": "https://graph.facebook.com/GozaderaSpain/picture?height=200&width=200",
+      "sourceSeed": "myTuner",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://azura.abcorp.es/radio/8030/live",
+          "format": "stream",
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Latino"
     },
     {
       "id": "canarias--hola-fm-95-7",
       "name": "HOLA FM 95.7",
       "category": "Música",
       "community": "Canarias",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://holafm.com/",
+      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fholafm.com%2F",
       "sourceSeed": "Spain.json",
       "verificationStatus": "candidate",
       "streams": [
@@ -173,8 +241,8 @@
       "name": "Inter Radio Tenerife",
       "category": "Música",
       "community": "Canarias",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://interradiotenerife.com/",
+      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Finterradiotenerife.com%2F",
       "sourceSeed": "Spain.json",
       "verificationStatus": "candidate",
       "streams": [
@@ -188,50 +256,12 @@
       "musicType": "Variedad"
     },
     {
-      "id": "canarias--mega-latina-fm-canary-islands",
-      "name": "Mega Latina FM - Canary Islands",
-      "category": "Música",
-      "community": "Canarias",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://212.129.60.86:9324/stream",
-          "format": "stream",
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Latino"
-    },
-    {
-      "id": "canarias--mix-radio-101-1-and-104-8-fm",
-      "name": "Mix-Radio 101.1 & 104.8 FM",
-      "category": "Música",
-      "community": "Canarias",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://radionetz.de:8000/mixfm.mp3",
-          "format": "mp3",
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
       "id": "canarias--monster-radio",
       "name": "Monster Radio",
       "category": "Música",
       "community": "Canarias",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://monsterradio.eu/",
+      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fmonsterradio.eu%2F",
       "sourceSeed": "Spain.json",
       "verificationStatus": "candidate",
       "streams": [
@@ -245,50 +275,12 @@
       "musicType": "Variedad"
     },
     {
-      "id": "canarias--oasis-fm-tenerife",
-      "name": "Oasis Fm Tenerife",
-      "category": "Música",
-      "community": "Canarias",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://s1.viastreaming.net:7120/listen.pls",
-          "format": "pls",
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "canarias--playa-fm-lounge-and-groove",
-      "name": "Playa FM Lounge & Groove",
-      "category": "Música",
-      "community": "Canarias",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://64.71.79.181:5242/;",
-          "format": "stream",
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Electrónica"
-    },
-    {
       "id": "canarias--qfm-94-3-tenerife",
       "name": "Qfm 94.3 Tenerife",
       "category": "Música",
       "community": "Canarias",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://www.qmusica.com/homepage",
+      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fwww.qmusica.com%2Fhomepage",
       "sourceSeed": "Spain.json",
       "verificationStatus": "candidate",
       "streams": [
@@ -308,118 +300,12 @@
       "musicType": "Jazz"
     },
     {
-      "id": "canarias--radio-bambustrommel-93-5-fm",
-      "name": "Radio Bambustrommel 93.5 FM",
-      "category": "Música",
-      "community": "Canarias",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://samcloud.spacial.com/api/listen?sid=85647",
-          "format": "stream",
-          "source": "Spain.json"
-        },
-        {
-          "label": "Alternativo 2",
-          "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/SP_R2085524_SC.mp3",
-          "format": "mp3",
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Top 40"
-    },
-    {
-      "id": "canarias--radio-carrizal-101-7-fm",
-      "name": "Radio Carrizal 101.7 FM",
-      "category": "Música",
-      "community": "Canarias",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://streaming.enantena.com:8000/radiocarrizal128.mp3",
-          "format": "mp3",
-          "source": "Spain.json"
-        },
-        {
-          "label": "Alternativo 2",
-          "url": "http://streaming.enantena.com:8000/radiocarrizal56.mp3",
-          "format": "mp3",
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "canarias--radio-el-dia-99-5-fm",
-      "name": "Radio EL DÍA 99.5 fm",
-      "category": "Noticias",
-      "community": "Canarias",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://185.50.197.212:9974/;stream.mp3",
-          "format": "mp3",
-          "source": "Spain.json"
-        }
-      ]
-    },
-    {
-      "id": "canarias--radio-europa-gran-canaria",
-      "name": "Radio Europa Gran Canaria",
-      "category": "Música",
-      "community": "Canarias",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://server2.digital-webstream.de:8005/;stream/1",
-          "format": "stream",
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "canarias--radio-europa-lanzarote",
-      "name": "Radio Europa Lanzarote",
-      "category": "Música",
-      "community": "Canarias",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://www.digital-webstream.de/stream/30430.m3u",
-          "format": "m3u",
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
       "id": "canarias--radio-europa-schlagerwelle-gran-canaria",
       "name": "Radio Europa - Schlagerwelle Gran Canaria",
       "category": "Música",
       "community": "Canarias",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://www.radioeuropa.fm/",
+      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fwww.radioeuropa.fm%2F",
       "sourceSeed": "Spain.json",
       "verificationStatus": "candidate",
       "streams": [
@@ -443,8 +329,8 @@
       "name": "Radio Europa - Schlagerwelle Teneriffa",
       "category": "Música",
       "community": "Canarias",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://www.radioeuropa.fm/",
+      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fwww.radioeuropa.fm%2F",
       "sourceSeed": "Spain.json",
       "verificationStatus": "candidate",
       "streams": [
@@ -464,19 +350,38 @@
       "musicType": "Top 40"
     },
     {
-      "id": "canarias--radio-gigante",
-      "name": "Radio Gigante",
+      "id": "canarias--radio-europa-gran-canaria",
+      "name": "Radio Europa Gran Canaria",
       "category": "Música",
       "community": "Canarias",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://www.radioeuropa.fm/",
+      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fwww.radioeuropa.fm%2F",
       "sourceSeed": "Spain.json",
       "verificationStatus": "candidate",
       "streams": [
         {
           "label": "Candidato",
-          "url": "http://server1.beatproducciones.com:8052/;",
+          "url": "http://server2.digital-webstream.de:8005/;stream/1",
           "format": "stream",
+          "source": "Spain.json"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "canarias--radio-europa-lanzarote",
+      "name": "Radio Europa Lanzarote",
+      "category": "Música",
+      "community": "Canarias",
+      "websiteUrl": "https://www.radioeuropa.fm/",
+      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fwww.radioeuropa.fm%2F",
+      "sourceSeed": "Spain.json",
+      "verificationStatus": "candidate",
+      "streams": [
+        {
+          "label": "Candidato",
+          "url": "http://www.digital-webstream.de/stream/30430.m3u",
+          "format": "m3u",
           "source": "Spain.json"
         }
       ],
@@ -487,8 +392,8 @@
       "name": "Radio Guiniguada 105.9 FM",
       "category": "Música",
       "community": "Canarias",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://www.radioguiniguada.com/",
+      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fwww.radioguiniguada.com%2F",
       "sourceSeed": "Spain.json",
       "verificationStatus": "candidate",
       "streams": [
@@ -502,50 +407,12 @@
       "musicType": "Variedad"
     },
     {
-      "id": "canarias--radio-norte-tenerife-105-5-fm",
-      "name": "Radio Norte Tenerife 105.5 FM",
-      "category": "Música",
-      "community": "Canarias",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://radionortetenerife.sytes.net:8011/stream.mp3",
-          "format": "mp3",
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Pop"
-    },
-    {
-      "id": "canarias--radio-prima-vera",
-      "name": "Radio Prima Vera",
-      "category": "Música",
-      "community": "Canarias",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://stream.radio-pv.com",
-          "format": "stream",
-          "source": "Spain.json"
-        }
-      ],
-      "musicType": "Pop"
-    },
-    {
       "id": "canarias--radio-san-mateo-fm",
       "name": "Radio San Mateo FM",
       "category": "Música",
       "community": "Canarias",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://radiosanmateo.es/",
+      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fradiosanmateo.es%2F",
       "sourceSeed": "Spain.json",
       "verificationStatus": "candidate",
       "streams": [
@@ -559,30 +426,12 @@
       "musicType": "Variedad"
     },
     {
-      "id": "canarias--radio-tamaraceite-fm-95-5-89-9",
-      "name": "Radio Tamaraceite fm 95.5/89.9",
-      "category": "Religión",
-      "community": "Canarias",
-      "websiteUrl": "",
-      "logoUrl": "",
-      "sourceSeed": "Spain.json",
-      "verificationStatus": "candidate",
-      "streams": [
-        {
-          "label": "Candidato",
-          "url": "http://enacast.com/radiotamaraceite/streams/HD",
-          "format": "stream",
-          "source": "Spain.json"
-        }
-      ]
-    },
-    {
       "id": "canarias--rtvc-canarias-radio-la-autonomica",
       "name": "RTVC Canarias Radio La Autonómica",
       "category": "Noticias",
       "community": "Canarias",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://rtvc.es/la-radio-canaria-en-directo/",
+      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Frtvc.es%2Fla-radio-canaria-en-directo%2F",
       "sourceSeed": "Spain.json",
       "verificationStatus": "candidate",
       "streams": [
@@ -599,8 +448,8 @@
       "name": "Tenerife Music Radio (TFMUSIC Radio)- Canary Islands",
       "category": "Música",
       "community": "Canarias",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://tfmusicradio.com/",
+      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Ftfmusicradio.com%2F",
       "sourceSeed": "Spain.json",
       "verificationStatus": "candidate",
       "streams": [
@@ -624,8 +473,8 @@
       "name": "YumboFM Gay Radio",
       "category": "Música",
       "community": "Canarias",
-      "websiteUrl": "",
-      "logoUrl": "",
+      "websiteUrl": "https://yumbofmradio.com/",
+      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fyumbofmradio.com%2F",
       "sourceSeed": "Spain.json",
       "verificationStatus": "candidate",
       "streams": [

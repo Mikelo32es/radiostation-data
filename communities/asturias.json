@@ -10,139 +10,26 @@
   "notes": "Pasada final de Asturias: integración en snapshot actual, ajuste fino del bloque deportivo y alta de Radio Marca Nacional sin tocar la app.",
   "stations": [
     {
-      "id": "rpa-asturias",
-      "name": "RPA",
-      "category": "Noticias",
-      "community": "Asturias",
-      "websiteUrl": "https://rtpa.es/radio",
-      "logoUrl": "https://graph.facebook.com/RTPAoficial/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 1,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://cdn-rtpa.watchity.net/wct-3545e416-1a16-44b5-b0db-481136ecacc9/continuous/7be5c015-1da2-4927-a49b-8d232faa69be/radio/index.m3u8",
-          "format": "hls",
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-nacional-asturias",
-      "name": "Radio Nacional Asturias",
-      "category": "Noticias",
-      "community": "Asturias",
-      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_ast-live/3893526/",
-      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 2,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://dispatcher.rndfnk.com/crtve/rne1/ast/mp3/high",
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-5-asturias",
-      "name": "Radio 5 Asturias",
-      "category": "Noticias",
-      "community": "Asturias",
-      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_ast/3894742/",
-      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 3,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://dispatcher.rndfnk.com/crtve/rne5/ast/mp3/high",
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-marca-asturias",
-      "name": "Radio Marca Asturias",
+      "id": "apq-radio",
+      "name": "APQ Radio",
       "category": "Deporte",
       "community": "Asturias",
-      "websiteUrl": "https://www.marca.com/radio.html",
-      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "musicType": "Deportiva / Generalista",
+      "websiteUrl": "https://www.apqradio.es",
+      "logoUrl": "https://graph.facebook.com/APQRadio.es/picture?width=200&height=200",
       "sourceSeed": "myTuner",
       "seedPage": 1,
-      "seedRank": 4,
+      "seedRank": 28,
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "MP3 principal",
-          "url": "https://streaming.enacast.com/radiomarcaasturiasHD.mp3",
-          "format": "mp3",
+          "label": "Stream principal",
+          "url": "https://stm2.emiteonline.com:9012/apqradio",
           "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ser-asturias",
-      "name": "Radio Asturias SER",
-      "category": "Noticias",
-      "community": "Asturias",
-      "websiteUrl": "https://cadenaser.com/radio-asturias/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 5,
-      "verificationStatus": "verified",
-      "streams": [
+        },
         {
-          "label": "MP3 principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_ASTURIAS.mp3",
-          "format": "mp3",
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ser-aviles",
-      "name": "Cadena SER Avilés",
-      "category": "Noticias",
-      "community": "Asturias",
-      "websiteUrl": "https://cadenaser.com/ser-aviles/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 6,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_AVILES.mp3",
-          "format": "mp3",
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ser-gijon",
-      "name": "Cadena SER Gijón",
-      "category": "Noticias",
-      "community": "Asturias",
-      "websiteUrl": "https://cadenaser.com/ser-gijon/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 7,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_GIJON.mp3",
-          "format": "mp3",
+          "label": "Stream alternativo",
+          "url": "https://stm2.emiteonline.com:9013/apqradio2",
           "source": "TDTChannels"
         }
       ]
@@ -222,6 +109,456 @@
         {
           "label": "MP3 principal",
           "url": "https://wecast-bl02.flumotion.com/copesedes/asturias.mp3",
+          "format": "mp3",
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-aviles",
+      "name": "Cadena SER Avilés",
+      "category": "Noticias",
+      "community": "Asturias",
+      "websiteUrl": "https://cadenaser.com/ser-aviles/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 6,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_AVILES.mp3",
+          "format": "mp3",
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-gijon",
+      "name": "Cadena SER Gijón",
+      "category": "Noticias",
+      "community": "Asturias",
+      "websiteUrl": "https://cadenaser.com/ser-gijon/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 7,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_GIJON.mp3",
+          "format": "mp3",
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "carrusel-fm",
+      "name": "Carrusel FM",
+      "category": "Música",
+      "community": "Asturias",
+      "musicType": "Remember",
+      "websiteUrl": "http://www.carruselfm.com",
+      "logoUrl": "https://pbs.twimg.com/profile_images/520332074147123200/pzYkTYHB_200x200.jpeg",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 20,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://server10.emitironline.com:8921/radio?.mp3",
+          "format": "mp3",
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "esradio-asturias",
+      "name": "EsRadio Asturias",
+      "category": "Noticias",
+      "community": "Asturias",
+      "websiteUrl": "https://www.esradioasturias.fm",
+      "logoUrl": "https://graph.facebook.com/esradio/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 17,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://server9.emitironline.com:8822/radio",
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "europa-fm-asturias",
+      "name": "Europa FM Asturias",
+      "category": "Música",
+      "community": "Asturias",
+      "musicType": "Top 40",
+      "websiteUrl": "https://www.europafm.com/frecuencias/asturias/",
+      "logoUrl": "https://graph.facebook.com/tueuropafm/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 18,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://atres-live.europafm.com/live/delegaciones/efm/gijon/master.m3u8",
+          "format": "hls",
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "free-fm-80s",
+      "name": "Free FM 80s",
+      "category": "Música",
+      "community": "Asturias",
+      "websiteUrl": "https://sites.google.com/view/freefmworld",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/827/free-fm-80s.16928eb8.png",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 57,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "http://freefm80.radioca.st/",
+          "format": "mp3",
+          "source": "radiobrowser index"
+        }
+      ],
+      "musicType": "80s"
+    },
+    {
+      "id": "free-fm-chill",
+      "name": "Free FM Chill",
+      "category": "Música",
+      "community": "Asturias",
+      "websiteUrl": "https://www.locafm.com/chill-out/player.html",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 62,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://s2.we4stream.com/listen/loca_chill_out/live",
+          "format": "stream",
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "free-fm-classical",
+      "name": "Free FM Classical",
+      "category": "Música",
+      "community": "Asturias",
+      "websiteUrl": "https://sites.google.com/view/freefmworld",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/020/free-fm-classical.0ef23d56.jpg",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 61,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "http://stream.zeno.fm/x5jlpogsaedvv",
+          "format": "mp3",
+          "source": "radiobrowser index"
+        }
+      ],
+      "musicType": "Clásica"
+    },
+    {
+      "id": "free-fm-classics",
+      "name": "Free FM Classics",
+      "category": "Música",
+      "community": "Asturias",
+      "websiteUrl": "https://www.freefmworld.com",
+      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fwww.freefmworld.com",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 56,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream directo",
+          "url": "https://xxdelgado.radioca.st",
+          "source": "Radiomap"
+        }
+      ],
+      "musicType": "Oldies"
+    },
+    {
+      "id": "free-fm-love",
+      "name": "Free FM Love",
+      "category": "Música",
+      "community": "Asturias",
+      "websiteUrl": "https://sites.google.com/view/freefmworld",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/714/free-fm-love.c1ba1f4e.jpg",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 59,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://stream.zeno.fm/umsptm6rvy8uv",
+          "format": "mp3",
+          "source": "TingFM listing"
+        }
+      ],
+      "musicType": "Romántica"
+    },
+    {
+      "id": "free-fm-rock",
+      "name": "Free FM Rock",
+      "category": "Música",
+      "community": "Asturias",
+      "websiteUrl": "https://www.freefmrock.com/",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/769/free-fm.aa638097.jpg",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 55,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://freefmrock.radioca.st/stream",
+          "format": "mp3",
+          "source": "fmstream (public listing)"
+        }
+      ],
+      "musicType": "Rock"
+    },
+    {
+      "id": "free-fm-sports",
+      "name": "Free FM Sports",
+      "category": "Deporte",
+      "community": "Asturias",
+      "websiteUrl": "https://sites.google.com/view/freefmworld",
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/BtX4kYE4dC.jpg",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 63,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://stream.zeno.fm/31nnibfpnxktv",
+          "format": "mp3",
+          "source": "TingFM listing"
+        }
+      ]
+    },
+    {
+      "id": "free-fm-top-100",
+      "name": "Free FM Top 100",
+      "category": "Música",
+      "community": "Asturias",
+      "musicType": "Top 100",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 60,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://stream.zeno.fm/a5h7vfret68uv",
+          "format": "mp3",
+          "source": "fmstream public listing"
+        }
+      ],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/814/free-fm-top-100.dc7b4dc7.jpg",
+      "websiteUrl": "https://www.freefmradio.net"
+    },
+    {
+      "id": "free-fm-world",
+      "name": "Free FM World",
+      "category": "Música",
+      "community": "Asturias",
+      "musicType": "World",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 58,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Principal",
+          "url": "https://rocafmadrid.radioca.st/stream",
+          "format": "mp3",
+          "source": "rcast/fmstream public listing"
+        }
+      ],
+      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/690/free-fm-spain.be1f4c93.jpg",
+      "websiteUrl": "https://sites.google.com/view/freefmworld"
+    },
+    {
+      "id": "guateque-fm",
+      "name": "Guateque FM",
+      "category": "Música",
+      "community": "Asturias",
+      "musicType": "Oldies",
+      "websiteUrl": "https://guatequefm.com",
+      "logoUrl": "https://play-lh.googleusercontent.com/29cOsGnQ8A3a-FJ1EkqBDVrMCIMWcQBORIWcmygreM9fNjU5C3Pci0CNDYDrv1NPPPD1=w200-h200",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 30,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://eu1.lhdserver.es:3219/stream",
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "la-bomba-radio",
+      "name": "La Bomba Radio",
+      "category": "Música",
+      "community": "Asturias",
+      "musicType": "Latina",
+      "websiteUrl": "http://www.labombaradio.es",
+      "logoUrl": "https://play-lh.googleusercontent.com/RnnCJFfcSu-Ma6MSoLJ4hDT2qz9tNrzHz3AdOyFy-h5bjRb0oakVfVOMtPOn5F7tmA=w200",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 23,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://stm2.emiteonline.com:9014/labomba",
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "la-cheverisima-radio",
+      "name": "La Cheverisima Radio",
+      "category": "Música",
+      "community": "Asturias",
+      "musicType": "Latina",
+      "websiteUrl": "https://lacheverisimaradio.com",
+      "logoUrl": "https://play-lh.googleusercontent.com/paqCGWhxPmfQOzkssgQHBiAW60j3zi04Hq9K2UWM_oddr-X-ZriB6OK-K0Xr8lmP4A=w200",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 32,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://samuel.i-radio.co:9000/lacheverisima",
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "la-jungla-radio",
+      "name": "La Jungla Radio",
+      "category": "Música",
+      "community": "Asturias",
+      "websiteUrl": "https://lajunglaradio.com",
+      "logoUrl": "https://graph.facebook.com/LaJunglaRadio/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "seedPage": 2,
+      "seedRank": 54,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://streaming12.elitecomunicacion.es:8626/stream?type=.mp3",
+          "format": "mp3",
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Éxitos y entretenimiento"
+    },
+    {
+      "id": "la-mega-fm-asturias",
+      "name": "La Mega FM Asturias",
+      "category": "Música",
+      "community": "Asturias",
+      "musicType": "Latina",
+      "websiteUrl": "https://www.lamegafmasturias.com",
+      "logoUrl": "https://play-lh.googleusercontent.com/c_sl-yRJP4jzCPQjkLe0xFWuGj6Xe6JaoShibnsuV98KnDkM7Ao54DsLD_1orN2eyDbC=w200",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 29,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://broadcast.radioponiente.org:8032/;.mp3",
+          "format": "mp3",
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-asturias",
+      "name": "Loca FM Asturias",
+      "category": "Música",
+      "community": "Asturias",
+      "musicType": "Dance Electrónica",
+      "websiteUrl": "https://locafmasturias.com",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 19,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://server1.easystreaming.pro:8443/locafmasturias",
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "master-fm-asturias",
+      "name": "Master FM Asturias",
+      "category": "Música",
+      "community": "Asturias",
+      "musicType": "Hits",
+      "websiteUrl": "https://masterfm.es/radiochannel/asturias/",
+      "logoUrl": "https://graph.facebook.com/masterfm.es/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 21,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://radios.masterfm.es:8000/asturias",
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "medea-fm",
+      "name": "Medea FM",
+      "category": "Música",
+      "community": "Asturias",
+      "musicType": "Variedad",
+      "websiteUrl": "https://medeafm.es",
+      "logoUrl": "https://graph.facebook.com/radiomedeafm/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 26,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://sonic.mediatelekom.net/8562/;.mp3",
           "format": "mp3",
           "source": "TDTChannels"
         }
@@ -328,107 +665,6 @@
       ]
     },
     {
-      "id": "esradio-asturias",
-      "name": "EsRadio Asturias",
-      "category": "Noticias",
-      "community": "Asturias",
-      "websiteUrl": "https://www.esradioasturias.fm",
-      "logoUrl": "https://graph.facebook.com/esradio/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 17,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://server9.emitironline.com:8822/radio",
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "europa-fm-asturias",
-      "name": "Europa FM Asturias",
-      "category": "Música",
-      "community": "Asturias",
-      "musicType": "Top 40",
-      "websiteUrl": "https://www.europafm.com/frecuencias/asturias/",
-      "logoUrl": "https://graph.facebook.com/tueuropafm/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 18,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "HLS principal",
-          "url": "https://atres-live.europafm.com/live/delegaciones/efm/gijon/master.m3u8",
-          "format": "hls",
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "loca-fm-asturias",
-      "name": "Loca FM Asturias",
-      "category": "Música",
-      "community": "Asturias",
-      "musicType": "Dance Electrónica",
-      "websiteUrl": "https://locafmasturias.com",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 19,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://server1.easystreaming.pro:8443/locafmasturias",
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "carrusel-fm",
-      "name": "Carrusel FM",
-      "category": "Música",
-      "community": "Asturias",
-      "musicType": "Remember",
-      "websiteUrl": "http://www.carruselfm.com",
-      "logoUrl": "https://pbs.twimg.com/profile_images/520332074147123200/pzYkTYHB_200x200.jpeg",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 20,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://server10.emitironline.com:8921/radio?.mp3",
-          "format": "mp3",
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "master-fm-asturias",
-      "name": "Master FM Asturias",
-      "category": "Música",
-      "community": "Asturias",
-      "musicType": "Hits",
-      "websiteUrl": "https://masterfm.es/radiochannel/asturias/",
-      "logoUrl": "https://graph.facebook.com/masterfm.es/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 21,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://radios.masterfm.es:8000/asturias",
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
       "id": "onda-penes",
       "name": "Onda Peñes",
       "category": "Noticias",
@@ -449,167 +685,40 @@
       ]
     },
     {
-      "id": "la-bomba-radio",
-      "name": "La Bomba Radio",
-      "category": "Música",
-      "community": "Asturias",
-      "musicType": "Latina",
-      "websiteUrl": "http://www.labombaradio.es",
-      "logoUrl": "https://play-lh.googleusercontent.com/RnnCJFfcSu-Ma6MSoLJ4hDT2qz9tNrzHz3AdOyFy-h5bjRb0oakVfVOMtPOn5F7tmA=w200",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 23,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://stm2.emiteonline.com:9014/labomba",
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-ujo",
-      "name": "Radio Ujo",
+      "id": "radio-5-asturias",
+      "name": "Radio 5 Asturias",
       "category": "Noticias",
       "community": "Asturias",
-      "websiteUrl": "https://www.radioujo.com",
-      "logoUrl": "https://pbs.twimg.com/profile_images/822520464836849664/C124fpj__200x200.jpg",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_ast/3894742/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
       "sourceSeed": "myTuner",
       "seedPage": 1,
-      "seedRank": 24,
+      "seedRank": 3,
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "Stream principal",
-          "url": "https://51551a56-d200-46f7-91c8-36c07a837e44.clouding.host:8000/radio",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/ast/mp3/high",
           "source": "TDTChannels"
         }
       ]
     },
     {
-      "id": "radio-qk",
-      "name": "Radio QK",
-      "category": "Comunitaria",
+      "id": "ser-asturias",
+      "name": "Radio Asturias SER",
+      "category": "Noticias",
       "community": "Asturias",
-      "websiteUrl": "https://www.radioqk.org",
-      "logoUrl": "https://graph.facebook.com/radioqkRadioLibre/picture?width=200&height=200",
+      "websiteUrl": "https://cadenaser.com/radio-asturias/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
       "sourceSeed": "myTuner",
       "seedPage": 1,
-      "seedRank": 25,
+      "seedRank": 5,
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "MP3 principal",
-          "url": "http://212.231.231.169:8000/radioqk_master.mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_ASTURIAS.mp3",
           "format": "mp3",
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "medea-fm",
-      "name": "Medea FM",
-      "category": "Música",
-      "community": "Asturias",
-      "musicType": "Variedad",
-      "websiteUrl": "https://medeafm.es",
-      "logoUrl": "https://graph.facebook.com/radiomedeafm/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 26,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://sonic.mediatelekom.net/8562/;.mp3",
-          "format": "mp3",
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "xtrema-fm",
-      "name": "Xtrema FM",
-      "category": "Música",
-      "community": "Asturias",
-      "musicType": "Top 40",
-      "websiteUrl": "https://www.xtremafm.es",
-      "logoUrl": "https://graph.facebook.com/xtremafm/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 27,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://server1.radiocast.es/listen/xtrema_fm/xtremafm",
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "apq-radio",
-      "name": "APQ Radio",
-      "category": "Deporte",
-      "community": "Asturias",
-      "musicType": "Deportiva / Generalista",
-      "websiteUrl": "https://www.apqradio.es",
-      "logoUrl": "https://graph.facebook.com/APQRadio.es/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 28,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://stm2.emiteonline.com:9012/apqradio",
-          "source": "TDTChannels"
-        },
-        {
-          "label": "Stream alternativo",
-          "url": "https://stm2.emiteonline.com:9013/apqradio2",
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "la-mega-fm-asturias",
-      "name": "La Mega FM Asturias",
-      "category": "Música",
-      "community": "Asturias",
-      "musicType": "Latina",
-      "websiteUrl": "https://www.lamegafmasturias.com",
-      "logoUrl": "https://play-lh.googleusercontent.com/c_sl-yRJP4jzCPQjkLe0xFWuGj6Xe6JaoShibnsuV98KnDkM7Ao54DsLD_1orN2eyDbC=w200",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 29,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://broadcast.radioponiente.org:8032/;.mp3",
-          "format": "mp3",
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "guateque-fm",
-      "name": "Guateque FM",
-      "category": "Música",
-      "community": "Asturias",
-      "musicType": "Oldies",
-      "websiteUrl": "https://guatequefm.com",
-      "logoUrl": "https://play-lh.googleusercontent.com/29cOsGnQ8A3a-FJ1EkqBDVrMCIMWcQBORIWcmygreM9fNjU5C3Pci0CNDYDrv1NPPPD1=w200-h200",
-      "sourceSeed": "myTuner",
-      "seedPage": 1,
-      "seedRank": 30,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream principal",
-          "url": "https://eu1.lhdserver.es:3219/stream",
           "source": "TDTChannels"
         }
       ]
@@ -635,21 +744,99 @@
       ]
     },
     {
-      "id": "la-cheverisima-radio",
-      "name": "La Cheverisima Radio",
-      "category": "Música",
+      "id": "radio-marca-asturias",
+      "name": "Radio Marca Asturias",
+      "category": "Deporte",
       "community": "Asturias",
-      "musicType": "Latina",
-      "websiteUrl": "https://lacheverisimaradio.com",
-      "logoUrl": "https://play-lh.googleusercontent.com/paqCGWhxPmfQOzkssgQHBiAW60j3zi04Hq9K2UWM_oddr-X-ZriB6OK-K0Xr8lmP4A=w200",
+      "websiteUrl": "https://www.marca.com/radio.html",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
       "sourceSeed": "myTuner",
       "seedPage": 1,
-      "seedRank": 32,
+      "seedRank": 4,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "https://streaming.enacast.com/radiomarcaasturiasHD.mp3",
+          "format": "mp3",
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-nacional-asturias",
+      "name": "Radio Nacional Asturias",
+      "category": "Noticias",
+      "community": "Asturias",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_ast-live/3893526/",
+      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 2,
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "Stream principal",
-          "url": "https://samuel.i-radio.co:9000/lacheverisima",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/ast/mp3/high",
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-qk",
+      "name": "Radio QK",
+      "category": "Comunitaria",
+      "community": "Asturias",
+      "websiteUrl": "https://www.radioqk.org",
+      "logoUrl": "https://graph.facebook.com/radioqkRadioLibre/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 25,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "MP3 principal",
+          "url": "http://212.231.231.169:8000/radioqk_master.mp3",
+          "format": "mp3",
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-ujo",
+      "name": "Radio Ujo",
+      "category": "Noticias",
+      "community": "Asturias",
+      "websiteUrl": "https://www.radioujo.com",
+      "logoUrl": "https://pbs.twimg.com/profile_images/822520464836849664/C124fpj__200x200.jpg",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 24,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "Stream principal",
+          "url": "https://51551a56-d200-46f7-91c8-36c07a837e44.clouding.host:8000/radio",
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "rpa-asturias",
+      "name": "RPA",
+      "category": "Noticias",
+      "community": "Asturias",
+      "websiteUrl": "https://rtpa.es/radio",
+      "logoUrl": "https://graph.facebook.com/RTPAoficial/picture?width=200&height=200",
+      "sourceSeed": "myTuner",
+      "seedPage": 1,
+      "seedRank": 1,
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://cdn-rtpa.watchity.net/wct-3545e416-1a16-44b5-b0db-481136ecacc9/continuous/7be5c015-1da2-4927-a49b-8d232faa69be/radio/index.m3u8",
+          "format": "hls",
           "source": "TDTChannels"
         }
       ]
@@ -695,209 +882,22 @@
       ]
     },
     {
-      "id": "la-jungla-radio",
-      "name": "La Jungla Radio",
+      "id": "xtrema-fm",
+      "name": "Xtrema FM",
       "category": "Música",
       "community": "Asturias",
-      "websiteUrl": "https://lajunglaradio.com",
-      "logoUrl": "https://graph.facebook.com/LaJunglaRadio/picture?width=200&height=200",
+      "musicType": "Top 40",
+      "websiteUrl": "https://www.xtremafm.es",
+      "logoUrl": "https://graph.facebook.com/xtremafm/picture?width=200&height=200",
       "sourceSeed": "myTuner",
-      "seedPage": 2,
-      "seedRank": 54,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "MP3 principal",
-          "url": "https://streaming12.elitecomunicacion.es:8626/stream?type=.mp3",
-          "format": "mp3",
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Éxitos y entretenimiento"
-    },
-    {
-      "id": "free-fm-rock",
-      "name": "Free FM Rock",
-      "category": "Música",
-      "community": "Asturias",
-      "websiteUrl": "https://www.freefmrock.com/",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/769/free-fm.aa638097.jpg",
-      "sourceSeed": "myTuner",
-      "seedPage": 2,
-      "seedRank": 55,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "https://freefmrock.radioca.st/stream",
-          "format": "mp3",
-          "source": "fmstream (public listing)"
-        }
-      ],
-      "musicType": "Rock"
-    },
-    {
-      "id": "free-fm-classics",
-      "name": "Free FM Classics",
-      "category": "Música",
-      "community": "Asturias",
-      "websiteUrl": "https://www.freefmworld.com",
-      "logoUrl": "https://www.google.com/s2/favicons?sz=256&domain_url=https%3A%2F%2Fwww.freefmworld.com",
-      "sourceSeed": "myTuner",
-      "seedPage": 2,
-      "seedRank": 56,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Stream directo",
-          "url": "https://xxdelgado.radioca.st",
-          "source": "Radiomap"
-        }
-      ],
-      "musicType": "Oldies"
-    },
-    {
-      "id": "free-fm-80s",
-      "name": "Free FM 80s",
-      "category": "Música",
-      "community": "Asturias",
-      "websiteUrl": "https://sites.google.com/view/freefmworld",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/827/free-fm-80s.16928eb8.png",
-      "sourceSeed": "myTuner",
-      "seedPage": 2,
-      "seedRank": 57,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "http://freefm80.radioca.st/",
-          "format": "mp3",
-          "source": "radiobrowser index"
-        }
-      ],
-      "musicType": "80s"
-    },
-    {
-      "id": "free-fm-world",
-      "name": "Free FM World",
-      "category": "Música",
-      "community": "Asturias",
-      "musicType": "World",
-      "sourceSeed": "myTuner",
-      "seedPage": 2,
-      "seedRank": 58,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "https://rocafmadrid.radioca.st/stream",
-          "format": "mp3",
-          "source": "rcast/fmstream public listing"
-        }
-      ],
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/690/free-fm-spain.be1f4c93.jpg",
-      "websiteUrl": "https://sites.google.com/view/freefmworld"
-    },
-    {
-      "id": "free-fm-love",
-      "name": "Free FM Love",
-      "category": "Música",
-      "community": "Asturias",
-      "websiteUrl": "https://sites.google.com/view/freefmworld",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/714/free-fm-love.c1ba1f4e.jpg",
-      "sourceSeed": "myTuner",
-      "seedPage": 2,
-      "seedRank": 59,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "https://stream.zeno.fm/umsptm6rvy8uv",
-          "format": "mp3",
-          "source": "TingFM listing"
-        }
-      ],
-      "musicType": "Romántica"
-    },
-    {
-      "id": "free-fm-top-100",
-      "name": "Free FM Top 100",
-      "category": "Música",
-      "community": "Asturias",
-      "musicType": "Top 100",
-      "sourceSeed": "myTuner",
-      "seedPage": 2,
-      "seedRank": 60,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "https://stream.zeno.fm/a5h7vfret68uv",
-          "format": "mp3",
-          "source": "fmstream public listing"
-        }
-      ],
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/814/free-fm-top-100.dc7b4dc7.jpg",
-      "websiteUrl": "https://www.freefmradio.net"
-    },
-    {
-      "id": "free-fm-classical",
-      "name": "Free FM Classical",
-      "category": "Música",
-      "community": "Asturias",
-      "websiteUrl": "https://sites.google.com/view/freefmworld",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/020/free-fm-classical.0ef23d56.jpg",
-      "sourceSeed": "myTuner",
-      "seedPage": 2,
-      "seedRank": 61,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "http://stream.zeno.fm/x5jlpogsaedvv",
-          "format": "mp3",
-          "source": "radiobrowser index"
-        }
-      ],
-      "musicType": "Clásica"
-    },
-    {
-      "id": "free-fm-chill",
-      "name": "Free FM Chill",
-      "category": "Música",
-      "community": "Asturias",
-      "websiteUrl": "https://www.locafm.com/chill-out/player.html",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "sourceSeed": "myTuner",
-      "seedPage": 2,
-      "seedRank": 62,
+      "seedPage": 1,
+      "seedRank": 27,
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "Stream principal",
-          "url": "https://s2.we4stream.com/listen/loca_chill_out/live",
-          "format": "stream",
+          "url": "https://server1.radiocast.es/listen/xtrema_fm/xtremafm",
           "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "free-fm-sports",
-      "name": "Free FM Sports",
-      "category": "Deporte",
-      "community": "Asturias",
-      "websiteUrl": "https://sites.google.com/view/freefmworld",
-      "logoUrl": "https://static2.mytuner.mobi/media/tvos_radios/BtX4kYE4dC.jpg",
-      "sourceSeed": "myTuner",
-      "seedPage": 2,
-      "seedRank": 63,
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "Principal",
-          "url": "https://stream.zeno.fm/31nnibfpnxktv",
-          "format": "mp3",
-          "source": "TingFM listing"
         }
       ]
     }
