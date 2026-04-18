@@ -2,13 +2,509 @@
   "repoName": "radiostation-data",
   "community": "Illes Balears",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 15,
-  "playableCount": 15,
-  "verifiedCount": 15,
+  "seedCount": 31,
+  "playableCount": 31,
+  "verifiedCount": 31,
   "candidateCount": 0,
   "pendingCount": 0,
   "notes": "Selección balear con radios públicas, locales y musicales de isla.",
   "stations": [
+    {
+      "id": "canal-4-radio",
+      "name": "Canal 4 Ràdio",
+      "category": "Noticias",
+      "community": "Illes Balears",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://grup4.com",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1171423029806551040/WudNlkcd_200x200.jpg",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://stream.recasound.es/proxy/canal4radio/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "cope-mallorca",
+      "name": "COPE Mallorca",
+      "category": "Noticias",
+      "community": "Illes Balears",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.cope.es/",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/mallorca.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "cope-menorca",
+      "name": "COPE Menorca",
+      "category": "Noticias",
+      "community": "Illes Balears",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.cope.es/directos/menorca",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/menorca.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "das-inselradio",
+      "name": "Das Inselradio",
+      "category": "Noticias",
+      "community": "Illes Balears",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.inselradio.com/player/",
+      "logoUrl": "https://graph.facebook.com/DasInselradio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://inselradiomallorca.do-not-publish.com/inselradiomallorca-live/mp3-128",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ib3-radio",
+      "name": "IB3 Ràdio",
+      "category": "Noticias",
+      "community": "Illes Balears",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://ib3.org/directe?c=radio",
+      "logoUrl": "https://graph.facebook.com/IB3org/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://icecast.ib3radio.com/ib3radio.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-cero-ibiza",
+      "name": "Onda Cero Ibiza",
+      "category": "Noticias",
+      "community": "Illes Balears",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.ondacero.es/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/ibiza/master.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-cero-mallorca",
+      "name": "Onda Cero Mallorca",
+      "category": "Noticias",
+      "community": "Illes Balears",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.ondacero.es/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/mallorca/master.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-cero-menorca",
+      "name": "Onda Cero Menorca",
+      "category": "Noticias",
+      "community": "Illes Balears",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.ondacero.es/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/menorca/master.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-5-islas-baleares",
+      "name": "Radio 5 Islas Baleares",
+      "category": "Noticias",
+      "community": "Illes Balears",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_bal/3894743/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/pmi/mp3/high",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-es-castell",
+      "name": "Radio Es Castell",
+      "category": "Noticias",
+      "community": "Illes Balears",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.aj-escastell.org/Contingut.aspx?IDIOMA=2&IdPub=1614",
+      "logoUrl": "https://graph.facebook.com/ajescastell/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://stream.recasound.es/proxy/escastell/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-murta",
+      "name": "Radio Murta",
+      "category": "Noticias",
+      "community": "Illes Balears",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://grup4.com",
+      "logoUrl": "https://static-media.streema.com/media/cache/c1/a3/c1a323d20e5cd83f4199fb3f23961f41.jpg",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://stream.recasound.es/proxy/radiomurta/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-nacional-islas-baleares",
+      "name": "Radio Nacional Islas Baleares",
+      "category": "Noticias",
+      "community": "Illes Balears",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_bal/3893546/",
+      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/bal/mp3/high",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-ibiza",
+      "name": "SER Ibiza",
+      "category": "Noticias",
+      "community": "Illes Balears",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_IBIZA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-mallorca",
+      "name": "SER Mallorca",
+      "category": "Noticias",
+      "community": "Illes Balears",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_MALLORCA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-menorca",
+      "name": "SER Menorca",
+      "category": "Noticias",
+      "community": "Illes Balears",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_MENORCA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "06am-ibiza-underground-radio",
+      "name": "06AM Ibiza Underground Radio",
+      "category": "Música",
+      "community": "Illes Balears",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.06amibiza.com",
+      "logoUrl": "https://graph.facebook.com/06AmIbizaUndergroundRadio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://streams.radio.co/sd1bcd1376/listen",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "fibwi-radio",
+      "name": "Fibwi Radio",
+      "category": "Música",
+      "community": "Illes Balears",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://fibwiradio.com",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1937439184790151168/VFDUyxsc_200x200.jpg",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://sound.gigaradius.eu/proxy/fibwiradio/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ibiza-global-radio",
+      "name": "Ibiza Global Radio",
+      "category": "Música",
+      "community": "Illes Balears",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://ibizaglobalradio.com/player/",
+      "logoUrl": "https://graph.facebook.com/ibiza.radio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://listenssl.ibizaglobalradio.com:8024/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Electrónica"
+    },
+    {
+      "id": "ibiza-sonica-radio",
+      "name": "Ibiza Sonica Radio",
+      "category": "Música",
+      "community": "Illes Balears",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.ibizasonica.com",
+      "logoUrl": "https://graph.facebook.com/ibizasonicaradio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://n0b.radiojar.com/st0wc9kut72vv",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Electrónica"
+    },
+    {
+      "id": "kick-fm",
+      "name": "Kick!FM",
+      "category": "Música",
+      "community": "Illes Balears",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.kickfm.eu",
+      "logoUrl": "https://graph.facebook.com/kickfm/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://icecast.kickfm.eu/mp3-high",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "loca-fm-mallorca",
+      "name": "Loca FM Mallorca",
+      "category": "Música",
+      "community": "Illes Balears",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.locafmmallorca.com",
+      "logoUrl": "https://graph.facebook.com/locamallorcafm/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://radio.thebest.fm:8443/locafm-mal-web",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "mallorca-sunshine-radio",
+      "name": "Mallorca Sunshine Radio",
+      "category": "Música",
+      "community": "Illes Balears",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.mallorcasunshineradio.com/player/",
+      "logoUrl": "https://graph.facebook.com/MallorcaSunshineRadio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://mallorcasunshineradio.do-not-publish.com/mallorcasunshineradio-live/mp3-128",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "pure-ibiza-radio",
+      "name": "Pure Ibiza Radio",
+      "category": "Música",
+      "community": "Illes Balears",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.pureibizaradio.com",
+      "logoUrl": "https://graph.facebook.com/pureradio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://pureibizaradio.streaming-pro.com:8028/stream.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-onemallorca",
+      "name": "Radio OneMallorca",
+      "category": "Música",
+      "community": "Illes Balears",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.radioonemallorca.com",
+      "logoUrl": "https://graph.facebook.com/RadioOneMallorca/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://pegasus.nucast.co.uk:8004/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "sam-ibiza",
+      "name": "SAM Ibiza",
+      "category": "Música",
+      "community": "Illes Balears",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://samibiza.com",
+      "logoUrl": "https://graph.facebook.com/SAMibizaradio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://hls1.eu.peppermindmedia.com/samibiza/audio/playlist.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ushuaia-radio",
+      "name": "Ushuaia Radio",
+      "category": "Música",
+      "community": "Illes Balears",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://ushuaia.radio",
+      "logoUrl": "https://ushuaia.radio/wp-content/uploads/2023/08/nuevo-logo-ushuaia-png-300x300.png",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://s4.radio.co/sc6f29e098/listen",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
     {
       "id": "ona-mediterrania",
       "name": "Ona Mediterrània",
@@ -106,198 +602,6 @@
           "label": "stream",
           "url": "https://topradio.uno:8087/stream",
           "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ibiza-global-radio",
-      "name": "Ibiza Global Radio",
-      "category": "Música",
-      "community": "Illes Balears",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://ibizaglobalradio.com/player/",
-      "logoUrl": "https://graph.facebook.com/ibiza.radio/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://listenssl.ibizaglobalradio.com:8024/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Electrónica"
-    },
-    {
-      "id": "ibiza-sonica-radio",
-      "name": "Ibiza Sonica Radio",
-      "category": "Música",
-      "community": "Illes Balears",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.ibizasonica.com",
-      "logoUrl": "https://graph.facebook.com/ibizasonicaradio/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://n0b.radiojar.com/st0wc9kut72vv",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Electrónica"
-    },
-    {
-      "id": "cope-mallorca",
-      "name": "COPE Mallorca",
-      "category": "Noticias",
-      "community": "Illes Balears",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.cope.es/",
-      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://wecast-bl02.flumotion.com/copesedes/mallorca.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ib3-radio",
-      "name": "IB3 Ràdio",
-      "category": "Noticias",
-      "community": "Illes Balears",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://ib3.org/directe?c=radio",
-      "logoUrl": "https://graph.facebook.com/IB3org/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://icecast.ib3radio.com/ib3radio.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "onda-cero-ibiza",
-      "name": "Onda Cero Ibiza",
-      "category": "Noticias",
-      "community": "Illes Balears",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.ondacero.es/",
-      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/ibiza/master.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "onda-cero-mallorca",
-      "name": "Onda Cero Mallorca",
-      "category": "Noticias",
-      "community": "Illes Balears",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.ondacero.es/",
-      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/mallorca/master.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "onda-cero-menorca",
-      "name": "Onda Cero Menorca",
-      "category": "Noticias",
-      "community": "Illes Balears",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.ondacero.es/",
-      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/menorca/master.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ser-ibiza",
-      "name": "SER Ibiza",
-      "category": "Noticias",
-      "community": "Illes Balears",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://cadenaser.com/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_IBIZA.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ser-mallorca",
-      "name": "SER Mallorca",
-      "category": "Noticias",
-      "community": "Illes Balears",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://cadenaser.com/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_MALLORCA.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ser-menorca",
-      "name": "SER Menorca",
-      "category": "Noticias",
-      "community": "Illes Balears",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://cadenaser.com/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_MENORCA.mp3",
-          "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
         }

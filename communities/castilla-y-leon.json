@@ -2,52 +2,26 @@
   "repoName": "radiostation-data",
   "community": "Castilla y León",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 22,
-  "playableCount": 22,
-  "verifiedCount": 22,
+  "seedCount": 42,
+  "playableCount": 42,
+  "verifiedCount": 42,
   "candidateCount": 0,
   "pendingCount": 0,
   "notes": "Prioridad a radios locales, universitarias y de proximidad.",
   "stations": [
     {
-      "id": "radio-universitaria-leon",
-      "name": "Radio Universitaria León",
-      "category": "Educación",
+      "id": "cope-avila",
+      "name": "COPE Ávila",
+      "category": "Noticias",
       "community": "Castilla y León",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://servicios.unileon.es/radio-universitaria/",
-      "logoUrl": "https://graph.facebook.com/unileon/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream # 1",
-          "url": "https://radio.unileon.es/radio-unileon-320",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "stream # 2",
-          "url": "https://radio.unileon.es/radio-unileon-192",
-          "format": "auto",
-          "priority": 2,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-universitaria-salamanca",
-      "name": "Radio Universitaria Salamanca",
-      "category": "Educación",
-      "community": "Castilla y León",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://radio.usal.es",
-      "logoUrl": "https://graph.facebook.com/RadioUniversidadDeSalamanca/picture?width=200&height=200",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.cope.es/directos/avila",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "mp3",
-          "url": "http://212.128.140.98:8000/usalradio.mp3",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/avila.mp3",
           "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
@@ -55,37 +29,18 @@
       ]
     },
     {
-      "id": "onda-bierzo",
-      "name": "Onda Bierzo",
-      "category": "Local",
+      "id": "cope-burgos",
+      "name": "COPE Burgos",
+      "category": "Noticias",
       "community": "Castilla y León",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://ondabierzo.com",
-      "logoUrl": "https://graph.facebook.com/ondabierzo/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://pr1cen101.emisionlocal.com/proxy/ondabierzo?mp=/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "onda-medina",
-      "name": "Onda Medina",
-      "category": "Local",
-      "community": "Castilla y León",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.lavozdemedinadigital.com/wordpress/",
-      "logoUrl": "https://graph.facebook.com/lavozdemedina/picture?width=200&height=200",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.cope.es/directos/burgos",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "mp3",
-          "url": "https://s28.myradiostream.com:13006/listen.mp3",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/burgos.mp3",
           "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
@@ -93,62 +48,232 @@
       ]
     },
     {
-      "id": "radio-evolucion-burgos",
-      "name": "Radio Evolución Burgos",
-      "category": "Local",
+      "id": "cope-leon",
+      "name": "COPE León",
+      "category": "Noticias",
       "community": "Castilla y León",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://radioevolucion.es/directo.html",
-      "logoUrl": "https://graph.facebook.com/Radioevolucionburgos/picture?width=200&height=200",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.cope.es/directos/leon",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "stream",
-          "url": "http://radioevolucion.freeddns.org:8001/fibra_baja",
-          "format": "auto",
+          "label": "mp3",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/leon.mp3",
+          "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
-      "id": "radio-guardo",
-      "name": "Radio Guardo",
-      "category": "Local",
+      "id": "cope-palencia",
+      "name": "COPE Palencia",
+      "category": "Noticias",
       "community": "Castilla y León",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://radioguardoamgu.org",
-      "logoUrl": "https://graph.facebook.com/RadioGuardo/picture?width=200&height=200",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.cope.es/directos/palencia",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "stream",
-          "url": "https://server10.emitironline.com:10654/radi",
-          "format": "auto",
+          "label": "mp3",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/palencia.mp3",
+          "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
-      "id": "power-fm-valladolid",
-      "name": "Power FM Valladolid",
-      "category": "Música",
+      "id": "cope-salamanca",
+      "name": "COPE Salamanca",
+      "category": "Noticias",
       "community": "Castilla y León",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://powerfmvalladolid.com",
-      "logoUrl": "https://graph.facebook.com/PowerFmValladolid/picture?width=200&height=200",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.cope.es/directos/salamanca",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/salamanca.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "cope-segovia",
+      "name": "COPE Segovia",
+      "category": "Noticias",
+      "community": "Castilla y León",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.cope.es/directos/segovia",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/segovia.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "cope-soria",
+      "name": "COPE Soria",
+      "category": "Noticias",
+      "community": "Castilla y León",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.cope.es/directos/soria",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/soria.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "cope-valladolid",
+      "name": "COPE Valladolid",
+      "category": "Noticias",
+      "community": "Castilla y León",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.cope.es/directos/valladolid",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/valladolid.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "fm-bierzo",
+      "name": "FM Bierzo",
+      "category": "Noticias",
+      "community": "Castilla y León",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.fmbierzo.com",
+      "logoUrl": "https://graph.facebook.com/FMBierzoOFICIAL/picture?width=200&height=200",
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "stream",
-          "url": "https://streaming.powerfmvalladolid.com:4430/stream",
-          "format": "auto",
+          "url": "https://streaming12.elitecomunicacion.es/proxy/bierzofm/stream",
+          "format": "stream",
           "priority": 1,
           "source": "TDTChannels"
         }
-      ],
-      "musicType": "Dance"
+      ]
+    },
+    {
+      "id": "onda-cero-burgos",
+      "name": "Onda Cero Burgos",
+      "category": "Noticias",
+      "community": "Castilla y León",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.ondaceroburgos.es",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/burgos/master.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-cero-leon",
+      "name": "Onda Cero León",
+      "category": "Noticias",
+      "community": "Castilla y León",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.ondacero.es/emisoras/castilla-y-leon/leon//directo/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/leon/master.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-cero-palencia",
+      "name": "Onda Cero Palencia",
+      "category": "Noticias",
+      "community": "Castilla y León",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.ondacero.es/emisoras/castilla-y-leon/palencia/directo/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/palencia/master.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-5-castilla-y-leon",
+      "name": "Radio 5 Castilla y León",
+      "category": "Noticias",
+      "community": "Castilla y León",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_cyl-live/3894781/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "steam",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/vll/mp3/high",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-nacional-castilla-y-leon",
+      "name": "Radio Nacional Castilla y León",
+      "category": "Noticias",
+      "community": "Castilla y León",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_cyl-live/3893532/",
+      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/cyl/mp3/high",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "ser-aranda",
@@ -163,6 +288,25 @@
         {
           "label": "mp3",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ARANDA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-avila",
+      "name": "SER Ávila",
+      "category": "Noticias",
+      "community": "Castilla y León",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_AVILA.mp3",
           "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
@@ -398,25 +542,6 @@
       ]
     },
     {
-      "id": "ser-avila",
-      "name": "SER Ávila",
-      "category": "Noticias",
-      "community": "Castilla y León",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://cadenaser.com/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_AVILA.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
       "id": "vive-radio",
       "name": "Vive! Radio",
       "category": "Noticias",
@@ -429,6 +554,261 @@
         {
           "label": "stream",
           "url": "https://streaming.viveradio.es/viveburgos",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "europa-fm-medina",
+      "name": "Europa FM Medina",
+      "category": "Música",
+      "community": "Castilla y León",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.ondacerotierrasdemedina.es/escuchar-europafm-medina-del-campo-en-directo/",
+      "logoUrl": "https://graph.facebook.com/EuropaFmAndalucia/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://server10.emitironline.com:8102/;",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "los40-leon",
+      "name": "LOS40 León",
+      "category": "Música",
+      "community": "Castilla y León",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "http://www.40leon.es/directo/",
+      "logoUrl": "https://graph.facebook.com/los40/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_ASO_LEON.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "miranda-fm",
+      "name": "Miranda FM",
+      "category": "Música",
+      "community": "Castilla y León",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.mirandafm.es/radio.html",
+      "logoUrl": "https://graph.facebook.com/1416829051928207/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://srv7031.dns-lcinternet.com/8058/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "power-fm-valladolid",
+      "name": "Power FM Valladolid",
+      "category": "Música",
+      "community": "Castilla y León",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://powerfmvalladolid.com",
+      "logoUrl": "https://graph.facebook.com/PowerFmValladolid/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://streaming.powerfmvalladolid.com:4430/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Dance"
+    },
+    {
+      "id": "radio-espinosa-merindades",
+      "name": "Radio Espinosa Merindades",
+      "category": "Comunidad",
+      "community": "Castilla y León",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.radioespinosamerindades.es",
+      "logoUrl": "https://graph.facebook.com/radioespinosamerindades/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://srv7021.dns-lcinternet.com/8072/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-universitaria-leon",
+      "name": "Radio Universitaria León",
+      "category": "Educación",
+      "community": "Castilla y León",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://servicios.unileon.es/radio-universitaria/",
+      "logoUrl": "https://graph.facebook.com/unileon/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream # 1",
+          "url": "https://radio.unileon.es/radio-unileon-320",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "stream # 2",
+          "url": "https://radio.unileon.es/radio-unileon-192",
+          "format": "auto",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-universitaria-salamanca",
+      "name": "Radio Universitaria Salamanca",
+      "category": "Educación",
+      "community": "Castilla y León",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://radio.usal.es",
+      "logoUrl": "https://graph.facebook.com/RadioUniversidadDeSalamanca/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "http://212.128.140.98:8000/usalradio.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca-valladolid",
+      "name": "Radio Marca Valladolid",
+      "category": "Deporte",
+      "community": "Castilla y León",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://radiomarcavalladolid.com",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://radiomarcavalladolid.streaming-pro.com:6106/radiomarca.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-solidaria",
+      "name": "Radio Solidaria",
+      "category": "Religión",
+      "community": "Castilla y León",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://on-line.radiosolidaria.com",
+      "logoUrl": "https://graph.facebook.com/RadioSolidaria/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "http://www.rkmradio.com:8000/stream/1/",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-bierzo",
+      "name": "Onda Bierzo",
+      "category": "Local",
+      "community": "Castilla y León",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://ondabierzo.com",
+      "logoUrl": "https://graph.facebook.com/ondabierzo/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://pr1cen101.emisionlocal.com/proxy/ondabierzo?mp=/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-medina",
+      "name": "Onda Medina",
+      "category": "Local",
+      "community": "Castilla y León",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.lavozdemedinadigital.com/wordpress/",
+      "logoUrl": "https://graph.facebook.com/lavozdemedina/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://s28.myradiostream.com:13006/listen.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-evolucion-burgos",
+      "name": "Radio Evolución Burgos",
+      "category": "Local",
+      "community": "Castilla y León",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://radioevolucion.es/directo.html",
+      "logoUrl": "https://graph.facebook.com/Radioevolucionburgos/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "http://radioevolucion.freeddns.org:8001/fibra_baja",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-guardo",
+      "name": "Radio Guardo",
+      "category": "Local",
+      "community": "Castilla y León",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://radioguardoamgu.org",
+      "logoUrl": "https://graph.facebook.com/RadioGuardo/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://server10.emitironline.com:10654/radi",
           "format": "auto",
           "priority": 1,
           "source": "TDTChannels"

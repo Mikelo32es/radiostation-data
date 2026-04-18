@@ -2,168 +2,50 @@
   "repoName": "radiostation-data",
   "community": "Canarias",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 16,
-  "playableCount": 16,
-  "verifiedCount": 16,
+  "seedCount": 32,
+  "playableCount": 32,
+  "verifiedCount": 32,
   "candidateCount": 0,
   "pendingCount": 0,
   "notes": "Selección local, comunitaria y autonómica, sin cadenas nacionales generalistas.",
   "stations": [
     {
-      "id": "radio-guiniguada",
-      "name": "Radio Guiniguada",
-      "category": "Comunidad",
+      "id": "9-radio",
+      "name": "9 Radio",
+      "category": "Noticias",
       "community": "Canarias",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://radioguiniguada.com",
-      "logoUrl": "https://graph.facebook.com/radioguiniguada/picture?width=200&height=200",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://9radio.es",
+      "logoUrl": "https://graph.facebook.com/9radiocanarias/picture?width=200&height=200",
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "mp3",
-          "url": "https://streamtotal.net/proxy/guiniguada/;.mp3",
-          "format": "mp3",
+          "label": "stream",
+          "url": "https://app.sonicpanelradio.com/8072/stream",
+          "format": "stream",
           "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
-      "id": "radio-san-borondon",
-      "name": "Radio San Borondón",
-      "category": "Comunidad",
+      "id": "canal-4-tenerife",
+      "name": "Canal 4 Tenerife",
+      "category": "Noticias",
       "community": "Canarias",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://sanborondon.info/online/",
-      "logoUrl": "https://graph.facebook.com/RSanBorondon/picture?width=200&height=200",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.canal4tenerife.tv/radio/",
+      "logoUrl": "https://graph.facebook.com/CANAL4TENERIFE/picture?width=200&height=200",
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "stream",
-          "url": "https://cast5.my-control-panel.com/proxy/carlosal/stream",
-          "format": "auto",
+          "url": "https://panel5.soydigital.fm/8024/live",
+          "format": "stream",
           "priority": 1,
           "source": "TDTChannels"
         }
       ]
-    },
-    {
-      "id": "la-diez-radio",
-      "name": "La Diez Radio",
-      "category": "Local",
-      "community": "Canarias",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.ladiez.es",
-      "logoUrl": "https://graph.facebook.com/ladiezradio/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://panel5.soydigital.fm/8030/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-mogan",
-      "name": "Radio Mogán",
-      "category": "Local",
-      "community": "Canarias",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.mogan.es/45-radio-television-de-mogan/3295-escuchar-radio-mogan-en-directo",
-      "logoUrl": "https://graph.facebook.com/AyuntamientodeMogan/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://streaming.elitecomunicacion.cloud:8334/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "europa-fm-santa-cruz",
-      "name": "Europa FM Santa Cruz",
-      "category": "Música",
-      "community": "Canarias",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.europafmtenerife.com/",
-      "logoUrl": "https://graph.facebook.com/tueuropafm/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://str1.mediatelekom.net/proxy/europafm2/stream/",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Top 40"
-    },
-    {
-      "id": "europa-fm-tenerife-norte-la-palma",
-      "name": "Europa FM Tenerife Norte / La Palma",
-      "category": "Música",
-      "community": "Canarias",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.europafmtenerife.com/",
-      "logoUrl": "https://graph.facebook.com/tueuropafm/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://str1.mediatelekom.net/proxy/europafm1/stream/",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Top 40"
-    },
-    {
-      "id": "q-fm",
-      "name": "Q FM",
-      "category": "Música",
-      "community": "Canarias",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.qmusica.com/es",
-      "logoUrl": "https://graph.facebook.com/qmusica/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://securestreams4.autopo.st:1889/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Top 40"
-    },
-    {
-      "id": "radio-carnaval-tenerife",
-      "name": "Radio Carnaval Tenerife",
-      "category": "Música",
-      "community": "Canarias",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://multicarnaval.com",
-      "logoUrl": "https://graph.facebook.com/Multicarnaval/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://streamtotal.net/proxy/carnaval/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Latina"
     },
     {
       "id": "canarias-radio",
@@ -223,6 +105,25 @@
       ]
     },
     {
+      "id": "el-pejeverde",
+      "name": "El Pejeverde",
+      "category": "Noticias",
+      "community": "Canarias",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.elpejeverde.com",
+      "logoUrl": "https://graph.facebook.com/552642618121698/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://5c0956165db0b.streamlock.net/radio/lancelot.stream_aac/playlist.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
       "id": "onda-cero-las-palmas",
       "name": "Onda Cero Las Palmas",
       "category": "Noticias",
@@ -236,6 +137,82 @@
           "label": "m3u8",
           "url": "https://atres-live.ondacero.es/live/delegaciones/oc/laspalmas/master.m3u8",
           "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-5-canarias-las-palmas",
+      "name": "Radio 5 Canarias - Las Palmas",
+      "category": "Noticias",
+      "community": "Canarias",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_ten-live/3893530/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/lpa/mp3/high",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-5-canarias-santa-cruz-de-tenerife",
+      "name": "Radio 5 Canarias - Santa Cruz de Tenerife",
+      "category": "Noticias",
+      "community": "Canarias",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_cnr-live/3894726/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/ten/mp3/high",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-6-tenerife",
+      "name": "Radio 6 Tenerife",
+      "category": "Noticias",
+      "community": "Canarias",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.radio6tenerife.com",
+      "logoUrl": "https://graph.facebook.com/radio6tenerife/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://ns6.emisionlocal.com/proxy/radio6?mp=/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-nacional-canarias",
+      "name": "Radio Nacional Canarias",
+      "category": "Noticias",
+      "community": "Canarias",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_ten-live/3893530/",
+      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/cnr/mp3/high",
+          "format": "stream",
           "priority": 1,
           "source": "TDTChannels"
         }
@@ -312,6 +289,333 @@
           "label": "mp3",
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_LASPALMAS.mp3",
           "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "europa-fm-santa-cruz",
+      "name": "Europa FM Santa Cruz",
+      "category": "Música",
+      "community": "Canarias",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.europafmtenerife.com/",
+      "logoUrl": "https://graph.facebook.com/tueuropafm/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://str1.mediatelekom.net/proxy/europafm2/stream/",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Top 40"
+    },
+    {
+      "id": "europa-fm-tenerife-norte-la-palma",
+      "name": "Europa FM Tenerife Norte / La Palma",
+      "category": "Música",
+      "community": "Canarias",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.europafmtenerife.com/",
+      "logoUrl": "https://graph.facebook.com/tueuropafm/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://str1.mediatelekom.net/proxy/europafm1/stream/",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Top 40"
+    },
+    {
+      "id": "europa-fm-tenerife-sur-la-gomera",
+      "name": "Europa FM Tenerife Sur / La Gomera",
+      "category": "Música",
+      "community": "Canarias",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.europafmtenerife.com",
+      "logoUrl": "https://graph.facebook.com/tueuropafm/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://str1.mediatelekom.net:9950/live",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "inolvidable-fm",
+      "name": "Inolvidable FM",
+      "category": "Música",
+      "community": "Canarias",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://inolvidablefm.es",
+      "logoUrl": "https://graph.facebook.com/inolvidablefmradio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://uk1.streamingpulse.com/ssl/inolvidablefm",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "kiss-fm-canarias",
+      "name": "Kiss FM Canarias",
+      "category": "Música",
+      "community": "Canarias",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.kissfm.es/player-canarias/",
+      "logoUrl": "https://graph.facebook.com/kissfm.es/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://bbkissfmcanarias.kissfmradio.cires21.com/bbkissfmcanarias.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "la-mueve",
+      "name": "La Mueve",
+      "category": "Música",
+      "community": "Canarias",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://lamueve.com/radio-online/",
+      "logoUrl": "https://graph.facebook.com/lamueveradio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://sunaer-stream.com:7113/LA_MUEVE_CADENA_HD",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "mix-fm-radio",
+      "name": "MIX FM Radio",
+      "category": "Música",
+      "community": "Canarias",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.mixfm-radio.com",
+      "logoUrl": "https://yt3.ggpht.com/ytc/AKedOLQaktY1_Rv_MrWTve_Lj8JyaB9EektpPVByC6G0=s200-c-k-c0x00ffffff-no-rj",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://server10.emitironline.com:8064/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "q-fm",
+      "name": "Q FM",
+      "category": "Música",
+      "community": "Canarias",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.qmusica.com/es",
+      "logoUrl": "https://graph.facebook.com/qmusica/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://securestreams4.autopo.st:1889/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Top 40"
+    },
+    {
+      "id": "radio-carnaval-tenerife",
+      "name": "Radio Carnaval Tenerife",
+      "category": "Música",
+      "community": "Canarias",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://multicarnaval.com",
+      "logoUrl": "https://graph.facebook.com/Multicarnaval/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://streamtotal.net/proxy/carnaval/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Latina"
+    },
+    {
+      "id": "radio-gigante",
+      "name": "Radio Gigante",
+      "category": "Música",
+      "community": "Canarias",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://radiogigante.com",
+      "logoUrl": "https://graph.facebook.com/radiogigantecanarias/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://server8.emitironline.com:18163/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "rumberos-fm",
+      "name": "Rumberos FM",
+      "category": "Música",
+      "community": "Canarias",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.radiorumberosfm.com",
+      "logoUrl": "https://pbs.twimg.com/profile_images/589410759173660672/h6ajWfi4_200x200.png",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://str1.mediatelekom.net:9952/live",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-guiniguada",
+      "name": "Radio Guiniguada",
+      "category": "Comunidad",
+      "community": "Canarias",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://radioguiniguada.com",
+      "logoUrl": "https://graph.facebook.com/radioguiniguada/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://streamtotal.net/proxy/guiniguada/;.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-san-borondon",
+      "name": "Radio San Borondón",
+      "category": "Comunidad",
+      "community": "Canarias",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://sanborondon.info/online/",
+      "logoUrl": "https://graph.facebook.com/RSanBorondon/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://cast5.my-control-panel.com/proxy/carlosal/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca-lanzarote",
+      "name": "Radio Marca Lanzarote",
+      "category": "Deporte",
+      "community": "Canarias",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://lancelot.es/radio.php",
+      "logoUrl": "https://graph.facebook.com/RadioMarcaLanzarote/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://5c0956165db0b.streamlock.net/radio/marca.stream_aac/playlist.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca-tenerife",
+      "name": "Radio Marca Tenerife",
+      "category": "Deporte",
+      "community": "Canarias",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://radiomarcatenerife.com",
+      "logoUrl": "https://graph.facebook.com/RadioMarcaTfe/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://cervera.eldialdigital.com:22131/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "la-diez-radio",
+      "name": "La Diez Radio",
+      "category": "Local",
+      "community": "Canarias",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.ladiez.es",
+      "logoUrl": "https://graph.facebook.com/ladiezradio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://panel5.soydigital.fm/8030/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-mogan",
+      "name": "Radio Mogán",
+      "category": "Local",
+      "community": "Canarias",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.mogan.es/45-radio-television-de-mogan/3295-escuchar-radio-mogan-en-directo",
+      "logoUrl": "https://graph.facebook.com/AyuntamientodeMogan/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://streaming.elitecomunicacion.cloud:8334/stream",
+          "format": "auto",
           "priority": 1,
           "source": "TDTChannels"
         }

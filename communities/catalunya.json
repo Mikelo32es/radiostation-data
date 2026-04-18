@@ -2,9 +2,9 @@
   "repoName": "radiostation-data",
   "community": "Catalunya",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 36,
-  "playableCount": 36,
-  "verifiedCount": 36,
+  "seedCount": 38,
+  "playableCount": 38,
+  "verifiedCount": 38,
   "candidateCount": 0,
   "pendingCount": 0,
   "notes": "Refuerzo amplio sin tocar la categoría Local: se añaden emisoras no locales reaprovechadas de catálogos verificados previos y se mantienen las nacionales fuera de las comunidades.",
@@ -535,6 +535,25 @@
       ]
     },
     {
+      "id": "radio-capital",
+      "name": "Ràdio Capital",
+      "category": "Cultura",
+      "community": "Catalunya",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.radiocapital.cat/endirecte/",
+      "logoUrl": "https://graph.facebook.com/capitalemporda/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://radio.martiproduccions.com/capitalhd",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
       "id": "radio-gracia",
       "name": "Ràdio Gràcia",
       "category": "Cultura",
@@ -566,6 +585,25 @@
         {
           "label": "stream",
           "url": "https://eu10.fastcast4u.com/scannerfm",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "taronja-radio",
+      "name": "Taronja ràdio",
+      "category": "Cultura",
+      "community": "Catalunya",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.radiocapital.cat/taronja",
+      "logoUrl": "https://graph.facebook.com/taronja.cat/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://radio.martiproduccions.com/taronjagirona",
           "format": "stream",
           "priority": 1,
           "source": "TDTChannels"
