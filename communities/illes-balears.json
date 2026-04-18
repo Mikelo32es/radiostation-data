@@ -2,12 +2,12 @@
   "repoName": "radiostation-data",
   "community": "Illes Balears",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 26,
-  "playableCount": 26,
-  "verifiedCount": 26,
+  "seedCount": 25,
+  "playableCount": 25,
+  "verifiedCount": 25,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Selección balear con radios públicas, locales y musicales de isla. Refuerzo de Deporte con marcas y programas oficiales; se evitan cadenas nacionales en comunidades.",
+  "notes": "Selección balear con radios públicas, locales y musicales de isla. Refuerzo de Deporte con marcas y programas oficiales; se evitan cadenas nacionales en comunidades.  Depuración abril 2026: se retiran marcas nacionales explícitas para reservarlas a Nacional.",
   "stations": [
     {
       "id": "ona-mediterrania",
@@ -259,25 +259,6 @@
         {
           "label": "stream",
           "url": "https://icecast.kickfm.eu/mp3-high",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "loca-fm-mallorca",
-      "name": "Loca FM Mallorca",
-      "category": "Música",
-      "community": "Illes Balears",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.locafmmallorca.com",
-      "logoUrl": "https://graph.facebook.com/locamallorcafm/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://radio.thebest.fm:8443/locafm-mal-web",
           "format": "stream",
           "priority": 1,
           "source": "TDTChannels"

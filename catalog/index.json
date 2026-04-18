@@ -1,10 +1,10 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Refuerzo de 200 emisoras verificadas desde TDTChannels y webs oficiales, manteniendo SER, COPE, Onda Cero, Radio Marca y Europa FM solo en Nacional.",
+  "syncMessage": "Depuración de cadenas nacionales en comunidades y refuerzo territorial verificado con semillas de myTuner/TDTChannels y webs oficiales.",
   "stats": {
-    "seedCount": 555,
-    "playableCount": 555,
-    "verifiedCount": 555,
+    "seedCount": 572,
+    "playableCount": 572,
+    "verifiedCount": 572,
     "candidateCount": 0,
     "pendingCount": 0
   },
@@ -35,19 +35,19 @@
     "radio-clasica-rne"
   ],
   "recentIds": [
-    "radio-5-navarra",
-    "radio-nacional-navarra",
-    "la-jungla-yecla",
-    "inter-radio",
-    "metropolitan-radio"
+    "canal-sur-radio-almeria",
+    "radio-terrassa",
+    "radio-sabadell",
+    "play-radio-valencia",
+    "radio-benicarlo"
   ],
   "communities": [
     {
       "id": "andalucia",
       "name": "Andalucia",
       "path": "communities/andalucia.json",
-      "seedCount": 74,
-      "playableCount": 74
+      "seedCount": 82,
+      "playableCount": 82
     },
     {
       "id": "aragon",
@@ -67,8 +67,8 @@
       "id": "canarias",
       "name": "Canarias",
       "path": "communities/canarias.json",
-      "seedCount": 23,
-      "playableCount": 23
+      "seedCount": 22,
+      "playableCount": 22
     },
     {
       "id": "cantabria",
@@ -88,22 +88,22 @@
       "id": "castilla-y-leon",
       "name": "Castilla y León",
       "path": "communities/castilla-y-leon.json",
-      "seedCount": 24,
-      "playableCount": 24
+      "seedCount": 23,
+      "playableCount": 23
     },
     {
       "id": "catalunya",
       "name": "Catalunya",
       "path": "communities/catalunya.json",
-      "seedCount": 70,
-      "playableCount": 70
+      "seedCount": 79,
+      "playableCount": 79
     },
     {
       "id": "comunitat-valenciana",
       "name": "Comunitat Valenciana",
       "path": "communities/comunitat-valenciana.json",
-      "seedCount": 62,
-      "playableCount": 62
+      "seedCount": 68,
+      "playableCount": 68
     },
     {
       "id": "euskadi",
@@ -116,8 +116,8 @@
       "id": "extremadura",
       "name": "Extremadura",
       "path": "communities/extremadura.json",
-      "seedCount": 13,
-      "playableCount": 13
+      "seedCount": 11,
+      "playableCount": 11
     },
     {
       "id": "galicia",
@@ -130,15 +130,15 @@
       "id": "illes-balears",
       "name": "Illes Balears",
       "path": "communities/illes-balears.json",
-      "seedCount": 26,
-      "playableCount": 26
+      "seedCount": 25,
+      "playableCount": 25
     },
     {
       "id": "la-rioja",
       "name": "La Rioja",
       "path": "communities/la-rioja.json",
-      "seedCount": 7,
-      "playableCount": 7
+      "seedCount": 6,
+      "playableCount": 6
     },
     {
       "id": "madrid",
@@ -172,9 +172,9 @@
   "homePath": "catalog/home.json",
   "requestedAction": "Añadir 200 emisoras más reforzando el catálogo sin reintroducir en comunidades las cadenas que deben quedar solo en Nacional.",
   "totals": {
-    "seedCount": 555,
-    "playableCount": 555,
-    "verifiedCount": 555,
+    "seedCount": 572,
+    "playableCount": 572,
+    "verifiedCount": 572,
     "candidateCount": 0,
     "pendingCount": 0
   }

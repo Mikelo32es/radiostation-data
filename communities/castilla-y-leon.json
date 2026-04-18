@@ -2,12 +2,12 @@
   "repoName": "radiostation-data",
   "community": "Castilla y León",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 24,
-  "playableCount": 24,
-  "verifiedCount": 24,
+  "seedCount": 23,
+  "playableCount": 23,
+  "verifiedCount": 23,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Prioridad a radios locales, universitarias y de proximidad. Deportes reforzados con radios y marcas deportivas autonómicas, incluyendo propuestas polideportivas y no solo fútbol.  Refuerzo abril 2026: +8 emisoras verificadas desde TDTChannels y webs oficiales.",
+  "notes": "Prioridad a radios locales, universitarias y de proximidad. Deportes reforzados con radios y marcas deportivas autonómicas, incluyendo propuestas polideportivas y no solo fútbol.  Refuerzo abril 2026: +8 emisoras verificadas desde TDTChannels y webs oficiales.  Depuración abril 2026: se retiran marcas nacionales explícitas para reservarlas a Nacional.",
   "stations": [
     {
       "id": "radio-espinosa-merindades",
@@ -238,25 +238,6 @@
           "label": "stream",
           "url": "https://sonic2.sistemahost.es:8010/stream",
           "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "los40-leon",
-      "name": "LOS40 León",
-      "category": "Música",
-      "community": "Castilla y León",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "http://www.40leon.es/directo/",
-      "logoUrl": "https://graph.facebook.com/los40/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_ASO_LEON.mp3",
-          "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
         }

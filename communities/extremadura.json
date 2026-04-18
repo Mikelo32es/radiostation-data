@@ -2,12 +2,12 @@
   "repoName": "radiostation-data",
   "community": "Extremadura",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 13,
-  "playableCount": 13,
-  "verifiedCount": 13,
+  "seedCount": 11,
+  "playableCount": 11,
+  "verifiedCount": 11,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Selección autonómica y local, sin cadenas nacionales generalistas. Refuerzo de Deporte con marcas y programas oficiales; se evitan cadenas nacionales en comunidades.  Refuerzo abril 2026: +1 emisoras verificadas desde TDTChannels y webs oficiales.",
+  "notes": "Selección autonómica y local, sin cadenas nacionales generalistas. Refuerzo de Deporte con marcas y programas oficiales; se evitan cadenas nacionales en comunidades.  Refuerzo abril 2026: +1 emisoras verificadas desde TDTChannels y webs oficiales.  Depuración abril 2026: se retiran marcas nacionales explícitas para reservarlas a Nacional.",
   "stations": [
     {
       "id": "radiogolex",
@@ -118,44 +118,6 @@
           "label": "stream",
           "url": "https://srv7031.dns-lcinternet.com/8044/stream",
           "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cadena-100-vegas-altas",
-      "name": "Cadena 100 Vegas Altas",
-      "category": "Música",
-      "community": "Extremadura",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://cadena100vegasaltas.com",
-      "logoUrl": "https://graph.facebook.com/CADENA100/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://eu1.lhdserver.es:8017/stream",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cadena-dial-zafra-rio-bodion",
-      "name": "Cadena Dial Zafra-Río Bodión",
-      "category": "Música",
-      "community": "Extremadura",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.radiotvzafra.es/en-directo/cadena-dial-zafra",
-      "logoUrl": "https://graph.facebook.com/cadenadial/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://radiotvzafra.es/cadenadial",
-          "format": "stream",
           "priority": 1,
           "source": "TDTChannels"
         }
