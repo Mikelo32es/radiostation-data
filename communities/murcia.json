@@ -1,12 +1,166 @@
 {
   "repoName": "radiostation-data",
   "community": "Murcia",
-  "seedSource": "reset",
-  "seedCount": 0,
-  "playableCount": 0,
-  "verifiedCount": 0,
+  "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
+  "seedCount": 8,
+  "playableCount": 8,
+  "verifiedCount": 8,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Reset 2026-04-12. Comunidad vaciada a propósito para rehacer el catálogo desde cero, comunidad por comunidad.",
-  "stations": []
+  "notes": "Selección regional y local murciana, con una emisora temática económica de ámbito regional.",
+  "stations": [
+    {
+      "id": "onda-regional-de-murcia",
+      "name": "Onda Regional de Murcia",
+      "category": "Noticias",
+      "community": "Murcia",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.orm.es/directo/orm/",
+      "logoUrl": "https://graph.facebook.com/OndaRegional/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://crmlive.redctnet.es/liveedge/orm/orm/playlist.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-regional-musica",
+      "name": "Onda Regional Música",
+      "category": "Música",
+      "community": "Murcia",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.orm.es/directo/or-musica/",
+      "logoUrl": "https://graph.facebook.com/OndaRegional/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://crmlive.redctnet.es/liveedge/orm/ormmusical/playlist.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "frecuencia-murcia-intereconomia",
+      "name": "Frecuencia Murcia Intereconomía",
+      "category": "Economía",
+      "community": "Murcia",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.frecuenciamurcia.es/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1709232156000636928/EqMZDB9e_200x200.jpg",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://eu1.lhdserver.es:9153/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-cieza",
+      "name": "Onda Cieza",
+      "category": "Local",
+      "community": "Murcia",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.ondacieza.com",
+      "logoUrl": "https://pbs.twimg.com/profile_images/654189936971771904/1y9jkZJ-_200x200.jpg",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://sonic.mediatelekom.net/8436/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-compania",
+      "name": "Radio Compañía",
+      "category": "Local",
+      "community": "Murcia",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://radiomolina.com/escuchanos-en-directo/",
+      "logoUrl": "https://graph.facebook.com/radiomolina/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://sonic.mediatelekom.net/8276/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "yecla-media-radio",
+      "name": "Yecla Media Radio",
+      "category": "Local",
+      "community": "Murcia",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://yeclamedia.com/radio/",
+      "logoUrl": "https://graph.facebook.com/Yeclamedia/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://emision.yeclamedia.com:8080/emision",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "caravaca-radio",
+      "name": "Caravaca Radio",
+      "category": "Local",
+      "community": "Murcia",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.caravacaradio.com",
+      "logoUrl": "https://graph.facebook.com/CARAVACARADIO/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "http://84.232.12.14:8000/caravacaradio",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-calasparra",
+      "name": "Radio Calasparra",
+      "category": "Local",
+      "community": "Murcia",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.radiocalasparra.es",
+      "logoUrl": "https://www.radiocalasparra.es/wp-content/uploads/2024/06/logo-radio-calasparra-e1718630159516.png",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "http://84.232.12.14:8000/RadioCalasparra",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    }
+  ]
 }

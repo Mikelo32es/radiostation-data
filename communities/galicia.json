@@ -1,12 +1,166 @@
 {
   "repoName": "radiostation-data",
   "community": "Galicia",
-  "seedSource": "reset",
-  "seedCount": 0,
-  "playableCount": 0,
-  "verifiedCount": 0,
+  "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
+  "seedCount": 8,
+  "playableCount": 8,
+  "verifiedCount": 8,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Reset 2026-04-12. Comunidad vaciada a propósito para rehacer el catálogo desde cero, comunidad por comunidad.",
-  "stations": []
+  "notes": "Selección pública, local, educativa y comunitaria.",
+  "stations": [
+    {
+      "id": "radio-galega",
+      "name": "Radio Galega",
+      "category": "Noticias",
+      "community": "Galicia",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://agalegaaudio.gal/videos/120144-radio-galega",
+      "logoUrl": "https://graph.facebook.com/aradiogalega/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://crtvg-radiogalega-hls.flumotion.cloud/playlist.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "son-galicia-radio",
+      "name": "Son Galicia Radio",
+      "category": "Cultura",
+      "community": "Galicia",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.agalegaaudio.gal/videos/81610-rsong",
+      "logoUrl": "https://graph.facebook.com/aradiogalega/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://crtvg-songalicia-hls.flumotion.cloud/playlist.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-galega-musica",
+      "name": "Radio Galega Música",
+      "category": "Música",
+      "community": "Galicia",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.agalegaaudio.gal/videos/81609-rgmusica",
+      "logoUrl": "https://graph.facebook.com/aradiogalega/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://crtvg-radiogalega-musica-hls.flumotion.cloud/playlist.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "radio-picarina",
+      "name": "Radio Picariña",
+      "category": "Educación",
+      "community": "Galicia",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.agalegaaudio.gal/videos/117823-radio-picarina",
+      "logoUrl": "https://graph.facebook.com/aradiogalega/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://crtvg-picarina-schlive.flumotion.cloud/crtvglive/smil:channel11PRG.smil/playlist.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-voz",
+      "name": "Radio Voz",
+      "category": "Local",
+      "community": "Galicia",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.radiovoz.com",
+      "logoUrl": "https://graph.facebook.com/radiovoz/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://live.radiovoz.es/mp3/stream_santiago.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-municipal-de-tui",
+      "name": "Radio Municipal de Tui",
+      "category": "Local",
+      "community": "Galicia",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.tui.gal/gl/servizos/radio-municipal-tui",
+      "logoUrl": "https://graph.facebook.com/RadioMunicipaldeTui/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://srv7021.dns-lcinternet.com/8070/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "cuac-fm",
+      "name": "Cuac FM",
+      "category": "Comunidad",
+      "community": "Galicia",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://cuacfm.org/directo/",
+      "logoUrl": "https://graph.facebook.com/cuacfm/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://streaming.cuacfm.org/cuacfm-128k.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radiofusion",
+      "name": "Radiofusión",
+      "category": "Local",
+      "community": "Galicia",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.radiofusion.eu",
+      "logoUrl": "https://graph.facebook.com/Radiofusionga/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://srv7031.dns-lcinternet.com/8032/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    }
+  ]
 }

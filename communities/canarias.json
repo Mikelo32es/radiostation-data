@@ -1,12 +1,148 @@
 {
   "repoName": "radiostation-data",
   "community": "Canarias",
-  "seedSource": "reset",
-  "seedCount": 0,
-  "playableCount": 0,
-  "verifiedCount": 0,
+  "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
+  "seedCount": 7,
+  "playableCount": 7,
+  "verifiedCount": 7,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Reset 2026-04-12. Comunidad vaciada a propósito para rehacer el catálogo desde cero, comunidad por comunidad.",
-  "stations": []
+  "notes": "Selección local, comunitaria y autonómica, sin cadenas nacionales generalistas.",
+  "stations": [
+    {
+      "id": "canarias-radio",
+      "name": "Canarias Radio",
+      "category": "Noticias",
+      "community": "Canarias",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://rtvc.es/audio/directo-radio/",
+      "logoUrl": "https://graph.facebook.com/LaRadioCanaria/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://rtvc-radio.flumotion.com/rtvc-radio/radio1-high.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "q-fm",
+      "name": "Q FM",
+      "category": "Música",
+      "community": "Canarias",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.qmusica.com/es",
+      "logoUrl": "https://graph.facebook.com/qmusica/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://securestreams4.autopo.st:1889/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Top 40"
+    },
+    {
+      "id": "radio-mogan",
+      "name": "Radio Mogán",
+      "category": "Local",
+      "community": "Canarias",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.mogan.es/45-radio-television-de-mogan/3295-escuchar-radio-mogan-en-directo",
+      "logoUrl": "https://graph.facebook.com/AyuntamientodeMogan/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://streaming.elitecomunicacion.cloud:8334/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-guiniguada",
+      "name": "Radio Guiniguada",
+      "category": "Comunidad",
+      "community": "Canarias",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://radioguiniguada.com",
+      "logoUrl": "https://graph.facebook.com/radioguiniguada/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://streamtotal.net/proxy/guiniguada/;.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "la-diez-radio",
+      "name": "La Diez Radio",
+      "category": "Local",
+      "community": "Canarias",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.ladiez.es",
+      "logoUrl": "https://graph.facebook.com/ladiezradio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://panel5.soydigital.fm/8030/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-san-borondon",
+      "name": "Radio San Borondón",
+      "category": "Comunidad",
+      "community": "Canarias",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://sanborondon.info/online/",
+      "logoUrl": "https://graph.facebook.com/RSanBorondon/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://cast5.my-control-panel.com/proxy/carlosal/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-carnaval-tenerife",
+      "name": "Radio Carnaval Tenerife",
+      "category": "Música",
+      "community": "Canarias",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://multicarnaval.com",
+      "logoUrl": "https://graph.facebook.com/Multicarnaval/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://streamtotal.net/proxy/carnaval/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Latina"
+    }
+  ]
 }

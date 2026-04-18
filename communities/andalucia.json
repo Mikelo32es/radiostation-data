@@ -1,12 +1,185 @@
 {
   "repoName": "radiostation-data",
-  "community": "Andalucia",
-  "seedSource": "reset",
-  "seedCount": 0,
-  "playableCount": 0,
-  "verifiedCount": 0,
+  "community": "Andalucía",
+  "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
+  "seedCount": 9,
+  "playableCount": 9,
+  "verifiedCount": 9,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Reset 2026-04-12. Comunidad vaciada a propósito para rehacer el catálogo desde cero, comunidad por comunidad.",
-  "stations": []
+  "notes": "myTuner solo como semilla de descubrimiento; streams y logos curados desde TDTChannels y webs oficiales cuando aplica.",
+  "stations": [
+    {
+      "id": "canal-sur-radio",
+      "name": "Canal Sur Radio",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.canalsurmas.es/videos/19988-canal-sur-radio",
+      "logoUrl": "https://graph.facebook.com/CanalSurRadioAndalucia/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://rtva-live-radio.flumotion.com/rtva/csr.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-andalucia-informacion",
+      "name": "Radio Andalucía Información",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.canalsurmas.es/videos/37911-rai",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1343337992803528711/onGzQLfO_200x200.jpg",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://rtva-live-radio.flumotion.com/rtva/rai.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "flamenco-radio",
+      "name": "Flamenco Radio",
+      "category": "Música",
+      "community": "Andalucía",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.canalsurmas.es/videos/19987-flamenco-radio",
+      "logoUrl": "https://graph.facebook.com/FlamencoRadio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://rtva-live-radio.flumotion.com/rtva/flamenco.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Flamenco y Popular"
+    },
+    {
+      "id": "onda-cadiz-radio",
+      "name": "Onda Cádiz Radio",
+      "category": "Local",
+      "community": "Andalucía",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://ondacadiz.es/radio/directo",
+      "logoUrl": "https://graph.facebook.com/ondacadiz/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://ondacadiztv.es:30443/ocr/directo/icecast.audio",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-capital",
+      "name": "Onda Capital",
+      "category": "Local",
+      "community": "Andalucía",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://ondacapital.es",
+      "logoUrl": "https://graph.facebook.com/ondacapitalfm/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://server1.radiocast.es/listen/onda_capital/capitalweb",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-jerez-radio",
+      "name": "Onda Jerez Radio",
+      "category": "Local",
+      "community": "Andalucía",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.ondajerez.com/radio",
+      "logoUrl": "https://graph.facebook.com/OndaJerezRTV/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://radio.ondajerez.com:8443/Ondajerez.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-la-isla",
+      "name": "Radio La Isla",
+      "category": "Local",
+      "community": "Andalucía",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://radiolaisla.com",
+      "logoUrl": "https://graph.facebook.com/radiolaisla/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://server10.emitironline.com:30132/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "sevilla-fc-radio",
+      "name": "Sevilla FC Radio",
+      "category": "Deporte",
+      "community": "Andalucía",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://live.sevillafc.es",
+      "logoUrl": "https://graph.facebook.com/sevillafc/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://open.http.mp.streamamg.com/p/3001314/sp/300131400/playManifest/entryId/0_ye0b8tc0/format/applehttp/protocol/https/uiConfId/30026292/a.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "babyradio",
+      "name": "Babyradio",
+      "category": "Educación",
+      "community": "Andalucía",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://babyradio.es/#radio-player",
+      "logoUrl": "https://yt3.googleusercontent.com/ytc/AIdro_k2PqG2pKYF9_qLh_ut69Z0MtU-jXsRvezCZQtbjivJsX8=s200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://srv6022.dns-lcinternet.com:8033/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    }
+  ]
 }

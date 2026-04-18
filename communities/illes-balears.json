@@ -1,12 +1,174 @@
 {
   "repoName": "radiostation-data",
   "community": "Illes Balears",
-  "seedSource": "reset",
-  "seedCount": 0,
-  "playableCount": 0,
-  "verifiedCount": 0,
+  "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
+  "seedCount": 8,
+  "playableCount": 8,
+  "verifiedCount": 8,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Reset 2026-04-12. Comunidad vaciada a propósito para rehacer el catálogo desde cero, comunidad por comunidad.",
-  "stations": []
+  "notes": "Selección balear con radios públicas, locales y musicales de isla.",
+  "stations": [
+    {
+      "id": "ib3-radio",
+      "name": "IB3 Ràdio",
+      "category": "Noticias",
+      "community": "Illes Balears",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://ib3.org/directe?c=radio",
+      "logoUrl": "https://graph.facebook.com/IB3org/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://icecast.ib3radio.com/ib3radio.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ibiza-global-radio",
+      "name": "Ibiza Global Radio",
+      "category": "Música",
+      "community": "Illes Balears",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://ibizaglobalradio.com/player/",
+      "logoUrl": "https://graph.facebook.com/ibiza.radio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://listenssl.ibizaglobalradio.com:8024/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Electrónica"
+    },
+    {
+      "id": "ibiza-sonica-radio",
+      "name": "Ibiza Sonica Radio",
+      "category": "Música",
+      "community": "Illes Balears",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.ibizasonica.com",
+      "logoUrl": "https://graph.facebook.com/ibizasonicaradio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://n0b.radiojar.com/st0wc9kut72vv",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Electrónica"
+    },
+    {
+      "id": "radioilla-formentera",
+      "name": "Ràdioilla Formentera",
+      "category": "Local",
+      "community": "Illes Balears",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://player.lcinternet.es/v9/player/index.php#Radio%20Illa%20Formentera%20HQ",
+      "logoUrl": "https://graph.facebook.com/radioilla.formentera/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://srv6021.dns-lcinternet.com:10220/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ona-mediterrania",
+      "name": "Ona Mediterrània",
+      "category": "Comunidad",
+      "community": "Illes Balears",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.onamediterrania.cat",
+      "logoUrl": "https://graph.facebook.com/OnaMediterrani/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://enacast.com/onamediterrania/streams/HD",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "mp3",
+          "url": "https://streaming.enacast.com/onamediterrania128.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "titoieta-radio",
+      "name": "Titoieta Ràdio",
+      "category": "Local",
+      "community": "Illes Balears",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "http://www.titoieta.cat/sintonitzador.php",
+      "logoUrl": "https://graph.facebook.com/titoieta/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://topradio.uno:8087/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-balear",
+      "name": "Radio Balear",
+      "category": "Local",
+      "community": "Illes Balears",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://radiobalear.net/radio-en-directo/",
+      "logoUrl": "https://graph.facebook.com/radiobalearfm/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://server10.emitironline.com:8076/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "formentera-radio",
+      "name": "Formentera Radio",
+      "category": "Local",
+      "community": "Illes Balears",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://players.lhdserver.es/social/formentera/playersocial/index.html",
+      "logoUrl": "https://graph.facebook.com/FormenteraRadio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://eu1.lhdserver.es:3153/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    }
+  ]
 }

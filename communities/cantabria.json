@@ -1,12 +1,147 @@
 {
   "repoName": "radiostation-data",
   "community": "Cantabria",
-  "seedSource": "reset",
-  "seedCount": 0,
-  "playableCount": 0,
-  "verifiedCount": 0,
+  "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
+  "seedCount": 7,
+  "playableCount": 7,
+  "verifiedCount": 7,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Reset 2026-04-12. Comunidad vaciada a propósito para rehacer el catálogo desde cero, comunidad por comunidad.",
-  "stations": []
+  "notes": "Curado priorizando emisoras locales y comunitarias.",
+  "stations": [
+    {
+      "id": "cantabria-radio",
+      "name": "Cantabria Radio",
+      "category": "Noticias",
+      "community": "Cantabria",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://cantabriaradio.com",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1618937329086857216/y7k5obyb_200x200.jpg",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://cantabria.radioca.st/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-occidental",
+      "name": "Onda Occidental",
+      "category": "Local",
+      "community": "Cantabria",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.ondaoccidental.es",
+      "logoUrl": "https://graph.facebook.com/ondaoccidental/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://server9.emitironline.com:10944/;.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "arco-fm",
+      "name": "ARCO FM",
+      "category": "Comunidad",
+      "community": "Cantabria",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://arcofm.com/escuchar-arco/",
+      "logoUrl": "https://graph.facebook.com/arcofmcantabria/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://hisparadio.duckdns.org/stream/1/stream.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-santona",
+      "name": "Radio Santoña",
+      "category": "Local",
+      "community": "Cantabria",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.santoña.es",
+      "logoUrl": "https://graph.facebook.com/radiosantona107.3/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://server10.emitironline.com:10212/radio.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "distinta-fm",
+      "name": "Distinta FM",
+      "category": "Música",
+      "community": "Cantabria",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://distintafm.es",
+      "logoUrl": "https://graph.facebook.com/distintafm/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://ns100.emisionlocal.com/proxy/distintafm?mp=/;stream.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "ason-fm",
+      "name": "Ason FM",
+      "category": "Local",
+      "community": "Cantabria",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.asonfm.com",
+      "logoUrl": "https://graph.facebook.com/asonfm/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "http://ns100.emisionlocal.com:8064/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-foramontanos",
+      "name": "Radio Foramontanos",
+      "category": "Local",
+      "community": "Cantabria",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.foramontanos.fm",
+      "logoUrl": "https://graph.facebook.com/foramontanosfm/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://foramontanos.fm:8443/live",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    }
+  ]
 }

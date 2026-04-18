@@ -1,12 +1,109 @@
 {
   "repoName": "radiostation-data",
   "community": "Navarra",
-  "seedSource": "reset",
-  "seedCount": 0,
-  "playableCount": 0,
-  "verifiedCount": 0,
+  "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
+  "seedCount": 5,
+  "playableCount": 5,
+  "verifiedCount": 5,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Reset 2026-04-12. Comunidad vaciada a propósito para rehacer el catálogo desde cero, comunidad por comunidad.",
-  "stations": []
+  "notes": "Selección navarra con emisoras propias, universitarias y comunitarias.",
+  "stations": [
+    {
+      "id": "euskalerria-irratia",
+      "name": "Euskalerria Irratia",
+      "category": "Local",
+      "community": "Navarra",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://euskalerriairratia.eus/irratia/zuzenekoa",
+      "logoUrl": "https://graph.facebook.com/euskalerriairratia/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://server9.emitironline.com:8014/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "trak-fm-pamplona",
+      "name": "Trak FM Pamplona",
+      "category": "Música",
+      "community": "Navarra",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://trakfm.com",
+      "logoUrl": "https://graph.facebook.com/trakfmpamplona/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://pr1cen101.emisionlocal.com/proxy/trakfm?mp=/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Dance"
+    },
+    {
+      "id": "eguzki-irratia",
+      "name": "Eguzki Irratia",
+      "category": "Comunidad",
+      "community": "Navarra",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://eguzki.eus",
+      "logoUrl": "https://graph.facebook.com/293039954137807/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://streaming.eguzki.eus/eguzki.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "estella-lizarra-fm",
+      "name": "Estella-Lizarra FM",
+      "category": "Local",
+      "community": "Navarra",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://radioestella.com",
+      "logoUrl": "https://graph.facebook.com/estellalizarrafm/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://server9.emitironline.com:19512/radio",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-universidad-de-navarra",
+      "name": "Radio Universidad de Navarra",
+      "category": "Educación",
+      "community": "Navarra",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.unav.edu/web/radio-universidad-de-navarra/en-directo",
+      "logoUrl": "https://graph.facebook.com/radiouniversidaddenavarra/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://s2.radio.co/sb23429e9f/listen",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    }
+  ]
 }

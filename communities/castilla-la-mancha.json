@@ -1,12 +1,167 @@
 {
   "repoName": "radiostation-data",
-  "community": "Castilla La Mancha",
-  "seedSource": "reset",
-  "seedCount": 0,
-  "playableCount": 0,
-  "verifiedCount": 0,
+  "community": "Castilla-La Mancha",
+  "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
+  "seedCount": 8,
+  "playableCount": 8,
+  "verifiedCount": 8,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Reset 2026-04-12. Comunidad vaciada a propósito para rehacer el catálogo desde cero, comunidad por comunidad.",
-  "stations": []
+  "notes": "Selección local, comunitaria y pública regional.",
+  "stations": [
+    {
+      "id": "cmm-radio",
+      "name": "CMM Radio",
+      "category": "Noticias",
+      "community": "Castilla-La Mancha",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.cmmedia.es/play/en-directo/radio",
+      "logoUrl": "https://graph.facebook.com/CMMediaes/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_qilzwlkz/format/applehttp/.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-kolor",
+      "name": "Radio Kolor",
+      "category": "Comunidad",
+      "community": "Castilla-La Mancha",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.radiokolor.es",
+      "logoUrl": "https://graph.facebook.com/kolor.cuenca/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://stream20.usastreams.com/8122/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-poligono-toledo",
+      "name": "Onda Polígono Toledo",
+      "category": "Comunidad",
+      "community": "Castilla-La Mancha",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.ondapoligono.org",
+      "logoUrl": "https://graph.facebook.com/ondapoligono/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://icecast.ondapoligono.org/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "surco-tomelloso",
+      "name": "Surco Tomelloso",
+      "category": "Local",
+      "community": "Castilla-La Mancha",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://radiosurco.es/player/",
+      "logoUrl": "https://graph.facebook.com/radiosurco/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://node-19.zeno.fm/52vdh1y07qzuv",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-chinchilla",
+      "name": "Radio Chinchilla",
+      "category": "Local",
+      "community": "Castilla-La Mancha",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "http://www.radiochinchilla.com/repro.htm",
+      "logoUrl": "https://graph.facebook.com/RadioChinchilla/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://streaming2.elitecomunicacion.es:8114/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-arrebato",
+      "name": "Radio Arrebato",
+      "category": "Música",
+      "community": "Castilla-La Mancha",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.radioarrebato.net",
+      "logoUrl": "https://graph.facebook.com/radioarrebato107.4/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "http://srv0510.emisorasonline.com:8025/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Alternativa"
+    },
+    {
+      "id": "la-unica-fm",
+      "name": "La Única FM",
+      "category": "Música",
+      "community": "Castilla-La Mancha",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.launicafm.com",
+      "logoUrl": "https://graph.facebook.com/182268477588/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://stream.radiofutura.es:8010/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Latina"
+    },
+    {
+      "id": "radio-mora",
+      "name": "Radio Mora",
+      "category": "Local",
+      "community": "Castilla-La Mancha",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://radiomora.es",
+      "logoUrl": "https://graph.facebook.com/rmorafm/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://server10.emitironline.com:9075/radio",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    }
+  ]
 }

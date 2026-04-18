@@ -1,12 +1,109 @@
 {
   "repoName": "radiostation-data",
   "community": "Extremadura",
-  "seedSource": "reset",
-  "seedCount": 0,
-  "playableCount": 0,
-  "verifiedCount": 0,
+  "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
+  "seedCount": 5,
+  "playableCount": 5,
+  "verifiedCount": 5,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Reset 2026-04-12. Comunidad vaciada a propósito para rehacer el catálogo desde cero, comunidad por comunidad.",
-  "stations": []
+  "notes": "Selección autonómica y local, sin cadenas nacionales generalistas.",
+  "stations": [
+    {
+      "id": "canal-extremadura-radio",
+      "name": "Canal Extremadura Radio",
+      "category": "Noticias",
+      "community": "Extremadura",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.canalextremadura.app/videos/182647-canal-radio-24h",
+      "logoUrl": "https://graph.facebook.com/CanalExtremadura/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://canalextremadura-audio.flumotion.cloud/canalextremaduralive/smil:channel1.smil/playlist.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-miajadas",
+      "name": "Radio Miajadas",
+      "category": "Local",
+      "community": "Extremadura",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://rtvmiajadas.es",
+      "logoUrl": "https://graph.facebook.com/489965251169138/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://srv7031.dns-lcinternet.com/8044/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "lola-fm",
+      "name": "Lola FM",
+      "category": "Música",
+      "community": "Extremadura",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.lolafm.es",
+      "logoUrl": "https://graph.facebook.com/LolaFMRadio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://srv7031.dns-lcinternet.com/8096/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Pop"
+    },
+    {
+      "id": "azuaga-radiofm",
+      "name": "Azuaga Radiofm",
+      "category": "Local",
+      "community": "Extremadura",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.ayuntamientodeazuaga.es/radioazuaga/en-directo/",
+      "logoUrl": "https://graph.facebook.com/azuagaradiofm/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://www.ayuntamientodeazuaga.es:8443/radioazuagafm",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radiogolex",
+      "name": "Radiogolex",
+      "category": "Comunidad",
+      "community": "Extremadura",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.radiogolex.com",
+      "logoUrl": "https://graph.facebook.com/Radiogolex/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://streaming12.elitecomunicacion.es:8218/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    }
+  ]
 }

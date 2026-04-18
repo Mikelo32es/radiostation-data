@@ -1,188 +1,181 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Catalunya se refuerza con emisoras de Barcelona y su provincia, manteniendo fuera las cadenas nacionales y sus desconexiones locales.",
+  "homePath": "catalog/home.json",
+  "syncMessage": "Catálogo rehecho por comunidades: myTuner se usa solo como semilla y TDTChannels/webs oficiales como base de streams y logos cuando aplica.",
   "stats": {
-    "seedCount": 190,
-    "playableCount": 149,
-    "verifiedCount": 141,
-    "candidateCount": 8,
-    "pendingCount": 41
+    "seedCount": 156,
+    "playableCount": 156,
+    "verifiedCount": 156,
+    "candidateCount": 0,
+    "pendingCount": 0
   },
   "featuredIds": [
-    "eitb-radio-euskadi",
-    "eitb-euskadi-irratia",
-    "eitb-radio-vitoria",
-    "eitb-gaztea",
-    "eitb-musika",
-    "eitb-euskal-kantak",
-    "hala-bedi-bat-107-4",
-    "hala-bedi-bi-88-8",
-    "bizkaia-irratia",
-    "bilbo-hiria-irratia",
-    "radio-nervion",
-    "onda-vasca"
+    "canal-sur-radio",
+    "aragon-radio-zaragoza",
+    "rpa",
+    "canarias-radio",
+    "cantabria-radio",
+    "cmm-radio",
+    "vive-radio",
+    "catalunya-radio",
+    "a-punt-fm",
+    "radio-euskadi",
+    "canal-extremadura-radio",
+    "radio-galega",
+    "ib3-radio",
+    "canal-ebro",
+    "onda-madrid",
+    "onda-regional-de-murcia",
+    "euskalerria-irratia"
   ],
   "trendingIds": [
-    "irola-irratia",
-    "txapa-irratia",
-    "arraio-irratia",
-    "naiz-irratia",
-    "stz-irratia",
-    "radio-donosti",
-    "radio-gorbea",
-    "formula-hit",
-    "euskadi-digital",
-    "segura-irratia",
-    "bi-fm",
-    "ataun-irratia"
+    "radio-popular-herri-irratia",
+    "radio-esport-valencia",
+    "cuac-fm",
+    "radio-vallekas",
+    "bilbo-hiria-irratia",
+    "ona-mediterrania",
+    "radio-kolor",
+    "arco-fm",
+    "radio-universidad-de-navarra",
+    "babyradio"
   ],
   "recentIds": [
-    "radio-martorell",
-    "radio-vilamajor",
-    "radio-caldes",
-    "radio-cubelles",
-    "radio-maricel",
-    "radio-la-mina",
-    "radio-america-barcelona",
-    "radio-gracia",
-    "una-cosa-radio",
-    "gran-via-radio"
+    "capital-radio-valencia",
+    "frecuencia-murcia-intereconomia",
+    "dynamis-radio",
+    "uab-radio",
+    "inforadio-ucm",
+    "radio-logrono",
+    "onda-capital",
+    "radio-picarina"
   ],
   "communities": [
     {
       "id": "andalucia",
-      "name": "Andalucia",
+      "name": "Andalucía",
       "path": "communities/andalucia.json",
-      "seedCount": 0,
-      "playableCount": 0
+      "seedCount": 9,
+      "playableCount": 9
     },
     {
       "id": "aragon",
-      "name": "Aragon",
+      "name": "Aragón",
       "path": "communities/aragon.json",
-      "seedCount": 0,
-      "playableCount": 0
+      "seedCount": 7,
+      "playableCount": 7
     },
     {
       "id": "asturias",
       "name": "Asturias",
       "path": "communities/asturias.json",
-      "seedCount": 0,
-      "playableCount": 0
+      "seedCount": 6,
+      "playableCount": 6
     },
     {
       "id": "canarias",
       "name": "Canarias",
       "path": "communities/canarias.json",
-      "seedCount": 0,
-      "playableCount": 0
+      "seedCount": 7,
+      "playableCount": 7
     },
     {
       "id": "cantabria",
       "name": "Cantabria",
       "path": "communities/cantabria.json",
-      "seedCount": 0,
-      "playableCount": 0
+      "seedCount": 7,
+      "playableCount": 7
     },
     {
       "id": "castilla-la-mancha",
-      "name": "Castilla La Mancha",
+      "name": "Castilla-La Mancha",
       "path": "communities/castilla-la-mancha.json",
-      "seedCount": 0,
-      "playableCount": 0
+      "seedCount": 8,
+      "playableCount": 8
     },
     {
       "id": "castilla-y-leon",
-      "name": "Castilla Y Leon",
+      "name": "Castilla y León",
       "path": "communities/castilla-y-leon.json",
-      "seedCount": 0,
-      "playableCount": 0
+      "seedCount": 8,
+      "playableCount": 8
     },
     {
       "id": "catalunya",
       "name": "Catalunya",
       "path": "communities/catalunya.json",
-      "seedCount": 45,
-      "playableCount": 45
+      "seedCount": 10,
+      "playableCount": 10
     },
     {
       "id": "comunitat-valenciana",
       "name": "Comunitat Valenciana",
       "path": "communities/comunitat-valenciana.json",
-      "seedCount": 0,
-      "playableCount": 0
+      "seedCount": 9,
+      "playableCount": 9
     },
     {
       "id": "euskadi",
       "name": "Euskadi",
       "path": "communities/euskadi.json",
-      "seedCount": 76,
-      "playableCount": 39
+      "seedCount": 11,
+      "playableCount": 11
     },
     {
       "id": "extremadura",
       "name": "Extremadura",
       "path": "communities/extremadura.json",
-      "seedCount": 0,
-      "playableCount": 0
+      "seedCount": 5,
+      "playableCount": 5
     },
     {
       "id": "galicia",
       "name": "Galicia",
       "path": "communities/galicia.json",
-      "seedCount": 0,
-      "playableCount": 0
+      "seedCount": 8,
+      "playableCount": 8
     },
     {
       "id": "illes-balears",
       "name": "Illes Balears",
       "path": "communities/illes-balears.json",
-      "seedCount": 0,
-      "playableCount": 0
+      "seedCount": 8,
+      "playableCount": 8
     },
     {
       "id": "la-rioja",
       "name": "La Rioja",
       "path": "communities/la-rioja.json",
-      "seedCount": 0,
-      "playableCount": 0
+      "seedCount": 2,
+      "playableCount": 2
     },
     {
       "id": "madrid",
       "name": "Madrid",
       "path": "communities/madrid.json",
-      "seedCount": 39,
-      "playableCount": 39
+      "seedCount": 12,
+      "playableCount": 12
     },
     {
       "id": "murcia",
       "name": "Murcia",
       "path": "communities/murcia.json",
-      "seedCount": 0,
-      "playableCount": 0
-    },
-    {
-      "id": "national",
-      "name": "Nacional",
-      "path": "communities/national.json",
-      "seedCount": 30,
-      "playableCount": 26
+      "seedCount": 8,
+      "playableCount": 8
     },
     {
       "id": "navarra",
       "name": "Navarra",
       "path": "communities/navarra.json",
-      "seedCount": 0,
-      "playableCount": 0
+      "seedCount": 5,
+      "playableCount": 5
+    },
+    {
+      "id": "national",
+      "name": "Nacional",
+      "path": "communities/national.json",
+      "seedCount": 26,
+      "playableCount": 26
     }
-  ],
-  "homePath": "catalog/home.json",
-  "requestedAction": "Conservar Waiting Room en Euskadi sin tocar el resto del catálogo, dejándola como seeded_pending y sin stream activo hasta validar una URL directa.",
-  "totals": {
-    "seedCount": 190,
-    "playableCount": 149,
-    "verifiedCount": 141,
-    "candidateCount": 8,
-    "pendingCount": 41
-  }
+  ]
 }
