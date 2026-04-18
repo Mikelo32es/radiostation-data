@@ -1,16 +1,9 @@
 {
   "sections": [
     {
-      "id": "featured",
-      "label": "SELECCIÓN",
-      "title": "Destacadas",
-      "source": "featured",
-      "limit": 12
-    },
-    {
       "id": "news",
       "label": "ACTUALIDAD",
-      "title": "Noticias y habladas",
+      "title": "Actualidad",
       "source": "query",
       "query": {
         "category": "Noticias",
@@ -19,53 +12,16 @@
       "limit": 12
     },
     {
-      "id": "local",
+      "id": "nearby",
       "label": "CERCA",
-      "title": "Locales",
-      "source": "query",
-      "query": {
-        "category": "Local",
-        "verifiedOnly": false
-      },
-      "limit": 12
-    },
-    {
-      "id": "music",
-      "label": "MÚSICA",
-      "title": "Música",
-      "source": "query",
-      "query": {
-        "category": "Música",
-        "verifiedOnly": false
-      },
-      "limit": 12
-    },
-    {
-      "id": "community",
-      "label": "COMUNIDAD",
-      "title": "Comunitarias",
-      "source": "query",
-      "query": {
-        "category": "Comunidad",
-        "verifiedOnly": false
-      },
-      "limit": 12
-    },
-    {
-      "id": "national",
-      "label": "NACIONAL",
-      "title": "Nacionales",
-      "source": "query",
-      "query": {
-        "category": "Nacional",
-        "verifiedOnly": false
-      },
+      "title": "Cerca de ti",
+      "source": "nearby",
       "limit": 12
     },
     {
       "id": "recent",
       "label": "NUEVAS",
-      "title": "Últimas incorporaciones",
+      "title": "Nuevas",
       "source": "recent",
       "limit": 12
     }

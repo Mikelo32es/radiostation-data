@@ -169,13 +169,9 @@
       "path": "communities/navarra.json",
       "seedCount": 5,
       "playableCount": 5
-    },
-    {
-      "id": "national",
-      "name": "Nacional",
-      "path": "communities/national.json",
-      "seedCount": 26,
-      "playableCount": 26
     }
+  ],
+  "stationFiles": [
+    "communities/national.json"
   ]
 }
