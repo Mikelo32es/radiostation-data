@@ -1,11 +1,11 @@
 {
   "repoName": "radiostation-data",
   "homePath": "catalog/home.json",
-  "syncMessage": "Catálogo rehecho por comunidades: myTuner se usa solo como semilla y TDTChannels/webs oficiales como base de streams y logos cuando aplica.",
+  "syncMessage": "Refuerzo amplio sin tocar Local: suben comunidades y categorías no locales, manteniendo las nacionales fuera del catálogo autonómico.",
   "stats": {
-    "seedCount": 156,
-    "playableCount": 156,
-    "verifiedCount": 156,
+    "seedCount": 227,
+    "playableCount": 227,
+    "verifiedCount": 227,
     "candidateCount": 0,
     "pendingCount": 0
   },
@@ -29,26 +29,31 @@
     "euskalerria-irratia"
   ],
   "trendingIds": [
-    "radio-popular-herri-irratia",
-    "radio-esport-valencia",
-    "cuac-fm",
-    "radio-vallekas",
-    "bilbo-hiria-irratia",
-    "ona-mediterrania",
-    "radio-kolor",
-    "arco-fm",
-    "radio-universidad-de-navarra",
-    "babyradio"
+    "radio-teletaxi",
+    "scannerfm",
+    "gran-via-radio",
+    "97fm-irratia",
+    "arraio-irratia",
+    "naiz-irratia",
+    "radio-donosti",
+    "txapa-irratia",
+    "radio-romanul",
+    "el-salto-radio",
+    "vaughan-radio"
   ],
   "recentIds": [
-    "capital-radio-valencia",
-    "frecuencia-murcia-intereconomia",
-    "dynamis-radio",
-    "uab-radio",
-    "inforadio-ucm",
-    "radio-logrono",
-    "onda-capital",
-    "radio-picarina"
+    "rac1",
+    "flaix-fm",
+    "flaixbac",
+    "radio-estel",
+    "97fm-irratia",
+    "eitb-euskadi-irratia",
+    "eitb-gaztea",
+    "naiz-irratia",
+    "radio-romanul",
+    "globo-fm",
+    "vaughan-radio",
+    "top-radio"
   ],
   "communities": [
     {
@@ -104,8 +109,8 @@
       "id": "catalunya",
       "name": "Catalunya",
       "path": "communities/catalunya.json",
-      "seedCount": 10,
-      "playableCount": 10
+      "seedCount": 29,
+      "playableCount": 29
     },
     {
       "id": "comunitat-valenciana",
@@ -118,8 +123,8 @@
       "id": "euskadi",
       "name": "Euskadi",
       "path": "communities/euskadi.json",
-      "seedCount": 11,
-      "playableCount": 11
+      "seedCount": 38,
+      "playableCount": 38
     },
     {
       "id": "extremadura",
@@ -153,8 +158,8 @@
       "id": "madrid",
       "name": "Madrid",
       "path": "communities/madrid.json",
-      "seedCount": 12,
-      "playableCount": 12
+      "seedCount": 37,
+      "playableCount": 37
     },
     {
       "id": "murcia",
@@ -169,9 +174,13 @@
       "path": "communities/navarra.json",
       "seedCount": 5,
       "playableCount": 5
+    },
+    {
+      "id": "national",
+      "name": "Nacional",
+      "path": "communities/national.json",
+      "seedCount": 26,
+      "playableCount": 26
     }
-  ],
-  "stationFiles": [
-    "communities/national.json"
   ]
 }
