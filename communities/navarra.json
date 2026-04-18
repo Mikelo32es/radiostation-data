@@ -2,12 +2,12 @@
   "repoName": "radiostation-data",
   "community": "Navarra",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 9,
-  "playableCount": 9,
-  "verifiedCount": 9,
+  "seedCount": 11,
+  "playableCount": 11,
+  "verifiedCount": 11,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Selección navarra con emisoras propias, universitarias y comunitarias. Refuerzo de Deporte con marcas y programas oficiales; se evitan cadenas nacionales en comunidades.",
+  "notes": "Selección navarra con emisoras propias, universitarias y comunitarias. Refuerzo de Deporte con marcas y programas oficiales; se evitan cadenas nacionales en comunidades.  Refuerzo abril 2026: +2 emisoras verificadas desde TDTChannels y webs oficiales.",
   "stations": [
     {
       "id": "eguzki-irratia",
@@ -176,6 +176,44 @@
           "label": "auto",
           "url": "https://azura.abcorp.es/radio/8110/stream",
           "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-5-navarra",
+      "name": "Radio 5 Navarra",
+      "category": "Noticias",
+      "community": "Navarra",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_nav-live/3894787/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/nav/mp3/high",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-nacional-navarra",
+      "name": "Radio Nacional Navarra",
+      "category": "Noticias",
+      "community": "Navarra",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_nav-live/3893551/",
+      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/nav/mp3/high",
+          "format": "stream",
           "priority": 1,
           "source": "TDTChannels"
         }

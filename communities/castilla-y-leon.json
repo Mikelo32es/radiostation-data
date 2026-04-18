@@ -2,12 +2,12 @@
   "repoName": "radiostation-data",
   "community": "Castilla y León",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 16,
-  "playableCount": 16,
-  "verifiedCount": 16,
+  "seedCount": 24,
+  "playableCount": 24,
+  "verifiedCount": 24,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Prioridad a radios locales, universitarias y de proximidad. Deportes reforzados con radios y marcas deportivas autonómicas, incluyendo propuestas polideportivas y no solo fútbol.",
+  "notes": "Prioridad a radios locales, universitarias y de proximidad. Deportes reforzados con radios y marcas deportivas autonómicas, incluyendo propuestas polideportivas y no solo fútbol.  Refuerzo abril 2026: +8 emisoras verificadas desde TDTChannels y webs oficiales.",
   "stations": [
     {
       "id": "radio-espinosa-merindades",
@@ -25,6 +25,24 @@
           "format": "stream",
           "priority": 1,
           "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "burgos-deporte-radio",
+      "name": "Burgos Deporte Radio",
+      "category": "Deporte",
+      "community": "Castilla y León",
+      "sourceSeed": "BurgosDeporte + stream público",
+      "websiteUrl": "https://www.burgosdeporte.com/",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "http://liveradio.com.es:18058/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "stream público"
         }
       ]
     },
@@ -74,6 +92,25 @@
       ]
     },
     {
+      "id": "anda-onda-lerma",
+      "name": "Anda Onda Lerma",
+      "category": "Local",
+      "community": "Castilla y León",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://andaonda.es",
+      "logoUrl": "https://graph.facebook.com/andaondalerma/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://topradio.uno:8006/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
       "id": "onda-bierzo",
       "name": "Onda Bierzo",
       "category": "Local",
@@ -106,6 +143,44 @@
           "label": "mp3",
           "url": "https://s28.myradiostream.com:13006/listen.mp3",
           "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-arlanzon",
+      "name": "Radio Arlanzón",
+      "category": "Local",
+      "community": "Castilla y León",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://servicios.burgosnoticias.com/radio/player.html",
+      "logoUrl": "https://graph.facebook.com/radioarlanzon/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://stream.zeno.fm/lmdmr08sga7vv",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-briviesca",
+      "name": "Radio Briviesca",
+      "category": "Local",
+      "community": "Castilla y León",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://radiobriviesca.com.es/en-directo/",
+      "logoUrl": "https://graph.facebook.com/RadioBriviesca/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://topradio.uno/proxy/radiobriviesca/stream",
+          "format": "stream",
           "priority": 1,
           "source": "TDTChannels"
         }
@@ -150,6 +225,25 @@
       ]
     },
     {
+      "id": "fabulosa-fm",
+      "name": "Fabulosa FM",
+      "category": "Música",
+      "community": "Castilla y León",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://lafabulosafm.com",
+      "logoUrl": "https://graph.facebook.com/fabulosa99.9/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://sonic2.sistemahost.es:8010/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
       "id": "los40-leon",
       "name": "LOS40 León",
       "category": "Música",
@@ -188,6 +282,25 @@
       ]
     },
     {
+      "id": "mortal-fm",
+      "name": "Mortal FM",
+      "category": "Música",
+      "community": "Castilla y León",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "http://www.mortalfm.es/online",
+      "logoUrl": "https://graph.facebook.com/mortalfm/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "http://server2.20comunicacion.com:8044/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
       "id": "power-fm-valladolid",
       "name": "Power FM Valladolid",
       "category": "Música",
@@ -206,6 +319,63 @@
         }
       ],
       "musicType": "Dance"
+    },
+    {
+      "id": "radio-aguilar-fm",
+      "name": "Radio Aguilar FM",
+      "category": "Música",
+      "community": "Castilla y León",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.radioaguilar.com",
+      "logoUrl": "https://graph.facebook.com/213369399946/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://pr1cen101.emisionlocal.com/proxy/radioaguilar?mp=/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "esradio-castilla-y-leon",
+      "name": "esRadio Castilla y León",
+      "category": "Noticias",
+      "community": "Castilla y León",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.esradiocastillayleon.es",
+      "logoUrl": "https://graph.facebook.com/esradio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "aac",
+          "url": "https://libertaddigital-radio-live4.flumotion.com/libertaddigital/ld-live4-med.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "esradio-soria",
+      "name": "esRadio Soria",
+      "category": "Noticias",
+      "community": "Castilla y León",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://esradio.libertaddigital.com/castilla-y-leon/soria.html",
+      "logoUrl": "https://graph.facebook.com/esradio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://srv6021.dns-lcinternet.com:10256/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "fm-bierzo",
@@ -299,24 +469,6 @@
           "format": "stream",
           "priority": 1,
           "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "burgos-deporte-radio",
-      "name": "Burgos Deporte Radio",
-      "category": "Deporte",
-      "community": "Castilla y León",
-      "sourceSeed": "BurgosDeporte + stream público",
-      "websiteUrl": "https://www.burgosdeporte.com/",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "http://liveradio.com.es:18058/stream",
-          "format": "stream",
-          "priority": 1,
-          "source": "stream público"
         }
       ]
     }

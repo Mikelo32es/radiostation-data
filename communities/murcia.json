@@ -2,13 +2,51 @@
   "repoName": "radiostation-data",
   "community": "Murcia",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 13,
-  "playableCount": 13,
-  "verifiedCount": 13,
+  "seedCount": 20,
+  "playableCount": 20,
+  "verifiedCount": 20,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Selección regional y local murciana, con una emisora temática económica de ámbito regional. Refuerzo de Deporte con marcas y programas oficiales; se evitan cadenas nacionales en comunidades.",
+  "notes": "Selección regional y local murciana, con una emisora temática económica de ámbito regional. Refuerzo de Deporte con marcas y programas oficiales; se evitan cadenas nacionales en comunidades.  Refuerzo abril 2026: +7 emisoras verificadas desde TDTChannels y webs oficiales.",
   "stations": [
+    {
+      "id": "inter-radio",
+      "name": "Inter Radio",
+      "category": "Comunidad",
+      "community": "Murcia",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://lainter.es",
+      "logoUrl": "https://graph.facebook.com/LaInter.es/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://sonic.mediatelekom.net/8460/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "metropolitan-radio",
+      "name": "Metropólitan Radio",
+      "category": "Comunidad",
+      "community": "Murcia",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://metropolitan.radio",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1435351436523626507/lBjfSU1K_200x200.jpg",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://sonic.mediatelekom.net/8012/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
     {
       "id": "en-juego-orm",
       "name": "En Juego",
@@ -219,6 +257,25 @@
       ]
     },
     {
+      "id": "la-jungla-yecla",
+      "name": "La Jungla Yecla",
+      "category": "Música",
+      "community": "Murcia",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.lajunglayecla.com/en-directo/",
+      "logoUrl": "https://graph.facebook.com/lajunglaradioyecla/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://streaming12.elitecomunicacion.es:8204/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
       "id": "onda-regional-musica",
       "name": "Onda Regional Música",
       "category": "Música",
@@ -239,6 +296,44 @@
       "musicType": "Variedad"
     },
     {
+      "id": "wifon-fm",
+      "name": "Wifon FM",
+      "category": "Música",
+      "community": "Murcia",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://wifonfm.es/streaming",
+      "logoUrl": "https://graph.facebook.com/wifonfm/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://betelgeuse.nucast.co.uk:8044/wifonfm",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "esradio-murcia",
+      "name": "esRadio Murcia",
+      "category": "Noticias",
+      "community": "Murcia",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.esradiomurcia.es",
+      "logoUrl": "https://graph.facebook.com/esradio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://sonic.mediatelekom.net/8274/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
       "id": "onda-regional-de-murcia",
       "name": "Onda Regional de Murcia",
       "category": "Noticias",
@@ -252,6 +347,44 @@
           "label": "m3u8",
           "url": "https://crmlive.redctnet.es/liveedge/orm/orm/playlist.m3u8",
           "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-5-murcia",
+      "name": "Radio 5 Murcia",
+      "category": "Noticias",
+      "community": "Murcia",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_mur-live/3894785/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/mur/mp3/high",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-nacional-murcia",
+      "name": "Radio Nacional Murcia",
+      "category": "Noticias",
+      "community": "Murcia",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_mur-live/3893550/",
+      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/mur/mp3/high",
+          "format": "stream",
           "priority": 1,
           "source": "TDTChannels"
         }

@@ -2,13 +2,77 @@
   "repoName": "radiostation-data",
   "community": "Aragon",
   "seedSource": "TDTChannels + webs oficiales",
-  "seedCount": 4,
-  "playableCount": 4,
-  "verifiedCount": 4,
+  "seedCount": 25,
+  "playableCount": 25,
+  "verifiedCount": 25,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Comunidad reforzada con su emisora autonómica principal. Las cadenas nacionales generalistas se mantienen en Nacional. Refuerzo de Deporte con marcas y programas oficiales; se evitan cadenas nacionales en comunidades.",
+  "notes": "Comunidad reforzada con su emisora autonómica principal. Las cadenas nacionales generalistas se mantienen en Nacional. Refuerzo de Deporte con marcas y programas oficiales; se evitan cadenas nacionales en comunidades.  Refuerzo abril 2026: +21 emisoras verificadas desde TDTChannels y webs oficiales.",
   "stations": [
+    {
+      "id": "radio-la-comarca",
+      "name": "Radio La Comarca",
+      "category": "Comunidad",
+      "community": "Aragón",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.lacomarca.net/radio-streaming/?channel=radio-la-comarca",
+      "logoUrl": "https://graph.facebook.com/lacomarcanews/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://radiolacomarca.radioonlinelacomarca.net:8333/ser.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-mai",
+      "name": "Radio Mai",
+      "category": "Comunidad",
+      "community": "Aragón",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://radiomai.com/online/",
+      "logoUrl": "https://graph.facebook.com/radiomai/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream # 1",
+          "url": "http://radio.indaloweb.es:8001/live",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "stream # 2",
+          "url": "http://radiomai.duckdns.org:8020/live",
+          "format": "stream",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "vale-radio",
+      "name": "Vale Radio",
+      "category": "Comunidad",
+      "community": "Aragón",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.valeradio.es/reproductor/index.php",
+      "logoUrl": "https://graph.facebook.com/ValeRadio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://sonic2.sistemahost.es/8170/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
     {
       "id": "aragon-deporte",
       "name": "Aragón Deporte",
@@ -67,6 +131,291 @@
       ]
     },
     {
+      "id": "aragon-radio-huesca",
+      "name": "Aragón Radio Huesca",
+      "category": "Local",
+      "community": "Aragón",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.cartv.es/aragonradio/radio?id=canal2",
+      "logoUrl": "https://graph.facebook.com/aragonradio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://cartv.streaming.aranova.es/hls/live/aragonradio_huesca.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "aragon-radio-teruel",
+      "name": "Aragón Radio Teruel",
+      "category": "Local",
+      "community": "Aragón",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.cartv.es/aragonradio/radio?id=canal3",
+      "logoUrl": "https://graph.facebook.com/aragonradio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://cartv.streaming.aranova.es/hls/live/aragonradio_teruel.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "aragon-radio-zaragoza",
+      "name": "Aragón Radio Zaragoza",
+      "category": "Local",
+      "community": "Aragón",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.cartv.es/aragonradio/radio?id=canal1",
+      "logoUrl": "https://graph.facebook.com/aragonradio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://cartv.streaming.aranova.es/hls/live/aragonradio_aragonradio1.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "hit-radio-zona-oriental",
+      "name": "Hit Radio Zona Oriental",
+      "category": "Local",
+      "community": "Aragón",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "http://www.hitradiofm.es/hitgrado.html",
+      "logoUrl": "https://graph.facebook.com/HitRadioElGrado/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "http://stm1.emiteonline.com:8004/hitelgrado",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-aragonesa",
+      "name": "Onda Aragonesa",
+      "category": "Local",
+      "community": "Aragón",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://ondaaragonesa.info/escuchanos-en-directo/",
+      "logoUrl": "https://graph.facebook.com/RadioOndaAragonesa/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://eu1.lhdserver.es:9047/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-barbastro-ainsa",
+      "name": "Radio Barbastro-Ainsa",
+      "category": "Local",
+      "community": "Aragón",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/radio-ainsa/contacto/",
+      "logoUrl": "https://graph.facebook.com/RadioBarbastroyAinsa/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_BARBASTRO.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-calamocha",
+      "name": "Radio Calamocha",
+      "category": "Local",
+      "community": "Aragón",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.radiocalamocha.es/player.html",
+      "logoUrl": "https://graph.facebook.com/radiocalamocha/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://directo.radiocalamocha.es:1443/radiocalamocha.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-huesca-graus",
+      "name": "Radio Huesca Graus",
+      "category": "Local",
+      "community": "Aragón",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/radio-graus/contacto/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_GRAUS.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-huesca-jaca",
+      "name": "Radio Huesca Jaca",
+      "category": "Local",
+      "community": "Aragón",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/radio-jaca-ser-pirineos/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_JACA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-huesca-sabinanigo",
+      "name": "Radio Huesca Sabiñánigo",
+      "category": "Local",
+      "community": "Aragón",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/radio-sabinanigo/contacto/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_SABINANIGO.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-huesca-sarinena",
+      "name": "Radio Huesca Sariñena",
+      "category": "Local",
+      "community": "Aragón",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/radio-sarinena/contacto/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_SARINENA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ebro-fm",
+      "name": "Ebro FM",
+      "category": "Música",
+      "community": "Aragón",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://diarioaragones.com",
+      "logoUrl": "https://pbs.twimg.com/profile_images/522841077712044032/6hH3W4_F_200x200.jpeg",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://s20.prositel.net:7020/ebrofm",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "lokurafm",
+      "name": "LokuraFM",
+      "category": "Música",
+      "community": "Aragón",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://lokurafm.online",
+      "logoUrl": "https://play-lh.googleusercontent.com/pRLw0KpuXGQxblfGu8kwMNx0rrOurCW7YBaZiHYTojJkBe0uzQOd3AKvCsbBYMyOOpzp=w200-h200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://radioserver11.profesionalhosting.com/proxy/pkg131447?mp=/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "rumba-fm",
+      "name": "Rumba FM",
+      "category": "Música",
+      "community": "Aragón",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "http://www.rumba93.es",
+      "logoUrl": "https://graph.facebook.com/RumbaFMZaragoza/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://securestream.radioshd.info/9348/stream/;mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "tea-fm",
+      "name": "Tea FM",
+      "category": "Música",
+      "community": "Aragón",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "http://www.teafm.net",
+      "logoUrl": "https://graph.facebook.com/teafm/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://cervera.eldialdigital.com:21161/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
       "id": "aragon-radio",
       "name": "Aragón Radio",
       "category": "Noticias",
@@ -80,6 +429,63 @@
           "label": "m3u8",
           "url": "https://cartv.streaming.aranova.es/hls/live/aragonradio_aragonradio1.m3u8",
           "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "esradio-aragon",
+      "name": "esRadio Aragón",
+      "category": "Noticias",
+      "community": "Aragón",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.aragonesradio.com",
+      "logoUrl": "https://graph.facebook.com/esradio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://securestream.radioshd.info/9508/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-5-aragon",
+      "name": "Radio 5 Aragón",
+      "category": "Noticias",
+      "community": "Aragón",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_ara/3894741/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/zgz/mp3/high",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-nacional-aragon",
+      "name": "Radio Nacional Aragón",
+      "category": "Noticias",
+      "community": "Aragón",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_ara-live/3893524/",
+      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/ara/mp3/high",
+          "format": "stream",
           "priority": 1,
           "source": "TDTChannels"
         }

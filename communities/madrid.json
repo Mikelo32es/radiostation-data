@@ -2,12 +2,12 @@
   "repoName": "radiostation-data",
   "community": "Madrid",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 47,
-  "playableCount": 47,
-  "verifiedCount": 47,
+  "seedCount": 49,
+  "playableCount": 49,
+  "verifiedCount": 49,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Refuerzo amplio sin tocar la categoría Local: se añaden emisoras no locales reaprovechadas de catálogos verificados previos y se mantienen las nacionales fuera de las comunidades. Refuerzo de Deporte con marcas y programas oficiales; se evitan cadenas nacionales en comunidades.",
+  "notes": "Refuerzo amplio sin tocar la categoría Local: se añaden emisoras no locales reaprovechadas de catálogos verificados previos y se mantienen las nacionales fuera de las comunidades. Refuerzo de Deporte con marcas y programas oficiales; se evitan cadenas nacionales en comunidades.  Refuerzo abril 2026: +2 emisoras verificadas desde TDTChannels y webs oficiales.",
   "stations": [
     {
       "id": "eco-leganes",
@@ -853,6 +853,44 @@
           "label": "Stream principal",
           "url": "http://5.135.183.124:8197/stream",
           "format": "mp3",
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-5-madrid",
+      "name": "Radio 5 Madrid",
+      "category": "Noticias",
+      "community": "Madrid",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_mad-live/3894730/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/mad/mp3/high",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-nacional-madrid",
+      "name": "Radio Nacional Madrid",
+      "category": "Noticias",
+      "community": "Madrid",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_mad-live/3893534/",
+      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/mad/mp3/high",
+          "format": "stream",
+          "priority": 1,
           "source": "TDTChannels"
         }
       ]

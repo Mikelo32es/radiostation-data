@@ -2,12 +2,12 @@
   "repoName": "radiostation-data",
   "community": "Castilla-La Mancha",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 17,
-  "playableCount": 17,
-  "verifiedCount": 17,
+  "seedCount": 21,
+  "playableCount": 21,
+  "verifiedCount": 21,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Selección local, comunitaria y pública regional. Refuerzo de Deporte con marcas y programas oficiales; se evitan cadenas nacionales en comunidades.",
+  "notes": "Selección local, comunitaria y pública regional. Refuerzo de Deporte con marcas y programas oficiales; se evitan cadenas nacionales en comunidades.  Refuerzo abril 2026: +4 emisoras verificadas desde TDTChannels y webs oficiales.",
   "stations": [
     {
       "id": "onda-poligono-toledo",
@@ -42,6 +42,25 @@
           "label": "stream",
           "url": "https://stream20.usastreams.com/8122/stream",
           "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "surco-manzanares",
+      "name": "Surco Manzanares",
+      "category": "Comunidad",
+      "community": "Castilla-La Mancha",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://radiosurco.es/player/",
+      "logoUrl": "https://graph.facebook.com/radiosurco/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://node-31.zeno.fm/v9k530trzwzuv",
+          "format": "stream",
           "priority": 1,
           "source": "TDTChannels"
         }
@@ -143,6 +162,25 @@
       ]
     },
     {
+      "id": "radio-serrania",
+      "name": "Radio Serranía",
+      "category": "Local",
+      "community": "Castilla-La Mancha",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.radioserrania.es",
+      "logoUrl": "https://play-lh.googleusercontent.com/4QQwgiAxHgttu-Cnz2zlypFKnvevz1v30xYi0qaAzzAhwZnfZ8UszPapSCarQeCEIg=s200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://stream.zeno.fm/suyydyfgwf9uv",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
       "id": "surco-tomelloso",
       "name": "Surco Tomelloso",
       "category": "Local",
@@ -194,6 +232,25 @@
         {
           "label": "mp3",
           "url": "https://stream.onefm.es:8000/onefm.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "pedro-munoz-fm",
+      "name": "Pedro Muñoz FM",
+      "category": "Música",
+      "community": "Castilla-La Mancha",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.pedromunozfm.com/nuevaweb/",
+      "logoUrl": "https://graph.facebook.com/pedromunozfm/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://radio.pedromunozfm.com:8443/endirecto.mp3",
           "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
@@ -272,6 +329,25 @@
           "label": "m3u8",
           "url": "https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_qilzwlkz/format/applehttp/.m3u8",
           "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "esradio-albacete",
+      "name": "esRadio Albacete",
+      "category": "Noticias",
+      "community": "Castilla-La Mancha",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.esradioalbacete.es/reproductor.php",
+      "logoUrl": "https://graph.facebook.com/esradio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://servercloudim3dia.im3dia.com:8001/esradioalbacete.mp3",
+          "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
         }

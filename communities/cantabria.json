@@ -2,13 +2,32 @@
   "repoName": "radiostation-data",
   "community": "Cantabria",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 12,
-  "playableCount": 12,
-  "verifiedCount": 12,
+  "seedCount": 18,
+  "playableCount": 18,
+  "verifiedCount": 18,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Curado priorizando emisoras locales y comunitarias. Refuerzo de Deporte con marcas y programas oficiales; se evitan cadenas nacionales en comunidades.",
+  "notes": "Curado priorizando emisoras locales y comunitarias. Refuerzo de Deporte con marcas y programas oficiales; se evitan cadenas nacionales en comunidades.  Refuerzo abril 2026: +6 emisoras verificadas desde TDTChannels y webs oficiales.",
   "stations": [
+    {
+      "id": "cadena-mix",
+      "name": "Cadena Mix",
+      "category": "Comunidad",
+      "community": "Cantabria",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "http://www.cadenamix.es",
+      "logoUrl": "https://graph.facebook.com/cadenamixfm/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://ns6.emisionlocal.com/proxy/radiomix?mp=%2Fstream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
     {
       "id": "ahi-van-bolos",
       "name": "Ahí Van Bolos",
@@ -181,6 +200,25 @@
       ]
     },
     {
+      "id": "radio-merindad-de-campoo",
+      "name": "Radio Merindad de Campoo",
+      "category": "Local",
+      "community": "Cantabria",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "http://www.radiomc.es",
+      "logoUrl": "https://graph.facebook.com/103380741524107/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://server8.emitironline.com:18774/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
       "id": "radio-santona",
       "name": "Radio Santoña",
       "category": "Local",
@@ -194,6 +232,25 @@
           "label": "mp3",
           "url": "https://server10.emitironline.com:10212/radio.mp3",
           "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "cantabria-fm",
+      "name": "Cantabria FM",
+      "category": "Música",
+      "community": "Cantabria",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://cantabriafm.com",
+      "logoUrl": "https://pbs.twimg.com/profile_images/425231625132056576/Xr2_H3b8_200x200.jpeg",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://stream.zeno.fm/jndgdm0esn9vv",
+          "format": "stream",
           "priority": 1,
           "source": "TDTChannels"
         }
@@ -233,6 +290,63 @@
           "label": "stream",
           "url": "https://cantabria.radioca.st/stream",
           "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "esradio-cantabria",
+      "name": "esRadio Cantabria",
+      "category": "Noticias",
+      "community": "Cantabria",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "http://www.esradiocantabria.es",
+      "logoUrl": "https://graph.facebook.com/esradio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "http://ns100.emisionlocal.com:9428/live",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-5-cantabria",
+      "name": "Radio 5 Cantabria",
+      "category": "Noticias",
+      "community": "Cantabria",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_ctb-live/3894780/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/ctb/mp3/high",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-nacional-cantabria",
+      "name": "Radio Nacional Cantabria",
+      "category": "Noticias",
+      "community": "Cantabria",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_ctb-live/3893531/",
+      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/ctb/mp3/high",
+          "format": "stream",
           "priority": 1,
           "source": "TDTChannels"
         }

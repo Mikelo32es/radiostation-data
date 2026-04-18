@@ -2,12 +2,12 @@
   "repoName": "radiostation-data",
   "community": "Catalunya",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 38,
-  "playableCount": 38,
-  "verifiedCount": 38,
+  "seedCount": 70,
+  "playableCount": 70,
+  "verifiedCount": 70,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Refuerzo amplio sin tocar la categoría Local: se añaden emisoras no locales reaprovechadas de catálogos verificados previos y se mantienen las nacionales fuera de las comunidades. Refuerzo de Deporte con marcas y programas oficiales; se evitan cadenas nacionales en comunidades.",
+  "notes": "Refuerzo amplio sin tocar la categoría Local: se añaden emisoras no locales reaprovechadas de catálogos verificados previos y se mantienen las nacionales fuera de las comunidades. Refuerzo de Deporte con marcas y programas oficiales; se evitan cadenas nacionales en comunidades.  Refuerzo abril 2026: +32 emisoras verificadas desde TDTChannels y webs oficiales.",
   "stations": [
     {
       "id": "21-radio",
@@ -124,6 +124,25 @@
       ]
     },
     {
+      "id": "constanti-radio",
+      "name": "Constantí Ràdio",
+      "category": "Comunidad",
+      "community": "Catalunya",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.constantiradio.cat",
+      "logoUrl": "https://graph.facebook.com/ConstantiRadio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://streaming.enacast.com/radioconstantiSD.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
       "id": "gran-via-radio",
       "name": "Gran Via Radio",
       "category": "Comunidad",
@@ -136,6 +155,25 @@
         {
           "label": "stream",
           "url": "https://servidor14-3.brlogic.com:7066/live",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "imagina-radio",
+      "name": "Imagina Ràdio",
+      "category": "Comunidad",
+      "community": "Catalunya",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.imaginaradio.cat/directe/",
+      "logoUrl": "https://graph.facebook.com/ImaginaRadio103/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://relay.stream.enacast-cloud.com:30286/imaginaradioHD.mp3",
           "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
@@ -162,6 +200,25 @@
       ]
     },
     {
+      "id": "mataro-radio",
+      "name": "Mataró Ràdio",
+      "category": "Comunidad",
+      "community": "Catalunya",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://mataroaudiovisual.cat/radio",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1666805471519592456/zkZjIwF7_200x200.jpg",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://relay.stream.enacast-cloud.com:30049/mataroradioHD.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
       "id": "ona-de-sants-fm",
       "name": "Ona de Sants FM",
       "category": "Comunidad",
@@ -181,6 +238,25 @@
       ]
     },
     {
+      "id": "ona-la-torre",
+      "name": "Ona La Torre",
+      "category": "Comunidad",
+      "community": "Catalunya",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.ona-latorre.cat",
+      "logoUrl": "https://graph.facebook.com/ona.latorre/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://streaming.enacast.com/onalatorreSD.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
       "id": "radio-la-mina",
       "name": "Radio La Mina",
       "category": "Comunidad",
@@ -194,6 +270,96 @@
           "label": "stream",
           "url": "http://cervera.eldialdigital.com:11121/stream",
           "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "rap107",
+      "name": "RAP107",
+      "category": "Comunidad",
+      "community": "Catalunya",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://enacast.com/rap107/",
+      "logoUrl": "https://graph.facebook.com/rap107/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://enacast.com/rap107/streams/HD",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "mp3",
+          "url": "https://relay.stream.enacast-cloud.com:40048/rapradio128.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ripollet-radio",
+      "name": "Ripollet Radio",
+      "category": "Comunidad",
+      "community": "Catalunya",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://ripolletradio.cat/en-directe/",
+      "logoUrl": "https://graph.facebook.com/RipolletRadio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://directe.ripolletradio.cat/live?mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-silenci",
+      "name": "Ràdio Silenci",
+      "category": "Comunidad",
+      "community": "Catalunya",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.radiosilenci.cat",
+      "logoUrl": "https://graph.facebook.com/rsilenci/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://enacast.com/radiosilenci/streams/HD",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "mp3",
+          "url": "https://streaming.enacast.com/radiosilenci128.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "styl-manresa",
+      "name": "Styl Manresa",
+      "category": "Comunidad",
+      "community": "Catalunya",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.stylfm.com",
+      "logoUrl": "https://graph.facebook.com/stylfm/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://ssl.nexuscast.com:8077/stream",
+          "format": "stream",
           "priority": 1,
           "source": "TDTChannels"
         }
@@ -238,6 +404,25 @@
       ]
     },
     {
+      "id": "mdt-radio-barcelona",
+      "name": "MDT Radio Barcelona",
+      "category": "Cultura",
+      "community": "Catalunya",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://mdtradio.com",
+      "logoUrl": "https://graph.facebook.com/MDTradioBarcelona/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://streams1.mdtradio.com:8443/MdtBarcelonaEstudio",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
       "id": "radio-america-barcelona",
       "name": "Ràdio Amèrica Barcelona",
       "category": "Cultura",
@@ -251,6 +436,25 @@
           "label": "stream",
           "url": "https://s3.radio.co/sf09831a0e/listen",
           "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-capital",
+      "name": "Ràdio Capital",
+      "category": "Cultura",
+      "community": "Catalunya",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.radiocapital.cat/endirecte/",
+      "logoUrl": "https://graph.facebook.com/capitalemporda/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://radio.martiproduccions.com/capitalhd",
+          "format": "stream",
           "priority": 1,
           "source": "TDTChannels"
         }
@@ -390,6 +594,25 @@
       ]
     },
     {
+      "id": "u-radio",
+      "name": "U Ràdio",
+      "category": "Educación",
+      "community": "Catalunya",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.uradio.cat",
+      "logoUrl": "https://graph.facebook.com/uradiofm/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://streaming.enacast.com/radioulldecona128.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
       "id": "uab-radio",
       "name": "UAB Ràdio",
       "category": "Educación",
@@ -428,6 +651,51 @@
       ]
     },
     {
+      "id": "radio-4-rne",
+      "name": "Ràdio 4 RNE",
+      "category": "Local",
+      "community": "Catalunya",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.rtve.es/play/radio/radio-4/",
+      "logoUrl": "https://graph.facebook.com/Radio4RNE/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r4_main.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-caldes",
+      "name": "Ràdio Caldes",
+      "category": "Local",
+      "community": "Catalunya",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.radiocaldes.cat",
+      "logoUrl": "https://graph.facebook.com/RadioCaldes107.8fm/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://enacast.com/radiocaldes/streams/HD",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "mp3",
+          "url": "https://relay.stream.enacast-cloud.com:40062/radiocaldes128.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
       "id": "radio-ciutat-de-badalona",
       "name": "Ràdio Ciutat de Badalona",
       "category": "Local",
@@ -449,6 +717,307 @@
           "url": "https://relay.stream.enacast-cloud.com:40039/radiob128.mp3",
           "format": "mp3",
           "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-cubelles",
+      "name": "Ràdio Cubelles",
+      "category": "Local",
+      "community": "Catalunya",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.radiocubelles.cat",
+      "logoUrl": "https://graph.facebook.com/radiocubelles/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://enacast.com/radiocubelles/streams/HD",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "mp3",
+          "url": "https://streaming.enacast.com/cubelles128.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-cunit",
+      "name": "Ràdio Cunit",
+      "category": "Local",
+      "community": "Catalunya",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://radiocunit.cat",
+      "logoUrl": "https://graph.facebook.com/radiocunit/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://streaming.enacast.com/radiocunitHD.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-despi",
+      "name": "Ràdio Despí",
+      "category": "Local",
+      "community": "Catalunya",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://radiodespi.net/directo/",
+      "logoUrl": "https://graph.facebook.com/radiodespi/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://streaming12.elitecomunicacion.es:8228/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "mp3",
+          "url": "https://streaming12.elitecomunicacion.es:8228/stream?type=.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-desvern",
+      "name": "Ràdio Desvern",
+      "category": "Local",
+      "community": "Catalunya",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.radiodesvern.com",
+      "logoUrl": "https://graph.facebook.com/radiodesvernoficial/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://relay.stream.enacast-cloud.com:40001/radiodesvern128.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "stream",
+          "url": "https://enacast.com/radiodesvern/streams/HD",
+          "format": "stream",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-el-vendrell",
+      "name": "Ràdio El Vendrell",
+      "category": "Local",
+      "community": "Catalunya",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.rtvelvendrell.cat/directes/radio/",
+      "logoUrl": "https://graph.facebook.com/rtvelvendrell/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://enacast.com/rtvelvendrell/streams/HD",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "mp3",
+          "url": "https://streaming.enacast.com/rtvelvendrell128.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-granollers",
+      "name": "Ràdio Granollers",
+      "category": "Local",
+      "community": "Catalunya",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.radiogranollers.cat",
+      "logoUrl": "https://graph.facebook.com/RadioGranollers/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://relay.stream.enacast-cloud.com:30324/radiogranollersHD.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-igualada",
+      "name": "Ràdio Igualada",
+      "category": "Local",
+      "community": "Catalunya",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "www.lcinternet.es/player/v3299500_igualada/player.html",
+      "logoUrl": "https://graph.facebook.com/radioigualada/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://srv7031.dns-lcinternet.com/8024/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-llanca",
+      "name": "Ràdio Llançà",
+      "category": "Local",
+      "community": "Catalunya",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://radiollanca.cat",
+      "logoUrl": "https://graph.facebook.com/radiollanca/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://relay.stream.enacast-cloud.com:40323/radiollancaHD.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-maricel",
+      "name": "Ràdio Maricel",
+      "category": "Local",
+      "community": "Catalunya",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.radiomaricel.cat",
+      "logoUrl": "https://graph.facebook.com/radiomaricel/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://radioserver.radiomaricel.cat/proxy/radio_maricel?mp=/stream.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-molins-de-rei",
+      "name": "Ràdio Molins de Rei",
+      "category": "Local",
+      "community": "Catalunya",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.radiomolinsderei.cat",
+      "logoUrl": "https://graph.facebook.com/radiomolins/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://streaming.enacast.com/radiomolins.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-mollet",
+      "name": "Ràdio Mollet",
+      "category": "Local",
+      "community": "Catalunya",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.radiomollet.com",
+      "logoUrl": "https://graph.facebook.com/radiomollet963/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://enacast.com/radiomollet/streams/HD",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "mp3",
+          "url": "https://streaming.enacast.com/radiomollet128.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-montblanc",
+      "name": "Ràdio Montblanc",
+      "category": "Local",
+      "community": "Catalunya",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.radiomontblanc.cat",
+      "logoUrl": "https://graph.facebook.com/139643876226143/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://relay.stream.enacast-cloud.com:40045/radiomontblanc128.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-montornes",
+      "name": "Ràdio Montornès",
+      "category": "Local",
+      "community": "Catalunya",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://radio.montornes.cat/radios/directe",
+      "logoUrl": "https://graph.facebook.com/radiomontornes/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://cast4.my-control-panel.com/proxy/rmonto/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-olot",
+      "name": "Ràdio Olot",
+      "category": "Local",
+      "community": "Catalunya",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.radiolot.cat",
+      "logoUrl": "https://graph.facebook.com/Radiolot/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://chrome2021.frilab.com:8443/olot",
+          "format": "stream",
+          "priority": 1,
           "source": "TDTChannels"
         }
       ]
@@ -493,6 +1062,25 @@
         {
           "label": "stream",
           "url": "https://streaming0103.sonicpanelradio.com/8248/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "amb2fm",
+      "name": "amb2FM",
+      "category": "Música",
+      "community": "Catalunya",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.amb2fm.cat",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1245054974628892673/tjBDH_-q_200x200.jpg",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://frilab.wlan.cat/amb2fm",
           "format": "stream",
           "priority": 1,
           "source": "TDTChannels"
@@ -573,6 +1161,25 @@
         {
           "label": "stream",
           "url": "https://stream.flaixbac.cat/icecast",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "gum-fm-vielha",
+      "name": "Gum FM Vielha",
+      "category": "Música",
+      "community": "Catalunya",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.gumfm.com",
+      "logoUrl": "https://graph.facebook.com/gumfm/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://s4.radio.co/sc1cb45a9f/listen",
           "format": "stream",
           "priority": 1,
           "source": "TDTChannels"
@@ -694,6 +1301,25 @@
       ]
     },
     {
+      "id": "taronja-radio",
+      "name": "Taronja ràdio",
+      "category": "Música",
+      "community": "Catalunya",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.radiocapital.cat/taronja",
+      "logoUrl": "https://graph.facebook.com/taronja.cat/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://radio.martiproduccions.com/taronjagirona",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
       "id": "3cat-info",
       "name": "3CAT Info",
       "category": "Noticias",
@@ -753,6 +1379,44 @@
           "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RAC_MES_1.mp3",
           "format": "mp3",
           "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-5-catalunya",
+      "name": "Radio 5 Catalunya",
+      "category": "Noticias",
+      "community": "Catalunya",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_cat/3894724/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/bcn/mp3/high",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-nacional-catalunya",
+      "name": "Radio Nacional Catalunya",
+      "category": "Noticias",
+      "community": "Catalunya",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_cat-live/3893527/",
+      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/cat/mp3/high",
+          "format": "stream",
+          "priority": 1,
           "source": "TDTChannels"
         }
       ]
