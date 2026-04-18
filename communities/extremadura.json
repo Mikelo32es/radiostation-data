@@ -2,20 +2,39 @@
   "repoName": "radiostation-data",
   "community": "Extremadura",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 10,
-  "playableCount": 10,
-  "verifiedCount": 10,
+  "seedCount": 12,
+  "playableCount": 12,
+  "verifiedCount": 12,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Selección autonómica y local, sin cadenas nacionales generalistas. Deportes reforzados con radios y marcas deportivas autonómicas, incluyendo propuestas polideportivas y no solo fútbol.",
+  "notes": "Selección autonómica y local, sin cadenas nacionales generalistas. Refuerzo de Deporte con marcas y programas oficiales; se evitan cadenas nacionales en comunidades.",
   "stations": [
     {
-      "id": "canal-extremadura-radio",
-      "name": "Canal Extremadura Radio",
-      "category": "Noticias",
+      "id": "radiogolex",
+      "name": "Radiogolex",
+      "category": "Comunidad",
       "community": "Extremadura",
       "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.canalextremadura.app/videos/182647-canal-radio-24h",
+      "websiteUrl": "https://www.radiogolex.com",
+      "logoUrl": "https://graph.facebook.com/Radiogolex/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://streaming12.elitecomunicacion.es:8218/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "extremadura-en-juego",
+      "name": "Extremadura en Juego",
+      "category": "Deporte",
+      "community": "Extremadura",
+      "sourceSeed": "Fuentes oficiales",
+      "websiteUrl": "https://www.canalextremadura.es/programas/extremadura-en-juego",
       "logoUrl": "https://graph.facebook.com/CanalExtremadura/picture?width=200&height=200",
       "verificationStatus": "verified",
       "streams": [
@@ -29,38 +48,76 @@
       ]
     },
     {
-      "id": "radio-5-extremadura",
-      "name": "Radio 5 Extremadura",
-      "category": "Noticias",
+      "id": "minuto-30",
+      "name": "Minuto 30",
+      "category": "Deporte",
       "community": "Extremadura",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_ext-live/3894783/",
-      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
+      "sourceSeed": "Fuentes oficiales",
+      "websiteUrl": "https://www.canalextremadura.es/programas/minuto-30",
+      "logoUrl": "https://graph.facebook.com/CanalExtremadura/picture?width=200&height=200",
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "stream",
-          "url": "https://dispatcher.rndfnk.com/crtve/rne5/cce/mp3/high",
-          "format": "stream",
+          "label": "m3u8",
+          "url": "https://canalextremadura-audio.flumotion.cloud/canalextremaduralive/smil:channel1.smil/playlist.m3u8",
+          "format": "m3u8",
           "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
-      "id": "radio-nacional-extremadura",
-      "name": "Radio Nacional Extremadura",
-      "category": "Noticias",
+      "id": "zona-mixta-extremadura",
+      "name": "Zona Mixta",
+      "category": "Deporte",
       "community": "Extremadura",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_ext-live/3893533/",
-      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
+      "sourceSeed": "Fuentes oficiales",
+      "websiteUrl": "https://www.canalextremadura.es/programas/zona-mixta",
+      "logoUrl": "https://graph.facebook.com/CanalExtremadura/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://canalextremadura-audio.flumotion.cloud/canalextremaduralive/smil:channel1.smil/playlist.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "azuaga-radiofm",
+      "name": "Azuaga Radiofm",
+      "category": "Local",
+      "community": "Extremadura",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.ayuntamientodeazuaga.es/radioazuaga/en-directo/",
+      "logoUrl": "https://graph.facebook.com/azuagaradiofm/picture?width=200&height=200",
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "stream",
-          "url": "https://dispatcher.rndfnk.com/crtve/rne1/ext/mp3/high",
-          "format": "stream",
+          "url": "https://www.ayuntamientodeazuaga.es:8443/radioazuagafm",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-miajadas",
+      "name": "Radio Miajadas",
+      "category": "Local",
+      "community": "Extremadura",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://rtvmiajadas.es",
+      "logoUrl": "https://graph.facebook.com/489965251169138/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://srv7031.dns-lcinternet.com/8044/stream",
+          "format": "auto",
           "priority": 1,
           "source": "TDTChannels"
         }
@@ -125,69 +182,12 @@
       "musicType": "Pop"
     },
     {
-      "id": "radiogolex",
-      "name": "Radiogolex",
-      "category": "Comunidad",
+      "id": "canal-extremadura-radio",
+      "name": "Canal Extremadura Radio",
+      "category": "Noticias",
       "community": "Extremadura",
       "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.radiogolex.com",
-      "logoUrl": "https://graph.facebook.com/Radiogolex/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://streaming12.elitecomunicacion.es:8218/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "azuaga-radiofm",
-      "name": "Azuaga Radiofm",
-      "category": "Local",
-      "community": "Extremadura",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.ayuntamientodeazuaga.es/radioazuaga/en-directo/",
-      "logoUrl": "https://graph.facebook.com/azuagaradiofm/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://www.ayuntamientodeazuaga.es:8443/radioazuagafm",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-miajadas",
-      "name": "Radio Miajadas",
-      "category": "Local",
-      "community": "Extremadura",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://rtvmiajadas.es",
-      "logoUrl": "https://graph.facebook.com/489965251169138/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://srv7031.dns-lcinternet.com/8044/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "extremadura-en-juego",
-      "name": "Extremadura en Juego",
-      "category": "Deporte",
-      "community": "Extremadura",
-      "sourceSeed": "Canal Extremadura + TDTChannels",
-      "websiteUrl": "https://www.canalextremadura.es/programas/extremadura-en-juego",
+      "websiteUrl": "https://www.canalextremadura.app/videos/182647-canal-radio-24h",
       "logoUrl": "https://graph.facebook.com/CanalExtremadura/picture?width=200&height=200",
       "verificationStatus": "verified",
       "streams": [
@@ -195,6 +195,44 @@
           "label": "m3u8",
           "url": "https://canalextremadura-audio.flumotion.cloud/canalextremaduralive/smil:channel1.smil/playlist.m3u8",
           "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-5-extremadura",
+      "name": "Radio 5 Extremadura",
+      "category": "Noticias",
+      "community": "Extremadura",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_ext-live/3894783/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/cce/mp3/high",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-nacional-extremadura",
+      "name": "Radio Nacional Extremadura",
+      "category": "Noticias",
+      "community": "Extremadura",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_ext-live/3893533/",
+      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/ext/mp3/high",
+          "format": "stream",
           "priority": 1,
           "source": "TDTChannels"
         }

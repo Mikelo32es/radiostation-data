@@ -2,9 +2,9 @@
   "repoName": "radiostation-data",
   "syncMessage": "Destacadas y Actualidad pasan a mostrar solo emisoras nacionales; SER, COPE y Onda Cero quedan centralizadas en Nacional.",
   "stats": {
-    "seedCount": 325,
-    "playableCount": 325,
-    "verifiedCount": 325,
+    "seedCount": 354,
+    "playableCount": 354,
+    "verifiedCount": 354,
     "candidateCount": 0,
     "pendingCount": 0
   },
@@ -46,57 +46,57 @@
       "id": "andalucia",
       "name": "Andalucia",
       "path": "communities/andalucia.json",
-      "seedCount": 6,
-      "playableCount": 6
+      "seedCount": 11,
+      "playableCount": 11
     },
     {
       "id": "aragon",
       "name": "Aragon",
       "path": "communities/aragon.json",
-      "seedCount": 2,
-      "playableCount": 2
+      "seedCount": 4,
+      "playableCount": 4
     },
     {
       "id": "asturias",
       "name": "Asturias",
       "path": "communities/asturias.json",
-      "seedCount": 7,
-      "playableCount": 7
+      "seedCount": 10,
+      "playableCount": 10
     },
     {
       "id": "canarias",
       "name": "Canarias",
       "path": "communities/canarias.json",
-      "seedCount": 22,
-      "playableCount": 22
+      "seedCount": 23,
+      "playableCount": 23
     },
     {
       "id": "cantabria",
       "name": "Cantabria",
       "path": "communities/cantabria.json",
-      "seedCount": 9,
-      "playableCount": 9
+      "seedCount": 12,
+      "playableCount": 12
     },
     {
       "id": "castilla-la-mancha",
       "name": "Castilla-La Mancha",
       "path": "communities/castilla-la-mancha.json",
-      "seedCount": 15,
-      "playableCount": 15
+      "seedCount": 17,
+      "playableCount": 17
     },
     {
       "id": "castilla-y-leon",
       "name": "Castilla y León",
       "path": "communities/castilla-y-leon.json",
-      "seedCount": 16,
-      "playableCount": 16
+      "seedCount": 15,
+      "playableCount": 15
     },
     {
       "id": "catalunya",
       "name": "Catalunya",
       "path": "communities/catalunya.json",
-      "seedCount": 36,
-      "playableCount": 36
+      "seedCount": 38,
+      "playableCount": 38
     },
     {
       "id": "comunitat-valenciana",
@@ -109,22 +109,22 @@
       "id": "euskadi",
       "name": "Euskadi",
       "path": "communities/euskadi.json",
-      "seedCount": 41,
-      "playableCount": 41
+      "seedCount": 42,
+      "playableCount": 42
     },
     {
       "id": "extremadura",
       "name": "Extremadura",
       "path": "communities/extremadura.json",
-      "seedCount": 10,
-      "playableCount": 10
+      "seedCount": 12,
+      "playableCount": 12
     },
     {
       "id": "galicia",
       "name": "Galicia",
       "path": "communities/galicia.json",
-      "seedCount": 9,
-      "playableCount": 9
+      "seedCount": 10,
+      "playableCount": 10
     },
     {
       "id": "illes-balears",
@@ -144,15 +144,15 @@
       "id": "madrid",
       "name": "Madrid",
       "path": "communities/madrid.json",
-      "seedCount": 44,
-      "playableCount": 44
+      "seedCount": 47,
+      "playableCount": 47
     },
     {
       "id": "murcia",
       "name": "Murcia",
       "path": "communities/murcia.json",
-      "seedCount": 10,
-      "playableCount": 10
+      "seedCount": 13,
+      "playableCount": 13
     },
     {
       "id": "national",
@@ -165,16 +165,16 @@
       "id": "navarra",
       "name": "Navarra",
       "path": "communities/navarra.json",
-      "seedCount": 7,
-      "playableCount": 7
+      "seedCount": 9,
+      "playableCount": 9
     }
   ],
   "homePath": "catalog/home.json",
   "requestedAction": "Mantener Cadena SER, Onda Cero, COPE y Radio Marca solo en Nacional, dejando Destacadas y Actualidad con emisoras nacionales.",
   "totals": {
-    "seedCount": 325,
-    "playableCount": 325,
-    "verifiedCount": 325,
+    "seedCount": 354,
+    "playableCount": 354,
+    "verifiedCount": 354,
     "candidateCount": 0,
     "pendingCount": 0
   }

@@ -2,13 +2,51 @@
   "repoName": "radiostation-data",
   "community": "Murcia",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 10,
-  "playableCount": 10,
-  "verifiedCount": 10,
+  "seedCount": 13,
+  "playableCount": 13,
+  "verifiedCount": 13,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Selección regional y local murciana, con una emisora temática económica de ámbito regional. Deportes reforzados con radios y marcas deportivas autonómicas, incluyendo propuestas polideportivas y no solo fútbol.",
+  "notes": "Selección regional y local murciana, con una emisora temática económica de ámbito regional. Refuerzo de Deporte con marcas y programas oficiales; se evitan cadenas nacionales en comunidades.",
   "stations": [
+    {
+      "id": "en-juego-orm",
+      "name": "En Juego",
+      "category": "Deporte",
+      "community": "Murcia",
+      "sourceSeed": "Fuentes oficiales",
+      "websiteUrl": "https://www.orm.es/deportes/regiondemurciaenjuego/",
+      "logoUrl": "https://graph.facebook.com/OndaRegional/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://crmlive.redctnet.es/liveedge/orm/orm/playlist.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "la-tercera-en-juego",
+      "name": "La Tercera en Juego",
+      "category": "Deporte",
+      "community": "Murcia",
+      "sourceSeed": "Fuentes oficiales",
+      "websiteUrl": "https://www.orm.es/eorm/la-tercera-en-juego/",
+      "logoUrl": "https://graph.facebook.com/OndaRegional/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://crmlive.redctnet.es/liveedge/orm/orm/playlist.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
     {
       "id": "real-murcia-radio",
       "name": "Real Murcia Radio",
@@ -25,6 +63,44 @@
           "format": "auto",
           "priority": 1,
           "source": "Fuentes públicas"
+        }
+      ]
+    },
+    {
+      "id": "region-deportiva-mediodia",
+      "name": "Región Deportiva (Mediodía)",
+      "category": "Deporte",
+      "community": "Murcia",
+      "sourceSeed": "Fuentes oficiales",
+      "websiteUrl": "https://www.orm.es/deportes/region-deportiva-mediodia/",
+      "logoUrl": "https://graph.facebook.com/OndaRegional/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://crmlive.redctnet.es/liveedge/orm/orm/playlist.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "region-deportiva-noche",
+      "name": "Región Deportiva (Noche)",
+      "category": "Deporte",
+      "community": "Murcia",
+      "sourceSeed": "Fuentes oficiales",
+      "websiteUrl": "https://www.orm.es/deportes/region-deportiva-noche/",
+      "logoUrl": "https://graph.facebook.com/OndaRegional/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://crmlive.redctnet.es/liveedge/orm/orm/playlist.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
         }
       ]
     },
@@ -169,25 +245,6 @@
       "community": "Murcia",
       "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
       "websiteUrl": "https://www.orm.es/directo/orm/",
-      "logoUrl": "https://graph.facebook.com/OndaRegional/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://crmlive.redctnet.es/liveedge/orm/orm/playlist.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "region-deportiva",
-      "name": "Región Deportiva",
-      "category": "Deporte",
-      "community": "Murcia",
-      "sourceSeed": "ORM + TDTChannels",
-      "websiteUrl": "https://www.orm.es/deportes/region-deportiva-mediodia/",
       "logoUrl": "https://graph.facebook.com/OndaRegional/picture?width=200&height=200",
       "verificationStatus": "verified",
       "streams": [

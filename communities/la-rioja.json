@@ -7,8 +7,85 @@
   "verifiedCount": 7,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Se priorizan emisoras riojanas propias y no cadenas nacionales generalistas. Deportes reforzados con radios y marcas deportivas autonómicas, incluyendo propuestas polideportivas y no solo fútbol.",
+  "notes": "Se priorizan emisoras riojanas propias y no cadenas nacionales generalistas. Refuerzo de Deporte con marcas y programas oficiales; se evitan cadenas nacionales en comunidades.",
   "stations": [
+    {
+      "id": "canal-ebro-deportes",
+      "name": "Canal Ebro Deportes",
+      "category": "Deporte",
+      "community": "La Rioja",
+      "sourceSeed": "Fuentes oficiales",
+      "websiteUrl": "https://www.canalebro.com/categoria/deportes/",
+      "logoUrl": "https://graph.facebook.com/canalebro/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "http://streaming.capsulaimposible.com:8000/stream/2/canalebro.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "canal-ebro",
+      "name": "Canal Ebro",
+      "category": "Local",
+      "community": "La Rioja",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.canalebro.com/radioonline/",
+      "logoUrl": "https://graph.facebook.com/canalebro/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "http://streaming.capsulaimposible.com:8000/stream/2/canalebro.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "melodia-fm-rioja",
+      "name": "Melodía FM Rioja",
+      "category": "Música",
+      "community": "La Rioja",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://mediosriojanos.com/medios-riojanos-directo/",
+      "logoUrl": "https://graph.facebook.com/tumelodiafm/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://atres-live.melodia-fm.com/live/melodiafm/master.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-logrono",
+      "name": "Radio Logroño",
+      "category": "Música",
+      "community": "La Rioja",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://radiologrono.es",
+      "logoUrl": "https://graph.facebook.com/radiologrono/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://stream.zeno.fm/19buxw48djlvv",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Pop"
+    },
     {
       "id": "esradio-arnedo",
       "name": "esRadio Arnedo",
@@ -61,83 +138,6 @@
           "label": "stream",
           "url": "https://dispatcher.rndfnk.com/crtve/rne1/rio/mp3/high",
           "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "melodia-fm-rioja",
-      "name": "Melodía FM Rioja",
-      "category": "Música",
-      "community": "La Rioja",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://mediosriojanos.com/medios-riojanos-directo/",
-      "logoUrl": "https://graph.facebook.com/tumelodiafm/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://atres-live.melodia-fm.com/live/melodiafm/master.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-logrono",
-      "name": "Radio Logroño",
-      "category": "Música",
-      "community": "La Rioja",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://radiologrono.es",
-      "logoUrl": "https://graph.facebook.com/radiologrono/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://stream.zeno.fm/19buxw48djlvv",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Pop"
-    },
-    {
-      "id": "canal-ebro",
-      "name": "Canal Ebro",
-      "category": "Local",
-      "community": "La Rioja",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.canalebro.com/radioonline/",
-      "logoUrl": "https://graph.facebook.com/canalebro/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "http://streaming.capsulaimposible.com:8000/stream/2/canalebro.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "canal-ebro-deportes",
-      "name": "Canal Ebro Deportes",
-      "category": "Deporte",
-      "community": "La Rioja",
-      "sourceSeed": "Canal Ebro + TDTChannels",
-      "websiteUrl": "https://www.canalebro.com/",
-      "logoUrl": "https://graph.facebook.com/canalebro/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "http://streaming.capsulaimposible.com:8000/stream/2/canalebro.mp3",
-          "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
         }

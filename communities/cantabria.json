@@ -2,13 +2,32 @@
   "repoName": "radiostation-data",
   "community": "Cantabria",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 9,
-  "playableCount": 9,
-  "verifiedCount": 9,
+  "seedCount": 12,
+  "playableCount": 12,
+  "verifiedCount": 12,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Curado priorizando emisoras locales y comunitarias. Deportes reforzados con radios y marcas deportivas autonómicas, incluyendo propuestas polideportivas y no solo fútbol.",
+  "notes": "Curado priorizando emisoras locales y comunitarias. Refuerzo de Deporte con marcas y programas oficiales; se evitan cadenas nacionales en comunidades.",
   "stations": [
+    {
+      "id": "ahi-van-bolos",
+      "name": "Ahí Van Bolos",
+      "category": "Deporte",
+      "community": "Cantabria",
+      "sourceSeed": "Fuentes oficiales",
+      "websiteUrl": "https://arcofm.com/programas/deportes/ahi-van-bolos-cantabria/",
+      "logoUrl": "https://graph.facebook.com/arcofmcantabria/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://hisparadio.duckdns.org/stream/1/stream.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
     {
       "id": "arco-fm",
       "name": "ARCO FM",
@@ -16,6 +35,82 @@
       "community": "Cantabria",
       "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
       "websiteUrl": "https://arcofm.com/escuchar-arco/",
+      "logoUrl": "https://graph.facebook.com/arcofmcantabria/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://hisparadio.duckdns.org/stream/1/stream.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "el-carrusel-de-arco-fm",
+      "name": "El Carrusel de Arco FM",
+      "category": "Deporte",
+      "community": "Cantabria",
+      "sourceSeed": "Fuentes oficiales",
+      "websiteUrl": "https://arcofm.com/programas/deportes/partidos-del-racing-en-directo-el-carrusel-de-arco-fm/",
+      "logoUrl": "https://graph.facebook.com/arcofmcantabria/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://hisparadio.duckdns.org/stream/1/stream.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "pick-and-roll-cantabria",
+      "name": "Pick & Roll",
+      "category": "Deporte",
+      "community": "Cantabria",
+      "sourceSeed": "Fuentes oficiales",
+      "websiteUrl": "https://arcofm.com/programas/deportes/pick-roll/",
+      "logoUrl": "https://graph.facebook.com/arcofmcantabria/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://hisparadio.duckdns.org/stream/1/stream.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-futbol-arco-fm",
+      "name": "Radio Fútbol",
+      "category": "Deporte",
+      "community": "Cantabria",
+      "sourceSeed": "Fuentes oficiales",
+      "websiteUrl": "https://arcofm.com/programas/deportes/",
+      "logoUrl": "https://graph.facebook.com/arcofmcantabria/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://hisparadio.duckdns.org/stream/1/stream.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "tiro-al-arco",
+      "name": "Tiro al Arco",
+      "category": "Deporte",
+      "community": "Cantabria",
+      "sourceSeed": "Fuentes oficiales",
+      "websiteUrl": "https://arcofm.com/programas/deportes/tertulias-del-racing-tiro-al-arco/",
       "logoUrl": "https://graph.facebook.com/arcofmcantabria/picture?width=200&height=200",
       "verificationStatus": "verified",
       "streams": [
@@ -138,44 +233,6 @@
           "label": "stream",
           "url": "https://cantabria.radioca.st/stream",
           "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "pick-and-roll-cantabria",
-      "name": "Pick & Roll Cantabria",
-      "category": "Deporte",
-      "community": "Cantabria",
-      "sourceSeed": "ARCO FM + TDTChannels",
-      "websiteUrl": "https://arcofm.com/programas/deportes/pick-roll/",
-      "logoUrl": "https://graph.facebook.com/arcofmcantabria/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://hisparadio.duckdns.org/stream/1/stream.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "tiro-al-arco-cantabria",
-      "name": "Tiro al Arco Cantabria",
-      "category": "Deporte",
-      "community": "Cantabria",
-      "sourceSeed": "ARCO FM + TDTChannels",
-      "websiteUrl": "https://arcofm.com/programas/deportes/tertulias-del-racing-tiro-al-arco/",
-      "logoUrl": "https://graph.facebook.com/arcofmcantabria/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://hisparadio.duckdns.org/stream/1/stream.mp3",
-          "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
         }

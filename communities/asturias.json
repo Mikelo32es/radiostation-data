@@ -2,12 +2,12 @@
   "repoName": "radiostation-data",
   "community": "Asturias",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 7,
-  "playableCount": 7,
-  "verifiedCount": 7,
+  "seedCount": 10,
+  "playableCount": 10,
+  "verifiedCount": 10,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Selección local y autonómica con prioridad a emisoras no nacionales. Deportes reforzados con radios y marcas deportivas autonómicas, incluyendo propuestas polideportivas y no solo fútbol.",
+  "notes": "Selección local y autonómica con prioridad a emisoras no nacionales. Refuerzo de Deporte con marcas y programas oficiales; se evitan cadenas nacionales en comunidades.",
   "stations": [
     {
       "id": "radio-qk",
@@ -23,6 +23,82 @@
           "label": "mp3",
           "url": "http://212.231.231.169:8000/radioqk_master.mp3",
           "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "deportes-en-rpa",
+      "name": "Deportes en RPA",
+      "category": "Deporte",
+      "community": "Asturias",
+      "sourceSeed": "Fuentes oficiales",
+      "websiteUrl": "https://www.rtpa.es/rpa-programa%3ADeportes%20en%20RPA_1420135706.html",
+      "logoUrl": "https://graph.facebook.com/RTPAoficial/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://cdn-rtpa.watchity.net/wct-3545e416-1a16-44b5-b0db-481136ecacc9/continuous/7be5c015-1da2-4927-a49b-8d232faa69be/radio/index.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "tiempo-anadido-1",
+      "name": "Tiempo añadido 1ª edición",
+      "category": "Deporte",
+      "community": "Asturias",
+      "sourceSeed": "Fuentes oficiales",
+      "websiteUrl": "https://www.rtpa.es/rpa-programa%3ATiempo%20anadido%201%C2%AA%20edicion_1442586935.html",
+      "logoUrl": "https://graph.facebook.com/RTPAoficial/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://cdn-rtpa.watchity.net/wct-3545e416-1a16-44b5-b0db-481136ecacc9/continuous/7be5c015-1da2-4927-a49b-8d232faa69be/radio/index.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "tiempo-anadido-2",
+      "name": "Tiempo añadido 2ª edición",
+      "category": "Deporte",
+      "community": "Asturias",
+      "sourceSeed": "Fuentes oficiales",
+      "websiteUrl": "https://www.rtpa.es/audio%3ATiempo-a%C3%B1adido-2%C2%AA-edicion_1776453096.html",
+      "logoUrl": "https://graph.facebook.com/RTPAoficial/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://cdn-rtpa.watchity.net/wct-3545e416-1a16-44b5-b0db-481136ecacc9/continuous/7be5c015-1da2-4927-a49b-8d232faa69be/radio/index.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "tiempo-anadido-fin-de-semana",
+      "name": "Tiempo añadido Fin de semana",
+      "category": "Deporte",
+      "community": "Asturias",
+      "sourceSeed": "Fuentes oficiales",
+      "websiteUrl": "https://www.rtpa.es/rpa-programa-parrilla%3ATiempo%20a%C3%B1adido%20Fin%20de%20semana_95619.html",
+      "logoUrl": "https://graph.facebook.com/RTPAoficial/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://cdn-rtpa.watchity.net/wct-3545e416-1a16-44b5-b0db-481136ecacc9/continuous/7be5c015-1da2-4927-a49b-8d232faa69be/radio/index.m3u8",
+          "format": "m3u8",
           "priority": 1,
           "source": "TDTChannels"
         }
@@ -119,25 +195,6 @@
       "community": "Asturias",
       "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
       "websiteUrl": "https://rtpa.es/radio",
-      "logoUrl": "https://graph.facebook.com/RTPAoficial/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://cdn-rtpa.watchity.net/wct-3545e416-1a16-44b5-b0db-481136ecacc9/continuous/7be5c015-1da2-4927-a49b-8d232faa69be/radio/index.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "deportes-en-rpa",
-      "name": "Deportes en RPA",
-      "category": "Deporte",
-      "community": "Asturias",
-      "sourceSeed": "RTPA + TDTChannels",
-      "websiteUrl": "https://www.rtpa.es/rpa-programa%3ADeportes%20en%20RPA_1420135706.html",
       "logoUrl": "https://graph.facebook.com/RTPAoficial/picture?width=200&height=200",
       "verificationStatus": "verified",
       "streams": [

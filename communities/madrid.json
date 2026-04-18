@@ -2,12 +2,12 @@
   "repoName": "radiostation-data",
   "community": "Madrid",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 44,
-  "playableCount": 44,
-  "verifiedCount": 44,
+  "seedCount": 47,
+  "playableCount": 47,
+  "verifiedCount": 47,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Refuerzo amplio sin tocar la categoría Local: se añaden emisoras no locales reaprovechadas de catálogos verificados previos y se mantienen las nacionales fuera de las comunidades. Deportes reforzados con radios y marcas deportivas autonómicas, incluyendo propuestas polideportivas y no solo fútbol.",
+  "notes": "Refuerzo amplio sin tocar la categoría Local: se añaden emisoras no locales reaprovechadas de catálogos verificados previos y se mantienen las nacionales fuera de las comunidades. Refuerzo de Deporte con marcas y programas oficiales; se evitan cadenas nacionales en comunidades.",
   "stations": [
     {
       "id": "eco-leganes",
@@ -270,6 +270,84 @@
       ]
     },
     {
+      "id": "el-partido-de-la-onda",
+      "name": "El Partido de la Onda",
+      "category": "Deporte",
+      "community": "Madrid",
+      "sourceSeed": "Fuentes oficiales",
+      "websiteUrl": "https://www.telemadrid.es/programas/el-partido-de-la-onda/",
+      "logoUrl": "https://graph.facebook.com/ondamadridradio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8 # 101.3 FM",
+          "url": "https://live.telemadrid.cross-media.es/6389769037112/eu-central-1/6416060453001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiajI5YjgyLmVncmVzcy5haGc3NmwiLCJhY2NvdW50X2lkIjoiNjQxNjA2MDQ1MzAwMSIsImVobiI6ImxpdmUudGVsZW1hZHJpZC5jcm9zcy1tZWRpYS5lcyIsImlzcyI6ImJsaXZlLXBsYXliYWNrLXNvdXJjZS1hcGkiLCJzdWIiOiJwYXRobWFwdG9rZW4iLCJhdWQiOlsiNjQxNjA2MDQ1MzAwMSJdLCJqdGkiOiI2Mzg5NzY5MDM3MTEyIn0.mSEPQICNIKBAWWzolDpDk6cERGe7k93rkqQunSc6cG4/playlist-hls.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "m3u8 # 106 FM",
+          "url": "https://live.telemadrid.cross-media.es/6389770485112/eu-central-1/6416060453001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiajI5YjgyLmVncmVzcy5haGc3NmwiLCJhY2NvdW50X2lkIjoiNjQxNjA2MDQ1MzAwMSIsImVobiI6ImxpdmUudGVsZW1hZHJpZC5jcm9zcy1tZWRpYS5lcyIsImlzcyI6ImJsaXZlLXBsYXliYWNrLXNvdXJjZS1hcGkiLCJzdWIiOiJwYXRobWFwdG9rZW4iLCJhdWQiOlsiNjQxNjA2MDQ1MzAwMSJdLCJqdGkiOiI2Mzg5NzcwNDg1MTEyIn0.MZsybG7gZngXIa5TKgjC4kKqA5hzM_oyShyMLKKaohQ/playlist-hls.m3u8",
+          "format": "m3u8",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "el-partido-de-la-una",
+      "name": "El Partido de la Una",
+      "category": "Deporte",
+      "community": "Madrid",
+      "sourceSeed": "Fuentes oficiales",
+      "websiteUrl": "https://www.telemadrid.es/programas/el-partido-de-la-una/",
+      "logoUrl": "https://graph.facebook.com/ondamadridradio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8 # 101.3 FM",
+          "url": "https://live.telemadrid.cross-media.es/6389769037112/eu-central-1/6416060453001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiajI5YjgyLmVncmVzcy5haGc3NmwiLCJhY2NvdW50X2lkIjoiNjQxNjA2MDQ1MzAwMSIsImVobiI6ImxpdmUudGVsZW1hZHJpZC5jcm9zcy1tZWRpYS5lcyIsImlzcyI6ImJsaXZlLXBsYXliYWNrLXNvdXJjZS1hcGkiLCJzdWIiOiJwYXRobWFwdG9rZW4iLCJhdWQiOlsiNjQxNjA2MDQ1MzAwMSJdLCJqdGkiOiI2Mzg5NzY5MDM3MTEyIn0.mSEPQICNIKBAWWzolDpDk6cERGe7k93rkqQunSc6cG4/playlist-hls.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "m3u8 # 106 FM",
+          "url": "https://live.telemadrid.cross-media.es/6389770485112/eu-central-1/6416060453001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiajI5YjgyLmVncmVzcy5haGc3NmwiLCJhY2NvdW50X2lkIjoiNjQxNjA2MDQ1MzAwMSIsImVobiI6ImxpdmUudGVsZW1hZHJpZC5jcm9zcy1tZWRpYS5lcyIsImlzcyI6ImJsaXZlLXBsYXliYWNrLXNvdXJjZS1hcGkiLCJzdWIiOiJwYXRobWFwdG9rZW4iLCJhdWQiOlsiNjQxNjA2MDQ1MzAwMSJdLCJqdGkiOiI2Mzg5NzcwNDg1MTEyIn0.MZsybG7gZngXIa5TKgjC4kKqA5hzM_oyShyMLKKaohQ/playlist-hls.m3u8",
+          "format": "m3u8",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "en-juego-onda-madrid",
+      "name": "En Juego",
+      "category": "Deporte",
+      "community": "Madrid",
+      "sourceSeed": "Fuentes oficiales",
+      "websiteUrl": "https://www.telemadrid.es/programas/en-juego/",
+      "logoUrl": "https://graph.facebook.com/ondamadridradio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8 # 101.3 FM",
+          "url": "https://live.telemadrid.cross-media.es/6389769037112/eu-central-1/6416060453001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiajI5YjgyLmVncmVzcy5haGc3NmwiLCJhY2NvdW50X2lkIjoiNjQxNjA2MDQ1MzAwMSIsImVobiI6ImxpdmUudGVsZW1hZHJpZC5jcm9zcy1tZWRpYS5lcyIsImlzcyI6ImJsaXZlLXBsYXliYWNrLXNvdXJjZS1hcGkiLCJzdWIiOiJwYXRobWFwdG9rZW4iLCJhdWQiOlsiNjQxNjA2MDQ1MzAwMSJdLCJqdGkiOiI2Mzg5NzY5MDM3MTEyIn0.mSEPQICNIKBAWWzolDpDk6cERGe7k93rkqQunSc6cG4/playlist-hls.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "m3u8 # 106 FM",
+          "url": "https://live.telemadrid.cross-media.es/6389770485112/eu-central-1/6416060453001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiajI5YjgyLmVncmVzcy5haGc3NmwiLCJhY2NvdW50X2lkIjoiNjQxNjA2MDQ1MzAwMSIsImVobiI6ImxpdmUudGVsZW1hZHJpZC5jcm9zcy1tZWRpYS5lcyIsImlzcyI6ImJsaXZlLXBsYXliYWNrLXNvdXJjZS1hcGkiLCJzdWIiOiJwYXRobWFwdG9rZW4iLCJhdWQiOlsiNjQxNjA2MDQ1MzAwMSJdLCJqdGkiOiI2Mzg5NzcwNDg1MTEyIn0.MZsybG7gZngXIa5TKgjC4kKqA5hzM_oyShyMLKKaohQ/playlist-hls.m3u8",
+          "format": "m3u8",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
       "id": "globo-fm",
       "name": "Globo FM",
       "category": "Deporte",
@@ -283,6 +361,32 @@
           "label": "MP3 directo",
           "url": "https://sonic.sistemahost.es/8200/;.mp3",
           "format": "mp3",
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "madrid-al-tanto",
+      "name": "Madrid al Tanto",
+      "category": "Deporte",
+      "community": "Madrid",
+      "sourceSeed": "Fuentes oficiales",
+      "websiteUrl": "https://www.telemadrid.es/programas/madrid-al-tanto/",
+      "logoUrl": "https://graph.facebook.com/ondamadridradio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8 # 101.3 FM",
+          "url": "https://live.telemadrid.cross-media.es/6389769037112/eu-central-1/6416060453001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiajI5YjgyLmVncmVzcy5haGc3NmwiLCJhY2NvdW50X2lkIjoiNjQxNjA2MDQ1MzAwMSIsImVobiI6ImxpdmUudGVsZW1hZHJpZC5jcm9zcy1tZWRpYS5lcyIsImlzcyI6ImJsaXZlLXBsYXliYWNrLXNvdXJjZS1hcGkiLCJzdWIiOiJwYXRobWFwdG9rZW4iLCJhdWQiOlsiNjQxNjA2MDQ1MzAwMSJdLCJqdGkiOiI2Mzg5NzY5MDM3MTEyIn0.mSEPQICNIKBAWWzolDpDk6cERGe7k93rkqQunSc6cG4/playlist-hls.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "m3u8 # 106 FM",
+          "url": "https://live.telemadrid.cross-media.es/6389770485112/eu-central-1/6416060453001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiajI5YjgyLmVncmVzcy5haGc3NmwiLCJhY2NvdW50X2lkIjoiNjQxNjA2MDQ1MzAwMSIsImVobiI6ImxpdmUudGVsZW1hZHJpZC5jcm9zcy1tZWRpYS5lcyIsImlzcyI6ImJsaXZlLXBsYXliYWNrLXNvdXJjZS1hcGkiLCJzdWIiOiJwYXRobWFwdG9rZW4iLCJhdWQiOlsiNjQxNjA2MDQ1MzAwMSJdLCJqdGkiOiI2Mzg5NzcwNDg1MTEyIn0.MZsybG7gZngXIa5TKgjC4kKqA5hzM_oyShyMLKKaohQ/playlist-hls.m3u8",
+          "format": "m3u8",
+          "priority": 2,
           "source": "TDTChannels"
         }
       ]
@@ -804,32 +908,6 @@
           "url": "https://control.streaming-pro.com:8014/stream",
           "format": "auto",
           "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "el-partido-de-la-una",
-      "name": "El Partido de la Una",
-      "category": "Deporte",
-      "community": "Madrid",
-      "sourceSeed": "Onda Madrid + TDTChannels",
-      "websiteUrl": "https://www.telemadrid.es/programas/el-partido-de-la-una/",
-      "logoUrl": "https://graph.facebook.com/ondamadridradio/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8 # 101.3 FM",
-          "url": "https://live.telemadrid.cross-media.es/6389769037112/eu-central-1/6416060453001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiajI5YjgyLmVncmVzcy5haGc3NmwiLCJhY2NvdW50X2lkIjoiNjQxNjA2MDQ1MzAwMSIsImVobiI6ImxpdmUudGVsZW1hZHJpZC5jcm9zcy1tZWRpYS5lcyIsImlzcyI6ImJsaXZlLXBsYXliYWNrLXNvdXJjZS1hcGkiLCJzdWIiOiJwYXRobWFwdG9rZW4iLCJhdWQiOlsiNjQxNjA2MDQ1MzAwMSJdLCJqdGkiOiI2Mzg5NzY5MDM3MTEyIn0.mSEPQICNIKBAWWzolDpDk6cERGe7k93rkqQunSc6cG4/playlist-hls.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "m3u8 # 106 FM",
-          "url": "https://live.telemadrid.cross-media.es/6389770485112/eu-central-1/6416060453001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiajI5YjgyLmVncmVzcy5haGc3NmwiLCJhY2NvdW50X2lkIjoiNjQxNjA2MDQ1MzAwMSIsImVobiI6ImxpdmUudGVsZW1hZHJpZC5jcm9zcy1tZWRpYS5lcyIsImlzcyI6ImJsaXZlLXBsYXliYWNrLXNvdXJjZS1hcGkiLCJzdWIiOiJwYXRobWFwdG9rZW4iLCJhdWQiOlsiNjQxNjA2MDQ1MzAwMSJdLCJqdGkiOiI2Mzg5NzcwNDg1MTEyIn0.MZsybG7gZngXIa5TKgjC4kKqA5hzM_oyShyMLKKaohQ/playlist-hls.m3u8",
-          "format": "m3u8",
-          "priority": 2,
           "source": "TDTChannels"
         }
       ]

@@ -2,12 +2,12 @@
   "repoName": "radiostation-data",
   "community": "Navarra",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 7,
-  "playableCount": 7,
-  "verifiedCount": 7,
+  "seedCount": 9,
+  "playableCount": 9,
+  "verifiedCount": 9,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Selección navarra con emisoras propias, universitarias y comunitarias.",
+  "notes": "Selección navarra con emisoras propias, universitarias y comunitarias. Refuerzo de Deporte con marcas y programas oficiales; se evitan cadenas nacionales en comunidades.",
   "stations": [
     {
       "id": "eguzki-irratia",
@@ -23,6 +23,44 @@
           "label": "mp3",
           "url": "https://streaming.eguzki.eus/eguzki.mp3",
           "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "informativo-osasuna-radio",
+      "name": "Informativo Osasuna",
+      "category": "Deporte",
+      "community": "Navarra",
+      "sourceSeed": "Fuentes oficiales",
+      "websiteUrl": "https://www.osasuna.es/radio-osasuna",
+      "logoUrl": "https://graph.facebook.com/Osasuna/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://stream.radio.co/s2d5fcbba2/listen",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "osasuna-femenino-radio",
+      "name": "Osasuna Femenino en Radio Osasuna",
+      "category": "Deporte",
+      "community": "Navarra",
+      "sourceSeed": "Fuentes oficiales",
+      "websiteUrl": "https://www.osasuna.es/radio-osasuna",
+      "logoUrl": "https://graph.facebook.com/Osasuna/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://stream.radio.co/s2d5fcbba2/listen",
+          "format": "auto",
           "priority": 1,
           "source": "TDTChannels"
         }

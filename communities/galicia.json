@@ -2,12 +2,12 @@
   "repoName": "radiostation-data",
   "community": "Galicia",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 9,
-  "playableCount": 9,
-  "verifiedCount": 9,
+  "seedCount": 10,
+  "playableCount": 10,
+  "verifiedCount": 10,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Selección pública, local, educativa y comunitaria. Deportes reforzados con radios y marcas deportivas autonómicas, incluyendo propuestas polideportivas y no solo fútbol.",
+  "notes": "Selección pública, local, educativa y comunitaria. Refuerzo de Deporte con marcas y programas oficiales; se evitan cadenas nacionales en comunidades.",
   "stations": [
     {
       "id": "cuac-fm",
@@ -41,6 +41,44 @@
         {
           "label": "m3u8",
           "url": "https://crtvg-songalicia-hls.flumotion.cloud/playlist.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ao-contraataque",
+      "name": "Ao Contraataque",
+      "category": "Deporte",
+      "community": "Galicia",
+      "sourceSeed": "Fuentes oficiales",
+      "websiteUrl": "https://www.crtvg.es/w/o-xetafe-celta-protagoniza-o-galicia-en-goles-do%C2%A0s%C3%A1bado-na-radio-galega-e-agalegaaudio.gal",
+      "logoUrl": "https://graph.facebook.com/aradiogalega/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://crtvg-radiogalega-hls.flumotion.cloud/playlist.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "galicia-en-goles",
+      "name": "Galicia en Goles",
+      "category": "Deporte",
+      "community": "Galicia",
+      "sourceSeed": "Fuentes oficiales",
+      "websiteUrl": "https://www.crtvg.es/w/o-xetafe-celta-protagoniza-o-galicia-en-goles-do%C2%A0s%C3%A1bado-na-radio-galega-e-agalegaaudio.gal",
+      "logoUrl": "https://graph.facebook.com/aradiogalega/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://crtvg-radiogalega-hls.flumotion.cloud/playlist.m3u8",
           "format": "m3u8",
           "priority": 1,
           "source": "TDTChannels"
@@ -150,25 +188,6 @@
       "community": "Galicia",
       "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
       "websiteUrl": "https://agalegaaudio.gal/videos/120144-radio-galega",
-      "logoUrl": "https://graph.facebook.com/aradiogalega/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://crtvg-radiogalega-hls.flumotion.cloud/playlist.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "galicia-en-goles",
-      "name": "Galicia en Goles",
-      "category": "Deporte",
-      "community": "Galicia",
-      "sourceSeed": "Radio Galega + TDTChannels",
-      "websiteUrl": "https://www.g24.gal/-/mira-rg-galicia-en-goles",
       "logoUrl": "https://graph.facebook.com/aradiogalega/picture?width=200&height=200",
       "verificationStatus": "verified",
       "streams": [

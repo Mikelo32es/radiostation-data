@@ -2,20 +2,58 @@
   "repoName": "radiostation-data",
   "community": "Castilla-La Mancha",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 15,
-  "playableCount": 15,
-  "verifiedCount": 15,
+  "seedCount": 17,
+  "playableCount": 17,
+  "verifiedCount": 17,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Selección local, comunitaria y pública regional. Deportes reforzados con radios y marcas deportivas autonómicas, incluyendo propuestas polideportivas y no solo fútbol.",
+  "notes": "Selección local, comunitaria y pública regional. Refuerzo de Deporte con marcas y programas oficiales; se evitan cadenas nacionales en comunidades.",
   "stations": [
     {
-      "id": "cmm-radio",
-      "name": "CMM Radio",
-      "category": "Noticias",
+      "id": "onda-poligono-toledo",
+      "name": "Onda Polígono Toledo",
+      "category": "Comunidad",
       "community": "Castilla-La Mancha",
       "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.cmmedia.es/play/en-directo/radio",
+      "websiteUrl": "https://www.ondapoligono.org",
+      "logoUrl": "https://graph.facebook.com/ondapoligono/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://icecast.ondapoligono.org/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-kolor",
+      "name": "Radio Kolor",
+      "category": "Comunidad",
+      "community": "Castilla-La Mancha",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.radiokolor.es",
+      "logoUrl": "https://graph.facebook.com/kolor.cuenca/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://stream20.usastreams.com/8122/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "castilla-la-mancha-en-juego",
+      "name": "Castilla-La Mancha en Juego",
+      "category": "Deporte",
+      "community": "Castilla-La Mancha",
+      "sourceSeed": "Fuentes oficiales",
+      "websiteUrl": "https://www.cmmedia.es/play/radio/castilla-la-mancha-en-juego",
       "logoUrl": "https://graph.facebook.com/CMMediaes/picture?width=200&height=200",
       "verificationStatus": "verified",
       "streams": [
@@ -29,57 +67,95 @@
       ]
     },
     {
-      "id": "locactiva-radio",
-      "name": "Locactiva Radio",
-      "category": "Noticias",
+      "id": "castilla-la-mancha-en-juego-diario",
+      "name": "Castilla-La Mancha en Juego Diario",
+      "category": "Deporte",
       "community": "Castilla-La Mancha",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.locactivaradio.es",
-      "logoUrl": "https://graph.facebook.com/LOCACTIVARADIO/picture?width=200&height=200",
+      "sourceSeed": "Fuentes oficiales",
+      "websiteUrl": "https://www.cmmedia.es/radio/castilla-la-mancha-en-juego-diario",
+      "logoUrl": "https://graph.facebook.com/CMMediaes/picture?width=200&height=200",
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "stream",
-          "url": "https://pr1cen101.emisionlocal.com/proxy/locactivaradio?mp=/stream",
-          "format": "stream",
+          "label": "m3u8",
+          "url": "https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_qilzwlkz/format/applehttp/.m3u8",
+          "format": "m3u8",
           "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
-      "id": "radio-5-castilla-la-mancha",
-      "name": "Radio 5 Castilla-La Mancha",
-      "category": "Noticias",
+      "id": "castilla-la-mancha-en-juego-goles",
+      "name": "Castilla-La Mancha en Juego Goles",
+      "category": "Deporte",
       "community": "Castilla-La Mancha",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_clm-live/3894725/",
-      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
+      "sourceSeed": "Fuentes oficiales",
+      "websiteUrl": "https://www.cmmedia.es/radio/castilla-la-mancha-en-juego-goles",
+      "logoUrl": "https://graph.facebook.com/CMMediaes/picture?width=200&height=200",
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "stream",
-          "url": "https://dispatcher.rndfnk.com/crtve/rne5/tol/mp3/high",
-          "format": "stream",
+          "label": "m3u8",
+          "url": "https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_qilzwlkz/format/applehttp/.m3u8",
+          "format": "m3u8",
           "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
-      "id": "radio-nacional-castilla-la-mancha",
-      "name": "Radio Nacional Castilla-La Mancha",
-      "category": "Noticias",
+      "id": "radio-chinchilla",
+      "name": "Radio Chinchilla",
+      "category": "Local",
       "community": "Castilla-La Mancha",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_clm-live/3893547/",
-      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "http://www.radiochinchilla.com/repro.htm",
+      "logoUrl": "https://graph.facebook.com/RadioChinchilla/picture?width=200&height=200",
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "stream",
-          "url": "https://dispatcher.rndfnk.com/crtve/rne1/clm/mp3/high",
-          "format": "stream",
+          "url": "https://streaming2.elitecomunicacion.es:8114/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-mora",
+      "name": "Radio Mora",
+      "category": "Local",
+      "community": "Castilla-La Mancha",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://radiomora.es",
+      "logoUrl": "https://graph.facebook.com/rmorafm/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://server10.emitironline.com:9075/radio",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "surco-tomelloso",
+      "name": "Surco Tomelloso",
+      "category": "Local",
+      "community": "Castilla-La Mancha",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://radiosurco.es/player/",
+      "logoUrl": "https://graph.facebook.com/radiosurco/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://node-19.zeno.fm/52vdh1y07qzuv",
+          "format": "auto",
           "priority": 1,
           "source": "TDTChannels"
         }
@@ -183,106 +259,11 @@
       ]
     },
     {
-      "id": "onda-poligono-toledo",
-      "name": "Onda Polígono Toledo",
-      "category": "Comunidad",
+      "id": "cmm-radio",
+      "name": "CMM Radio",
+      "category": "Noticias",
       "community": "Castilla-La Mancha",
       "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.ondapoligono.org",
-      "logoUrl": "https://graph.facebook.com/ondapoligono/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://icecast.ondapoligono.org/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-kolor",
-      "name": "Radio Kolor",
-      "category": "Comunidad",
-      "community": "Castilla-La Mancha",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.radiokolor.es",
-      "logoUrl": "https://graph.facebook.com/kolor.cuenca/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://stream20.usastreams.com/8122/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-chinchilla",
-      "name": "Radio Chinchilla",
-      "category": "Local",
-      "community": "Castilla-La Mancha",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "http://www.radiochinchilla.com/repro.htm",
-      "logoUrl": "https://graph.facebook.com/RadioChinchilla/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://streaming2.elitecomunicacion.es:8114/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-mora",
-      "name": "Radio Mora",
-      "category": "Local",
-      "community": "Castilla-La Mancha",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://radiomora.es",
-      "logoUrl": "https://graph.facebook.com/rmorafm/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://server10.emitironline.com:9075/radio",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "surco-tomelloso",
-      "name": "Surco Tomelloso",
-      "category": "Local",
-      "community": "Castilla-La Mancha",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://radiosurco.es/player/",
-      "logoUrl": "https://graph.facebook.com/radiosurco/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://node-19.zeno.fm/52vdh1y07qzuv",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "castilla-la-mancha-en-juego",
-      "name": "Castilla-La Mancha en Juego",
-      "category": "Deporte",
-      "community": "Castilla-La Mancha",
-      "sourceSeed": "CMM + TDTChannels",
       "websiteUrl": "https://www.cmmedia.es/play/en-directo/radio",
       "logoUrl": "https://graph.facebook.com/CMMediaes/picture?width=200&height=200",
       "verificationStatus": "verified",
@@ -291,6 +272,63 @@
           "label": "m3u8",
           "url": "https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_qilzwlkz/format/applehttp/.m3u8",
           "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "locactiva-radio",
+      "name": "Locactiva Radio",
+      "category": "Noticias",
+      "community": "Castilla-La Mancha",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.locactivaradio.es",
+      "logoUrl": "https://graph.facebook.com/LOCACTIVARADIO/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://pr1cen101.emisionlocal.com/proxy/locactivaradio?mp=/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-5-castilla-la-mancha",
+      "name": "Radio 5 Castilla-La Mancha",
+      "category": "Noticias",
+      "community": "Castilla-La Mancha",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_clm-live/3894725/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/tol/mp3/high",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-nacional-castilla-la-mancha",
+      "name": "Radio Nacional Castilla-La Mancha",
+      "category": "Noticias",
+      "community": "Castilla-La Mancha",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_clm-live/3893547/",
+      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/clm/mp3/high",
+          "format": "stream",
           "priority": 1,
           "source": "TDTChannels"
         }
