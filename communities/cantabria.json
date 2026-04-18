@@ -2,12 +2,12 @@
   "repoName": "radiostation-data",
   "community": "Cantabria",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 13,
-  "playableCount": 13,
-  "verifiedCount": 13,
+  "seedCount": 18,
+  "playableCount": 18,
+  "verifiedCount": 18,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Curado priorizando emisoras locales y comunitarias.",
+  "notes": "myTuner solo como semilla de descubrimiento; streams y logos curados desde TDTChannels y webs oficiales cuando aplica.",
   "stations": [
     {
       "id": "arco-fm",
@@ -105,6 +105,25 @@
       ]
     },
     {
+      "id": "cadena-mix-cantabria",
+      "name": "Cadena Mix",
+      "category": "Música",
+      "community": "Cantabria",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.cadenamix.es",
+      "logoUrl": "https://graph.facebook.com/cadenamixoficial/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://ns6.emisionlocal.com:8044/radio",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
       "id": "distinta-fm",
       "name": "Distinta FM",
       "category": "Música",
@@ -163,6 +182,44 @@
       ]
     },
     {
+      "id": "esradio-cantabria",
+      "name": "esRadio Cantabria",
+      "category": "Noticias",
+      "community": "Cantabria",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.esradiocantabria.es",
+      "logoUrl": "https://graph.facebook.com/esradio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://ns100.emisionlocal.com:9428/radio",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-cero-castro-urdiales",
+      "name": "Onda Cero Castro Urdiales",
+      "category": "Noticias",
+      "community": "Cantabria",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://ondacerocastro.com",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://server8.emitironline.com:10854/radio",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
       "id": "onda-cero-santander",
       "name": "Onda Cero Santander",
       "category": "Noticias",
@@ -176,6 +233,44 @@
           "label": "m3u8",
           "url": "https://atres-live.ondacero.es/live/delegaciones/oc/santander/master.m3u8",
           "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-5-cantabria",
+      "name": "Radio 5 Cantabria",
+      "category": "Noticias",
+      "community": "Cantabria",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.rtve.es/radioplayer/emisoras/rne5_cantabria/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/sta/mp3/high",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-nacional-cantabria",
+      "name": "Radio Nacional Cantabria",
+      "category": "Noticias",
+      "community": "Cantabria",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.rtve.es/radioplayer/emisoras/rne1_cantabria/",
+      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/sta/mp3/high",
+          "format": "auto",
           "priority": 1,
           "source": "TDTChannels"
         }

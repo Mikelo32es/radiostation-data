@@ -2,13 +2,127 @@
   "repoName": "radiostation-data",
   "community": "Andalucía",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 10,
-  "playableCount": 10,
-  "verifiedCount": 10,
+  "seedCount": 28,
+  "playableCount": 28,
+  "verifiedCount": 28,
   "candidateCount": 0,
   "pendingCount": 0,
   "notes": "myTuner solo como semilla de descubrimiento; streams y logos curados desde TDTChannels y webs oficiales cuando aplica.",
   "stations": [
+    {
+      "id": "canal-sur-radio-cadiz",
+      "name": "Canal Sur Radio Cádiz",
+      "category": "Comunidad",
+      "community": "Andalucía",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.canalsurmas.es/directo/radio/cadiz",
+      "logoUrl": "https://graph.facebook.com/CanalSurRadio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://rtva-live-radio.flumotion.com/channel06.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "canal-sur-radio-sevilla",
+      "name": "Canal Sur Radio Sevilla",
+      "category": "Comunidad",
+      "community": "Andalucía",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.canalsurmas.es/directo/radio/sevilla",
+      "logoUrl": "https://graph.facebook.com/CanalSurRadio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://rtva-live-radio.flumotion.com/channel12.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca-almeria",
+      "name": "Radio Marca Almería",
+      "category": "Deporte",
+      "community": "Andalucía",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.radiomarcaalmeria.com",
+      "logoUrl": "https://graph.facebook.com/RadioMarcaAlmeria/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://streaming.indalteco.net:8000/marcafm",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca-malaga",
+      "name": "Radio Marca Málaga",
+      "category": "Deporte",
+      "community": "Andalucía",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.marca.com/radio-marca.html",
+      "logoUrl": "https://graph.facebook.com/RadioMarca/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://malagafm.streaming-pro.com:8131/malagafm",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca-sevilla",
+      "name": "Radio Marca Sevilla",
+      "category": "Deporte",
+      "community": "Andalucía",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.marca.com/radio-marca.html",
+      "logoUrl": "https://graph.facebook.com/RadioMarca/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_MARCA_SEVILLA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "real-betis-radio",
+      "name": "Real Betis Radio",
+      "category": "Deporte",
+      "community": "Andalucía",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.realbetisbalompie.es",
+      "logoUrl": "https://graph.facebook.com/realbetisbalompie/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://comcast01-h-cloud.flumotion.com/radio/radiobetis.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
     {
       "id": "sevilla-fc-radio",
       "name": "Sevilla FC Radio",
@@ -29,6 +143,44 @@
       ]
     },
     {
+      "id": "ud-almeria-radio",
+      "name": "UD Almería Radio",
+      "category": "Deporte",
+      "community": "Andalucía",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.udalmeriasad.com",
+      "logoUrl": "https://graph.facebook.com/udalmeria/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://srv6022.dns-lcinternet.com:8002/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "antenita",
+      "name": "Antenita",
+      "category": "Educación",
+      "community": "Andalucía",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.antenita.es",
+      "logoUrl": "https://graph.facebook.com/antenita.es/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://vps-9f1e2662.vps.ovh.net/antenita",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
       "id": "babyradio",
       "name": "Babyradio",
       "category": "Educación",
@@ -41,6 +193,44 @@
         {
           "label": "stream",
           "url": "https://srv6022.dns-lcinternet.com:8033/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "babyradio-cuentos-infantiles",
+      "name": "Babyradio Cuentos Infantiles",
+      "category": "Educación",
+      "community": "Andalucía",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://babyradio.es",
+      "logoUrl": "https://yt3.googleusercontent.com/ytc/AIdro_k2PqG2pKYF9_qLh_ut69Z0MtU-jXsRvezCZQtbjivJsX8=s200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://srv6022.dns-lcinternet.com:8049/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "babyradio-nanas",
+      "name": "Babyradio Nanas",
+      "category": "Educación",
+      "community": "Andalucía",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://babyradio.es",
+      "logoUrl": "https://yt3.googleusercontent.com/ytc/AIdro_k2PqG2pKYF9_qLh_ut69Z0MtU-jXsRvezCZQtbjivJsX8=s200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://srv6022.dns-lcinternet.com:8027/stream",
           "format": "auto",
           "priority": 1,
           "source": "TDTChannels"
@@ -183,6 +373,82 @@
       ]
     },
     {
+      "id": "cope-cadiz",
+      "name": "COPE Cádiz",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.cope.es/directos/cadiz",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/cadiz.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "cope-malaga",
+      "name": "COPE Málaga",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.cope.es/directos/malaga",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/malaga.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-cero-algeciras",
+      "name": "Onda Cero Algeciras",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.ondacero.es/emisoras/andalucia/algeciras/directo/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/algeciras/master.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-cero-granada",
+      "name": "Onda Cero Granada",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.ondacero.es/emisoras/andalucia/granada/directo/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/granada/master.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
       "id": "radio-andalucia-informacion",
       "name": "Radio Andalucía Información",
       "category": "Noticias",
@@ -195,6 +461,82 @@
         {
           "label": "mp3",
           "url": "https://rtva-live-radio.flumotion.com/rtva/rai.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-algeciras",
+      "name": "SER Algeciras",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/emisora/radio_algeciras/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_ALGECIRAS.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-andalucia-centro",
+      "name": "SER Andalucía Centro",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/emisora/ser_andalucia_centro/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ANDALUCIA_CENTRO.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-cordoba",
+      "name": "SER Córdoba",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/emisora/radio_cordoba/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_CORDOBA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-granada",
+      "name": "SER Granada",
+      "category": "Noticias",
+      "community": "Andalucía",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/emisora/radio_granada/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_GRANADA.mp3",
           "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"

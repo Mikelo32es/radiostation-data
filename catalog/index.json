@@ -1,11 +1,11 @@
 {
   "repoName": "radiostation-data",
   "homePath": "catalog/home.json",
-  "syncMessage": "Refuerzo fuerte de La Rioja y de comunidades flojas con cadenas autonómicas y locales verificables, sin mover las nacionales al catálogo autonómico.",
+  "syncMessage": "Refuerzo de La Rioja, Andalucía, Cantabria y Navarra, elevando Educación, Deporte y Economía sin tocar el bloque Local más de lo necesario.",
   "stats": {
-    "seedCount": 342,
-    "playableCount": 342,
-    "verifiedCount": 342,
+    "seedCount": 414,
+    "playableCount": 414,
+    "verifiedCount": 414,
     "candidateCount": 0,
     "pendingCount": 0
   },
@@ -42,26 +42,26 @@
     "vaughan-radio"
   ],
   "recentIds": [
+    "radio-nacional-la-rioja",
+    "radio-5-la-rioja",
+    "melodia-fm-rioja",
+    "radio-nacional-navarra",
+    "radio-5-navarra",
+    "cope-estella",
+    "cadena-100-estella",
+    "radio-osasuna",
+    "radio-nacional-cantabria",
+    "radio-5-cantabria",
     "ser-rioja",
-    "onda-cero-rioja-logrono",
-    "ser-pamplona",
-    "radio-marca-asturias",
-    "radio-marca-zaragoza",
-    "ser-cartagena",
-    "ser-vigo",
-    "ser-mallorca",
-    "ser-extremadura",
-    "europa-fm-santa-cruz",
-    "canal-sur-radio-musica",
-    "rac1"
+    "onda-cero-rioja-logrono"
   ],
   "communities": [
     {
       "id": "andalucia",
       "name": "Andalucía",
       "path": "communities/andalucia.json",
-      "seedCount": 10,
-      "playableCount": 10
+      "seedCount": 28,
+      "playableCount": 28
     },
     {
       "id": "aragon",
@@ -88,8 +88,8 @@
       "id": "cantabria",
       "name": "Cantabria",
       "path": "communities/cantabria.json",
-      "seedCount": 13,
-      "playableCount": 13
+      "seedCount": 18,
+      "playableCount": 18
     },
     {
       "id": "castilla-la-mancha",
@@ -109,22 +109,22 @@
       "id": "catalunya",
       "name": "Catalunya",
       "path": "communities/catalunya.json",
-      "seedCount": 29,
-      "playableCount": 29
+      "seedCount": 36,
+      "playableCount": 36
     },
     {
       "id": "comunitat-valenciana",
       "name": "Comunitat Valenciana",
       "path": "communities/comunitat-valenciana.json",
-      "seedCount": 9,
-      "playableCount": 9
+      "seedCount": 30,
+      "playableCount": 30
     },
     {
       "id": "euskadi",
       "name": "Euskadi",
       "path": "communities/euskadi.json",
-      "seedCount": 38,
-      "playableCount": 38
+      "seedCount": 44,
+      "playableCount": 44
     },
     {
       "id": "extremadura",
@@ -151,15 +151,15 @@
       "id": "la-rioja",
       "name": "La Rioja",
       "path": "communities/la-rioja.json",
-      "seedCount": 8,
-      "playableCount": 8
+      "seedCount": 11,
+      "playableCount": 11
     },
     {
       "id": "madrid",
       "name": "Madrid",
       "path": "communities/madrid.json",
-      "seedCount": 37,
-      "playableCount": 37
+      "seedCount": 44,
+      "playableCount": 44
     },
     {
       "id": "murcia",
@@ -172,8 +172,8 @@
       "id": "navarra",
       "name": "Navarra",
       "path": "communities/navarra.json",
-      "seedCount": 13,
-      "playableCount": 13
+      "seedCount": 18,
+      "playableCount": 18
     },
     {
       "id": "national",

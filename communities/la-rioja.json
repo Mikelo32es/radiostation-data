@@ -2,12 +2,12 @@
   "repoName": "radiostation-data",
   "community": "La Rioja",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 8,
-  "playableCount": 8,
-  "verifiedCount": 8,
+  "seedCount": 11,
+  "playableCount": 11,
+  "verifiedCount": 11,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Se priorizan emisoras riojanas propias y no cadenas nacionales generalistas.",
+  "notes": "myTuner solo como semilla de descubrimiento; streams y logos curados desde TDTChannels y webs oficiales cuando aplica.",
   "stations": [
     {
       "id": "canal-ebro",
@@ -47,6 +47,25 @@
         }
       ],
       "musicType": "Top 40"
+    },
+    {
+      "id": "melodia-fm-rioja",
+      "name": "Melodía FM Rioja",
+      "category": "Música",
+      "community": "La Rioja",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://mediosriojanos.com",
+      "logoUrl": "https://graph.facebook.com/melodiafm/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://atres-live.melodia-fm.com/live/delegaciones/mf/rioja/master.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
     },
     {
       "id": "radio-logrono",
@@ -120,6 +139,44 @@
           "label": "m3u8",
           "url": "https://atres-live.ondacero.es/live/delegaciones/oc/logrono/master.m3u8",
           "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-5-la-rioja",
+      "name": "Radio 5 La Rioja",
+      "category": "Noticias",
+      "community": "La Rioja",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.rtve.es/radioplayer/emisoras/rne5_larioja/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne5/log/mp3/high",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-nacional-la-rioja",
+      "name": "Radio Nacional La Rioja",
+      "category": "Noticias",
+      "community": "La Rioja",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.rtve.es/radioplayer/emisoras/rne1_larioja/",
+      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://dispatcher.rndfnk.com/crtve/rne1/log/mp3/high",
+          "format": "auto",
           "priority": 1,
           "source": "TDTChannels"
         }
