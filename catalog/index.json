@@ -1,42 +1,40 @@
 {
   "repoName": "radiostation-data",
-  "syncMessage": "Cadena SER, Onda Cero, COPE y Radio Marca quedan solo en Nacional. Canal Sur Radio se mantiene en Andalucía y Aragón Radio en Aragón.",
+  "syncMessage": "Destacadas y Actualidad pasan a mostrar solo emisoras nacionales; SER, COPE y Onda Cero quedan centralizadas en Nacional.",
   "stats": {
-    "seedCount": 192,
-    "playableCount": 151,
-    "verifiedCount": 143,
+    "seedCount": 190,
+    "playableCount": 149,
+    "verifiedCount": 141,
     "candidateCount": 8,
     "pendingCount": 41
   },
   "featuredIds": [
-    "aragon-radio",
-    "canal-sur-radio",
-    "eitb-radio-euskadi",
-    "eitb-euskadi-irratia",
-    "eitb-radio-vitoria",
-    "eitb-gaztea",
-    "eitb-musika",
-    "eitb-euskal-kantak",
-    "hala-bedi-bat-107-4",
-    "hala-bedi-bi-88-8",
-    "bizkaia-irratia",
-    "bilbo-hiria-irratia",
-    "radio-nervion",
-    "onda-vasca"
+    "rne-radio-nacional",
+    "cadena-ser-nacional",
+    "cope-nacional",
+    "onda-cero-nacional",
+    "rne-radio-5",
+    "radio-marca-nacional",
+    "los-40-principales",
+    "rock-fm",
+    "cadena-100",
+    "europa-fm",
+    "kiss-fm",
+    "radio-clasica-rne"
   ],
   "trendingIds": [
-    "irola-irratia",
-    "txapa-irratia",
-    "arraio-irratia",
-    "naiz-irratia",
-    "stz-irratia",
-    "radio-donosti",
-    "radio-gorbea",
-    "formula-hit",
-    "euskadi-digital",
-    "segura-irratia",
-    "bi-fm",
-    "ataun-irratia"
+    "rne-radio-nacional",
+    "rne-radio-5",
+    "cadena-ser-nacional",
+    "cope-nacional",
+    "onda-cero-nacional",
+    "esradio",
+    "capital-radio",
+    "radio-intereconomia",
+    "radio-marca-nacional",
+    "vaughan-radio",
+    "radio-maria-espana",
+    "radio-clasica-rne"
   ],
   "recentIds": [
     "radio-martorell",
@@ -55,15 +53,15 @@
       "id": "andalucia",
       "name": "Andalucia",
       "path": "communities/andalucia.json",
-      "seedCount": 1,
-      "playableCount": 1
+      "seedCount": 0,
+      "playableCount": 0
     },
     {
       "id": "aragon",
       "name": "Aragon",
       "path": "communities/aragon.json",
-      "seedCount": 1,
-      "playableCount": 1
+      "seedCount": 0,
+      "playableCount": 0
     },
     {
       "id": "asturias",
@@ -179,7 +177,7 @@
     }
   ],
   "homePath": "catalog/home.json",
-  "requestedAction": "Conservar Waiting Room en Euskadi sin tocar el resto del catálogo, dejándola como seeded_pending y sin stream activo hasta validar una URL directa.",
+  "requestedAction": "Mantener Cadena SER, Onda Cero, COPE y Radio Marca solo en Nacional, dejando Destacadas y Actualidad con emisoras nacionales.",
   "totals": {
     "seedCount": 190,
     "playableCount": 149,

@@ -1,29 +1,48 @@
 {
   "sections": [
     {
-      "id": "news",
-      "label": "ACTUALIDAD",
+      "id": "featured",
+      "label": "NACIONAL",
+      "title": "Destacadas",
+      "source": "featured",
+      "limit": 12
+    },
+    {
+      "id": "actualidad",
+      "label": "NACIONAL",
       "title": "Actualidad",
+      "source": "trending",
+      "limit": 12
+    },
+    {
+      "id": "music",
+      "label": "MÚSICA",
+      "title": "Música",
       "source": "query",
       "query": {
-        "category": "Noticias",
+        "category": "Música",
         "verifiedOnly": false
       },
       "limit": 12
     },
     {
-      "id": "nearby",
-      "label": "CERCA",
-      "title": "Cerca de ti",
-      "source": "nearby",
+      "id": "community",
+      "label": "COMUNIDAD",
+      "title": "Comunitarias",
+      "source": "query",
+      "query": {
+        "category": "Comunidad",
+        "verifiedOnly": false
+      },
       "limit": 12
     },
     {
       "id": "recent",
       "label": "NUEVAS",
-      "title": "Nuevas",
+      "title": "Últimas incorporaciones",
       "source": "recent",
       "limit": 12
     }
-  ]
+  ],
+  "version": 1
 }
