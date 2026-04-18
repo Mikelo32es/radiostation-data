@@ -2,12 +2,12 @@
   "repoName": "radiostation-data",
   "community": "Aragon",
   "seedSource": "TDTChannels + webs oficiales",
-  "seedCount": 1,
-  "playableCount": 1,
-  "verifiedCount": 1,
+  "seedCount": 2,
+  "playableCount": 2,
+  "verifiedCount": 2,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Comunidad reforzada con su emisora autonómica principal. Las cadenas nacionales generalistas se mantienen en Nacional.",
+  "notes": "Comunidad reforzada con su emisora autonómica principal. Las cadenas nacionales generalistas se mantienen en Nacional. Deportes reforzados con radios y marcas deportivas autonómicas, incluyendo propuestas polideportivas y no solo fútbol.",
   "stations": [
     {
       "id": "aragon-radio",
@@ -16,6 +16,25 @@
       "community": "Aragón",
       "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
       "websiteUrl": "https://www.cartv.es/aragonradio",
+      "logoUrl": "https://graph.facebook.com/aragonradio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://cartv.streaming.aranova.es/hls/live/aragonradio_aragonradio1.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "aragon-deporte",
+      "name": "Aragón Deporte",
+      "category": "Deporte",
+      "community": "Aragón",
+      "sourceSeed": "webs oficiales + CARTV",
+      "websiteUrl": "https://www.cartv.es/aragondeporte/directo",
       "logoUrl": "https://graph.facebook.com/aragonradio/picture?width=200&height=200",
       "verificationStatus": "verified",
       "streams": [

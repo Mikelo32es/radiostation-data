@@ -2,12 +2,12 @@
   "repoName": "radiostation-data",
   "community": "Extremadura",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 9,
-  "playableCount": 9,
-  "verifiedCount": 9,
+  "seedCount": 10,
+  "playableCount": 10,
+  "verifiedCount": 10,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Selección autonómica y local, sin cadenas nacionales generalistas.",
+  "notes": "Selección autonómica y local, sin cadenas nacionales generalistas. Deportes reforzados con radios y marcas deportivas autonómicas, incluyendo propuestas polideportivas y no solo fútbol.",
   "stations": [
     {
       "id": "canal-extremadura-radio",
@@ -176,6 +176,25 @@
           "label": "stream",
           "url": "https://srv7031.dns-lcinternet.com/8044/stream",
           "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "extremadura-en-juego",
+      "name": "Extremadura en Juego",
+      "category": "Deporte",
+      "community": "Extremadura",
+      "sourceSeed": "Canal Extremadura + TDTChannels",
+      "websiteUrl": "https://www.canalextremadura.es/programas/extremadura-en-juego",
+      "logoUrl": "https://graph.facebook.com/CanalExtremadura/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://canalextremadura-audio.flumotion.cloud/canalextremaduralive/smil:channel1.smil/playlist.m3u8",
+          "format": "m3u8",
           "priority": 1,
           "source": "TDTChannels"
         }

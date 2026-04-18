@@ -2,12 +2,12 @@
   "repoName": "radiostation-data",
   "community": "Castilla y León",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 15,
-  "playableCount": 15,
-  "verifiedCount": 15,
+  "seedCount": 16,
+  "playableCount": 16,
+  "verifiedCount": 16,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Prioridad a radios locales, universitarias y de proximidad.",
+  "notes": "Prioridad a radios locales, universitarias y de proximidad. Deportes reforzados con radios y marcas deportivas autonómicas, incluyendo propuestas polideportivas y no solo fútbol.",
   "stations": [
     {
       "id": "radio-espinosa-merindades",
@@ -299,6 +299,24 @@
           "format": "stream",
           "priority": 1,
           "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "burgos-deporte-radio",
+      "name": "Burgos Deporte Radio",
+      "category": "Deporte",
+      "community": "Castilla y León",
+      "sourceSeed": "BurgosDeporte + stream público",
+      "websiteUrl": "https://www.burgosdeporte.com/",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "http://liveradio.com.es:18058/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "stream público"
         }
       ]
     }

@@ -2,12 +2,12 @@
   "repoName": "radiostation-data",
   "community": "Asturias",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 6,
-  "playableCount": 6,
-  "verifiedCount": 6,
+  "seedCount": 7,
+  "playableCount": 7,
+  "verifiedCount": 7,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Selección local y autonómica con prioridad a emisoras no nacionales.",
+  "notes": "Selección local y autonómica con prioridad a emisoras no nacionales. Deportes reforzados con radios y marcas deportivas autonómicas, incluyendo propuestas polideportivas y no solo fútbol.",
   "stations": [
     {
       "id": "radio-qk",
@@ -119,6 +119,25 @@
       "community": "Asturias",
       "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
       "websiteUrl": "https://rtpa.es/radio",
+      "logoUrl": "https://graph.facebook.com/RTPAoficial/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://cdn-rtpa.watchity.net/wct-3545e416-1a16-44b5-b0db-481136ecacc9/continuous/7be5c015-1da2-4927-a49b-8d232faa69be/radio/index.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "deportes-en-rpa",
+      "name": "Deportes en RPA",
+      "category": "Deporte",
+      "community": "Asturias",
+      "sourceSeed": "RTPA + TDTChannels",
+      "websiteUrl": "https://www.rtpa.es/rpa-programa%3ADeportes%20en%20RPA_1420135706.html",
       "logoUrl": "https://graph.facebook.com/RTPAoficial/picture?width=200&height=200",
       "verificationStatus": "verified",
       "streams": [

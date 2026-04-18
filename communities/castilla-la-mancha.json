@@ -2,12 +2,12 @@
   "repoName": "radiostation-data",
   "community": "Castilla-La Mancha",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 14,
-  "playableCount": 14,
-  "verifiedCount": 14,
+  "seedCount": 15,
+  "playableCount": 15,
+  "verifiedCount": 15,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Selección local, comunitaria y pública regional.",
+  "notes": "Selección local, comunitaria y pública regional. Deportes reforzados con radios y marcas deportivas autonómicas, incluyendo propuestas polideportivas y no solo fútbol.",
   "stations": [
     {
       "id": "cmm-radio",
@@ -272,6 +272,25 @@
           "label": "stream",
           "url": "https://node-19.zeno.fm/52vdh1y07qzuv",
           "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "castilla-la-mancha-en-juego",
+      "name": "Castilla-La Mancha en Juego",
+      "category": "Deporte",
+      "community": "Castilla-La Mancha",
+      "sourceSeed": "CMM + TDTChannels",
+      "websiteUrl": "https://www.cmmedia.es/play/en-directo/radio",
+      "logoUrl": "https://graph.facebook.com/CMMediaes/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_qilzwlkz/format/applehttp/.m3u8",
+          "format": "m3u8",
           "priority": 1,
           "source": "TDTChannels"
         }

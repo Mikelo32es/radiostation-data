@@ -2,12 +2,12 @@
   "repoName": "radiostation-data",
   "community": "Andalucia",
   "seedSource": "TDTChannels + webs oficiales",
-  "seedCount": 1,
-  "playableCount": 1,
-  "verifiedCount": 1,
+  "seedCount": 6,
+  "playableCount": 6,
+  "verifiedCount": 6,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Comunidad reforzada con su emisora autonómica principal. Las cadenas nacionales generalistas se mantienen en Nacional.",
+  "notes": "Comunidad reforzada con su emisora autonómica principal. Las cadenas nacionales generalistas se mantienen en Nacional. Deportes reforzados con radios y marcas deportivas autonómicas, incluyendo propuestas polideportivas y no solo fútbol.",
   "stations": [
     {
       "id": "canal-sur-radio",
@@ -23,6 +23,101 @@
           "label": "mp3",
           "url": "https://rtva-live-radio.flumotion.com/rtva/csr.mp3",
           "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "sevilla-fc-radio",
+      "name": "Sevilla FC Radio",
+      "category": "Deporte",
+      "community": "Andalucía",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://sevillafc.es/radio",
+      "logoUrl": "https://graph.facebook.com/sevillafc/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://open.http.mp.streamamg.com/p/3001314/sp/300131400/playManifest/entryId/0_ye0b8tc0/format/applehttp/protocol/https/uiConfId/30026292/a.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "real-betis-radio",
+      "name": "Real Betis Radio",
+      "category": "Deporte",
+      "community": "Andalucía",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.realbetisbalompie.es/radio",
+      "logoUrl": "https://graph.facebook.com/RealBetisBalompie/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://comcast01-h-cloud.flumotion.com/betistv/radio1.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ud-almeria-radio",
+      "name": "UD Almería Radio",
+      "category": "Deporte",
+      "community": "Andalucía",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.udalmeriasad.com/club/ud-almeria-radio",
+      "logoUrl": "https://graph.facebook.com/udalmeriasad/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://srv6022.dns-lcinternet.com:8002/livelq",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "sportdirect-radio",
+      "name": "SportDirect Radio",
+      "category": "Deporte",
+      "community": "Andalucía",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://sportdirectradio.es/",
+      "logoUrl": "https://graph.facebook.com/SportDirectRadio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://streaming12.elitecomunicacion.es:8036/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-poniente-deportes",
+      "name": "Radio Poniente Deportes",
+      "category": "Deporte",
+      "community": "Andalucía",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.radioponiente.com/",
+      "logoUrl": "https://graph.facebook.com/radioponientedeportes/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://broadcast.radioponiente.org:8036/;",
+          "format": "stream",
           "priority": 1,
           "source": "TDTChannels"
         }

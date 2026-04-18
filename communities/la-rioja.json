@@ -2,12 +2,12 @@
   "repoName": "radiostation-data",
   "community": "La Rioja",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 6,
-  "playableCount": 6,
-  "verifiedCount": 6,
+  "seedCount": 7,
+  "playableCount": 7,
+  "verifiedCount": 7,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Se priorizan emisoras riojanas propias y no cadenas nacionales generalistas.",
+  "notes": "Se priorizan emisoras riojanas propias y no cadenas nacionales generalistas. Deportes reforzados con radios y marcas deportivas autonómicas, incluyendo propuestas polideportivas y no solo fútbol.",
   "stations": [
     {
       "id": "esradio-arnedo",
@@ -112,6 +112,25 @@
       "community": "La Rioja",
       "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
       "websiteUrl": "https://www.canalebro.com/radioonline/",
+      "logoUrl": "https://graph.facebook.com/canalebro/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "http://streaming.capsulaimposible.com:8000/stream/2/canalebro.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "canal-ebro-deportes",
+      "name": "Canal Ebro Deportes",
+      "category": "Deporte",
+      "community": "La Rioja",
+      "sourceSeed": "Canal Ebro + TDTChannels",
+      "websiteUrl": "https://www.canalebro.com/",
       "logoUrl": "https://graph.facebook.com/canalebro/picture?width=200&height=200",
       "verificationStatus": "verified",
       "streams": [

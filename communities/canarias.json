@@ -2,12 +2,12 @@
   "repoName": "radiostation-data",
   "community": "Canarias",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 20,
-  "playableCount": 20,
-  "verifiedCount": 20,
+  "seedCount": 22,
+  "playableCount": 22,
+  "verifiedCount": 22,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Selección local, comunitaria y autonómica, sin cadenas nacionales generalistas.",
+  "notes": "Selección local, comunitaria y autonómica, sin cadenas nacionales generalistas. Deportes reforzados con radios y marcas deportivas autonómicas, incluyendo propuestas polideportivas y no solo fútbol.",
   "stations": [
     {
       "id": "radio-guiniguada",
@@ -386,6 +386,44 @@
           "label": "stream",
           "url": "https://dispatcher.rndfnk.com/crtve/rne1/cnr/mp3/high",
           "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "el-deportivo-de-canarias-radio",
+      "name": "El Deportivo de Canarias Radio",
+      "category": "Deporte",
+      "community": "Canarias",
+      "sourceSeed": "RTVC + TDTChannels",
+      "websiteUrl": "https://rtvc.es/audio/directo-radio/",
+      "logoUrl": "https://graph.facebook.com/LaRadioCanaria/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://rtvc-radio.flumotion.com/rtvc-radio/radio1-high.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "todo-goles-radio-canarias",
+      "name": "Todo Goles Radio",
+      "category": "Deporte",
+      "community": "Canarias",
+      "sourceSeed": "RTVC + TDTChannels",
+      "websiteUrl": "https://rtvc.es/audio/directo-radio/",
+      "logoUrl": "https://graph.facebook.com/LaRadioCanaria/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://rtvc-radio.flumotion.com/rtvc-radio/radio1-high.mp3",
+          "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
         }

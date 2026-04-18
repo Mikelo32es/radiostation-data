@@ -2,12 +2,12 @@
   "repoName": "radiostation-data",
   "community": "Galicia",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 8,
-  "playableCount": 8,
-  "verifiedCount": 8,
+  "seedCount": 9,
+  "playableCount": 9,
+  "verifiedCount": 9,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Selección pública, local, educativa y comunitaria.",
+  "notes": "Selección pública, local, educativa y comunitaria. Deportes reforzados con radios y marcas deportivas autonómicas, incluyendo propuestas polideportivas y no solo fútbol.",
   "stations": [
     {
       "id": "cuac-fm",
@@ -150,6 +150,25 @@
       "community": "Galicia",
       "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
       "websiteUrl": "https://agalegaaudio.gal/videos/120144-radio-galega",
+      "logoUrl": "https://graph.facebook.com/aradiogalega/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://crtvg-radiogalega-hls.flumotion.cloud/playlist.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "galicia-en-goles",
+      "name": "Galicia en Goles",
+      "category": "Deporte",
+      "community": "Galicia",
+      "sourceSeed": "Radio Galega + TDTChannels",
+      "websiteUrl": "https://www.g24.gal/-/mira-rg-galicia-en-goles",
       "logoUrl": "https://graph.facebook.com/aradiogalega/picture?width=200&height=200",
       "verificationStatus": "verified",
       "streams": [

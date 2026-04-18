@@ -2,12 +2,12 @@
   "repoName": "radiostation-data",
   "community": "Euskadi",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 39,
-  "playableCount": 39,
-  "verifiedCount": 39,
+  "seedCount": 41,
+  "playableCount": 41,
+  "verifiedCount": 41,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "Refuerzo amplio sin tocar la categoría Local: se añaden emisoras no locales reaprovechadas de catálogos verificados previos y se mantienen las nacionales fuera de las comunidades.",
+  "notes": "Refuerzo amplio sin tocar la categoría Local: se añaden emisoras no locales reaprovechadas de catálogos verificados previos y se mantienen las nacionales fuera de las comunidades. Deportes reforzados con radios y marcas deportivas autonómicas, incluyendo propuestas polideportivas y no solo fútbol.",
   "stations": [
     {
       "id": "euskadi-irratia",
@@ -784,6 +784,54 @@
           "format": "auto",
           "priority": 1,
           "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-vitoria-deportes",
+      "name": "Radio Vitoria Deportes",
+      "category": "Deporte",
+      "community": "Euskadi",
+      "sourceSeed": "EITB + TDTChannels",
+      "websiteUrl": "https://www.eitb.eus/es/radio/radio-vitoria/programas/radio-vitoria-deportes/",
+      "logoUrl": "https://graph.facebook.com/radiovitoria.eitb/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://multimedia.eitb.eus/live-content/radiovitoria-hls/master.m3u8",
+          "format": "hls",
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "http://195.55.74.215/eitb/radiovitoria.mp3?GKID",
+          "format": "mp3",
+          "source": "legacy"
+        }
+      ]
+    },
+    {
+      "id": "supercanasta-rv",
+      "name": "Supercanasta RV",
+      "category": "Deporte",
+      "community": "Euskadi",
+      "sourceSeed": "EITB + TDTChannels",
+      "websiteUrl": "https://www.eitb.eus/es/radio/radio-vitoria/programas/radio-vitoria-deportes/",
+      "logoUrl": "https://graph.facebook.com/radiovitoria.eitb/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "HLS principal",
+          "url": "https://multimedia.eitb.eus/live-content/radiovitoria-hls/master.m3u8",
+          "format": "hls",
+          "source": "TDTChannels"
+        },
+        {
+          "label": "MP3 alternativo",
+          "url": "http://195.55.74.215/eitb/radiovitoria.mp3?GKID",
+          "format": "mp3",
+          "source": "legacy"
         }
       ]
     }
