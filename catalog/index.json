@@ -2,20 +2,19 @@
   "repoName": "radiostation-data",
   "syncMessage": "Destacadas y Actualidad pasan a mostrar solo emisoras nacionales; SER, COPE y Onda Cero quedan centralizadas en Nacional.",
   "stats": {
-    "seedCount": 190,
-    "playableCount": 149,
-    "verifiedCount": 141,
-    "candidateCount": 8,
-    "pendingCount": 41
+    "seedCount": 302,
+    "playableCount": 302,
+    "verifiedCount": 302,
+    "candidateCount": 0,
+    "pendingCount": 0
   },
   "featuredIds": [
-    "rne-radio-nacional",
-    "cadena-ser-nacional",
-    "cope-nacional",
-    "onda-cero-nacional",
-    "rne-radio-5",
-    "radio-marca-nacional",
-    "los-40-principales",
+    "cadena-ser",
+    "cope",
+    "onda-cero",
+    "radio-5-rne",
+    "radio-marca",
+    "los40",
     "rock-fm",
     "cadena-100",
     "europa-fm",
@@ -23,25 +22,19 @@
     "radio-clasica-rne"
   ],
   "trendingIds": [
-    "rne-radio-nacional",
-    "rne-radio-5",
-    "cadena-ser-nacional",
-    "cope-nacional",
-    "onda-cero-nacional",
+    "radio-5-rne",
+    "cadena-ser",
+    "cope",
+    "onda-cero",
     "esradio",
     "capital-radio",
     "radio-intereconomia",
-    "radio-marca-nacional",
+    "radio-marca",
     "vaughan-radio",
-    "radio-maria-espana",
+    "radio-maria",
     "radio-clasica-rne"
   ],
   "recentIds": [
-    "radio-martorell",
-    "radio-vilamajor",
-    "radio-caldes",
-    "radio-cubelles",
-    "radio-maricel",
     "radio-la-mina",
     "radio-america-barcelona",
     "radio-gracia",
@@ -53,136 +46,136 @@
       "id": "andalucia",
       "name": "Andalucia",
       "path": "communities/andalucia.json",
-      "seedCount": 0,
-      "playableCount": 0
+      "seedCount": 1,
+      "playableCount": 1
     },
     {
       "id": "aragon",
       "name": "Aragon",
       "path": "communities/aragon.json",
-      "seedCount": 0,
-      "playableCount": 0
+      "seedCount": 1,
+      "playableCount": 1
     },
     {
       "id": "asturias",
       "name": "Asturias",
       "path": "communities/asturias.json",
-      "seedCount": 0,
-      "playableCount": 0
+      "seedCount": 6,
+      "playableCount": 6
     },
     {
       "id": "canarias",
       "name": "Canarias",
       "path": "communities/canarias.json",
-      "seedCount": 0,
-      "playableCount": 0
+      "seedCount": 20,
+      "playableCount": 20
     },
     {
       "id": "cantabria",
       "name": "Cantabria",
       "path": "communities/cantabria.json",
-      "seedCount": 0,
-      "playableCount": 0
+      "seedCount": 7,
+      "playableCount": 7
     },
     {
       "id": "castilla-la-mancha",
-      "name": "Castilla La Mancha",
+      "name": "Castilla-La Mancha",
       "path": "communities/castilla-la-mancha.json",
-      "seedCount": 0,
-      "playableCount": 0
+      "seedCount": 14,
+      "playableCount": 14
     },
     {
       "id": "castilla-y-leon",
-      "name": "Castilla Y Leon",
+      "name": "Castilla y León",
       "path": "communities/castilla-y-leon.json",
-      "seedCount": 0,
-      "playableCount": 0
+      "seedCount": 15,
+      "playableCount": 15
     },
     {
       "id": "catalunya",
       "name": "Catalunya",
       "path": "communities/catalunya.json",
-      "seedCount": 45,
-      "playableCount": 45
+      "seedCount": 36,
+      "playableCount": 36
     },
     {
       "id": "comunitat-valenciana",
       "name": "Comunitat Valenciana",
       "path": "communities/comunitat-valenciana.json",
-      "seedCount": 0,
-      "playableCount": 0
+      "seedCount": 32,
+      "playableCount": 32
     },
     {
       "id": "euskadi",
       "name": "Euskadi",
       "path": "communities/euskadi.json",
-      "seedCount": 76,
+      "seedCount": 39,
       "playableCount": 39
     },
     {
       "id": "extremadura",
       "name": "Extremadura",
       "path": "communities/extremadura.json",
-      "seedCount": 0,
-      "playableCount": 0
+      "seedCount": 9,
+      "playableCount": 9
     },
     {
       "id": "galicia",
       "name": "Galicia",
       "path": "communities/galicia.json",
-      "seedCount": 0,
-      "playableCount": 0
+      "seedCount": 8,
+      "playableCount": 8
     },
     {
       "id": "illes-balears",
       "name": "Illes Balears",
       "path": "communities/illes-balears.json",
-      "seedCount": 0,
-      "playableCount": 0
+      "seedCount": 23,
+      "playableCount": 23
     },
     {
       "id": "la-rioja",
       "name": "La Rioja",
       "path": "communities/la-rioja.json",
-      "seedCount": 0,
-      "playableCount": 0
+      "seedCount": 6,
+      "playableCount": 6
     },
     {
       "id": "madrid",
       "name": "Madrid",
       "path": "communities/madrid.json",
-      "seedCount": 39,
-      "playableCount": 39
+      "seedCount": 43,
+      "playableCount": 43
     },
     {
       "id": "murcia",
       "name": "Murcia",
       "path": "communities/murcia.json",
-      "seedCount": 0,
-      "playableCount": 0
+      "seedCount": 9,
+      "playableCount": 9
     },
     {
       "id": "national",
       "name": "Nacional",
       "path": "communities/national.json",
-      "seedCount": 30,
+      "seedCount": 26,
       "playableCount": 26
     },
     {
       "id": "navarra",
       "name": "Navarra",
       "path": "communities/navarra.json",
-      "seedCount": 0,
-      "playableCount": 0
+      "seedCount": 7,
+      "playableCount": 7
     }
   ],
   "homePath": "catalog/home.json",
   "requestedAction": "Mantener Cadena SER, Onda Cero, COPE y Radio Marca solo en Nacional, dejando Destacadas y Actualidad con emisoras nacionales.",
   "totals": {
-    "seedCount": 190,
-    "playableCount": 149,
-    "verifiedCount": 141,
-    "candidateCount": 8,
-    "pendingCount": 41
+    "seedCount": 302,
+    "playableCount": 302,
+    "verifiedCount": 302,
+    "candidateCount": 0,
+    "pendingCount": 0
   }
 }

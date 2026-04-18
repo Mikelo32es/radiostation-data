@@ -2,9 +2,9 @@
   "repoName": "radiostation-data",
   "community": "Cantabria",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 13,
-  "playableCount": 13,
-  "verifiedCount": 13,
+  "seedCount": 7,
+  "playableCount": 7,
+  "verifiedCount": 7,
   "candidateCount": 0,
   "pendingCount": 0,
   "notes": "Curado priorizando emisoras locales y comunitarias.",
@@ -138,120 +138,6 @@
           "label": "stream",
           "url": "https://cantabria.radioca.st/stream",
           "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cope-santander",
-      "name": "COPE Santander",
-      "category": "Noticias",
-      "community": "Cantabria",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.cope.es/",
-      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://wecast-bl02.flumotion.com/copesedes/santander.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "onda-cero-santander",
-      "name": "Onda Cero Santander",
-      "category": "Noticias",
-      "community": "Cantabria",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.ondacero.es/",
-      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/santander/master.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ser-ason",
-      "name": "SER Asón",
-      "category": "Noticias",
-      "community": "Cantabria",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://cadenaser.com/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASON.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ser-castro-urdiales",
-      "name": "SER Castro Urdiales",
-      "category": "Noticias",
-      "community": "Cantabria",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://cadenaser.com/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_CASTROURDIALES.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ser-radio-santander",
-      "name": "SER Radio Santander",
-      "category": "Noticias",
-      "community": "Cantabria",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://cadenaser.com/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_SANTANDER.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ser-torrelavega",
-      "name": "SER Torrelavega",
-      "category": "Noticias",
-      "community": "Cantabria",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://cadenaser.com/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_TORRELAVEGA.mp3",
-          "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
         }

@@ -2,9 +2,9 @@
   "repoName": "radiostation-data",
   "community": "Madrid",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 44,
-  "playableCount": 44,
-  "verifiedCount": 44,
+  "seedCount": 43,
+  "playableCount": 43,
+  "verifiedCount": 43,
   "candidateCount": 0,
   "pendingCount": 0,
   "notes": "Refuerzo amplio sin tocar la categoría Local: se añaden emisoras no locales reaprovechadas de catálogos verificados previos y se mantienen las nacionales fuera de las comunidades.",
@@ -687,25 +687,6 @@
           "label": "Stream principal",
           "url": "https://server1.easystreaming.pro:8443/unika",
           "format": "mp3",
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cope-madrid",
-      "name": "COPE Madrid",
-      "category": "Noticias",
-      "community": "Madrid",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.cope.es/directos/madrid",
-      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://flucast09-h-cloud.flumotion.com/cope/madrid.mp3",
-          "format": "mp3",
-          "priority": 1,
           "source": "TDTChannels"
         }
       ]

@@ -2,9 +2,9 @@
   "repoName": "radiostation-data",
   "community": "Navarra",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 14,
-  "playableCount": 14,
-  "verifiedCount": 14,
+  "seedCount": 7,
+  "playableCount": 7,
+  "verifiedCount": 7,
   "candidateCount": 0,
   "pendingCount": 0,
   "notes": "Selección navarra con emisoras propias, universitarias y comunitarias.",
@@ -105,26 +105,6 @@
       ]
     },
     {
-      "id": "europa-fm-pamplona",
-      "name": "Europa FM Pamplona",
-      "category": "Música",
-      "community": "Navarra",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.europafm.com/",
-      "logoUrl": "https://graph.facebook.com/tueuropafm/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://atres-live.europafm.com/live/delegaciones/efm/pamplona/master.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Top 40"
-    },
-    {
       "id": "trak-fm-pamplona",
       "name": "Trak FM Pamplona",
       "category": "Música",
@@ -145,44 +125,6 @@
       "musicType": "Dance"
     },
     {
-      "id": "cope-pamplona",
-      "name": "COPE Pamplona",
-      "category": "Noticias",
-      "community": "Navarra",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.cope.es/",
-      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://wecast-bl02.flumotion.com/copesedes/pamplona.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cope-tudela",
-      "name": "COPE Tudela",
-      "category": "Noticias",
-      "community": "Navarra",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.cope.es/",
-      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://wecast-bl02.flumotion.com/copesedes/tudela.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
       "id": "esradio-tudela",
       "name": "esRadio Tudela",
       "category": "Noticias",
@@ -196,82 +138,6 @@
           "label": "auto",
           "url": "https://azura.abcorp.es/radio/8110/stream",
           "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "onda-cero-pamplona",
-      "name": "Onda Cero Pamplona",
-      "category": "Noticias",
-      "community": "Navarra",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.ondacero.es/",
-      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/pamplona/master.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ser-pamplona",
-      "name": "SER Pamplona",
-      "category": "Noticias",
-      "community": "Navarra",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://cadenaser.com/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_PAMPLONA.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ser-tafalla",
-      "name": "SER Tafalla",
-      "category": "Noticias",
-      "community": "Navarra",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://cadenaser.com/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_TAFALLA.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ser-tudela",
-      "name": "SER Tudela",
-      "category": "Noticias",
-      "community": "Navarra",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://cadenaser.com/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_TUDELA.mp3",
-          "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
         }

@@ -2,9 +2,9 @@
   "repoName": "radiostation-data",
   "community": "Asturias",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 17,
-  "playableCount": 17,
-  "verifiedCount": 17,
+  "seedCount": 6,
+  "playableCount": 6,
+  "verifiedCount": 6,
   "candidateCount": 0,
   "pendingCount": 0,
   "notes": "Selección local y autonómica con prioridad a emisoras no nacionales.",
@@ -113,158 +113,6 @@
       "musicType": "Clásicos"
     },
     {
-      "id": "cope-asturias",
-      "name": "COPE Asturias",
-      "category": "Noticias",
-      "community": "Asturias",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.cope.es/",
-      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://wecast-bl02.flumotion.com/copesedes/asturias.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cope-aviles",
-      "name": "COPE Avilés",
-      "category": "Noticias",
-      "community": "Asturias",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.cope.es/",
-      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://wecast-bl02.flumotion.com/copesedes/aviles.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cope-gijon",
-      "name": "COPE Gijón",
-      "category": "Noticias",
-      "community": "Asturias",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.cope.es/",
-      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://wecast-bl02.flumotion.com/copesedes/gijon.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "onda-cero-cangas-del-narcea",
-      "name": "Onda Cero Cangas del Narcea",
-      "category": "Noticias",
-      "community": "Asturias",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.ondacero.es/",
-      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/cangasdelnarcea/master.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "onda-cero-gijon",
-      "name": "Onda Cero Gijón",
-      "category": "Noticias",
-      "community": "Asturias",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.ondacero.es/",
-      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/gijon/master.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "onda-cero-infiesto",
-      "name": "Onda Cero Infiesto",
-      "category": "Noticias",
-      "community": "Asturias",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.ondacero.es/",
-      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/infiesto/master.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "onda-cero-luarca",
-      "name": "Onda Cero Luarca",
-      "category": "Noticias",
-      "community": "Asturias",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.ondacero.es/",
-      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/luarca/master.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "onda-cero-oviedo",
-      "name": "Onda Cero Oviedo",
-      "category": "Noticias",
-      "community": "Asturias",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.ondacero.es/",
-      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/oviedo/master.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
       "id": "rpa",
       "name": "RPA",
       "category": "Noticias",
@@ -278,63 +126,6 @@
           "label": "m3u8",
           "url": "https://cdn-rtpa.watchity.net/wct-3545e416-1a16-44b5-b0db-481136ecacc9/continuous/7be5c015-1da2-4927-a49b-8d232faa69be/radio/index.m3u8",
           "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ser-asturias",
-      "name": "SER Asturias",
-      "category": "Noticias",
-      "community": "Asturias",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://cadenaser.com/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASTURIAS.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ser-aviles",
-      "name": "SER Avilés",
-      "category": "Noticias",
-      "community": "Asturias",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://cadenaser.com/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_AVILES.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ser-gijon",
-      "name": "SER Gijón",
-      "category": "Noticias",
-      "community": "Asturias",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://cadenaser.com/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_GIJON.mp3",
-          "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
         }

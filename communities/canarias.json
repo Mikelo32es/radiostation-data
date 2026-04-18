@@ -2,9 +2,9 @@
   "repoName": "radiostation-data",
   "community": "Canarias",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 30,
-  "playableCount": 30,
-  "verifiedCount": 30,
+  "seedCount": 20,
+  "playableCount": 20,
+  "verifiedCount": 20,
   "candidateCount": 0,
   "pendingCount": 0,
   "notes": "Selección local, comunitaria y autonómica, sin cadenas nacionales generalistas.",
@@ -80,65 +80,6 @@
           "label": "stream",
           "url": "https://streaming.elitecomunicacion.cloud:8334/stream",
           "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "europa-fm-santa-cruz",
-      "name": "Europa FM Santa Cruz",
-      "category": "Música",
-      "community": "Canarias",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.europafmtenerife.com/",
-      "logoUrl": "https://graph.facebook.com/tueuropafm/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://str1.mediatelekom.net/proxy/europafm2/stream/",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Top 40"
-    },
-    {
-      "id": "europa-fm-tenerife-norte-la-palma",
-      "name": "Europa FM Tenerife Norte / La Palma",
-      "category": "Música",
-      "community": "Canarias",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.europafmtenerife.com/",
-      "logoUrl": "https://graph.facebook.com/tueuropafm/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://str1.mediatelekom.net/proxy/europafm1/stream/",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Top 40"
-    },
-    {
-      "id": "europa-fm-tenerife-sur-la-gomera",
-      "name": "Europa FM Tenerife Sur / La Gomera",
-      "category": "Música",
-      "community": "Canarias",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.europafmtenerife.com",
-      "logoUrl": "https://graph.facebook.com/tueuropafm/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://str1.mediatelekom.net:9950/live",
-          "format": "stream",
           "priority": 1,
           "source": "TDTChannels"
         }
@@ -356,44 +297,6 @@
       ]
     },
     {
-      "id": "cope-gran-canaria",
-      "name": "COPE Gran Canaria",
-      "category": "Noticias",
-      "community": "Canarias",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.cope.es/",
-      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://wecast-bl02.flumotion.com/copesedes/grancanaria.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cope-tenerife",
-      "name": "COPE Tenerife",
-      "category": "Noticias",
-      "community": "Canarias",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.cope.es/",
-      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://wecast-bl02.flumotion.com/copesedes/tenerife.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
       "id": "el-pejeverde",
       "name": "El Pejeverde",
       "category": "Noticias",
@@ -406,25 +309,6 @@
         {
           "label": "m3u8",
           "url": "https://5c0956165db0b.streamlock.net/radio/lancelot.stream_aac/playlist.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "onda-cero-las-palmas",
-      "name": "Onda Cero Las Palmas",
-      "category": "Noticias",
-      "community": "Canarias",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.ondacero.es/",
-      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/laspalmas/master.m3u8",
           "format": "m3u8",
           "priority": 1,
           "source": "TDTChannels"
@@ -502,82 +386,6 @@
           "label": "stream",
           "url": "https://dispatcher.rndfnk.com/crtve/rne1/cnr/mp3/high",
           "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ser-club-tenerife",
-      "name": "SER Club Tenerife",
-      "category": "Noticias",
-      "community": "Canarias",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://cadenaser.com/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_CLUBTENERIFE.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ser-la-palma",
-      "name": "SER La Palma",
-      "category": "Noticias",
-      "community": "Canarias",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://cadenaser.com/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_LAPALMA.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ser-lanzarote",
-      "name": "SER Lanzarote",
-      "category": "Noticias",
-      "community": "Canarias",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://cadenaser.com/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_LANZAROTE.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ser-las-palmas",
-      "name": "SER Las Palmas",
-      "category": "Noticias",
-      "community": "Canarias",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://cadenaser.com/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_LASPALMAS.mp3",
-          "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
         }

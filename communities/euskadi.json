@@ -2,51 +2,13 @@
   "repoName": "radiostation-data",
   "community": "Euskadi",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 41,
-  "playableCount": 41,
-  "verifiedCount": 41,
+  "seedCount": 39,
+  "playableCount": 39,
+  "verifiedCount": 39,
   "candidateCount": 0,
   "pendingCount": 0,
   "notes": "Refuerzo amplio sin tocar la categoría Local: se añaden emisoras no locales reaprovechadas de catálogos verificados previos y se mantienen las nacionales fuera de las comunidades.",
   "stations": [
-    {
-      "id": "cope-bilbao",
-      "name": "COPE Bilbao",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.cope.es/directos/bilbao",
-      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://wecast-bl02.flumotion.com/copesedes/bilbao.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cope-san-sebastian",
-      "name": "COPE San Sebastián",
-      "category": "Noticias",
-      "community": "Euskadi",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.cope.es/directos/san-sebastian",
-      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://wecast-bl02.flumotion.com/copesedes/ssebastian.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
     {
       "id": "euskadi-irratia",
       "name": "Euskadi Irratia",
