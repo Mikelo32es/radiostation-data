@@ -2,13 +2,58 @@
   "repoName": "radiostation-data",
   "community": "Nacional",
   "seedSource": "TDTChannels + webs oficiales",
-  "seedCount": 26,
-  "playableCount": 26,
-  "verifiedCount": 26,
+  "seedCount": 40,
+  "playableCount": 40,
+  "verifiedCount": 40,
   "candidateCount": 0,
   "pendingCount": 0,
   "notes": "Emisoras de ámbito nacional agrupadas bajo la categoría Nacional.",
   "stations": [
+    {
+      "id": "cadena-100",
+      "name": "Cadena 100",
+      "category": "Nacional",
+      "community": "Nacional",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.cadena100.es",
+      "logoUrl": "https://graph.facebook.com/CADENA100/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://cadena100-cope.flumotion.com/chunks.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "cadena-dial",
+      "name": "Cadena Dial",
+      "category": "Nacional",
+      "community": "Nacional",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://play.cadenadial.com",
+      "logoUrl": "https://graph.facebook.com/cadenadial/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "aac",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIALAAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
     {
       "id": "cadena-ser",
       "name": "Cadena SER",
@@ -64,6 +109,25 @@
       ]
     },
     {
+      "id": "capital-radio",
+      "name": "Capital Radio",
+      "category": "Nacional",
+      "community": "Nacional",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.capitalradio.es/directo",
+      "logoUrl": "https://graph.facebook.com/capitalradiob/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://mdstrm.com/audio/67d2a8685ae4234de49e40f6/live.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
       "id": "cope",
       "name": "COPE",
       "category": "Nacional",
@@ -104,70 +168,6 @@
       ]
     },
     {
-      "id": "onda-cero",
-      "name": "Onda Cero",
-      "category": "Nacional",
-      "community": "Nacional",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.ondacero.es/directo/",
-      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "aac",
-          "url": "https://radio-atres-live.ondacero.es/api/livestream-redirect/OCAAC.aac",
-          "format": "aac",
-          "priority": 1,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "m3u8",
-          "url": "https://atres-live.ondacero.es/live/ondaceroeventos1/master.m3u8",
-          "format": "m3u8",
-          "priority": 2,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-nacional",
-      "name": "Radio Nacional",
-      "category": "Nacional",
-      "community": "Nacional",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.rtve.es/play/radio/rne/",
-      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r1_main.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-5-rne",
-      "name": "Radio 5 RNE",
-      "category": "Nacional",
-      "community": "Nacional",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.rtve.es/play/radio/radio-5/",
-      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r5_madrid_main.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
       "id": "esradio",
       "name": "esRadio",
       "category": "Nacional",
@@ -194,44 +194,37 @@
       ]
     },
     {
-      "id": "radio-marca",
-      "name": "Radio Marca",
+      "id": "europa-fm",
+      "name": "Europa FM",
       "category": "Nacional",
       "community": "Nacional",
       "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.marca.com/radio.html",
-      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "websiteUrl": "https://www.europafm.com/directo/",
+      "logoUrl": "https://graph.facebook.com/tueuropafm/picture?width=200&height=200",
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "aac",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONALAAC.aac",
+          "url": "https://radio-atres-live.ondacero.es/api/livestream-redirect/EFMAAC.aac",
           "format": "aac",
           "priority": 1,
           "source": "TDTChannels"
-        },
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONAL.mp3",
-          "format": "mp3",
-          "priority": 2,
-          "source": "TDTChannels"
         }
       ]
     },
     {
-      "id": "radio-maria",
-      "name": "Radio María",
+      "id": "hit-fm",
+      "name": "Hit FM",
       "category": "Nacional",
       "community": "Nacional",
       "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.radiomaria.es/directo",
-      "logoUrl": "https://graph.facebook.com/RadioMariaSpa/picture?width=200&height=200",
+      "websiteUrl": "https://www.hitfm.es",
+      "logoUrl": "https://graph.facebook.com/hitfm.es/picture?width=200&height=200",
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "mp3",
-          "url": "https://dreamsiteradiocp4.com/proxy/rmspain1?mp=/stream/1/;.mp3",
+          "url": "https://adhandler.kissfmradio.cires21.com/get_link?url=https://bbhitfm.kissfmradio.cires21.com/bbhitfm.mp3",
           "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
@@ -239,37 +232,37 @@
       ]
     },
     {
-      "id": "capital-radio",
-      "name": "Capital Radio",
+      "id": "kiss-fm",
+      "name": "Kiss FM",
       "category": "Nacional",
       "community": "Nacional",
       "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.capitalradio.es/directo",
-      "logoUrl": "https://graph.facebook.com/capitalradiob/picture?width=200&height=200",
+      "websiteUrl": "https://kissfm.es/player/",
+      "logoUrl": "https://graph.facebook.com/kissfm.es/picture?width=200&height=200",
       "verificationStatus": "verified",
       "streams": [
         {
-          "label": "m3u8",
-          "url": "https://mdstrm.com/audio/67d2a8685ae4234de49e40f6/live.m3u8",
-          "format": "m3u8",
+          "label": "mp3",
+          "url": "https://kissfm.kissfmradio.cires21.com/kissfm.mp3",
+          "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
         }
       ]
     },
     {
-      "id": "radio-intereconomia",
-      "name": "Radio Intereconomía",
+      "id": "loca-fm",
+      "name": "Loca FM",
       "category": "Nacional",
       "community": "Nacional",
       "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://intereconomia.com/directo/",
-      "logoUrl": "https://graph.facebook.com/RadioIntereconomia/picture?width=200&height=200",
+      "websiteUrl": "https://www.locafm.com/live/player.html",
+      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "stream",
-          "url": "https://streaming.intereconomia.com/siliconorg",
+          "url": "https://s3.we4stream.com:2020/stream/locafm",
           "format": "auto",
           "priority": 1,
           "source": "TDTChannels"
@@ -329,32 +322,6 @@
       ]
     },
     {
-      "id": "los40-urban",
-      "name": "LOS40 Urban",
-      "category": "Nacional",
-      "community": "Nacional",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://play.los40.com/emisora/los40_urban",
-      "logoUrl": "https://graph.facebook.com/los40urban/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "aac",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_URBANAAC.aac",
-          "format": "aac",
-          "priority": 1,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_URBAN.mp3",
-          "format": "mp3",
-          "priority": 2,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
       "id": "los40-dance",
       "name": "LOS40 Dance",
       "category": "Nacional",
@@ -381,63 +348,25 @@
       ]
     },
     {
-      "id": "kiss-fm",
-      "name": "Kiss FM",
+      "id": "los40-urban",
+      "name": "LOS40 Urban",
       "category": "Nacional",
       "community": "Nacional",
       "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://kissfm.es/player/",
-      "logoUrl": "https://graph.facebook.com/kissfm.es/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://kissfm.kissfmradio.cires21.com/kissfm.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cadena-100",
-      "name": "Cadena 100",
-      "category": "Nacional",
-      "community": "Nacional",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.cadena100.es",
-      "logoUrl": "https://graph.facebook.com/CADENA100/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://cadena100-cope.flumotion.com/chunks.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cadena-dial",
-      "name": "Cadena Dial",
-      "category": "Nacional",
-      "community": "Nacional",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://play.cadenadial.com",
-      "logoUrl": "https://graph.facebook.com/cadenadial/picture?width=200&height=200",
+      "websiteUrl": "https://play.los40.com/emisora/los40_urban",
+      "logoUrl": "https://graph.facebook.com/los40urban/picture?width=200&height=200",
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "aac",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIALAAC.aac",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_URBANAAC.aac",
           "format": "aac",
           "priority": 1,
           "source": "TDTChannels"
         },
         {
           "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL.mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_URBAN.mp3",
           "format": "mp3",
           "priority": 2,
           "source": "TDTChannels"
@@ -445,18 +374,18 @@
       ]
     },
     {
-      "id": "rock-fm",
-      "name": "Rock FM",
+      "id": "megastar-fm",
+      "name": "MegaStar FM",
       "category": "Nacional",
       "community": "Nacional",
       "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.rockfm.fm",
-      "logoUrl": "https://graph.facebook.com/RockFM/picture?width=200&height=200",
+      "websiteUrl": "https://www.megastar.fm",
+      "logoUrl": "https://graph.facebook.com/MegaStarFM/picture?width=200&height=200",
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "m3u8",
-          "url": "https://rockfm-cope.flumotion.com/playlist.m3u8",
+          "url": "https://megastar-cope.flumotion.com/playlist.m3u8",
           "format": "m3u8",
           "priority": 1,
           "source": "TDTChannels"
@@ -464,19 +393,451 @@
       ]
     },
     {
-      "id": "europa-fm",
-      "name": "Europa FM",
+      "id": "melodia-fm",
+      "name": "Melodía FM",
       "category": "Nacional",
       "community": "Nacional",
       "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.europafm.com/directo/",
-      "logoUrl": "https://graph.facebook.com/tueuropafm/picture?width=200&height=200",
+      "websiteUrl": "https://www.melodia-fm.com/directo/",
+      "logoUrl": "https://graph.facebook.com/tumelodiafm/picture?width=200&height=200",
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "aac",
-          "url": "https://radio-atres-live.ondacero.es/api/livestream-redirect/EFMAAC.aac",
+          "url": "https://radio-atres-live.ondacero.es/api/livestream-redirect/MELODIA_FMAAC.aac",
           "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-cero",
+      "name": "Onda Cero",
+      "category": "Nacional",
+      "community": "Nacional",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.ondacero.es/directo/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "aac",
+          "url": "https://radio-atres-live.ondacero.es/api/livestream-redirect/OCAAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "m3u8",
+          "url": "https://atres-live.ondacero.es/live/ondaceroeventos1/master.m3u8",
+          "format": "m3u8",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-3-rne",
+      "name": "Radio 3 RNE",
+      "category": "Nacional",
+      "community": "Nacional",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.rtve.es/play/radio/radio-3/",
+      "logoUrl": "https://graph.facebook.com/radio3/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r3_main.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-5-rne",
+      "name": "Radio 5 RNE",
+      "category": "Nacional",
+      "community": "Nacional",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.rtve.es/play/radio/radio-5/",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r5_madrid_main.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-clasica-rne",
+      "name": "Radio Clásica RNE",
+      "category": "Nacional",
+      "community": "Nacional",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.rtve.es/play/radio/radio-clasica/",
+      "logoUrl": "https://graph.facebook.com/radioclasicartve/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r2_main.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-intereconomia",
+      "name": "Radio Intereconomía",
+      "category": "Nacional",
+      "community": "Nacional",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://intereconomia.com/directo/",
+      "logoUrl": "https://graph.facebook.com/RadioIntereconomia/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://streaming.intereconomia.com/siliconorg",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca",
+      "name": "Radio Marca",
+      "category": "Nacional",
+      "community": "Nacional",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.marca.com/radio.html",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "aac",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONALAAC.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        },
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONAL.mp3",
+          "format": "mp3",
+          "priority": 2,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca-almeria",
+      "name": "Radio Marca Almería",
+      "category": "Nacional",
+      "community": "Nacional",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual + reclasificada a Nacional",
+      "websiteUrl": "https://www.radiomarcaalmeria.com/radio-en-directo/",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://streaming.indalteco.net/proxy/radiomarca?mp=/rmarcaalm.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca-asturias",
+      "name": "Radio Marca Asturias",
+      "category": "Nacional",
+      "community": "Nacional",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales + reclasificada a Nacional",
+      "websiteUrl": "https://www.marca.com/radio.html",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://streaming.enacast.com/radiomarcaasturiasHD.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca-barcelona",
+      "name": "Radio Marca Barcelona",
+      "category": "Nacional",
+      "community": "Nacional",
+      "sourceSeed": "TDTChannels + webs oficiales + reclasificada a Nacional",
+      "websiteUrl": "https://www.marca.com/radio.html",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://radiomarcabcnmedia.dns-lcinternet.com:9000/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca-bilbao",
+      "name": "Radio Marca Bilbao",
+      "category": "Nacional",
+      "community": "Nacional",
+      "sourceSeed": "TDTChannels + webs oficiales + reclasificada a Nacional",
+      "websiteUrl": "https://www.radiomarcabilbao.com",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://server8.emitironline.com:18475/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca-coruna",
+      "name": "Radio Marca Coruña",
+      "category": "Nacional",
+      "community": "Nacional",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales + reclasificada a Nacional",
+      "websiteUrl": "https://www.marca.com/radio.html",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_CORUNA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca-donostia",
+      "name": "Radio Marca Donostia",
+      "category": "Nacional",
+      "community": "Nacional",
+      "sourceSeed": "TDTChannels + webs oficiales + reclasificada a Nacional",
+      "websiteUrl": "https://www.marca.com/radio.html",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://marca-sansebastian.streaming-pro.com:6101/live",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca-elche",
+      "name": "Radio Marca Elche",
+      "category": "Nacional",
+      "community": "Nacional",
+      "sourceSeed": "TDTChannels + webs oficiales + reclasificada a Nacional",
+      "websiteUrl": "https://radiomarcaelche.es",
+      "logoUrl": "https://graph.facebook.com/radiomarcaelche/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://directo.teleelx.es:8000/radio.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca-lanzarote",
+      "name": "Radio Marca Lanzarote",
+      "category": "Nacional",
+      "community": "Nacional",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual + reclasificada a Nacional",
+      "websiteUrl": "https://lancelot.es/radio.php",
+      "logoUrl": "https://graph.facebook.com/RadioMarcaLanzarote/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://5c0956165db0b.streamlock.net/radio/marca.stream_aac/playlist.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca-tenerife",
+      "name": "Radio Marca Tenerife",
+      "category": "Nacional",
+      "community": "Nacional",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual + reclasificada a Nacional",
+      "websiteUrl": "https://radiomarcatenerife.com",
+      "logoUrl": "https://graph.facebook.com/RadioMarcaTfe/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://cervera.eldialdigital.com:22131/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca-valencia",
+      "name": "Radio Marca Valencia",
+      "category": "Nacional",
+      "community": "Nacional",
+      "sourceSeed": "TDTChannels + webs oficiales + reclasificada a Nacional",
+      "websiteUrl": "https://www.marca.com/radio.html",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_VALENCIA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca-valladolid",
+      "name": "Radio Marca Valladolid",
+      "category": "Nacional",
+      "community": "Nacional",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual + reclasificada a Nacional",
+      "websiteUrl": "https://radiomarcavalladolid.com",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://radiomarcavalladolid.streaming-pro.com:6106/radiomarca.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca-vigo",
+      "name": "Radio Marca Vigo",
+      "category": "Nacional",
+      "community": "Nacional",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales + reclasificada a Nacional",
+      "websiteUrl": "https://www.marca.com/radio.html",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://streaming.enacast.com/radiomarcavigoHD.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca-vitoria",
+      "name": "Radio Marca Vitoria",
+      "category": "Nacional",
+      "community": "Nacional",
+      "sourceSeed": "TDTChannels + webs oficiales + reclasificada a Nacional",
+      "websiteUrl": "https://www.marca.com/radio.html",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://control.streaming-pro.com:6014/marcavitoria.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-marca-zaragoza",
+      "name": "Radio Marca Zaragoza",
+      "category": "Nacional",
+      "community": "Nacional",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales + reclasificada a Nacional",
+      "websiteUrl": "https://www.marca.com/radio.html",
+      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "auto",
+          "url": "https://c6.auracast.net/radio/8020/rmzgz",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-maria",
+      "name": "Radio María",
+      "category": "Nacional",
+      "community": "Nacional",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.radiomaria.es/directo",
+      "logoUrl": "https://graph.facebook.com/RadioMariaSpa/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://dreamsiteradiocp4.com/proxy/rmspain1?mp=/stream/1/;.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-nacional",
+      "name": "Radio Nacional",
+      "category": "Nacional",
+      "community": "Nacional",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.rtve.es/play/radio/rne/",
+      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r1_main.m3u8",
+          "format": "m3u8",
           "priority": 1,
           "source": "TDTChannels"
         }
@@ -509,113 +870,18 @@
       ]
     },
     {
-      "id": "hit-fm",
-      "name": "Hit FM",
+      "id": "rock-fm",
+      "name": "Rock FM",
       "category": "Nacional",
       "community": "Nacional",
       "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.hitfm.es",
-      "logoUrl": "https://graph.facebook.com/hitfm.es/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://adhandler.kissfmradio.cires21.com/get_link?url=https://bbhitfm.kissfmradio.cires21.com/bbhitfm.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "melodia-fm",
-      "name": "Melodía FM",
-      "category": "Nacional",
-      "community": "Nacional",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.melodia-fm.com/directo/",
-      "logoUrl": "https://graph.facebook.com/tumelodiafm/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "aac",
-          "url": "https://radio-atres-live.ondacero.es/api/livestream-redirect/MELODIA_FMAAC.aac",
-          "format": "aac",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "megastar-fm",
-      "name": "MegaStar FM",
-      "category": "Nacional",
-      "community": "Nacional",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.megastar.fm",
-      "logoUrl": "https://graph.facebook.com/MegaStarFM/picture?width=200&height=200",
+      "websiteUrl": "https://www.rockfm.fm",
+      "logoUrl": "https://graph.facebook.com/RockFM/picture?width=200&height=200",
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "m3u8",
-          "url": "https://megastar-cope.flumotion.com/playlist.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "loca-fm",
-      "name": "Loca FM",
-      "category": "Nacional",
-      "community": "Nacional",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.locafm.com/live/player.html",
-      "logoUrl": "https://graph.facebook.com/LocaFmOficial/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://s3.we4stream.com:2020/stream/locafm",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-3-rne",
-      "name": "Radio 3 RNE",
-      "category": "Nacional",
-      "community": "Nacional",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.rtve.es/play/radio/radio-3/",
-      "logoUrl": "https://graph.facebook.com/radio3/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r3_main.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-clasica-rne",
-      "name": "Radio Clásica RNE",
-      "category": "Nacional",
-      "community": "Nacional",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.rtve.es/play/radio/radio-clasica/",
-      "logoUrl": "https://graph.facebook.com/radioclasicartve/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r2_main.m3u8",
+          "url": "https://rockfm-cope.flumotion.com/playlist.m3u8",
           "format": "m3u8",
           "priority": 1,
           "source": "TDTChannels"

@@ -1,11 +1,11 @@
 {
   "repoName": "radiostation-data",
   "homePath": "catalog/home.json",
-  "syncMessage": "Lote de 200 emisoras verificadas para reforzar comunidades más débiles y categorías temáticas, usando myTuner solo como semilla y TDTChannels/contraste manual para streams y logos.",
+  "syncMessage": "Reclasificadas las ediciones regionales de Radio Marca a Nacional y refuerzo de Deportes autonómicos con radios oficiales de club verificadas.",
   "stats": {
-    "seedCount": 582,
-    "playableCount": 582,
-    "verifiedCount": 582,
+    "seedCount": 587,
+    "playableCount": 587,
+    "verifiedCount": 587,
     "candidateCount": 0,
     "pendingCount": 0
   },
@@ -42,6 +42,10 @@
     "vaughan-radio"
   ],
   "recentIds": [
+    "radio-osasuna",
+    "valencia-cf-radio",
+    "ud-almeria-radio",
+    "real-betis-radio",
     "ser-rioja",
     "onda-cero-rioja-logrono",
     "ser-pamplona",
@@ -49,40 +53,36 @@
     "radio-marca-zaragoza",
     "ser-cartagena",
     "ser-vigo",
-    "ser-mallorca",
-    "ser-extremadura",
-    "europa-fm-santa-cruz",
-    "canal-sur-radio-musica",
-    "rac1"
+    "ser-mallorca"
   ],
   "communities": [
     {
       "id": "andalucia",
       "name": "Andalucía",
       "path": "communities/andalucia.json",
-      "seedCount": 57,
-      "playableCount": 57
+      "seedCount": 58,
+      "playableCount": 58
     },
     {
       "id": "aragon",
       "name": "Aragón",
       "path": "communities/aragon.json",
-      "seedCount": 32,
-      "playableCount": 32
+      "seedCount": 31,
+      "playableCount": 31
     },
     {
       "id": "asturias",
       "name": "Asturias",
       "path": "communities/asturias.json",
-      "seedCount": 30,
-      "playableCount": 30
+      "seedCount": 29,
+      "playableCount": 29
     },
     {
       "id": "canarias",
       "name": "Canarias",
       "path": "communities/canarias.json",
-      "seedCount": 32,
-      "playableCount": 32
+      "seedCount": 30,
+      "playableCount": 30
     },
     {
       "id": "cantabria",
@@ -102,29 +102,29 @@
       "id": "castilla-y-leon",
       "name": "Castilla y León",
       "path": "communities/castilla-y-leon.json",
-      "seedCount": 42,
-      "playableCount": 42
+      "seedCount": 41,
+      "playableCount": 41
     },
     {
       "id": "catalunya",
       "name": "Catalunya",
       "path": "communities/catalunya.json",
-      "seedCount": 38,
-      "playableCount": 38
+      "seedCount": 37,
+      "playableCount": 37
     },
     {
       "id": "comunitat-valenciana",
       "name": "Comunitat Valenciana",
       "path": "communities/comunitat-valenciana.json",
-      "seedCount": 30,
-      "playableCount": 30
+      "seedCount": 29,
+      "playableCount": 29
     },
     {
       "id": "euskadi",
       "name": "Euskadi",
       "path": "communities/euskadi.json",
-      "seedCount": 44,
-      "playableCount": 44
+      "seedCount": 41,
+      "playableCount": 41
     },
     {
       "id": "extremadura",
@@ -137,8 +137,8 @@
       "id": "galicia",
       "name": "Galicia",
       "path": "communities/galicia.json",
-      "seedCount": 40,
-      "playableCount": 40
+      "seedCount": 38,
+      "playableCount": 38
     },
     {
       "id": "illes-balears",
@@ -158,8 +158,8 @@
       "id": "madrid",
       "name": "Madrid",
       "path": "communities/madrid.json",
-      "seedCount": 43,
-      "playableCount": 43
+      "seedCount": 44,
+      "playableCount": 44
     },
     {
       "id": "murcia",
@@ -172,15 +172,15 @@
       "id": "navarra",
       "name": "Navarra",
       "path": "communities/navarra.json",
-      "seedCount": 16,
-      "playableCount": 16
+      "seedCount": 17,
+      "playableCount": 17
     },
     {
       "id": "national",
       "name": "Nacional",
       "path": "communities/national.json",
-      "seedCount": 26,
-      "playableCount": 26
+      "seedCount": 40,
+      "playableCount": 40
     }
   ]
 }

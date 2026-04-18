@@ -2,27 +2,179 @@
   "repoName": "radiostation-data",
   "community": "Comunitat Valenciana",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 30,
-  "playableCount": 30,
-  "verifiedCount": 30,
+  "seedCount": 29,
+  "playableCount": 29,
+  "verifiedCount": 29,
   "candidateCount": 0,
   "pendingCount": 0,
   "notes": "Selección autonómica, local y temática; se evita mezclar cadenas nacionales generalistas en comunidad.",
   "stations": [
     {
-      "id": "a-punt-fm",
-      "name": "À Punt FM",
-      "category": "Noticias",
+      "id": "99-9-valencia-radio",
+      "name": "99.9 Valencia Radio",
+      "category": "Comunidad",
+      "community": "Comunitat Valenciana",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.la999.es",
+      "logoUrl": "https://graph.facebook.com/999VlcRadio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://stream1.solstreaming.com:8112/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "cassette-fm",
+      "name": "Cassette FM",
+      "category": "Comunidad",
+      "community": "Comunitat Valenciana",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://cassettefm.es",
+      "logoUrl": "https://media.emisorasmusicales.net/wp-content/uploads/2021/05/11022133/Cassette-200x200.png",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://stream.costafm.es/listen/cassettefm/radio.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-esport-valencia",
+      "name": "Radio Esport Valencia",
+      "category": "Deporte",
       "community": "Comunitat Valenciana",
       "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.apuntmedia.es/directe/directe-radio_136_1392525.html",
-      "logoUrl": "https://graph.facebook.com/apuntmedia/picture?width=200&height=200",
+      "websiteUrl": "https://radioesport914.com",
+      "logoUrl": "https://graph.facebook.com/radioesport914/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://streaming.radioesport914.com:58000/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "valencia-cf-radio",
+      "name": "Valencia CF Radio",
+      "category": "Deporte",
+      "community": "Comunitat Valenciana",
+      "sourceSeed": "TDTChannels + web oficial del club",
+      "websiteUrl": "https://www.valenciacf.com/es/vcf-media/radio",
+      "logoUrl": "https://graph.facebook.com/ValenciaCF/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://radio-valencia-direct.flumotion.com/rvfc/shoutcast.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "capital-radio-valencia",
+      "name": "Capital Radio Valencia",
+      "category": "Economía",
+      "community": "Comunitat Valenciana",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.capitalradio.es/valencia",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1256866004145242113/WZVY4CoE_200x200.jpg",
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "m3u8",
-          "url": "https://fastly.live.brightcove.com/1854461588069069227/eu-central-1/6057955885001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiZWFxNWh4LmVncmVzcy53YzQ3bTEiLCJhY2NvdW50X2lkIjoiNjA1Nzk1NTg4NTAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU3OTU1ODg1MDAxIl0sImp0aSI6IjE4NTQ0NjE1ODgwNjkwNjkyMjcifQ.RKqA-z0MRntFVph2G3tE9YzBp7vfdMXcynOKpyqvZTg/playlist-hls-dvr.m3u8",
+          "url": "https://mdstrm.com/audio/67e287c809f9212593c3a7c5/live.m3u8",
           "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "alzira-radio",
+      "name": "Alzira Ràdio",
+      "category": "Local",
+      "community": "Comunitat Valenciana",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://alziraradio.com/alzira-radio-en-directe/",
+      "logoUrl": "https://graph.facebook.com/alziraradio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://alziraradiomob.streaming-pro.com:6172/alziraradio.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "denia-fm",
+      "name": "Dénia FM",
+      "category": "Local",
+      "community": "Comunitat Valenciana",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://marinaalta.es",
+      "logoUrl": "https://graph.facebook.com/deniafm92.5/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://stream.serviciospararadios.es/listen/denia_fm/deniafm.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "plaza-radio",
+      "name": "Plaza Radio",
+      "category": "Local",
+      "community": "Comunitat Valenciana",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://plazaradio.es/onair",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1438771594952839170/aBOGp4Rl_200x200.jpg",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://stream1.solstreaming.com:8112/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "torrevieja-radio",
+      "name": "Torrevieja Radio",
+      "category": "Local",
+      "community": "Comunitat Valenciana",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://torreviejaradio.com",
+      "logoUrl": "https://graph.facebook.com/TorreviejaRadio107.1/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://sonicpanel.globalstream.pro:10973/;",
+          "format": "auto",
           "priority": 1,
           "source": "TDTChannels"
         }
@@ -335,25 +487,6 @@
       ]
     },
     {
-      "id": "radio-calp",
-      "name": "Ràdio Calp",
-      "category": "Música",
-      "community": "Comunitat Valenciana",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.emisorasmusicales.net/emisoras/radio-calp/",
-      "logoUrl": "https://media.emisorasmusicales.net/wp-content/uploads/2024/10/24105437/Logo-Radio-Calp-05-200x200.jpg",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://stream.emisorasmusicales.net/listen/radio-calp/radio-calp.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
       "id": "rockstar",
       "name": "RockStar",
       "category": "Música",
@@ -366,6 +499,25 @@
         {
           "label": "mp3",
           "url": "https://stream.emisorasmusicales.net/radio/8060/rockstar.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-calp",
+      "name": "Ràdio Calp",
+      "category": "Música",
+      "community": "Comunitat Valenciana",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.emisorasmusicales.net/emisoras/radio-calp/",
+      "logoUrl": "https://media.emisorasmusicales.net/wp-content/uploads/2024/10/24105437/Logo-Radio-Calp-05-200x200.jpg",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://stream.emisorasmusicales.net/listen/radio-calp/radio-calp.mp3",
           "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
@@ -392,190 +544,19 @@
       ]
     },
     {
-      "id": "99-9-valencia-radio",
-      "name": "99.9 Valencia Radio",
-      "category": "Comunidad",
-      "community": "Comunitat Valenciana",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.la999.es",
-      "logoUrl": "https://graph.facebook.com/999VlcRadio/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://stream1.solstreaming.com:8112/stream",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cassette-fm",
-      "name": "Cassette FM",
-      "category": "Comunidad",
-      "community": "Comunitat Valenciana",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://cassettefm.es",
-      "logoUrl": "https://media.emisorasmusicales.net/wp-content/uploads/2021/05/11022133/Cassette-200x200.png",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://stream.costafm.es/listen/cassettefm/radio.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-esport-valencia",
-      "name": "Radio Esport Valencia",
-      "category": "Deporte",
+      "id": "a-punt-fm",
+      "name": "À Punt FM",
+      "category": "Noticias",
       "community": "Comunitat Valenciana",
       "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://radioesport914.com",
-      "logoUrl": "https://graph.facebook.com/radioesport914/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://streaming.radioesport914.com:58000/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-marca-elche",
-      "name": "Radio Marca Elche",
-      "category": "Deporte",
-      "community": "Comunitat Valenciana",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://radiomarcaelche.es",
-      "logoUrl": "https://graph.facebook.com/radiomarcaelche/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://directo.teleelx.es:8000/radio.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-marca-valencia",
-      "name": "Radio Marca Valencia",
-      "category": "Deporte",
-      "community": "Comunitat Valenciana",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.marca.com/radio.html",
-      "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_VALENCIA.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "capital-radio-valencia",
-      "name": "Capital Radio Valencia",
-      "category": "Economía",
-      "community": "Comunitat Valenciana",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.capitalradio.es/valencia",
-      "logoUrl": "https://pbs.twimg.com/profile_images/1256866004145242113/WZVY4CoE_200x200.jpg",
+      "websiteUrl": "https://www.apuntmedia.es/directe/directe-radio_136_1392525.html",
+      "logoUrl": "https://graph.facebook.com/apuntmedia/picture?width=200&height=200",
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "m3u8",
-          "url": "https://mdstrm.com/audio/67e287c809f9212593c3a7c5/live.m3u8",
+          "url": "https://fastly.live.brightcove.com/1854461588069069227/eu-central-1/6057955885001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiZWFxNWh4LmVncmVzcy53YzQ3bTEiLCJhY2NvdW50X2lkIjoiNjA1Nzk1NTg4NTAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU3OTU1ODg1MDAxIl0sImp0aSI6IjE4NTQ0NjE1ODgwNjkwNjkyMjcifQ.RKqA-z0MRntFVph2G3tE9YzBp7vfdMXcynOKpyqvZTg/playlist-hls-dvr.m3u8",
           "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "alzira-radio",
-      "name": "Alzira Ràdio",
-      "category": "Local",
-      "community": "Comunitat Valenciana",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://alziraradio.com/alzira-radio-en-directe/",
-      "logoUrl": "https://graph.facebook.com/alziraradio/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://alziraradiomob.streaming-pro.com:6172/alziraradio.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "denia-fm",
-      "name": "Dénia FM",
-      "category": "Local",
-      "community": "Comunitat Valenciana",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://marinaalta.es",
-      "logoUrl": "https://graph.facebook.com/deniafm92.5/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://stream.serviciospararadios.es/listen/denia_fm/deniafm.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "plaza-radio",
-      "name": "Plaza Radio",
-      "category": "Local",
-      "community": "Comunitat Valenciana",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://plazaradio.es/onair",
-      "logoUrl": "https://pbs.twimg.com/profile_images/1438771594952839170/aBOGp4Rl_200x200.jpg",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://stream1.solstreaming.com:8112/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "torrevieja-radio",
-      "name": "Torrevieja Radio",
-      "category": "Local",
-      "community": "Comunitat Valenciana",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://torreviejaradio.com",
-      "logoUrl": "https://graph.facebook.com/TorreviejaRadio107.1/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://sonicpanel.globalstream.pro:10973/;",
-          "format": "auto",
           "priority": 1,
           "source": "TDTChannels"
         }
