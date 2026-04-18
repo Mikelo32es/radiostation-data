@@ -2,9 +2,9 @@
   "repoName": "radiostation-data",
   "community": "Cantabria",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 7,
-  "playableCount": 7,
-  "verifiedCount": 7,
+  "seedCount": 17,
+  "playableCount": 17,
+  "verifiedCount": 17,
   "candidateCount": 0,
   "pendingCount": 0,
   "notes": "Curado priorizando emisoras locales y comunitarias.",
@@ -29,18 +29,18 @@
       ]
     },
     {
-      "id": "onda-occidental",
-      "name": "Onda Occidental",
-      "category": "Local",
+      "id": "cope-santander",
+      "name": "COPE Santander",
+      "category": "Noticias",
       "community": "Cantabria",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.ondaoccidental.es",
-      "logoUrl": "https://graph.facebook.com/ondaoccidental/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.cope.es/directos/santander",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "mp3",
-          "url": "https://server9.emitironline.com:10944/;.mp3",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/santander.mp3",
           "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
@@ -48,18 +48,56 @@
       ]
     },
     {
-      "id": "arco-fm",
-      "name": "ARCO FM",
-      "category": "Comunidad",
+      "id": "onda-cero-castro-urdiales",
+      "name": "Onda Cero Castro Urdiales",
+      "category": "Noticias",
       "community": "Cantabria",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://arcofm.com/escuchar-arco/",
-      "logoUrl": "https://graph.facebook.com/arcofmcantabria/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://ondacerocastro.com",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://server8.emitironline.com:10854/;",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-cero-santander",
+      "name": "Onda Cero Santander",
+      "category": "Noticias",
+      "community": "Cantabria",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.ondacero.es/emisoras/cantabria/santander/directo/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/santander/master.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-ason",
+      "name": "SER Asón",
+      "category": "Noticias",
+      "community": "Cantabria",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/ser-ason/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "mp3",
-          "url": "https://hisparadio.duckdns.org/stream/1/stream.mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASON.mp3",
           "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
@@ -67,19 +105,95 @@
       ]
     },
     {
-      "id": "radio-santona",
-      "name": "Radio Santoña",
-      "category": "Local",
+      "id": "ser-castro-urdiales",
+      "name": "SER Castro Urdiales",
+      "category": "Noticias",
       "community": "Cantabria",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.santoña.es",
-      "logoUrl": "https://graph.facebook.com/radiosantona107.3/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/ser-castro-urdiales/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "mp3",
-          "url": "https://server10.emitironline.com:10212/radio.mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_CASTRO_URDIALES.mp3",
           "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-radio-santander",
+      "name": "SER Radio Santander",
+      "category": "Noticias",
+      "community": "Cantabria",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/radio-santander/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_SANTANDER.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-torrelavega",
+      "name": "SER Torrelavega",
+      "category": "Noticias",
+      "community": "Cantabria",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/ser-torrelavega/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_TORRELAVEGA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "cadena-mix",
+      "name": "Cadena Mix",
+      "category": "Música",
+      "community": "Cantabria",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "http://www.cadenamix.es",
+      "logoUrl": "https://graph.facebook.com/cadenamixfm/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://ns6.emisionlocal.com/proxy/radiomix?mp=%2Fstream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "cantabria-fm",
+      "name": "Cantabria FM",
+      "category": "Música",
+      "community": "Cantabria",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://cantabriafm.com",
+      "logoUrl": "https://pbs.twimg.com/profile_images/425231625132056576/Xr2_H3b8_200x200.jpeg",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://stream.zeno.fm/jndgdm0esn9vv",
+          "format": "stream",
           "priority": 1,
           "source": "TDTChannels"
         }
@@ -106,6 +220,44 @@
       "musicType": "Variedad"
     },
     {
+      "id": "arco-fm",
+      "name": "ARCO FM",
+      "category": "Comunidad",
+      "community": "Cantabria",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://arcofm.com/escuchar-arco/",
+      "logoUrl": "https://graph.facebook.com/arcofmcantabria/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://hisparadio.duckdns.org/stream/1/stream.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-merindad-de-campoo",
+      "name": "Radio Merindad de Campoo",
+      "category": "Comunidad",
+      "community": "Cantabria",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "http://www.radiomc.es",
+      "logoUrl": "https://graph.facebook.com/103380741524107/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://server8.emitironline.com:18774/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
       "id": "ason-fm",
       "name": "Ason FM",
       "category": "Local",
@@ -125,6 +277,25 @@
       ]
     },
     {
+      "id": "onda-occidental",
+      "name": "Onda Occidental",
+      "category": "Local",
+      "community": "Cantabria",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.ondaoccidental.es",
+      "logoUrl": "https://graph.facebook.com/ondaoccidental/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://server9.emitironline.com:10944/;.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
       "id": "radio-foramontanos",
       "name": "Radio Foramontanos",
       "category": "Local",
@@ -138,6 +309,25 @@
           "label": "stream",
           "url": "https://foramontanos.fm:8443/live",
           "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-santona",
+      "name": "Radio Santoña",
+      "category": "Local",
+      "community": "Cantabria",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.santoña.es",
+      "logoUrl": "https://graph.facebook.com/radiosantona107.3/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://server10.emitironline.com:10212/radio.mp3",
+          "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
         }

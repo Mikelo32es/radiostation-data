@@ -2,9 +2,9 @@
   "repoName": "radiostation-data",
   "community": "Illes Balears",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 8,
-  "playableCount": 8,
-  "verifiedCount": 8,
+  "seedCount": 18,
+  "playableCount": 18,
+  "verifiedCount": 18,
   "candidateCount": 0,
   "pendingCount": 0,
   "notes": "Selección balear con radios públicas, locales y musicales de isla.",
@@ -23,6 +23,25 @@
           "label": "mp3",
           "url": "https://icecast.ib3radio.com/ib3radio.mp3",
           "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "06am-ibiza-underground-radio",
+      "name": "06AM Ibiza Underground Radio",
+      "category": "Música",
+      "community": "Illes Balears",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.06amibiza.com",
+      "logoUrl": "https://graph.facebook.com/06AmIbizaUndergroundRadio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://streams.radio.co/sd1bcd1376/listen",
+          "format": "stream",
           "priority": 1,
           "source": "TDTChannels"
         }
@@ -69,19 +88,133 @@
       "musicType": "Electrónica"
     },
     {
-      "id": "radioilla-formentera",
-      "name": "Ràdioilla Formentera",
-      "category": "Local",
+      "id": "mallorca-sunshine-radio",
+      "name": "Mallorca Sunshine Radio",
+      "category": "Música",
       "community": "Illes Balears",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://player.lcinternet.es/v9/player/index.php#Radio%20Illa%20Formentera%20HQ",
-      "logoUrl": "https://graph.facebook.com/radioilla.formentera/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.mallorcasunshineradio.com/player/",
+      "logoUrl": "https://graph.facebook.com/MallorcaSunshineRadio/picture?width=200&height=200",
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "stream",
-          "url": "https://srv6021.dns-lcinternet.com:10220/stream",
-          "format": "auto",
+          "url": "https://mallorcasunshineradio.do-not-publish.com/mallorcasunshineradio-live/mp3-128",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "pure-ibiza-radio",
+      "name": "Pure Ibiza Radio",
+      "category": "Música",
+      "community": "Illes Balears",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.pureibizaradio.com",
+      "logoUrl": "https://graph.facebook.com/pureradio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://pureibizaradio.streaming-pro.com:8028/stream.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "sam-ibiza",
+      "name": "SAM Ibiza",
+      "category": "Música",
+      "community": "Illes Balears",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://samibiza.com",
+      "logoUrl": "https://graph.facebook.com/SAMibizaradio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://hls1.eu.peppermindmedia.com/samibiza/audio/playlist.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "canal-4-radio",
+      "name": "Canal 4 Ràdio",
+      "category": "Comunidad",
+      "community": "Illes Balears",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://grup4.com",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1171423029806551040/WudNlkcd_200x200.jpg",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://stream.recasound.es/proxy/canal4radio/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "das-inselradio",
+      "name": "Das Inselradio",
+      "category": "Comunidad",
+      "community": "Illes Balears",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.inselradio.com/player/",
+      "logoUrl": "https://graph.facebook.com/DasInselradio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://inselradiomallorca.do-not-publish.com/inselradiomallorca-live/mp3-128",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "fibwi-radio",
+      "name": "Fibwi Radio",
+      "category": "Comunidad",
+      "community": "Illes Balears",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://fibwiradio.com",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1937439184790151168/VFDUyxsc_200x200.jpg",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://sound.gigaradius.eu/proxy/fibwiradio/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "kick-fm",
+      "name": "Kick!FM",
+      "category": "Comunidad",
+      "community": "Illes Balears",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.kickfm.eu",
+      "logoUrl": "https://graph.facebook.com/kickfm/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://icecast.kickfm.eu/mp3-high",
+          "format": "stream",
           "priority": 1,
           "source": "TDTChannels"
         }
@@ -114,18 +247,56 @@
       ]
     },
     {
-      "id": "titoieta-radio",
-      "name": "Titoieta Ràdio",
-      "category": "Local",
+      "id": "radio-es-castell",
+      "name": "Radio Es Castell",
+      "category": "Comunidad",
       "community": "Illes Balears",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "http://www.titoieta.cat/sintonitzador.php",
-      "logoUrl": "https://graph.facebook.com/titoieta/picture?width=200&height=200",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.aj-escastell.org/Contingut.aspx?IDIOMA=2&IdPub=1614",
+      "logoUrl": "https://graph.facebook.com/ajescastell/picture?width=200&height=200",
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "stream",
-          "url": "https://topradio.uno:8087/stream",
+          "url": "https://stream.recasound.es/proxy/escastell/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-murta",
+      "name": "Radio Murta",
+      "category": "Comunidad",
+      "community": "Illes Balears",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://grup4.com",
+      "logoUrl": "https://static-media.streema.com/media/cache/c1/a3/c1a323d20e5cd83f4199fb3f23961f41.jpg",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://stream.recasound.es/proxy/radiomurta/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "formentera-radio",
+      "name": "Formentera Radio",
+      "category": "Local",
+      "community": "Illes Balears",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://players.lhdserver.es/social/formentera/playersocial/index.html",
+      "logoUrl": "https://graph.facebook.com/FormenteraRadio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://eu1.lhdserver.es:3153/stream",
           "format": "auto",
           "priority": 1,
           "source": "TDTChannels"
@@ -152,18 +323,37 @@
       ]
     },
     {
-      "id": "formentera-radio",
-      "name": "Formentera Radio",
+      "id": "radioilla-formentera",
+      "name": "Ràdioilla Formentera",
       "category": "Local",
       "community": "Illes Balears",
       "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://players.lhdserver.es/social/formentera/playersocial/index.html",
-      "logoUrl": "https://graph.facebook.com/FormenteraRadio/picture?width=200&height=200",
+      "websiteUrl": "https://player.lcinternet.es/v9/player/index.php#Radio%20Illa%20Formentera%20HQ",
+      "logoUrl": "https://graph.facebook.com/radioilla.formentera/picture?width=200&height=200",
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "stream",
-          "url": "https://eu1.lhdserver.es:3153/stream",
+          "url": "https://srv6021.dns-lcinternet.com:10220/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "titoieta-radio",
+      "name": "Titoieta Ràdio",
+      "category": "Local",
+      "community": "Illes Balears",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "http://www.titoieta.cat/sintonitzador.php",
+      "logoUrl": "https://graph.facebook.com/titoieta/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://topradio.uno:8087/stream",
           "format": "auto",
           "priority": 1,
           "source": "TDTChannels"

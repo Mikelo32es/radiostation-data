@@ -1,11 +1,11 @@
 {
   "repoName": "radiostation-data",
   "homePath": "catalog/home.json",
-  "syncMessage": "Refuerzo amplio sin tocar Local: suben comunidades y categorías no locales, manteniendo las nacionales fuera del catálogo autonómico.",
+  "syncMessage": "Lote de 200 emisoras verificadas desde TDTChannels, reforzando comunidades y categorías sin mezclar nacionales con las autonómicas.",
   "stats": {
-    "seedCount": 227,
-    "playableCount": 227,
-    "verifiedCount": 227,
+    "seedCount": 427,
+    "playableCount": 427,
+    "verifiedCount": 427,
     "candidateCount": 0,
     "pendingCount": 0
   },
@@ -42,138 +42,138 @@
     "vaughan-radio"
   ],
   "recentIds": [
-    "rac1",
-    "flaix-fm",
-    "flaixbac",
-    "radio-estel",
-    "97fm-irratia",
-    "eitb-euskadi-irratia",
-    "eitb-gaztea",
-    "naiz-irratia",
-    "radio-romanul",
-    "globo-fm",
-    "vaughan-radio",
-    "top-radio"
+    "cope-logrono",
+    "onda-cero-rioja-logrono",
+    "cope-estella",
+    "cope-pamplona",
+    "cadena-mix",
+    "cantabria-fm",
+    "cope-badajoz",
+    "cope-caceres",
+    "carrusel-fm",
+    "radio-marca-asturias",
+    "inter-radio",
+    "la-jungla-yecla"
   ],
   "communities": [
     {
       "id": "andalucia",
       "name": "Andalucía",
       "path": "communities/andalucia.json",
-      "seedCount": 9,
-      "playableCount": 9
+      "seedCount": 27,
+      "playableCount": 27
     },
     {
       "id": "aragon",
       "name": "Aragón",
       "path": "communities/aragon.json",
-      "seedCount": 7,
-      "playableCount": 7
+      "seedCount": 21,
+      "playableCount": 21
     },
     {
       "id": "asturias",
       "name": "Asturias",
       "path": "communities/asturias.json",
-      "seedCount": 6,
-      "playableCount": 6
+      "seedCount": 20,
+      "playableCount": 20
     },
     {
       "id": "canarias",
       "name": "Canarias",
       "path": "communities/canarias.json",
-      "seedCount": 7,
-      "playableCount": 7
+      "seedCount": 21,
+      "playableCount": 21
     },
     {
       "id": "cantabria",
       "name": "Cantabria",
       "path": "communities/cantabria.json",
-      "seedCount": 7,
-      "playableCount": 7
+      "seedCount": 17,
+      "playableCount": 17
     },
     {
       "id": "castilla-la-mancha",
       "name": "Castilla-La Mancha",
       "path": "communities/castilla-la-mancha.json",
-      "seedCount": 8,
-      "playableCount": 8
+      "seedCount": 24,
+      "playableCount": 24
     },
     {
       "id": "castilla-y-leon",
       "name": "Castilla y León",
       "path": "communities/castilla-y-leon.json",
-      "seedCount": 8,
-      "playableCount": 8
+      "seedCount": 25,
+      "playableCount": 25
     },
     {
       "id": "catalunya",
       "name": "Catalunya",
       "path": "communities/catalunya.json",
-      "seedCount": 29,
-      "playableCount": 29
+      "seedCount": 36,
+      "playableCount": 36
     },
     {
       "id": "comunitat-valenciana",
       "name": "Comunitat Valenciana",
       "path": "communities/comunitat-valenciana.json",
-      "seedCount": 9,
-      "playableCount": 9
+      "seedCount": 30,
+      "playableCount": 30
     },
     {
       "id": "euskadi",
       "name": "Euskadi",
       "path": "communities/euskadi.json",
-      "seedCount": 38,
-      "playableCount": 38
+      "seedCount": 44,
+      "playableCount": 44
     },
     {
       "id": "extremadura",
       "name": "Extremadura",
       "path": "communities/extremadura.json",
-      "seedCount": 5,
-      "playableCount": 5
+      "seedCount": 15,
+      "playableCount": 15
     },
     {
       "id": "galicia",
       "name": "Galicia",
       "path": "communities/galicia.json",
-      "seedCount": 8,
-      "playableCount": 8
+      "seedCount": 22,
+      "playableCount": 22
     },
     {
       "id": "illes-balears",
       "name": "Illes Balears",
       "path": "communities/illes-balears.json",
-      "seedCount": 8,
-      "playableCount": 8
+      "seedCount": 18,
+      "playableCount": 18
     },
     {
       "id": "la-rioja",
       "name": "La Rioja",
       "path": "communities/la-rioja.json",
-      "seedCount": 2,
-      "playableCount": 2
+      "seedCount": 7,
+      "playableCount": 7
     },
     {
       "id": "madrid",
       "name": "Madrid",
       "path": "communities/madrid.json",
-      "seedCount": 37,
-      "playableCount": 37
+      "seedCount": 43,
+      "playableCount": 43
     },
     {
       "id": "murcia",
       "name": "Murcia",
       "path": "communities/murcia.json",
-      "seedCount": 8,
-      "playableCount": 8
+      "seedCount": 18,
+      "playableCount": 18
     },
     {
       "id": "navarra",
       "name": "Navarra",
       "path": "communities/navarra.json",
-      "seedCount": 5,
-      "playableCount": 5
+      "seedCount": 13,
+      "playableCount": 13
     },
     {
       "id": "national",

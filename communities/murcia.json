@@ -2,13 +2,127 @@
   "repoName": "radiostation-data",
   "community": "Murcia",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 8,
-  "playableCount": 8,
-  "verifiedCount": 8,
+  "seedCount": 18,
+  "playableCount": 18,
+  "verifiedCount": 18,
   "candidateCount": 0,
   "pendingCount": 0,
   "notes": "Selección regional y local murciana, con una emisora temática económica de ámbito regional.",
   "stations": [
+    {
+      "id": "cope-cartagena",
+      "name": "COPE Cartagena",
+      "category": "Noticias",
+      "community": "Murcia",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.cope.es/directos/cartagena",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://wecast09-h-cloud.flumotion.com/copesedes/cartagena.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "cope-espuna",
+      "name": "COPE Espuña",
+      "category": "Noticias",
+      "community": "Murcia",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://copealhama.es.tl",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://eu1.lhdserver.es:3197/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "cope-jumilla",
+      "name": "COPE Jumilla",
+      "category": "Noticias",
+      "community": "Murcia",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.copejumilla.com",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://eu1.lhdserver.es:9055/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "cope-lorca",
+      "name": "COPE Lorca",
+      "category": "Noticias",
+      "community": "Murcia",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.cope.es/directos/lorca",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/lorca.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "cope-murcia",
+      "name": "COPE Murcia",
+      "category": "Noticias",
+      "community": "Murcia",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.cope.es/directos/murcia---san-javier",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/murcia.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "cope-radio-sureste",
+      "name": "COPE Radio Sureste",
+      "category": "Noticias",
+      "community": "Murcia",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.rsureste.com",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://sonic.mediatelekom.net/8538/live",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
     {
       "id": "onda-regional-de-murcia",
       "name": "Onda Regional de Murcia",
@@ -49,6 +163,82 @@
       "musicType": "Variedad"
     },
     {
+      "id": "inter-radio",
+      "name": "Inter Radio",
+      "category": "Comunidad",
+      "community": "Murcia",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://lainter.es",
+      "logoUrl": "https://graph.facebook.com/LaInter.es/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://sonic.mediatelekom.net/8460/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "la-jungla-yecla",
+      "name": "La Jungla Yecla",
+      "category": "Comunidad",
+      "community": "Murcia",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.lajunglayecla.com/en-directo/",
+      "logoUrl": "https://graph.facebook.com/lajunglaradioyecla/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://streaming12.elitecomunicacion.es:8204/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "metropolitan-radio",
+      "name": "Metropólitan Radio",
+      "category": "Comunidad",
+      "community": "Murcia",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://metropolitan.radio",
+      "logoUrl": "https://pbs.twimg.com/profile_images/1435351436523626507/lBjfSU1K_200x200.jpg",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://sonic.mediatelekom.net/8012/stream",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "wifon-fm",
+      "name": "Wifon FM",
+      "category": "Comunidad",
+      "community": "Murcia",
+      "sourceSeed": "TDTChannels + webs oficiales",
+      "websiteUrl": "https://wifonfm.es/streaming",
+      "logoUrl": "https://graph.facebook.com/wifonfm/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://betelgeuse.nucast.co.uk:8044/wifonfm",
+          "format": "stream",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
       "id": "frecuencia-murcia-intereconomia",
       "name": "Frecuencia Murcia Intereconomía",
       "category": "Economía",
@@ -68,6 +258,25 @@
       ]
     },
     {
+      "id": "caravaca-radio",
+      "name": "Caravaca Radio",
+      "category": "Local",
+      "community": "Murcia",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.caravacaradio.com",
+      "logoUrl": "https://graph.facebook.com/CARAVACARADIO/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "http://84.232.12.14:8000/caravacaradio",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
       "id": "onda-cieza",
       "name": "Onda Cieza",
       "category": "Local",
@@ -80,6 +289,25 @@
         {
           "label": "stream",
           "url": "https://sonic.mediatelekom.net/8436/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-calasparra",
+      "name": "Radio Calasparra",
+      "category": "Local",
+      "community": "Murcia",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.radiocalasparra.es",
+      "logoUrl": "https://www.radiocalasparra.es/wp-content/uploads/2024/06/logo-radio-calasparra-e1718630159516.png",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "http://84.232.12.14:8000/RadioCalasparra",
           "format": "auto",
           "priority": 1,
           "source": "TDTChannels"
@@ -118,44 +346,6 @@
         {
           "label": "stream",
           "url": "https://emision.yeclamedia.com:8080/emision",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "caravaca-radio",
-      "name": "Caravaca Radio",
-      "category": "Local",
-      "community": "Murcia",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.caravacaradio.com",
-      "logoUrl": "https://graph.facebook.com/CARAVACARADIO/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "http://84.232.12.14:8000/caravacaradio",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-calasparra",
-      "name": "Radio Calasparra",
-      "category": "Local",
-      "community": "Murcia",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.radiocalasparra.es",
-      "logoUrl": "https://www.radiocalasparra.es/wp-content/uploads/2024/06/logo-radio-calasparra-e1718630159516.png",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "http://84.232.12.14:8000/RadioCalasparra",
           "format": "auto",
           "priority": 1,
           "source": "TDTChannels"
