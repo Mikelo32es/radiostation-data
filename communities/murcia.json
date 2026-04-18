@@ -2,486 +2,29 @@
   "repoName": "radiostation-data",
   "community": "Murcia",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 31,
-  "playableCount": 31,
-  "verifiedCount": 31,
+  "seedCount": 17,
+  "playableCount": 17,
+  "verifiedCount": 17,
   "candidateCount": 0,
   "pendingCount": 0,
   "notes": "Selección regional y local murciana, con una emisora temática económica de ámbito regional.",
   "stations": [
     {
-      "id": "cope-cartagena",
-      "name": "COPE Cartagena",
-      "category": "Noticias",
+      "id": "real-murcia-radio",
+      "name": "Real Murcia Radio",
+      "category": "Deporte",
       "community": "Murcia",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.cope.es/",
-      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://wecast09-h-cloud.flumotion.com/copesedes/cartagena.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cope-espuna",
-      "name": "COPE Espuña",
-      "category": "Noticias",
-      "community": "Murcia",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://copealhama.es.tl",
-      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
+      "sourceSeed": "myTuner (solo semilla) + fuentes públicas + webs oficiales",
+      "websiteUrl": "https://www.realmurcia.es",
+      "logoUrl": "https://graph.facebook.com/realmurciacfsad/picture?width=200&height=200",
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "stream",
-          "url": "https://eu1.lhdserver.es:3197/stream",
-          "format": "stream",
+          "url": "http://www.realmurcia.info:8000/live",
+          "format": "auto",
           "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cope-jumilla",
-      "name": "COPE Jumilla",
-      "category": "Noticias",
-      "community": "Murcia",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.copejumilla.com",
-      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://eu1.lhdserver.es:9055/stream",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cope-lorca",
-      "name": "COPE Lorca",
-      "category": "Noticias",
-      "community": "Murcia",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.cope.es/",
-      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://wecast-bl02.flumotion.com/copesedes/lorca.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cope-murcia",
-      "name": "COPE Murcia",
-      "category": "Noticias",
-      "community": "Murcia",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.cope.es/",
-      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://wecast-bl02.flumotion.com/copesedes/murcia.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cope-radio-sureste",
-      "name": "COPE Radio Sureste",
-      "category": "Noticias",
-      "community": "Murcia",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.rsureste.com",
-      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://sonic.mediatelekom.net/8538/live",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cope-yecla",
-      "name": "COPE Yecla",
-      "category": "Noticias",
-      "community": "Murcia",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://copeyecla.com",
-      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://eu1.lhdserver.es:9169/stream",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "esradio-murcia",
-      "name": "esRadio Murcia",
-      "category": "Noticias",
-      "community": "Murcia",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.esradiomurcia.es",
-      "logoUrl": "https://graph.facebook.com/esradio/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://sonic.mediatelekom.net/8274/stream",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "inter-radio",
-      "name": "Inter Radio",
-      "category": "Noticias",
-      "community": "Murcia",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://lainter.es",
-      "logoUrl": "https://graph.facebook.com/LaInter.es/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://sonic.mediatelekom.net/8460/stream",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "onda-cero-cartagena",
-      "name": "Onda Cero Cartagena",
-      "category": "Noticias",
-      "community": "Murcia",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.ondacero.es/",
-      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/cartagena/master.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "onda-cero-murcia",
-      "name": "Onda Cero Murcia",
-      "category": "Noticias",
-      "community": "Murcia",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.ondacero.es/",
-      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/murcia/master.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "onda-cero-noroeste",
-      "name": "Onda Cero Noroeste",
-      "category": "Noticias",
-      "community": "Murcia",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.ondaceronoroeste.es/directo.html",
-      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://sonic.mediatelekom.net/8572/stream",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "onda-cero-yecla",
-      "name": "Onda Cero Yecla",
-      "category": "Noticias",
-      "community": "Murcia",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.ondacero.es/emisoras/murcia/yecla/directo/",
-      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/yecla/master.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "onda-regional-de-murcia",
-      "name": "Onda Regional de Murcia",
-      "category": "Noticias",
-      "community": "Murcia",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.orm.es/directo/orm/",
-      "logoUrl": "https://graph.facebook.com/OndaRegional/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://crmlive.redctnet.es/liveedge/orm/orm/playlist.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-5-murcia",
-      "name": "Radio 5 Murcia",
-      "category": "Noticias",
-      "community": "Murcia",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_mur-live/3894785/",
-      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://dispatcher.rndfnk.com/crtve/rne5/mur/mp3/high",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-nacional-murcia",
-      "name": "Radio Nacional Murcia",
-      "category": "Noticias",
-      "community": "Murcia",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_mur-live/3893550/",
-      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://dispatcher.rndfnk.com/crtve/rne1/mur/mp3/high",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ser-arco-norte",
-      "name": "SER Arco Norte",
-      "category": "Noticias",
-      "community": "Murcia",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://cadenaser.com/ser-arco-norte/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ARCO_NORTE.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ser-cartagena",
-      "name": "SER Cartagena",
-      "category": "Noticias",
-      "community": "Murcia",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://cadenaser.com/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_CARTAGENA.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ser-lorca",
-      "name": "SER Lorca",
-      "category": "Noticias",
-      "community": "Murcia",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://cadenaser.com/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_LORCA.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ser-murcia",
-      "name": "SER Murcia",
-      "category": "Noticias",
-      "community": "Murcia",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://cadenaser.com/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_MURCIA.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "europa-fm-murcia",
-      "name": "Europa FM Murcia",
-      "category": "Música",
-      "community": "Murcia",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.europafm.com/frecuencias/murcia/",
-      "logoUrl": "https://graph.facebook.com/tueuropafm/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://atres-live.europafm.com/live/delegaciones/efm/murcia/master.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "la-jungla-yecla",
-      "name": "La Jungla Yecla",
-      "category": "Música",
-      "community": "Murcia",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.lajunglayecla.com/en-directo/",
-      "logoUrl": "https://graph.facebook.com/lajunglaradioyecla/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://streaming12.elitecomunicacion.es:8204/stream",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "metropolitan-radio",
-      "name": "Metropólitan Radio",
-      "category": "Música",
-      "community": "Murcia",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://metropolitan.radio",
-      "logoUrl": "https://pbs.twimg.com/profile_images/1435351436523626507/lBjfSU1K_200x200.jpg",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://sonic.mediatelekom.net/8012/stream",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "onda-regional-musica",
-      "name": "Onda Regional Música",
-      "category": "Música",
-      "community": "Murcia",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.orm.es/directo/or-musica/",
-      "logoUrl": "https://graph.facebook.com/OndaRegional/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://crmlive.redctnet.es/liveedge/orm/ormmusical/playlist.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "wifon-fm",
-      "name": "Wifon FM",
-      "category": "Música",
-      "community": "Murcia",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://wifonfm.es/streaming",
-      "logoUrl": "https://graph.facebook.com/wifonfm/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://betelgeuse.nucast.co.uk:8044/wifonfm",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
+          "source": "Fuentes públicas"
         }
       ]
     },
@@ -594,6 +137,197 @@
           "label": "stream",
           "url": "https://emision.yeclamedia.com:8080/emision",
           "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-regional-musica",
+      "name": "Onda Regional Música",
+      "category": "Música",
+      "community": "Murcia",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.orm.es/directo/or-musica/",
+      "logoUrl": "https://graph.facebook.com/OndaRegional/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://crmlive.redctnet.es/liveedge/orm/ormmusical/playlist.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "cope-cartagena",
+      "name": "COPE Cartagena",
+      "category": "Noticias",
+      "community": "Murcia",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.cope.es/",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://wecast09-h-cloud.flumotion.com/copesedes/cartagena.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "cope-lorca",
+      "name": "COPE Lorca",
+      "category": "Noticias",
+      "community": "Murcia",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.cope.es/",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/lorca.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "cope-murcia",
+      "name": "COPE Murcia",
+      "category": "Noticias",
+      "community": "Murcia",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.cope.es/",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/murcia.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-cero-cartagena",
+      "name": "Onda Cero Cartagena",
+      "category": "Noticias",
+      "community": "Murcia",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.ondacero.es/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/cartagena/master.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-cero-murcia",
+      "name": "Onda Cero Murcia",
+      "category": "Noticias",
+      "community": "Murcia",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.ondacero.es/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/murcia/master.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-regional-de-murcia",
+      "name": "Onda Regional de Murcia",
+      "category": "Noticias",
+      "community": "Murcia",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.orm.es/directo/orm/",
+      "logoUrl": "https://graph.facebook.com/OndaRegional/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://crmlive.redctnet.es/liveedge/orm/orm/playlist.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-cartagena",
+      "name": "SER Cartagena",
+      "category": "Noticias",
+      "community": "Murcia",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_CARTAGENA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-lorca",
+      "name": "SER Lorca",
+      "category": "Noticias",
+      "community": "Murcia",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_LORCA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-murcia",
+      "name": "SER Murcia",
+      "category": "Noticias",
+      "community": "Murcia",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_MURCIA.mp3",
+          "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
         }

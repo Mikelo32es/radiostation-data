@@ -2,46 +2,27 @@
   "repoName": "radiostation-data",
   "community": "Andalucía",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 58,
-  "playableCount": 58,
-  "verifiedCount": 58,
+  "seedCount": 14,
+  "playableCount": 14,
+  "verifiedCount": 14,
   "candidateCount": 0,
   "pendingCount": 0,
   "notes": "myTuner solo como semilla de descubrimiento; streams y logos curados desde TDTChannels y webs oficiales cuando aplica.",
   "stations": [
     {
-      "id": "radio-almaina",
-      "name": "Radio Almaina",
-      "category": "Comunidad",
+      "id": "radio-poniente",
+      "name": "Radio Poniente",
+      "category": "Deporte",
       "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://radiobot.radioslibres.info/public/radio_almaina",
-      "logoUrl": "https://pbs.twimg.com/profile_images/2117013357/perfil-facebook_200x200.jpg",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://radiobot.radioslibres.info/listen/radio_almaina/radio.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "integracion-radio",
-      "name": "Integración Radio",
-      "category": "Cultura",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.integracionradio.com",
-      "logoUrl": "https://pbs.twimg.com/profile_images/603682455984414720/aXSEPW0z_200x200.jpg",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.radioponiente.com",
+      "logoUrl": "https://graph.facebook.com/radioponientedeportes/picture?width=200&height=200",
       "verificationStatus": "verified",
       "streams": [
         {
           "label": "stream",
-          "url": "https://eu1.lhdserver.es:9061/stream",
-          "format": "stream",
+          "url": "https://broadcast.radioponiente.org:8036/;",
+          "format": "auto",
           "priority": 1,
           "source": "TDTChannels"
         }
@@ -52,7 +33,7 @@
       "name": "Real Betis Radio",
       "category": "Deporte",
       "community": "Andalucía",
-      "sourceSeed": "TDTChannels + web oficial del club",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + webs oficiales",
       "websiteUrl": "https://www.realbetisbalompie.es/rtvbetis/directo-radio",
       "logoUrl": "https://graph.facebook.com/realbetisbalompie/picture?width=200&height=200",
       "verificationStatus": "verified",
@@ -90,7 +71,7 @@
       "name": "SportDirect Radio",
       "category": "Deporte",
       "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + webs oficiales",
       "websiteUrl": "https://sportdirectradio.es",
       "logoUrl": "https://graph.facebook.com/SportDirectRadio/picture?width=200&height=200",
       "verificationStatus": "verified",
@@ -98,7 +79,7 @@
         {
           "label": "stream",
           "url": "https://streaming12.elitecomunicacion.es:8036/stream",
-          "format": "stream",
+          "format": "auto",
           "priority": 1,
           "source": "TDTChannels"
         }
@@ -109,7 +90,7 @@
       "name": "UD Almeria Radio",
       "category": "Deporte",
       "community": "Andalucía",
-      "sourceSeed": "TDTChannels + web oficial del club",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + webs oficiales",
       "websiteUrl": "https://www.udalmeriasad.com/radio",
       "logoUrl": "https://graph.facebook.com/udalmeriasad/picture?width=200&height=200",
       "verificationStatus": "verified",
@@ -117,7 +98,7 @@
         {
           "label": "stream",
           "url": "https://srv6022.dns-lcinternet.com:8002/livelq",
-          "format": "stream",
+          "format": "auto",
           "priority": 1,
           "source": "TDTChannels"
         }
@@ -219,25 +200,6 @@
       ]
     },
     {
-      "id": "cadena-dial-almeria",
-      "name": "Cadena Dial Almería",
-      "category": "Música",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.lavozdealmeria.com/radios/dialalmeria",
-      "logoUrl": "https://graph.facebook.com/cadenadial/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://streaming.indalteco.net/proxy/dial?mp=/dial.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
       "id": "canal-sur-radio-musica",
       "name": "Canal Sur Radio Musica",
       "category": "Música",
@@ -256,65 +218,6 @@
         }
       ],
       "musicType": "Variedad"
-    },
-    {
-      "id": "elixir-fm",
-      "name": "Elixir FM",
-      "category": "Música",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://grupoelixir.es",
-      "logoUrl": "https://graph.facebook.com/elixirfiestas/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream # 1",
-          "url": "https://radio.grupoelixir.es:9009/stream",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "stream # 2",
-          "url": "https://radio.grupoelixir.es:9012/stream",
-          "format": "stream",
-          "priority": 2,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "stream # 3",
-          "url": "https://radio.grupoelixir.es:9015/stream",
-          "format": "stream",
-          "priority": 3,
-          "source": "TDTChannels"
-        },
-        {
-          "label": "stream # 4",
-          "url": "https://radio.grupoelixir.es:9006/stream",
-          "format": "stream",
-          "priority": 4,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "europa-fm-huelva",
-      "name": "Europa FM Huelva",
-      "category": "Música",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.europafm.com/frecuencias/huelva/",
-      "logoUrl": "https://graph.facebook.com/tueuropafm/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://atres-live.europafm.com/live/delegaciones/efm/huelva/master.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
     },
     {
       "id": "flamenco-radio",
@@ -337,139 +240,6 @@
       "musicType": "Flamenco y Popular"
     },
     {
-      "id": "gozadera-fm",
-      "name": "Gozadera FM",
-      "category": "Música",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://gozadera.es",
-      "logoUrl": "https://graph.facebook.com/GozaderaSpain/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://azura.abcorp.es/radio/8030/live",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "la-fresca-fm",
-      "name": "La Fresca FM",
-      "category": "Música",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.lafresca.fm",
-      "logoUrl": "https://graph.facebook.com/lafresca.es/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://stream.produccionesdale.com/listen/lafresca/altacalidad",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "los40-almeria",
-      "name": "LOS40 Almería",
-      "category": "Música",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "http://www.seralmeria.com/onlineradio/40almeria.html",
-      "logoUrl": "https://graph.facebook.com/los40/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_ASO_ALMERIA.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "nostalgia-fm",
-      "name": "Nostalgia FM",
-      "category": "Música",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://nostalgiafm.es/web/",
-      "logoUrl": "https://graph.facebook.com/nostalgiaspain/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://azura.abcorp.es/radio/8040/live",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radiole-almeria",
-      "name": "Radiolé Almeria",
-      "category": "Música",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.lavozdealmeria.com/radios/radiolealmeria",
-      "logoUrl": "https://graph.facebook.com/radiole/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://streaming.indalteco.net/proxy/radiole?mp=/radiole.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "spectrum-fm",
-      "name": "Spectrum FM",
-      "category": "Música",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://spectrumfm.net",
-      "logoUrl": "https://graph.facebook.com/SpectrumFMSpain/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://eu8.fastcast4u.com/proxy/spectrumcds2?mp=/1",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cadena-luna",
-      "name": "Cadena Luna",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.cadenaluna.es",
-      "logoUrl": "https://graph.facebook.com/CadenaLunaRadio/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://radio.almunecar360.com:8100/radio",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
       "id": "canal-sur-radio",
       "name": "Canal Sur Radio",
       "category": "Noticias",
@@ -489,386 +259,6 @@
       ]
     },
     {
-      "id": "canal-sur-radio-almeria",
-      "name": "Canal Sur Radio Almería",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.canalsurmas.es/videos/21003-canal-sur-radio-almeria",
-      "logoUrl": "https://graph.facebook.com/canalsuralmeria/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://rtva-live-radio.flumotion.com/rtva/csralm.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "canal-sur-radio-cadiz",
-      "name": "Canal Sur Radio Cadiz",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.canalsurmas.es/videos/20766-canal-sur-radio-cadiz",
-      "logoUrl": "https://graph.facebook.com/canalsurcadiz/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://rtva-live-radio.flumotion.com/rtva/csrcad.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "canal-sur-radio-campo-de-gibraltar",
-      "name": "Canal Sur Radio Campo de Gibraltar",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.canalsurmas.es/videos/20768-canal-sur-radio-campo-de-gibraltar",
-      "logoUrl": "https://graph.facebook.com/canalsurcadiz/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://rtva-live-radio.flumotion.com/rtva/csralg.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "canal-sur-radio-cordoba",
-      "name": "Canal Sur Radio Córdoba",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.canalsurmas.es/videos/20769-canal-sur-radio-cordoba",
-      "logoUrl": "https://graph.facebook.com/canalsurcordoba/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://rtva-live-radio.flumotion.com/rtva/csrcor.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "canal-sur-radio-granada",
-      "name": "Canal Sur Radio Granada",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.canalsurmas.es/videos/20770-canal-sur-radio-granada",
-      "logoUrl": "https://graph.facebook.com/canalsurgranada/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://rtva-live-radio.flumotion.com/rtva/csrgra.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "canal-sur-radio-huelva",
-      "name": "Canal Sur Radio Huelva",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.canalsurmas.es/videos/20771-canal-sur-radio-huelva",
-      "logoUrl": "https://graph.facebook.com/canalsurhuelva/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://rtva-live-radio.flumotion.com/rtva/csrhue.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "canal-sur-radio-jaen",
-      "name": "Canal Sur Radio Jaén",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.canalsurmas.es/videos/20772-canal-sur-radio-jaen",
-      "logoUrl": "https://graph.facebook.com/canalsurjaen/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://rtva-live-radio.flumotion.com/rtva/csrjae.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "canal-sur-radio-jerez",
-      "name": "Canal Sur Radio Jerez",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.canalsurmas.es/videos/20767-canal-sur-radio-jerez",
-      "logoUrl": "https://graph.facebook.com/canalsurradioytv/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://rtva-live-radio.flumotion.com/rtva/csrjer.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "canal-sur-radio-malaga",
-      "name": "Canal Sur Radio Málaga",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.canalsurmas.es/videos/20773-canal-sur-radio-malaga",
-      "logoUrl": "https://graph.facebook.com/canalsurmalaga/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://rtva-live-radio.flumotion.com/rtva/csrmal.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "canal-sur-radio-sevilla",
-      "name": "Canal Sur Radio Sevilla",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.canalsurmas.es/videos/20774-canal-sur-radio-sevilla",
-      "logoUrl": "https://graph.facebook.com/canalsursevilla/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://rtva-live-radio.flumotion.com/rtva/csrsev.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cope-almeria",
-      "name": "COPE Almería",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.cope.es/directos/almeria",
-      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://wecast-bl02.flumotion.com/copesedes/almeria.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cope-cadiz",
-      "name": "COPE Cádiz",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.cope.es/directos/cadiz",
-      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://wecast-bl02.flumotion.com/copesedes/cadiz.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cope-cordoba",
-      "name": "COPE Córdoba",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.cope.es/directos/cordoba",
-      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://wecast-bl02.flumotion.com/copesedes/cordoba.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cope-granada",
-      "name": "COPE Granada",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.cope.es/directos/granada",
-      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://wecast-bl02.flumotion.com/copesedes/granada.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "esradio-almeria",
-      "name": "esRadio Almería",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.esradioalmeria.com/radio-en-directo/",
-      "logoUrl": "https://pbs.twimg.com/profile_images/643394226580029440/rQU2yyFO_200x200.jpg",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://streaming.indalteco.net/proxy/esradioalmeria?mp=/stream",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "onda-cero-almeria",
-      "name": "Onda Cero Almería",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.ondacero.es/emisoras/andalucia/almeria/directo/",
-      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/almeria/master.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "onda-cero-cadiz",
-      "name": "Onda Cero Cádiz",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.ondacero.es/emisoras/andalucia/cadiz/directo/",
-      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/cadiz/master.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "onda-cero-cordoba",
-      "name": "Onda Cero Córdoba",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.ondacero.es/emisoras/andalucia/cordoba/directo/",
-      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/cordoba/master.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "onda-cero-granada",
-      "name": "Onda Cero Granada",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.ondacero.es/emisoras/andalucia/granada/directo/",
-      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/granada/master.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-5-andalucia",
-      "name": "Radio 5 Andalucía",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_and/3894738/",
-      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://dispatcher.rndfnk.com/crtve/rne5/sev/mp3/high",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
       "id": "radio-andalucia-informacion",
       "name": "Radio Andalucía Información",
       "category": "Noticias",
@@ -881,253 +271,6 @@
         {
           "label": "mp3",
           "url": "https://rtva-live-radio.flumotion.com/rtva/rai.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-nacional-andalucia",
-      "name": "Radio Nacional Andalucía",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_and-live/3893442/",
-      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://dispatcher.rndfnk.com/crtve/rne1/and/mp3/high",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ser-algeciras",
-      "name": "SER Algeciras",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://cadenaser.com/radio-algeciras/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ALGECIRAS.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ser-almeria",
-      "name": "SER Almería",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://cadenaser.com/ser-almeria/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_ALMERIA.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ser-andalucia-centro",
-      "name": "SER Andalucía Centro",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://cadenaser.com/ser-andalucia-centro/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_ESTEPA.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ser-andujar",
-      "name": "SER Andújar",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://cadenaser.com/ser-andujar/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_ANDUJAR.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ser-antequera",
-      "name": "SER Antequera",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://cadenaser.com/ser-antequera/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_ANTEQUERA.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ser-axarquia",
-      "name": "SER Axarquía",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://cadenaser.com/radio-axarquia/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_AXARQUIA.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ser-cadiz",
-      "name": "SER Cádiz",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://cadenaser.com/radio-cadiz/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_CADIZ.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ser-cordoba",
-      "name": "SER Córdoba",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://cadenaser.com/radio-cordoba/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_CORDOBA.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ser-granada",
-      "name": "SER Granada",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://cadenaser.com/radio-granada/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_GRANADA.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ser-huelva",
-      "name": "SER Huelva",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://cadenaser.com/radio-huelva/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_HUELVA.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ser-jaen",
-      "name": "SER Jaén",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://cadenaser.com/radio-jaen/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_JAEN.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ser-jerez",
-      "name": "SER Jerez",
-      "category": "Noticias",
-      "community": "Andalucía",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://cadenaser.com/radio-jerez/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_JEREZ.mp3",
           "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"

@@ -2,9 +2,9 @@
   "repoName": "radiostation-data",
   "community": "Comunitat Valenciana",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 29,
-  "playableCount": 29,
-  "verifiedCount": 29,
+  "seedCount": 32,
+  "playableCount": 32,
+  "verifiedCount": 32,
   "candidateCount": 0,
   "pendingCount": 0,
   "notes": "Selección autonómica, local y temática; se evita mezclar cadenas nacionales generalistas en comunidad.",
@@ -48,6 +48,44 @@
       ]
     },
     {
+      "id": "la-voz-albinegra",
+      "name": "La Voz Albinegra",
+      "category": "Deporte",
+      "community": "Comunitat Valenciana",
+      "sourceSeed": "myTuner (solo semilla) + fuentes públicas + webs oficiales",
+      "websiteUrl": "https://pampamorellut.com",
+      "logoUrl": "https://graph.facebook.com/pampamorellut/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "http://pampamorellut.com/loudblog/get.php?web=http://blip.tv/file/get/Pampamorellut-LaVozAlbinegra17AntonioBlasco544.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "Fuentes públicas"
+        }
+      ]
+    },
+    {
+      "id": "levante-ud-radio",
+      "name": "Levante UD Radio",
+      "category": "Deporte",
+      "community": "Comunitat Valenciana",
+      "sourceSeed": "myTuner (solo semilla) + fuentes públicas + webs oficiales",
+      "websiteUrl": "https://www.levanteud.com",
+      "logoUrl": "https://graph.facebook.com/LevanteUD/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "http://www.levanteudradio.es:8000/estudio",
+          "format": "auto",
+          "priority": 1,
+          "source": "Fuentes públicas"
+        }
+      ]
+    },
+    {
       "id": "radio-esport-valencia",
       "name": "Radio Esport Valencia",
       "category": "Deporte",
@@ -67,11 +105,30 @@
       ]
     },
     {
+      "id": "radio-hercules-alicante-cf",
+      "name": "Radio Hércules Alicante CF",
+      "category": "Deporte",
+      "community": "Comunitat Valenciana",
+      "sourceSeed": "myTuner (solo semilla) + fuentes públicas + webs oficiales",
+      "websiteUrl": "https://www.herculesdealicantecf.net",
+      "logoUrl": "https://graph.facebook.com/Herculesoficial/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "http://178.33.163.81:8002",
+          "format": "auto",
+          "priority": 1,
+          "source": "Fuentes públicas"
+        }
+      ]
+    },
+    {
       "id": "valencia-cf-radio",
       "name": "Valencia CF Radio",
       "category": "Deporte",
       "community": "Comunitat Valenciana",
-      "sourceSeed": "TDTChannels + web oficial del club",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + webs oficiales",
       "websiteUrl": "https://www.valenciacf.com/es/vcf-media/radio",
       "logoUrl": "https://graph.facebook.com/ValenciaCF/picture?width=200&height=200",
       "verificationStatus": "verified",

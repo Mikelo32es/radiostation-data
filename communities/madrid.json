@@ -7,7 +7,7 @@
   "verifiedCount": 44,
   "candidateCount": 0,
   "pendingCount": 0,
-  "notes": "myTuner solo como semilla de descubrimiento; streams y logos curados desde TDTChannels y webs oficiales cuando aplica.",
+  "notes": "Refuerzo amplio sin tocar la categoría Local: se añaden emisoras no locales reaprovechadas de catálogos verificados previos y se mantienen las nacionales fuera de las comunidades.",
   "stations": [
     {
       "id": "eco-leganes",
@@ -288,6 +288,25 @@
       ]
     },
     {
+      "id": "radio-atleti",
+      "name": "Radio Atleti",
+      "category": "Deporte",
+      "community": "Madrid",
+      "sourceSeed": "myTuner (solo semilla) + fuentes públicas + webs oficiales",
+      "websiteUrl": "https://www.atleticodemadrid.com",
+      "logoUrl": "https://graph.facebook.com/atleticodemadrid/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "http://212.83.151.18:8124/",
+          "format": "auto",
+          "priority": 1,
+          "source": "Fuentes públicas"
+        }
+      ]
+    },
+    {
       "id": "radio-madrid-sierra",
       "name": "Radio Madrid Sierra",
       "category": "Deporte",
@@ -337,25 +356,6 @@
           "label": "m3u8",
           "url": "https://mdstrm.com/audio/67d2a8685ae4234de49e40f6/live.m3u8",
           "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-intereconomia",
-      "name": "Radio Intereconomía",
-      "category": "Economía",
-      "community": "Madrid",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://intereconomia.com/directo/",
-      "logoUrl": "https://graph.facebook.com/RadioIntereconomia/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://streaming.intereconomia.com/siliconorg",
-          "format": "auto",
           "priority": 1,
           "source": "TDTChannels"
         }

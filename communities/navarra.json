@@ -2,9 +2,9 @@
   "repoName": "radiostation-data",
   "community": "Navarra",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 17,
-  "playableCount": 17,
-  "verifiedCount": 17,
+  "seedCount": 14,
+  "playableCount": 14,
+  "verifiedCount": 14,
   "candidateCount": 0,
   "pendingCount": 0,
   "notes": "Selección navarra con emisoras propias, universitarias y comunitarias.",
@@ -33,7 +33,7 @@
       "name": "Radio Osasuna",
       "category": "Deporte",
       "community": "Navarra",
-      "sourceSeed": "TDTChannels + web oficial del club",
+      "sourceSeed": "myTuner (solo semilla) + TDTChannels + webs oficiales",
       "websiteUrl": "https://www.osasuna.es/radio-osasuna",
       "logoUrl": "https://graph.facebook.com/Osasuna/picture?width=200&height=200",
       "verificationStatus": "verified",
@@ -41,7 +41,7 @@
         {
           "label": "stream",
           "url": "https://stream.radio.co/s2d5fcbba2/listen",
-          "format": "mp3",
+          "format": "auto",
           "priority": 1,
           "source": "TDTChannels"
         }
@@ -145,25 +145,6 @@
       "musicType": "Dance"
     },
     {
-      "id": "cope-estella",
-      "name": "COPE Estella",
-      "category": "Noticias",
-      "community": "Navarra",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://radioestella.com/inicio/",
-      "logoUrl": "https://pbs.twimg.com/profile_images/3722393260/a28c650e8db40bef24f20a2a184d2b8e_200x200.png",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://server8.emitironline.com:9866/radio",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
       "id": "cope-pamplona",
       "name": "COPE Pamplona",
       "category": "Noticias",
@@ -234,44 +215,6 @@
           "label": "m3u8",
           "url": "https://atres-live.ondacero.es/live/delegaciones/oc/pamplona/master.m3u8",
           "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-5-navarra",
-      "name": "Radio 5 Navarra",
-      "category": "Noticias",
-      "community": "Navarra",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne5_nav-live/3894787/",
-      "logoUrl": "https://pbs.twimg.com/profile_images/1405097207339028480/H7nP_7Ti_200x200.jpg",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://dispatcher.rndfnk.com/crtve/rne5/nav/mp3/high",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-nacional-navarra",
-      "name": "Radio Nacional Navarra",
-      "category": "Noticias",
-      "community": "Navarra",
-      "sourceSeed": "myTuner (solo semilla) + TDTChannels + contraste manual",
-      "websiteUrl": "https://www.rtve.es/play/audios/programa/rne_nav-live/3893551/",
-      "logoUrl": "https://graph.facebook.com/radionacionalrne/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://dispatcher.rndfnk.com/crtve/rne1/nav/mp3/high",
-          "format": "stream",
           "priority": 1,
           "source": "TDTChannels"
         }
