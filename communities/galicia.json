@@ -2,128 +2,13 @@
   "repoName": "radiostation-data",
   "community": "Galicia",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 22,
-  "playableCount": 22,
-  "verifiedCount": 22,
+  "seedCount": 20,
+  "playableCount": 20,
+  "verifiedCount": 20,
   "candidateCount": 0,
   "pendingCount": 0,
   "notes": "Selección pública, local, educativa y comunitaria.",
   "stations": [
-    {
-      "id": "cope-a-coruna",
-      "name": "COPE A Coruña",
-      "category": "Noticias",
-      "community": "Galicia",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.cope.es/directos/a-coruna",
-      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://wecast-bl02.flumotion.com/copesedes/lacoruna.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cope-ferrol",
-      "name": "COPE Ferrol",
-      "category": "Noticias",
-      "community": "Galicia",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.cope.es/directos/ferrol",
-      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://wecast-bl02.flumotion.com/copesedes/ferrol.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cope-lugo",
-      "name": "COPE Lugo",
-      "category": "Noticias",
-      "community": "Galicia",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.cope.es/directos/lugo",
-      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://wecast-bl02.flumotion.com/copesedes/lugo.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-galega",
-      "name": "Radio Galega",
-      "category": "Noticias",
-      "community": "Galicia",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://agalegaaudio.gal/videos/120144-radio-galega",
-      "logoUrl": "https://graph.facebook.com/aradiogalega/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://crtvg-radiogalega-hls.flumotion.cloud/playlist.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-galega-musica",
-      "name": "Radio Galega Música",
-      "category": "Música",
-      "community": "Galicia",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.agalegaaudio.gal/videos/81609-rgmusica",
-      "logoUrl": "https://graph.facebook.com/aradiogalega/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://crtvg-radiogalega-musica-hls.flumotion.cloud/playlist.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Variedad"
-    },
-    {
-      "id": "buena-fm",
-      "name": "+Buena FM",
-      "category": "Comunidad",
-      "community": "Galicia",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://masbuenafm.com",
-      "logoUrl": "https://graph.facebook.com/masbuenafm/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://sonic.mediatelekom.net/8156/stream",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
     {
       "id": "cuac-fm",
       "name": "Cuac FM",
@@ -138,158 +23,6 @@
           "label": "mp3",
           "url": "https://streaming.cuacfm.org/cuacfm-128k.mp3",
           "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "formula-fun",
-      "name": "Fórmula Fun",
-      "category": "Comunidad",
-      "community": "Galicia",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.formulafungalicia.es",
-      "logoUrl": "https://graph.facebook.com/FormulaFunGalicia/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://s30.myradiostream.com/:30464/listen.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "kyoto-fm",
-      "name": "Kyoto FM",
-      "category": "Comunidad",
-      "community": "Galicia",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.kyotofm.es",
-      "logoUrl": "https://graph.facebook.com/kyotofm/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://sonic.mediatelekom.net/8148/stream",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "metro-fm-ferrol",
-      "name": "Metro FM Ferrol",
-      "category": "Comunidad",
-      "community": "Galicia",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://metrofmferrol.com",
-      "logoUrl": "https://www.tvferrol.es/es/recursos/patrocinadores_2/MccbkxMU.png",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://mediastreamm.com/8216/;.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "net-galicia-radio",
-      "name": "Net Galicia Radio",
-      "category": "Comunidad",
-      "community": "Galicia",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.netgaliciaradio.es",
-      "logoUrl": "https://www.netgaliciaradio.es/wp-content/uploads/2022/09/logo.png",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://sonicpanel.streaming10.net/8140/stream",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-fene",
-      "name": "Radio Fene",
-      "category": "Comunidad",
-      "community": "Galicia",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.radiofusion.eu/emisora/radio-fene",
-      "logoUrl": "https://graph.facebook.com/Radiofene/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://srv7031.dns-lcinternet.com/8086/stream",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-lider",
-      "name": "Radio Líder",
-      "category": "Comunidad",
-      "community": "Galicia",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://radiolider.com/en-directo/",
-      "logoUrl": "https://graph.facebook.com/radiolidergalicia/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://server9.emitironline.com:8200/stream",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-negreira",
-      "name": "Radio Negreira",
-      "category": "Comunidad",
-      "community": "Galicia",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://concellodenegreira.gal",
-      "logoUrl": "https://yt3.googleusercontent.com/ytc/APkrFKYmoi9DDHfPuxKJenC5c3CM9hfoksrZljpcsJGK5Q=s200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://srv7031.dns-lcinternet.com/8030/stream",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "verbena-fm",
-      "name": "Verbena FM",
-      "category": "Comunidad",
-      "community": "Galicia",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://verbenafm.com",
-      "logoUrl": "https://pbs.twimg.com/profile_images/1463159511133442059/uVV15n4k_200x200.jpg",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://streaming12.elitecomunicacion.es:8222/stream",
-          "format": "stream",
           "priority": 1,
           "source": "TDTChannels"
         }
@@ -315,30 +48,11 @@
       ]
     },
     {
-      "id": "radio-picarina",
-      "name": "Radio Picariña",
-      "category": "Educación",
-      "community": "Galicia",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.agalegaaudio.gal/videos/117823-radio-picarina",
-      "logoUrl": "https://graph.facebook.com/aradiogalega/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://crtvg-picarina-schlive.flumotion.cloud/crtvglive/smil:channel11PRG.smil/playlist.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
       "id": "radio-marca-coruna",
       "name": "Radio Marca Coruña",
       "category": "Deporte",
       "community": "Galicia",
-      "sourceSeed": "TDTChannels + webs oficiales",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
       "websiteUrl": "https://www.marca.com/radio.html",
       "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
       "verificationStatus": "verified",
@@ -357,7 +71,7 @@
       "name": "Radio Marca Vigo",
       "category": "Deporte",
       "community": "Galicia",
-      "sourceSeed": "TDTChannels + webs oficiales",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
       "websiteUrl": "https://www.marca.com/radio.html",
       "logoUrl": "https://graph.facebook.com/RadioMARCA/picture?width=200&height=200",
       "verificationStatus": "verified",
@@ -366,6 +80,25 @@
           "label": "mp3",
           "url": "https://streaming.enacast.com/radiomarcavigoHD.mp3",
           "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-picarina",
+      "name": "Radio Picariña",
+      "category": "Educación",
+      "community": "Galicia",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.agalegaaudio.gal/videos/117823-radio-picarina",
+      "logoUrl": "https://graph.facebook.com/aradiogalega/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://crtvg-picarina-schlive.flumotion.cloud/crtvglive/smil:channel11PRG.smil/playlist.m3u8",
+          "format": "m3u8",
           "priority": 1,
           "source": "TDTChannels"
         }
@@ -423,6 +156,235 @@
           "label": "stream",
           "url": "https://srv7031.dns-lcinternet.com/8032/stream",
           "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "radio-galega-musica",
+      "name": "Radio Galega Música",
+      "category": "Música",
+      "community": "Galicia",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.agalegaaudio.gal/videos/81609-rgmusica",
+      "logoUrl": "https://graph.facebook.com/aradiogalega/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://crtvg-radiogalega-musica-hls.flumotion.cloud/playlist.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Variedad"
+    },
+    {
+      "id": "radio-galega",
+      "name": "Radio Galega",
+      "category": "Noticias",
+      "community": "Galicia",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://agalegaaudio.gal/videos/120144-radio-galega",
+      "logoUrl": "https://graph.facebook.com/aradiogalega/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://crtvg-radiogalega-hls.flumotion.cloud/playlist.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-arosa",
+      "name": "SER Arosa",
+      "category": "Noticias",
+      "community": "Galicia",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_AROSA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-baixo-mino",
+      "name": "SER Baixo Miño",
+      "category": "Noticias",
+      "community": "Galicia",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_BAIXOMINO.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-coruna",
+      "name": "SER Coruña",
+      "category": "Noticias",
+      "community": "Galicia",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_CORUNA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-ferrol",
+      "name": "SER Ferrol",
+      "category": "Noticias",
+      "community": "Galicia",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_FERROL.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-galicia",
+      "name": "SER Galicia",
+      "category": "Noticias",
+      "community": "Galicia",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_GALICIA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-lugo",
+      "name": "SER Lugo",
+      "category": "Noticias",
+      "community": "Galicia",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "aac",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_LUGO.aac",
+          "format": "aac",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-nordes",
+      "name": "SER Nordés",
+      "category": "Noticias",
+      "community": "Galicia",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_NORDES.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-ourense",
+      "name": "SER Ourense",
+      "category": "Noticias",
+      "community": "Galicia",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_OURENSE.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-pontevedra",
+      "name": "SER Pontevedra",
+      "category": "Noticias",
+      "community": "Galicia",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_PONTEVEDRA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-vigo",
+      "name": "SER Vigo",
+      "category": "Noticias",
+      "community": "Galicia",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_VIGO.mp3",
+          "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
         }

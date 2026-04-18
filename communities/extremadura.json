@@ -10,235 +10,6 @@
   "notes": "Selección autonómica y local, sin cadenas nacionales generalistas.",
   "stations": [
     {
-      "id": "canal-extremadura-radio",
-      "name": "Canal Extremadura Radio",
-      "category": "Noticias",
-      "community": "Extremadura",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.canalextremadura.app/videos/182647-canal-radio-24h",
-      "logoUrl": "https://graph.facebook.com/CanalExtremadura/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://canalextremadura-audio.flumotion.cloud/canalextremaduralive/smil:channel1.smil/playlist.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cope-badajoz",
-      "name": "COPE Badajoz",
-      "category": "Noticias",
-      "community": "Extremadura",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.cope.es/directos/badajoz",
-      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://wecast-bl02.flumotion.com/copesedes/badajoz.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cope-caceres",
-      "name": "COPE Cáceres",
-      "category": "Noticias",
-      "community": "Extremadura",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.cope.es/directos/caceres",
-      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://wecast-bl02.flumotion.com/copesedes/caceres.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cope-merida",
-      "name": "COPE Mérida",
-      "category": "Noticias",
-      "community": "Extremadura",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.cope.es/directos/merida",
-      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://wecast-bl02.flumotion.com/copesedes/merida.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "onda-cero-badajoz",
-      "name": "Onda Cero Badajoz",
-      "category": "Noticias",
-      "community": "Extremadura",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.ondacero.es/emisoras/extremadura/badajoz//directo/",
-      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/badajoz/master.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "onda-cero-caceres",
-      "name": "Onda Cero Cáceres",
-      "category": "Noticias",
-      "community": "Extremadura",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.ondacero.es/emisoras/extremadura/caceres/directo/",
-      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/caceres/master.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "onda-cero-merida",
-      "name": "Onda Cero Mérida",
-      "category": "Noticias",
-      "community": "Extremadura",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.ondacero.es/emisoras/extremadura/merida/directo/",
-      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/merida/master.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ser-caceres",
-      "name": "SER Cáceres",
-      "category": "Noticias",
-      "community": "Extremadura",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://cadenaser.com/ser-caceres/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_CACERES.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ser-extremadura",
-      "name": "SER Extremadura",
-      "category": "Noticias",
-      "community": "Extremadura",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://play.cadenaser.com/emisora/radio_extremadura/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_EXTREMADURA.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ser-merida",
-      "name": "SER Mérida",
-      "category": "Noticias",
-      "community": "Extremadura",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://cadenaser.com/ser-merida/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_MERIDA.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "ser-norte-de-extremadura",
-      "name": "SER Norte de Extremadura",
-      "category": "Noticias",
-      "community": "Extremadura",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://cadenaser.com/ser-norte-de-extremadura/",
-      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_NORTE_EXTREMADURA.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "lola-fm",
-      "name": "Lola FM",
-      "category": "Música",
-      "community": "Extremadura",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.lolafm.es",
-      "logoUrl": "https://graph.facebook.com/LolaFMRadio/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://srv7031.dns-lcinternet.com/8096/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Pop"
-    },
-    {
       "id": "radiogolex",
       "name": "Radiogolex",
       "category": "Comunidad",
@@ -290,6 +61,235 @@
           "label": "stream",
           "url": "https://srv7031.dns-lcinternet.com/8044/stream",
           "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "lola-fm",
+      "name": "Lola FM",
+      "category": "Música",
+      "community": "Extremadura",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.lolafm.es",
+      "logoUrl": "https://graph.facebook.com/LolaFMRadio/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://srv7031.dns-lcinternet.com/8096/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Pop"
+    },
+    {
+      "id": "canal-extremadura-radio",
+      "name": "Canal Extremadura Radio",
+      "category": "Noticias",
+      "community": "Extremadura",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.canalextremadura.app/videos/182647-canal-radio-24h",
+      "logoUrl": "https://graph.facebook.com/CanalExtremadura/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://canalextremadura-audio.flumotion.cloud/canalextremaduralive/smil:channel1.smil/playlist.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "cope-badajoz",
+      "name": "COPE Badajoz",
+      "category": "Noticias",
+      "community": "Extremadura",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.cope.es/",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/badajoz.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "cope-caceres",
+      "name": "COPE Cáceres",
+      "category": "Noticias",
+      "community": "Extremadura",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.cope.es/",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/caceres.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "cope-merida",
+      "name": "COPE Mérida",
+      "category": "Noticias",
+      "community": "Extremadura",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.cope.es/",
+      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://wecast-bl02.flumotion.com/copesedes/merida.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "onda-cero-badajoz",
+      "name": "Onda Cero Badajoz",
+      "category": "Noticias",
+      "community": "Extremadura",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.ondacero.es/",
+      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/badajoz/master.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-caceres",
+      "name": "SER Cáceres",
+      "category": "Noticias",
+      "community": "Extremadura",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_CACERES.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-extremadura",
+      "name": "SER Extremadura",
+      "category": "Noticias",
+      "community": "Extremadura",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_EXTREMADURA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-merida",
+      "name": "SER Mérida",
+      "category": "Noticias",
+      "community": "Extremadura",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_MERIDA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-norte-de-extremadura",
+      "name": "SER Norte de Extremadura",
+      "category": "Noticias",
+      "community": "Extremadura",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_NORTEDEEXTREMADURA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-tierra-de-barros",
+      "name": "SER Tierra de Barros",
+      "category": "Noticias",
+      "community": "Extremadura",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_TIERRADEBARROS.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-vegas-altas",
+      "name": "SER Vegas Altas",
+      "category": "Noticias",
+      "community": "Extremadura",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_VEGASALTAS.mp3",
+          "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
         }

@@ -2,262 +2,13 @@
   "repoName": "radiostation-data",
   "community": "Castilla-La Mancha",
   "seedSource": "myTuner (solo semilla) + TDTChannels + webs oficiales",
-  "seedCount": 24,
-  "playableCount": 24,
-  "verifiedCount": 24,
+  "seedCount": 20,
+  "playableCount": 20,
+  "verifiedCount": 20,
   "candidateCount": 0,
   "pendingCount": 0,
   "notes": "Selección local, comunitaria y pública regional.",
   "stations": [
-    {
-      "id": "cmm-radio",
-      "name": "CMM Radio",
-      "category": "Noticias",
-      "community": "Castilla-La Mancha",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.cmmedia.es/play/en-directo/radio",
-      "logoUrl": "https://graph.facebook.com/CMMediaes/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_qilzwlkz/format/applehttp/.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cope-albacete",
-      "name": "COPE Albacete",
-      "category": "Noticias",
-      "community": "Castilla-La Mancha",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.cope.es/directos/albacete",
-      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://wecast-bl02.flumotion.com/copesedes/albacete.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cope-ciudad-real",
-      "name": "COPE Ciudad Real",
-      "category": "Noticias",
-      "community": "Castilla-La Mancha",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.cope.es/directos/ciudad-real",
-      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://wecast-bl02.flumotion.com/copesedes/ciudadreal.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cope-cuenca",
-      "name": "COPE Cuenca",
-      "category": "Noticias",
-      "community": "Castilla-La Mancha",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.cope.es/directos/cuenca",
-      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://wecast-bl02.flumotion.com/copesedes/cuenca.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cope-guadalajara",
-      "name": "COPE Guadalajara",
-      "category": "Noticias",
-      "community": "Castilla-La Mancha",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.cope.es/directos/guadalajara",
-      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://wecast-bl02.flumotion.com/copesedes/guadalajara.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "cope-toledo",
-      "name": "COPE Toledo",
-      "category": "Noticias",
-      "community": "Castilla-La Mancha",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.cope.es/directos/toledo",
-      "logoUrl": "https://graph.facebook.com/COPE/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://wecast-bl02.flumotion.com/copesedes/toledo.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "onda-cero-albacete",
-      "name": "Onda Cero Albacete",
-      "category": "Noticias",
-      "community": "Castilla-La Mancha",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.ondacero.es/emisoras/castilla-la-mancha/albacete/directo/",
-      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/albacete/master.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "onda-cero-alcazar-de-san-juan",
-      "name": "Onda Cero Alcázar de San Juan",
-      "category": "Noticias",
-      "community": "Castilla-La Mancha",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.ondacero.es/emisoras/castilla-la-mancha/alcazar-de-san-juan/directo/",
-      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/alcazar/master.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "onda-cero-ciudad-real",
-      "name": "Onda Cero Ciudad Real",
-      "category": "Noticias",
-      "community": "Castilla-La Mancha",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.ondacero.es/emisoras/castilla-la-mancha/ciudad-real/directo/",
-      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/ciudadreal/master.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "onda-cero-cuenca",
-      "name": "Onda Cero Cuenca",
-      "category": "Noticias",
-      "community": "Castilla-La Mancha",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.ondacero.es/emisoras/castilla-la-mancha/cuenca/directo/",
-      "logoUrl": "https://graph.facebook.com/ondacero/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "m3u8",
-          "url": "https://atres-live.ondacero.es/live/delegaciones/oc/cuenca/master.m3u8",
-          "format": "m3u8",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "la-unica-fm",
-      "name": "La Única FM",
-      "category": "Música",
-      "community": "Castilla-La Mancha",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.launicafm.com",
-      "logoUrl": "https://graph.facebook.com/182268477588/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://stream.radiofutura.es:8010/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Latina"
-    },
-    {
-      "id": "locactiva-radio",
-      "name": "Locactiva Radio",
-      "category": "Música",
-      "community": "Castilla-La Mancha",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.locactivaradio.es",
-      "logoUrl": "https://graph.facebook.com/LOCACTIVARADIO/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://pr1cen101.emisionlocal.com/proxy/locactivaradio?mp=/stream",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-arrebato",
-      "name": "Radio Arrebato",
-      "category": "Música",
-      "community": "Castilla-La Mancha",
-      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.radioarrebato.net",
-      "logoUrl": "https://graph.facebook.com/radioarrebato107.4/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "http://srv0510.emisorasonline.com:8025/stream",
-          "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ],
-      "musicType": "Alternativa"
-    },
     {
       "id": "onda-poligono-toledo",
       "name": "Onda Polígono Toledo",
@@ -278,44 +29,6 @@
       ]
     },
     {
-      "id": "one-fm",
-      "name": "ONE FM",
-      "category": "Comunidad",
-      "community": "Castilla-La Mancha",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://onefm.es",
-      "logoUrl": "https://graph.facebook.com/OneFM.es/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://stream.onefm.es:8000/onefm.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "pedro-munoz-fm",
-      "name": "Pedro Muñoz FM",
-      "category": "Comunidad",
-      "community": "Castilla-La Mancha",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.pedromunozfm.com/nuevaweb/",
-      "logoUrl": "https://graph.facebook.com/pedromunozfm/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://radio.pedromunozfm.com:8443/endirecto.mp3",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
       "id": "radio-kolor",
       "name": "Radio Kolor",
       "category": "Comunidad",
@@ -329,82 +42,6 @@
           "label": "stream",
           "url": "https://stream20.usastreams.com/8122/stream",
           "format": "auto",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "radio-serrania",
-      "name": "Radio Serranía",
-      "category": "Comunidad",
-      "community": "Castilla-La Mancha",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://www.radioserrania.es",
-      "logoUrl": "https://play-lh.googleusercontent.com/4QQwgiAxHgttu-Cnz2zlypFKnvevz1v30xYi0qaAzzAhwZnfZ8UszPapSCarQeCEIg=s200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "mp3",
-          "url": "https://stream.zeno.fm/suyydyfgwf9uv",
-          "format": "mp3",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "rm-la-manchuela",
-      "name": "RM La Manchuela",
-      "category": "Comunidad",
-      "community": "Castilla-La Mancha",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://rmradio.es/radios/",
-      "logoUrl": "https://pbs.twimg.com/profile_images/1227224148079980544/kkxXv9jL_200x200.jpg",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://cast2.rmradio.es:8053/campillo",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "rm-quintanar-del-rey",
-      "name": "RM Quintanar del Rey",
-      "category": "Comunidad",
-      "community": "Castilla-La Mancha",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://rmradio.es/radios/",
-      "logoUrl": "https://pbs.twimg.com/profile_images/1227224148079980544/kkxXv9jL_200x200.jpg",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://cast2.rmradio.es:8053/albacete",
-          "format": "stream",
-          "priority": 1,
-          "source": "TDTChannels"
-        }
-      ]
-    },
-    {
-      "id": "surco-manzanares",
-      "name": "Surco Manzanares",
-      "category": "Comunidad",
-      "community": "Castilla-La Mancha",
-      "sourceSeed": "TDTChannels + webs oficiales",
-      "websiteUrl": "https://radiosurco.es/player/",
-      "logoUrl": "https://graph.facebook.com/radiosurco/picture?width=200&height=200",
-      "verificationStatus": "verified",
-      "streams": [
-        {
-          "label": "stream",
-          "url": "https://node-31.zeno.fm/v9k530trzwzuv",
-          "format": "stream",
           "priority": 1,
           "source": "TDTChannels"
         }
@@ -462,6 +99,293 @@
           "label": "stream",
           "url": "https://node-19.zeno.fm/52vdh1y07qzuv",
           "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "la-unica-fm",
+      "name": "La Única FM",
+      "category": "Música",
+      "community": "Castilla-La Mancha",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.launicafm.com",
+      "logoUrl": "https://graph.facebook.com/182268477588/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "https://stream.radiofutura.es:8010/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Latina"
+    },
+    {
+      "id": "radio-arrebato",
+      "name": "Radio Arrebato",
+      "category": "Música",
+      "community": "Castilla-La Mancha",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.radioarrebato.net",
+      "logoUrl": "https://graph.facebook.com/radioarrebato107.4/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "stream",
+          "url": "http://srv0510.emisorasonline.com:8025/stream",
+          "format": "auto",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ],
+      "musicType": "Alternativa"
+    },
+    {
+      "id": "cmm-radio",
+      "name": "CMM Radio",
+      "category": "Noticias",
+      "community": "Castilla-La Mancha",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://www.cmmedia.es/play/en-directo/radio",
+      "logoUrl": "https://graph.facebook.com/CMMediaes/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "m3u8",
+          "url": "https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_qilzwlkz/format/applehttp/.m3u8",
+          "format": "m3u8",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-90-motilla",
+      "name": "SER 90 Motilla",
+      "category": "Noticias",
+      "community": "Castilla-La Mancha",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_90MOTILLA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-albacete",
+      "name": "SER Albacete",
+      "category": "Noticias",
+      "community": "Castilla-La Mancha",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ALBACETE.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-alcazar",
+      "name": "SER Alcázar",
+      "category": "Noticias",
+      "community": "Castilla-La Mancha",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ALCAZAR.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-azul",
+      "name": "SER Azul",
+      "category": "Noticias",
+      "community": "Castilla-La Mancha",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_AZUL.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-ciudad-real",
+      "name": "SER Ciudad Real",
+      "category": "Noticias",
+      "community": "Castilla-La Mancha",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_CIUDADREAL.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-cuenca",
+      "name": "SER Cuenca",
+      "category": "Noticias",
+      "community": "Castilla-La Mancha",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_CUENCA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-guadalajara",
+      "name": "SER Guadalajara",
+      "category": "Noticias",
+      "community": "Castilla-La Mancha",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_GUADALAJARA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-puertollano",
+      "name": "SER Puertollano",
+      "category": "Noticias",
+      "community": "Castilla-La Mancha",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_PUERTOLLANO.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-talavera",
+      "name": "SER Talavera",
+      "category": "Noticias",
+      "community": "Castilla-La Mancha",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_TALAVERA.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-tarancon",
+      "name": "SER Tarancón",
+      "category": "Noticias",
+      "community": "Castilla-La Mancha",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_TARANCON.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-toledo",
+      "name": "SER Toledo",
+      "category": "Noticias",
+      "community": "Castilla-La Mancha",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_TOLEDO.mp3",
+          "format": "mp3",
+          "priority": 1,
+          "source": "TDTChannels"
+        }
+      ]
+    },
+    {
+      "id": "ser-valdepenas",
+      "name": "SER Valdepeñas",
+      "category": "Noticias",
+      "community": "Castilla-La Mancha",
+      "sourceSeed": "myTuner seed + TDTChannels + webs oficiales",
+      "websiteUrl": "https://cadenaser.com/",
+      "logoUrl": "https://graph.facebook.com/cadenaser/picture?width=200&height=200",
+      "verificationStatus": "verified",
+      "streams": [
+        {
+          "label": "mp3",
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_VALDEPENAS.mp3",
+          "format": "mp3",
           "priority": 1,
           "source": "TDTChannels"
         }
